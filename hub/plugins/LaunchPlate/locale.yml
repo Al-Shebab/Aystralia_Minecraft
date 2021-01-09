@@ -1,0 +1,15 @@
+#YAML language configuration file for LaunchPlate
+#Link: http://goo.gl/EqS0pH
+#For documentation about this file, visit http://goo.gl/Ann2tk
+#=============================================================
+
+locale-name: enUS
+prefix: '[&bLaunchPlate&f] '
+plugin-reloaded: '&bLaunchPlates &ahas been successfully reloaded!'
+invalid-arguments: '&cInvalid arguments! Type &b/lp &cfor a list of commands.'
+no-permission-to-create: '&cYou have no permission to create a launch-plate!'
+successful-create: '&aYou have successfully created a LaunchPlate at &e%location%&a!'
+successful-remove: '&aYou have successfully removed the &bLaunchPlate &acreated at &e%location% &aby &e%player-name%&a.'
+disabled-in-world: "&cSorry, you can't place launch-plates in this world!"
+command-deny-message: Unknown command. Type "/help" for help.
+in-world: 'in world'
