@@ -4,7 +4,7 @@
 # Edit kits ingame with /cmi kiteditor to avoid formating issues
 # Commands support specialized command format
 Newbie:
-  CommandName: Newbie
+  CommandName: Starter
   Description:
   - '&eWill give you some stuff for money and exp'
   - '&eCan be used every X minutes'
@@ -14,12 +14,12 @@ Newbie:
   Group: 'groupName'
   Items:      
     '1':
-      type: STONE
-      amount: 70
+      type: WoodSword
+      amount: 1
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §3Stone
+        display-name: §3Starter Sword
         lore:
         - §2Name §3{USERNAME}
         - §3Display name §2{DISPLAYNAME}
@@ -32,7 +32,7 @@ Newbie:
       type: WOOD
       amount: 30
   Commands:
-  - 'asConsole! msg! [playerName] &eYou just got &6{KITNAME} &ekit!'
+  - 'asConsole! msg! [playerName] &eYou Redeemed&6{KITNAME} &ekit!'
   Conditions:
   - cmi.kit.get
   - cmi.command.fly
