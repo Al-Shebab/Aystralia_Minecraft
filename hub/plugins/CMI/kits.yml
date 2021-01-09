@@ -34,8 +34,7 @@ Newbie:
   Commands:
   - 'asConsole! msg! [playerName] &eYou Redeemed&6{KITNAME} &ekit!'
   Conditions:
-  - cmi.kit.get
-  - cmi.command.fly
+  - /kit.get
 Advanced:
   Delay: 36000
   Items:
