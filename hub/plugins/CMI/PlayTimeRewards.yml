@@ -1,6 +1,6 @@
 hourly1:
   DisplayName: "&7Hourly reward"
-  AutoClaim: true
+  AutoClaim: false
   Description:
   - "&2Get reward for every hour you are online"
   - "&2Free heal and 20 bucks into your pocket"
@@ -10,7 +10,7 @@ hourly1:
   - asConsole! cmi money give [playerName] 20
 daily1:
   DisplayName: "&7Daily reward"
-  AutoClaim: true
+  AutoClaim: false
   Description:
   - "&2Get reward for every 24 hours of playtime"
   - "&22000 bucks into your pocket!"
