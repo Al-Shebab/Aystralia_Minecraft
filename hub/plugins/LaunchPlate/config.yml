@@ -1,0 +1,58 @@
+#YAML configuration file for LaunchPlate
+#Link: http://goo.gl/EqS0pH
+#For documentation about this file, visit http://goo.gl/GQ2oGm
+#=============================================================
+
+#=======#
+#MESSAGE#
+#=======#
+notify: false
+message: '&aWhooosh!'
+
+#=====#
+#SPEED#
+#=====#
+speed-multiply: 4.0
+speed-up: 1.0
+
+#====#
+#MISC#
+#====#
+disable-fall-dmg: false
+use-help-command: true
+use-metrics: true
+notify-no-permission: true
+allow-place-if-disabled: false
+worlds-disabled:
+  - some-world
+
+#==================#
+#BLOCK AND PLATE ID#
+#==================#
+block: 152
+plate: 70
+
+#==================#
+#EFFECTS AND SOUNDS#
+#==================#
+enable-multiple-effects: true
+enable-multiple-sounds: true
+effects:
+  ENDER_SIGNAL:
+    radius: 2
+sounds:
+  BAT_TAKEOFF:
+    volume: 1.0
+  FIZZ:
+    volume: 0.5
+
+#=========#
+#DATABASES#
+#=========#
+engine: SQLite
+sqlite-file-name: 'database.db'
+mysql-password: 'YourMysqlPassword'
+mysql-port: 3306
+mysql-user: root
+mysql-database-name: 'LaunchPlate'
+mysql-hostname: localhost
