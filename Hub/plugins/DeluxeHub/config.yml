@@ -122,8 +122,8 @@ tablist:
   # Modify the footer of the tablist
   footer:
     - ""
-    - "&6&lWebsite &fwww.examplemc.net"
-    - "&e&lStore &fbuy.examplemc.net"
+    - "&6&lWebsite &fComing Soon"
+    - "&e&lStore https://aystralia-network-garrys-mo.tebex.io&f"
     - ""
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
