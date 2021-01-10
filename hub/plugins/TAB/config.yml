@@ -110,8 +110,8 @@ Groups:
       
   #default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
   _OTHER_:
-    tabprefix: "%cmi_user_prefix%"
-    tagprefix: "%cmi_user_prefix%"
+    tabprefix: "%luckperms_prefix%"
+    tagprefix: "%luckperms_prefix%"
     tabsuffix: "%cmi_user_suffix%"
     tagsuffix: "%cmi_user_suffix%"
     customtabname: "%cmi_user_name%"
