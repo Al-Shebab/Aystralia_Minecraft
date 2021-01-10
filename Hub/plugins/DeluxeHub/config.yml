@@ -106,7 +106,7 @@ scoreboard:
 
 tablist:
   # Should the tablist feature be enabled?
-  enabled: true
+  enabled: false
 
   # Should we refresh the tablist (update placeholders)?
   refresh:
