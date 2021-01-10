@@ -1,2 +1,2 @@
-java -Xmx8G -jar waterfall.jar --nogui
+java -Xmx2G -jar waterfall.jar --nogui
 pause
