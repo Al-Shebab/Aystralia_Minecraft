@@ -90,7 +90,7 @@ scoreboard:
     enabled: true
     rate: 200 # In ticks (20 ticks = 1 second)
 
-  title: "&d&lDeluxeHub 3 &7(%online%/%online_max%)"
+  title: "&d&laystralia Network &7(%online%/%online_max%)"
   lines:
     - "&7&m----------------------"
     - "&e&lPlayer:"
@@ -116,7 +116,7 @@ tablist:
   # Modify the header of the tablist
   header:
     - ""
-    - "&d&lDeluxeHub &7(%online%/%online_max%)"
+    - "&d&l aystralia Network&7(%online%/%online_max%)"
     - ""
 
   # Modify the footer of the tablist
@@ -135,7 +135,7 @@ announcements:
   enabled: true
 
   # Delay to send announcements (in seconds)
-  delay: 60
+  delay: 90
 
   # How many players should be required to send announcements?
   required_players: 1
@@ -151,17 +151,17 @@ announcements:
     test1:
       - "&r"
       - "<center>&e&lANNOUNCEMENT</center>"
-      - "<center>&7Rate this plugin 5 stars on Spigot!</center>"
+      - "<center>&7 Make sure to join the discord for Rewards </center>"
       - "&r"
     test2:
       - "&r"
       - "<center>&e&lANNOUNCEMENT</center>"
-      - "<center>&7This plugin was created by &eItsLewizzz</center>"
+      - "<center>&7 If you buy a rank you will get kits on all of our servers </center>"
       - "&r"
     test3:
       - "&r"
       - "<center>&e&lANNOUNCEMENT</center>"
-      - "<center>&7Configure these messages in the &bconfig.yml</center>"
+      - "<center>&7 Make sure to vote for us with /vote for rewards and more </center>"
       - "&r"
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
@@ -193,11 +193,11 @@ double_jump:
   enabled: true
 
   # Launch power for double jump (max 4.0)
-  launch_power: 1.0
-  launch_power_y: 0.9
+  launch_power: 2.0
+  launch_power_y: 1.9
 
   # Cooldown time in seconds (0 to disable)
-  cooldown: 3
+  cooldown: 1.5
 
   # Actions executed upon use of double jump
   actions:
