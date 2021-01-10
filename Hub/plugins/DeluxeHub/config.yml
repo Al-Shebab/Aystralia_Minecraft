@@ -227,7 +227,7 @@ command_block:
 
 anti_swear:
   # Should the anti-swear feature be enabled?
-  enabled: true
+  enabled: false
 
   # List of words that will be blocked
   blocked_words:
@@ -373,7 +373,7 @@ player_hider:
   disable_inventory_movement: true
   # Cooldown in seconds
   # Set to 0 to disable
-  cooldown: 3
+  cooldown: 0
 
   not_hidden:
     material: LIME_DYE
