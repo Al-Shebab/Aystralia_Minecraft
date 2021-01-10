@@ -90,7 +90,7 @@ scoreboard:
     enabled: true
     rate: 200 # In ticks (20 ticks = 1 second)
 
-  title: "&d&laystralia Network &7(%online%/%online_max%)"
+  title: "&d&l Aystralia Network &7(%online%/%online_max%)"
   lines:
     - "&7&m----------------------"
     - "&e&lPlayer:"
