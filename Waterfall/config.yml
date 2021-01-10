@@ -1,3 +1,4 @@
+prevent_proxy_connections: false
 listeners:
 - query_port: 25575
   motd: '&l&bAystralia Network &f| &aSurvival &f| &9Skyblock &f| &7Prison &f| &eCreative'
@@ -8,10 +9,10 @@ listeners:
     pvp.md-5.net: pvp
   ping_passthrough: false
   priorities:
-  - hub
+  - Hub
   bind_local_address: true
-  host: 139.99.208.69:25565
-  max_players: 1000
+  host: 0.0.0.0:25565
+  max_players: 1
   tab_size: 60
   force_default_server: false
 remote_ping_cache: -1
@@ -21,8 +22,6 @@ permissions:
   - bungeecord.command.server
   - bungeecord.command.list
   admin:
-  - bungeecord.command.server
-  - bungeecord.command.list
   - bungeecord.command.alert
   - bungeecord.command.end
   - bungeecord.command.ip
@@ -31,16 +30,15 @@ log_pings: true
 connection_throttle_limit: 3
 server_connect_timeout: 5000
 timeout: 30000
-stats: cb5a3ba7-6bb2-4fab-a9bc-3fa32b297736
 player_limit: -1
 ip_forward: true
 groups:
-  Al_Shebab:
+  md_5:
   - admin
 remote_ping_timeout: 5000
 connection_throttle: 4000
 log_commands: false
-prevent_proxy_connections: false
+stats: 6dfe1e6d-a0bd-4090-a0d2-9ee08dc40f82
 online_mode: true
 forge_support: true
 disabled_commands:

@@ -27,7 +27,7 @@ npc:
       owner:
         owner: AimJunkiesFeeyne
         uuid: 5e9388ba-0573-444c-a761-b6d9174042af
-    traitnames: owner,skintrait,location,spawned,mounttrait,inventory,scoreboardtrait,type,equipment
+    traitnames: inventory,skintrait,type,equipment,spawned,mounttrait,location,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
