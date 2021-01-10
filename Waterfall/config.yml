@@ -12,7 +12,7 @@ listeners:
   - Hub
   bind_local_address: true
   host: 0.0.0.0:25565
-  max_players: 1
+  max_players: 999
   tab_size: 60
   force_default_server: false
 remote_ping_cache: -1
@@ -33,7 +33,7 @@ timeout: 30000
 player_limit: -1
 ip_forward: true
 groups:
-  md_5:
+  Al_Shebab:
   - admin
 remote_ping_timeout: 5000
 connection_throttle: 4000
