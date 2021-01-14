@@ -21,5 +21,6 @@ Cant Drop: '&cYou can not drop crate keys sorry'
 Chance Message: '&d%percentage%% Chance'
 Inventory Full Claim: '&aYour inventory is full, you can claim your keys later using
   /crate'
-Claim Join: '&aYou currently have keys waiting to be claimed, use /crate to claim and get sick rewards'
+Claim Join: '&aYou currently have keys waiting to be claimed, use /crate to claim
+  and get sick rewards'
 Possible Wins Title: 'Possible Wins:'
