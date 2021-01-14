@@ -64,7 +64,7 @@ items:
       # For multi-world servers using Multiverse-Core, use the action:
       # - '[CONSOLE] mvtp %player% world'
   SkyBlock:
-    material: GRASS_BLOCK
+    material: chest
     slot: 15
     amount: 1
     glow: false
@@ -75,4 +75,29 @@ items:
     actions:
       - '[CLOSE]'
       - '[MESSAGE] &7Sending you to: &eSkyBlock'
-      - '[BUNGEE] Skyblock'
+      - '[BUNGEE] Skyblock'    
+  Survival:
+    material: GRASS_BLOCK
+    slot: 13
+    amount: 1
+    glow: true
+    display_name: '&eSurvival'
+    lore:
+      - '&7Survival of the fittest!'
+      - '&abuy ranks for crate!'
+    actions:
+      - '[CLOSE]'
+      - '[MESSAGE] &7Sending you to: &eSurvival'
+      - '[BUNGEE] survival'
+    material: Diamond_Pickaxe
+    slot: 11
+    amount: 1
+    glow: true
+    display_name: '&ePrison'
+    lore:
+      - '&7can you get to mine z?'
+      - '&abuy ranks for crate!'
+    actions:
+      - '[CLOSE]'
+      - '[MESSAGE] &7Sending you to: &ePrison'
+      - '[BUNGEE] Prison'
