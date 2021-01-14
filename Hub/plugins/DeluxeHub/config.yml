@@ -295,12 +295,12 @@ join_events:
   - "[MESSAGE] &r  &3&lSTORE &fhttps://aystralia-network-garrys-mo.tebex.io"
   - "[MESSAGE] &r  &9&lDISCORD &fhttps://discord.gg/hWN7zXtbQP"
   - "[MESSAGE] &r"
-  - "[MESSAGE] &r            &7&oPowered By DeluxeHub"
+  - "[MESSAGE] &r   &7&oPowered By Aystralia Network"
   - "[MESSAGE] &8&m+---------------***---------------+"
   - "[TITLE] &b&lWELCOME;&f%player%;1;2;1"
   - "[SOUND] ENTITY_PLAYER_LEVELUP"
   - "[GAMEMODE] survival"
-  - "[EFFECT] SPEED;3"
+  - "[EFFECT] SPEED;2"
 
 join_settings:
   # Should we teleport the player to the spawn point (if set) on join?
