@@ -16,8 +16,8 @@ Crate No Permission: '&cYou do not have the correct permission to use this crate
 Crate Open Without Key: '&cYou must be holding a %crate% &ckey to open this crate'
 Key Given: '&aYou have been given a %crate% &acrate key'
 Broadcast: '&d%displayname% &dopened a %crate% &dcrate'
-Cant Place: '&cYou can not place crate keys'
-Cant Drop: '&cYou can not drop crate keys'
+Cant Place: '&cYou can not place crate keys sorry'
+Cant Drop: '&cYou can not drop crate keys sorry'
 Chance Message: '&d%percentage%% Chance'
 Inventory Full Claim: '&aYour inventory is full, you can claim your keys later using
   /crate'
