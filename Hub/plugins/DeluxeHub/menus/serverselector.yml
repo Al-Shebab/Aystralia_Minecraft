@@ -56,7 +56,7 @@ items:
     display_name: '&ePrison'
     lore:
       - '&7can you get to mine z?'
-      - '&abuy ranks for crate!'
+      - '&aBuy ranks or vote for crate!'
     actions:
       - '[CLOSE]'
       - '[MESSAGE] &7Sending you to: &ePrison'
@@ -71,33 +71,21 @@ items:
     display_name: '&aSkyBlock'
     lore:
       - '&7Join out SkyBlock!'
-      - '&abuy ranks for crate!'
+      - '&aBuy ranks or vote for crate!'
     actions:
       - '[CLOSE]'
       - '[MESSAGE] &7Sending you to: &eSkyBlock'
       - '[BUNGEE] Skyblock'    
-  Survival:
-    material: GRASS_BLOCK
+ Survival:
+    material: grass_block
     slot: 13
     amount: 1
-    glow: true
-    display_name: '&eSurvival'
+    glow: false
+    display_name: '&aSurvival'
     lore:
       - '&7Survival of the fittest!'
-      - '&abuy ranks for crate!'
+      - '&aBuy ranks or vote for crate!'
     actions:
       - '[CLOSE]'
       - '[MESSAGE] &7Sending you to: &eSurvival'
-      - '[BUNGEE] survival'
-    material: Diamond_Pickaxe
-    slot: 11
-    amount: 1
-    glow: true
-    display_name: '&ePrison'
-    lore:
-      - '&7can you get to mine z?'
-      - '&abuy ranks for crate!'
-    actions:
-      - '[CLOSE]'
-      - '[MESSAGE] &7Sending you to: &ePrison'
-      - '[BUNGEE] Prison'
+      - '[BUNGEE] Survival
