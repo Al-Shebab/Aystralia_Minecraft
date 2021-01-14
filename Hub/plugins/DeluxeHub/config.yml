@@ -300,7 +300,7 @@ join_events:
   - "[TITLE] &b&lWELCOME;&f%player%;1;2;1"
   - "[SOUND] ENTITY_PLAYER_LEVELUP"
   - "[GAMEMODE] survival"
-  - "[EFFECT] SPEED;3"
+  - "[EFFECT] SPEED;2"
 
 join_settings:
   # Should we teleport the player to the spawn point (if set) on join?
