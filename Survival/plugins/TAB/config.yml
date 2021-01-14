@@ -110,8 +110,8 @@ Groups:
       
   #default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
   _OTHER_:
-    tabprefix: "%luckperms_prefix%"
-    tagprefix: "%luckperms_prefix%"
+    tabprefix: "%vault_prefix%"
+    tagprefix: "%vault_prefix%"
     tabsuffix: "%cmi_user_suffix%"
     tagsuffix: "%cmi_user_suffix%"
     customtabname: "%cmi_user_name%"
@@ -231,7 +231,7 @@ placeholderapi-refresh-intervals:
   player:
     "%player_health%": 200
     "%player_ping%": 1000
-    "%luckperms_prefix%": 1000
+    "%vault_prefix%": 1000
   relational:
     "%rel_factionsuuid_relation_color%": 500
     
