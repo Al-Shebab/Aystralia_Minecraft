@@ -55,11 +55,11 @@ items:
     glow: true
     display_name: '&ePrison'
     lore:
-      - '&7!'
-      - '&aPlaceholderAPI support!'
+      - '&7can you get to mine z?'
+      - '&abuy ranks for crate!'
     actions:
       - '[CLOSE]'
-      - '[MESSAGE] &7Sending you to: &eFactions'
+      - '[MESSAGE] &7Sending you to: &ePrison'
       - '[BUNGEE] Prison'
       # For multi-world servers using Multiverse-Core, use the action:
       # - '[CONSOLE] mvtp %player% world'
@@ -71,7 +71,7 @@ items:
     display_name: '&aSkyBlock'
     lore:
       - '&7Join out SkyBlock!'
-      - '&aMulti lore support too!'
+      - '&abuy ranks for crate!'
     actions:
       - '[CLOSE]'
       - '[MESSAGE] &7Sending you to: &eSkyBlock'
