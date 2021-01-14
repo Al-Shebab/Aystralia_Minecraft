@@ -151,7 +151,7 @@ announcements:
     test1:
       - "&r"
       - "<center>&e&lANNOUNCEMENT</center>"
-      - "<center>&7 Make sure to join the discord for Rewards </center>"
+      - "<center>&7 Make sure to join the discord for Rewards https://discord.gg/hWN7zXtbQP </center>"
       - "&r"
     test2:
       - "&r"
@@ -347,7 +347,7 @@ custom_join_items:
         - "[MESSAGE] &e&lServer Information"
         - "[MESSAGE] &r"
         - "[MESSAGE] &bWebsite: &fComing Soon"
-        - "[MESSAGE] &cStore: &fhttps://aystralia-network-garrys-mo.tebex.io"
+        - "[MESSAGE] &cStore: &fhttps://aystralia-network.tebex.io"
         - "[MESSAGE] &dDiscord: &fhttps://discord.gg/hWN7zXtbQP"
         - "[MESSAGE] &r"
     server_selector:
