@@ -48,31 +48,31 @@ items:
   filler:
     material: GRAY_STAINED_GLASS_PANE
     slot: -1 # Setting the slot to -1 will fill every empty slot, you can also do "slots: [0, 1, 2]"
-  factions:
-    material: TNT
+  Prison:
+    material: Diamond_Pickaxe
     slot: 11
     amount: 1
     glow: true
-    display_name: '&eFactions'
+    display_name: '&ePrison'
     lore:
-      - '&7Join now!'
+      - '&7!'
       - '&aPlaceholderAPI support!'
     actions:
       - '[CLOSE]'
       - '[MESSAGE] &7Sending you to: &eFactions'
-      - '[BUNGEE] factions'
+      - '[BUNGEE] Prison'
       # For multi-world servers using Multiverse-Core, use the action:
       # - '[CONSOLE] mvtp %player% world'
-  survival:
+  SkyBlock:
     material: GRASS_BLOCK
     slot: 15
     amount: 1
     glow: false
-    display_name: '&aSurvival'
+    display_name: '&aSkyBlock'
     lore:
-      - '&7Join now!'
+      - '&7Join out SkyBlock!'
       - '&aMulti lore support too!'
     actions:
       - '[CLOSE]'
-      - '[MESSAGE] &7Sending you to: &eSurvival'
-      - '[BUNGEE] survival'
+      - '[MESSAGE] &7Sending you to: &eSkyBlock'
+      - '[BUNGEE] Skyblock'
