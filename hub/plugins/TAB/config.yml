@@ -110,19 +110,12 @@ Groups:
       
   #default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
   _OTHER_:
-    tabprefix: "%luckperms_prefix%"
-    tagprefix: "%luckperms_prefix%"
-    tabsuffix: "%cmi_user_suffix%"
-    tagsuffix: "%cmi_user_suffix%"
-    customtabname: "%cmi_user_name%"
-    customtagname: "%cmi_user_name%"
-
-Users:
-  Al_Shebab2:
-    tabprefix: "&4ERROR"
-    tagprefix: "&4ERROR"
-    abovename: "&4ERROR"
-    belowname: "&4ERROR"
+    tabprefix: "%luckperms_prefix%&r"
+    tagprefix: "%luckperms_prefix%&r"
+    tabsuffix: ""
+    tagsuffix: ""
+    customtabname: "&r%player%"
+    customtagname: "&r%player%"
 
 #additional very limited line of text below nametag
 #don't forget this enables on all player entities, which includes NPCs
@@ -169,27 +162,10 @@ unlimited-nametag-prefix-suffix-mode:
   #disabling the feature for players riding boats to prevent massive desync
   disable-on-boats: true
 
-per-world-settings:
-  world1:
-    header:
-      - "an example of world with custom"
-    footer:
-      - "header/footer and prefix/suffix"
-    Groups:
-      owner:
-        tabprefix: "&#ff0000&lOwner&r "
-        tagprefix: "&#ff0000&lOwner&r "
-        
-  #separating multiple worlds with "-"
-  world2-world3:
-    header:
-      - "This is a shared header for"
-      - "world2 and world3"
-
 placeholders:
   #output of %afk%
-  afk-yes: "a"
-  afk-no: "a"
+  afk-yes: ""
+  afk-no: ""
   
   #%date%
   date-format: "dd.MM.yyyy"
@@ -231,7 +207,7 @@ placeholderapi-refresh-intervals:
   player:
     "%player_health%": 200
     "%player_ping%": 1000
-    "%luckperms_prefix%": 1000
+    "%luckperms_prefix%&r ": 1000
   relational:
     "%rel_factionsuuid_relation_color%": 500
     
@@ -289,9 +265,6 @@ primary-group-finding-list:
   - melbourne
   - brisbane
   - perth
-  - adelaide
-  - hobart
-  - darwin
   - member
   - default
   

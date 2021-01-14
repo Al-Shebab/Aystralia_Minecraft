@@ -132,7 +132,7 @@ tablist:
 
 announcements:
   # Should the announcements system be enabled ?
-  enabled: true
+  enabled: false
 
   # Delay to send announcements (in seconds)
   delay: 90
