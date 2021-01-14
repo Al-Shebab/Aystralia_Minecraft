@@ -18,7 +18,7 @@ Update Checks: true
 Update Branch: spigot
 Metrics: true
 Default Opener: BasicGUI
-Default Cooldown: 5
+Default Cooldown: 0
 Crate Protection: false
 Disable Key Swapping: false
 Default Hologram Text:
