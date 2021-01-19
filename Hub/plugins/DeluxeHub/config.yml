@@ -56,6 +56,7 @@ disabled-worlds:
   # List your worlds here, set "worlds: {}" to disable
   worlds:
     - world_nether
+    - world_the_end
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 # | ANTI-WORLD DOWNLOADER                    | 
@@ -64,10 +65,10 @@ disabled-worlds:
 # Prevent users downloading your world via the world downloader mod
 anti_wdl:
   # Should AntiWDL be enabled?
-  enabled: true
+  enabled: false
 
   # Should players with 'deluxehub.antiwdl.alert' will be notified?
-  notify_admins: true
+  notify_admins: false
 
   # There is no need to kick the player if he is running WDL as our system hooks into the mod to prevent a world download
 
@@ -77,7 +78,7 @@ anti_wdl:
 
 scoreboard:
   # Should the scoreboard feature be enabled?
-  enabled: true
+  enabled: false
 
   # Should we delay showing the scoreboard?
   # Value in ticks (20 ticks = 1 second), 0 to disable
@@ -282,24 +283,12 @@ join_leave_messages:
   enabled: true
 
   # Set to '' if you want silent join/quit messages
-  join_message: "&2&l+ &6%player% &7Connected"
-  quit_message: "&4&l- &6%player% &7Disconnected"
+  join_message: "&f[&a+&f] &f%player% &aConnected"
+  quit_message: "&f[&c-&f] &f%player% &cDisconnected"
 
 # Actions executed upon join
 join_events:
-  - "[MESSAGE] &8&m+---------------***---------------+"
-  - "[MESSAGE] &r"
-  - "[MESSAGE] &r    &7Welcome, &b&n%player%&r &7to the server"
-  - "[MESSAGE] &r"
-  - "[MESSAGE] &r  &2&lWEBSITE &fComing Soon"
-  - "[MESSAGE] &r  &3&lSTORE &fhttps://aystralia-network-garrys-mo.tebex.io"
-  - "[MESSAGE] &r  &9&lDISCORD &fhttps://discord.gg/hWN7zXtbQP"
-  - "[MESSAGE] &r"
-  - "[MESSAGE] &r   &7&oPowered By Aystralia Network"
-  - "[MESSAGE] &8&m+---------------***---------------+"
-  - "[TITLE] &b&lWELCOME;&f%player%;1;2;1"
-  - "[SOUND] ENTITY_PLAYER_LEVELUP"
-  - "[GAMEMODE] survival"
+  - "[GAMEMODE] creative"
   - "[EFFECT] SPEED;2"
 
 join_settings:
@@ -310,11 +299,11 @@ join_settings:
   # Should we extinguish the player?
   extinguish: true
   # Should we clear their inventory?
-  clear_inventory: false
+  clear_inventory: true
   # Spawn a firework on join
   firework:
     # Should we send a firework on join?
-    enabled: true
+    enabled: false
     # Should we only send the firework on their first join?
     first_join_only: true
 
