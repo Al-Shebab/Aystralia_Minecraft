@@ -1,6 +1,7 @@
 listeners:
 - query_port: 25575
-  motd: '&l&bAystralia Network &f| &aSurvival &f| &9Skyblock &f| &7Prison &f| &eCreative'
+  motd: '&b&lAystralia Network &f&l| &a&fSurvival &f| &9&fSkyblock &f| &7&fPrison
+    &f| &e&fCreative'
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
