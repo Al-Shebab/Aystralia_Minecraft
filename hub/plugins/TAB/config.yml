@@ -33,7 +33,7 @@ group-sorting-priority-list:
   - administrator
   - senior-moderator
   - moderator
-  - helper
+  - trial-moderator
   - support-team
   - event-manager
   - event-team
@@ -71,12 +71,9 @@ Groups:
   moderator:
     tabprefix: "&#cdff3d&lModerator&r "
     tagprefix: "&#cdff3d&lModerator&r "
-  helper:
-    tabprefix: "&#a3ff3d&lHelper&r "
-    tagprefix: "&#a3ff3d&lHelper&r "
-  support-team:
-    tabprefix: "&#3dff46&lSupport Team&r "
-    tagprefix: "&#3dff46&lSupport Team&r "
+  trial-moderator:
+    tabprefix: "&#a3ff3d&lTrial Moderator&r "
+    tagprefix: "&#a3ff3d&lTrial Moderator&r "
   event-manager:
     tabprefix: "&#b600c2&lEvent Manager&r "
     tagprefix: "&#b600c2&lEvent Manager&r "
@@ -255,7 +252,7 @@ primary-group-finding-list:
   - administrator
   - senior-moderator
   - moderator
-  - helper
+  - trial-moderator
   - support-team
   - event-manager
   - event-team
