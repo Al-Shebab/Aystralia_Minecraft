@@ -61,7 +61,7 @@ items:
       - '[MESSAGE] &fSending you to: &aSurvival'
       - '[BUNGEE] Survival'
   Skyblock:
-    material: COBBLESTONE
+    material: OAK_LOG
     slot: 12
     amount: 1
     glow: false
@@ -85,7 +85,7 @@ items:
       - '[MESSAGE] &fSending you to: &eCreative'
       - '[BUNGEE] Creative'
   Prison:
-    material: IRON_BARS
+    material: DIAMOND_PICKAXE
     slot: 16
     amount: 1
     glow: false
