@@ -83,9 +83,6 @@ Groups:
   builder:
     tabprefix: "&#f21dff&lBuilder&r "
     tagprefix: "&#f21dff&lBuilder&r "
-  graphics-designer:
-    tabprefix: "&#f670ff&lGraphics Designer&r "
-    tagprefix: "&#f670ff&lGraphics Designer&r "
   sydney:
     tabprefix: "&#3dff9a&lSydney&r "
     tagprefix: "&#3dff9a&lSydney&r "
