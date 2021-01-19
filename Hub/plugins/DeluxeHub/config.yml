@@ -299,7 +299,7 @@ join_settings:
   # Should we extinguish the player?
   extinguish: true
   # Should we clear their inventory?
-  clear_inventory: true
+  clear_inventory: false
   # Spawn a firework on join
   firework:
     # Should we send a firework on join?
