@@ -168,7 +168,7 @@ placeholders:
   time-format: "h:mm:ss a"
   
   #in hours, in case of wrong timezone
-  time-offset: 0
+  time-offset: -5
   
   #don't forget color codes
   remove-strings:
