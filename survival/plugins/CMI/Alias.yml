@@ -259,7 +259,7 @@ Alias:
   /giveall: false
   #  
   # /cmi glow $1-
-  /glow: true
+  /glow: false
   #  
   # /cmi gm $1-
   /gm: true
@@ -376,13 +376,13 @@ Alias:
   /iteminfo: true
   #  
   # /cmi itemlore $1-
-  /itemlore: true
-  /ilore: true
+  /itemlore: false
+  /ilore: false
   #  
   # /cmi itemname $1-
   /itemname: false
   /iname: false
-  /rename: true
+  /rename: false
   #  
   # /cmi itemnbt $1-
   /itemnbt: true

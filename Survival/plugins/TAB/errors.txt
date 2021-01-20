@@ -14,3 +14,6 @@
 15.01.2021 - 07:24:53 -        at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 15.01.2021 - 07:24:53 -        at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 15.01.2021 - 07:24:59 -        at java.lang.Thread.run(Unknown Source)
+20.01.2021 - 05:29:02 - [TAB v2.8.10] Group "community-manager" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "community-manager" into group-sorting-priority-list in config.yml.
+20.01.2021 - 05:30:29 - [TAB v2.8.10] Group "community-manager" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "community-manager" into group-sorting-priority-list in config.yml.
+20.01.2021 - 05:30:54 - [TAB v2.8.10] Group "community-manager" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "community-manager" into group-sorting-priority-list in config.yml.

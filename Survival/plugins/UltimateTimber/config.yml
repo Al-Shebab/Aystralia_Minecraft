@@ -44,7 +44,7 @@ protect-tool: false
 # Use the silk touch enchantment if the tool has it
 # Logs and leaves will drop their original block 100% of the time
 # Default: true
-apply-silk-touch: true
+apply-silk-touch: false
 
 # Damage the tool extra for each leaf block broken, this is vanilla behavior but can be disabled here
 # Does nothing if realistic-tool-damage is false
@@ -92,7 +92,7 @@ ignore-required-tools: false
 
 # Automatically replant saplings when a tree is toppled
 # Default: true
-replant-saplings: true
+replant-saplings: false
 
 # Always replant saplings for base tree blocks, regardless of player permissions
 # Default: false
@@ -103,7 +103,7 @@ always-replant-sapling: false
 # Does nothing if replant-saplings is false
 # The time is in seconds and must be a postive whole number
 # Default: 3
-replant-saplings-cooldown: 3
+replant-saplings-cooldown: 0
 
 # Give fallen leaf blocks a chance to replant saplings when they hit the ground
 # Default: true
@@ -117,7 +117,7 @@ falling-blocks-replant-saplings-chance: 1
 
 # Make falling tree blocks deal damage to players if they get hit
 # Default: true
-falling-blocks-deal-damage: true
+falling-blocks-deal-damage: false
 
 # The amount of damage that falling tree blocks do
 # This does nothing if falling-blocks-deal-damage is false
@@ -130,7 +130,7 @@ add-items-to-inventory: false
 
 # Use custom sounds when toppling trees
 # Default: true
-use-custom-sounds: true
+use-custom-sounds: false
 
 # Use custom particles when toppling trees
 # Default: true
@@ -445,7 +445,7 @@ global-log-loot:
 # Valid command placeholders: %player%, %type%, %xPos%, %yPos%, %zPos%
 global-leaf-loot:
   0:
-    material: GOLDEN_APPLE
+    material: APPLE
     chance: 0.1
 
 # Custom entire tree loot that is available for all tree types
