@@ -13,7 +13,7 @@ Main:
 Entities:
 
   # Should entities be stacked?
-  Enabled: true
+  Enabled: false
 
   # The text displayed above an entities head where {TYPE} refers to
   # The entities type and {AMT} is the amount currently stacked.
@@ -201,7 +201,7 @@ Items:
   Max Stack Size: 512
 
   # The text displayed above a dropped item.
-  Name Format: '&f{TYPE} &r[&6{AMT}x]'
+  Name Format: '&f{TYPE} &b{AMT}x'
 
   # Should color codes in dropped item names be removed?
   # This is added only because it looks smoother in game. This is only visual and
@@ -229,7 +229,7 @@ Items:
 Spawners:
 
   # Should spawners be stacked?
-  Enabled: true
+  Enabled: false
 
   # Should holograms be displayed above stacked spawners?
   Holograms Enabled: true
@@ -264,7 +264,7 @@ Spawners:
 Blocks:
 
   # Should blocks be stacked?
-  Enabled: true
+  Enabled: false
 
   # Should holograms be displayed above stacked blocks?
   Holograms Enabled: true

@@ -1,7 +1,9 @@
+prevent_proxy_connections: false
 listeners:
 - query_port: 25575
-  motd: '&b&lAystralia Network &f&l| &a&fSurvival &f| &9&fSkyblock &f| &7&fPrison
-    &f| &e&fCreative'
+  motd: |2-
+                   &b&lAystralia Network&r
+        &9&lSurvival | Skyblock | Prison | Creative
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
@@ -30,7 +32,6 @@ log_pings: true
 connection_throttle_limit: 3
 server_connect_timeout: 5000
 timeout: 30000
-stats: 6dfe1e6d-a0bd-4090-a0d2-9ee08dc40f82
 player_limit: -1
 ip_forward: true
 groups:
@@ -39,29 +40,39 @@ groups:
 remote_ping_timeout: 5000
 connection_throttle: 4000
 log_commands: false
-prevent_proxy_connections: false
+stats: 6dfe1e6d-a0bd-4090-a0d2-9ee08dc40f82
 online_mode: true
 forge_support: true
 disabled_commands:
 - disabledcommandhere
 servers:
   Hub:
-    motd: '&b&lAystralia Network &f&l| &f&lHub'
+    motd: |2-
+                     &b&lAystralia Network&r
+          &9&lSurvival | Skyblock | Prison | Creative
     address: localhost:25560
     restricted: false
   Survival:
-    motd: '&b&lAystralia Network &f&l| &a&lSurvival'
+    motd: |2-
+                     &b&lAystralia Network&r
+          &9&lSurvival | Skyblock | Prison | Creative
     address: localhost:25561
     restricted: false
   Skyblock:
-    motd: '&b&lAystralia Network &f&l| &9&lSkyblock'
+    motd: |2-
+                     &b&lAystralia Network&r
+          &9&lSurvival | Skyblock | Prison | Creative
     address: localhost:25562
     restricted: false
   Creative:
-    motd: '&b&lAystralia Network &f&l| &e&lCreative'
+    motd: |2-
+                     &b&lAystralia Network&r
+          &9&lSurvival | Skyblock | Prison | Creative
     address: localhost:25563
     restricted: false
   Prison:
-    motd: '&b&lAystralia Network &f&l| &7&lPrison'
+    motd: |2-
+                     &b&lAystralia Network&r
+          &9&lSurvival | Skyblock | Prison | Creative
     address: localhost:25564
     restricted: false
