@@ -3,17 +3,23 @@
 # Possible custom variables: {USERNAME} {DISPLAYNAME} {WORLDNAME} {KITNAME} {RANDOMPLAYER}
 # Edit kits ingame with /cmi kiteditor to avoid formating issues
 # Commands support specialized command format
-Starter:
-  CommandName: Starter
+Newbie:
   Description:
-  - '&blBeginners Items'
-  - '&fOnly granted once upon join!'
-  Delay: -1
-  MoneyCost: 0
-  ExpCost: 0
-  Group: 'groupName'
-  Items:      
+  - '&eWill give you some stuff for money and exp'
+  - '&eCan be used every X minutes'
+  CommandName: Newbie
+  Delay: 36000
+  MoneyCost: 100.0
+  ExpCost: 30
+  Commands:
+  - asConsole! msg! [playerName] &eYou just got &6{KITNAME} &ekit!
+  Conditions:
+  - cmi.kit.get
+  - cmi.command.fly
+  Group: groupName
+  Items:
     '1':
+      v: 2584
       type: STONE
       amount: 70
       meta:
@@ -28,3 +34,43 @@ Starter:
         enchants:
           ARROW_DAMAGE: 3
           THORNS: 5
+    '3':
+      v: 2584
+      type: OAK_PLANKS
+      amount: 30
+Advanced:
+  CommandName: Advanced
+  Delay: 36000
+  Items:
+    '1':
+      v: 2584
+      type: STONE
+Ad2:
+  CommandName: Ad
+  Weight: 2
+  Delay: 36060
+  Group: resources
+  Items:
+    '1':
+      v: 2584
+      type: OAK_PLANKS
+      amount: 10
+Ad1:
+  CommandName: Ad
+  Weight: 1
+  Delay: 36000
+  Group: resources
+  Items:
+    '1':
+      v: 2584
+      type: STONE
+      amount: 10
+Ad3:
+  CommandName: Ad3
+  Delay: 36001
+  Group: resources
+  Items:
+    '1':
+      v: 2584
+      type: DIRT
+      amount: 10

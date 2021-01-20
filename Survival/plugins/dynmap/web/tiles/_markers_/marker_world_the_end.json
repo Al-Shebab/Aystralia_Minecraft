@@ -1,0 +1,17 @@
+{"sets": {"chunkmaster": {"hide": false,"circles": {}
+,"areas": {}
+,"label": "Chunkmaster","markers": {}
+,"lines": {"chunkmaster_genarea_world_the_end": {"color": "#0022FF","markup": false,"x": [10008.00,10008.00,-9992.00,-9992.00,10008.00]
+,"y": [1.00,1.00,1.00,1.00,1.00]
+,"weight": 2,"z": [10008.00,-9992.00,-9992.00,10008.00,10008.00]
+,"label": "Chunkmaster Generation Area (1562500 chunks)","opacity": 1.00}
+}
+,"layerprio": 0}
+,"markers": {"hide": false,"circles": {}
+,"areas": {}
+,"label": "Markers","markers": {"_spawn_world_the_end": {"markup": false,"x": 0.00,"icon": "world","y": 63.00,"dim": "16x16","z": 0.00,"label": "Spawn"}
+}
+,"lines": {}
+,"layerprio": 0}
+}
+,"timestamp": 1611109533550}
