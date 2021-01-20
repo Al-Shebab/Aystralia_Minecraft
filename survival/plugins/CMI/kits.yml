@@ -17,27 +17,6 @@ Newbie:
   - cmi.kit.get
   - cmi.command.fly
   Group: groupName
-  Items:
-    '1':
-      v: 2584
-      type: STONE
-      amount: 70
-      meta:
-        ==: ItemMeta
-        meta-type: UNSPECIFIC
-        display-name: §3Stone
-        lore:
-        - §2Name §3{USERNAME}
-        - §3Display name §2{DISPLAYNAME}
-        - §2Kit §3{KITNAME}
-        - §3World name §2{WORLDNAME}
-        enchants:
-          ARROW_DAMAGE: 3
-          THORNS: 5
-    '3':
-      v: 2584
-      type: OAK_PLANKS
-      amount: 30
 Advanced:
   CommandName: Advanced
   Delay: 36000
