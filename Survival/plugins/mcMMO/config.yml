@@ -33,9 +33,9 @@ General:
         Enabled: true
     Locale: en_US
     AprilFoolsEvent: true
-    MOTD_Enabled: true
+    MOTD_Enabled: false
     EventBroadcasts: true
-    EventInfoOnPlayerJoin: true
+    EventInfoOnPlayerJoin: false
     AdminNotifications: true
     # Send a message to the player when his profile was successfully loaded
     Show_Profile_Loaded: false

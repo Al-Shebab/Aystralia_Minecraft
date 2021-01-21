@@ -56,6 +56,9 @@ items:
     display_name: '&a&lSurvival'
     lore:
       - '&fClick to join!'
+      - ' '
+      - '&fStatus'
+      - '&aOnline'
     actions:
       - '[CLOSE]'
       - '[MESSAGE] &fSending you to: &aSurvival'
@@ -68,6 +71,9 @@ items:
     display_name: '&9&lSkyblock'
     lore:
       - '&fClick to join!'
+      - ' '
+      - '&fStatus'
+      - '&cIn Development'
     actions:
       - '[CLOSE]'
       - '[MESSAGE] &fSending you to: &9Skyblock'
@@ -80,6 +86,9 @@ items:
     display_name: '&e&lCreative'
     lore:
       - '&fClick to join!'
+      - ' '
+      - '&fStatus'
+      - '&cIn Development'
     actions:
       - '[CLOSE]'
       - '[MESSAGE] &fSending you to: &eCreative'
@@ -92,7 +101,25 @@ items:
     display_name: '&7&lPrison'
     lore:
       - '&fClick to join!'
+      - ' '
+      - '&fStatus'
+      - '&cIn Development'
     actions:
       - '[CLOSE]'
       - '[MESSAGE] &fSending you to: &7Prison'
       - '[BUNGEE] Prison'
+  Anarchy:
+    material: OBSIDIAN
+    slot: 22
+    amount: 1
+    glow: false
+    display_name: '&8&lAnarchy'
+    lore:
+      - '&fClick to join!'
+      - ' '
+      - '&fStatus'
+      - '&aOnline'
+    actions:
+      - '[CLOSE]'
+      - '[MESSAGE] &fSending you to: &8Anarchy'
+      - '[BUNGEE] Anarchy'
