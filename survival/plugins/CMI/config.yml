@@ -1279,11 +1279,11 @@ Spawn:
   FirstSpawn:
     Use: true
     World: world
-    X: -347.3909063137919
-    Y: 151.0
-    Z: 105.4115483738386
-    Pitch: 0
-    Yaw: 90
+    X: -301.5654824840717
+    Y: 136.0
+    Z: 267.30031989686694
+    Pitch: -2.287545
+    Yaw: 180.20325
 Newbie:
   # Kit name to give for new players joining server
   Kit: Newbie

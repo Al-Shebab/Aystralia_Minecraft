@@ -78,6 +78,10 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    only-players-collide: false
+    allow-vehicle-collisions: true
+    portal-search-vanilla-dimension-scaling: true
+    max-leash-distance: 10.0
     water-over-lava-flow-speed: 5
     use-faster-eigencraft-redstone: false
     nether-ceiling-void-damage-height: 0
@@ -134,6 +138,7 @@ world-settings:
     phantoms-do-not-spawn-on-creative-players: true
     phantoms-only-attack-insomniacs: true
     game-mechanics:
+      disable-mob-spawner-spawn-egg-transformation: false
       disable-sprint-interruption-on-attack: false
       disable-chest-cat-detection: false
       nerf-pigmen-from-nether-portals: false
@@ -156,6 +161,7 @@ world-settings:
     viewdistances:
       no-tick-view-distance: -1
     anti-xray:
+      use-permission: false
       enabled: false
       engine-mode: 1
       max-chunk-section-index: 3
@@ -184,6 +190,9 @@ world-settings:
     max-growth-height:
       cactus: 3
       reeds: 3
+      bamboo:
+        max: 16
+        min: 11
     lootables:
       auto-replenish: false
       restrict-player-reloot: true
@@ -219,3 +228,17 @@ world-settings:
       delay:
         min: 20
         max: 40
+    entity-per-chunk-save-limit:
+      experience_orb: -1
+      snowball: -1
+      ender_pearl: -1
+      arrow: -1
+    mobs-can-always-pick-up-loot:
+      zombies: false
+      skeletons: false
+    door-breaking-difficulty:
+      zombie:
+      - HARD
+      vindicator:
+      - NORMAL
+      - HARD

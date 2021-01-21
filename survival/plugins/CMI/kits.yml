@@ -5,18 +5,9 @@
 # Commands support specialized command format
 Newbie:
   Description:
-  - '&eWill give you some stuff for money and exp'
-  - '&eCan be used every X minutes'
+  - '&fBeginner items'
+  - '&bOnce you lose it, its gone forever.'
   CommandName: Newbie
-  Delay: 36000
-  MoneyCost: 100.0
-  ExpCost: 30
-  Commands:
-  - asConsole! msg! [playerName] &eYou just got &6{KITNAME} &ekit!
-  Conditions:
-  - cmi.kit.get
-  - cmi.command.fly
-  Group: groupName
   Items:
     '28':
       v: 2584
@@ -25,6 +16,8 @@ Newbie:
         ==: ItemMeta
         meta-type: UNSPECIFIC
         display-name: §b§lStarter §f§lPickaxe
+        lore:
+        - §fBelongs to §b§l[playerName]
     '29':
       v: 2584
       type: IRON_AXE
@@ -33,7 +26,32 @@ Newbie:
         meta-type: UNSPECIFIC
         display-name: §b§lStarter §f§lAxe
         lore:
-        - nigger
+        - §fBelongs to §b§l[playerName]
+    '30':
+      v: 2584
+      type: OAK_LOG
+      amount: 64
+    '31':
+      v: 2584
+      type: TORCH
+      amount: 64
+    '32':
+      v: 2584
+      type: CRAFTING_TABLE
+    '33':
+      v: 2584
+      type: FURNACE
+    '34':
+      v: 2584
+      type: COOKED_BEEF
+      amount: 64
+    '36':
+      v: 2584
+      type: GOLDEN_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lClaim §f§lShovel
     Helmet:
       v: 2584
       type: IRON_HELMET
@@ -41,6 +59,8 @@ Newbie:
         ==: ItemMeta
         meta-type: UNSPECIFIC
         display-name: §b§lStarter §f§lHelmet
+        lore:
+        - §fBelongs to §b§l[playerName]
     Chest:
       v: 2584
       type: IRON_CHESTPLATE
@@ -48,6 +68,8 @@ Newbie:
         ==: ItemMeta
         meta-type: UNSPECIFIC
         display-name: §b§lStarter §f§lChestplate
+        lore:
+        - §fBelongs to §b§l[playerName]
     Legs:
       v: 2584
       type: IRON_LEGGINGS
@@ -55,6 +77,8 @@ Newbie:
         ==: ItemMeta
         meta-type: UNSPECIFIC
         display-name: §b§lStarter §f§lLeggings
+        lore:
+        - §fBelongs to §b§l[playerName]
     Boots:
       v: 2584
       type: IRON_BOOTS
@@ -62,3 +86,5 @@ Newbie:
         ==: ItemMeta
         meta-type: UNSPECIFIC
         display-name: §b§lStarter §f§lBoots
+        lore:
+        - §fBelongs to §b§l[playerName]
