@@ -1,7 +1,8 @@
-server_connect_timeout: 5000
 listeners:
 - query_port: 25575
-  motd: "PMC13cee7d200c9a23b2df9cf9e301dd2b3"
+  motd: |2-
+                   &b&lAystralia Network&r
+        &9&lSurvival | Skyblock | Prison | Creative
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
@@ -28,8 +29,9 @@ permissions:
   - bungeecord.command.reload
 log_pings: true
 connection_throttle_limit: 3
-prevent_proxy_connections: false
+server_connect_timeout: 5000
 timeout: 30000
+stats: 6dfe1e6d-a0bd-4090-a0d2-9ee08dc40f82
 player_limit: -1
 ip_forward: true
 groups:
@@ -38,7 +40,7 @@ groups:
 remote_ping_timeout: 5000
 connection_throttle: 4000
 log_commands: false
-stats: 6dfe1e6d-a0bd-4090-a0d2-9ee08dc40f82
+prevent_proxy_connections: false
 online_mode: true
 forge_support: true
 disabled_commands:
