@@ -1,9 +1,7 @@
 server_connect_timeout: 5000
 listeners:
 - query_port: 25575
-  motd: |2-
-                   &b&lAystralia Network&r
-        &9&lSurvival | Skyblock | Prison | Creative
+  motd: "PMC13cee7d200c9a23b2df9cf9e301dd2b3"
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false

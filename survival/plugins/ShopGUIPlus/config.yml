@@ -551,7 +551,7 @@ shopMenuItems:
     # Shop ID from shops yaml
     shop: "basics"
     # Slot in shops menu, counting from 0 to 53
-    slot: 14
+    slot: 12
   2:
     item:
       # The same rules apply for material, amount, damage and lore as for goBackButton
@@ -561,7 +561,17 @@ shopMenuItems:
     # Shop ID from shops yaml
     shop: "concrete"
     # Slot in shops menu, counting from 0 to 53
-    slot: 12
+    slot: 13
+  3:
+    item:
+      # The same rules apply for material, amount, damage and lore as for goBackButton
+      material: FARMLAND
+      quantity: 1
+      name: "&a&lFarming"
+    # Shop ID from shops yaml
+    shop: "farming"
+    # Slot in shops menu, counting from 0 to 53
+    slot: 14
 
 
 specialElements:
