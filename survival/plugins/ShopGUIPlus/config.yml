@@ -27,7 +27,7 @@ database:
 economyTypes:
   - VAULT
 # Name of the main GUI
-shopMenuName: "&3&lShop menu"
+shopMenuName: "&b&lAystralia Shop"
 # Size of the main GUI, valid values are 9, 18, 27, 36, 45 and 54
 shopMenuSize: 45
 # Choose an item to fill the empty slots of menu with
@@ -35,13 +35,13 @@ shopMenuFillItem:
   material: BLACK_STAINED_GLASS_PANE
   name: " "
 # Define whether selling all with middle mouse button is enabled
-enableSellAll: true
+enableSellAll: false
 # Define whether the buy GUI with option to select quantity is enabled
 enableBuyGUI: true
 # Define whether the sell GUI with option to select quantity is enabled
-enableSellGUI: true
+enableSellGUI: false
 # Define whether sell all button in SellGUI is enabled (enableSellGUI has to be enabled too)
-enableSellGUISellAll: true
+enableSellGUISellAll: false
 # Define whether after closing/buying/selling the shop GUI should be opened again
 returnToShop: true
 # Define whether the quick buy/sell option should be enabled (amount selection gui will stay open until player closes it)
@@ -173,7 +173,7 @@ log:
 # Sell hand command settings
 sellHand:
   # When set to true, players will be able to sell any quantity of the item (the price will be calculated from the base price)
-  allowAllQuantities: true
+  allowAllQuantities: false
   # When set to true, /sell hand will work same way as /sell handall does
   sellsAllItems: false
   # When set to true, free items (with sell price of $0) will be excluded from being sold using /sell hand and /sell handall
@@ -184,9 +184,9 @@ sellAll:
   # When set to true, players will get a detailed summary with prices of each item stack sold
   detailedSummary: false
   # Choose if maximal sell price of an item across all shops should be chosen in sell all. Enabling this may affect sell command performance when having lots of shops/items
-  findMaxSellPrice: true
+  findMaxSellPrice: false
   # When set to true, free items (with sell price of $0) will be excluded from being sold using /sell all
-  excludeFreeItems: true
+  excludeFreeItems: false
 
 buttons:
   # "Go back button"
@@ -545,77 +545,33 @@ shopMenuItems:
   1:
     item:
       # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: GRASS_BLOCK
+      material: CHEST
       quantity: 1
-      name: "&9&lBlocks"
+      name: "&f&lBasics"
     # Shop ID from shops yaml
-    shop: "blocks"
+    shop: "basics"
     # Slot in shops menu, counting from 0 to 53
-    slot: 11
+    slot: 12
   2:
     item:
-      material: COOKED_CHICKEN
+      # The same rules apply for material, amount, damage and lore as for goBackButton
+      material: WHITE_CONCRETE
       quantity: 1
-      damage: 0
-      name: "&2&lFood"
-      lore:
-        - "&7Get some yummy food here!"
-    shop: "food"
-    slot: 12
+      name: "&f&lConcrete"
+    # Shop ID from shops yaml
+    shop: "concrete"
+    # Slot in shops menu, counting from 0 to 53
+    slot: 13
   3:
     item:
-      material: GOLD_INGOT
+      # The same rules apply for material, amount, damage and lore as for goBackButton
+      material: FARMLAND
       quantity: 1
-      damage: 0
-      name: "&3&lOres"
-    shop: "ores"
-    slot: 13
-  4:
-    item:
-      material: IRON_PICKAXE
-      quantity: 1
-      name: "&8&lTools"
-    shop: "tools"
-    slot: 14
-  5:
-    item:
-      material: DIAMOND_CHESTPLATE
-      quantity: 1
-      name: "&4&lArmor"
-    shop: "armor"
-    slot: 15
-  6:
-    item:
-      material: WHEAT
-      quantity: 1
-      name: "&5&lFarming"
+      name: "&a&lFarming"
+    # Shop ID from shops yaml
     shop: "farming"
-    slot: 21
-  7:
-    item:
-      material: SPIDER_EYE
-      quantity: 1
-      name: "&9&lMob drops"
-    shop: "drops"
-    slot: 22
-  8:
-    item:
-      material: LIGHT_BLUE_DYE
-      quantity: 1
-      name: "&2&lDyes"
-    shop: "dyes"
-    slot: 23
-  9:
-    item:
-      material: SADDLE
-      quantity: 1
-      name: "&3&lMiscellaneous"
-    shop: "miscellaneous"
-    slot: 31
-  10:
-    type: special
-    special: balance
-    slot: 34
+    # Slot in shops menu, counting from 0 to 53
+    slot: 14
 
 
 specialElements:

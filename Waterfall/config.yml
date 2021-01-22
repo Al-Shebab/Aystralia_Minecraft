@@ -1,7 +1,9 @@
-prevent_proxy_connections: false
+server_connect_timeout: 5000
 listeners:
 - query_port: 25575
-  motd: '&l&bAystralia Network &f| &aSurvival &f| &9Skyblock &f| &7Prison &f| &eCreative'
+  motd: |2-
+                   &b&lAystralia Network&r
+        &9&lSurvival | Skyblock | Prison | Creative
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
@@ -14,7 +16,7 @@ listeners:
   host: 0.0.0.0:25565
   max_players: 999
   tab_size: 60
-  force_default_server: false
+  force_default_server: true
 remote_ping_cache: -1
 network_compression_threshold: 256
 permissions:
@@ -28,7 +30,7 @@ permissions:
   - bungeecord.command.reload
 log_pings: true
 connection_throttle_limit: 3
-server_connect_timeout: 5000
+prevent_proxy_connections: false
 timeout: 30000
 player_limit: -1
 ip_forward: true
@@ -45,22 +47,38 @@ disabled_commands:
 - disabledcommandhere
 servers:
   Hub:
-    motd: '&b&lAystralia Network &f&l| &f&lHub'
+    motd: |2-
+                     &b&lAystralia Network&r
+          &9&lSurvival | Skyblock | Prison | Creative
     address: localhost:25560
     restricted: false
   Survival:
-    motd: '&b&lAystralia Network &f&l| &a&lSurvival'
+    motd: |2-
+                     &b&lAystralia Network&r
+          &9&lSurvival | Skyblock | Prison | Creative
     address: localhost:25561
     restricted: false
   Skyblock:
-    motd: '&b&lAystralia Network &f&l| &9&lSkyblock'
+    motd: |2-
+                     &b&lAystralia Network&r
+          &9&lSurvival | Skyblock | Prison | Creative
     address: localhost:25562
     restricted: false
   Creative:
-    motd: '&b&lAystralia Network &f&l| &e&lCreative'
+    motd: |2-
+                     &b&lAystralia Network&r
+          &9&lSurvival | Skyblock | Prison | Creative
     address: localhost:25563
     restricted: false
   Prison:
-    motd: '&b&lAystralia Network &f&l| &7&lPrison'
+    motd: |2-
+                     &b&lAystralia Network&r
+          &9&lSurvival | Skyblock | Prison | Creative
     address: localhost:25564
+    restricted: false
+  Anarchy:
+    motd: |2-
+                     &b&lAystralia Network&r
+          &9&lSurvival | Skyblock | Prison | Creative
+    address: localhost:25566
     restricted: false

@@ -48,44 +48,78 @@ items:
   filler:
     material: GRAY_STAINED_GLASS_PANE
     slot: -1 # Setting the slot to -1 will fill every empty slot, you can also do "slots: [0, 1, 2]"
+  Survival:
+    material: GRASS_BLOCK
+    slot: 10
+    amount: 1
+    glow: false
+    display_name: '&a&lSurvival'
+    lore:
+      - '&fClick to join!'
+      - ' '
+      - '&fStatus'
+      - '&aOnline'
+    actions:
+      - '[CLOSE]'
+      - '[MESSAGE] &fSending you to: &aSurvival'
+      - '[BUNGEE] Survival'
+  Skyblock:
+    material: OAK_LOG
+    slot: 12
+    amount: 1
+    glow: false
+    display_name: '&9&lSkyblock'
+    lore:
+      - '&fClick to join!'
+      - ' '
+      - '&fStatus'
+      - '&cIn Development'
+    actions:
+      - '[CLOSE]'
+      - '[MESSAGE] &fSending you to: &9Skyblock'
+      - '[BUNGEE] Skyblock'
+  Creative:
+    material: DIAMOND
+    slot: 14
+    amount: 1
+    glow: false
+    display_name: '&e&lCreative'
+    lore:
+      - '&fClick to join!'
+      - ' '
+      - '&fStatus'
+      - '&cIn Development'
+    actions:
+      - '[CLOSE]'
+      - '[MESSAGE] &fSending you to: &eCreative'
+      - '[BUNGEE] Creative'
   Prison:
-    material: Diamond_Pickaxe
-    slot: 11
+    material: DIAMOND_PICKAXE
+    slot: 16
     amount: 1
-    glow: true
-    display_name: '&ePrison'
+    glow: false
+    display_name: '&7&lPrison'
     lore:
-      - '&7can you get to mine z?'
-      - '&aBuy ranks or vote for crate!'
+      - '&fClick to join!'
+      - ' '
+      - '&fStatus'
+      - '&cIn Development'
     actions:
       - '[CLOSE]'
-      - '[MESSAGE] &7Sending you to: &ePrison'
+      - '[MESSAGE] &fSending you to: &7Prison'
       - '[BUNGEE] Prison'
-      # For multi-world servers using Multiverse-Core, use the action:
-      # - '[CONSOLE] mvtp %player% world'
-  SkyBlock:
-    material: chest
-    slot: 15
+  Anarchy:
+    material: OBSIDIAN
+    slot: 22
     amount: 1
     glow: false
-    display_name: '&aSkyBlock'
+    display_name: '&8&lAnarchy'
     lore:
-      - '&7Join out SkyBlock!'
-      - '&aBuy ranks or vote for crate!'
+      - '&fClick to join!'
+      - ' '
+      - '&fStatus'
+      - '&aOnline'
     actions:
       - '[CLOSE]'
-      - '[MESSAGE] &7Sending you to: &eSkyBlock'
-      - '[BUNGEE] Skyblock'    
- Survival:
-    material: grass_block
-    slot: 13
-    amount: 1
-    glow: false
-    display_name: '&aSurvival'
-    lore:
-      - '&7Survival of the fittest!'
-      - '&aBuy ranks or vote for crate!'
-    actions:
-      - '[CLOSE]'
-      - '[MESSAGE] &7Sending you to: &eSurvival'
-      - '[BUNGEE] Survival
+      - '[MESSAGE] &fSending you to: &8Anarchy'
+      - '[BUNGEE] Anarchy'

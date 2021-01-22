@@ -1,0 +1,20 @@
+spawn1:
+  location: world, -1378.500, 63.000, 335.500
+  lines:
+  - '&b&lWelcome to Aystralia!'
+  - '&f&lSelect a server using the server selector!'
+spawn2:
+  location: world, -1385.500, 63.000, 328.500
+  lines:
+  - '&b&lWelcome to Aystralia!'
+  - '&f&lSelect a server using the server selector!'
+spawn3:
+  location: world, -1378.500, 63.000, 321.500
+  lines:
+  - '&b&lWelcome to Aystralia!'
+  - '&f&lSelect a server using the server selector!'
+spawn4:
+  location: world, -1371.500, 63.000, 328.500
+  lines:
+  - '&b&lWelcome to Aystralia!'
+  - '&f&lSelect a server using the server selector!'
