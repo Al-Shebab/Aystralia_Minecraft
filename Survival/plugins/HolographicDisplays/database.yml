@@ -10,3 +10,8 @@ spawn1:
   - '&f/sethome'
   - '&b&lIf you are ready'
   - '&b&lUse &f/rtp &b&lto start'
+jail:
+  location: world, -301.519, 140.200, 205.545
+  lines:
+  - '&c&lAystralia Jail'
+  - '&fEnjoy...'

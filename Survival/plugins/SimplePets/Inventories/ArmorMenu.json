@@ -1,0 +1,30 @@
+{
+  "slots": [
+    {
+      "item": "storage",
+      "slot": 1
+    },
+    {
+      "item": "name",
+      "slot": 5
+    },
+    {
+      "item": "ride",
+      "slot": 49
+    },
+    {
+      "item": "remove",
+      "slot": 50
+    },
+    {
+      "item": "hat",
+      "slot": 51
+    },
+    {
+      "item": "update",
+      "slot": 54
+    }
+  ],
+  "status": "CAN NOT MODIFY THE LAYOUT OF THE ARMOR",
+  "title": "&a&lArmorStand Armor"
+}
