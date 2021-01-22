@@ -52,11 +52,8 @@ rewards:
       default: true
     commands:
     - money give %player% 2500
-    - give %player% cow_spawn_egg 1
-    - give %player% pig_spawn_egg 1
-    - give %player% sheep_spawn_egg 1
-    - give %player% chicken_spawn_egg 1
-    player-message: "&9Thanks for voting for us on &b%service%, &9you have been rewarded!"
+    - cratesplus key %player% Vote 1
+    player-message: "&bThanks for voting. &fTo use your key go to &b/warp crates"
     broadcast-message: "&b&l%player% &9has voted for us on &b&l%service% &9and has been rewarded!"
 
 # Whether or not players need to be online to vote. If set, offline player votes are queued for when the player next logs in.

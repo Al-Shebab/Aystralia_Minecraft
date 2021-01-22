@@ -1,19 +1,19 @@
-prefix: '&eSimplePets &6>>'
+prefix: '&bSimplePets &8>>'
 Info:
-  Pet-Data-Header: '{prefix} &7%player%''s Pet Data:'
-  Pet-Data-Values: '&7- &e%key%&6: &r%value%'
+  Pet-Data-Header: '{prefix} &f%player%''s Pet Data:'
+  Pet-Data-Values: '&f- &b%key%&f: &r%value%'
   Excluded-Data-Values: []
 Help:
-  Header: '&6&m-------&e SimplePets Commands &6&m-------'
+  Header: '&f&m-------&b SimplePets Commands &f&m-------'
 List:
-  List-Display: '&ePet list &6(&7%size%&6)&e: %list%'
+  List-Display: '&bPet list &f(&f%size%&f)&b: %list%'
   List-Pet-Not-Supported:
   - '&cPet is not supported'
   - '&cin your current version.'
 Modify:
   Invalid-JSON: '{prefix} &cInvalid JSON has been entered.'
   Invalid-JSON-Error-Player: '{prefix} &cError: %error%'
-  Pet-Modified: '{prefix} &7You have changed &c%player%''s &7Pet Data.'
+  Pet-Modified: '{prefix} &fYou have changed &c%player%''s &fPet Data.'
 Inv:
-  No-Pet-Items: '{prefix} &7No items stored in your Pet Inventory.'
-  No-Pet-Items-Other: '{prefix} &7No items stored for %player%.'
+  No-Pet-Items: '{prefix} &fNo items stored in your Pet Inventory.'
+  No-Pet-Items-Other: '{prefix} &fNo items stored for %player%.'
