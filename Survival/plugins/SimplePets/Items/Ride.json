@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "item": {
+    "material": "DIAMOND_HORSE_ARMOR",
+    "meta": {
+      
+    },
+    "name": "&e&lToggle Pet Riding"
+  }
+}

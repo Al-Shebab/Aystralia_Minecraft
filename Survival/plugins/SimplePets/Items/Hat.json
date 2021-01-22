@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "item": {
+    "material": "DIAMOND_HELMET",
+    "meta": {
+      
+    },
+    "name": "&e&lToggle Pet as Hat"
+  }
+}

@@ -888,11 +888,11 @@ Alias:
   /util: true
   #  
   # /cmi vanish $1-
-  /vanish: false
-  /v: false
+  /vanish: true
+  /v: true
   #  
   # /cmi vanishedit $1-
-  /vanishedit: false
+  /vanishedit: true
   #  
   # /cmi version $1-
   /version: false
