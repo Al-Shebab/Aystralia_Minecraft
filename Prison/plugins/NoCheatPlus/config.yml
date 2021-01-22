@@ -78,7 +78,7 @@ checks:
       shortterm:
         ticks: 5
         limit: 7
-      actions: cancel vl>5 log:bbfrequency:3:5:if cancel vl>60 log:bbfrequency:0:5:cif cancel
+      actions: cancel vl>5 log:bbfrequency:3:5:if cancel vl>60 log:bbfrequency:0:5:cif cancel cmd:kickfrequency
     noswing:
       active: true
       actions: cancel vl>10 log:noswing:0:5:if cancel
@@ -88,7 +88,7 @@ checks:
     wrongblock:
       active: true
       level: 10
-      actions: cancel vl>10 log:bwrong:0:5:if cancel vl>30 log:bwrong:0:5:cif cancel
+      actions: cancel vl>10 log:bwrong:0:5:if cancel vl>30 log:bwrong:0:5:cif cancel cmd:kickwb
   blockinteract:
     direction:
       active: true
@@ -100,7 +100,7 @@ checks:
       active: true
       interval: 2000
       limit: 60
-      actions: cancel vl>200 log:bspeed:0:2:if cancel vl>1000 cancel log:bspeed:0:2:icf
+      actions: cancel vl>200 log:bspeed:0:2:if cancel vl>1000 cancel log:bspeed:0:2:icf cmd:kickbspeed
     visible:
       active: true
       actions: cancel vl>100 log:bvisible:0:10:if cancel
@@ -147,7 +147,7 @@ checks:
       question: '&cPlease type ''&6[captcha]&c'' to continue sending messages/commands.'
       success: '&aOK, it sounds like you''re not a spambot.'
       tries: 3
-      actions: cancelvl>4 log:captcha:2:5:cf cancel
+      actions: cancel cmd:kickcaptcha vl>4 log:captcha:2:5:cf cancel cmd:kickcaptcha
     color:
       active: true
       actions: log:color:0:1:if cancel
@@ -160,7 +160,7 @@ checks:
       shortterm:
         ticks: 18
         level: 3
-      actions: log:commands:0:5:cf cancel vl>20 log:commands:0:5:cf cancel
+      actions: log:commands:0:5:cf cancel cmd:kickcommands vl>20 log:commands:0:5:cf cancel cmd:tempkick1
     text:
       active: true
       allowvlreset: true
@@ -170,13 +170,13 @@ checks:
           factor: 0.9
           weight: 6
           level: 160
-          actions: cancel cmd:tellchatnormal vl>7 log:chatnormal:0:5:f cancel cmd:tellchatnormal vl>20 log:chatnormal:0:5:cf cancel vl>40 log:chatnormal:0:5:cf cancel
+          actions: cancel cmd:tellchatnormal vl>7 log:chatnormal:0:5:f cancel cmd:tellchatnormal vl>20 log:chatnormal:0:5:cf cancel cmd:kickchatnormal vl>40 log:chatnormal:0:5:cf cancel cmd:kickchat5
         shortterm:
           minimum: 2.0
           factor: 0.7
           weight: 3.0
           level: 20.0
-          actions: log:chatfast:0:5:cf cancel vl>20 log:chatfast:0:5:cf cancel vl>40 log:chatfast:0:5:cf cancel
+          actions: log:chatfast:0:5:cf cancel cmd:kickchatfast vl>20 log:chatfast:0:5:cf cancel cmd:kickchat1 vl>40 log:chatfast:0:5:cf cancel cmd:kickchat5
       message:
         lettercount: 1.0
         partition: 1.0
@@ -223,7 +223,7 @@ checks:
         number: 1
         timeout: 60000
       kickmessage: Too fast re-login, try with a little delay.
-      actions: log:relog:0:10:cf cancel vl>20 log:relog:0:10:cf cancel
+      actions: log:relog:0:10:cf cancel vl>20 log:relog:0:10:cf cancel cmd:tempkick5
     logins:
       active: true
       startupdelay: 600
@@ -234,7 +234,7 @@ checks:
   combined:
     bedleave:
       active: true
-      actions: cancel log:bedleave:0:5:if
+      actions: cancel log:bedleave:0:5:if cmd:kickbedleave
     enderpearl:
       active: true
       preventclickblock: true
@@ -309,7 +309,7 @@ checks:
       actions: cancel vl>10 log:freach:2:5:if cancel
     selfhit:
       active: true
-      actions: log:fselfhit:0:5:if cancel vl>10 log:fselfhit:0:5:icf cancel
+      actions: log:fselfhit:0:5:if cancel vl>10 log:fselfhit:0:5:icf cancel cmd:kickselfhit
     speed:
       active: true
       limit: 15
@@ -350,7 +350,7 @@ checks:
       actions: log:fastconsume:2:5:if cancel
     gutenberg:
       active: true
-      actions: cancel log:gutenberg:0:10:icf
+      actions: cancel log:gutenberg:0:10:icf cmd:kickinvaliddata
     items:
       active: true
     open:
@@ -413,7 +413,7 @@ checks:
         directviolation: 60
         epmviolation: 180
       setbackage: 40
-      actions: cancel vl>10 log:morepackets:0:2:if cancel vl>100 log:morepackets:0:2:if cancel
+      actions: cancel vl>10 log:morepackets:0:2:if cancel vl>100 log:morepackets:0:2:if cancel cmd:kickpackets
     nofall:
       active: true
       dealdamage: true
@@ -449,7 +449,7 @@ checks:
       setbackpolicy:
         falldamage: true
         voidtovoid: true
-      actions: log:flyfile:3:10:f cancel vl>100 log:flyshort:0:10:i log:flyfile:0:10:f cancel vl>400 log:flylong:0:5:i log:flyfile:0:5:cf cancel vl>1500 log:flylong:0:5:i log:flyfile:0:5:cf cancel
+      actions: log:flyfile:3:10:f cancel vl>100 log:flyshort:0:10:i log:flyfile:0:10:f cancel vl>400 log:flylong:0:5:i log:flyfile:0:5:cf cancel vl>1500 log:flylong:0:5:i log:flyfile:0:5:cf cancel cmd:kickfly
       hover:
         active: true
         step: 5
@@ -497,7 +497,7 @@ checks:
         two: 30
         four: 60
         eight: 100
-      actions: cancel vl>30 cancel log:attackfrequency:0:5:if vl>160 cancel log:attackfrequency:0:0:cif
+      actions: cancel vl>30 cancel log:attackfrequency:0:5:if vl>160 cancel log:attackfrequency:0:0:cif cmd:kickattackfrequency
     flyingfrequency:
       active: true
       seconds: 5
@@ -509,12 +509,12 @@ checks:
         actions: cancel
     keepalivefrequency:
       active: true
-      actions: cancel vl>10 cancel log:keepalive:0:10:if vl>40 cancel log:keepalive:0:10:icf vl>100 cancel log:keepalive:0:10:icf
+      actions: cancel vl>10 cancel log:keepalive:0:10:if vl>40 cancel log:keepalive:0:10:icf vl>100 cancel log:keepalive:0:10:icf cmd:kickalive
     packetfrequency:
       active: default
       limitpersecond: 200
       seconds: 4
-      actions: cancel
+      actions: cancel cmd:kickpacketfrequency
     sounddistance:
       active: true
       maxdistance: 320

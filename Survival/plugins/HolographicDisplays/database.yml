@@ -10,10 +10,6 @@ spawn1:
   - '&f/sethome'
   - '&b&lIf you are ready'
   - '&b&lUse &f/rtp &b&lto start'
-vote:
-  location: world, -301.533, 140.500, 198.472
-  lines:
-  - '&b&lVote &f&lCrate'
 command:
   location: world, -301.481, 139.200, 248.510
   lines:

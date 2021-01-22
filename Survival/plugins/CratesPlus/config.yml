@@ -22,9 +22,6 @@ Default Cooldown: 5
 Crate Protection: false
 Disable Key Swapping: false
 Default Hologram Text:
-- '%crate%'
-- Right-Click to Open!
-- Left-Click to Preview!
 Crates:
   Vote:
     Knockback: 0.0
