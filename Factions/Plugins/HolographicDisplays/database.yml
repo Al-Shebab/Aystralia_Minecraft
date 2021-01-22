@@ -1,0 +1,12 @@
+spawn1:
+  location: world, -301.508, 139.200, 260.532
+  lines:
+  - '&f&lWelcome to &b&lAystralia!'
+  - '&b&lUseful Commands'
+  - '&f/shop'
+  - '&f/ah'
+  - '&f/jobs'
+  - '&f/mcmmo help'
+  - '&f/sethome'
+  - '&b&lIf you are ready'
+  - '&b&lUse &f/rtp &b&lto start'
