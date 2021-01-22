@@ -46,6 +46,9 @@ CustomAlias:
   rt:
     Cmds:
     - cmi rt world
+  rules:
+    Cmds:
+    - cmi ctext rules
   wild:
     Cmds:
     - cmi rt world

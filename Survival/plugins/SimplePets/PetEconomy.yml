@@ -1,4 +1,4 @@
-prefix: '&eSimplePets &6>>'
+prefix: '&bSimplePets &8>>'
 
 # This message will be sent if the purchase it successful
 # Placeholders:
@@ -56,142 +56,142 @@ Lore-Lines:
 #############################################################
 Pet:
   armor_stand:
-    Price: 2000.0
+    Price: 2000000.0
   bat:
-    Price: 2000.0
+    Price: 2000000.0
   bee:
-    Price: 2000.0
+    Price: 2000000.0
   blaze:
-    Price: 2000.0
+    Price: 2000000.0
   cat:
-    Price: 2000.0
+    Price: 2000000.0
   cave_spider:
-    Price: 2000.0
+    Price: 2000000.0
   chicken:
-    Price: 2000.0
+    Price: 2000000.0
   cod:
-    Price: 2000.0
+    Price: 2000000.0
   cow:
-    Price: 2000.0
+    Price: 2000000.0
   creeper:
-    Price: 2000.0
+    Price: 2000000.0
   dolphin:
-    Price: 2000.0
+    Price: 2000000.0
   donkey:
-    Price: 2000.0
+    Price: 2000000.0
   drowned:
-    Price: 2000.0
+    Price: 2000000.0
   elder_guardian:
-    Price: 2000.0
+    Price: 2000000.0
   enderman:
-    Price: 2000.0
+    Price: 2000000.0
   endermite:
-    Price: 2000.0
+    Price: 2000000.0
   evoker:
-    Price: 2000.0
+    Price: 2000000.0
   fox:
-    Price: 2000.0
+    Price: 2000000.0
   ghast:
-    Price: 2000.0
+    Price: 2000000.0
   giant:
-    Price: 2000.0
+    Price: 2000000.0
   guardian:
-    Price: 2000.0
+    Price: 2000000.0
   hoglin:
-    Price: 2000.0
+    Price: 2000000.0
   horse:
-    Price: 2000.0
+    Price: 2000000.0
   husk:
-    Price: 2000.0
+    Price: 2000000.0
   illusioner:
-    Price: 2000.0
+    Price: 2000000.0
   iron_golem:
-    Price: 2000.0
+    Price: 2000000.0
   llama:
-    Price: 2000.0
+    Price: 2000000.0
   magma_cube:
-    Price: 2000.0
+    Price: 2000000.0
   mooshroom:
-    Price: 2000.0
+    Price: 2000000.0
   mule:
-    Price: 2000.0
+    Price: 2000000.0
   ocelot:
-    Price: 2000.0
+    Price: 2000000.0
   panda:
-    Price: 2000.0
+    Price: 2000000.0
   parrot:
-    Price: 2000.0
+    Price: 2000000.0
   phantom:
-    Price: 2000.0
+    Price: 2000000.0
   pig:
-    Price: 2000.0
+    Price: 2000000.0
   piglin:
-    Price: 2000.0
+    Price: 2000000.0
   piglin_brute:
-    Price: 2000.0
+    Price: 2000000.0
   pillager:
-    Price: 2000.0
+    Price: 2000000.0
   polarbear:
-    Price: 2000.0
+    Price: 2000000.0
   puffer_fish:
-    Price: 2000.0
+    Price: 2000000.0
   rabbit:
-    Price: 2000.0
+    Price: 2000000.0
   ravager:
-    Price: 2000.0
+    Price: 2000000.0
   salmon:
-    Price: 2000.0
+    Price: 2000000.0
   sheep:
-    Price: 2000.0
+    Price: 2000000.0
   shulker:
-    Price: 2000.0
+    Price: 2000000.0
   silverfish:
-    Price: 2000.0
+    Price: 2000000.0
   skeleton:
-    Price: 2000.0
+    Price: 2000000.0
   skeleton_horse:
-    Price: 2000.0
+    Price: 2000000.0
   slime:
-    Price: 2000.0
+    Price: 2000000.0
   snowman:
-    Price: 2000.0
+    Price: 2000000.0
   spider:
-    Price: 2000.0
+    Price: 2000000.0
   squid:
-    Price: 2000.0
+    Price: 2000000.0
   stray:
-    Price: 2000.0
+    Price: 2000000.0
   strider:
-    Price: 2000.0
+    Price: 2000000.0
   trader_llama:
-    Price: 2000.0
+    Price: 2000000.0
   tropical_fish:
-    Price: 2000.0
+    Price: 2000000.0
   turtle:
-    Price: 2000.0
+    Price: 2000000.0
   vex:
-    Price: 2000.0
+    Price: 2000000.0
   villager:
-    Price: 2000.0
+    Price: 2000000.0
   vindicator:
-    Price: 2000.0
+    Price: 2000000.0
   wandering_trader:
-    Price: 2000.0
+    Price: 2000000.0
   witch:
-    Price: 2000.0
+    Price: 2000000.0
   wither:
-    Price: 2000.0
+    Price: 2000000.0
   wither_skeleton:
-    Price: 2000.0
+    Price: 2000000.0
   wolf:
-    Price: 2000.0
+    Price: 2000000.0
   zoglin:
-    Price: 2000.0
+    Price: 2000000.0
   zombie:
-    Price: 2000.0
+    Price: 2000000.0
   zombie_horse:
-    Price: 2000.0
+    Price: 2000000.0
   zombie_villager:
-    Price: 2000.0
+    Price: 2000000.0
   zombified_piglin:
-    Price: 2000.0
+    Price: 2000000.0

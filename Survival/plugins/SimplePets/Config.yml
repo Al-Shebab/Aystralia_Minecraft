@@ -1,7 +1,7 @@
 Update-Checking:
   # Would you like to check for new jenkins builds?
   # Default: true
-  Enabled: true
+  Enabled: false
 
   ##########################################
   #  The unit of time for update checking  #
@@ -16,7 +16,7 @@ Update-Checking:
 
 # Enabling this would require players to have access to at least 1 pets permission
 # Default: false
-Needs-Pet-Permission-To-Open-GUI: false
+Needs-Pet-Permission-To-Open-GUI: true
 
 # Disabling this would grant ALL players access to pets (they wont need permissions)
 # Default: true
@@ -28,7 +28,7 @@ Remove-Item-If-No-Permission: true
 
 # Disabling this will remove a players pet when they change worlds
 # Default true
-RemovePetsOnWorldChange: true
+RemovePetsOnWorldChange: false
 Economy:
   # Enabling this would allow players to buy pets via Vault/TokenManager
   # Default: false
@@ -43,7 +43,7 @@ Economy:
 
 # Disabling this would make it so there is no particles when a player renames/removes/spawns a pet
 # Default: true
-ShowParticles: true
+ShowParticles: false
 
 # Disabling this would allow other plugins to deny the pets from spawning
 # Default: true
@@ -210,7 +210,7 @@ RenamePet:
   Limit-Number-Of-Characters: false
   # What should the character limit be set to?
   # Default: 10
-  CharacterLimit: 10
+  CharacterLimit: 16
   # Are there words you don't want in a pets name?
   Blocked-Words:
   - jeb_
