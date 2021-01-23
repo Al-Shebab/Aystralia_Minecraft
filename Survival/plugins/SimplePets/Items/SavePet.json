@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "item": {
+    "material": "NAME_TAG",
+    "lore": [
+      "&7Click here to save your current",
+      "&7pet for you to spawn later"
+    ],
+    "meta": {
+      
+    },
+    "name": "&e&lSave Pet"
+  }
+}

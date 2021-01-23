@@ -721,7 +721,7 @@ Chat:
   # Do you want to enable staff messaging over bungeecord
   BungeeStaffMessages: false
   # Used for simple chat messages. Optional variables: {displayName} {world} {prefix} {suffix} {group} {shout} {message}. Supporting PlaceHolderAPI variables like %player_server%
-  GeneralFormat: '{prefix}&r {displayName}&f » &r{message}'
+  GeneralFormat: '{prefix}&r {displayName}&f &8» &r{message}'
   # Will define message format itself, this allows to have gradients in messages
   # It NEEDS to contain {message} otherwise we will ignore this setup
   # For 1.16+ servers you can use color gradients like '{#b3a28f>}{message}{#d7b8e6<}'
@@ -858,7 +858,7 @@ Chat:
     # This is allot more heavier on server than usual tagging with @, so enable if you know what you are doing
     HardCoreMode: false
     # Determines color of taged user name in chat with @ in front of name/nickname. Sender should have cmi.tag.color
-    Color: '&d'
+    Color: '&a'
     # Commands to be performed when player is tagged
     # Variables like [playerName] will be replaced with tagged player name
     # You can use [senderName] to include player name who tagged
@@ -1223,7 +1223,7 @@ Messages:
   DeathMessage:
     # Defines number of players from which to automatically start hiding death messages
     # Set to -1 to disable this
-    AutoHideFrom: -1
+    AutoHideFrom: 0
 Books:
   # Defines default creator name for books when using getbook command
   DefaultAuthor: Server
@@ -1279,11 +1279,11 @@ Spawn:
   FirstSpawn:
     Use: true
     World: world
-    X: -347.3909063137919
-    Y: 151.0
-    Z: 105.4115483738386
-    Pitch: 0
-    Yaw: 90
+    X: -301.5654824840717
+    Y: 136.0
+    Z: 267.30031989686694
+    Pitch: -2.287545
+    Yaw: 180.20325
 Newbie:
   # Kit name to give for new players joining server
   Kit: Newbie

@@ -1,0 +1,279 @@
+{
+  "enabled": true,
+  "hat": true,
+  "mount": true,
+  "float_down": false,
+  "fly": false,
+  "sort_key": "cat",
+  "ride_speed": 0.2500000138418579,
+  "speed": 0.6000000138418579,
+  "fly_speed": 0.4000000059604645,
+  "item": {
+    "material": "PLAYER_HEAD",
+    "meta": {
+      "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZkZjcyYzM0ZTdmZGFkNGJlYTQxZDk2Njc4YjcyZjI5ZjYwNmUyY2E3NWUzNTkwYTI3ODkzMjcxNGJlOTgifX19"
+    },
+    "name": "&f&lCat Pet"
+  },
+  "summon_name": "Cat",
+  "display_name": "&a&l%player%'s cat pet",
+  "on_summon": [
+    
+  ],
+  "data-items": {
+    "silent": [
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTQ2MTUxOGI3NGQ1ZjcwMTZmNzIyOTQ3NTZmYzY4YzU0NzExMTBjYzk3ZjNiYjA5M2UwYzZlZDk0YTllMyJ9fX0="
+        },
+        "name": "&6Silent: &e%value%"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFmMzI3YzNmMzQ5MTU4ZDIwOWI0ODY3ZDY4ZmZiMTg5MGJjNTdhMDFiYTk0ODNlM2ZmZmU0ZWM3ZmRlYTBiMCJ9fX0="
+        },
+        "name": "&6Silent: &e%value%"
+      }
+    ],
+    "age": [
+      {
+        "material": "WHEAT",
+        "meta": {
+          
+        },
+        "name": "&6Baby: &e%value%"
+      }
+    ],
+    "type": [
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZkZjcyYzM0ZTdmZGFkNGJlYTQxZDk2Njc4YjcyZjI5ZjYwNmUyY2E3NWUzNTkwYTI3ODkzMjcxNGJlOTgifX19"
+        },
+        "name": "&6Type: &eTabby"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2ExMjE4ODI1ODYwMWJjYjdmNzZlM2UyNDg5NTU1YTI2YzBkNzZlNmVmZWMyZmQ5NjZjYTM3MmI2ZGRlMDAifX19"
+        },
+        "name": "&6Type: &eBlack"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDQwOTg0MTRhYjMxMTc5ZTllMThiYzNlN2U4Yzk2NjZjMjZhYzM5ZDVlYjUzYTU3MWNlZjNkNWNmYWNjNDIifX19"
+        },
+        "name": "&6Type: &eRed"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDViM2Y4Y2E0YjNhNTU1Y2NiM2QxOTQ0NDk4MDhiNGM5ZDc4MzMyNzE5NzgwMGQ0ZDY1OTc0Y2M2ODVhZjJlYSJ9fX0="
+        },
+        "name": "&6Type: &eSiamese"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM4OWUwZDVkM2U4MWY4NGI1NzBlMjk3ODI0NGIzYTczZTVhMjJiY2RiNjg3NGI0NGVmNWQwZjY2Y2EyNGVlYyJ9fX0="
+        },
+        "name": "&6Type: &eShorthair"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQwMDk3MjcxYmI2ODBmZTk4MWU4NTllOGJhOTNmZWEyOGI4MTNiMTA0MmJkMjc3ZWEzMzI5YmVjNDkzZWVmMyJ9fX0="
+        },
+        "name": "&6Type: &eCalico"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY0MGM3NDYyNjBlZjkxYzk2YjI3MTU5Nzk1ZTg3MTkxYWU3Y2UzZDVmNzY3YmY4Yzc0ZmFhZDk2ODlhZjI1ZCJ9fX0="
+        },
+        "name": "&6Type: &ePersian"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM3YTQ1ZDI1ODg5ZTNmZGY3Nzk3Y2IyNThlMjZkNGU5NGY1YmMxM2VlZjAwNzk1ZGFmZWYyZTgzZTBhYjUxMSJ9fX0="
+        },
+        "name": "&6Type: &eRagdoll"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQxZmY0ZTUzMmJmOTJlYTgwOGU4MDc1Y2UxMzZjNDQ4NTRhMDNlNzRkMGJiY2U1YjkzYjQ4OTc0YWVkYSJ9fX0="
+        },
+        "name": "&6Type: &eWhite"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTBkYjQxMzc2Y2E1N2RmMTBmY2IxNTM5ZTg2NjU0ZWVjZmQzNmQzZmU3NWU4MTc2ODg1ZTkzMTg1ZGYyODBhNSJ9fX0="
+        },
+        "name": "&6Type: &eJellie"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJjMWU4MWZmMDNlODJhM2U3MWUwY2Q1ZmJlYzYwN2UxMTM2MTA4OWFhNDdmMjkwZDQ2YzhhMmMwNzQ2MGQ5MiJ9fX0="
+        },
+        "name": "&6Type: &eAll Black"
+      }
+    ],
+    "collar": [
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2JkMjllNzNmNWFlYzE1OTQ4NmQ4OGVhZWU5MDlhZTAyMjdmMzJiNWYxZjhmNDEzNDJlYjAzMDkwOWRkNjVlIn19fQ=="
+        },
+        "name": "&6Color: &eWhite"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVhNTkwYjY4MTU4OWZiOWIwZTg2NjRlZTk0NWI0MWViMzg1MWZhZjY2YWFmNDg1MjVmYmExNjljMzQyNzAifX19"
+        },
+        "name": "&6Color: &eOrange"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTEzM2ZhNTJkZDc0ZDcxMWU1Mzc0N2RhOTYzYjhhZGVjZjkyZGI5NDZiZTExM2I1NmMzOGIzZGMyNzBlZWIzIn19fQ=="
+        },
+        "name": "&6Color: &eMagenta"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmZiM2RiMTAzMjg1ZTkyNTg4OTg0Yjg3MWQ4ZjViMTljODlmNGUyOTVjOTkyNjA4MDhhNjBlNDNmOGJkM2QifX19"
+        },
+        "name": "&6Color: &eLightblue"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTRjNDE0MWMxZWRmM2Y3ZTQxMjM2YmQ2NThjNWJjN2I1YWE3YWJmN2UyYTg1MmI2NDcyNTg4MThhY2Q3MGQ4In19fQ=="
+        },
+        "name": "&6Color: &eYellow"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0="
+        },
+        "name": "&6Color: &eLime"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDU3ZGJiNjkwMTc1OWExNTI2YjU0OWUxOWIzNzlmMWFhYzhmMzhiYzhiM2ZhODU2N2JhM2RjZjg4N2E3MiJ9fX0="
+        },
+        "name": "&6Color: &ePink"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTUwOWRhOTg5NWJiZTc4YzFkY2NkMjZjYTY1MzY4ZDIxYWQ0N2VmYTk2ZTZiNjQxYjU4OTMzNjY0NTNhZWYifX19"
+        },
+        "name": "&6Color: &eGray"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI0M2IxMmQ1MjE2MThlNDg3YmIzYTQzNGI1NzY2ZWE1ZWU1ODY0ZTVhZmUyYWQ5OTVhZTEzMDM5YzRhYSJ9fX0="
+        },
+        "name": "&6Color: &eSilver"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTViOWE0ODQ2N2YwMjEyYWE2ODg2NGU2MzQyMTE2ZjhmNzlhMjc1NDU0YmYyMTVmNjdmNzAxYTZmMmM4MTgifX19"
+        },
+        "name": "&6Color: &eCyan"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJhMGFkMzVjM2JhZTg3MTRmNWRhNWI5ZTc5OWM5ZmZkODY2M2YxYWJkNzEzNDNhMmZhMDE2ZDAyMmI0YmYifX19"
+        },
+        "name": "&6Color: &ePurple"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTJjZDI3MmVlYjM4YmY3ODNhOThhNDZmYTFlMmU4ZDQ2MmQ4NTJmYmFhZWRlZjBkY2UyYzFmNzE3YTJhIn19fQ=="
+        },
+        "name": "&6Color: &eBlue"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWNiOTkxNmRlOGEyZGY5ZTEyY2ZkYjk4ZGM1MjQxZDZkODNmNjU1MzJiZTQ3Yjg5ZmUzMDViYmQxZDRlZjFiIn19fQ=="
+        },
+        "name": "&6Color: &eBrown"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGJhN2UwN2NmOWQ1ZTZhZWU5Yzc0Yjk1YjE1NWQ5MjRiZmUyNDAzZWMzYmE3M2E0MTljOWNkMTY4NGViYjYifX19"
+        },
+        "name": "&6Color: &eGreen"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdjMWYxZWFkNGQ1MzFjYWE0YTViMGQ2OWVkYmNlMjlhZjc4OWEyNTUwZTVkZGJkMjM3NzViZTA1ZTJkZjJjNCJ9fX0="
+        },
+        "name": "&6Color: &eRed"
+      },
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRkZWJiYjA2MmY2YTM4NWE5MWNhMDVmMThmNWMwYWNiZTMzZTJkMDZlZTllNzQxNmNlZjZlZTQzZGZlMmZiIn19fQ=="
+        },
+        "name": "&6Color: &eBlack"
+      }
+    ],
+    "head_up": [
+      {
+        "material": "PLAYER_HEAD",
+        "meta": {
+          
+        },
+        "name": "&6Head Up: &e%value%"
+      }
+    ],
+    "sitting": [
+      {
+        "material": "OAK_STAIRS",
+        "meta": {
+          
+        },
+        "name": "&6Sitting: &e%value%"
+      }
+    ],
+    "tame": [
+      {
+        "material": "BONE",
+        "meta": {
+          
+        },
+        "name": "&6Tamed: &e%value%"
+      }
+    ],
+    "sleep": [
+      {
+        "material": "RED_BED",
+        "meta": {
+          
+        },
+        "name": "&6Sleeping: &e%value%"
+      }
+    ]
+  }
+}

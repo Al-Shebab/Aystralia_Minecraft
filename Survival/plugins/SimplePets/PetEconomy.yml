@@ -1,0 +1,197 @@
+prefix: '&bSimplePets &8>>'
+
+# This message will be sent if the purchase it successful
+# Placeholders:
+# - {prefix} (uses the customized prefix)
+# - %type% (will get what type of pet it is)
+# - %price% (what price the pet is)
+PurchaseSuccessful: '{prefix} &7You have Successfully Purchased the %type% Pet.'
+
+# This message will be sent if the player does not have enough money to buy the pet
+# Placeholders:
+# - {prefix} (uses the customized prefix)
+# - %type% (will get what type of pet it is)
+# - %price% (what price the pet is)
+InsufficientFunds: '{prefix} &cYou do not have enough money to buy this pet, you need
+  to have %price%'
+
+# If a pet is free this will be in the place of the price in the lore
+# Default: 'Free'
+Price-Free: Free
+Bypass:
+  # If the player has the bypass permission, will be in the place of the price in the lore
+  # Default: 'BYPASSED'
+  Price: BYPASSED
+  # Disabling this will make the items show the price, but if the player has bypass permissions he wont have to pay
+  # Default: true
+  Hide-Price-If-Bypassed: true
+Pay-Per-Use:
+  # Should players have to pay each time they spawn a pet?
+  # Default: false
+  Enabled: false
+  # This message will be sent if the purchase it successful
+  # Placeholders:
+  # - {prefix} (uses the customized prefix)
+  # - %type% (will get what type of pet it is)
+  # - %price% (what price the pet is)
+  Paid: '{prefix} &7You have Successfully Paid for the %type% Pet.'
+  # These lines get added to the pet items when the GUI is opened
+  # Placeholders:
+  # - %cost% (price of the pet)
+  # - %contains% (true/false if the player purchased the pet)
+  Lore-Lines:
+  - '&6Price: &e%cost%'
+# These lines get added to the pet items when the GUI is opened
+# Placeholders:
+# - %cost% (price of the pet)
+# - %contains% (true/false if the player purchased the pet)
+Lore-Lines:
+- '&6Price: &e%cost%'
+- '&6Purchased: &e%contains%'
+
+#############################################################
+#  Customize the price of the pets                          #
+#  If you want the pet to be free then set the price to -1  #
+#  Default: 2000.0                                          #
+#############################################################
+Pet:
+  armor_stand:
+    Price: 2000000.0
+  bat:
+    Price: 2000000.0
+  bee:
+    Price: 2000000.0
+  blaze:
+    Price: 2000000.0
+  cat:
+    Price: 2000000.0
+  cave_spider:
+    Price: 2000000.0
+  chicken:
+    Price: 2000000.0
+  cod:
+    Price: 2000000.0
+  cow:
+    Price: 2000000.0
+  creeper:
+    Price: 2000000.0
+  dolphin:
+    Price: 2000000.0
+  donkey:
+    Price: 2000000.0
+  drowned:
+    Price: 2000000.0
+  elder_guardian:
+    Price: 2000000.0
+  enderman:
+    Price: 2000000.0
+  endermite:
+    Price: 2000000.0
+  evoker:
+    Price: 2000000.0
+  fox:
+    Price: 2000000.0
+  ghast:
+    Price: 2000000.0
+  giant:
+    Price: 2000000.0
+  guardian:
+    Price: 2000000.0
+  hoglin:
+    Price: 2000000.0
+  horse:
+    Price: 2000000.0
+  husk:
+    Price: 2000000.0
+  illusioner:
+    Price: 2000000.0
+  iron_golem:
+    Price: 2000000.0
+  llama:
+    Price: 2000000.0
+  magma_cube:
+    Price: 2000000.0
+  mooshroom:
+    Price: 2000000.0
+  mule:
+    Price: 2000000.0
+  ocelot:
+    Price: 2000000.0
+  panda:
+    Price: 2000000.0
+  parrot:
+    Price: 2000000.0
+  phantom:
+    Price: 2000000.0
+  pig:
+    Price: 2000000.0
+  piglin:
+    Price: 2000000.0
+  piglin_brute:
+    Price: 2000000.0
+  pillager:
+    Price: 2000000.0
+  polarbear:
+    Price: 2000000.0
+  puffer_fish:
+    Price: 2000000.0
+  rabbit:
+    Price: 2000000.0
+  ravager:
+    Price: 2000000.0
+  salmon:
+    Price: 2000000.0
+  sheep:
+    Price: 2000000.0
+  shulker:
+    Price: 2000000.0
+  silverfish:
+    Price: 2000000.0
+  skeleton:
+    Price: 2000000.0
+  skeleton_horse:
+    Price: 2000000.0
+  slime:
+    Price: 2000000.0
+  snowman:
+    Price: 2000000.0
+  spider:
+    Price: 2000000.0
+  squid:
+    Price: 2000000.0
+  stray:
+    Price: 2000000.0
+  strider:
+    Price: 2000000.0
+  trader_llama:
+    Price: 2000000.0
+  tropical_fish:
+    Price: 2000000.0
+  turtle:
+    Price: 2000000.0
+  vex:
+    Price: 2000000.0
+  villager:
+    Price: 2000000.0
+  vindicator:
+    Price: 2000000.0
+  wandering_trader:
+    Price: 2000000.0
+  witch:
+    Price: 2000000.0
+  wither:
+    Price: 2000000.0
+  wither_skeleton:
+    Price: 2000000.0
+  wolf:
+    Price: 2000000.0
+  zoglin:
+    Price: 2000000.0
+  zombie:
+    Price: 2000000.0
+  zombie_horse:
+    Price: 2000000.0
+  zombie_villager:
+    Price: 2000000.0
+  zombified_piglin:
+    Price: 2000000.0

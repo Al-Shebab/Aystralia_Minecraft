@@ -1,4 +1,20 @@
 spawn1:
-  location: world, -301.495, 139.200, 260.491
+  location: world, -301.508, 139.200, 260.532
   lines:
-  - '&f&lWelcome to &b&lAystralia'
+  - '&f&lWelcome to &b&lAystralia!'
+  - '&b&lUseful Commands'
+  - '&f/shop'
+  - '&f/ah'
+  - '&f/jobs'
+  - '&f/mcmmo help'
+  - '&f/sethome'
+  - '&b&lIf you are ready'
+  - '&b&lUse &f/rtp &b&lto start'
+command:
+  location: world, -301.481, 139.200, 248.510
+  lines:
+  - '&b&lCommands'
+  - '&f/pets spawn wolf'
+  - '&f/vote'
+  - '&f/cmi warp'
+  - '&f/kit claim'

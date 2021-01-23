@@ -1,1 +1,1 @@
-codecrafter47.bungeetablistplus.libs.bstats.bungeecord.Metrics
+xyz.olivermartin.slingshot.bungeecord.Metrics

@@ -14,3 +14,8 @@
 15.01.2021 - 07:24:53 -        at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 15.01.2021 - 07:24:53 -        at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 15.01.2021 - 07:24:59 -        at java.lang.Thread.run(Unknown Source)
+20.01.2021 - 18:49:13 - [TAB v2.8.10] Failed to download PlaceholderAPI expansions. PlaceholderAPI version: 2.10.9
+20.01.2021 - 18:49:13 - java.lang.NullPointerException: null
+20.01.2021 - 18:49:13 -        at me.clip.placeholderapi.PlaceholderAPI.getRegisteredIdentifiers(PlaceholderAPI.java:223)
+20.01.2021 - 18:49:13 -        at me.neznamy.tab.platforms.bukkit.features.ExpansionDownloader$1$1.run(ExpansionDownloader.java:52)
+20.01.2021 - 18:49:13 -        at java.lang.Thread.run(Unknown Source)

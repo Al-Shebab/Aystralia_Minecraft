@@ -21,3 +21,6 @@
 **/usercache.json
 **/plugins/GriefPreventionData/PlayerData/
 Waterfall/locations.yml
+
+Anarchy/*
+Survival/plugins/CMI/moneyLog/*

@@ -5,60 +5,107 @@
 # Commands support specialized command format
 Newbie:
   Description:
-  - '&eWill give you some stuff for money and exp'
-  - '&eCan be used every X minutes'
+  - '&fBeginner items'
+  - '&bOnce you lose it, its gone forever.'
   CommandName: Newbie
-  Delay: 36000
-  MoneyCost: 100.0
-  ExpCost: 30
-  Commands:
-  - asConsole! msg! [playerName] &eYou just got &6{KITNAME} &ekit!
-  Conditions:
-  - cmi.kit.get
-  - cmi.command.fly
-  Group: groupName
   Items:
     '28':
-      v: 2584
+      v: 2586
       type: IRON_PICKAXE
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §b§lStarter §f§lPickaxe
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Starter
+          "},{"bold":true,"italic":false,"color":"white","text":"Pickaxe"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Belongs
+          to "},{"bold":true,"italic":false,"color":"aqua","text":"[playerName]"}],"text":""}'
     '29':
-      v: 2584
+      v: 2586
       type: IRON_AXE
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §b§lStarter §f§lAxe
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Starter
+          "},{"bold":true,"italic":false,"color":"white","text":"Axe"}],"text":""}'
         lore:
-        - nigger
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Belongs
+          to "},{"bold":true,"italic":false,"color":"aqua","text":"[playerName]"}],"text":""}'
+    '30':
+      v: 2586
+      type: OAK_LOG
+      amount: 64
+    '31':
+      v: 2586
+      type: TORCH
+      amount: 64
+    '32':
+      v: 2586
+      type: CRAFTING_TABLE
+    '33':
+      v: 2586
+      type: FURNACE
+    '34':
+      v: 2586
+      type: COOKED_BEEF
+      amount: 64
+    '36':
+      v: 2586
+      type: GOLDEN_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Claim
+          "},{"bold":true,"italic":false,"color":"white","text":"Shovel"}],"text":""}'
     Helmet:
-      v: 2584
+      v: 2586
       type: IRON_HELMET
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §b§lStarter §f§lHelmet
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Starter
+          "},{"bold":true,"italic":false,"color":"white","text":"Helmet"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Belongs
+          to "},{"bold":true,"italic":false,"color":"aqua","text":"[playerName]"}],"text":""}'
     Chest:
-      v: 2584
+      v: 2586
       type: IRON_CHESTPLATE
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §b§lStarter §f§lChestplate
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Starter
+          "},{"bold":true,"italic":false,"color":"white","text":"Chestplate"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Belongs
+          to "},{"bold":true,"italic":false,"color":"aqua","text":"[playerName]"}],"text":""}'
     Legs:
-      v: 2584
+      v: 2586
       type: IRON_LEGGINGS
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §b§lStarter §f§lLeggings
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Starter
+          "},{"bold":true,"italic":false,"color":"white","text":"Leggings"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Belongs
+          to "},{"bold":true,"italic":false,"color":"aqua","text":"[playerName]"}],"text":""}'
     Boots:
-      v: 2584
+      v: 2586
       type: IRON_BOOTS
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: §b§lStarter §f§lBoots
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Starter
+          "},{"bold":true,"italic":false,"color":"white","text":"Boots"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Belongs
+          to "},{"bold":true,"italic":false,"color":"aqua","text":"[playerName]"}],"text":""}'
+Claim:
+  CommandName: Claim
+  Enabled: false
+  Delay: 600
+  Items:
+    '28':
+      v: 2586
+      type: GOLDEN_SHOVEL

@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "item": {
+    "material": "CHEST",
+    "meta": {
+      
+    },
+    "name": "&e&lItem Storage"
+  }
+}
