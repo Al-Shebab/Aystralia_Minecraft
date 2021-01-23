@@ -45,7 +45,7 @@ forwarding:
     #   most set ups.
     cache: none
     # Only sends the vote to the server in which the player is currently joined.
-    onlySendToJoinedServer: true
+    onlySendToJoinedServer: false
     #Sets which server to send the vote in the event the player is not online when the vote is cast
     #If you do not want the vote forwarded to a fallback, set this value to empty ('')
     #ONLY USED IF onlySendToJoinedServer is true!!
@@ -56,7 +56,7 @@ forwarding:
     file:
       name: cached-votes.json
       # days before a vote is considered 'dead' - removed from cache with a console warning
-      cacheTime: 31
+      cacheTime: 10
     # Options for memory caching.
     memory:
       # days before a vote is considered 'dead' and removed from memory. All votes are removed when the server restarts. -1 signifies no TTL
