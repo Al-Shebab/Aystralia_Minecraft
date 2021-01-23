@@ -101,3 +101,11 @@ Newbie:
         lore:
         - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Belongs
           to "},{"bold":true,"italic":false,"color":"aqua","text":"[playerName]"}],"text":""}'
+Claim:
+  CommandName: Claim
+  Enabled: false
+  Delay: 600
+  Items:
+    '28':
+      v: 2586
+      type: GOLDEN_SHOVEL

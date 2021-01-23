@@ -17,3 +17,4 @@ command:
   - '&f/pets spawn wolf'
   - '&f/vote'
   - '&f/cmi warp'
+  - '&f/kit claim'
