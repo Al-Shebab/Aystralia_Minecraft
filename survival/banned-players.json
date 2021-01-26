@@ -1,5 +1,21 @@
 [
   {
+    "uuid": "82e8c306-fc1f-4cb5-bb53-62cfea5cec1f",
+    "name": "2Tik",
+    "created": "2021-01-24 14:05:34 -0800",
+    "source": "AimJunkiesFeeyne",
+    "expires": "forever",
+    "reason": "advertising own server"
+  },
+  {
+    "uuid": "6f99075b-b2e0-32cb-90c8-cd42d8504b86",
+    "name": "m",
+    "created": "2021-01-24 12:13:34 -0800",
+    "source": "AimJunkiesFeeyne",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
     "uuid": "8467a7a3-f54f-46e1-97ba-7cc065c2d4fa",
     "name": "ItsMeThunder",
     "created": "2021-01-21 16:31:37 -0800",

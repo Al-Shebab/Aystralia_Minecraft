@@ -175,7 +175,7 @@ hpBossBar: true
 #  
 # Handling of afk feature. This will disable any checks related to afk and players will never get into afk mode
 # Applies for servers from 1.7.x and up
-afk: true
+afk: false
 #  
 # Handling timed commands like tfly and tgod
 # Applies for servers from 1.7.x and up
