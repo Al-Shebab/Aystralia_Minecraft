@@ -89,6 +89,9 @@ itemStackSizeCappedAt:
   4:
     material: BUCKET
     size: 1
+  5:
+    material: MINECART
+    size: 1
 # Choose what gamemodes will prevent players from accessing shops. Valid values: ADVENTURE, CREATIVE, SPECTATOR, SURVIVAL
 disableShopsInGamemodes:
   - ADVENTURE
@@ -127,27 +130,27 @@ defaultItemSettings:
 shopItemLoreFormat:
   # This lore will be applied to items
   item:
-    - "&7Buy price: &c%buy%"
-    - "&7Sell price: &a%sell%"
-    - "&9Click with MMB to sell all"
+    - "&fBuy price: &a%buy%"
+    - "&fSell price: &c%sell%"
+    - "&fClick with MMB to sell all"
   # This lore will be applied to items in the buy GUI (when enableBuyGUI is set to true)
   itemBuyGUI:
-    - "&7Buy price: &c%buy%"
+    - "&fBuy price: &a%buy%"
   # This lore will be applied to items in the sell GUI (when enableSellGUI is set to true)
   itemSellGUI:
-    - "&7Sell price: &a%sell%"
+    - "&fSell price: &c%sell%"
   # This lore will be applied to the sell all button in the sell GUI (when enableSellGUI and enableSellGUISellAll are set to true)
   itemSellGUISellAll:
-    - "&7Sell all for: &a%sell%"
+    - "&7Sell all for: &c%sell%"
   # This one to permissions
   permission:
-    - "&7Buy price: &c%buy%"
+    - "&fBuy price: &a%buy%"
   # And this one to enchantments
   enchantment:
-    - "&7Buy price: &c%buy%"
+    - "&fBuy price: &a%buy%"
   # And the last one to commands
   command:
-    - "&7Buy price: &c%buy%"
+    - "&fBuy price: &a%buy%"
 
 # Logging settings
 log:
@@ -202,8 +205,8 @@ buttons:
       name: "&c&lGo back to categories"
       # (optional) Lore, can contain multiple lines
       lore:
-        - "&7Click here to return"
-        - "&7to the main menu"
+        - "&fClick here to return"
+        - "&fto the main menu"
     # Slot in each shop's GUI
     slot: 49
   # "Previous page" button
@@ -240,7 +243,7 @@ amountSelectionGUIBulkBuy:
         quantity: 1
         name: "&aBuy 1 stack"
         lore:
-          - "&7Price: &c%buy%"
+          - "&fPrice: &a%buy%"
       # Value indicated the amount of stacks
       value: 1
       slot: 0
@@ -251,7 +254,7 @@ amountSelectionGUIBulkBuy:
         quantity: 2
         name: "&aBuy 2 stacks"
         lore:
-          - "&7Price: &c%buy%"
+          - "&fPrice: &a%buy%"
       value: 2
       slot: 1
     # "Buy 3 stacks" button
@@ -261,7 +264,7 @@ amountSelectionGUIBulkBuy:
         quantity: 3
         name: "&aBuy 3 stacks"
         lore:
-          - "&7Price: &c%buy%"
+          - "&fPrice: &a%buy%"
       value: 3
       slot: 2
     # "Buy 4 stacks" button
@@ -271,7 +274,7 @@ amountSelectionGUIBulkBuy:
         quantity: 4
         name: "&aBuy 4 stacks"
         lore:
-          - "&7Price: &c%buy%"
+          - "&fPrice: &a%buy%"
       value: 4
       slot: 3
     # "Buy 5 stacks" button
@@ -281,7 +284,7 @@ amountSelectionGUIBulkBuy:
         quantity: 5
         name: "&aBuy 5 stacks"
         lore:
-          - "&7Price: &c%buy%"
+          - "&fPrice: &a%buy%"
       value: 5
       slot: 4
     # "Buy 6 stacks" button
@@ -291,7 +294,7 @@ amountSelectionGUIBulkBuy:
         quantity: 6
         name: "&aBuy 6 stacks"
         lore:
-          - "&7Price: &c%buy%"
+          - "&fPrice: &a%buy%"
       value: 6
       slot: 5
     # "Buy 7 stacks" button
@@ -301,7 +304,7 @@ amountSelectionGUIBulkBuy:
         quantity: 7
         name: "&aBuy 7 stacks"
         lore:
-          - "&7Price: &c%buy%"
+          - "&fPrice: &a%buy%"
       value: 7
       slot: 6
     # "Buy 8 stacks" button
@@ -311,7 +314,7 @@ amountSelectionGUIBulkBuy:
         quantity: 8
         name: "&aBuy 8 stacks"
         lore:
-          - "&7Price: &c%buy%"
+          - "&fPrice: &a%buy%"
       value: 8
       slot: 7
     # "Buy 9 stacks" button
@@ -321,7 +324,7 @@ amountSelectionGUIBulkBuy:
         quantity: 9
         name: "&aBuy 9 stacks"
         lore:
-          - "&7Price: &c%buy%"
+          - "&fPrice: &a%buy%"
       value: 9
       slot: 8
     # "Cancel" button
@@ -351,7 +354,7 @@ amountSelectionGUIBulkSell:
         quantity: 1
         name: "&aSell 1 stack"
         lore:
-          - "&7Price: &c%sell%"
+          - "&fPrice: &c%sell%"
       # Value indicated the amount of stacks
       value: 1
       slot: 0
@@ -362,7 +365,7 @@ amountSelectionGUIBulkSell:
         quantity: 2
         name: "&aSell 2 stacks"
         lore:
-          - "&7Price: &c%sell%"
+          - "&fPrice: &c%sell%"
       value: 2
       slot: 1
     # "Sell 3 stacks" button
@@ -372,7 +375,7 @@ amountSelectionGUIBulkSell:
         quantity: 3
         name: "&aSell 3 stacks"
         lore:
-          - "&7Price: &c%sell%"
+          - "&fPrice: &c%sell%"
       value: 3
       slot: 2
     # "Sell 4 stacks" button
@@ -382,7 +385,7 @@ amountSelectionGUIBulkSell:
         quantity: 4
         name: "&aSell 4 stacks"
         lore:
-          - "&7Price: &c%sell%"
+          - "&fPrice: &c%sell%"
       value: 4
       slot: 3
     # "Sell 5 stacks" button
@@ -392,7 +395,7 @@ amountSelectionGUIBulkSell:
         quantity: 5
         name: "&aSell 5 stacks"
         lore:
-          - "&7Price: &c%sell%"
+          - "&fPrice: &c%sell%"
       value: 5
       slot: 4
     # "Sell 6 stacks" button
@@ -402,7 +405,7 @@ amountSelectionGUIBulkSell:
         quantity: 6
         name: "&aSell 6 stacks"
         lore:
-          - "&7Price: &c%sell%"
+          - "&fPrice: &c%sell%"
       value: 6
       slot: 5
     # "Sell 7 stacks" button
@@ -412,7 +415,7 @@ amountSelectionGUIBulkSell:
         quantity: 7
         name: "&aSell 7 stacks"
         lore:
-          - "&7Price: &c%sell%"
+          - "&fPrice: &c%sell%"
       value: 7
       slot: 6
     # "Sell 8 stacks" button
@@ -422,7 +425,7 @@ amountSelectionGUIBulkSell:
         quantity: 8
         name: "&aSell 8 stacks"
         lore:
-          - "&7Price: &c%sell%"
+          - "&fPrice: &c%sell%"
       value: 8
       slot: 7
     # "Sell 9 stacks" button
@@ -432,7 +435,7 @@ amountSelectionGUIBulkSell:
         quantity: 9
         name: "&aSell 9 stacks"
         lore:
-          - "&7Price: &c%sell%"
+          - "&fPrice: &c%sell%"
       value: 9
       slot: 8
     # "Cancel" button
@@ -545,14 +548,34 @@ shopMenuItems:
   1:
     item:
       # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: CHEST
+      material: CRAFTING_TABLE
       quantity: 1
-      name: "&f&lBasics"
+      name: "&2&lBasics"
     # Shop ID from shops yaml
     shop: "basics"
     # Slot in shops menu, counting from 0 to 53
-    slot: 12
+    slot: 10
   2:
+    item:
+      # The same rules apply for material, amount, damage and lore as for goBackButton
+      material: OAK_SAPLING
+      quantity: 1
+      name: "&a&lOrganics"
+    # Shop ID from shops yaml
+    shop: "organics"
+    # Slot in shops menu, counting from 0 to 53
+    slot: 11
+  3:
+    item:
+      # The same rules apply for material, amount, damage and lore as for goBackButton
+      material: REDSTONE
+      quantity: 1
+      name: "&c&lRedstone"
+    # Shop ID from shops yaml
+    shop: "redstone"
+    # Slot in shops menu, counting from 0 to 53
+    slot: 12
+  4:
     item:
       # The same rules apply for material, amount, damage and lore as for goBackButton
       material: WHITE_CONCRETE
@@ -562,23 +585,53 @@ shopMenuItems:
     shop: "concrete"
     # Slot in shops menu, counting from 0 to 53
     slot: 13
-  3:
+  5:
     item:
       # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: FARMLAND
+      material: LAVA_BUCKET
       quantity: 1
-      name: "&a&lFarming"
+      name: "&4&lNether Items"
     # Shop ID from shops yaml
-    shop: "farming"
+    shop: "nether"
     # Slot in shops menu, counting from 0 to 53
     slot: 14
+  6:
+    item:
+      # The same rules apply for material, amount, damage and lore as for goBackButton
+      material: WATER_BUCKET
+      quantity: 1
+      name: "&9&lAquatics"
+    # Shop ID from shops yaml
+    shop: "aquatics"
+    # Slot in shops menu, counting from 0 to 53
+    slot: 15
+  7:
+    item:
+      # The same rules apply for material, amount, damage and lore as for goBackButton
+      material: RED_DYE
+      quantity: 1
+      name: "&c&lD&6&ly&e&le&a&ls"
+    # Shop ID from shops yaml
+    shop: "dyes"
+    # Slot in shops menu, counting from 0 to 53
+    slot: 16
+  8:
+    item:
+      # The same rules apply for material, amount, damage and lore as for goBackButton
+      material: DIAMOND
+      quantity: 1
+      name: "&a&lSellable Items"
+    # Shop ID from shops yaml
+    shop: "sellable"
+    # Slot in shops menu, counting from 0 to 53
+    slot: 40
 
 
 specialElements:
   balance:
     item:
-      material: GOLD_INGOT
+      material: GOLD_NUGGET
       quantity: 1
-      name: "&6&lYour balance"
+      name: "&2&lBalance"
       lore:
-        - "&7%balance%"
+        - "&a%balance%"
