@@ -120,10 +120,10 @@ classic-vanilla-belowname:
   enabled: true
   
   #number or numeric placeholder, supports per-player placeholders
-  number: "%health%"
+  number: "%player_ping%"
   
   #text after number, must be same on all players
-  text: "Health"
+  text: "ms"
 
 #controlling the collision rule
 enable-collision: true

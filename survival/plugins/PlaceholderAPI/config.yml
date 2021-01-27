@@ -29,3 +29,8 @@ expansions:
       quadrillions: Q
       billions: B
       millions: M
+  player:
+    ping_color:
+      medium: '&e'
+      high: '&a'
+      low: '&c'

@@ -1,0 +1,174 @@
+aquatics:
+  name: "&9&lAquatics (page %page%)"
+  fillItem:
+    material: BLACK_STAINED_GLASS_PANE
+    name: " "
+  items:
+    1:
+      type: item
+      item:
+        material: CRAFTING_TABLE
+        quantity: 1
+      buyPrice: 150
+      slot: 10
+    2:
+      type: item
+      item:
+        material: FURNACE
+        quantity: 1
+      buyPrice: 150
+      slot: 11
+    3:
+      type: item
+      item:
+        material: CHEST
+        quantity: 1
+      buyPrice: 300
+      slot: 12
+    4:
+      type: item
+      item:
+        material: ENDER_CHEST
+        quantity: 1
+      buyPrice: 800
+      slot: 13
+    5:
+      type: item
+      item:
+        material: ENCHANTING_TABLE
+        quantity: 1
+      buyPrice: 500
+      slot: 14
+    6:
+      type: item
+      item:
+        material: ANVIL
+        quantity: 1
+      buyPrice: 500
+      slot: 15
+    7:
+      type: item
+      item:
+        material: BREWING_STAND
+        quantity: 1
+      buyPrice: 150
+      slot: 16
+    8:
+      type: item
+      item:
+        material: GLASS
+        quantity: 1
+      buyPrice: 100
+      slot: 19
+    9:
+      type: item
+      item:
+        material: JUKEBOX
+        quantity: 1
+      buyPrice: 500
+      slot: 20
+    10:
+      type: item
+      item:
+        material: HOPPER
+        quantity: 1
+      buyPrice: 200
+      slot: 21
+    11:
+      type: item
+      item:
+        material: TORCH
+        quantity: 1
+      buyPrice: 10
+      slot: 22
+    12:
+      type: item
+      item:
+        material: OAK_SAPLING
+        quantity: 1
+      buyPrice: 10
+      slot: 23
+    13:
+      type: item
+      item:
+        material: SCAFFOLDING
+        quantity: 1
+      buyPrice: 30
+      slot: 24
+    14:
+      type: item
+      item:
+        material: BARREL
+        quantity: 1
+      buyPrice: 120
+      slot: 25
+    15:
+      type: item
+      item:
+        material: COMPOSTER
+        quantity: 1
+      buyPrice: 360
+      slot: 28
+    16:
+      type: item
+      item:
+        material: SMOKER
+        quantity: 1
+      buyPrice: 360
+      slot: 29
+    17:
+      type: item
+      item:
+        material: BLAST_FURNACE
+        quantity: 1
+      buyPrice: 360
+      slot: 30
+    18:
+      type: item
+      item:
+        material: LOOM
+        quantity: 1
+      buyPrice: 360
+      slot: 31
+    19:
+      type: item
+      item:
+        material: GRINDSTONE
+        quantity: 1
+      buyPrice: 360
+      slot: 32
+    20:
+      type: item
+      item:
+        material: BELL
+        quantity: 1
+      buyPrice: 360
+      slot: 33
+    21:
+      type: item
+      item:
+        material: STONECUTTER
+        quantity: 1
+      buyPrice: 360
+      slot: 34
+    22:
+      type: item
+      item:
+        material: FLETCHING_TABLE
+        quantity: 1
+      buyPrice: 360
+      slot: 39
+    23:
+      type: item
+      item:
+        material: CAMPFIRE
+        quantity: 1
+      buyPrice: 360
+      slot: 40
+    24:
+      type: item
+      item:
+        material: LANTERN
+        quantity: 1
+      buyPrice: 360
+      slot: 41

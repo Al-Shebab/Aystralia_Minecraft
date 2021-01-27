@@ -1,5 +1,5 @@
 basics:
-  name: "&a&lBasics"
+  name: "&2&lBasics (page %page%)"
   fillItem:
     material: BLACK_STAINED_GLASS_PANE
     name: " "
