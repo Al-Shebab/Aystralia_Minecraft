@@ -186,3 +186,67 @@ Crates:
             "},{"italic":false,"color":"white","text":"Elytra"}],"text":""}'
           enchants:
             DURABILITY: 3
+      '13':
+        Type: ITEM
+        Item Type: IRON_INGOT
+        Item Data: 0
+        Name: NONE
+        Amount: 3
+        Enchantments: []
+        Lore: []
+      '14':
+        Type: ITEM
+        Item Type: HOPPER
+        Item Data: 0
+        Name: NONE
+        Amount: 8
+        Enchantments: []
+        Lore: []
+      '15':
+        Type: ITEM
+        Item Type: LIGHT_BLUE_SHULKER_BOX
+        Item Data: 1
+        Name: NONE
+        Amount: 1
+        Enchantments: []
+        Lore: []
+      '16':
+        Type: ITEM
+        Item Type: COOKED_BEEF
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '17':
+        Type: ITEM
+        Item Type: POISONOUS_POTATO
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments: []
+        Lore: []
+      '18':
+        Type: ITEM
+        Item Type: ENDER_PEARL
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '19':
+        Type: ITEM
+        Item Type: DIAMOND
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments: []
+        Lore: []
+      '20':
+        Type: ITEM
+        Item Type: FIREWORK_ROCKET
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []

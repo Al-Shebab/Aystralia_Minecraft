@@ -89,10 +89,9 @@ vote-command:
   use-json-text: false
   text: |-
     &b&lVoting Websites:
-    &fhttps://bit.ly/3p4Vjp4
-    &fhttps://bit.ly/3sIDeiO
-    &fhttps://bit.ly/3qBU2Gk
-    &fhttps://bit.ly/3bXoh6p
+    &b- &fhttps://bit.ly/3p4Vjp4
+    &b- &fhttps://bit.ly/3qBU2Gk
+    &b- &fhttps://bit.ly/3bXoh6p
 
 # Vote reminder.
 vote-reminder:
