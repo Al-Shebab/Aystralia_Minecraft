@@ -18,3 +18,4 @@ command:
   - '&f/vote'
   - '&f/cmi warp'
   - '&f/kit claim'
+  - '&f/buyclaimblocks'

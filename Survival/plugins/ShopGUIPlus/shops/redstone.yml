@@ -7,168 +7,147 @@ redstone:
     1:
       type: item
       item:
-        material: CRAFTING_TABLE
+        material: REDSTONE_BLOCK
         quantity: 1
-      buyPrice: 150
+      buyPrice: 100
       slot: 10
     2:
       type: item
       item:
-        material: FURNACE
+        material: REPEATER
         quantity: 1
-      buyPrice: 150
+      buyPrice: 100
       slot: 11
     3:
       type: item
       item:
-        material: CHEST
+        material: COMPARATOR
         quantity: 1
-      buyPrice: 300
+      buyPrice: 150
       slot: 12
     4:
       type: item
       item:
-        material: ENDER_CHEST
+        material: REDSTONE_TORCH
         quantity: 1
-      buyPrice: 800
+      buyPrice: 25
       slot: 13
     5:
       type: item
       item:
-        material: ENCHANTING_TABLE
+        material: OBSERVER
         quantity: 1
-      buyPrice: 500
+      buyPrice: 50
       slot: 14
     6:
       type: item
       item:
-        material: ANVIL
+        material: DISPENSER
         quantity: 1
       buyPrice: 500
       slot: 15
     7:
       type: item
       item:
-        material: BREWING_STAND
+        material: DROPPER
         quantity: 1
       buyPrice: 150
       slot: 16
     8:
       type: item
       item:
-        material: GLASS
+        material: HOPPER
         quantity: 1
-      buyPrice: 100
+      buyPrice: 250
       slot: 19
     9:
       type: item
       item:
-        material: JUKEBOX
+        material: TRIPWIRE_HOOK
         quantity: 1
-      buyPrice: 500
+      buyPrice: 25
       slot: 20
     10:
       type: item
       item:
-        material: HOPPER
+        material: DAYLIGHT_DETECTOR
         quantity: 1
-      buyPrice: 200
+      buyPrice: 25
       slot: 21
     11:
       type: item
       item:
-        material: TORCH
+        material: IRON_TRAPDOOR
         quantity: 1
       buyPrice: 10
       slot: 22
     12:
       type: item
       item:
-        material: OAK_SAPLING
+        material: NOTE_BLOCK
         quantity: 1
       buyPrice: 10
       slot: 23
     13:
       type: item
       item:
-        material: SCAFFOLDING
+        material: LECTERN
         quantity: 1
-      buyPrice: 30
+      buyPrice: 250
       slot: 24
     14:
       type: item
       item:
-        material: BARREL
+        material: TARGET
         quantity: 1
-      buyPrice: 120
+      buyPrice: 250
       slot: 25
     15:
       type: item
       item:
-        material: COMPOSTER
+        material: TNT
         quantity: 1
-      buyPrice: 360
+      buyPrice: 100
       slot: 28
     16:
       type: item
       item:
-        material: SMOKER
+        material: REDSTONE_LAMP
         quantity: 1
-      buyPrice: 360
+      buyPrice: 150
       slot: 29
     17:
       type: item
       item:
-        material: BLAST_FURNACE
+        material: STICKY_PISTON
         quantity: 1
-      buyPrice: 360
+      buyPrice: 500
       slot: 30
     18:
       type: item
       item:
-        material: LOOM
+        material: PISTON
         quantity: 1
-      buyPrice: 360
+      buyPrice: 250
       slot: 31
     19:
       type: item
       item:
-        material: GRINDSTONE
+        material: MINECART
         quantity: 1
-      buyPrice: 360
+      buyPrice: 200
       slot: 32
     20:
       type: item
       item:
-        material: BELL
+        material: POWERED_RAIL
         quantity: 1
-      buyPrice: 360
+      buyPrice: 100
       slot: 33
     21:
       type: item
       item:
-        material: STONECUTTER
+        material: ACTIVATOR_RAIL
         quantity: 1
-      buyPrice: 360
+      buyPrice: 25
       slot: 34
-    22:
-      type: item
-      item:
-        material: FLETCHING_TABLE
-        quantity: 1
-      buyPrice: 360
-      slot: 39
-    23:
-      type: item
-      item:
-        material: CAMPFIRE
-        quantity: 1
-      buyPrice: 360
-      slot: 40
-    24:
-      type: item
-      item:
-        material: LANTERN
-        quantity: 1
-      buyPrice: 360
-      slot: 41
