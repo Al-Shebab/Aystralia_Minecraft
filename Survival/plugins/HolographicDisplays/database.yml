@@ -16,6 +16,6 @@ command:
   - '&b&lCommands'
   - '&f/pets spawn wolf'
   - '&f/vote'
-  - '&f/cmi warp'
+  - /warp
   - '&f/kit claim'
   - '&f/buyclaimblocks'

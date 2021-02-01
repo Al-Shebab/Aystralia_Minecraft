@@ -62,7 +62,7 @@ vote:
       - '{"text":""}'
       enchants:
         DURABILITY: 1
-commands:
+Commands:
   Location: world;-301.58;136.0;171.23;180.57;-3.64
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
   Item:
