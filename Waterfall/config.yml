@@ -3,7 +3,7 @@ listeners:
 - query_port: 25575
   motd: |2-
                    &b&lAystralia Network&r
-        &9&lSurvival | Skyblock | Prison | Creative
+        &9&lSurvival &f| &9&lSkyblock &f| &9&lPrison &f| &9&lCreative
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
@@ -48,37 +48,37 @@ disabled_commands:
 servers:
   Hub:
     motd: |2-
-                     &b&lAystralia Network&r
-          &9&lSurvival | Skyblock | Prison | Creative
+                   &b&lAystralia Network&r
+        &9&lSurvival &f| &9&lSkyblock &f| &9&lPrison &f| &9&lCreative
     address: localhost:25560
     restricted: false
   Survival:
     motd: |2-
-                     &b&lAystralia Network&r
-          &9&lSurvival | Skyblock | Prison | Creative
+                   &b&lAystralia Network&r
+        &9&lSurvival &f| &9&lSkyblock &f| &9&lPrison &f| &9&lCreative
     address: localhost:25561
     restricted: false
   Skyblock:
     motd: |2-
-                     &b&lAystralia Network&r
-          &9&lSurvival | Skyblock | Prison | Creative
+                   &b&lAystralia Network&r
+        &9&lSurvival &f| &9&lSkyblock &f| &9&lPrison &f| &9&lCreative
     address: localhost:25562
     restricted: false
   Creative:
     motd: |2-
-                     &b&lAystralia Network&r
-          &9&lSurvival | Skyblock | Prison | Creative
+                   &b&lAystralia Network&r
+        &9&lSurvival &f| &9&lSkyblock &f| &9&lPrison &f| &9&lCreative
     address: localhost:25563
     restricted: false
   Prison:
     motd: |2-
-                     &b&lAystralia Network&r
-          &9&lSurvival | Skyblock | Prison | Creative
+                   &b&lAystralia Network&r
+        &9&lSurvival &f| &9&lSkyblock &f| &9&lPrison &f| &9&lCreative
     address: localhost:25564
     restricted: false
   Anarchy:
     motd: |2-
-                     &b&lAystralia Network&r
-          &9&lSurvival | Skyblock | Prison | Creative
+                   &b&lAystralia Network&r
+        &9&lSurvival &f| &9&lSkyblock &f| &9&lPrison &f| &9&lCreative
     address: localhost:25566
     restricted: false
