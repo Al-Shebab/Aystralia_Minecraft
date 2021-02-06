@@ -1,40 +1,17 @@
 {
-  "items": [
+  "items": [],
+  "buyingItems": [],
+  "expiredItems": [
     {
       "id": 3,
       "item": "H4sIAAAAAAAAAEWNPQ+CQBBEB9CIxFJ7cjWVJa0xdjaWxpiVW+AiHIZb/Ajhv4sxxm6SmTcvAkL4RmNVG8tZS7mkj5JJzo5ZuwiBUBFhpo27VfQKMdlTzVj3ip/SkkqPvZIxqlQdPkDc5LGUHO8a7dRwSn6lGjDHYmuzkqzUbGW8Bryve/l3d/bSMl2NLXwE1b2CN64w3TSdFQ9vP9Dpu64AAAA=",
       "price": 10000000,
       "player": "KaoticOCE",
       "uuid": "3368f471-c1d5-4f9f-8b0e-2245724bf905",
-      "time": 1612192045665,
+      "time": 1612479403296,
       "economy": "VAULT",
       "isAlreadyBuying": false,
       "canBuy": true
-    }
-  ],
-  "buyingItems": [],
-  "expiredItems": [
-    {
-      "id": 1,
-      "item": "H4sIAAAAAAAAAEXLQQ5AMBBG4b9EQmPJZWzFOWTooMFIdMr1SSxsX95ngRyJd6h3LzyeNGlzL0zaB2YXLFKluUDZybiQ6M6ibwTMp6pfRRlOptXLnCDdrg3mvZC1RxQ1eACWb2ataAAAAA==",
-      "price": 10,
-      "player": "KaoticOCE",
-      "uuid": "3368f471-c1d5-4f9f-8b0e-2245724bf905",
-      "time": 1612278408311,
-      "economy": "VAULT",
-      "isAlreadyBuying": false,
-      "canBuy": false
-    },
-    {
-      "id": 2,
-      "item": "H4sIAAAAAAAAAEXLQQ5AMBBG4b9EQmPJZWzFOWTooMFIdMr1SSxsX95ngRyJd6h3LzyeNGlzL0zaB2YXLFKluUDZybiQ6M6ibwTMp6pfRRlOptXLnCDdrg3mvZC1RxQ1eACWb2ataAAAAA==",
-      "price": 1000000,
-      "player": "KaoticOCE",
-      "uuid": "3368f471-c1d5-4f9f-8b0e-2245724bf905",
-      "time": 1612278430827,
-      "economy": "VAULT",
-      "isAlreadyBuying": false,
-      "canBuy": false
     }
   ],
   "USER": "163123"
