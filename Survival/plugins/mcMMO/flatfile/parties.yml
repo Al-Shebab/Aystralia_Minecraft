@@ -1,0 +1,18 @@
+The_boys:
+  Leader: c332650d-d700-420c-b542-50f676d2cbb8|RobbiePTSD
+  Password: Boys
+  Locked: true
+  Level: 10
+  Xp: 105
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - c332650d-d700-420c-b542-50f676d2cbb8|RobbiePTSD
+  - a05cb840-81a2-4fb4-ad62-39a1150016ed|BlizzALT4

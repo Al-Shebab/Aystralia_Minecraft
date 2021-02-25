@@ -224,7 +224,7 @@ Optimizations:
   IP:
     # When set to true, players ip will be recorded for future use, like recognizing players other accounts
     # Some commands will have limited usage when this is disabled
-    Record: true
+    Record: false
     # How long in second to wait until players ip is being recorded into data base
     # This only applies for offline servers to allow for player first of all to login before recording ip
     # Try to keep this value lower than your login plugin's allowed login time
@@ -1361,7 +1361,7 @@ WorldLimits:
 # Checks and shows on players login if he have been changed hes name over Mojang
 # Looks to be working only with online servers, duhhhh
 CheckForNameChange:
-  OnLogin: true
+  OnLogin: false
   AmountToShow: 10
   OnInfoShow: true
   # Do you want to perform commands

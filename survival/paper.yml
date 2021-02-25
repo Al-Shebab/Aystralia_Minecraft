@@ -78,6 +78,8 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    ender-dragons-death-always-places-dragon-egg: false
+    update-pathfinding-on-block-update: true
     only-players-collide: false
     allow-vehicle-collisions: true
     portal-search-vanilla-dimension-scaling: true
