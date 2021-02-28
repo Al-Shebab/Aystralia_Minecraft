@@ -17,7 +17,7 @@ Entities:
 
   # The text displayed above an entities head where {TYPE} refers to
   # The entities type and {AMT} is the amount currently stacked.
-  Name Format: '&f{TYPE} &6{AMT}x'
+  Name Format: '&f{TYPE} &b{AMT}x'
 
   # The distance entities must be to each other in order to stack.
   Search Radius: 5

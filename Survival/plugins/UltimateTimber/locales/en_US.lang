@@ -2,7 +2,7 @@
 
 general:
   nametag:
-    prefix: ''
+    prefix: '&f[&bUltimateTimber&f]'
   nopermission: '&cYou don''t have permission for that!'
 # Command Messages
 command:
