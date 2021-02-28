@@ -4,7 +4,7 @@ Main:
   Spawner Max Stack: 999
 
   # The text displayed in the hologram positioned above every spawner.
-  Spawner Name Format: '&c{TYPE} &fSpawner &cx{AMT}'
+  Spawner Name Format: '&c{TYPE} &fSpawner &c{AMT}x'
 
   # Spawners placed next to each other within this radius will automatically
   # combine with each other.
@@ -47,7 +47,7 @@ Main:
   Sounds Enabled: true
 
   # Should a spawners hologram display its tier if it's tier one?
-  Display Tier In Spawner Title If Tier 1: false
+  Display Tier In Spawner Title If Tier 1: true
 
   # Should spawners of different mob types be stackable into a single spawner?
   OmniSpawners Enabled: true
