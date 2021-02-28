@@ -17,6 +17,7 @@ header:
 footer:
   - ""
   - "&fPing: &b%ping%"
+  - "&fTPS: &b%server_tps_1%"
   - "&b%time%"
   - "%animation:NAME%"
 

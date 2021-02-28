@@ -1,20 +1,21 @@
 spawn1:
-  location: world, -1378.500, 63.000, 335.500
+  location: world, -301.508, 139.200, 260.532
   lines:
-  - '&b&lWelcome to Aystralia!'
-  - '&f&lSelect a server using the server selector!'
-spawn2:
-  location: world, -1385.500, 63.000, 328.500
+  - '&f&lWelcome to &b&lAystralia!'
+  - '&b&lUseful Commands'
+  - '&f/shop'
+  - '&f/ah'
+  - '&f/jobs'
+  - '&f/mcmmo help'
+  - '&f/sethome'
+  - '&b&lIf you are ready'
+  - '&b&lUse &f/rtp &b&lto start'
+command:
+  location: world, -301.481, 139.200, 248.510
   lines:
-  - '&b&lWelcome to Aystralia!'
-  - '&f&lSelect a server using the server selector!'
-spawn3:
-  location: world, -1378.500, 63.000, 321.500
-  lines:
-  - '&b&lWelcome to Aystralia!'
-  - '&f&lSelect a server using the server selector!'
-spawn4:
-  location: world, -1371.500, 63.000, 328.500
-  lines:
-  - '&b&lWelcome to Aystralia!'
-  - '&f&lSelect a server using the server selector!'
+  - '&b&lCommands'
+  - '&f/pets spawn wolf'
+  - '&f/vote'
+  - /warp
+  - '&f/kit claim'
+  - '&f/buyclaimblocks'
