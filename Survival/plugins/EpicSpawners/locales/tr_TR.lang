@@ -7,10 +7,8 @@ general:
     next: '&9Sonraki'
     back: '&9Önceki'
     confirm: '&a&lOnayla'
-    currency: '$'
-
+    currency: $
 # Interface Messages
-
 interface:
   spawner:
     upgradewithxp: '&aXP aracılığı ile yükselt'
@@ -60,15 +58,11 @@ interface:
     title: '&c%spawner%''ı %amount% dakika güçlendiriliyor'
     cost: '&7Fiyat: &6&l%cost%.'
     boostfor: '&6&l%amount% &7&ldakika güçlendir'
-
 # Command Messages
-
 command:
   give:
     success: '&7Sana %amount% adet &6%type%&7 verildi.'
-
 # Event Messages
-
 event:
   general:
     nopermission: '&cBunu yapmaya yetkiniz bulunmuyor.'

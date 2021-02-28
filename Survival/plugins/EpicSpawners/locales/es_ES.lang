@@ -7,10 +7,8 @@ general:
     next: '&9Siguiente'
     back: '&9Atrás'
     confirm: '&a&lConfirmar'
-    currency: '$'
-
+    currency: $
 # Mensajes de Interfaz
-
 interface:
   spawner:
     upgradewithxp: '&aMejorar con XP'
@@ -60,15 +58,11 @@ interface:
     title: '&cAcelerando generador %spawner% &cpor %amount%'
     cost: '&7Cuesta &6&l%cost%.'
     boostfor: '&7&lAcelerado por &6&l%amount% &7&lMinutos'
-
 # Mensajes de Comandos
-
 command:
   give:
     success: '&7Has recibido %amount% &6Generadores de %type%&7.'
-
 # Mensajes de Eventos
-
 event:
   general:
     nopermission: '&cNo tienes permitido hacer eso.'

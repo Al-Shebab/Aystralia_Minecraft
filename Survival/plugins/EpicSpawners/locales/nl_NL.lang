@@ -7,10 +7,8 @@ general:
     next: '&9Volgende'
     back: '&9Terug'
     confirm: '&a&lBevestigen'
-    currency: '$'
-
+    currency: $
 # Interface Messages
-
 interface:
   spawner:
     upgradewithxp: '&aUpgraden met XP'
@@ -60,15 +58,11 @@ interface:
     title: '&c%spawner% &cwordt versterkt met %amount%'
     cost: '&7Kost &6&l%cost%.'
     boostfor: '&7&lVersterkt voor &6&l%amount% &7&lMinuten'
-
 # Command Messages
-
 command:
   give:
     success: '&7You have been given %amount% &6%type%&7.'
-
 # Event Messages
-
 event:
   general:
     nopermission: '&cJe hebt geen toestemming om dat te doen.'

@@ -7,10 +7,8 @@ general:
     next: '&9Neste'
     back: '&9Tilbake'
     confirm: '&a&lBekreft'
-    currency: '$'
-
+    currency: $
 # Interface Messages
-
 interface:
   spawner:
     upgradewithxp: '&aOppgrader med XP'
@@ -60,15 +58,11 @@ interface:
     title: '&8Øker %spawner% &8med %amount%'
     cost: '&7Pris &6&l%cost%.'
     boostfor: '&7&lØk for &6&l%amount% &7&lMinutter'
-
 # Command Messages
-
 command:
   give:
     success: '&7Du har fått %amount% &6%type%&7.'
-
 # Event Messages
-
 event:
   general:
     nopermission: '&cDu har ikke privileger for å gjøre dette.'

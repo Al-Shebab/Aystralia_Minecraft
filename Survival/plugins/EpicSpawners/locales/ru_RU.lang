@@ -7,10 +7,8 @@ general:
     next: '&9Вперед'
     back: '&9Назад'
     confirm: '&a&lПодтверждение'
-    currency: '$'
-
+    currency: $
 # Сообщения интерфейса
-
 interface:
   spawner:
     upgradewithxp: '&aОбновление опытом'
@@ -60,15 +58,11 @@ interface:
     title: '&8Буст %spawner% &8на %amount%'
     cost: '&7Стоимость: &6&l%cost%.'
     boostfor: '&7&lБуст на &6&l%amount% &7&lминут(ы)'
-
 # Командные сообщения
-
 command:
   give:
     success: '&7Вам было выдано x%amount% &6%type%&7.'
-
 # Сообщения о событиях
-
 event:
   general:
     nopermission: '&cУ вас нет разрешения на это.'

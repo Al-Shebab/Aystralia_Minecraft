@@ -7,10 +7,8 @@ general:
     next: '&9Prox'
     back: '&9Voltar'
     confirm: '&a&lConfirma'
-    currency: '$'
-
+    currency: $
 # Interface Messages
-
 interface:
   spawner:
     upgradewithxp: '&aAtualizacao usando XP'
@@ -60,15 +58,11 @@ interface:
     title: '&c%spawner% Boostado por %amount%'
     boostfor: '&7&lBost por &6&l%amount% &7&lMinutos'
     cost: '&7Custa &6&l%cost%.'
-
 # Command Messages
-
 command:
   give:
     success: '&7Foi dado &6%amount%&7x &6Spawners &7do tipo &6%type%&7.'
-
 # Event Messages
-
 event:
   general:
     nopermission: '&cVocê não tem permissão para fazer isso.'
@@ -81,7 +75,7 @@ event:
     success: '&7Voce &cdesatualizou &7este spawner para o level &6%level%.'
   block:
     place: '&7+ &6%type%&7.'
-    broken: 'Este spawner foi removido e voce nao pode colocar ele.'
+    broken: Este spawner foi removido e voce nao pode colocar ele.
     chargeplace: '&7Voce sera cobrado por &6$%cost% &7se voce nao quebrar este spawner no tempo de &61 Minuto&7!'
     break: '&7- &6%type%&7.'
     chargebreak: '&7Voce sera cobrado por &6$%cost% &7por quebrar este spawner! Quebre denovo para confirmar!'
@@ -93,7 +87,7 @@ event:
     cannotbreak: '&7Voce nao pode quebrar este &6spawner&7!'
   goal:
     alert: '&7Você precisa matar mais &6%goal% &7para ganha um spawner do tipo &6%type%&7.'
-    reached: 'Spawner do tipo &6%type% &7foi descartado!'
+    reached: Spawner do tipo &6%type% &7foi descartado!
   egg:
     needmore: '&7Voce precisa de &6%amount% &7ovos para mudar esse spawner.'
     sametype: '&7Esse spawner ja é do tipo &6%type%s&7.'

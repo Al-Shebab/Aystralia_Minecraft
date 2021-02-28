@@ -7,13 +7,11 @@ general:
     next: '&9Prochain'
     back: '&9Précédent'
     confirm: '&a&lConfirmer'
-    currency: '$'
-
+    currency: $
 # Interface Messages
-
 interface:
   spawner:
-    upgradewithxp: "&aAméliorer avec de l''experience."
+    upgradewithxp: '&aAméliorer avec de l''''experience.'
     upgradewithxplore: '&7Coût: &a%cost% niveaux'
     upgradewitheconomy: '&aAméliorer avec de l''argent.'
     upgradewitheconomylore: '&7Coût: &a%cost%'
@@ -60,15 +58,11 @@ interface:
     title: '&8Boost de %spawner% &8par %amount%'
     cost: '&7Coût &6&l%cost%.'
     boostfor: '&7&lBoost de &6&l%amount% &7&lMinutes'
-
 # Command Messages
-
 command:
   give:
     success: '&7Vous avez reçu %amount% &6%type%&7.'
-
 # Event Messages
-
 event:
   general:
     nopermission: '&cDésolé.. Vous n''avez pas la permission de faire ceci.'

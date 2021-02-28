@@ -7,10 +7,8 @@ general:
     next: '&9Nästa'
     back: '&9Tillbaka'
     confirm: '&a&lBekräfta'
-    currency: '$'
-
+    currency: $
 # Interface Messages
-
 interface:
   spawner:
     upgradewithxp: '&aUpgradera med erfarenhet'
@@ -60,15 +58,11 @@ interface:
     title: '&cFörbättrar %spawner% &cmed %amount%'
     cost: '&7Kostand &6&l%cost%.'
     boostfor: '&7&lFörbättrar för &6&l%amount% &7&lMinuter'
-
 # Command Messages
-
 command:
   give:
     success: '&7Du har blivit given %amount% &6%type%&7.'
-
 # Event Messages
-
 event:
   general:
     nopermission: '&cDu har inte tillstånd att göra det.'

@@ -7,10 +7,8 @@ general:
     next: '&9Nastepna'
     back: '&9Poprzednia'
     confirm: '&a&lPotwierdz'
-    currency: '$'
-
+    currency: $
 # Interface Messages
-
 interface:
   spawner:
     upgradewithxp: '&aUlepsz za XP'
@@ -60,15 +58,11 @@ interface:
     title: '&cWzmacnianie %spawner% &cZ %amount%'
     cost: '&7Koszt &6&l%cost%.'
     boostfor: '&7&lWzmocniono na &6&l%amount% &7&lMinutes'
-
 # Command Messages
-
 command:
   give:
     success: '&7Otrzymales %amount% &6%type%&7.'
-
 # Event Messages
-
 event:
   general:
     nopermission: '&cNie masz dostepu do tej komendy..'

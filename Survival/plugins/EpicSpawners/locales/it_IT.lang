@@ -7,10 +7,8 @@ general:
     next: '&9Prossimo'
     back: '&9Indietro'
     confirm: '&a&lConferma'
-    currency: '$'
-
+    currency: $
 # Interface Messages
-
 interface:
   spawner:
     upgradewithxp: '&aMigliora con XP'
@@ -60,15 +58,11 @@ interface:
     title: '&8Velocizzando %spawner% &8per %amount%'
     cost: '&7Costa &6&l%cost%.'
     boostfor: '&7&lVelocizza per &6&l%amount% &7&lMinuti'
-
 # Command Messages
-
 command:
   give:
     success: '&7Ti è stato dato %amount% &6%type%&7.'
-
 # Event Messages
-
 event:
   general:
     nopermission: '&cNon hai il permesso per farlo.'
@@ -81,7 +75,7 @@ event:
     success: '&7hai retrocesso il livello di questo spawner di &6%level%x&7.'
   block:
     place: '&7Hai piazzato un &6%type%&7.'
-    broken: 'Questo tipo di spawner è stato rimosso e quindi non lo puoi piazzare'
+    broken: Questo tipo di spawner è stato rimosso e quindi non lo puoi piazzare
     chargeplace: '&7Ti saranno addebitati &6$%cost% &7se non rompi questo spawner in 1 minuto.'
     break: '&7Hai rotto un &6%type%&7.'
     chargebreak: '&7Ti saranno addebitati &6$%cost% &7Per aver rotto questo spawner. Rompi ancora per confermare.'
