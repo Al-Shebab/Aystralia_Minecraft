@@ -138,5 +138,5 @@ GriefPrevention:
       Social Activity: true
       Suspicious Activity: true
       Administrative Activity: false
-      Debug: false
+      Debug: true
       Muted Chat Messages: false
