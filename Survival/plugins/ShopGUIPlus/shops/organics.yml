@@ -1,5 +1,5 @@
 organics:
-  name: "&a&lOrganics (page %page%)"
+  name: "&a&lOrganics"
   fillItem:
     material: BLACK_STAINED_GLASS_PANE
     name: " "

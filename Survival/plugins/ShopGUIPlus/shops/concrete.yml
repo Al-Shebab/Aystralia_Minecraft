@@ -1,5 +1,5 @@
 concrete:
-  name: "&f&lConcrete (page %page%)"
+  name: "&f&lConcrete"
   fillItem:
     material: BLACK_STAINED_GLASS_PANE
     name: " "

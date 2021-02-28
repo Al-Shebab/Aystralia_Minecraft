@@ -1,5 +1,5 @@
 nether:
-  name: "&4&lNether Items (page %page%)"
+  name: "&4&lNether Items"
   fillItem:
     material: BLACK_STAINED_GLASS_PANE
     name: " "
@@ -7,168 +7,168 @@ nether:
     1:
       type: item
       item:
-        material: CRAFTING_TABLE
+        material: lava_bucket
         quantity: 1
       buyPrice: 150
       slot: 10
     2:
       type: item
       item:
-        material: FURNACE
+        material: crimson_nylium
         quantity: 1
-      buyPrice: 150
+      buyPrice: 25
       slot: 11
     3:
       type: item
       item:
-        material: CHEST
+        material: crimson_stem
         quantity: 1
-      buyPrice: 300
+      buyPrice: 25
       slot: 12
     4:
       type: item
       item:
-        material: ENDER_CHEST
+        material: crimson_hyphae
         quantity: 1
-      buyPrice: 800
+      buyPrice: 25
       slot: 13
     5:
       type: item
       item:
-        material: ENCHANTING_TABLE
+        material: warped_nylium
         quantity: 1
-      buyPrice: 500
+      buyPrice: 25
       slot: 14
     6:
       type: item
       item:
-        material: ANVIL
+        material: warped_stem
         quantity: 1
-      buyPrice: 500
+      buyPrice: 25
       slot: 15
     7:
       type: item
       item:
-        material: BREWING_STAND
+        material: warped_hyphae
         quantity: 1
-      buyPrice: 150
+      buyPrice: 25
       slot: 16
     8:
       type: item
       item:
-        material: GLASS
+        material: basalt
         quantity: 1
-      buyPrice: 100
+      buyPrice: 10
       slot: 19
     9:
       type: item
       item:
-        material: JUKEBOX
+        material: polished_basalt
         quantity: 1
-      buyPrice: 500
+      buyPrice: 25
       slot: 20
     10:
       type: item
       item:
-        material: HOPPER
+        material: netherrack
         quantity: 1
-      buyPrice: 200
+      buyPrice: 1
       slot: 21
     11:
       type: item
       item:
-        material: TORCH
+        material: soul_sand
         quantity: 1
-      buyPrice: 10
+      buyPrice: 5
       slot: 22
     12:
       type: item
       item:
-        material: OAK_SAPLING
+        material: soul_soil
         quantity: 1
       buyPrice: 10
       slot: 23
     13:
       type: item
       item:
-        material: SCAFFOLDING
+        material: nether_bricks
         quantity: 1
       buyPrice: 30
       slot: 24
     14:
       type: item
       item:
-        material: BARREL
+        material: cracked_nether_bricks
         quantity: 1
-      buyPrice: 120
+      buyPrice: 40
       slot: 25
     15:
       type: item
       item:
-        material: COMPOSTER
+        material: chiseled_nether_bricks
         quantity: 1
-      buyPrice: 360
+      buyPrice: 50
       slot: 28
     16:
       type: item
       item:
-        material: SMOKER
+        material: nether_brick_stairs
         quantity: 1
-      buyPrice: 360
+      buyPrice: 50
       slot: 29
     17:
       type: item
       item:
-        material: BLAST_FURNACE
+        material: magma_block
         quantity: 1
-      buyPrice: 360
+      buyPrice: 50
       slot: 30
     18:
       type: item
       item:
-        material: LOOM
+        material: nether_wart_block
         quantity: 1
-      buyPrice: 360
+      buyPrice: 50
       slot: 31
     19:
       type: item
       item:
-        material: GRINDSTONE
+        material: warped_wart_block
         quantity: 1
-      buyPrice: 360
+      buyPrice: 50
       slot: 32
     20:
       type: item
       item:
-        material: BELL
+        material: red_nether_bricks
         quantity: 1
-      buyPrice: 360
+      buyPrice: 50
       slot: 33
     21:
       type: item
       item:
-        material: STONECUTTER
+        material: red_nether_bricks_stairs
         quantity: 1
-      buyPrice: 360
+      buyPrice: 50
       slot: 34
     22:
       type: item
       item:
-        material: FLETCHING_TABLE
+        material: crying_obsidian
         quantity: 1
-      buyPrice: 360
+      buyPrice: 500
       slot: 39
     23:
       type: item
       item:
-        material: CAMPFIRE
+        material: guilded_blackstone
         quantity: 1
-      buyPrice: 360
+      buyPrice: 50
       slot: 40
     24:
       type: item
       item:
-        material: LANTERN
+        material: blackstone
         quantity: 1
-      buyPrice: 360
+      buyPrice: 25
       slot: 41

@@ -1,5 +1,5 @@
 redstone:
-  name: "&c&lRedstone (page %page%)"
+  name: "&c&lRedstone"
   fillItem:
     material: BLACK_STAINED_GLASS_PANE
     name: " "

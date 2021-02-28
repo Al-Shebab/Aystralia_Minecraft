@@ -1,5 +1,5 @@
 aquatics:
-  name: "&9&lAquatics (page %page%)"
+  name: "&9&lAquatics"
   fillItem:
     material: BLACK_STAINED_GLASS_PANE
     name: " "
