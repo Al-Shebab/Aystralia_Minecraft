@@ -4439,10 +4439,10 @@ command:
       info: '&fVanish player'
       args: (playerName/list) (on/off)
     info:
-      vanished: '&fYou have vanished'
-      unvanish: '&fYou became visible'
-      targetVanished: '&b[playerDisplayName] &fhave vanished'
-      targetUnvanish: '&b[playerDisplayName] &fbecame visible'
+      vanished: '&cYou have vanished'
+      unvanish: '&aYou became visible'
+      targetVanished: '&f[playerDisplayName] &chave vanished'
+      targetUnvanish: '&f[playerDisplayName] &abecame visible'
       list: '&f[place]. &b[playerDisplayName] &f(&b[offon]&f)'
       noVanished: '&fThere are no vanished players'
       noMsg: '&cCant send messages while vanished. Update this in vanishedit'
