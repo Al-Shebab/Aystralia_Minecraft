@@ -58,7 +58,7 @@ disable-attack-sounds:
 
 disable-crafting:
   # Disable the crafting of specified items
-  enabled: true
+  enabled: false
   worlds: []
   # List of denied items
   denied: [shield]
