@@ -1,7 +1,7 @@
 Main:
 
   # The maximum stack size a spawner can be stacked to.
-  Spawner Max Stack: 5
+  Spawner Max Stack: 999
 
   # The text displayed in the hologram positioned above every spawner.
   Spawner Name Format: '&c{TYPE} &fSpawner &cx{AMT}'
@@ -63,7 +63,7 @@ Main:
 
   # Prevent water from flowing next to or on top of a spawner within the here declared radius.
   # Set to 0 to disable.
-  Spawner Repel Liquid Radius: 1
+  Spawner Repel Liquid Radius: 0
 
   # Does redstone power disable a spawner?
   Redstone Power Deactivates Spawners: true
