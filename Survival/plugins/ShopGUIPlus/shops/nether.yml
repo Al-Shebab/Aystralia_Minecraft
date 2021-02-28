@@ -147,7 +147,7 @@ nether:
     21:
       type: item
       item:
-        material: red_nether_bricks_stairs
+        material: red_nether_brick_stairs
         quantity: 1
       buyPrice: 50
       slot: 34
@@ -161,7 +161,7 @@ nether:
     23:
       type: item
       item:
-        material: guilded_blackstone
+        material: gilded_blackstone
         quantity: 1
       buyPrice: 50
       slot: 40

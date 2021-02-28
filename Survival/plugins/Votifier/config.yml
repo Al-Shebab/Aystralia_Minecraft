@@ -13,13 +13,13 @@ disable-v1-protocol: false
 # All tokens, labeled by the serviceName of each server list.
 tokens:
   # Default token for all server lists, if another isn't supplied.
-  default: qvvl278gm5kgc8dp9mi8u6agce
+  default: 9lba1p8jc559non7c7lbr5j826
 
 # Configuration section for all vote forwarding to NuVotifier
 forwarding:
   # Sets whether to set up a remote method for fowarding. Supported methods:
   # - none - Does not set up a forwarding method.
   # - pluginMessaging - Sets up plugin messaging
-  method: none
+  method: pluginMessaging
   pluginMessaging:
     channel: nuvotifier:votes
