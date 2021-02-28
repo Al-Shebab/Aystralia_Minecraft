@@ -4,7 +4,7 @@ Main:
   Spawner Max Stack: 5
 
   # The text displayed in the hologram positioned above every spawner.
-  Spawner Name Format: '&e{TYPE} &fSpawner [&c{AMT}x]'
+  Spawner Name Format: '&b{TYPE} &fSpawner &b{AMT}x'
 
   # Spawners placed next to each other within this radius will automatically
   # combine with each other.
@@ -26,7 +26,7 @@ Main:
   Alerts On Place And Break: true
 
   # Toggle ability to receive a stacked spawner when breaking a spawner while sneaking.
-  Sneak To Receive A Stacked Spawner: true
+  Sneak To Receive A Stacked Spawner: false
 
   # Toggle holograms showing above spawners.
   Spawners Have Holograms: true
@@ -53,13 +53,13 @@ Main:
   OmniSpawners Enabled: true
 
   # Ability to change mob spawner type with spawn eggs.
-  Convert Spawners With Eggs: true
+  Convert Spawners With Eggs: false
 
   # Can spawners be upgraded with money?
-  Upgrade With Economy: true
+  Upgrade With Economy: false
 
   # Can spawners be upgraded with Levels?
-  Upgrade With Levels: true
+  Upgrade With Levels: false
 
   # Prevent water from flowing next to or on top of a spawner within the here declared radius.
   # Set to 0 to disable.
@@ -124,7 +124,7 @@ Main:
 
   # Which hologram plugin should be used?
   # You can choose from "CMI, HolographicDisplays".
-  Hologram: CMI
+  Hologram: HolographicDisplays
 
   # Should we use protection plugins?
   Use Protection Plugins: true
