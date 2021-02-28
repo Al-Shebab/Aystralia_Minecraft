@@ -23,7 +23,7 @@ Main:
   Radius To Search Around Spawners: 8x4x8
 
   # Toggle an alerting chat message after triggered by placing or breaking a spawner.
-  Alerts On Place And Break: true
+  Alerts On Place And Break: false
 
   # Toggle ability to receive a stacked spawner when breaking a spawner while sneaking.
   Sneak To Receive A Stacked Spawner: true
