@@ -178,39 +178,25 @@ organics:
         material: vine
         quantity: 1
       buyPrice: 10
-      slot: 44
+      slot: 42
     26:
       type: item
       item:
         material: lily_pad
         quantity: 1
       buyPrice: 10
-      slot: 45
+      slot: 43
     27:
       type: item
       item:
         material: lilac
         quantity: 1
       buyPrice: 10
-      slot: 46
+      slot: 38
     28:
       type: item
       item:
         material: rose_bush
         quantity: 1
       buyPrice: 10
-      slot: 47
-    29:
-      type: item
-      item:
-        material: peony
-        quantity: 1
-      buyPrice: 10
-      slot: 48
-    30:
-      type: item
-      item:
-        material: tall_grass
-        quantity: 1
-      buyPrice: 10
-      slot: 49
+      slot: 37
