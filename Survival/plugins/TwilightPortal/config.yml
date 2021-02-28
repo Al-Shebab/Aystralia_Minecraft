@@ -1,8 +1,0 @@
-#portal destination
-world: world
-x: 0
-y: 0
-z: 0
-#worlds allowed to create portal
-Enabledworlds:
-- world

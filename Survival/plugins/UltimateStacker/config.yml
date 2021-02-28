@@ -13,7 +13,7 @@ Main:
 Entities:
 
   # Should entities be stacked?
-  Enabled: false
+  Enabled: true
 
   # The text displayed above an entities head where {TYPE} refers to
   # The entities type and {AMT} is the amount currently stacked.
@@ -23,7 +23,7 @@ Entities:
   Search Radius: 5
 
   # The max amount of entities in a single stack.
-  Max Stack Size: 15
+  Max Stack Size: 30
 
   # The minimum amount required before a stack can be formed.
   # Do not set this to lower than 2.
@@ -40,16 +40,16 @@ Entities:
   Holograms Enabled: true
 
   # Only show nametags above an entities head when looking directly at them.
-  Only Show Holograms On Look: false
+  Only Show Holograms On Look: true
   Custom Drops:
 
     # Should custom drops be enabled?
-    Enabled: true
+    Enabled: false
 
     # Increases chance of uncommon drops by making a second attempt to
     # drop if the original attempt failed (Requires the looting enchantment).
     # This is a default Minecraft mechanic.
-    Reroll: true
+    Reroll: false
 
   # Should killing a stack of entities kill the whole stack or
   # just one out of the stack? If you want only certain entities to be
@@ -59,7 +59,7 @@ Entities:
   # When enabled, the plugin will hook into ClearLag and extend the
   # clear task to include stacked entities from this plugin. If this is enabled
   # the built in task will not run.
-  Clear Lag: false
+  Clear Lag: true
 
   # Events that will trigger an entire stack to be killed.
   # It should be noted that this is useless if the above setting is true.
@@ -133,7 +133,7 @@ Entities:
   # It should be noted that the identifier that tells the plugin
   # if the entity originated from a spawner or not is wiped on
   # server restart.
-  Only Stack From Spawners: false
+  Only Stack From Spawners: true
 
   # This will limit mob stacking to mobs who spawned via the listed reasons.
   # This list is ignored if Only Stack From Spawners = true.
