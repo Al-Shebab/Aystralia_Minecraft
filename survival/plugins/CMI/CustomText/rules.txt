@@ -1,3 +1,6 @@
 <AutoPage>
 &b&lRules
-&fhttp://bit.ly/aystraliamc
+
+&9The rules can be found on our forum below.
+
+&9https://forums.aystralia.com.au/topic/61-survival-rules/
