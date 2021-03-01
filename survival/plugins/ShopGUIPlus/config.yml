@@ -35,7 +35,7 @@ shopMenuFillItem:
   material: BLACK_STAINED_GLASS_PANE
   name: " "
 # Define whether selling all with middle mouse button is enabled
-enableSellAll: false
+enableSellAll: true
 # Define whether the buy GUI with option to select quantity is enabled
 enableBuyGUI: true
 # Define whether the sell GUI with option to select quantity is enabled
@@ -620,11 +620,31 @@ shopMenuItems:
       # The same rules apply for material, amount, damage and lore as for goBackButton
       material: DIAMOND
       quantity: 1
-      name: "&a&lSellable Items"
+      name: "&6&lSellable Items"
     # Shop ID from shops yaml
     shop: "sellable"
     # Slot in shops menu, counting from 0 to 53
-    slot: 40
+    slot: 22
+  9:
+    item:
+      # The same rules apply for material, amount, damage and lore as for goBackButton
+      material: SPAWNER
+      quantity: 1
+      name: "&c&lSpawners"
+    # Shop ID from shops yaml
+    shop: "spawners"
+    # Slot in shops menu, counting from 0 to 53
+    slot: 23
+  10:
+    item:
+      # The same rules apply for material, amount, damage and lore as for goBackButton
+      material: PIG_SPAWN_EGG
+      quantity: 1
+      name: "&a&lSpawn Eggs"
+    # Shop ID from shops yaml
+    shop: "eggs"
+    # Slot in shops menu, counting from 0 to 53
+    slot: 21
 
 
 specialElements:

@@ -7,168 +7,196 @@ aquatics:
     1:
       type: item
       item:
-        material: CRAFTING_TABLE
+        material: water_bucket
         quantity: 1
-      buyPrice: 150
+      buyPrice: 10
       slot: 10
     2:
       type: item
       item:
-        material: FURNACE
+        material: sponge
         quantity: 1
-      buyPrice: 150
+      buyPrice: 300
       slot: 11
     3:
       type: item
       item:
-        material: CHEST
+        material: seagrass
         quantity: 1
-      buyPrice: 300
+      buyPrice: 10
       slot: 12
     4:
       type: item
       item:
-        material: ENDER_CHEST
+        material: sea_pickle
         quantity: 1
-      buyPrice: 800
+      buyPrice: 10
       slot: 13
     5:
       type: item
       item:
-        material: ENCHANTING_TABLE
+        material: kelp
         quantity: 1
-      buyPrice: 500
+      buyPrice: 10
       slot: 14
     6:
       type: item
       item:
-        material: ANVIL
+        material: brain_coral_block
         quantity: 1
-      buyPrice: 500
+      buyPrice: 25
       slot: 15
     7:
       type: item
       item:
-        material: BREWING_STAND
+        material: bubble_coral_block
         quantity: 1
-      buyPrice: 150
+      buyPrice: 25
       slot: 16
     8:
       type: item
       item:
-        material: GLASS
+        material: fire_coral_block
         quantity: 1
-      buyPrice: 100
+      buyPrice: 25
       slot: 19
     9:
       type: item
       item:
-        material: JUKEBOX
+        material: horn_coral_block
         quantity: 1
-      buyPrice: 500
+      buyPrice: 25
       slot: 20
     10:
       type: item
       item:
-        material: HOPPER
+        material: tube_coral_block
         quantity: 1
-      buyPrice: 200
+      buyPrice: 25
       slot: 21
     11:
       type: item
       item:
-        material: TORCH
+        material: sea_lantern
         quantity: 1
-      buyPrice: 10
+      buyPrice: 75
       slot: 22
     12:
       type: item
       item:
-        material: OAK_SAPLING
+        material: dark_prismarine
         quantity: 1
-      buyPrice: 10
+      buyPrice: 50
       slot: 23
     13:
       type: item
       item:
-        material: SCAFFOLDING
+        material: prismarine_bricks
         quantity: 1
-      buyPrice: 30
+      buyPrice: 50
       slot: 24
     14:
       type: item
       item:
-        material: BARREL
+        material: prismarine
         quantity: 1
-      buyPrice: 120
+      buyPrice: 50
       slot: 25
     15:
       type: item
       item:
-        material: COMPOSTER
+        material: tube_coral
         quantity: 1
-      buyPrice: 360
+      buyPrice: 25
       slot: 28
     16:
       type: item
       item:
-        material: SMOKER
+        material: brain_coral
         quantity: 1
-      buyPrice: 360
+      buyPrice: 25
       slot: 29
     17:
       type: item
       item:
-        material: BLAST_FURNACE
+        material: bubble_coral
         quantity: 1
-      buyPrice: 360
+      buyPrice: 25
       slot: 30
     18:
       type: item
       item:
-        material: LOOM
+        material: fire_coral
         quantity: 1
-      buyPrice: 360
+      buyPrice: 25
       slot: 31
     19:
       type: item
       item:
-        material: GRINDSTONE
+        material: horn_coral
         quantity: 1
-      buyPrice: 360
+      buyPrice: 25
       slot: 32
     20:
       type: item
       item:
-        material: BELL
+        material: tube_coral_fan
         quantity: 1
-      buyPrice: 360
+      buyPrice: 25
       slot: 33
     21:
       type: item
       item:
-        material: STONECUTTER
+        material: brain_coral_fan
         quantity: 1
-      buyPrice: 360
+      buyPrice: 25
       slot: 34
     22:
       type: item
       item:
-        material: FLETCHING_TABLE
+        material: bubble_coral_fan
         quantity: 1
-      buyPrice: 360
-      slot: 39
+      buyPrice: 25
+      slot: 37
     23:
       type: item
       item:
-        material: CAMPFIRE
+        material: fire_coral_fan
         quantity: 1
-      buyPrice: 360
-      slot: 40
+      buyPrice: 25
+      slot: 38
     24:
       type: item
       item:
-        material: LANTERN
+        material: horn_coral_fan
         quantity: 1
-      buyPrice: 360
+      buyPrice: 25
+      slot: 39
+    25:
+      type: item
+      item:
+        material: fishing_rod
+        quantity: 1
+      buyPrice: 300
+      slot: 40
+    26:
+      type: item
+      item:
+        material: scute
+        quantity: 1
+      buyPrice: 50
       slot: 41
+    27:
+      type: item
+      item:
+        material: turtle_egg
+        quantity: 1
+      buyPrice: 100
+      slot: 42
+    28:
+      type: item
+      item:
+        material: tropical_fish_bucket
+        quantity: 1
+      buyPrice: 100
+      slot: 43

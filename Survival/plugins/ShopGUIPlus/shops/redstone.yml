@@ -151,3 +151,10 @@ redstone:
         quantity: 1
       buyPrice: 25
       slot: 34
+    22:
+      type: item
+      item:
+        material: RAIL
+        quantity: 16
+      buyPrice: 10
+      slot: 40

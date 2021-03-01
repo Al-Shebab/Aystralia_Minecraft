@@ -76,7 +76,7 @@ GriefPrevention:
       world_the_end: true
     ProtectFreshSpawns: false
     PunishLogout: false
-    CombatTimeoutSeconds: 15
+    CombatTimeoutSeconds: 1
     AllowCombatItemDrop: true
     BlockedSlashCommands: /homeassnigas
     ProtectPlayersInLandClaims:
@@ -96,7 +96,7 @@ GriefPrevention:
     ClaimBlocksSellValue: 5.0
   ProtectItemsDroppedOnDeath:
     PvPWorlds: false
-    NonPvPWorlds: true
+    NonPvPWorlds: false
   BlockLandClaimExplosions: true
   BlockSurfaceCreeperExplosions: true
   BlockSurfaceOtherExplosions: true
