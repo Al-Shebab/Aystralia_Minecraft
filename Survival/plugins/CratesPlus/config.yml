@@ -14,20 +14,18 @@
 # Don't change the config version!
 
 Default Hologram Text:
-- '%crate%'
-- Right-Click to Open!
-- Left-Click to Preview!
+- []
 Config Version: 6
 Update Checks: true
 Update Branch: spigot
 Metrics: true
 Default Opener: BasicGUI
-Default Cooldown: 5
+Default Cooldown: 1
 Crate Protection: false
 Disable Key Swapping: false
 Crates:
   Vote:
-    Knockback: 0.0
+    Knockback: 2.0
     Block: CHEST
     Color: WHITE
     Broadcast: false
@@ -35,7 +33,7 @@ Crates:
     Preview: true
     Key:
       Item: TRIPWIRE_HOOK
-      Name: '%type% Crate Key'
+      Name: '%type% &bCrate Key'
       Enchanted: true
     Winnings:
       '1':

@@ -172,3 +172,15 @@ basics:
         quantity: 1
       buyPrice: 360
       slot: 41
+    25:
+      type: command
+      item:
+        material: STICK
+        name: "&b&lSell Stick"
+        quantity: 1
+        lore: 
+          - "&b&lRight click &fon a chest to sell items inside!"
+      commands: 
+        - "sellstick give %PLAYER% 1 100"
+      buyPrice: 1000
+      slot: 42

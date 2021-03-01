@@ -85,7 +85,7 @@ DurabilityLine: 2
 # Again, if you change this, previous sellsticks may break!
 #
 #Messages sent to the player will be prefixed with this
-MessagePrefix: '&f[&fSellStick&b] '
+MessagePrefix: '&f[&bSellStick&f] '
 #
 #
 #When they sell the items what message should be displayed

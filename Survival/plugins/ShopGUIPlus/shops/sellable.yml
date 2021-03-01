@@ -356,3 +356,11 @@ sellable:
         lore: "&cUse /sell all"
       sellPrice: 1
       slot: 43
+    45:
+      type: item
+      item:
+        material: NETHERRACK
+        quantity: 1
+        lore: "&cUse /sell all"
+      sellPrice: 0.01
+      slot: 44

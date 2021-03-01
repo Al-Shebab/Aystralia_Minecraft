@@ -5,6 +5,10 @@ spawn1:
   - '&b&lUseful Commands'
   - '&f/shop'
   - '&f/ah'
+  - '&f/kit Claim'
+  - '&f/discord'
+  - '&f/signshop'
+  - '&f/backpack'
   - '&f/jobs'
   - '&f/mcmmo help'
   - '&f/sethome'
@@ -17,5 +21,13 @@ command:
   - '&f/pets spawn wolf'
   - '&f/vote'
   - /warp
+  - '&f/kit Claim'
+  - '&f/discord'
+  - '&f/signshop'
+  - '&f/backpack'
   - '&f/kit claim'
   - '&f/buyclaimblocks'
+vote:
+  location: world, -301.467, 141.075, 198.542
+  lines:
+  - '&b&ki&f&ki&b Vote &fCrate &f&ki&b&ki'

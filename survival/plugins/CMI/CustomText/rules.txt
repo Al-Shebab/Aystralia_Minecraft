@@ -1,4 +1,4 @@
 &b&lRules
-&9The rules can be found on our forum below.
+&fThe rules can be found on our forum below.
  
-&fhttps://forums.aystralia.com.au/topic/61-survival-rules/
+&9https://forums.aystralia.com.au/topic/61-survival-rules/
