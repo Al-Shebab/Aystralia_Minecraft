@@ -124,8 +124,8 @@ chest-protection:
     enable: false
     disable-off-check: false
 crops:
-    disable-creature-trampling: false
-    disable-player-trampling: false
+    disable-creature-trampling: true
+    disable-player-trampling: true
 turtle-egg:
     disable-creature-trampling: false
     disable-player-trampling: false

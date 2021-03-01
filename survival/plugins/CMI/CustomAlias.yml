@@ -40,6 +40,12 @@ CustomAlias:
   colours:
     Cmds:
     - cmi colors
+  bp:
+    Cmds:
+    - pv 1
+  backpack:
+    Cmds:
+    - pv 1
   colourpicker:
     Cmds:
     - cmi colorpicker $1-
@@ -49,6 +55,9 @@ CustomAlias:
   rules:
     Cmds:
     - cmi ctext rules
+  signshop:
+    Cmds:
+    - cmi ctext signshop
   wild:
     Cmds:
     - cmi rt world
