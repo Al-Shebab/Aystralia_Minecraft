@@ -134,7 +134,7 @@ info:
   teleported: '&fYou have been teleported.'
   BlackList: '&f[material] [amount] &bMax: [max]'
   PlayerSpliter: '&f----- &b[playerDisplayName] &f-----'
-  Spliter: '&f--------------------------------------------------'
+  Spliter: '&f--------------------------------'
   SpliterValue: '&f------------------ &b[value] &f------------------'
   ListSpliter: ', '
   ProgressBarFill: '&9▏'

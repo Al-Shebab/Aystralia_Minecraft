@@ -615,16 +615,16 @@ shopMenuItems:
     shop: "dyes"
     # Slot in shops menu, counting from 0 to 53
     slot: 16
-  8:
-    item:
+  #8:
+    #item:
       # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: DIAMOND
-      quantity: 1
-      name: "&6&lSellable Items"
+      #material: DIAMOND
+      #quantity: 1
+      #name: "&6&lSellable Items"
     # Shop ID from shops yaml
-    shop: "sellable"
+    #shop: "sellable"
     # Slot in shops menu, counting from 0 to 53
-    slot: 31
+    #slot: 31
   9:
     item:
       # The same rules apply for material, amount, damage and lore as for goBackButton
