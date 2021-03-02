@@ -624,7 +624,7 @@ shopMenuItems:
     # Shop ID from shops yaml
     shop: "sellable"
     # Slot in shops menu, counting from 0 to 53
-    slot: 22
+    slot: 31
   9:
     item:
       # The same rules apply for material, amount, damage and lore as for goBackButton
@@ -645,6 +645,16 @@ shopMenuItems:
     shop: "eggs"
     # Slot in shops menu, counting from 0 to 53
     slot: 21
+  11:
+    item:
+      # The same rules apply for material, amount, damage and lore as for goBackButton
+      material: BEACON
+      quantity: 1
+      name: "&b&lPerks"
+    # Shop ID from shops yaml
+    shop: "perks"
+    # Slot in shops menu, counting from 0 to 53
+    slot: 22
 
 
 specialElements:

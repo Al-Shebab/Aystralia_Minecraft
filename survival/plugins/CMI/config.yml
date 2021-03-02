@@ -1223,7 +1223,7 @@ Messages:
   DeathMessage:
     # Defines number of players from which to automatically start hiding death messages
     # Set to -1 to disable this
-    AutoHideFrom: -1
+    AutoHideFrom: 0
 Books:
   # Defines default creator name for books when using getbook command
   DefaultAuthor: Server

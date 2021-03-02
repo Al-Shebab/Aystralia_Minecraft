@@ -1,0 +1,9 @@
+Enabled: true
+TimeLasts: -1
+CoolDown: 0
+Name: 'UnderWaterFlorist'
+Description: 'Give bonemeal a little upgrade'
+Effects:
+- UnderWaterFlorist:2
+Item:
+  Material: 'BONE_MEAL'
