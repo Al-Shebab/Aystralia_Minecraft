@@ -1,0 +1,32 @@
+perks:
+  name: "&b&lPerks"
+  fillItem:
+    material: BLACK_STAINED_GLASS_PANE
+    name: " "
+  items:
+    1:
+      type: command
+      item:
+        material: DIAMOND_PICKAXE
+        name: "&b&lHaste Perk"
+        quantity: 1
+        lore: 
+          - "&fPurchase a perk, use &b/perks &fto open the menu"
+          - "&bAll perk purchases are permanant"
+      commands: 
+        - "lp user %PLAYER% permission set MCPerks.Haste"
+      buyPrice: 150000
+      slot: 10
+    2:
+      type: command
+      item:
+        material: DIAMOND_BOOTS
+        name: "&a&lSpeed Perk"
+        quantity: 1
+        lore: 
+          - "&fPurchase a perk, use &b/perks &fto open the menu"
+          - "&bAll perk purchases are permanant"
+      commands: 
+        - "lp user %PLAYER% permission set MCPerks.IncreaseMoveSpeed"
+      buyPrice: 150000
+      slot: 11

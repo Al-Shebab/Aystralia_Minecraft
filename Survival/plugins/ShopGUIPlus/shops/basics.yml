@@ -173,6 +173,13 @@ basics:
       buyPrice: 360
       slot: 41
     25:
+      type: item
+      item:
+        material: TNT
+        quantity: 1
+      buyPrice: 100
+      slot: 38
+    26:
       type: command
       item:
         material: STICK

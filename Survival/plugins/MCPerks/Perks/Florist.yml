@@ -1,0 +1,10 @@
+Enabled: true
+TimeLasts: -1
+CoolDown: 0
+Name: 'Florist'
+Description: 'Give bonemeal a more flowery touch.'
+# 2 - radius of effect
+Effects:
+- Florist:2
+Item:
+  Material: 'BONE_MEAL'

@@ -1,0 +1,13 @@
+Enabled: false
+CoolDown: 86400
+TimeLasts: 60
+Name: 'Fly'
+Description: 'Allow flight.'
+Effects:
+- Fly
+Item:
+  Material: 'AIR'
+  Data: 0
+FlyWorlds:
+- world
+- world_nether
