@@ -1,5 +1,5 @@
 basics:
-  name: "&2&lBasics (page %page%)"
+  name: "&2&lBasics"
   fillItem:
     material: BLACK_STAINED_GLASS_PANE
     name: " "
@@ -179,15 +179,3 @@ basics:
         quantity: 1
       buyPrice: 100
       slot: 38
-    26:
-      type: command
-      item:
-        material: STICK
-        name: "&b&lSell Stick"
-        quantity: 1
-        lore: 
-          - "&b&lRight click &fon a chest to sell items inside!"
-      commands: 
-        - "sellstick give %PLAYER% 1 100"
-      buyPrice: 1000
-      slot: 42

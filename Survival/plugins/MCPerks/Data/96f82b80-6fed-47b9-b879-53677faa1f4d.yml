@@ -1,4 +1,7 @@
 PlayerName: MrDisasterss
 Haste_CoolDown: '1614676444712'
 Experation:
-  Haste: '-1'
+  Haste: '0'
+CheckWorld: 'false'
+OfflineRewards: ''
+LastOnline: '1614686816791'

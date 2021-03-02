@@ -191,8 +191,8 @@ info:
   notOnGround: '&fYou can''t perform this while flying'
   # This line can have extra variables: [totalUsers] [onlinePlayers]
   FirstJoin: '&fWelcome &b[playerDisplayName] &fto our server!'
-  LogoutCustom: ' &c[playerDisplayName] &fleft the game'
-  LoginCustom: ' &a[playerDisplayName] &fjoined the game'
+  LogoutCustom: '&f[&c-&f] &c[playerDisplayName] &fleft the game'
+  LoginCustom: '&f[&a+&f] &a[playerDisplayName] &fjoined the game'
   deathlocation: '&fYou died at x:&b[x]&f, y:&b[y]&f, z:&b[z]&f in &b[world]'
   combat:
     CantUseShulkerBox: '&cCan''t use shulker box while you are in combat with player.

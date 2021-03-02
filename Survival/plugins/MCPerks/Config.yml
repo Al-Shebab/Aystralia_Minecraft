@@ -52,7 +52,7 @@ RequirePermToView: true
 KeepGUIOpen: true
 
 # Load default perks
-LoadDefaultPerks: true
+LoadDefaultPerks: false
 
 # Give Perks for the player that activated it only
 # Old config option, may not work, use the one below
@@ -178,10 +178,11 @@ DuplicatePerksActive: false
 # %CoolDown% - Perk cooldown
 Lore:
   Available: 
-  - '&fClick to &aactivate &fperk'
+  - '&fClick to &atoggle &fperk'
   - '&fDescription: &b%Description%'
   Active: 
-  - '&fClick to &cdeactivate &fperk'
+  - '&fClick to &atoggle &fperk'
+  - '&fDescription: &b%Description%'
   InCoolDown: 
   LimitReached: 
   - '&aPerk limit reached'

@@ -13,34 +13,95 @@
 #   <material>
 #    price: <price>
 Items:
-  diamond:
-    price: 10
-  diamond_block:
-    price: 95
-  emerald:
-    price: 20
-  emerald_block:
-    price: 185
-  gold_ingot:
-    price: 7.5
-  gold_block:
-    price: 65
-  iron_ingot:
-    price: 4
-  iron_block:
-    price: 35
-  red_rose:
-    price: 0.5
-  enchanted_golden_apple:
-    price: 500
-
-# Shop-Specific:
-#   <voidchest_name>:
-#     <material>:
-#       price: <price>
-Shop-Specific:
-  default:
-    diamond:
-      price: 20
-    diamond_block:
-      price: 95
+  ACACIA_LOG:
+    price: 1.0
+  ACACIA_SAPLING:
+    price: 2.0
+  BEETROOT:
+    price: 1.0
+  BIRCH_LOG:
+    price: 1.0
+  BIRCH_SAPLING:
+    price: 2.0
+  BLAZE_ROD:
+    price: 5.0
+  BONE:
+    price: 2.0
+  CACTUS:
+    price: 1.0
+  CARROT:
+    price: 1.0
+  CHICKEN:
+    price: 10.0
+  COAL:
+    price: 3.0
+  COD:
+    price: 10.0
+  DARK_OAK_LOG:
+    price: 1.0
+  DARK_OAK_SAPLING:
+    price: 2.0
+  DIAMOND:
+    price: 30.0
+  EMERALD:
+    price: 1.0
+  FEATHER:
+    price: 2.0
+  GOLD_INGOT:
+    price: 5.0
+  GUNPOWDER:
+    price: 2.0
+  INK_SAC:
+    price: 5.0
+  IRON_INGOT:
+    price: 10.0
+  JUNGLE_LOG:
+    price: 1.0
+  JUNGLE_SAPLING:
+    price: 2.0
+  LAPIS_LAZULI:
+    price: 0.2
+  LEATHER:
+    price: 2.0
+  MELON_SLICE:
+    price: 1.0
+  MUTTON:
+    price: 10.0
+  NETHERITE_SCRAP:
+    price: 50.0
+  NETHERRACK:
+    price: 0.1
+  OAK_LOG:
+    price: 1.0
+  OAK_SAPLING:
+    price: 2.0
+  PORKCHOP:
+    price: 10.0
+  POTATO:
+    price: 1.0
+  RABBIT:
+    price: 20.0
+  REDSTONE:
+    price: 0.2
+  ROTTEN_FLESH:
+    price: 2.0
+  SALMON:
+    price: 10.0
+  SCUTE:
+    price: 2.0
+  SPIDER_EYE:
+    price: 2.0
+  SPRUCE_LOG:
+    price: 1.0
+  SPRUCE_SAPLING:
+    price: 2.0
+  STRING:
+    price: 2.0
+  SUGAR_CANE:
+    price: 0.3
+  SWEET_BERRIES:
+    price: 1.0
+  TROPICAL_FISH:
+    price: 10.0
+  WHEAT:
+    price: 1.0

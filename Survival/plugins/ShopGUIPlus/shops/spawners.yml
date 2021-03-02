@@ -112,3 +112,12 @@ spawners:
           quantity: 1
         buyPrice: 250000
         slot: 25
+    13:
+        type: item
+        item:
+          material: SPAWNER
+          mob: IRON_GOLEM
+          name: "&6Iron Golem Spawner"
+          quantity: 1
+        buyPrice: 1000000
+        slot: 28

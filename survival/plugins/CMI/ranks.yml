@@ -87,9 +87,21 @@ guest:
   DefaultRank: true
   AutoRankup: true
   NextRanks:
-  - member
-member:
+  - founding-father
+founding-father:
   Enabled: true
+  DisplayName: '{#004fd4}Founding Father&r'
+  AutoRankup: true
+  RankupConfirmation: false
+  NextRanks:
+  - member
+  MoneyCost: 0
+  Commands:
+  - luckperms user DisplayName parent set founding-father
+  StatsRequirements:
+  - PlayTime:1
+member:
+  Enabled: false
   DisplayName: '{#763bff}&lMember&r'
   AutoRankup: true
   RankupConfirmation: false
@@ -97,7 +109,6 @@ member:
   - Last
   MoneyCost: 0
   Commands:
-  - broadcast! &c&lplayerDisplayName &fis now a &cMember!
   - luckperms user DisplayName parent set member
   StatsRequirements:
   - PlayTime:86400

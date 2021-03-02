@@ -655,6 +655,18 @@ shopMenuItems:
     shop: "perks"
     # Slot in shops menu, counting from 0 to 53
     slot: 22
+  12:
+    item:
+      # The same rules apply for material, amount, damage and lore as for goBackButton
+      material: OBSIDIAN
+      quantity: 1
+      enchantments:
+         - UNBREAKING:1
+      name: "&b&lSpecial"
+    # Shop ID from shops yaml
+    shop: "special"
+    # Slot in shops menu, counting from 0 to 53
+    slot: 34
 
 
 specialElements:

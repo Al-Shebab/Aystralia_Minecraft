@@ -10,8 +10,15 @@ crates:
   Item:
     v: 2586
     type: CHEST
+cactus:
+  Location: world;-999.4;15.0;3479.79;178.83;0.09
+  Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  Item:
+    v: 2586
+    type: CACTUS
 staff:
   Location: world;-301.58;136.0;172.59;180.89;-3.11
+  HideFromList: true
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
   Item:
     v: 2586
@@ -24,12 +31,14 @@ end:
     type: ENDER_EYE
 jail:
   Location: world;-301.54;138.0;209.81;180.2;-2.28
+  HideFromList: true
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
   Item:
     v: 2586
     type: SMOOTH_STONE
 crate:
   Location: world;-301.52;138.0;201.17;-179.16;3.84
+  HideFromList: true
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
   Item:
     v: 2586
@@ -50,6 +59,7 @@ crate:
         DURABILITY: 1
 vote:
   Location: world;-301.52;138.0;201.17;-179.16;3.84
+  HideFromList: true
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
   Item:
     v: 2586
@@ -70,6 +80,7 @@ vote:
         DURABILITY: 1
 Commands:
   Location: world;-301.58;136.0;171.23;180.57;-3.64
+  HideFromList: true
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
   Item:
     v: 2586

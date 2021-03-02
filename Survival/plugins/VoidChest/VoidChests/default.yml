@@ -10,19 +10,19 @@ Messages:
     # Sent whenever a player attempts to break a voidchest that doesn't have permission for.
     permission-deny:
       message:
-      - '&c&l(!) &cYou do not have permission to break a &7%voidchest% &ctype voidchest.'
+      - '&c&l(!) &cYou do not have permission to break a &f%voidchest% &ctype voidchest.'
       - '&c&oYou need the %permission% permission in order to break it...'
       
     # Sent whenever a player breaks a voidchest successfully.
     successful:
       enabled: true
-      message: '&7&l(!) &7You have successfuly &cbroken &7a &6Default &7voidchest!'
+      message: '&f&l(!) &fYou have successfuly &cbroken &fa &fvoidchest!'
       
     # Sent whenever a player breaks a voidchest that belongs to someone else and doesn't have permission.
     failed-other:
       enabled: true
       message:
-      - '&c&l(!) &cYou cannot break &4%player%&c''s default Void Chest.'
+      - '&c&l(!) &cYou cannot break &4%player%&c''s Void Chest.'
       - '&cYou can only break your own.'
   
   place:
@@ -30,13 +30,13 @@ Messages:
     # Sent whenever a player places a voidchest but doesn't have permission.
     permission-deny:
       message:
-      - '&c&l(!) &cYou do not have permission to place a &7%voidchest% &ctype voidchest.'
+      - '&c&l(!) &cYou do not have permission to place a &f%voidchest% &ctype voidchest.'
       - '&c&oYou need the %permission% in order to break it...'
 
     # Sent whenever a player places a voidchest successfully.
     successful:
       enabled: true
-      message: '&7&l(!) &7You have successfuly &aplaced &7a &6Default &7voidchest!'
+      message: '&f&l(!) &fYou have successfuly &aplaced &fa &fvoidchest!'
 
 
 # This sounds are to be played if a voidchest is placed/broken.
@@ -77,7 +77,7 @@ Mechanics:
     # If true, the message below will be sent to the player if they attempt to do it.
     placing-other-voidchests-near:
       enabled: true
-      message: '&c&l(!) &cYou may not place a default voidchest near other voidchests!'
+      message: '&c&l(!) &cYou may not place a voidchest near other voidchests!'
   
   ignore-items:
   - MOB_SPAWNER
@@ -90,17 +90,17 @@ Item:
   drop-straight-to-inventory: false
 
   # Name of the item.
-  name: '&c&l%voidchest% VoidChest'
+  name: '&b&lVoidChest'
   
   # Lore of the item.
   lore: 
-  - '&7Automatically sell and or clear items that'
-  - '&7are inside this voidchest. Gain money while being afk!'
+  - '&fAutomatically sell and or clear items that'
+  - '&fare inside this voidchest. Gain money while being afk!'
 
 
 Menu-Inventory:
   # The inventory's name.
-  name: '%owner% %voidchest% VoidChest' 
+  name: '%owner% VoidChest' 
   rows: 5
 
 
@@ -109,26 +109,26 @@ auto-sell:
   default: true
   items:
     '1':
-      slot: 11
+      slot: 20
       enabled:
         material: "gold_ingot"
         enchanted: true
         name: "&a&lAuto Sell"
         lore:
-        - "&7Should this voidchest sell contents?"
+        - "&fShould this voidchest sell contents?"
         - " "
-        - "&7Status &a&lENABLED"
+        - "&fStatus &a&lENABLED"
         - " "
-        - "&7Click to &cdisable&7 this setting."
+        - "&fClick to &cdisable&f this setting."
       disabled:
         material: "gold_nugget"
         name: "&c&lAuto Sell"
         lore:
-        - "&7Should this voidchest sell contents?"
+        - "&fShould this voidchest sell contents?"
         - " "
-        - "&7Status &c&lDISABLED"
+        - "&fStatus &c&lDISABLED"
         - " "
-        - "&7Click to &aenable&7 this setting."
+        - "&fClick to &aenable&f this setting."
 
 
 purge-items:
@@ -136,32 +136,32 @@ purge-items:
   default: false
   items:
     '1':
-      slot: 15
+      slot: 21
       enabled:        
         material: "EYE_OF_ENDER"
         enchanted: true
         name: "&a&lDelete Non-Sellable Items"
         lore:
-        - "&7Should this voidchest delete items"
-        - "&7that are not sellable?"
+        - "&fShould this voidchest delete items"
+        - "&fthat are not sellable?"
         - " "
-        -  "&7Status &a&lENABLED"
+        -  "&fStatus &a&lENABLED"
         - " "
-        - "&7Click to &cdisable&7 this setting."
+        - "&fClick to &cdisable&f this setting."
       disabled:
         material: "ender_pearl"
         name: "&c&lDelete Non-Sellable Items"
         lore:
-        - "&7Should this voidchest delete items"
-        - "&7that are not sellable?"
+        - "&fShould this voidchest delete items"
+        - "&fthat are not sellable?"
         - " "
-        - "&7Status &c&lDISABLED"
+        - "&fStatus &c&lDISABLED"
         - " "
-        - "&7Click to &aenable&7 this setting."
+        - "&fClick to &aenable&f this setting."
 
 
 chunk-collector:
-  enabled: true
+  enabled: false
   default: true
   items:
     '1':
@@ -171,22 +171,22 @@ chunk-collector:
         enchanted: true
         name: "&a&lCollect Chunk Items"
         lore:
-        - "&7Should this voidchest collect items"
-        - "&7inside this chunk and sell them if possible?"
+        - "&fShould this voidchest collect items"
+        - "&finside this chunk and sell them if possible?"
         - " "
-        -  "&7Status &a&lENABLED"
+        -  "&fStatus &a&lENABLED"
         - " "
-        - "&7Click to &cdisable&7 this setting."
+        - "&fClick to &cdisable&f this setting."
       disabled:
         material: "FIREBALL"
         name: "&c&lCollect Chunk Items"
         lore:
-        - "&7Should this voidchest collect items"
-        - "&7inside this chunk and sell them if possible?"
+        - "&fShould this voidchest collect items"
+        - "&finside this chunk and sell them if possible?"
         - " "
-        - "&7Status &c&lDISABLED"
+        - "&fStatus &c&lDISABLED"
         - " "
-        - "&7Click to &aenable&7 this setting."
+        - "&fClick to &aenable&f this setting."
 
 
 # Opens the chest's inventory.
@@ -194,29 +194,29 @@ chest:
   enabled: true
   items:
     '1':
-      slot: 30
+      slot: 22
       material: 'chest'
       name: '&6&lChest Inventory'
       lore:
-      - '&7&o{( Click me to open the chest inventory )}'
+      - '&f&o{( Click me to open the chest inventory )}'
 
 
 # Basically, fuel for the voidchest.
 # If this isn't enabled, the voidchest will function normally, requiring no fuel.
 charge:
-  enabled: true
+  enabled: false
   hologram:
     no-fuel: 'No Fuel'
   item-placeholder:
     no-fuel: 'No Fuel'
   # The charge time can't get pass this.
-  max-time: 172800
+  max-time: -1
   purchase-fail:
     # Should this message be sent if the player failed to purchase some "fuel"?
     enabled: true
     message:
-    - '&7&l(!) &7You have failed to buy fuel for this voidchest.'
-    - '&7You currently have &e$%money% &7and need &e$%money_need%'
+    - '&f&l(!) &fYou have failed to buy fuel for this voidchest.'
+    - '&fYou currently have &e$%money% &fand need &e$%money_need%'
   items:
     'hourly':
       slot: 25
@@ -226,21 +226,21 @@ charge:
         material: 'BUCKET'
         name: '&d&lVoidChest Charge'
         lore:
-        - '&7Click to add one hour charge to your VoidChest.'
+        - '&fClick to add one hour charge to your VoidChest.'
         - ''
-        - '&7Current Charge Time: &e%charge%'
-        - '&7Price per renewal: &e$%price%'
-        - '&7Renewal time per purchase: &e%renewal%'
+        - '&fCurrent Charge Time: &e%charge%'
+        - '&fPrice per renewal: &e$%price%'
+        - '&fRenewal time per purchase: &e%renewal%'
       fueled:
         material: 'LAVA_BUCKET'
         name: '&d&lVoidChest Charge'
         enchanted: true
         lore:
-        - '&7Click to add one hour charge to your VoidChest.'
+        - '&fClick to add one hour charge to your VoidChest.'
         - ''
-        - '&7Current Charge Time: &e%charge%'
-        - '&7Price per renewal: &e$%price%'
-        - '&7Renewal time per purchase: &e%renewal%'
+        - '&fCurrent Charge Time: &e%charge%'
+        - '&fPrice per renewal: &e$%price%'
+        - '&fRenewal time per purchase: &e%renewal%'
 
 
 hologram:
@@ -248,31 +248,27 @@ hologram:
   default: true
   height: 3.9
   text:
-  - '&c&l%voidchest% VoidChest'
+  - '&b&lVoidChest'
   - ''
-  - '&fOwner: &c%owner%'
+  - '&fOwner: &b%owner%'
   - '&fBoost: &b%booster%x'
   - '&fMoney made: &a$%money%'
-  - '&fItems sold: &3%items_sold%'
-  - '&fItems purged: &3%items_purged%'
-  - '&7VoidChest timeleft: &e%timeleft%'
-  - '&7VoidChest charge: &e%charge%'
-  - ''
-  - '&7&oRight-Click to Open VoidChest'
+  - '&fItems sold: &b%items_sold%'
+  - '&fItems purged: &b%items_purged%'
   items:
     'holo':
-      slots: 19
+      slots: 23
       enabled:
         sound:
           name: "LEVEL_UP, 1"
         material: armor_stand
         name: "&a&lHologram"
         lore:
-        - "&7Click to toggle this VoidChest's hologram"
+        - "&fClick to toggle this VoidChest's hologram"
         - ""
-        - "&7Status: &a&lENABLED"
+        - "&fStatus: &a&lENABLED"
         - ""
-        - "&7Click to &cDisable&7 the hologram."
+        - "&fClick to &cDisable&f the hologram."
       disabled:
         sound:
           name: "LEVEL_UP, 1"
@@ -280,41 +276,41 @@ hologram:
         name: "&c&lHologram"
         enchanted: true
         lore:
-        - "&7Click to toggle this VoidChest's hologram."
+        - "&fClick to toggle this VoidChest's hologram."
         - ""
-        - "&7Status: &c&lDISABLED"
+        - "&fStatus: &c&lDISABLED"
         - ""
-        - "&7Click to &aEnable&7 the hologram."
+        - "&fClick to &aEnable&f the hologram."
 
 
 
 
 # This will make all money income go to the bank instead of the player's balance.
 bank:
-  enabled: true
+  enabled: false
   default: true
   items:
     '1':
-      slots: 22
+      slots: 23
       enabled:
         material: POTION
         name: "&a&lBank"
         lore:
-        - "&7Click to toggle your income's direction."
+        - "&fClick to toggle your income's direction."
         - ""
-        - "&7Money goes to: &a&lBANK"
+        - "&fMoney goes to: &a&lBANK"
         - ""
-        - "&7Click to make your income go to your &6&lPERSONAL account."
+        - "&fClick to make your income go to your &6&lPERSONAL account."
       disabled:
         material: GLASS_BOTTLE
         name: "&a&lBank"
         enchanted: true
         lore:
-        - "&7Click to toggle your income's direction."
+        - "&fClick to toggle your income's direction."
         - ""
-        - "&7Money goes to: &6&lPERSONAL"
+        - "&fMoney goes to: &6&lPERSONAL"
         - ""
-        - "&7Click to make your income go to your &a&lBANK account."
+        - "&fClick to make your income go to your &a&lBANK account."
 
 
 
@@ -332,7 +328,7 @@ decoration:
       enchanted: true
       name: '&r'
     'book':
-      slot: 32
+      slot: 24
       material: 'book'
       name: '&b&lStatistics'
       lore:

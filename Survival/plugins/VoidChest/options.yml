@@ -81,7 +81,7 @@ Mechanics:
 
   # Should all voidchests have a single sell interval?
   # Set to false if you want voidchests to have different sell intervals.
-  single-task: false
+  single-task: true
   
   # This part will handle the sell messages from voidchests.
   # The messages can be found in the messages.yml file and can be modified through there.
@@ -156,7 +156,7 @@ Mechanics:
 
     # Should players be prevented from placing voidchests in the same chunk?
     placing-voidchests-in-same-chunk: 
-      enabled: true
+      enabled: false
       deny-message: '&c&l(!) &cYou are not allowed to place more than 1 voidchest per chunk!'
 
     # Should players be prevented from placing normal chests near any voidchest?
@@ -226,7 +226,7 @@ Player:
   sell-messages:
   
     # Should by default, the players receive sell messages? If not, set this to false. True otherwise.
-    default: true
+    default: false
     
     # Should the server remember the player's option on restart or make it go back to default?
     restart-persistent: false

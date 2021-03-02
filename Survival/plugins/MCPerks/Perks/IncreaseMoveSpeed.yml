@@ -1,7 +1,7 @@
 Enabled: true
 TimeLasts: -1
 CoolDown: 0
-Name: '&bSpeed II'
+Name: '&aSpeed II'
 Description: '&fPermanant Speed II'
 Effects:
 - 'MoveSpeed:2'
