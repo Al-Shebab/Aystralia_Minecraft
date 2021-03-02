@@ -189,7 +189,7 @@ Alias:
   /editwarnings: false
   #  
   # /cmi editwarp $1-
-  /editwarp: true
+  /editwarp: false
   #  
   # /cmi effect $1-
   /effect: true
@@ -586,8 +586,8 @@ Alias:
   /removeuser: true
   #  
   # /cmi removewarp $1-
-  /removewarp: true
-  /delwarp: true
+  /removewarp: false
+  /delwarp: false
   #  
   # /cmi repair $1-
   /repair: true
@@ -684,7 +684,7 @@ Alias:
   /setspawn: true
   #  
   # /cmi setwarp $1-
-  /setwarp: true
+  /setwarp: false
   #  
   # /cmi setworth $1-
   /setworth: true
@@ -920,7 +920,7 @@ Alias:
   /warnings: false
   #  
   # /cmi warp $1-
-  /warp: true
+  /warp: false
   #  
   # /cmi warpgroups $1-
   /warpgroups: false
@@ -946,7 +946,7 @@ Alias:
   /world: true
   #  
   # /cmi worth $1-
-  /worth: false
+  /worth: true
   #  
   # /cmi worthlist $1-
-  /worthlist: false
+  /worthlist: true

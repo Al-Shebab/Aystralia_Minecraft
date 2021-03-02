@@ -4,8 +4,8 @@
 
 # To add a custom category, see the categories.yml
 
-MetricsEnabled: true
-PerformUpdateChecks: true
+MetricsEnabled: false
+PerformUpdateChecks: false
 
 SortBlocklistAlphabetically: true
 RepairFriendlyVeinminer: false
@@ -17,7 +17,7 @@ DisabledWorlds:
 - WorldName
 
 Hunger:
-  HungerModifier: 4.0
+  HungerModifier: 1.0
   MinimumFoodLevel: 1
   HungryMessage: "&7You are too hungry to vein mine!"
 

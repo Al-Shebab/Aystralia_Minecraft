@@ -139,6 +139,16 @@ users:
     DIAMOND_PICKAXE: true
     COBBLE: false
     STACK: false
+  6e08c710-1148-444f-8c3c-f1bd57f373db:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    DIAMOND_PICKAXE: true
+    COBBLE: false
+    STACK: false
 userVersion:
   e79fc165-83d6-4139-9a8f-d42bf1c23f87: 1.9.8
   5e9388ba-0573-444c-a761-b6d9174042af: 1.9.8
@@ -154,3 +164,4 @@ userVersion:
   563964a5-7b3f-4822-8f19-0f4b38899d18: 1.9.8
   075c99a7-bc7b-4102-89ca-ace323ce4f3b: 1.9.8
   1132a3f9-cf23-42e1-8595-79d07b07844e: 1.9.8
+  6e08c710-1148-444f-8c3c-f1bd57f373db: 1.9.8

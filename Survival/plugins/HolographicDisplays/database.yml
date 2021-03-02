@@ -35,6 +35,7 @@ vote:
   location: world, -301.467, 141.075, 198.542
   lines:
   - '&b&ki&f&ki&b Vote &fCrate &f&ki&b&ki'
+  - '&bGet keys by voting via &f/vote'
 cactus:
   location: world, -999.412, 16.200, 3476.837
   lines:
