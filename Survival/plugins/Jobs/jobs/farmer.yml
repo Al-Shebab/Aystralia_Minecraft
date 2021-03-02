@@ -310,10 +310,6 @@ Farmer:
       income: 1
       points: 1
       experience: 1
-    sugar_cane:
-      income: -1
-      points: -1
-      experience: -1
     pumpkin_stem:
       income: 1
       points: 1

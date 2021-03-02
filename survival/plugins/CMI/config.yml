@@ -1223,7 +1223,7 @@ Messages:
   DeathMessage:
     # Defines number of players from which to automatically start hiding death messages
     # Set to -1 to disable this
-    AutoHideFrom: 0
+    AutoHideFrom: -1
 Books:
   # Defines default creator name for books when using getbook command
   DefaultAuthor: Server
@@ -1371,7 +1371,7 @@ CheckForNameChange:
   - 'asConsole! cmi broadcast !&2[oldname] logged in with new name: [newname]'
 inv:
   # Do you want to save the player's inventory on his death
-  SaveOnDeath: true
+  SaveOnDeath: false
   # When set to true, empty inventories (no items in inventory) will not be saved on players death
   IgnoreEmpty: false
   # If set to true then player should have cmi.saveinv permission node for inventory to be saved on death

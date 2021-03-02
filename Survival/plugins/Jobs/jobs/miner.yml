@@ -152,22 +152,6 @@ Miner:
       income: 2.0
       points: 2.0
       experience: 2.0
-    iron_ore:
-      income: -5.0
-      points: -5
-      experience: -5.0
-    gold_ore:
-      income: -6.0
-      points: -6
-      experience: -6.0
-    diamond_ore:
-      income: -10.0
-      points: -10
-      experience: -10.0
-    emerald_ore:
-      income: -15
-      points: -15
-      experience: -30
   Kill:
     Player:
       income: 7.5

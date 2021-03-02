@@ -16,6 +16,12 @@ staff:
   Item:
     v: 2586
     type: BARRIER
+end:
+  Location: world;-4457.57;27.0;1749.81;180.4;0.0
+  Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  Item:
+    v: 2586
+    type: ENDER_EYE
 jail:
   Location: world;-301.54;138.0;209.81;180.2;-2.28
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87

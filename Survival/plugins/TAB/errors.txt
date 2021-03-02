@@ -21,3 +21,4 @@
 27.02.2021 - 20:58:20 - java.lang.NoClassDefFoundError: me/clip/placeholderapi/PlaceholderAPI
 27.02.2021 - 20:58:20 -        at me.neznamy.tab.platforms.bukkit.features.ExpansionDownloader$1$1.run(ExpansionDownloader.java:52)
 27.02.2021 - 20:58:20 -        at java.base/java.lang.Thread.run(Thread.java:834)
+01.03.2021 - 08:53:05 - [TAB v2.8.10] Group "trusted" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "trusted" into group-sorting-priority-list in config.yml.

@@ -6,7 +6,7 @@ users:
     GOLD_INGOT: true
     IRON_INGOT: true
     REDSTONE: true
-    DIAMOND_PICKAXE: true
+    DIAMOND_PICKAXE: false
     COBBLE: false
     STACK: false
   5e9388ba-0573-444c-a761-b6d9174042af:
@@ -19,6 +19,94 @@ users:
     DIAMOND_PICKAXE: true
     COBBLE: false
     STACK: false
+  6d86b027-cacd-420e-8a8f-786f8048e185:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    DIAMOND_PICKAXE: true
+    COBBLE: false
+    STACK: false
+  f9eb61a0-3823-4e01-b2c3-61ab448dad31:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    DIAMOND_PICKAXE: true
+    COBBLE: false
+    STACK: false
+  f64769f8-79f1-4938-b7fd-d02ea2213880:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    DIAMOND_PICKAXE: true
+    COBBLE: false
+    STACK: false
+  96f82b80-6fed-47b9-b879-53677faa1f4d:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    DIAMOND_PICKAXE: true
+    COBBLE: false
+    STACK: false
+  3368f471-c1d5-4f9f-8b0e-2245724bf905:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    DIAMOND_PICKAXE: true
+    COBBLE: false
+    STACK: false
+  a2149285-fbb8-4d9f-a003-bc11c87ec5c6:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    DIAMOND_PICKAXE: true
+    COBBLE: false
+    STACK: false
+  18ab7492-4a53-4f94-9258-6e8cd7299bc0:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    DIAMOND_PICKAXE: true
+    COBBLE: false
+    STACK: false
+  e8fa5d45-8d07-49ff-81ea-b9c81ba8e5a7:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    DIAMOND_PICKAXE: true
+    COBBLE: false
+    STACK: false
 userVersion:
   e79fc165-83d6-4139-9a8f-d42bf1c23f87: 1.9.8
   5e9388ba-0573-444c-a761-b6d9174042af: 1.9.8
+  3368f471-c1d5-4f9f-8b0e-2245724bf905: 1.9.7
+  a2149285-fbb8-4d9f-a003-bc11c87ec5c6: 1.9.7
+  6d86b027-cacd-420e-8a8f-786f8048e185: 1.9.7
+  f64769f8-79f1-4938-b7fd-d02ea2213880: 1.9.7
+  96f82b80-6fed-47b9-b879-53677faa1f4d: 1.9.7
+  18ab7492-4a53-4f94-9258-6e8cd7299bc0: 1.9.7
+  f9eb61a0-3823-4e01-b2c3-61ab448dad31: 1.9.7
+  e8fa5d45-8d07-49ff-81ea-b9c81ba8e5a7: 1.9.7

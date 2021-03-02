@@ -20,7 +20,6 @@ chances:
   DIAMOND:
     minLevel: 0
     maxLevel: 25
-    customName: "&bCustom named diamond that is found on Y=<0, 25>!"
     fortune-0:
       chance: 0.0025
       max-amount: 1
@@ -201,7 +200,7 @@ experience: 0.3
 
 #put here all world that you would like to have disabled:
 disabled-worlds:
-  - world_nether
+  - world_nigger
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

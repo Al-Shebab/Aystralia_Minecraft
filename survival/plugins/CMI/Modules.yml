@@ -111,7 +111,7 @@ homeInteractions: true
 #  
 # Handles dynamic signs
 # Applies for servers from 1.7.x and up
-dynamicSigns: true
+dynamicSigns: false
 #  
 # Handles leather armor which has dynamic colors
 # Applies for servers from 1.7.x and up
