@@ -1,0 +1,22 @@
+name: MrDisasterss
+booster:
+  multiplier: 1.0
+  time: 0
+chests:
+  '0':
+    name: default
+    location:
+      world: world
+      x: -2081
+      y: 59
+      z: -7463
+    money: 52.0
+    items-sold: 24
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1614784782542

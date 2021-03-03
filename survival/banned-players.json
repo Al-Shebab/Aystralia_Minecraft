@@ -1,5 +1,13 @@
 [
   {
+    "uuid": "6aa52218-3876-4ce8-afed-ae5dbac0e730",
+    "name": "ukteeth",
+    "created": "2021-03-03 05:18:51 -0800",
+    "source": "Feeyne",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
     "uuid": "82e8c306-fc1f-4cb5-bb53-62cfea5cec1f",
     "name": "2Tik",
     "created": "2021-01-24 14:05:34 -0800",

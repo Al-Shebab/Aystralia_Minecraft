@@ -64,3 +64,18 @@ perks:
         - "lp user %PLAYER% permission set MCPerks.NightVision"
       buyPrice: 25000
       slot: 13
+    5:
+      type: command
+      item:
+        material: ROTTEN_FLESH
+        name: "&c&lDouble Drops"
+        quantity: 1
+        lore: 
+          - "&fIncrease all mob drops by &c2x"
+          - ""
+          - "&fPurchase a perk, use &c/perks &fto open the menu"
+          - "&bAll perk purchases are permanant"
+      commands: 
+        - "lp user %PLAYER% permission set MCPerks.IncreaseMobDrops"
+      buyPrice: 50000
+      slot: 14
