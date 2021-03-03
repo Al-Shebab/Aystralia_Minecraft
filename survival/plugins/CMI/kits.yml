@@ -103,7 +103,7 @@ Newbie:
           to "},{"bold":true,"italic":false,"color":"aqua","text":"[playerName]"}],"text":""}'
 Claim:
   CommandName: Claim
-  Enabled: false
+  Enabled: true
   Delay: 600
   Items:
     '28':
