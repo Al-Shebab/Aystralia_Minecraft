@@ -19,3 +19,5 @@ aliases:
   - version $1-
   seed:
   - version $1-
+  warps:
+  - warplist
