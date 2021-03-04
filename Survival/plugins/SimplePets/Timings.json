@@ -1,16 +1,16 @@
 {
   "PetCore": {
-    "startup": "591ms",
-    "SupportedVersions": "5ms",
+    "startup": "494ms",
+    "SupportedVersions": "4ms",
     "ErrorCheck": "2ms",
-    "Loading Config Files": "26ms",
+    "Loading Config Files": "22ms",
     "Registering Command": "8ms",
-    "Registering Listeners": "15ms",
+    "Registering Listeners": "17ms",
     "MySQL": "0ms",
     "Saving PlayerData": "0ms"
   },
   "TypeManager": {
-    "Register Pets": "426ms",
+    "Register Pets": "334ms",
     "Sorting Pets": "14ms",
     "Unloading Pets": "0ms"
   },

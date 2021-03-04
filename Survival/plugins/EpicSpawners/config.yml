@@ -94,20 +94,20 @@ Main:
   # This is purely a safety function to prevent against unplanned crashes or
   # restarts. With that said it is advised to keep this enabled.
   # If however you enjoy living on the edge, feel free to turn it off.
-  Auto Save Interval In Seconds: 15
+  Auto Save Interval In Seconds: 0
 
   # Should natural spawners be disabled?
   Disable Natural Spawners: false
 
   # If enabled mobs spawned by spawners will not move or attack.
-  Nerf Spawner Mobs: false
+  Nerf Spawner Mobs: true
   Equations:
 
     # The equation that defines the amount of mobs a spawner will spawn each time it is triggered.
     # This is ran once for each spawner in the stack then summed up after. You may use the variable {STACK_SIZE}
     # or {RAND} If you like. For more information about how to make equations for this option look up the
     # Java ScriptEngine.
-    Mobs Spawned Per Single Spawn: '{RAND}'
+    Mobs Spawned Per Single Spawn: '{RAND} * {STACK_SIZE}'
 
     # This value depicts the variable {RAND} in equations used by this plugin
     # It generates a random number between (by default) 1 and 4.
@@ -153,7 +153,7 @@ Spawner Drops:
   Only Drop Stacked Spawners: false
 
   # Should spawners drop when enough mobs of that spawners type are killed?
-  Allow Killing Mobs To Drop Spawners: true
+  Allow Killing Mobs To Drop Spawners: false
 
   # Can mobs from spawners count towards the spawner drop count?
   Count Unnatural Kills Towards Spawner Drop: false

@@ -29,6 +29,8 @@
   "enableItem2": false,
   "enableItem3": false,
   "enableCustomEconomy": false,
+  "displayCooldownMessage": true,
+  "giveItemAfterPurchase": false,
   "maxPrice": 999999999999999999,
   "minPrice": 0,
   "sellTime": 172800,
@@ -62,5 +64,6 @@
   "materialItem2": "GOLD_INGOT",
   "materialItem3": "GOLD_BLOCK",
   "blacklistPlayers": [],
-  "autoSaveSecond": 900
+  "autoSaveSecond": 900,
+  "sortCooldownChange": 5
 }

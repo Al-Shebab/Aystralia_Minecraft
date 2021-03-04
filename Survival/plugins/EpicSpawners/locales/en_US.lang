@@ -16,26 +16,26 @@ interface:
     upgradewithlevelslore: '&fCost: &a%cost% Levels'
     upgradewitheconomy: '&aUpgrade with ECO'
     upgradewitheconomylore: '&fCost: &a%cost%'
-    statstitle: '&6Spawner Stats'
-    stats: '&fSpawned &6%amount% &ftimes so far.'
-    onlyspawnson: '&fOnly spawns on &6%block%&f.'
-    boost: '&fClick to &6Boost'
+    statstitle: '&bSpawner Stats'
+    stats: '&fSpawned &b%amount% &ftimes so far.'
+    onlyspawnson: '&fOnly spawns on &b%block%&f.'
+    boost: '&fClick to &bBoost'
     cantboost: '&cCannot boost.'
-    convert: '&fClick to &6Convert'
-    boostedstats: '&a&lCurrently boosted!|&fAdding &6%amount% &fextra to every spawn.|&fExpires in &6%time%&f.'
+    convert: '&fClick to &bConvert'
+    boostedstats: '&a&lCurrently boosted!|&fAdding &b%amount% &fextra to every spawn.|&fExpires in &b%time%&f.'
     boostednever: never
     tutorialtitle: '&a&lUseful Information'
     tutorial: '{[LEVELUP]You can stack or ''levelup'' this spawner by: [Using another spawner on this spawner][Leveling up with XP][Leveling up with ECONOMY].}|{[DROP]A <TYPE> spawner will drop when you kill <AMT> [natural ]<TYPE>''s}|{[OMNI][Stacking spawners of different types will create an OmniSpawner].}|{[WATER][Spawners will repel water].}|{[REDSTONE][You can disable this spawner by applying redstone power to it.]}'
     howtonext: '&aClick to go to the next page.'
     howtoback: '&aClick to go back to the first page.'
-    paused: '&6Spawning Paused Due To:'
-    conditionBiome1: Not being placed in a &6%biome%&f biome.
+    paused: '&bSpawning Paused Due To:'
+    conditionBiome1: Not being placed in a &b%biome%&f biome.
     conditionBiome2: Not being placed in the correct biome.
-    conditionHeight: The Y coordinate not being between &6%min%&f and &6%max%&f.
-    conditionLight: Lacking &6light&f.
-    conditionDark: Lacking &6darkness&f.
-    conditionNearbyEntities: There are more than &6%max%&f entities around this spawner.
-    conditionNearbyPlayers: There are less than &6%amount%&f players within &6%distance%&f blocks away from this spawner.
+    conditionHeight: The Y coordinate not being between &b%min%&f and &b%max%&f.
+    conditionLight: Lacking &blight&f.
+    conditionDark: Lacking &bdarkness&f.
+    conditionNearbyEntities: There are more than &b%max%&f entities around this spawner.
+    conditionNearbyPlayers: There are less than &b%amount%&f players within &b%distance%&f blocks away from this spawner.
     conditionStorm: There is no storm.
   tiers:
     title: Omni Spawner
@@ -59,8 +59,8 @@ interface:
     nokills: '&fYou currently have no mob kills. Go kill something!'
   boost:
     title: '&8Boosting %spawner% &8by %amount%'
-    cost: '&fCosts &6&l%cost%.'
-    boostfor: '&f&lBoost for &6&l%amount% &f&lMinutes'
+    cost: '&fCosts &b&l%cost%.'
+    boostfor: '&f&lBoost for &b&l%amount% &f&lMinutes'
 # Command Messages
 command:
   give:
@@ -72,19 +72,19 @@ event:
     protected: '&cThis spawner is protected and you cannot interact with it.'
   upgrade:
     cannotafford: '&cYou cannot afford this upgrade.'
-    success: '&fYou''ve upgraded this spawner to &6%size%x&f.'
+    success: '&fYou''ve upgraded this spawner to &b%size%x&f.'
     maxed: '&fThis spawner is maxed out.'
-    successmaxed: '&fYou maxed out this spawner at &6%size%x&f.'
+    successmaxed: '&fYou maxed out this spawner at &b%size%x&f.'
   tierup:
-    success: '&fYou''ve unlocked the &6%tier%x&f.'
+    success: '&fYou''ve unlocked the &b%tier%x&f.'
   downgrade:
-    success: '&fYou''ve downgraded this spawner to &6%size%x&f.'
+    success: '&fYou''ve downgraded this spawner to &b%size%x&f.'
   block:
     place: '&fYou placed a &c%type%&f.'
     broken: This spawner type has been removed and you cannot place it.
-    chargeplace: '&fYou will be charged &6%cost% &fif you do not break this spawner within 1 minute.'
+    chargeplace: '&fYou will be charged &b%cost% &fif you do not break this spawner within 1 minute.'
     break: '&fYou broke a &c%type%&f.'
-    chargebreak: '&fYou will be charged &6%cost% &ffor breaking this spawner. Break again to confirm.'
+    chargebreak: '&fYou will be charged &b%cost% &ffor breaking this spawner. Break again to confirm.'
     blacklisted: '&cThat action is disabled.'
     omnitake: '&fYou took a &c%type%&f from the OmniSpawner.'
     forcedeny: '&cThis spawner is too close to another spawner.'
@@ -92,10 +92,10 @@ event:
     chunklimit: '&cNo more than &4%amount% spawners &ccan be placed in this chunk.'
     cannotbreak: '&fYou cannot afford to break this spawner.'
   goal:
-    alert: '&fYou need &6%goal% &fmore kills to get a &c%type% Spawner&f.'
+    alert: '&fYou need &b%goal% &fmore kills to get a &c%type% Spawner&f.'
     reached: '&fA &c%type% Spawner &fhas been dropped!'
   egg:
-    needmore: '&fYou need &6%amount% &fMonster Eggs to convert this spawner.'
+    needmore: '&fYou need &b%amount% &fMonster Eggs to convert this spawner.'
     sametype: '&fThis already spawns &c%type%s&f.'
   shop:
     cannotafford: '&cYou cannot afford to buy this.'
@@ -108,7 +108,7 @@ event:
   convert:
     success: '&fYour conversion was successful.'
   boost:
-    applied: '&6Your boost has been applied.'
+    applied: '&bYour boost has been applied.'
   combine:
     onlyone: '&cYou can only combine one spawner at a time.'
   spawner:
