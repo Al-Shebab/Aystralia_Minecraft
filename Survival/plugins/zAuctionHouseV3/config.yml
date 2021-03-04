@@ -15,7 +15,7 @@ bannedItemsWithMaterial:
 permissions:
   zauctionhouse_max_5: 5
   zauctionhouse_max_10: 10
-  zauctionhouse_max_15: 15
+  zauctionhouse_max_20: 20
   
 #SQL
 sql:

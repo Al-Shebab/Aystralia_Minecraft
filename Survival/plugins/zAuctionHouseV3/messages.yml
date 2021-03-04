@@ -1,7 +1,7 @@
 messages:
   prefix:
     type: TCHAT
-    message: '&8(&bzAuctionHouse&8)'
+    message: '&f[&bAH&f]'
   time:
     day:
       type: TCHAT
@@ -41,7 +41,7 @@ messages:
         - '&6• &eAnother cmd'
     reload:
       type: TCHAT
-      message: '&aPlugin successfuly reloaded.'
+      message: '&bPlugin successfully reloaded.'
     sell:
       argument:
         price:
@@ -142,10 +142,10 @@ messages:
     message:
       default:
         type: TCHAT
-        message: '&fYou just put &ax&f%amount% &7%item% &fon sale for &b%price%%currency%&7.'
+        message: '&fYou just put &9x%amount% &b%item% &fon sale for &b$%price%&f.'
       inventory:
         type: TCHAT
-        message: '&fYou just put &ax&f%amount% &7items &fon sale for &b%price%%currency%&7.'
+        message: '&fYou just put &9x%amount% &bitems &fon sale for &b$%price%&f.'
     creative:
       error:
         type: TCHAT
@@ -164,8 +164,7 @@ messages:
     items:
       error:
         type: TCHAT
-        message: '&cYou cannot sell more than &f%max% &citems. &8(&7Did you set the
-          &fzauctionhouse.max.<number permission in the configuration file> &7?&8)'
+        message: '&cYou cannot sell more than &4%max% &citems.'
     inventory:
       error:
         type: TCHAT
@@ -181,26 +180,26 @@ messages:
   item:
     purchased:
       type: TCHAT
-      message: '&fYou just purchased &a%item%&f.'
+      message: '&fYou just purchased &b%item%&f.'
     remove:
       admin:
         type: TCHAT
-        message: '&fYou have just deleted the item &a%item%&f.'
+        message: '&fYou have just deleted the item &b%item%&f.'
       seller:
         get:
           type: TCHAT
-          message: '&fAn administrator has just removed &a%item%&f, you can retrieve
+          message: '&fAn administrator has just removed &b%item%&f, you can retrieve
             it from the list of expired items.'
         delete:
           type: TCHAT
-          message: '&fAn administrator has just removed &a%item%&f, You cannot retrieve
+          message: '&fAn administrator has just removed &b%item%&f, You cannot retrieve
             your item.'
     lore:
       default:
         type: TCHAT
         messages:
         - '&8&m-+------------------------------+-'
-        - '&8[&a!&8] &7%status%'
+        - '&8[&b!&8] &7%status%'
         - ''
         - '  &f* &fSeller&7: &b%seller%'
         - '  &f* &fPrice&7: &b%price%'
@@ -210,7 +209,7 @@ messages:
         type: TCHAT
         messages:
         - '&8&m-+------------------------------+-'
-        - '&8[&a!&8] &7Click to retrieve the item'
+        - '&8[&b!&8] &7Click to retrieve the item'
         - ''
         - '  &f* &fExpire&7: &b%time%'
         - '&8&m-+------------------------------+-'
@@ -218,7 +217,7 @@ messages:
         type: TCHAT
         messages:
         - '&8&m-+------------------------------+-'
-        - '&8[&a!&8] &7Click to retrieve the item'
+        - '&8[&b!&8] &7Click to retrieve the item'
         - ''
         - '  &f* &fExpire&7: &b%time%'
         - '&8&m-+------------------------------+-'
@@ -226,7 +225,7 @@ messages:
         type: TCHAT
         messages:
         - '&8&m-+------------------------------+-'
-        - '&8[&a!&8] &7Click to retrieve the item'
+        - '&8[&b!&8] &7Click to retrieve the item'
         - ''
         - '  &f* &fExpire&7: &b%time%'
         - '&8&m-+------------------------------+-'
@@ -234,7 +233,7 @@ messages:
         type: TCHAT
         messages:
         - '&8&m-+------------------------------+-'
-        - '&8[&a!&8] &7%status%'
+        - '&8[&b!&8] &7%status%'
         - ''
         - '  &7* &fType&7: &bInventory'
         - '  &7* &fSeller&7: &b%seller%'
@@ -252,7 +251,7 @@ messages:
   buyer:
     purchased:
       type: TCHAT
-      message: '&a%buyer% &fjust bought &7%item% &ffor &b%price%%currency%&f.'
+      message: '&b%buyer% &fjust bought &7%item% &ffor &b%price%%currency%&f.'
   remove:
     message:
       type: TCHAT
@@ -333,25 +332,25 @@ messages:
       list:
         type: TCHAT
         messages:
-        - '&8(&bzAuctionHouse&8) &fTransactions &7%type% &8(&a%page%&8/&a%maxPage%&8)'
+        - '&8(&bzAuctionHouse&8) &fTransactions &7%type% &8(&b%page%&8/&b%maxPage%&8)'
         - '%content%'
         - '&8(&b?&8) &7&oDo &f&o/ah history %nextPage% %type% &7&oto go to the next
           page.'
       show:
         type: TCHAT
         messages:
-        - '&8(&bzAuctionHouse&8) &fTransactions &7%type% &fof &b%player% &8(&a%page%&8/&a%maxPage%&8)'
+        - '&8(&bzAuctionHouse&8) &fTransactions &7%type% &fof &b%player% &8(&b%page%&8/&b%maxPage%&8)'
         - '%content%'
         - '&8(&b?&8) &7&oDo &f&o/ah transaction %player% %nextPage% %type% &7&oto
           go to the next page.'
       content:
         sale:
           type: TCHAT
-          message: '&f%seller% have sold x&a%amount% &o%item% &fto the player &b%buyer%
+          message: '&f%seller% have sold x&b%amount% &o%item% &fto the player &b%buyer%
             for &7%price%%currency% &8(&7%date%&8)'
         purchase:
           type: TCHAT
-          message: '&f%buyer% have purchased x&a%amount% &o%item% &fto the player
+          message: '&f%buyer% have purchased x&b%amount% &o%item% &fto the player
             &b%seller% for &7%price%%currency% &8(&7%date%&8)'
         you:
           type: TCHAT
@@ -359,11 +358,11 @@ messages:
   connect:
     claim:
       type: TCHAT
-      message: '&aYou have money to recover, make &b/ah claim &ato recover for your
+      message: '&bYou have money to recover, make &b/ah claim &bto recover for your
         money.'
     transactions:
       type: TCHAT
-      message: '&aYou sold %item% during your absence.'
+      message: '&bYou sold %item% during your absence.'
   claim:
     money:
       error:
@@ -371,4 +370,4 @@ messages:
         message: '&cYou have no pending transactions.'
       success:
         type: TCHAT
-        message: '&aYou just got your money back on hold.'
+        message: '&bYou just got your money back on hold.'
