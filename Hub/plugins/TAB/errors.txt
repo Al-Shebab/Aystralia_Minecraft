@@ -24,3 +24,4 @@
 28.02.2021 - 21:36:11 - [TAB v2.8.10] Value "%player_ping%" used in belowname still has unparsed placeholders! Did you forget to download an expansion ?
 01.03.2021 - 08:53:32 - [TAB v2.8.10] Group "trusted" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "trusted" into group-sorting-priority-list in config.yml.
 02.03.2021 - 01:45:31 - [TAB v2.8.10] Group "founding-father" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "founding-father" into group-sorting-priority-list in config.yml.
+03.03.2021 - 08:03:58 - [TAB v2.8.10] Group "trial-developer" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "trial-developer" into group-sorting-priority-list in config.yml.

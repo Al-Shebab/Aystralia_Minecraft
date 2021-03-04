@@ -1,4 +1,7 @@
 CheckWorld: 'false'
 OfflineRewards: ''
-LastOnline: '1614777038359'
+LastOnline: '1614817352151'
 PlayerName: KaoticOCE
+IncreaseMobDrops_CoolDown: '1614787159531'
+Experation:
+  IncreaseMobDrops: '0'
