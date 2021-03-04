@@ -371,3 +371,7 @@ messages:
       success:
         type: TCHAT
         message: '&bYou just got your money back on hold.'
+  cooldown:
+    message:
+      type: ACTION
+      message: ' &cYou must wait &f%cooldown% &cbefore you can do this action.'

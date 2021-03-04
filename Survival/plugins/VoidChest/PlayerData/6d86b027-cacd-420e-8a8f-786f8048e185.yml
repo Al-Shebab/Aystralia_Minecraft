@@ -1,4 +1,4 @@
-name: MrDisasterss
+name: Jacktank
 booster:
   multiplier: 1.0
   time: 0
@@ -7,16 +7,16 @@ chests:
     name: default
     location:
       world: world
-      x: -2081
-      y: 59
-      z: -7463
-    money: 265.0
-    items-sold: 230
-    items-purged: 69
-    autosell: false
+      x: -2760
+      y: 6
+      z: 1541
+    money: 503.0
+    items-sold: 89
+    items-purged: 0
+    autosell: true
     purge-items: false
     hologram: true
     chunk-collector: true
     bank: true
     charge:
-      time: 1614862304308
+      time: 1614862304307

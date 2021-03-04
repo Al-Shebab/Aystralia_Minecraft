@@ -1,7 +1,7 @@
 {
   "storage": "JSON",
   "defaultEconomy": "VAULT",
-  "useSellCooldown": false,
+  "useSellCooldown": true,
   "enablePlugin": true,
   "creativeSell": true,
   "betterPrice": true,
@@ -62,5 +62,5 @@
   "materialItem2": "GOLD_INGOT",
   "materialItem3": "GOLD_BLOCK",
   "blacklistPlayers": [],
-  "autoSaveSecond": 3600
+  "autoSaveSecond": 900
 }

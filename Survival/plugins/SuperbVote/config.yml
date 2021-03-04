@@ -53,6 +53,7 @@ rewards:
     commands:
     - money give %player% 2500
     - cratesplus key %player% Vote 1
+    - tppos -301.51 138.0 200.54 world 1.45 180.46 %player%
     player-message: "&bThanks for voting. &fTo use your key go to &b/warp crates"
     broadcast-message: "&9&l%player% &fhas voted for us on &b&l%service%. &fThank you!"
 
