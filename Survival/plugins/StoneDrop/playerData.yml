@@ -236,6 +236,69 @@ users:
     REDSTONE: true
     COBBLE: false
     STACK: false
+  a5a02ec3-dc2b-4336-b901-92facd43ca71:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
+  883c05f5-751b-4f69-a982-e845cfb2d4e5:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
+  3029b2e5-8bb7-4ebf-bf81-35f4814a1d26:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
+  19885214-3863-4d6b-ade1-2ae1d0435d1b:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
+  f755b6b2-6058-4e11-b40d-29735cc448e8:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
+  4aad12ff-ef9e-42b1-9318-cc9319325a37:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
+  aed34e38-7dd9-48c2-b6d2-af8595c15ac0:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
 userVersion:
   e79fc165-83d6-4139-9a8f-d42bf1c23f87: 1.9.8
   5e9388ba-0573-444c-a761-b6d9174042af: 1.9.8
@@ -261,3 +324,10 @@ userVersion:
   9c013568-0700-4c66-96f9-5bb81e035be5: 1.9.8
   362b5125-f865-4358-b10f-04e3e8beed65: 1.9.8
   8241ad24-e8b6-48cd-b382-3d61e423d78d: 1.9.8
+  883c05f5-751b-4f69-a982-e845cfb2d4e5: 1.9.8
+  3029b2e5-8bb7-4ebf-bf81-35f4814a1d26: 1.9.8
+  f755b6b2-6058-4e11-b40d-29735cc448e8: 1.9.8
+  4aad12ff-ef9e-42b1-9318-cc9319325a37: 1.9.8
+  aed34e38-7dd9-48c2-b6d2-af8595c15ac0: 1.9.8
+  a5a02ec3-dc2b-4336-b901-92facd43ca71: 1.9.8
+  19885214-3863-4d6b-ade1-2ae1d0435d1b: 1.9.8

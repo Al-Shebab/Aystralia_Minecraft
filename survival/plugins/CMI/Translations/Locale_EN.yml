@@ -806,8 +806,8 @@ Chat:
   privateHover: '&fSent time: &b%server_time_hh:mm:ss%'
   staffHover: '&fSent time: &b%server_time_hh:mm:ss%'
   helpopHover: '&fSent time: &b%server_time_hh:mm:ss%'
-  link: '&l&c[&bLINK&c]'
-  item: '&b[%cmi_iteminhand_displayname%[amount]&b]'
+  link: '&l&f[&bLINK&f]'
+  item: '&f[%cmi_iteminhand_displayname%[amount]&f]'
   itemAmount: ' x[amount]'
   itemEmpty: '&b[Mighty fist]'
 command:

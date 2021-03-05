@@ -19,3 +19,8 @@ command:
   - /warp
   - '&f/kit claim'
   - '&f/buyclaimblocks'
+spawn:
+  location: world, -54.533, 42.200, -109.510
+  lines:
+  - '&fWelcome to &bAystralia Network'
+  - '&fUse the &bServer Selector&f to start!'

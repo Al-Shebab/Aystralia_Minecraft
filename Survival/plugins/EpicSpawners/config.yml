@@ -20,7 +20,7 @@ Main:
   # The radius checked around a spawner before spawning entities.
   # By default this is used to make sure there are no more than 7 entities
   # around any single spawner.
-  Radius To Search Around Spawners: 8x4x8
+  Radius To Search Around Spawners: 2x1x2
 
   # Toggle an alerting chat message after triggered by placing or breaking a spawner.
   Alerts On Place And Break: false
@@ -94,7 +94,7 @@ Main:
   # This is purely a safety function to prevent against unplanned crashes or
   # restarts. With that said it is advised to keep this enabled.
   # If however you enjoy living on the edge, feel free to turn it off.
-  Auto Save Interval In Seconds: 0
+  Auto Save Interval In Seconds: 5
 
   # Should natural spawners be disabled?
   Disable Natural Spawners: false
@@ -107,7 +107,7 @@ Main:
     # This is ran once for each spawner in the stack then summed up after. You may use the variable {STACK_SIZE}
     # or {RAND} If you like. For more information about how to make equations for this option look up the
     # Java ScriptEngine.
-    Mobs Spawned Per Single Spawn: '{RAND} * {STACK_SIZE}'
+    Mobs Spawned Per Single Spawn: '{STACK_SIZE}'
 
     # This value depicts the variable {RAND} in equations used by this plugin
     # It generates a random number between (by default) 1 and 4.
