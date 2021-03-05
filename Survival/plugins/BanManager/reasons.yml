@@ -1,0 +1,12 @@
+# Example:
+# hacking: "Using a hacked client"
+# /ban confuser #hacking
+
+hacking: "Using a 3rd party hacked client"
+advertising: "Advertisement"
+advertisement: "Advertisement"
+xray: "Using an X-ray texture pack or 3rd party hacked client"
+racism: "Using racial slurs with malicious intent"
+crash: "Attempting to crash the server [Non-Appealable]"
+ban evading: "Attempting to evade a previous ban [Non-Appealable]"
+duping: "Item duplication [Non-Appealable]"

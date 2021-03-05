@@ -20,4 +20,6 @@ aliases:
   seed:
   - version $1-
   warps:
-  - warplist
+  - warplist $1-
+  openinv:
+  - invsee $1-

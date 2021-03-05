@@ -27,7 +27,7 @@ customMessages: true
 #  
 # First join messages
 # Applies for servers from 1.7.x and up
-firstJoinMessages: true
+firstJoinMessages: false
 #  
 # Handling of cuffed players
 # Applies for servers from 1.7.x and up
@@ -139,7 +139,7 @@ headDrop: true
 #  
 # Handles kit listener, mainly to give out new player kit
 # Applies for servers from 1.7.x and up
-kits: true
+kits: false
 #  
 # Handles schedule system
 # Applies for servers from 1.7.x and up

@@ -31,18 +31,3 @@ special:
       commandsLimit: 64
       buyPrice: 25000
       slot: 11
-    3:
-      type: command
-      item:
-        material: DIAMOND_HOE
-        name: "&b&lHarvester Hoe"
-        quantity: 1
-        lore: 
-          - "&fIncrease your sugarcane yield."
-          - "&bHas internal upgrades upon purchase"
-          - "&bUnbreakable"
-      commands: 
-        - "hh give %PLAYER% 1"
-      commandsLimit: 64
-      buyPrice: 5000
-      slot: 12

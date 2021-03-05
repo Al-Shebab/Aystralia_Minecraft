@@ -37,7 +37,7 @@ vote:
   - '&b&ki&f&ki&b Vote &fCrate &f&ki&b&ki'
   - '&bGet keys by voting via &f/vote'
 cactus:
-  location: world, -999.412, 16.200, 3476.837
+  location: world, -1031.974, 3.000, 3448.911
   lines:
   - '&b&l/warp cactus'
   - '&fBuy some cactus for free'

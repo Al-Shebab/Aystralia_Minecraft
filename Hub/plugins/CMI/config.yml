@@ -1263,27 +1263,27 @@ Warnings:
     - cmi tempban [playerName] 5m &cTemporary banned for getting 10 warnings!
 Spawn:
   # Forces players to login in defined spawn point when logging into server
-  SpawnOnJoin: false
+  SpawnOnJoin: true
   # Defines players spawn point after death if set to true, if not, then it will be used only for /cmi spawn command
   # RespawnLocation will indicate if you want to use this location as possible respawn point for player after death
   Main:
     World: world
-    X: -301.5654824840717
-    Y: 136.0
-    Z: 267.30031989686694
-    Pitch: -2.287545
-    Yaw: 180.20325
-    RespawnLocation: true
+    X: -54.436206385262224
+    Y: 41.0
+    Z: -103.59331703846391
+    Pitch: 1.1542684
+    Yaw: 179.68079
+    RespawnLocation: false
     Rng: 0
   # Defines players first spawn point when he logs into server for the first time
   FirstSpawn:
     Use: true
     World: world
-    X: -301.5654824840717
-    Y: 136.0
-    Z: 267.30031989686694
-    Pitch: -2.287545
-    Yaw: 180.20325
+    X: -54.436206385262224
+    Y: 41.0
+    Z: -103.59331703846391
+    Pitch: 1.1542684
+    Yaw: 179.68079
 Newbie:
   # Kit name to give for new players joining server
   Kit: Newbie

@@ -665,9 +665,9 @@ command:
     output:
       turnedoff: '&4This feature is turned off!'
       paid:
-        main: '&fYou got:'
-        money: '&9[amount] money'
-        exp: '&f[exp] exp'
+        main: '&fPay:'
+        money: '&b$[amount]'
+        exp: ''
         points: ''
       'on': '&aToggled: &aON'
       'off': '&aToggled: &4OFF'
