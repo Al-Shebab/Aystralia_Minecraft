@@ -335,9 +335,9 @@ custom_join_items:
         - "[MESSAGE] &r"
         - "[MESSAGE] &e&lServer Information"
         - "[MESSAGE] &r"
-        - "[MESSAGE] &bWebsite: &fComing Soon"
-        - "[MESSAGE] &cStore: &fhttps://aystralia-network.tebex.io"
-        - "[MESSAGE] &dDiscord: &fhttps://discord.gg/hWN7zXtbQP"
+        - "[MESSAGE] &bWebsite: &fhttps://forums.aystralia.com.au "
+        - "[MESSAGE] &cStore: &fhttps://aystralia-network.tebex.io "
+        - "[MESSAGE] &dDiscord: &fhttps://discord.gg/hWN7zXtbQP "
         - "[MESSAGE] &r"
     server_selector:
       material: NETHER_STAR
