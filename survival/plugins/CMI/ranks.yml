@@ -87,28 +87,32 @@ guest:
   DefaultRank: true
   AutoRankup: true
   NextRanks:
-  - founding-father
-founding-father:
+  - member
+member:
   Enabled: true
-  DisplayName: '{#004fd4}Founding Father&r'
+  DisplayName: '{#763bff}&lMember&r'
   AutoRankup: true
   RankupConfirmation: false
   NextRanks:
-  - member
+  - trusted
   MoneyCost: 0
   Commands:
-  - luckperms user DisplayName parent set founding-father
+  - broadcast! &b[playerDisplayName] &fleveled up to {#763bff}&lMember&r
+  - cmi money give [playerName] 10000
+  - luckperms user [playerName] parent set member
   StatsRequirements:
-  - PlayTime:1
-member:
-  Enabled: false
-  DisplayName: '{#763bff}&lMember&r'
+  - PlayTime:1200
+trusted:
+  Enabled: true
+  DisplayName: '{#773dff}Trusted&r'
   AutoRankup: true
   RankupConfirmation: false
   NextRanks:
   - Last
   MoneyCost: 0
   Commands:
-  - luckperms user DisplayName parent set member
+  - broadcast! &b[playerDisplayName] &fleveled up to {#773dff}Trusted&r
+  - cmi money give [playerName] 25000
+  - luckperms user [playerName] parent set trusted
   StatsRequirements:
   - PlayTime:86400

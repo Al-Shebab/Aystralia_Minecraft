@@ -82,7 +82,7 @@ messages:
       invalidIndex: '&4Invalid player option used'
       indexRequired: '&4Multiple players named [name], found, please select a player
         by providing an index between 1 and [size], e.g. /bminfo [name] 1'
-      index: '&7#[index] - &4[name] - &4[uuid]'
+      index: '&f#[index] - &4[name] - &c[uuid]'
     stats:
       player: '&4[player] has been banned [bans] times, muted [mutes] times, kicked
         [kicks] times and warned [warns] times ([warnPoints] Points) and has [notes]
@@ -312,8 +312,8 @@ messages:
   notes:
     header: '&4[player] has the following notes:'
     joinAmount: '&4[player] has &e[amount] &4notes, click to view them'
-    note: '&4[[player]] &e[message] - &e[created]'
-    playerNote: '&a[[player]] &4[[actor]] &e[message] - &e[created]'
+    note: '&4[[player]] &c[message] - &c[created]'
+    playerNote: '&a[[player]] &4[[actor]] &c[message] - &c[created]'
     dateTimeFormat: dd-MM-yyyy
     notify: '[player] has a new note attached by [actor]: [message]'
     error:
@@ -340,8 +340,8 @@ messages:
         invalidState: '&4Report state [state] not found'
       row:
         dateTimeFormat: yyyy-MM-dd HH:mm:ss
-        header: '&e-- Reports ([count]) -- Page ([page]/[maxPage])'
-        all: '&7#[id] &e[[state]] &4- [created] - [player]'
+        header: '&f-- &cReports ([count]) &f-- &cPage (&4[page]&f/&c[maxPage])'
+        all: '&f#[id] &f[[state]] &f- [created] - [player]'
     tp:
       error:
         notFound: '&4Report not found'
@@ -349,7 +349,7 @@ messages:
         invalidId: '&4[id] is not a valid report id'
       dateTimeFormat: yyyy-MM-dd HH:mm:ss
       notify:
-        report: '&7#[id] &4[actor] reported [player] for &c[reason]&4 at [created]'
+        report: '&f#[id] &4[actor] reported [player] for &c[reason]&4 at [created]'
         location: '[world] - [x], [y], [z]'
     info:
       error:
@@ -357,7 +357,7 @@ messages:
         invalidId: '&4[id] is not a valid report id'
       dateTimeFormat: yyyy-MM-dd HH:mm:ss
       notify:
-        report: '&7#[id] &4[actor] reported [player] for &c[reason]&4 at [created]'
+        report: '&f#[id] &4[actor] reported [player] for &c[reason]&4 at [created]'
         location: '[world] - [x], [y], [z]'
   addnoteall:
     notify: '&4[player] will have a new attached by [actor]: [message]'
