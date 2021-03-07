@@ -1,0 +1,44 @@
+spawn1:
+  location: world, -301.521, 140.000, 260.476
+  lines:
+  - '&b&lWelcome to &f&lAystralia Network'
+  - '&b&lUseful Commands'
+  - '&f/shop'
+  - '&f/ah'
+  - '&f/warp'
+  - '&f/perks'
+  - '&f/kit Claim'
+  - '&f/discord'
+  - '&f/signshop'
+  - '&f/backpack'
+  - '&f/jobs'
+  - '&f/mcmmo help'
+  - '&f/sethome'
+  - '&b&lIf you are ready'
+  - '&b&lUse &f/rtp &b&lto start'
+command:
+  location: world, -301.481, 139.200, 248.510
+  lines:
+  - '&b&lCommands'
+  - '&f/pets spawn wolf'
+  - '&f/vote'
+  - /warp
+  - '&f/warps'
+  - '&f/perks'
+  - '&f/kit Claim'
+  - '&f/discord'
+  - '&f/signshop'
+  - '&f/backpack'
+  - '&f/kit claim'
+  - '&f/buyclaimblocks'
+vote:
+  location: world, -301.467, 141.075, 198.542
+  lines:
+  - '&b&ki&f&ki&b Vote &fCrate &f&ki&b&ki'
+  - '&bGet keys by voting via &f/vote'
+cactus:
+  location: world, -1031.974, 3.000, 3448.911
+  lines:
+  - '&b&l/warp cactus'
+  - '&fBuy some cactus for free'
+  - '&fand use /sell all. Easy money.'

@@ -10,6 +10,7 @@
 # Website: https://papermc.io/ 
 # Docs: https://paper.readthedocs.org/ 
 
+use-display-name-in-quit-message: false
 verbose: false
 config-version: 20
 settings:
@@ -78,6 +79,9 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    fix-wither-targeting-bug: false
+    update-pathfinding-on-block-update: true
+    ender-dragons-death-always-places-dragon-egg: false
     max-leash-distance: 10.0
     only-players-collide: false
     allow-vehicle-collisions: true

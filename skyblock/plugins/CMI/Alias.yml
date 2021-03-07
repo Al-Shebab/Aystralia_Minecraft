@@ -259,7 +259,7 @@ Alias:
   /giveall: false
   #  
   # /cmi glow $1-
-  /glow: true
+  /glow: false
   #  
   # /cmi gm $1-
   /gm: true
@@ -376,13 +376,13 @@ Alias:
   /iteminfo: true
   #  
   # /cmi itemlore $1-
-  /itemlore: true
-  /ilore: true
+  /itemlore: false
+  /ilore: false
   #  
   # /cmi itemname $1-
   /itemname: false
   /iname: false
-  /rename: true
+  /rename: false
   #  
   # /cmi itemnbt $1-
   /itemnbt: true
@@ -651,7 +651,7 @@ Alias:
   /select: false
   #  
   # /cmi sell $1-
-  /sell: false
+  /sell: true
   #  
   # /cmi sendall $1-
   /sendall: false
@@ -888,11 +888,11 @@ Alias:
   /util: true
   #  
   # /cmi vanish $1-
-  /vanish: false
-  /v: false
+  /vanish: true
+  /v: true
   #  
   # /cmi vanishedit $1-
-  /vanishedit: false
+  /vanishedit: true
   #  
   # /cmi version $1-
   /version: false
@@ -946,7 +946,7 @@ Alias:
   /world: true
   #  
   # /cmi worth $1-
-  /worth: false
+  /worth: true
   #  
   # /cmi worthlist $1-
-  /worthlist: false
+  /worthlist: true

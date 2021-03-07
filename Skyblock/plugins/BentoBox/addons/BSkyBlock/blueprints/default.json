@@ -1,0 +1,15 @@
+{
+  "uniqueId": "default",
+  "icon": "GRASS_BLOCK",
+  "displayName": "§b§lOriginal Skyblock",
+  "description": [
+    "§9Everyone's favourite skyblock island."
+  ],
+  "requirePermission": false,
+  "blueprints": {
+    "NORMAL": "island",
+    "NETHER": "nether-island",
+    "THE_END": "end-island"
+  },
+  "slot": 1
+}

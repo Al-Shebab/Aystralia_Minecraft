@@ -161,3 +161,5 @@ world-settings:
       other-multiplier: 0.0
     squid-spawn-range:
       min: 45.0
+  worldeditregentempworld:
+    verbose: false

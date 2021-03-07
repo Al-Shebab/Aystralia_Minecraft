@@ -47,7 +47,7 @@ refresh:
 items:
   filler:
     material: GRAY_STAINED_GLASS_PANE
-    slot: 0 # Setting the slot to -1 will fill every empty slot, you can also do "slots: [0, 1, 2]"
+    slot: -1 # Setting the slot to -1 will fill every empty slot, you can also do "slots: [0, 1, 2]"
   Survival:
     material: GRASS_BLOCK
     slot: 10

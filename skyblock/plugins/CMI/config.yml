@@ -224,7 +224,7 @@ Optimizations:
   IP:
     # When set to true, players ip will be recorded for future use, like recognizing players other accounts
     # Some commands will have limited usage when this is disabled
-    Record: true
+    Record: false
     # How long in second to wait until players ip is being recorded into data base
     # This only applies for offline servers to allow for player first of all to login before recording ip
     # Try to keep this value lower than your login plugin's allowed login time
@@ -721,7 +721,7 @@ Chat:
   # Do you want to enable staff messaging over bungeecord
   BungeeStaffMessages: false
   # Used for simple chat messages. Optional variables: {displayName} {world} {prefix} {suffix} {group} {shout} {message}. Supporting PlaceHolderAPI variables like %player_server%
-  GeneralFormat: '{prefix}&r {displayName}&f » &r{message}'
+  GeneralFormat: '%luckperms_prefix%&r %cmi_user_display_name% &8» &r{message}'
   # Will define message format itself, this allows to have gradients in messages
   # It NEEDS to contain {message} otherwise we will ignore this setup
   # For 1.16+ servers you can use color gradients like '{#b3a28f>}{message}{#d7b8e6<}'
@@ -858,7 +858,7 @@ Chat:
     # This is allot more heavier on server than usual tagging with @, so enable if you know what you are doing
     HardCoreMode: false
     # Determines color of taged user name in chat with @ in front of name/nickname. Sender should have cmi.tag.color
-    Color: '&d'
+    Color: '&a'
     # Commands to be performed when player is tagged
     # Variables like [playerName] will be replaced with tagged player name
     # You can use [senderName] to include player name who tagged
@@ -1268,22 +1268,22 @@ Spawn:
   # RespawnLocation will indicate if you want to use this location as possible respawn point for player after death
   Main:
     World: world
-    X: -347.4763194442262
-    Y: 168.0
-    Z: 105.52556419079758
-    Pitch: 0.40961948
-    Yaw: 88.93257
+    X: 0.5063504504833114
+    Y: 70.0625
+    Z: 0.49312275355057467
+    Pitch: 0.9458764
+    Yaw: 0.28955078
     RespawnLocation: false
     Rng: 0
   # Defines players first spawn point when he logs into server for the first time
   FirstSpawn:
     Use: true
     World: world
-    X: -347.3909063137919
-    Y: 151.0
-    Z: 105.4115483738386
-    Pitch: 0
-    Yaw: 90
+    X: -301.5654824840717
+    Y: 136.0
+    Z: 267.30031989686694
+    Pitch: -2.287545
+    Yaw: 180.20325
 Newbie:
   # Kit name to give for new players joining server
   Kit: Newbie
@@ -1361,7 +1361,7 @@ WorldLimits:
 # Checks and shows on players login if he have been changed hes name over Mojang
 # Looks to be working only with online servers, duhhhh
 CheckForNameChange:
-  OnLogin: true
+  OnLogin: false
   AmountToShow: 10
   OnInfoShow: true
   # Do you want to perform commands
@@ -1371,7 +1371,7 @@ CheckForNameChange:
   - 'asConsole! cmi broadcast !&2[oldname] logged in with new name: [newname]'
 inv:
   # Do you want to save the player's inventory on his death
-  SaveOnDeath: true
+  SaveOnDeath: false
   # When set to true, empty inventories (no items in inventory) will not be saved on players death
   IgnoreEmpty: false
   # If set to true then player should have cmi.saveinv permission node for inventory to be saved on death
@@ -1708,6 +1708,17 @@ Time:
       night: 420
       # Default value: 90 Starts from tick: 22200 Ends at tick: 24000
       sunrise: 90
+    # Time is defined in seconds. Vanilla 24 hour ingame duration is 1200 seconds of real time
+    skyblock:
+      Enabled: false
+      # Default value: 600 Starts from tick: 0 Ends at tick: 12000
+      day: 600
+      # Default value: 90 Starts from tick: 12000 Ends at tick: 13800
+      sunset: 90
+      # Default value: 420 Starts from tick: 13800 Ends at tick: 22200
+      night: 420
+      # Default value: 90 Starts from tick: 22200 Ends at tick: 24000
+      sunrise: 90
 RandomTeleportation:
   # If this set to true we will generate random teleport default settings for all detected worlds
   # Setting to false will not longer generate world setups, but you can add them manually if needed
@@ -1815,6 +1826,60 @@ RandomTeleportation:
       IgnoreLava: true
       minY: 0
       maxY: 256
+    bskyblock_world_the_end:
+      Enabled: true
+      MaxRange: 1000
+      MinRange: 500
+      CenterX: 0
+      CenterZ: 0
+      Circle: false
+      IgnoreWater: true
+      IgnoreLava: true
+      minY: 0
+      maxY: 256
+    bskyblock_world:
+      Enabled: true
+      MaxRange: 1000
+      MinRange: 500
+      CenterX: 0
+      CenterZ: 0
+      Circle: false
+      IgnoreWater: true
+      IgnoreLava: true
+      minY: 0
+      maxY: 256
+    bskyblock_world_nether:
+      Enabled: true
+      MaxRange: 1000
+      MinRange: 500
+      CenterX: 0
+      CenterZ: 0
+      Circle: false
+      IgnoreWater: true
+      IgnoreLava: true
+      minY: 0
+      maxY: 256
+    skyblock_nether:
+      Enabled: true
+      MaxRange: 1000
+      MinRange: 500
+      CenterX: 0
+      CenterZ: 0
+      Circle: false
+    skyblock:
+      Enabled: true
+      MaxRange: 1000
+      MinRange: 500
+      CenterX: 0
+      CenterZ: 0
+      Circle: false
+    skyblock_the_end:
+      Enabled: true
+      MaxRange: 1000
+      MinRange: 500
+      CenterX: 0
+      CenterZ: 0
+      Circle: false
   # How long force player to wait before using command again.
   Cooldown: 600
   # How many times to try find correct location for teleportation.

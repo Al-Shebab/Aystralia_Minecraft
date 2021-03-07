@@ -33,3 +33,4 @@
 04.03.2021 - 18:22:34 - [TAB v2.8.10] Group "trial-developer" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "trial-developer" into group-sorting-priority-list in config.yml.
 04.03.2021 - 18:49:59 - [TAB v2.8.10] Group "trusted" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "trusted" into group-sorting-priority-list in config.yml.
 06.03.2021 - 19:28:36 - [TAB v2.8.10] Group "trusted" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "trusted" into group-sorting-priority-list in config.yml.
+07.03.2021 - 00:56:59 - [TAB v2.8.10] Group "trusted" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "trusted" into group-sorting-priority-list in config.yml.

@@ -21,7 +21,7 @@ storage:
 votes:
   # At least this many seconds must pass before allowing another vote (per-service). This will apply per service.
   # Default: 3600 seconds (1 hour)
-  cooldown-per-service: 3600
+  cooldown-per-service: 1
 
   # Whether or not to treat fake votes as real votes
   process-fake-votes: true
@@ -40,7 +40,7 @@ streaks:
 
   command:
     # note: will be disabled if streaks are disabled
-    enabled: true
+    enabled: false
     use-json-text: false
     text: |-
       You currently hold a vote streak of %streak% (%streak_days% days), keep going!
@@ -48,28 +48,17 @@ streaks:
 
 # Rewards. This is the main section you will need to edit. Ordering is important.
 rewards:
-  # Example of matchers. See https://github.com/minecrafter/SuperbVote/wiki/Configuration#if for a full list of available
-  # matchers.
-  - if:
-      permission: superbvote.test
-      chance-percentage: 5
-      service: SpecialService
-    commands:
-    - give %player% diamond 4
-    - eco give %player% 1000
-    player-message: "&aThanks for meeting nearly impossible conditions, you have been rewarded with 4 diamonds and $1000."
-    broadcast-message: "&a%player% got really lucky and was rewarded with 4 diamonds and $1000!"
-  # A default reward is required. Default rewards are defined by using default: true as a matcher. No other matchers can
-  # be used with this matcher and only one such reward can be the default reward.
   - if:
       default: true
     commands:
-    - eco give %player% 1000
-    player-message: "&aThanks for voting for us on %service%, you have been rewarded with $1000."
-    broadcast-message: "&a%player% has voted for us on %service% and was rewarded with $1000!"
+    - money give %player% 2500
+    - cratesplus key %player% Vote 1
+    - tppos -301.51 138.0 200.54 world 1.45 180.46 %player%
+    player-message: "&bThanks for voting. &fTo use your key go to &b/warp crates"
+    broadcast-message: "&9&l%player% &fhas voted for us on &b&l%service%. &fThank you!"
 
 # Whether or not players need to be online to vote. If set, offline player votes are queued for when the player next logs in.
-require-online: true
+require-online: false
 
 # Whether we should queue votes if players aren't online. Requires the above option to be set to true.
 # If this is disabled, the user won't get any rewards if they aren't online, even if they login afterwards.
@@ -91,22 +80,26 @@ broadcast:
     enabled: false
 
     # How many seconds should be between broadcasts?
-    time: 120
+    time: 1
 
 # Vote command.
 # See http://www.minecraftforum.net/forums/minecraft-discussion/redstone-discussion-and/351959-1-9-json-text-component-for-tellraw-title-books
 # and https://www.minecraftjson.com for json text format
 vote-command:
-  enabled: false
+  enabled: true
   use-json-text: false
   text: |-
-    You could vote for us, but the owner forgot to add the list of websites to vote at!
+    &b&lVoting Websites:
+    &b- &fhttps://bit.ly/3p4Vjp4
+    &b- &fhttps://bit.ly/3qBU2Gk
+    &b- &fhttps://bit.ly/3bXoh6p
+    &b- &fhttps://bit.ly/3bPU8Er
 
 # Vote reminder.
 vote-reminder:
   message: "&cDon't forget to vote for us! You currently have &a%votes%&c votes."
-  on-join: true
-  repeat: 180
+  on-join: false
+  repeat: -1
 
 # Controls the /sv <top/leaderboard> command.
 leaderboard:

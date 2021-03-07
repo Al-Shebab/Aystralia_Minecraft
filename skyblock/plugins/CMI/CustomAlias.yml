@@ -40,12 +40,39 @@ CustomAlias:
   colours:
     Cmds:
     - cmi colors
+  bp:
+    Cmds:
+    - pv 1
+  backpack:
+    Cmds:
+    - pv 1
   colourpicker:
     Cmds:
     - cmi colorpicker $1-
   rt:
     Cmds:
     - cmi rt world
+  rules:
+    Cmds:
+    - cmi ctext rules
+  signshop:
+    Cmds:
+    - cmi ctext signshop
   wild:
     Cmds:
     - cmi rt world
+  hub:
+    Cmds:
+    - server Hub
+  creative:
+    Cmds:
+    - server Creative
+  skyblock:
+    Cmds:
+    - server Skyblock
+  anarchy:
+    Cmds:
+    - server Anarchy
+  prison:
+    Cmds:
+    - server Prison

@@ -11,7 +11,7 @@ silentChest: false
 #  
 # Version check when player logs in
 # Applies for servers from 1.7.x and up
-versionCheck: true
+versionCheck: false
 #  
 # World limitations: fly, game mode and god mode
 # Applies for servers from 1.7.x and up
@@ -83,7 +83,7 @@ paintingEditor: true
 #  
 # Handles player vanish mode
 # Applies for servers from 1.7.x and up
-vanish: true
+vanish: false
 #  
 # Handles money cheques
 # Applies for servers from 1.7.x and up
@@ -99,7 +99,7 @@ cmiPlaytime: true
 #  
 # Handles hologram updates
 # Applies for servers from 1.7.x and up
-holograms: true
+holograms: false
 #  
 # Handles portals
 # Applies for servers from 1.7.x and up
@@ -111,7 +111,7 @@ homeInteractions: true
 #  
 # Handles dynamic signs
 # Applies for servers from 1.7.x and up
-dynamicSigns: true
+dynamicSigns: false
 #  
 # Handles leather armor which has dynamic colors
 # Applies for servers from 1.7.x and up
@@ -175,7 +175,7 @@ hpBossBar: true
 #  
 # Handling of afk feature. This will disable any checks related to afk and players will never get into afk mode
 # Applies for servers from 1.7.x and up
-afk: true
+afk: false
 #  
 # Handling timed commands like tfly and tgod
 # Applies for servers from 1.7.x and up
