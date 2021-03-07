@@ -99,7 +99,7 @@ member:
   Commands:
   - broadcast! &b[playerDisplayName] &fleveled up to {#763bff}&lMember&r
   - cmi money give [playerName] 10000
-  - luckperms user [playerName] parent set member
+  - luckperms user [playerName] parent add member
   StatsRequirements:
   - PlayTime:1200
 trusted:
@@ -113,6 +113,6 @@ trusted:
   Commands:
   - broadcast! &b[playerDisplayName] &fleveled up to {#773dff}Trusted&r
   - cmi money give [playerName] 25000
-  - luckperms user [playerName] parent set trusted
+  - luckperms user [playerName] parent add trusted
   StatsRequirements:
   - PlayTime:86400
