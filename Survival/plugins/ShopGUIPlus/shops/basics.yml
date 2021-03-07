@@ -158,6 +158,13 @@ basics:
         quantity: 1
       buyPrice: 360
       slot: 39
+    26:
+      type: item
+      item:
+        material: SMITHING_TABLE
+        quantity: 1
+      buyPrice: 360
+      slot: 42
     23:
       type: item
       item:
@@ -179,3 +186,17 @@ basics:
         quantity: 1
       buyPrice: 100
       slot: 38
+    27:
+      type: item
+      item:
+        material: BOOKSHELF
+        quantity: 1
+      buyPrice: 1000
+      slot: 37
+    28:
+      type: item
+      item:
+        material: ITEM_FRAME
+        quantity: 1
+      buyPrice: 100
+      slot:  43

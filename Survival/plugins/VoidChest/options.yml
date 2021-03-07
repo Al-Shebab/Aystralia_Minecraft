@@ -309,10 +309,10 @@ Sell:
 
 # Should you get notified through the console every 2 hours?
 # Please do keep this true, updates are important and you should keep track of them.
-Auto-update: true
+Auto-update: false
 
 # Should operator players be notified through a message ingame if there is an update?
-Notify-update: true
+Notify-update: false
 
 # Debugging: Should the plugin print useful messages in console?
 Debugging:

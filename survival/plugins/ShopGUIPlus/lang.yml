@@ -1,4 +1,4 @@
-PREFIX: '&aShop > &f'
+PREFIX: '&b&lAystralia &8> &f'
 LANG:
   CONSOLE: Console
 MSG:
@@ -83,15 +83,15 @@ MSG:
   GAMEMODEBANNEDTARGET: '%player% can''t access the shop when in gamemode %gamemode%.'
   ITEM:
     FULLINVENTORY: You don't have enough free space in your inventory.
-    CANNOTAFFORD: You need &c%price%&f to buy &c%amount% x %item%&f.
+    CANNOTAFFORD: You need &c%price%&f to buy &b%amount% x %item%&f.
     CANNOTBUY: You can't buy this item.
     CANNOTSELL: You can't sell this item.
-    BOUGHT: You bought &c%amount% x %item%&f for &c%price%&f.
-    BOUGHTFREE: You received &c%amount% x %item%&f.
-    NOTENOUGH: You don't have &c%amount% x %item%&f to sell.
-    SOLD: You sold &a%amount% x %item%&f for &a%price%&f.
+    BOUGHT: You bought &b%amount% x %item%&f for &b%price%&f.
+    BOUGHTFREE: You received &b%amount% x %item%&f.
+    NOTENOUGH: You don't have &b%amount% x %item%&f to sell.
+    SOLD: You sold &a%amount% x %item%&f for &b%price%&f.
     SOLDFREE: You gave away &a%amount% x %item%&f.
-    SOLDALL: You sold all &a%item%&f (&a%amount% x %item%&f) for &a%price%&f.
+    SOLDALL: You sold all &a%item%&f (&a%amount% x %item%&f) for &b%price%&f.
     SOLDALLFREE: You gave away all &a%item%&f (&a%amount% x %item%&f).
     NOACCESS: You don't have access to this item.
   ENCHANT:
@@ -121,10 +121,10 @@ MSG:
     MULTIPLEQUANTITYONLY: You can't sell that quantity. Only multiples of %quantity%
       are allowed for this item.
   SELLHANDALL:
-    SOLD: You sold &a%quantity% x %item%&f for a total of &a%price%&f.
+    SOLD: You sold &a%quantity% x %item%&f for a total of &b%price%&f.
   SELLALL:
     NOITEMS: You don't have any items you can sell.
-    SOLD: You sold &a%quantity% items&f for a total of &a%price%&f.
+    SOLD: You sold &a%quantity% items&f for a total of &b%price%&f.
     INVALIDSHOP: Invalid shop specified.
 DIALOG:
   AMOUNTSELECTION:

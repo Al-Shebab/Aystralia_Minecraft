@@ -6,12 +6,29 @@ chests:
   '0':
     name: default
     location:
+      world: world_the_end
+      x: 17
+      y: 57
+      z: -728
+    money: 26482.2
+    items-sold: 13243
+    items-purged: 0
+    autosell: true
+    purge-items: true
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1615087828195
+  '1':
+    name: default
+    location:
       world: world
       x: -2760
       y: 6
       z: 1541
-    money: 503.0
-    items-sold: 89
+    money: 570.0
+    items-sold: 57
     items-purged: 0
     autosell: true
     purge-items: false
@@ -19,4 +36,4 @@ chests:
     chunk-collector: true
     bank: true
     charge:
-      time: 1614907089779
+      time: 1615087828195

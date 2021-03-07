@@ -121,3 +121,12 @@ spawners:
           quantity: 1
         buyPrice: 1000000
         slot: 28
+    14:
+        type: item
+        item:
+          material: SPAWNER
+          mob: ZOMBIFIED_PIGLIN
+          name: "&6Zombie Pigman Spawner"
+          quantity: 1
+        buyPrice: 250000
+        slot: 29
