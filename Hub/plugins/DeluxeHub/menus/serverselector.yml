@@ -47,7 +47,7 @@ refresh:
 items:
   filler:
     material: GRAY_STAINED_GLASS_PANE
-    slot: -1 # Setting the slot to -1 will fill every empty slot, you can also do "slots: [0, 1, 2]"
+    slot: 0 # Setting the slot to -1 will fill every empty slot, you can also do "slots: [0, 1, 2]"
   Survival:
     material: GRASS_BLOCK
     slot: 10
@@ -57,8 +57,8 @@ items:
     lore:
       - '&fClick to join!'
       - ' '
-      - '&fStatus'
-      - '&aOnline'
+      - '&fStatus &aOnline'
+      - '&aPlayers Online&f: &a%bungee_Survival%'
     actions:
       - '[CLOSE]'
       - '[MESSAGE] &fSending you to: &aSurvival'
@@ -72,8 +72,8 @@ items:
     lore:
       - '&fClick to join!'
       - ' '
-      - '&fStatus'
-      - '&cIn Development'
+      - '&fStatus &cIn Development'
+      - '&cPlayers Online&f: &c%bungee_Skyblock%'
     actions:
       - '[CLOSE]'
       - '[MESSAGE] &fSending you to: &9Skyblock'
@@ -87,8 +87,8 @@ items:
     lore:
       - '&fClick to join!'
       - ' '
-      - '&fStatus'
-      - '&cIn Development'
+      - '&fStatus &cIn Development'
+      - '&cPlayers Online&f: &c%bungee_Creative%'
     actions:
       - '[CLOSE]'
       - '[MESSAGE] &fSending you to: &eCreative'
@@ -102,8 +102,8 @@ items:
     lore:
       - '&fClick to join!'
       - ' '
-      - '&fStatus'
-      - '&cIn Development'
+      - '&fStatus &cIn Development'
+      - '&cPlayers Online&f: &c%bungee_Prison%'
     actions:
       - '[CLOSE]'
       - '[MESSAGE] &fSending you to: &7Prison'
@@ -117,8 +117,8 @@ items:
     lore:
       - '&fClick to join!'
       - ' '
-      - '&fStatus'
-      - '&aOnline'
+      - '&fStatus &aOnline'
+      - '&aPlayers Online&f: &a%bungee_Anarchy%'
     actions:
       - '[CLOSE]'
       - '[MESSAGE] &fSending you to: &8Anarchy'

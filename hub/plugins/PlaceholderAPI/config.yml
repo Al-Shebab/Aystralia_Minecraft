@@ -40,3 +40,5 @@ expansions:
       low: '&c'
       medium: '&e'
     server_name: A Minecraft Server
+  bungee:
+    check_interval: 30
