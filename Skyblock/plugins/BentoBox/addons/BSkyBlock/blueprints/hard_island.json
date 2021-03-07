@@ -1,0 +1,15 @@
+{
+  "uniqueId": "hard_island",
+  "icon": "ORANGE_CONCRETE",
+  "displayName": "§cHard Island",
+  "description": [
+    "§cA very small island only for the most experienced players."
+  ],
+  "requirePermission": false,
+  "blueprints": {
+    "NORMAL": "hard",
+    "NETHER": "nether-island",
+    "THE_END": "end-island"
+  },
+  "slot": 3
+}

@@ -1,0 +1,22 @@
+name: ZomboMancer
+booster:
+  multiplier: 1.0
+  time: 0
+chests:
+  '0':
+    name: default
+    location:
+      world: world
+      x: -4497
+      y: 75
+      z: 5386
+    money: 2592.0
+    items-sold: 2592
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1615159058385

@@ -173,7 +173,7 @@ Mechanics:
   money-logging:
     # If the voidchest made less than this number, the log won't be triggered.
     minimum-amount: 0
-    enabled: true
+    enabled: false
 
 
 

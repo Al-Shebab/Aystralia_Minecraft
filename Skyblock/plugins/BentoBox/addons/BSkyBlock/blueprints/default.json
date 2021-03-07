@@ -1,9 +1,9 @@
 {
   "uniqueId": "default",
-  "icon": "GRASS_BLOCK",
-  "displayName": "§b§lOriginal Skyblock",
+  "icon": "YELLOW_CONCRETE",
+  "displayName": "§eExperienced Island",
   "description": [
-    "§9Everyone's favourite skyblock island."
+    "§eThe O.G skyblock island."
   ],
   "requirePermission": false,
   "blueprints": {
@@ -11,5 +11,5 @@
     "NETHER": "nether-island",
     "THE_END": "end-island"
   },
-  "slot": 1
+  "slot": 2
 }

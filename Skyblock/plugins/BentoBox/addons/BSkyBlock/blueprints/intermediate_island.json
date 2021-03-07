@@ -1,0 +1,15 @@
+{
+  "uniqueId": "intermediate_island",
+  "icon": "GREEN_CONCRETE",
+  "displayName": "§2Intermediate Island",
+  "description": [
+    "§2A nice starter island for those with a bit of experience. Enjoy."
+  ],
+  "requirePermission": false,
+  "blueprints": {
+    "NORMAL": "intermediate",
+    "NETHER": "nether-island",
+    "THE_END": "end-island"
+  },
+  "slot": 1
+}

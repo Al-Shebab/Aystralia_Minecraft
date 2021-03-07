@@ -1,0 +1,15 @@
+{
+  "uniqueId": "extremely_hard_island",
+  "icon": "RED_CONCRETE",
+  "displayName": "§4Extremely Hard Island",
+  "description": [
+    "§4You begin with almost nothing. Goodluck."
+  ],
+  "requirePermission": false,
+  "blueprints": {
+    "NORMAL": "extra-hard",
+    "NETHER": "nether-island",
+    "THE_END": "end-island"
+  },
+  "slot": 4
+}

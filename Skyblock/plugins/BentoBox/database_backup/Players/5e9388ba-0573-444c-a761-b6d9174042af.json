@@ -1,10 +1,26 @@
 {
-  "homeLocations": {},
+  "homeLocations": [
+    [
+      [
+        "skyblock",
+        2000.5,
+        125.0,
+        2001.5,
+        0.0,
+        0.0
+      ],
+      1
+    ]
+  ],
   "uniqueId": "5e9388ba-0573-444c-a761-b6d9174042af",
   "playerName": "Feeyne",
-  "resets": {},
+  "resets": {
+    "skyblock": 1
+  },
   "locale": "",
-  "deaths": {},
+  "deaths": {
+    "skyblock": 0
+  },
   "pendingKicks": [],
   "flagsDisplayMode": "BASIC",
   "metaData": {}
