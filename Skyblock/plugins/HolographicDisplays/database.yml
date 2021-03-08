@@ -42,3 +42,52 @@ cactus:
   - '&b&l/warp cactus'
   - '&fBuy some cactus for free'
   - '&fand use /sell all. Easy money.'
+auction:
+  location: world, 73.500, 69.500, -11.500
+  lines:
+  - '&b&l&ki&f&l&ki&b&l Auction&f&l House &f&l&ki&b&l&ki'
+basics:
+  location: world, 32.500, 66.500, -7.500
+  lines:
+  - '&a&lBasics Shop'
+blacksmith:
+  location: world, 18.500, 66.500, -6.500
+  lines:
+  - '&8&lBlacksmith'
+spawner:
+  location: world, 17.500, 66.500, 1.500
+  lines:
+  - '&c&lSpawner Shop'
+farming:
+  location: world, 34.500, 66.500, -1.500
+  lines:
+  - '&2&lFarming Shop'
+spawn:
+  location: world, 59.500, 69.000, -13.500
+  lines:
+  - '&b&lWelcome to Skyblock'
+  - '&fAuction House'
+  - '&f--------->'
+  - '&f'
+  - '&fMarkets'
+  - '&f<---------'
+  - '&f'
+  - '&bTo create an island use the menu'
+  - '&bin your hotbar, enjoy!'
+spawn2:
+  location: world, 12.500, 67.200, -2.500
+  lines:
+  - '&b&lIsland Manager'
+  - '&f<---------'
+  - '&f'
+  - '&b&lWarps'
+  - '&f^'
+  - '&f^'
+islandmanager:
+  location: world, 14.500, 69.500, 8.500
+  lines:
+  - '&b&lIsland Manager'
+perks:
+  location: world, 48.500, 67.500, -15.500
+  lines:
+  - '&b&lPerks Manager'

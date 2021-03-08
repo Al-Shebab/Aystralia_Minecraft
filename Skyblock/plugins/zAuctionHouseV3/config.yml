@@ -3,11 +3,15 @@ customInventories:
 
 #Monde d�sactiv�
 disableWorlds:
-  - world_nigger
+  - skyblock
+  - skyblock_nether
+  - skyblock_the_end
+  - world_the_end
+  - world_nether
   
 bannedItems:
   goldenappel:
-    material: GOLDEN_APPLE   
+    material: BARRIER   
     
 bannedItemsWithMaterial:
   - BEDROCK    

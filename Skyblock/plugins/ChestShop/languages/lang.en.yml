@@ -1,4 +1,4 @@
-prefix: '&f[&bShop&f] &f'
+prefix: '&b&lPlayer Shop &8> &f'
 iteminfo: '&aItem Information: &r'
 iteminfo_fullname: '&fFull Name: &7%item'
 iteminfo_shopname: '&fShop Sign: &7%item'

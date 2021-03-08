@@ -127,8 +127,8 @@ world:
     dragon-spawn: false
   # Mob white list - these mobs will NOT be removed when logging in or doing /island
   remove-mobs-whitelist:
-  - WITHER
   - ZOMBIE_VILLAGER
+  - WITHER
   - ENDERMAN
   # World flags. These are boolean settings for various flags for this world
   flags:
@@ -147,6 +147,7 @@ world:
     LIQUIDS_FLOWING_OUT: false
     OFFLINE_REDSTONE: true
     REMOVE_END_EXIT_ISLAND: true
+    OFFLINE_GROWTH: true
     REMOVE_MOBS: true
     ENDER_CHEST: false
     ITEM_FRAME_DAMAGE: false
@@ -177,27 +178,27 @@ world:
     FROST_WALKER: 500
     COLLECT_LAVA: 500
     LEVER: 500
-    RIDING: 500
     HURT_MONSTERS: 0
-    ARMOR_STAND: 500
+    RIDING: 500
     NAME_TAG: 500
+    ARMOR_STAND: 500
     TRADING: 0
     EGGS: 500
     ITEM_DROP: 0
     NOTE_BLOCK: 0
     NETHER_PORTAL: 500
-    ITEM_PICKUP: 0
     CROP_TRAMPLE: 500
-    DROPPER: 500
+    ITEM_PICKUP: 0
     BREWING: 500
+    DROPPER: 500
     COLLECT_WATER: 500
     BUTTON: 500
     FIRE_EXTINGUISH: 500
     BEACON: 500
     TRAPDOOR: 500
     PRESSURE_PLATE: 0
-    PLACE_BLOCKS: 500
     ITEM_FRAME: 500
+    PLACE_BLOCKS: 500
     CRAFTING: 0
     ENCHANTING: 0
     SHEARING: 500
@@ -213,8 +214,8 @@ world:
     BREAK_BLOCKS: 500
     CHORUS_FRUIT: 500
     CONTAINER: 500
-    JUKEBOX: 500
     POTION_THROWING: 500
+    JUKEBOX: 500
   # These are the default settings for new islands
   default-island-settings:
     PVP_END: false
