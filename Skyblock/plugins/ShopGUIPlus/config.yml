@@ -555,7 +555,7 @@ shopMenuItems:
       # The same rules apply for material, amount, damage and lore as for goBackButton
       material: CRAFTING_TABLE
       quantity: 1
-      name: "&2&lBasics"
+      name: "&a&lBasics"
     # Shop ID from shops yaml
     shop: "basics"
     # Slot in shops menu, counting from 0 to 53
@@ -563,74 +563,24 @@ shopMenuItems:
   2:
     item:
       # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: OAK_SAPLING
+      material: ANVIL
       quantity: 1
-      name: "&a&lOrganics"
+      name: "&0&lBlacksmith"
     # Shop ID from shops yaml
-    shop: "organics"
+    shop: "blacksmith"
     # Slot in shops menu, counting from 0 to 53
     slot: 11
   3:
     item:
       # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: REDSTONE
+      material: WHEAT_SEEDS
       quantity: 1
-      name: "&c&lRedstone"
+      name: "&2&lFarming"
     # Shop ID from shops yaml
-    shop: "redstone"
+    shop: "farming"
     # Slot in shops menu, counting from 0 to 53
     slot: 12
   4:
-    item:
-      # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: WHITE_CONCRETE
-      quantity: 1
-      name: "&f&lConcrete"
-    # Shop ID from shops yaml
-    shop: "concrete"
-    # Slot in shops menu, counting from 0 to 53
-    slot: 13
-  5:
-    item:
-      # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: LAVA_BUCKET
-      quantity: 1
-      name: "&4&lNether Items"
-    # Shop ID from shops yaml
-    shop: "nether"
-    # Slot in shops menu, counting from 0 to 53
-    slot: 14
-  6:
-    item:
-      # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: WATER_BUCKET
-      quantity: 1
-      name: "&9&lAquatics"
-    # Shop ID from shops yaml
-    shop: "aquatics"
-    # Slot in shops menu, counting from 0 to 53
-    slot: 15
-  7:
-    item:
-      # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: RED_DYE
-      quantity: 1
-      name: "&c&lD&6&ly&e&le&a&ls"
-    # Shop ID from shops yaml
-    shop: "dyes"
-    # Slot in shops menu, counting from 0 to 53
-    slot: 16
-  #8:
-    #item:
-      # The same rules apply for material, amount, damage and lore as for goBackButton
-      #material: DIAMOND
-      #quantity: 1
-      #name: "&6&lSellable Items"
-    # Shop ID from shops yaml
-    #shop: "sellable"
-    # Slot in shops menu, counting from 0 to 53
-    #slot: 31
-  9:
     item:
       # The same rules apply for material, amount, damage and lore as for goBackButton
       material: SPAWNER
@@ -639,18 +589,8 @@ shopMenuItems:
     # Shop ID from shops yaml
     shop: "spawners"
     # Slot in shops menu, counting from 0 to 53
-    slot: 23
-  10:
-    item:
-      # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: PIG_SPAWN_EGG
-      quantity: 1
-      name: "&a&lSpawn Eggs"
-    # Shop ID from shops yaml
-    shop: "eggs"
-    # Slot in shops menu, counting from 0 to 53
-    slot: 21
-  11:
+    slot: 13
+  5:
     item:
       # The same rules apply for material, amount, damage and lore as for goBackButton
       material: BEACON
@@ -659,49 +599,7 @@ shopMenuItems:
     # Shop ID from shops yaml
     shop: "perks"
     # Slot in shops menu, counting from 0 to 53
-    slot: 22
-  12:
-    item:
-      # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: OBSIDIAN
-      quantity: 1
-      enchantments:
-         - UNBREAKING:1
-      name: "&b&lSpecial"
-    # Shop ID from shops yaml
-    shop: "special"
-    # Slot in shops menu, counting from 0 to 53
-    slot: 24
-  13:
-    item:
-      # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: WHEAT_SEEDS
-      quantity: 1
-      name: "&a&lFarming"
-    # Shop ID from shops yaml
-    shop: "farming"
-    # Slot in shops menu, counting from 0 to 53
-    slot: 17
-  14:
-    item:
-      # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: COOKED_BEEF
-      quantity: 1
-      name: "&e&lFood"
-    # Shop ID from shops yaml
-    shop: "food"
-    # Slot in shops menu, counting from 0 to 53
-    slot: 9
-  15:
-    item:
-      # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: ENCHANTED_BOOK
-      quantity: 1
-      name: "&9&lEnchanted Books"
-    # Shop ID from shops yaml
-    shop: "enchanted"
-    # Slot in shops menu, counting from 0 to 53
-    slot: 20
+    slot: 14
 
 
 specialElements:

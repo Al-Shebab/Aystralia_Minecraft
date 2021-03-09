@@ -2,9 +2,9 @@
   "uniqueId": "BSkyBlock95052282-9995-4073-8bad-61b467f0611d",
   "gameMode": "BSkyBlock",
   "blockCount": {
-    "DIRT": 1,
     "OAK_SAPLING": 5,
-    "CRAFTING_TABLE": 1
+    "CRAFTING_TABLE": 1,
+    "COBBLESTONE": 2
   },
   "blockLimits": {},
   "entityLimits": {},

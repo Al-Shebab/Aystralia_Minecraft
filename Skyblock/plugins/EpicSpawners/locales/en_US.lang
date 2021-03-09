@@ -2,7 +2,7 @@
 
 general:
   nametag:
-    prefix: '&f[&bEpicSpawners&f]'
+    prefix: '&b&lSpawners &8> &f'
     exit: '&cExit'
     next: '&9Next'
     back: '&9Back'

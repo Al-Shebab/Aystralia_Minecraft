@@ -4,7 +4,7 @@ Main:
   Spawner Max Stack: 999
 
   # The text displayed in the hologram positioned above every spawner.
-  Spawner Name Format: '&c{TYPE} &fSpawner &c{AMT}x'
+  Spawner Name Format: '&b{TYPE} &fSpawner &b{AMT}x'
 
   # Spawners placed next to each other within this radius will automatically
   # combine with each other.

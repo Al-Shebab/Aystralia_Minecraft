@@ -1,5 +1,5 @@
 farming:
-  name: "&a&lFarming"
+  name: "&2&lFarming"
   fillItem:
     material: BLACK_STAINED_GLASS_PANE
     name: " "

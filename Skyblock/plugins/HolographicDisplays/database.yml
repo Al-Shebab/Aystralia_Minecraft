@@ -53,7 +53,7 @@ basics:
 blacksmith:
   location: world, 18.500, 66.500, -6.500
   lines:
-  - '&8&lBlacksmith'
+  - '&0&lBlacksmith'
 spawner:
   location: world, 17.500, 66.500, 1.500
   lines:
