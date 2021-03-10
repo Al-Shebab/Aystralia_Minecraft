@@ -9,10 +9,10 @@ open_requirement:
      input: '%javascript_rewards-delay_Bank_1%'
      output: 0s
      deny_commands:
-     - '[message] &b&lBANK &8&l» &7Wait &e%javascript_rewards-delay_Bank_10% &7to use again.'
+     - '[message] &b&lBANK &8&l» &fWait &b%javascript_rewards-delay_Bank_10% &fto use again.'
 items:
   'Decoration':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 7
     slots:
@@ -35,7 +35,7 @@ items:
     - 29
     - 33
   'Decoration-1':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 15
     slots:
@@ -56,7 +56,7 @@ items:
   'Back':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
     slot: 31
-    display_name: '&2[*] &aBack'
+    display_name: '&b[*] &bBack'
     lore: ''
     left_click_commands:
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -69,13 +69,13 @@ items:
   'WithdrawAll-Yes':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdmNTdlN2FhOGRlODY1OTFiYjBiYzUyY2JhMzBhNDlkOTMxYmZhYmJkNDdiYmM4MGJkZDY2MjI1MTM5MjE2MSJ9fX0=
     slot: 11
-    display_name: '&2[*] &aWithdraw All ⛁'
+    display_name: '&b[*] &bWithdraw All ⛁'
     lore:
     - ''
-    - '&7Withdraw &b$%banksystem_balance%'
-    - '&7of the bank.'
+    - '&fWithdraw &b$%banksystem_balance%'
+    - '&fof the bank.'
     - ''
-    - '&8» &eClick to withdraw'
+    - '&8» &bClick to withdraw'
     left_click_commands:
     - '[player] bank withdraw all'
     - '[sound] ENTITY_ARROW_HIT_PLAYER %javascript_rewards-delay_Bank_start%' 
@@ -87,33 +87,33 @@ items:
   'Info':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGExNGZmOTEyNTY2ZDQ3MTk4MTI3ODhlNjMzYmE0MjNkMWRiMTQ0OWFkZmJiNzA2MWZhZmU3NGJhODgwOTQ2OSJ9fX0=
     slot: 13
-    display_name: '&2[*] &aWithdraw Information'
+    display_name: '&b[*] &bWithdraw Information'
     lore:
     - ''
-    - '&7Withdraw &6money &7of the'
-    - '&7bank to use this.'
+    - '&fWithdraw &6money &fof the'
+    - '&fbank to use this.'
     - ''
-    - '&7To withdraw a &dcustom'
-    - '&damount &7do click on'
-    - '&7withdraw specific'
-    - '&7amount and &ewrite the'
-    - '&eamount &7in the &cchat&f.'
+    - '&fTo withdraw a &dcustom'
+    - '&damount &fdo click on'
+    - '&fwithdraw specific'
+    - '&famount and &bwrite the'
+    - '&bamount &fin the &cchat&f.'
     - ''
   'WithdrawCustom-Yes':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdmNTdlN2FhOGRlODY1OTFiYjBiYzUyY2JhMzBhNDlkOTMxYmZhYmJkNDdiYmM4MGJkZDY2MjI1MTM5MjE2MSJ9fX0=
     slot: 15
-    display_name: '&2[*] &aWithdraw Specific Amount'
+    display_name: '&b[*] &bWithdraw Specific Amount'
     lore:
     - ''
-    - '&7Withdraw specific'
-    - '&7amount of the bank.'
+    - '&fWithdraw specific'
+    - '&famount of the bank.'
     - ''
-    - '&8» &eClick to withdraw'
+    - '&8» &bClick to withdraw'
     left_click_commands:
-    - '[player] bank withdraw <Write the amount of money you want to &ewithdraw &7or write &ccancel &7to cancel>'
+    - '[player] bank withdraw <Write the amount of money you want to &bwithdraw &for write &ccancel &fto cancel>'
     - '[sound] ENTITY_ARROW_HIT_PLAYER %javascript_rewards-delay_Bank_start%' 
     - '[close]' 
     right_click_commands:
-    - '[player] bank withdraw <Write the amount of money you want to &ewithdraw &7or write &ccancel &7to cancel>'
+    - '[player] bank withdraw <Write the amount of money you want to &bwithdraw &for write &ccancel &fto cancel>'
     - '[sound] ENTITY_ARROW_HIT_PLAYER %javascript_rewards-delay_Bank_start%' 
     - '[close]' 

@@ -5,7 +5,7 @@ open_command:
 size: 45
 items:
   'Decoration':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 7
     slots:
@@ -30,7 +30,7 @@ items:
     - 38
     - 42
   'Decoration-1':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 15
     slots:
@@ -53,7 +53,7 @@ items:
   'Close':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
     slot: 40
-    display_name: '&2[*] &aClose'
+    display_name: '&b[*] &bClose'
     lore: ''
     left_click_commands:
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -64,13 +64,13 @@ items:
   'Weaponsmith':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTJmMzU3YWI1OWUwNGU2NzY3MjRjNjNkNzA0YzNkMWYyZjlhZTFhZDQyODNlOTFkN2RhMjZlZmM2YzQ4MDgifX19
     slot: 10
-    display_name: '&2[*] &aWeaponsmith Shop'
+    display_name: '&b[*] &bWeaponsmith Shop'
     lore:
     - ''
-    - '&7In this shop you can'
-    - '&7sell or buy weapons.'
+    - '&fIn this shop you can'
+    - '&fsell or buy weapons.'
     - ''
-    - '&8» &eClick to open'
+    - '&8» &bClick to open'
     left_click_commands:
     - '[player] shop open Weaponsmith'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -82,13 +82,13 @@ items:
   'Builder':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2UyNWJjNDJkNDExNDkxOThjOGM1MjNjMjM5MjA3MzdiOWNlZGRhOWE5OWVkYTUzZjMyMzJmNDg5NjQifX19
     slot: 12
-    display_name: '&2[*] &aBuilder Shop'
+    display_name: '&b[*] &bBuilder Shop'
     lore:
     - ''
-    - '&7In this shop you can'
-    - '&7sell or buy blocks.'
+    - '&fIn this shop you can'
+    - '&fsell or buy blocks.'
     - ''
-    - '&8» &eClick to open'
+    - '&8» &bClick to open'
     left_click_commands:
     - '[player] shop open Builder'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -100,13 +100,13 @@ items:
   'Miner':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU1NWY5YTQ4YWNjNDJhMDFiODgxYWY3MjZmZmMxYWMxNzg3ODllMzI3NGNiMmMxY2RiMTJmNTdjIn19fQ==
     slot: 14
-    display_name: '&2[*] &aMiner Shop'
+    display_name: '&b[*] &bMiner Shop'
     lore:
     - ''
-    - '&7In this shop you can'
-    - '&7sell or buy ores.'
+    - '&fIn this shop you can'
+    - '&fsell or buy ores.'
     - ''
-    - '&8» &eClick to open'
+    - '&8» &bClick to open'
     left_click_commands:
     - '[player] shop open Miner'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -118,13 +118,13 @@ items:
   'Farmer':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFmMzI4Yzg3YjA2ODUwOWFjYTk4MzRlZmFjZTE5NzcwNWZlNWQ0ZjA4NzE3MzFiN2IyMWNkOTliOWZkZGMifX19
     slot: 16
-    display_name: '&2[*] &aFarmer Shop'
+    display_name: '&b[*] &bFarmer Shop'
     lore:
     - ''
-    - '&7In this shop you can'
-    - '&7sell or buy crops.'
+    - '&fIn this shop you can'
+    - '&fsell or buy crops.'
     - ''
-    - '&8» &eClick to open'
+    - '&8» &bClick to open'
     left_click_commands:
     - '[player] shop open Farmer'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -136,13 +136,13 @@ items:
   'Adventurer':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDMwOTNhNWI3NzY0MmQ0MDkyMTEyZjQ2ZWE2ODE0MGZiNWFlMDRiYmQyMzFjZGExMDY2YTA0YzE4Yjg5Yzk0ZSJ9fX0=
     slot: 19
-    display_name: '&2[*] &aAdventurer Shop'
+    display_name: '&b[*] &bAdventurer Shop'
     lore:
     - ''
-    - '&7In this shop you can'
-    - '&7sell or buy mobs drops.'
+    - '&fIn this shop you can'
+    - '&fsell or buy mobs drops.'
     - ''
-    - '&8» &eClick to open'
+    - '&8» &bClick to open'
     left_click_commands:
     - '[player] shop open Adventurer'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -154,13 +154,13 @@ items:
   'Lumberjack':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWFlODI2ZTdkYjg0NDdmYmQ2Mjk4OGZlZTBlODNiYmRkNjk0Mzc4YWVmMTJkMjU3MmU5NzVmMDU5YTU0OTkwIn19fQ==
     slot: 21
-    display_name: '&2[*] &aLumberjack Shop'
+    display_name: '&b[*] &bLumberjack Shop'
     lore:
     - ''
-    - '&7In this shop you can'
-    - '&7sell or buy wood.'
+    - '&fIn this shop you can'
+    - '&fsell or buy wood.'
     - ''
-    - '&8» &eClick to open'
+    - '&8» &bClick to open'
     left_click_commands:
     - '[player] shop open Lumberjack'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -172,13 +172,13 @@ items:
   'Spawner':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
     slot: 23
-    display_name: '&2[*] &aSpawner Shop'
+    display_name: '&b[*] &bSpawner Shop'
     lore:
     - ''
-    - '&7In this shop you can'
-    - '&7buy spawners.'
+    - '&fIn this shop you can'
+    - '&fbuy spawners.'
     - ''
-    - '&8» &eClick to open'
+    - '&8» &bClick to open'
     left_click_commands:
     - '[player] spawnershop'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -190,13 +190,13 @@ items:
   'Traveler':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmY3OGExZDM5OWMxMjk2ZGEyZTNhNjMyMTgyZWZhZDA0ZjE5MzRmYzcwZWMzZjE5NWM5NTkwOWU0MDU0N2NkIn19fQ==
     slot: 25
-    display_name: '&2[*] &aTraveler Seller Shop'
+    display_name: '&b[*] &bTraveler Seller Shop'
     lore:
     - ''
-    - '&7In this shop you can'
-    - '&7buy special items.'
+    - '&fIn this shop you can'
+    - '&fbuy special items.'
     - ''
-    - '&8» &eClick to open'
+    - '&8» &bClick to open'
     left_click_commands:
     - '[player] shop open Traveler'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 

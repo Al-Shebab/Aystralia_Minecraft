@@ -4,7 +4,7 @@ open_command:
 size: 36
 items:
   'Decoration':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 7
     slots:
@@ -27,7 +27,7 @@ items:
     - 29
     - 33
   'Decoration-1':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 15
     slots:
@@ -48,7 +48,7 @@ items:
   'Back':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
     slot: 31
-    display_name: '&2[*] &aBack'
+    display_name: '&b[*] &bBack'
     lore: ''
     left_click_commands:
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -61,13 +61,13 @@ items:
   'WarpsIs':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWNiN2MyMWNjNDNkYzE3Njc4ZWU2ZjE2NTkxZmZhYWIxZjYzN2MzN2Y0ZjZiYmQ4Y2VhNDk3NDUxZDc2ZGI2ZCJ9fX0=
     slot: 11
-    display_name: '&2[*] &aIslands Warps'
+    display_name: '&b[*] &bIslands Warps'
     lore:
     - ''
-    - '&7Use this option to visit'
-    - '&7other players islands.'
+    - '&fUse this option to visit'
+    - '&fother players islands.'
     - ''
-    - '&8» &eClick to open'
+    - '&8» &bClick to open'
     left_click_commands:
     - '[player] is warps'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -79,13 +79,13 @@ items:
   'Top':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM5MDZkNjg4ZTY1ODAyNTY5ZDk3MDViNTc5YmNlNTZlZGM4NmVhNWMzNmJkZDZkNmZjMzU1MTZhNzdkNCJ9fX0=
     slot: 13
-    display_name: '&2[*] &aIslands Top'
+    display_name: '&b[*] &bIslands Top'
     lore:
     - ''
-    - '&7Here you can see the 10'
-    - '&7islands with more level.'
+    - '&fHere you can see the 10'
+    - '&fislands with more level.'
     - ''
-    - '&8» &eClick to open'
+    - '&8» &bClick to open'
     left_click_commands:
     - '[player] is top'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -105,7 +105,7 @@ items:
     - ''
     - '&4This can not be undone.'
     - ''
-    - '&8» &eClick to open'
+    - '&8» &bClick to open'
     left_click_commands:
     - '[player] island reset'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 

@@ -10,10 +10,10 @@ open_requirement:
       input: '%playtime_timesjoined%'
       output: 2
       deny_commands:
-      - '[message] &b&lSKILLS &8&l» &7Please exit and enter to use it.'
+      - '[message] &b&lSKILLS &8&l» &fPlease exit and enter to use it.'
 items:
   'Decoration':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 7
     slots:
@@ -36,7 +36,7 @@ items:
     - 29
     - 33
   'Decoration-1':
-    display_name: '&7' 
+    display_name: '&f' 
     material: 160
     data: 15
     slots:
@@ -57,7 +57,7 @@ items:
   'Back':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
     slot: 31
-    display_name: '&2[*] &aBack'
+    display_name: '&b[*] &bBack'
     lore: ''
     left_click_commands:
     - '[close]'
@@ -71,19 +71,19 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg5MWU1ZmI4OTRjYTFiMjE2Njc5NWQ5YzhjNmY3NzBkYTc1OTY2ZWNmNjNjNTNkNzdkODQ4ZmY0YmEzOSJ9fX0=
     priority: 5
     slot: 11
-    display_name: '&2[*] &aStrength'
+    display_name: '&b[*] &bStrength'
     lore:
     - ''
-    - '&7Increase your damage'
-    - '&7by &e8% &7per upgrade.'
+    - '&fIncrease your damage'
+    - '&fby &b8% &fper upgrade.'
     - ''
-    - '&7Increase your damage by: &b108%'
+    - '&fIncrease your damage by: &b108%'
     - ''
-    - '&8* &7Price: &d20 &7Exp Levels.'
+    - '&8* &fPrice: &d20 &fExp Levels.'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eStrength #1&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bStrength #1&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L20'
@@ -96,11 +96,11 @@ items:
           input: '%player_total_exp%'
           output: 315
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e20 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b20 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
     right_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eStrength #1&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bStrength #1&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L20'
@@ -113,14 +113,14 @@ items:
           input: '%player_total_exp%'
           output: 315
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e20 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b20 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
   'Strength #2':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg5MWU1ZmI4OTRjYTFiMjE2Njc5NWQ5YzhjNmY3NzBkYTc1OTY2ZWNmNjNjNTNkNzdkODQ4ZmY0YmEzOSJ9fX0=
     priority: 4
     slot: 11
-    display_name: '&2[*] &aStrength #2'
+    display_name: '&b[*] &bStrength #2'
     view_requirement:
       requirements:
         Pex:
@@ -128,16 +128,16 @@ items:
           permission: 'strengthlev.1'
     lore:
     - ''
-    - '&7Increase your damage'
-    - '&7by &e8% &7per upgrade.'
+    - '&fIncrease your damage'
+    - '&fby &b8% &fper upgrade.'
     - ''
-    - '&7Increase your damage by: &b116%'
+    - '&fIncrease your damage by: &b116%'
     - ''
-    - '&8* &7Price: &d30 &7Exp Levels.'
+    - '&8* &fPrice: &d30 &fExp Levels.'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eStrength #2&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bStrength #2&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L30'
@@ -150,11 +150,11 @@ items:
           input: '%player_total_exp%'
           output: 550
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e30 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b30 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
     right_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eStrength #2&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bStrength #2&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L30'
@@ -167,14 +167,14 @@ items:
           input: '%player_total_exp%'
           output: 550
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e30 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b30 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
   'Strength #3':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg5MWU1ZmI4OTRjYTFiMjE2Njc5NWQ5YzhjNmY3NzBkYTc1OTY2ZWNmNjNjNTNkNzdkODQ4ZmY0YmEzOSJ9fX0=
     priority: 3
     slot: 11
-    display_name: '&2[*] &aStrength #3'
+    display_name: '&b[*] &bStrength #3'
     view_requirement:
       requirements:
         Pex:
@@ -182,16 +182,16 @@ items:
           permission: 'strengthlev.2'
     lore:
     - ''
-    - '&7Increase your damage'
-    - '&7by &e8% &7per upgrade.'
+    - '&fIncrease your damage'
+    - '&fby &b8% &fper upgrade.'
     - ''
-    - '&7Increase your damage by: &b124%'
+    - '&fIncrease your damage by: &b124%'
     - ''
-    - '&8* &7Price: &d40 &7Exp Levels.'
+    - '&8* &fPrice: &d40 &fExp Levels.'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eStrength #3&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bStrength #3&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L40'
@@ -204,11 +204,11 @@ items:
           input: '%player_total_exp%'
           output: 910
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e40 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b40 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
     right_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eStrength #3&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bStrength #3&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L40'
@@ -221,14 +221,14 @@ items:
           input: '%player_total_exp%'
           output: 910
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e40 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b40 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
   'Strength #4':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg5MWU1ZmI4OTRjYTFiMjE2Njc5NWQ5YzhjNmY3NzBkYTc1OTY2ZWNmNjNjNTNkNzdkODQ4ZmY0YmEzOSJ9fX0=
     priority: 2
     slot: 11
-    display_name: '&2[*] &aStrength #4'
+    display_name: '&b[*] &bStrength #4'
     view_requirement:
       requirements:
         Pex:
@@ -236,16 +236,16 @@ items:
           permission: 'strengthlev.3'
     lore:
     - ''
-    - '&7Increase your damage'
-    - '&7by &e8% &7per upgrade.'
+    - '&fIncrease your damage'
+    - '&fby &b8% &fper upgrade.'
     - ''
-    - '&7Increase your damage by: &b132%'
+    - '&fIncrease your damage by: &b132%'
     - ''
-    - '&8* &7Price: &d50 &7Exp Levels.'
+    - '&8* &fPrice: &d50 &fExp Levels.'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eStrength #4&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bStrength #4&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L50'
@@ -258,11 +258,11 @@ items:
           input: '%player_total_exp%'
           output: 1395
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e50 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b50 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
     right_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eStrength #4&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bStrength #4&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L50'
@@ -275,14 +275,14 @@ items:
           input: '%player_total_exp%'
           output: 1395
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e50 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b50 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
   'Strength #4-':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg5MWU1ZmI4OTRjYTFiMjE2Njc5NWQ5YzhjNmY3NzBkYTc1OTY2ZWNmNjNjNTNkNzdkODQ4ZmY0YmEzOSJ9fX0=
     priority: 1
     slot: 11
-    display_name: '&2[*] &aStrength #4'
+    display_name: '&b[*] &bStrength #4'
     view_requirement:
       requirements:
         Pex:
@@ -290,27 +290,27 @@ items:
           permission: 'strengthlev.4'
     lore:
     - ''
-    - '&7Increase your damage'
-    - '&7by &e8% &7per upgrade.'
+    - '&fIncrease your damage'
+    - '&fby &b8% &fper upgrade.'
     - ''
     - '&8» &cNo more improvements available'
   'Criticals':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA1NThkY2U5N2NkZWViOGE3NThkY2YzOTQxNTNkNDQ1MzRhZjU0N2YzMGM0ZjU4NThhNTFjOWY0NDNjN2YwYiJ9fX0=
     priority: 5
     slot: 12
-    display_name: '&2[*] &aCriticals'
+    display_name: '&b[*] &bCriticals'
     lore:
     - ''
-    - '&7Increase critical damage'
-    - '&7by &e5% &7per upgrade.'
+    - '&fIncrease critical damage'
+    - '&fby &b5% &fper upgrade.'
     - ''
-    - '&7Increase your damage by: &b105%'
+    - '&fIncrease your damage by: &b105%'
     - ''
-    - '&8* &7Price: &d20 &7Exp Levels.'
+    - '&8* &fPrice: &d20 &fExp Levels.'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eCriticals #1&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bCriticals #1&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L20'
@@ -323,11 +323,11 @@ items:
           input: '%player_total_exp%'
           output: 315
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e20 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b20 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
     right_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eCriticals #1&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bCriticals #1&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L20'
@@ -340,14 +340,14 @@ items:
           input: '%player_total_exp%'
           output: 315
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e20 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b20 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
   'Criticals #2':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA1NThkY2U5N2NkZWViOGE3NThkY2YzOTQxNTNkNDQ1MzRhZjU0N2YzMGM0ZjU4NThhNTFjOWY0NDNjN2YwYiJ9fX0=
     priority: 4
     slot: 12
-    display_name: '&2[*] &aCriticals #2'
+    display_name: '&b[*] &bCriticals #2'
     view_requirement:
       requirements:
         Pex:
@@ -355,16 +355,16 @@ items:
           permission: 'criticalslev.1'
     lore:
     - ''
-    - '&7Increase critical damage'
-    - '&7by &e5% &7per upgrade.'
+    - '&fIncrease critical damage'
+    - '&fby &b5% &fper upgrade.'
     - ''
-    - '&7Increase your damage by: &b110%'
+    - '&fIncrease your damage by: &b110%'
     - ''
-    - '&8* &7Price: &d30 &7Exp Levels.'
+    - '&8* &fPrice: &d30 &fExp Levels.'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eCriticals #2&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bCriticals #2&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L30'
@@ -377,11 +377,11 @@ items:
           input: '%player_total_exp%'
           output: 550
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e30 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b30 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
     right_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eCriticals #2&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bCriticals #2&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L30'
@@ -394,14 +394,14 @@ items:
           input: '%player_total_exp%'
           output: 550
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e30 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b30 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
   'Criticals #3':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA1NThkY2U5N2NkZWViOGE3NThkY2YzOTQxNTNkNDQ1MzRhZjU0N2YzMGM0ZjU4NThhNTFjOWY0NDNjN2YwYiJ9fX0=
     priority: 3
     slot: 12
-    display_name: '&2[*] &aCriticals #3'
+    display_name: '&b[*] &bCriticals #3'
     view_requirement:
       requirements:
         Pex:
@@ -409,16 +409,16 @@ items:
           permission: 'criticalslev.2'
     lore:
     - ''
-    - '&7Increase critical damage'
-    - '&7by &e5% &7per upgrade.'
+    - '&fIncrease critical damage'
+    - '&fby &b5% &fper upgrade.'
     - ''
-    - '&7Increase your damage by: &b115%'
+    - '&fIncrease your damage by: &b115%'
     - ''
-    - '&8* &7Price: &d40 &7Exp Levels.'
+    - '&8* &fPrice: &d40 &fExp Levels.'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eCriticals #3&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bCriticals #3&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L40'
@@ -431,11 +431,11 @@ items:
           input: '%player_total_exp%'
           output: 910
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e40 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b40 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
     right_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eCriticals #3&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bCriticals #3&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L40'
@@ -448,14 +448,14 @@ items:
           input: '%player_total_exp%'
           output: 910
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e40 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b40 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
   'Criticals #4':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA1NThkY2U5N2NkZWViOGE3NThkY2YzOTQxNTNkNDQ1MzRhZjU0N2YzMGM0ZjU4NThhNTFjOWY0NDNjN2YwYiJ9fX0=
     priority: 2
     slot: 12
-    display_name: '&2[*] &aCriticals #4'
+    display_name: '&b[*] &bCriticals #4'
     view_requirement:
       requirements:
         Pex:
@@ -463,16 +463,16 @@ items:
           permission: 'criticalslev.3'
     lore:
     - ''
-    - '&7Increase critical damage'
-    - '&7by &e5% &7per upgrade.'
+    - '&fIncrease critical damage'
+    - '&fby &b5% &fper upgrade.'
     - ''
-    - '&7Increase your damage by: &b120%'
+    - '&fIncrease your damage by: &b120%'
     - ''
-    - '&8* &7Price: &d50 &7Exp Levels.'
+    - '&8* &fPrice: &d50 &fExp Levels.'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eCriticals #4&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bCriticals #4&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L50'
@@ -485,11 +485,11 @@ items:
           input: '%player_total_exp%'
           output: 1395
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e50 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b50 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
     right_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eCriticals #4&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bCriticals #4&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L50'
@@ -502,14 +502,14 @@ items:
           input: '%player_total_exp%'
           output: 1395
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e50 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b50 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
   'Criticals #4-':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA1NThkY2U5N2NkZWViOGE3NThkY2YzOTQxNTNkNDQ1MzRhZjU0N2YzMGM0ZjU4NThhNTFjOWY0NDNjN2YwYiJ9fX0=
     priority: 1
     slot: 12
-    display_name: '&2[*] &aCriticals #4'
+    display_name: '&b[*] &bCriticals #4'
     view_requirement:
       requirements:
         Pex:
@@ -517,29 +517,29 @@ items:
           permission: 'criticalslev.4'
     lore:
     - ''
-    - '&7Increase critical damage'
-    - '&7by &e5% &7per upgrade.'
+    - '&fIncrease critical damage'
+    - '&fby &b5% &fper upgrade.'
     - ''
-    - '&7Your criticals is increased by: &b120%'
+    - '&fYour criticals is increased by: &b120%'
     - ''
     - '&8» &cNo more improvements available'
   'Resistance':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRlNzFiNjg0MjQ5NDY5ZWFmMWUyMmNkMTkzODE0YzVjZmQyMTUyNTI1Y2IzNjQ2YTMyZDQyMzI0NzIzOCJ9fX0=
     priority: 5
     slot: 13
-    display_name: '&2[*] &aResistance'
+    display_name: '&b[*] &bResistance'
     lore:
     - ''
-    - '&7Reduces damage taken'
-    - '&7by &e8% &7per upgrade.'
+    - '&fReduces damage taken'
+    - '&fby &b8% &fper upgrade.'
     - ''
-    - '&7Reduces damage taken by: &b108%'
+    - '&fReduces damage taken by: &b108%'
     - ''
-    - '&8* &7Price: &d20 &7Exp Levels.'
+    - '&8* &fPrice: &d20 &fExp Levels.'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eResistance #1&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bResistance #1&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L20'
@@ -552,11 +552,11 @@ items:
           input: '%player_total_exp%'
           output: 315
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e20 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b20 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
     right_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eResistance #1&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bResistance #1&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L20'
@@ -569,14 +569,14 @@ items:
           input: '%player_total_exp%'
           output: 315
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e20 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b20 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
   'Resistance #2':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRlNzFiNjg0MjQ5NDY5ZWFmMWUyMmNkMTkzODE0YzVjZmQyMTUyNTI1Y2IzNjQ2YTMyZDQyMzI0NzIzOCJ9fX0=
     priority: 4
     slot: 13
-    display_name: '&2[*] &aResistance #2'
+    display_name: '&b[*] &bResistance #2'
     view_requirement:
       requirements:
         Pex:
@@ -584,16 +584,16 @@ items:
           permission: 'resistancelev.1'
     lore:
     - ''
-    - '&7Reduces damage taken'
-    - '&7by &e8% &7per upgrade.'
+    - '&fReduces damage taken'
+    - '&fby &b8% &fper upgrade.'
     - ''
-    - '&7Reduces damage taken by: &b116%'
+    - '&fReduces damage taken by: &b116%'
     - ''
-    - '&8* &7Price: &d30 &7Exp Levels.'
+    - '&8* &fPrice: &d30 &fExp Levels.'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eResistance #2&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bResistance #2&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L30'
@@ -606,11 +606,11 @@ items:
           input: '%player_total_exp%'
           output: 550
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e30 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b30 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
     right_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eResistance #2&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bResistance #2&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L30'
@@ -623,14 +623,14 @@ items:
           input: '%player_total_exp%'
           output: 550
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e30 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b30 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
   'Resistance #3':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRlNzFiNjg0MjQ5NDY5ZWFmMWUyMmNkMTkzODE0YzVjZmQyMTUyNTI1Y2IzNjQ2YTMyZDQyMzI0NzIzOCJ9fX0=
     priority: 3
     slot: 13
-    display_name: '&2[*] &aResistance #3'
+    display_name: '&b[*] &bResistance #3'
     view_requirement:
       requirements:
         Pex:
@@ -638,16 +638,16 @@ items:
           permission: 'resistancelev.2'
     lore:
     - ''
-    - '&7Reduces damage taken'
-    - '&7by &e8% &7per upgrade.'
+    - '&fReduces damage taken'
+    - '&fby &b8% &fper upgrade.'
     - ''
-    - '&7Reduces damage taken by: &b124%'
+    - '&fReduces damage taken by: &b124%'
     - ''
-    - '&8* &7Price: &d40 &7Exp Levels.'
+    - '&8* &fPrice: &d40 &fExp Levels.'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eResistance #3&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bResistance #3&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L40'
@@ -660,11 +660,11 @@ items:
           input: '%player_total_exp%'
           output: 910
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e40 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b40 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
     right_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eResistance #3&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bResistance #3&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L40'
@@ -677,14 +677,14 @@ items:
           input: '%player_total_exp%'
           output: 910
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e40 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b40 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
   'Resistance #3-':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRlNzFiNjg0MjQ5NDY5ZWFmMWUyMmNkMTkzODE0YzVjZmQyMTUyNTI1Y2IzNjQ2YTMyZDQyMzI0NzIzOCJ9fX0=
     priority: 1
     slot: 13
-    display_name: '&2[*] &aResistance #3'
+    display_name: '&b[*] &bResistance #3'
     view_requirement:
       requirements:
         Pex:
@@ -692,29 +692,29 @@ items:
           permission: 'resistancelev.3'
     lore:
     - ''
-    - '&7Reduces damage taken'
-    - '&7by &e8% &7per upgrade.'
+    - '&fReduces damage taken'
+    - '&fby &b8% &fper upgrade.'
     - ''
-    - '&7Your damage received is reduced by: &b124%'
+    - '&fYour damage received is reduced by: &b124%'
     - ''
     - '&8» &cNo more improvements available'
   'Archery':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI0ZjEzMmNiODZkY2ExZWRlODA5NTVlYTg2ZjlmMjI5MmJlNzg3OTIxNGVmYjBjZTEyNjA2ZTEwMjY4Y2U2In19fQ==
     priority: 5
     slot: 14
-    display_name: '&2[*] &aArchery'
+    display_name: '&b[*] &bArchery'
     lore:
     - ''
-    - '&7Increase arrow damage'
-    - '&7by &e8% &7per upgrade.'
+    - '&fIncrease arrow damage'
+    - '&fby &b8% &fper upgrade.'
     - ''
-    - '&7Increase arrow damage by: &b108%'
+    - '&fIncrease arrow damage by: &b108%'
     - ''
-    - '&8* &7Price: &d20 &7Exp Levels.'
+    - '&8* &fPrice: &d20 &fExp Levels.'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eArchery #1&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bArchery #1&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L20'
@@ -727,11 +727,11 @@ items:
           input: '%player_total_exp%'
           output: 315
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e20 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b20 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
     right_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eArchery #1&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bArchery #1&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L20'
@@ -744,14 +744,14 @@ items:
           input: '%player_total_exp%'
           output: 315
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e20 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b20 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
   'Archery #2':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI0ZjEzMmNiODZkY2ExZWRlODA5NTVlYTg2ZjlmMjI5MmJlNzg3OTIxNGVmYjBjZTEyNjA2ZTEwMjY4Y2U2In19fQ==
     priority: 4
     slot: 14
-    display_name: '&2[*] &aArchery #2'
+    display_name: '&b[*] &bArchery #2'
     view_requirement:
       requirements:
         Pex:
@@ -759,16 +759,16 @@ items:
           permission: 'archerylev.1'
     lore:
     - ''
-    - '&7Increase arrow damage'
-    - '&7by &e8% &7per upgrade.'
+    - '&fIncrease arrow damage'
+    - '&fby &b8% &fper upgrade.'
     - ''
-    - '&7Increase arrow damage by: &b116%'
+    - '&fIncrease arrow damage by: &b116%'
     - ''
-    - '&8* &7Price: &d30 &7Exp Levels.'
+    - '&8* &fPrice: &d30 &fExp Levels.'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eArchery #2&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bArchery #2&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L30'
@@ -781,11 +781,11 @@ items:
           input: '%player_total_exp%'
           output: 550
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e30 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b30 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
     right_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eArchery #2&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bArchery #2&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L30'
@@ -798,14 +798,14 @@ items:
           input: '%player_total_exp%'
           output: 550
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e30 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b30 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
   'Archery #3':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI0ZjEzMmNiODZkY2ExZWRlODA5NTVlYTg2ZjlmMjI5MmJlNzg3OTIxNGVmYjBjZTEyNjA2ZTEwMjY4Y2U2In19fQ==
     priority: 3
     slot: 14
-    display_name: '&2[*] &aArchery #3'
+    display_name: '&b[*] &bArchery #3'
     view_requirement:
       requirements:
         Pex:
@@ -813,16 +813,16 @@ items:
           permission: 'archerylev.2'
     lore:
     - ''
-    - '&7Increase arrow damage'
-    - '&7by &e8% &7per upgrade.'
+    - '&fIncrease arrow damage'
+    - '&fby &b8% &fper upgrade.'
     - ''
-    - '&7Increase arrow damage by: &b124%'
+    - '&fIncrease arrow damage by: &b124%'
     - ''
-    - '&8* &7Price: &d40 &7Exp Levels.'
+    - '&8* &fPrice: &d40 &fExp Levels.'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eArchery #3&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bArchery #3&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L40'
@@ -835,11 +835,11 @@ items:
           input: '%player_total_exp%'
           output: 910
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e40 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b40 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
     right_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eArchery #3&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bArchery #3&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L40'
@@ -852,14 +852,14 @@ items:
           input: '%player_total_exp%'
           output: 910
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e40 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b40 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
   'Archery #4':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI0ZjEzMmNiODZkY2ExZWRlODA5NTVlYTg2ZjlmMjI5MmJlNzg3OTIxNGVmYjBjZTEyNjA2ZTEwMjY4Y2U2In19fQ==
     priority: 2
     slot: 14
-    display_name: '&2[*] &aArchery #4'
+    display_name: '&b[*] &bArchery #4'
     view_requirement:
       requirements:
         Pex:
@@ -867,16 +867,16 @@ items:
           permission: 'archerylev.3'
     lore:
     - ''
-    - '&7Increase arrow damage'
-    - '&7by &e8% &7per upgrade.'
+    - '&fIncrease arrow damage'
+    - '&fby &b8% &fper upgrade.'
     - ''
-    - '&7Increase arrow damage by: &b132%'
+    - '&fIncrease arrow damage by: &b132%'
     - ''
-    - '&8* &7Price: &d50 &7Exp Levels.'
+    - '&8* &fPrice: &d50 &fExp Levels.'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eArchery #4&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bArchery #4&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L50'
@@ -889,11 +889,11 @@ items:
           input: '%player_total_exp%'
           output: 1395
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e50 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b50 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
     right_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eArchery #4&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bArchery #4&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L50'
@@ -906,14 +906,14 @@ items:
           input: '%player_total_exp%'
           output: 1395
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e50 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b50 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
   'Archery #4-':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI0ZjEzMmNiODZkY2ExZWRlODA5NTVlYTg2ZjlmMjI5MmJlNzg3OTIxNGVmYjBjZTEyNjA2ZTEwMjY4Y2U2In19fQ==
     priority: 1
     slot: 14
-    display_name: '&2[*] &aArchery #4'
+    display_name: '&b[*] &bArchery #4'
     view_requirement:
       requirements:
         Pex:
@@ -921,29 +921,29 @@ items:
           permission: 'archerylev.4'
     lore:
     - ''
-    - '&7Increase arrow damage'
-    - '&7by &e8% &7per upgrade.'
+    - '&fIncrease arrow damage'
+    - '&fby &b8% &fper upgrade.'
     - ''
-    - '&7Your arrow damage is increased by: &b132%'
+    - '&fYour arrow damage is increased by: &b132%'
     - ''
     - '&8» &cNo more improvements available'
   'Health':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ1ZjRkMTM5YzllODkyNjJlYzA2YjI3YWFhZDczZmE0ODhhYjQ5MjkwZDJjY2Q2ODVhMjU1NDcyNTM3M2M5YiJ9fX0=
     priority: 5
     slot: 15
-    display_name: '&2[*] &aHealth'
+    display_name: '&b[*] &bHealth'
     lore:
     - ''
-    - '&7Increase your health'
-    - '&7by &e8% &7per upgrade.'
+    - '&fIncrease your health'
+    - '&fby &b8% &fper upgrade.'
     - ''
-    - '&7Increase your health by: &b102%'
+    - '&fIncrease your health by: &b102%'
     - ''
-    - '&8* &7Price: &d20 &7Exp Levels.'
+    - '&8* &fPrice: &d20 &fExp Levels.'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eHealth #1&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bHealth #1&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L20'
@@ -956,11 +956,11 @@ items:
           input: '%player_total_exp%'
           output: 315
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e20 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b20 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
     right_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eHealth #1&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bHealth #1&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L20'
@@ -973,14 +973,14 @@ items:
           input: '%player_total_exp%'
           output: 315
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e20 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b20 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
   'Health #2':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ1ZjRkMTM5YzllODkyNjJlYzA2YjI3YWFhZDczZmE0ODhhYjQ5MjkwZDJjY2Q2ODVhMjU1NDcyNTM3M2M5YiJ9fX0=
     priority: 4
     slot: 15
-    display_name: '&2[*] &aHealth #2'
+    display_name: '&b[*] &bHealth #2'
     view_requirement:
       requirements:
         Pex:
@@ -988,16 +988,16 @@ items:
           permission: 'healthlev.1'
     lore:
     - ''
-    - '&7Increase your health'
-    - '&7by &e8% &7per upgrade.'
+    - '&fIncrease your health'
+    - '&fby &b8% &fper upgrade.'
     - ''
-    - '&7Increase your health by: &b104%'
+    - '&fIncrease your health by: &b104%'
     - ''
-    - '&8* &7Price: &d30 &7Exp Levels.'
+    - '&8* &fPrice: &d30 &fExp Levels.'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eHealth #2&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bHealth #2&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L30'
@@ -1010,11 +1010,11 @@ items:
           input: '%player_total_exp%'
           output: 550
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e30 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b30 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
     right_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eHealth #2&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bHealth #2&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L30'
@@ -1027,14 +1027,14 @@ items:
           input: '%player_total_exp%'
           output: 550
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e30 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b30 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
   'Health #3':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ1ZjRkMTM5YzllODkyNjJlYzA2YjI3YWFhZDczZmE0ODhhYjQ5MjkwZDJjY2Q2ODVhMjU1NDcyNTM3M2M5YiJ9fX0=
     priority: 3
     slot: 15
-    display_name: '&2[*] &aHealth #3'
+    display_name: '&b[*] &bHealth #3'
     view_requirement:
       requirements:
         Pex:
@@ -1042,16 +1042,16 @@ items:
           permission: 'healthlev.2'
     lore:
     - ''
-    - '&7Increase your health'
-    - '&7by &e8% &7per upgrade.'
+    - '&fIncrease your health'
+    - '&fby &b8% &fper upgrade.'
     - ''
-    - '&7Increase your health by: &b106%'
+    - '&fIncrease your health by: &b106%'
     - ''
-    - '&8* &7Price: &d40 &7Exp Levels.'
+    - '&8* &fPrice: &d40 &fExp Levels.'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eHealth #3&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bHealth #3&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L40'
@@ -1064,11 +1064,11 @@ items:
           input: '%player_total_exp%'
           output: 910
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e40 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b40 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
     right_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eHealth #3&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bHealth #3&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L40'
@@ -1081,14 +1081,14 @@ items:
           input: '%player_total_exp%'
           output: 910
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e40 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b40 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
   'Health #4':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ1ZjRkMTM5YzllODkyNjJlYzA2YjI3YWFhZDczZmE0ODhhYjQ5MjkwZDJjY2Q2ODVhMjU1NDcyNTM3M2M5YiJ9fX0=
     priority: 2
     slot: 15
-    display_name: '&2[*] &aHealth #4'
+    display_name: '&b[*] &bHealth #4'
     view_requirement:
       requirements:
         Pex:
@@ -1096,16 +1096,16 @@ items:
           permission: 'healthlev.3'
     lore:
     - ''
-    - '&7Increase your health'
-    - '&7by &e8% &7per upgrade.'
+    - '&fIncrease your health'
+    - '&fby &b8% &fper upgrade.'
     - ''
-    - '&7Increase your health by: &b108%'
+    - '&fIncrease your health by: &b108%'
     - ''
-    - '&8* &7Price: &d50 &7Exp Levels.'
+    - '&8* &fPrice: &d50 &fExp Levels.'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eHealth #4&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bHealth #4&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L50'
@@ -1118,11 +1118,11 @@ items:
           input: '%player_total_exp%'
           output: 1395
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e50 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b50 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
     right_click_commands:
-    - '[message] &b&lSKILLS &8&l» &7You have bought &eHealth #4&f.'
+    - '[message] &b&lSKILLS &8&l» &fYou have bought &bHealth #4&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] xp give %player_name% -L50'
@@ -1135,14 +1135,14 @@ items:
           input: '%player_total_exp%'
           output: 1395
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e50 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b50 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
   'Health #4-':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ1ZjRkMTM5YzllODkyNjJlYzA2YjI3YWFhZDczZmE0ODhhYjQ5MjkwZDJjY2Q2ODVhMjU1NDcyNTM3M2M5YiJ9fX0=
     priority: 1
     slot: 15
-    display_name: '&2[*] &aHealth #4'
+    display_name: '&b[*] &bHealth #4'
     view_requirement:
       requirements:
         Pex:
@@ -1150,9 +1150,9 @@ items:
           permission: 'healthlev.4'
     lore:
     - ''
-    - '&7Increase your health'
-    - '&7by &e8% &7per upgrade.'
+    - '&fIncrease your health'
+    - '&fby &b8% &fper upgrade.'
     - ''
-    - '&7Your health is increased by: &b108%'
+    - '&fYour health is increased by: &b108%'
     - ''
     - '&8» &cNo more improvements available'  

@@ -5,7 +5,7 @@ open_command:
 size: 36
 items:
   'Decoration':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 7
     slots:
@@ -28,7 +28,7 @@ items:
     - 29
     - 33
   'Decoration-1':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 15
     slots:
@@ -49,7 +49,7 @@ items:
   'Close':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
     slot: 31
-    display_name: '&2[*] &aClose'
+    display_name: '&b[*] &bClose'
     lore: ''
     left_click_commands:
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -61,7 +61,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk4ZGY0MmY0NzdmMjEzZmY1ZTlkN2ZhNWE0Y2M0YTY5ZjIwZDljZWYyYjkwYzRhZTRmMjliZDE3Mjg3YjUifX19
     slot: 11
     priority: 1
-    display_name: '&2[*] &aDeposit Coins'
+    display_name: '&b[*] &bDeposit Coins'
     view_requirement:
       requirements:
         Delay:
@@ -70,12 +70,12 @@ items:
           output: 0s
     lore:
     - ''
-    - '&7Use this option to deposit'
-    - '&7your coins in the bank.'
+    - '&fUse this option to deposit'
+    - '&fyour coins in the bank.'
     - ''
-    - '&8* &7Purse Balance: &b$%vault_eco_balance_commas%'
+    - '&8* &fPurse Balance: &b$%vault_eco_balance_commas%'
     - ''
-    - '&8» &eClick to deposit'
+    - '&8» &bClick to deposit'
     left_click_commands:
     - '[openguimenu] depositbank'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -89,13 +89,13 @@ items:
     slot: 11
     update: true
     priority: 2
-    display_name: '&2[*] &aDeposit Coins'
+    display_name: '&b[*] &bDeposit Coins'
     lore:
     - ''
-    - '&7Use this option to deposit'
-    - '&7your coins in the bank.'
+    - '&fUse this option to deposit'
+    - '&fyour coins in the bank.'
     - ''
-    - '&8* &7Purse Balance: &b$%vault_eco_balance_commas%'
+    - '&8* &fPurse Balance: &b$%vault_eco_balance_commas%'
     - ''
     - '&8» &cPlease wait %javascript_rewards-delay_Bank_15% to use again'
     left_click_commands:
@@ -106,23 +106,23 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhMzc0ZTIxYjgxYzBiMjFhYmViOGU5N2UxM2UwNzdkM2VkMWVkNDRmMmU5NTZjNjhmNjNhM2UxOWU4OTlmNiJ9fX0=
     slot: 13
     update: true
-    display_name: '&2[*] &aBank Information'
+    display_name: '&b[*] &bBank Information'
     lore:
     - ''
-    - '&7Use the bank to keep'
-    - '&7your coins safe.'
+    - '&fUse the bank to keep'
+    - '&fyour coins safe.'
     - ''
     - '&8&l▪ &8&nInformation:'
     - ''
-    - '&8* &7Bank Balance: &b$%banksystem_balance%'
-    - '&8* &7Purse: &b$%vault_eco_balance_commas%' 
-    - '&8* &7Interest: &b2%' 
+    - '&8* &fBank Balance: &b$%banksystem_balance%'
+    - '&8* &fPurse: &b$%vault_eco_balance_commas%' 
+    - '&8* &fInterest: &b2%' 
     - ''
-    - '&8» &7Next interest in: &e%banksystem_interest%'
+    - '&8» &fNext interest in: &b%banksystem_interest%'
   'Withdraw':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2MxMWEwZDkwYzM3ZWI2OTVjOGE1MjNkODYwMWFhMWM4NWZhZDA5YTRkMjIzMmQwNGVkMjNhYzkwZTQzMjVjMiJ9fX0=
     slot: 15
-    display_name: '&2[*] &aWithdraw Coins'
+    display_name: '&b[*] &bWithdraw Coins'
     view_requirement:
       requirements:
         Delay:
@@ -131,12 +131,12 @@ items:
           output: 0s
     lore:
     - ''
-    - '&7Use this option to withdraw'
-    - '&7your coins of the bank.'
+    - '&fUse this option to withdraw'
+    - '&fyour coins of the bank.'
     - ''
-    - '&8* &7Bank Balance: &b$%banksystem_balance%'
+    - '&8* &fBank Balance: &b$%banksystem_balance%'
     - ''
-    - '&8» &eClick to withdraw'
+    - '&8» &bClick to withdraw'
     left_click_commands:
     - '[openguimenu] withdrawbank'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -150,13 +150,13 @@ items:
     slot: 15
     update: true
     priority: 2
-    display_name: '&2[*] &aDeposit Coins'
+    display_name: '&b[*] &bDeposit Coins'
     lore:
     - ''
-    - '&7Use this option to withdraw'
-    - '&7your coins of the bank.'
+    - '&fUse this option to withdraw'
+    - '&fyour coins of the bank.'
     - ''
-    - '&8* &7Bank Balance: &b$%banksystem_balance%'
+    - '&8* &fBank Balance: &b$%banksystem_balance%'
     - ''
     - '&8» &cPlease wait %javascript_rewards-delay_Bank_15% to use again'
     left_click_commands:

@@ -4,7 +4,7 @@ open_command:
 size: 36
 items:
   'Decoration':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 7
     slots:
@@ -27,7 +27,7 @@ items:
     - 29
     - 33
   'Decoration-1':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 15
     slots:
@@ -48,7 +48,7 @@ items:
   'Back':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
     slot: 31
-    display_name: '&2[*] &aBack'
+    display_name: '&b[*] &bBack'
     lore: ''
     left_click_commands:
     - '[sound] ENTITY_ARROW_HIT_PLAYER'  
@@ -61,15 +61,15 @@ items:
   'MembersUpgrades':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmEyNWVlMmQ1NTQxYjY3ZmY3ZDYxZmU2YThiODVlZDNmMGExOTI4N2ZhMTM2M2FiNThmMzdmMWE5NDY4OTFjNyJ9fX0=
     slot: 11
-    display_name: '&2[*] &aMembers Upgrades'
+    display_name: '&b[*] &bMembers Upgrades'
     lore:
     - ''
-    - '&7Upgrade the number of players'
-    - '&7you can invite to your island.'
+    - '&fUpgrade the number of players'
+    - '&fyou can invite to your island.'
     - ''
     - '&8* &8Progress&8 | %javascript_members-progress-bar%'
     - ''
-    - '&8» &eClick to open'
+    - '&8» &bClick to open'
     left_click_commands:
     - '[sound] ENTITY_ARROW_HIT_PLAYER'  
     - '[close]'
@@ -81,15 +81,15 @@ items:
   'HomeUpgrades':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFmYzg0NGE2OTlkNDkyODgwMWIzNzJiOTFjOTlhZjYwMWE4ZjY0YTdmMGEwYzJiNjE2MzQyNGUwZGRiOTMifX19
     slot: 13
-    display_name: '&2[*] &aHomes Upgrades'
+    display_name: '&b[*] &bHomes Upgrades'
     lore:
     - ''
-    - '&7Upgrade the number of homes'
-    - '&7you can set on your island.'
+    - '&fUpgrade the number of homes'
+    - '&fyou can set on your island.'
     - ''
     - '&8* &8Progress&8 | %javascript_homes-progress-bar%'
     - ''
-    - '&8» &eClick to open'
+    - '&8» &bClick to open'
     left_click_commands:
     - '[sound] ENTITY_ARROW_HIT_PLAYER'  
     - '[close]'
@@ -101,15 +101,15 @@ items:
   'SizeUpgrades':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
     slot: 15
-    display_name: '&2[*] &aSize Upgrades'
+    display_name: '&b[*] &bSize Upgrades'
     lore:
     - ''
-    - '&7Upgrade the size of'
-    - '&7your island.'
+    - '&fUpgrade the size of'
+    - '&fyour island.'
     - ''
     - '&8* &8Progress&8 | %javascript_size-progress-bar%'
     - ''
-    - '&8» &eClick to open'
+    - '&8» &bClick to open'
     left_click_commands:
     - '[sound] ENTITY_ARROW_HIT_PLAYER'  
     - '[close]'

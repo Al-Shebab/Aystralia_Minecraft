@@ -9,7 +9,7 @@ open_command:
 size: 36
 items:
   'Decoration':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 7
     slots:
@@ -32,7 +32,7 @@ items:
     - 29
     - 33
   'Decoration-1':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 15
     slots:
@@ -53,7 +53,7 @@ items:
   'Back':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
     slot: 31
-    display_name: '&2[*] &aBack'
+    display_name: '&b[*] &bBack'
     lore: ''
     left_click_commands:
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -66,16 +66,16 @@ items:
   'EnableBorder':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDY3NDcwYTBjMThmNjg1MWU5MTQzNTM3MTllNzk1ODc3ZDI5YjMyNTJmN2U2YmQ0YTFiODY1NzY1YmQ3NGZlYiJ9fX0=
     slot: 11
-    display_name: '&2[*] &aEnable Border'
+    display_name: '&b[*] &bEnable Border'
     lore:
     - ''
-    - '&7Use this option to enable'
-    - '&7your island border.'
+    - '&fUse this option to enable'
+    - '&fyour island border.'
     - ''
-    - '&8* &7Status: %isborder_status%'
-    - '&8* &7Size: &b%isborder_size%'
+    - '&8* &fStatus: %isborder_status%'
+    - '&8* &fSize: &b%isborder_size%'
     - ''
-    - '&8» &eClick to enable'
+    - '&8» &bClick to enable'
     left_click_commands:
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[close]'
@@ -87,16 +87,16 @@ items:
   'DesactivateBorder':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODZkMzVhOTYzZDU5ODc4OTRiNmJjMjE0ZTMyOGIzOWNkMjM4MjQyNmZmOWM4ZTA4MmIwYjZhNmUwNDRkM2EzIn19fQ==
     slot: 13
-    display_name: '&2[*] &aDisable Border'
+    display_name: '&b[*] &bDisable Border'
     lore:
     - ''
-    - '&7Use this option to disable'
-    - '&7your island border.'
+    - '&fUse this option to disable'
+    - '&fyour island border.'
     - ''
-    - '&8* &7Status: %isborder_status%'
-    - '&8* &7Size: &b%isborder_size%'
+    - '&8* &fStatus: %isborder_status%'
+    - '&8* &fSize: &b%isborder_size%'
     - ''
-    - '&8» &eClick to disable'
+    - '&8» &bClick to disable'
     left_click_commands:
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[close]'
@@ -108,11 +108,11 @@ items:
   'BorderColor':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTlhMjIwNTU1NGY0ZmQ4NDMxY2NhMzRkYTlmNGQ5ODYyMDU4NDg4YmJjNGIwZDY3MTk0MzJkMTEwYzUzYTA3ZCJ9fX0=
     slot: 15
-    display_name: '&2[*] &Control Panel'
+    display_name: '&b[*] &Control Panel'
     lore:
     - ''
-    - '&7Use this option to change'
-    - '&7your island settings.'
+    - '&fUse this option to change'
+    - '&fyour island settings.'
     - '' 
     - '&8» &bClick to open'
     left_click_commands:

@@ -9,10 +9,10 @@ open_requirement:
      input: '%javascript_rewards-delay_Bank_1%'
      output: 0s
      deny_commands:
-     - '[message] &b&lBANK &8&l» &7Wait &e%javascript_rewards-delay_Bank_10% &7to use again.'
+     - '[message] &b&lBANK &8&l» &fWait &b%javascript_rewards-delay_Bank_10% &fto use again.'
 items:
   'Decoration':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 7
     slots:
@@ -35,7 +35,7 @@ items:
     - 29
     - 33
   'Decoration-1':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 15
     slots:
@@ -56,7 +56,7 @@ items:
   'Back':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
     slot: 31
-    display_name: '&2[*] &aBack'
+    display_name: '&b[*] &bBack'
     lore: ''
     left_click_commands:
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -70,7 +70,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdmNTdlN2FhOGRlODY1OTFiYjBiYzUyY2JhMzBhNDlkOTMxYmZhYmJkNDdiYmM4MGJkZDY2MjI1MTM5MjE2MSJ9fX0=
     slot: 11
     priority: 1
-    display_name: '&2[*] &aDeposit All ⛁'
+    display_name: '&b[*] &bDeposit All ⛁'
     view_requirement:
       requirements:
         Money:
@@ -78,10 +78,10 @@ items:
           amount: 1
     lore:
     - ''
-    - '&7Deposit &b$%vault_eco_balance_formatted%'
-    - '&7to the bank.'
+    - '&fDeposit &b$%vault_eco_balance_formatted%'
+    - '&fto the bank.'
     - ''
-    - '&8» &eClick to deposit'
+    - '&8» &bClick to deposit'
     left_click_commands:
     - '[player] bank deposit %vault_eco_balance_fixed%'
     - '[sound] ENTITY_ARROW_HIT_PLAYER %javascript_rewards-delay_Bank_start%'  
@@ -92,7 +92,7 @@ items:
           type: has money
           amount: 1
       deny_commands:
-      - '[message] &b&lBANK &8&l» &7You dont have money'
+      - '[message] &b&lBANK &8&l» &fYou dont have money'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -105,48 +105,48 @@ items:
           type: has money
           amount: 1
       deny_commands:
-      - '[message] &b&lBANK &8&l» &7You dont have money'
+      - '[message] &b&lBANK &8&l» &fYou dont have money'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'DepositAll-No':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdmNTdlN2FhOGRlODY1OTFiYjBiYzUyY2JhMzBhNDlkOTMxYmZhYmJkNDdiYmM4MGJkZDY2MjI1MTM5MjE2MSJ9fX0=
     slot: 11
     priority: 2
-    display_name: '&2[*] &aDeposit %vault_eco_balance_fixed% ⛁'
+    display_name: '&b[*] &bDeposit %vault_eco_balance_fixed% ⛁'
     lore:
     - ''
-    - '&7Deposit &b$%vault_eco_balance_fixed%'
-    - '&7to the bank.'
+    - '&fDeposit &b$%vault_eco_balance_fixed%'
+    - '&fto the bank.'
     - ''
     - '&8» &cYou dont have money'
     left_click_commands:
-      - '[message] &b&lBANK &8&l» &7You dont have money'
+      - '[message] &b&lBANK &8&l» &fYou dont have money'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-      - '[message] &b&lBANK &8&l» &7You dont have money'
+      - '[message] &b&lBANK &8&l» &fYou dont have money'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'  
   'Info':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGExNGZmOTEyNTY2ZDQ3MTk4MTI3ODhlNjMzYmE0MjNkMWRiMTQ0OWFkZmJiNzA2MWZhZmU3NGJhODgwOTQ2OSJ9fX0=
     slot: 13
-    display_name: '&2[*] &aDeposit Information'
+    display_name: '&b[*] &bDeposit Information'
     lore:
     - ''
-    - '&7Deposit &6money &7in the'
-    - '&7bank to keep it &bsafe.'
+    - '&fDeposit &6money &fin the'
+    - '&fbank to keep it &bsafe.'
     - ''
-    - '&7To deposit a &dcustom'
-    - '&damount &7do click on'
-    - '&7deposit specific'
-    - '&7amount and &ewrite the'
-    - '&eamount &7in the &cchat&f.'
+    - '&fTo deposit a &dcustom'
+    - '&damount &fdo click on'
+    - '&fdeposit specific'
+    - '&famount and &bwrite the'
+    - '&bamount &fin the &cchat&f.'
     - ''
   'DepositCustom-Yes':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdmNTdlN2FhOGRlODY1OTFiYjBiYzUyY2JhMzBhNDlkOTMxYmZhYmJkNDdiYmM4MGJkZDY2MjI1MTM5MjE2MSJ9fX0=
     slot: 15
     priority: 1
-    display_name: '&2[*] &aDeposit Specific Amount'
+    display_name: '&b[*] &bDeposit Specific Amount'
     view_requirement:
       requirements:
         Money:
@@ -154,12 +154,12 @@ items:
           amount: 1
     lore:
     - ''
-    - '&7Deposit specific'
-    - '&7amount to the bank.'
+    - '&fDeposit specific'
+    - '&famount to the bank.'
     - ''
-    - '&8» &eClick to deposit'
+    - '&8» &bClick to deposit'
     left_click_commands:
-    - '[player] bank deposit <Write the amount of money you want to &edeposit &7or write &ccancel &7to cancel>'
+    - '[player] bank deposit <Write the amount of money you want to &bdeposit &for write &ccancel &fto cancel>'
     - '[sound] ENTITY_ARROW_HIT_PLAYER %javascript_rewards-delay_Bank_start%' 
     - '[close]' 
     left_click_requirement:
@@ -168,11 +168,11 @@ items:
           type: has money
           amount: 1
       deny_commands:
-      - '[message] &b&lBANK &8&l» &7You dont have money'
+      - '[message] &b&lBANK &8&l» &fYou dont have money'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[player] bank deposit <Write the amount of money you want to &edeposit &7or write &ccancel &7to cancel>'
+    - '[player] bank deposit <Write the amount of money you want to &bdeposit &for write &ccancel &fto cancel>'
     - '[sound] ENTITY_ARROW_HIT_PLAYER %javascript_rewards-delay_Bank_start%' 
     - '[close]' 
     right_click_requirement:
@@ -181,25 +181,25 @@ items:
           type: has money
           amount: 1
       deny_commands:
-      - '[message] &b&lBANK &8&l» &7You dont have money'
+      - '[message] &b&lBANK &8&l» &fYou dont have money'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'DepositCustom-No':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdmNTdlN2FhOGRlODY1OTFiYjBiYzUyY2JhMzBhNDlkOTMxYmZhYmJkNDdiYmM4MGJkZDY2MjI1MTM5MjE2MSJ9fX0=
     slot: 15
     priority: 2
-    display_name: '&2[*] &aDeposit Specific Amount'
+    display_name: '&b[*] &bDeposit Specific Amount'
     lore:
     - ''
-    - '&7Deposit specific'
-    - '&7amount to the bank.'
+    - '&fDeposit specific'
+    - '&famount to the bank.'
     - ''
     - '&8» &cYou dont have money'
     left_click_commands:
-      - '[message] &b&lBANK &8&l» &7You dont have money'
+      - '[message] &b&lBANK &8&l» &fYou dont have money'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-      - '[message] &b&lBANK &8&l» &7You dont have money'
+      - '[message] &b&lBANK &8&l» &fYou dont have money'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'    

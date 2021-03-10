@@ -7,7 +7,7 @@ open_command:
 size: 36
 items:
   'Decoration':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 7
     slots:
@@ -30,7 +30,7 @@ items:
     - 29
     - 33
   'Decoration-1':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 15
     slots:
@@ -51,7 +51,7 @@ items:
   'Close':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
     slot: 31
-    display_name: '&2[*] &aClose'
+    display_name: '&b[*] &bClose'
     lore: ''
     left_click_commands:
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -62,13 +62,13 @@ items:
   'Enchants':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM0MjVlYTljNGE0Y2JkMTIzYTlmZmQ0YTBiYTc0ODBlN2M1MTU0MjNkZDczMGZiOWZiNjQzYzE4NDkwMTA3ZiJ9fX0=
     slot: 11
-    display_name: '&2[*] &aBuy Enchants'
+    display_name: '&b[*] &bBuy Enchants'
     lore:
     - ''
-    - '&7In this menu you can'
-    - '&7buy special enchants.'
+    - '&fIn this menu you can'
+    - '&fbuy special enchants.'
     - ''
-    - '&8» &eClick to open'
+    - '&8» &bClick to open'
     left_click_commands:
     - '[openguimenu] enchants'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -80,13 +80,13 @@ items:
   'Utilities':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliOTkyMzhkOWY4MTM0MDE1ZDc0MzQxYjE3MTE1YmUzMGYxMjVhMzdlYTQ5MDMyYjhjOWUzYjc2OWNmN2VlMSJ9fX0=
     slot: 13
-    display_name: '&2[*] &aBuy Utilities'
+    display_name: '&b[*] &bBuy Utilities'
     lore:
     - ''
-    - '&7In this menu you can'
-    - '&7buy special utilities.'
+    - '&fIn this menu you can'
+    - '&fbuy special utilities.'
     - ''
-    - '&8» &eClick to open'
+    - '&8» &bClick to open'
     left_click_commands:
     - '[openguimenu] enchantsut'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 

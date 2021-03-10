@@ -232,7 +232,7 @@ items:
     - ''
     - '&fTeleport to the spawn'
     - ''
-    - '&8» &eClick to go'
+    - '&8» &bClick to go'
     left_click_commands:
     - '[player] spawn'
     - '[sound] ENTITY_ENDERMEN_TELEPORT' 
@@ -250,7 +250,7 @@ items:
     - ''
     - '&fTeleport to your island'
     - ''
-    - '&8» &eClick to go'
+    - '&8» &bClick to go'
     left_click_commands:
     - '[player] is'
     - '[sound] ENTITY_ENDERMEN_TELEPORT' 
@@ -265,8 +265,8 @@ items:
     display_name: '&b[*] &bIsland Control Panel'
     lore:
     - ''
-    - '&7In this menu you can edit'
-    - '&7your island.'
+    - '&fIn this menu you can edit'
+    - '&fyour island.'
     - ''
     - '&8» &bClick to open'
     left_click_commands:

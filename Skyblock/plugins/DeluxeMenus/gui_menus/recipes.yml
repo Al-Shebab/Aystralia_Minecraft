@@ -3,7 +3,7 @@ open_command: recipes
 size: 45
 items:
       'Decoration':
-        display_name: '&7'
+        display_name: '&f'
         material: 160
         data: 7
         slots:
@@ -27,7 +27,7 @@ items:
         - 38
         - 42
       'Decoration-1':
-        display_name: '&7'
+        display_name: '&f'
         material: 160
         data: 15
         slots: 
@@ -49,7 +49,7 @@ items:
       'Back':
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
         slot: 40
-        display_name: '&2[*] &aBack'
+        display_name: '&b[*] &bBack'
         lore: ''
         left_click_commands:
         - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -67,10 +67,10 @@ items:
         - 'PROTECTION_ENVIRONMENTAL;5'
         - 'THORNS;6'
         lore:
-        - '&7'
-        - '&7Item tier: &9&lRARE'
-        - '&7'
-        - '&8» &eClick to view recipe'
+        - '&f'
+        - '&fItem tier: &9&lRARE'
+        - '&f'
+        - '&8» &bClick to view recipe'
         left_click_commands:
         - '[sound] ENTITY_ARROW_HIT_PLAYER' 
         - '[close]'
@@ -87,10 +87,10 @@ items:
         - 'PROTECTION_ENVIRONMENTAL;5'
         - 'THORNS;6'
         lore:
-        - '&7'
-        - '&7Item tier: &9&lRARE'
-        - '&7'
-        - '&8» &eClick to view recipe'
+        - '&f'
+        - '&fItem tier: &9&lRARE'
+        - '&f'
+        - '&8» &bClick to view recipe'
         left_click_commands:
         - '[sound] ENTITY_ARROW_HIT_PLAYER' 
         - '[close]'
@@ -107,10 +107,10 @@ items:
         - 'PROTECTION_ENVIRONMENTAL;5'
         - 'THORNS;6'
         lore:
-        - '&7'
-        - '&7Item tier: &9&lRARE'
-        - '&7'
-        - '&8» &eClick to view recipe'
+        - '&f'
+        - '&fItem tier: &9&lRARE'
+        - '&f'
+        - '&8» &bClick to view recipe'
         left_click_commands:
         - '[sound] ENTITY_ARROW_HIT_PLAYER' 
         - '[close]'
@@ -127,10 +127,10 @@ items:
         - 'PROTECTION_ENVIRONMENTAL;5'
         - 'THORNS;6'
         lore:
-        - '&7'
-        - '&7Item tier: &9&lRARE'
-        - '&7'
-        - '&8» &eClick to view recipe'
+        - '&f'
+        - '&fItem tier: &9&lRARE'
+        - '&f'
+        - '&8» &bClick to view recipe'
         left_click_commands:
         - '[sound] ENTITY_ARROW_HIT_PLAYER' 
         - '[close]'
@@ -142,15 +142,15 @@ items:
       'ZombieLeather':
         material: 367
         slot: 15
-        display_name: '&2Zombie Leather'
+        display_name: '&bZombie Leather'
         enchantments:
         - 'PROTECTION_ENVIRONMENTAL;5'
         hide_enchantments: true
         lore:
-        - '&7'
-        - '&7Item tier: &b&lUNCOMMON'
-        - '&7'
-        - '&8» &eClick to view recipe'
+        - '&f'
+        - '&fItem tier: &b&lUNCOMMON'
+        - '&f'
+        - '&8» &bClick to view recipe'
         left_click_commands:
         - '[sound] ENTITY_ARROW_HIT_PLAYER' 
         - '[close]'
@@ -162,15 +162,15 @@ items:
       'UltimateDiamond':
         material: 264
         slot: 20
-        display_name: '&2[*] &aUltimate Diamond'
+        display_name: '&b[*] &bUltimate Diamond'
         enchantments:
         - 'PROTECTION_ENVIRONMENTAL;5'
         hide_enchantments: true
         lore:
-        - '&7'
-        - '&7Item tier: &b&lCOMMON'
-        - '&7'
-        - '&8» &eClick to view recipe'
+        - '&f'
+        - '&fItem tier: &b&lCOMMON'
+        - '&f'
+        - '&8» &bClick to view recipe'
         left_click_commands:
         - '[sound] ENTITY_ARROW_HIT_PLAYER' 
         - '[close]'
@@ -188,10 +188,10 @@ items:
         - 'ARROW_KNOCKBACK;4'
         - 'ARROW_FIRE;1'
         lore:
-        - '&7'
-        - '&7Item tier: &9&lRARE'
-        - '&7'
-        - '&8» &eClick to view recipe'
+        - '&f'
+        - '&fItem tier: &9&lRARE'
+        - '&f'
+        - '&8» &bClick to view recipe'
         left_click_commands:
         - '[sound] ENTITY_ARROW_HIT_PLAYER' 
         - '[close]'
@@ -203,15 +203,15 @@ items:
       'CompactSlime':
         material: 165
         slot: 22
-        display_name: '&2Compact Slime'
+        display_name: '&bCompact Slime'
         enchantments:
         - 'ARROW_DAMAGE;6'
         hide_enchantments: true
         lore:
-        - '&7'
-        - '&7Item tier: &b&lUNCOMMON'
-        - '&7'
-        - '&8» &eClick to view recipe'
+        - '&f'
+        - '&fItem tier: &b&lUNCOMMON'
+        - '&f'
+        - '&8» &bClick to view recipe'
         left_click_commands:
         - '[sound] ENTITY_ARROW_HIT_PLAYER' 
         - '[close]'

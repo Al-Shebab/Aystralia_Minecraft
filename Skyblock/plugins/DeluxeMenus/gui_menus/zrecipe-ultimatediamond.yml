@@ -57,7 +57,7 @@ items:
   'Back':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
     slot: 49
-    display_name: '&2[*] &aBack'
+    display_name: '&b[*] &bBack'
     lore: ''
     left_click_commands:
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -81,10 +81,10 @@ items:
     - 31
   'UltimateDiamond':
     material: 264
-    display_name: '&2[*] &aUltimate Diamond' 
+    display_name: '&b[*] &bUltimate Diamond' 
     slot: 24
     enchantments:
     - 'ARROW_DAMAGE;6'
     hide_enchantments: true
     lore:
-    - '&a&lCOMMON'
+    - '&b&lCOMMON'

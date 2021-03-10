@@ -10,10 +10,10 @@ open_requirement:
      input: '%javascript_rewards-delay_OpenDelay_5%'
      output: 0s
      deny_commands:
-     - '[message] &b&lREWARDS &8&l» &7Wait &e%javascript_rewards-delay_OpenDelay_5% &7to open again.'
+     - '[message] &b&lREWARDS &8&l» &fWait &b%javascript_rewards-delay_OpenDelay_5% &fto open again.'
 items:
   'Decoration':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 7
     slots:
@@ -41,7 +41,7 @@ items:
     - 40
     - 42
   'Decoration-1':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 15
     slots:
@@ -65,7 +65,7 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNlZjlhYTE0ZTg4NDc3M2VhYzEzNGE0ZWU4OTcyMDYzZjQ2NmRlNjc4MzYzY2Y3YjFhMjFhODViNyJ9fX0=
     priority: 1
     slot: 11
-    display_name: '&2[*] &aMember Reward'
+    display_name: '&b[*] &bMember Reward'
     view_requirement:
       requirements:
         Delay:
@@ -77,16 +77,16 @@ items:
           permission: 'member.reward'
     lore:
     - '&8Weekly reward'
-    - '&7'
+    - '&f'
     - '&f&lContain:'
-    - '&7Money: &b$1,000'
-    - '&7Basic Keys: &b1'
-    - '&7'
-    - '&8» &eClick to open'
+    - '&fMoney: &b$1,000'
+    - '&fBasic Keys: &b1'
+    - '&f'
+    - '&8» &bClick to open'
     left_click_commands:
     - '[console] papi parse %player_name% %javascript_rewards-delay_Member_start%'
     - '[console] papi parse %player_name% %javascript_rewards-delay_OpenDelay_start%'
-    - '[message] &b&lREWARDS &8&l» &7You claimed the Member reward.' 
+    - '[message] &b&lREWARDS &8&l» &fYou claimed the Member reward.' 
     - '[console] eco give %player_name% 1000'
     - '[console] cc give v Basic 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
@@ -94,7 +94,7 @@ items:
     right_click_commands:
     - '[console] papi parse %player_name% %javascript_rewards-delay_Member_start%'
     - '[console] papi parse %player_name% %javascript_rewards-delay_OpenDelay_start%'
-    - '[message] &b&lREWARDS &8&l» &7You claimed the Member reward.'    
+    - '[message] &b&lREWARDS &8&l» &fYou claimed the Member reward.'    
     - '[console] eco give %player_name% 1000'
     - '[console] cc give v Basic 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
@@ -104,7 +104,7 @@ items:
     priority: 2
     slot: 11
     update: true
-    display_name: '&2[*] &aMember Reward'
+    display_name: '&b[*] &bMember Reward'
     view_requirement:
       requirements:
         Pex:
@@ -112,11 +112,11 @@ items:
           permission: 'member.reward'
     lore:
     - '&8Weekly reward'
-    - '&7'
+    - '&f'
     - '&f&lContain:'
-    - '&7Money: &b$1,000'
-    - '&7Basic Keys: &b1'
-    - '&7'
+    - '&fMoney: &b$1,000'
+    - '&fBasic Keys: &b1'
+    - '&f'
     - '&8» &cReward available in: %javascript_rewards-delay_Member_604800%'
     left_click_commands:
     - '[refresh]'
@@ -126,28 +126,28 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmViOTExZWE5NGI1YTFjZjc3ZjNjYTYzN2EzYjE2NjJiMzUxMjFiZDcyZTExODY1MTE4NGYyZmIxMDYwZDEifX19
     priority: 3
     slot: 11
-    display_name: '&2[*] &aMember Reward'
+    display_name: '&b[*] &bMember Reward'
     lore:
     - '&8Weekly reward'
-    - '&7'
+    - '&f'
     - '&f&lContain:'
-    - '&7Money: &b$1,000'
-    - '&7Basic Keys: &b1'
-    - '&7'
+    - '&fMoney: &b$1,000'
+    - '&fBasic Keys: &b1'
+    - '&f'
     - '&cYou dont have enought rank'
     left_click_commands:
-    - '[message] &b&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&f.'
+    - '[message] &b&lREWARDS &8&l» &fTo open this buy rank in &bshop.server.org&f.'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
     right_click_commands:
-    - '[message] &b&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&f.'
+    - '[message] &b&lREWARDS &8&l» &fTo open this buy rank in &bshop.server.org&f.'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
   'Vip':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDA4Y2U3ZGViYTU2YjcyNmE4MzJiNjExMTVjYTE2MzM2MTM1OWMzMDQzNGY3ZDVlM2MzZmFhNmZlNDA1MiJ9fX0=
     priority: 1
     slot: 13
-    display_name: '&2[*] &aVip Reward'
+    display_name: '&b[*] &bVip Reward'
     view_requirement:
       requirements:
         Delay:
@@ -159,16 +159,16 @@ items:
           permission: 'vip.reward'
     lore:
     - '&8Weekly reward'
-    - '&7'
+    - '&f'
     - '&f&lContain:'
-    - '&7Money: &b$2,500'
-    - '&7Basic Keys: &b1'
-    - '&7'
-    - '&8» &eClick to open'
+    - '&fMoney: &b$2,500'
+    - '&fBasic Keys: &b1'
+    - '&f'
+    - '&8» &bClick to open'
     left_click_commands:
     - '[console] papi parse %player_name% %javascript_rewards-delay_Vip_start%'
     - '[console] papi parse %player_name% %javascript_rewards-delay_OpenDelay_start%'
-    - '[message] &b&lREWARDS &8&l» &7You claimed the Vip reward.' 
+    - '[message] &b&lREWARDS &8&l» &fYou claimed the Vip reward.' 
     - '[console] eco give %player_name% 2500'
     - '[console] cc give v Basic 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
@@ -176,7 +176,7 @@ items:
     right_click_commands:
     - '[console] papi parse %player_name% %javascript_rewards-delay_Vip_start%'
     - '[console] papi parse %player_name% %javascript_rewards-delay_OpenDelay_start%'
-    - '[message] &b&lREWARDS &8&l» &7You claimed the Vip reward.' 
+    - '[message] &b&lREWARDS &8&l» &fYou claimed the Vip reward.' 
     - '[console] eco give %player_name% 2500'
     - '[console] cc give v Basic 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
@@ -186,7 +186,7 @@ items:
     priority: 2
     slot: 13
     update: true
-    display_name: '&2[*] &aVip Reward'
+    display_name: '&b[*] &bVip Reward'
     view_requirement:
       requirements:
         Pex:
@@ -194,11 +194,11 @@ items:
           permission: 'vip.reward'
     lore:
     - '&8Weekly reward'
-    - '&7'
+    - '&f'
     - '&f&lContain:'
-    - '&7Money: &b$2,500'
-    - '&7Basic Keys: &b1'
-    - '&7'
+    - '&fMoney: &b$2,500'
+    - '&fBasic Keys: &b1'
+    - '&f'
     - '&8» &cReward available in: %javascript_rewards-delay_Vip_604800%'
     left_click_commands:
     - '[refresh]'
@@ -208,28 +208,28 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmViOTExZWE5NGI1YTFjZjc3ZjNjYTYzN2EzYjE2NjJiMzUxMjFiZDcyZTExODY1MTE4NGYyZmIxMDYwZDEifX19
     priority: 3
     slot: 13
-    display_name: '&2[*] &aVip Reward'
+    display_name: '&b[*] &bVip Reward'
     lore:
     - '&8Weekly reward'
-    - '&7'
+    - '&f'
     - '&f&lContain:'
-    - '&7Money: &b$2,500'
-    - '&7Basic Keys: &b1'
-    - '&7'
+    - '&fMoney: &b$2,500'
+    - '&fBasic Keys: &b1'
+    - '&f'
     - '&cYou dont have enought rank'
     left_click_commands:
-    - '[message] &b&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&f.'
+    - '[message] &b&lREWARDS &8&l» &fTo open this buy rank in &bshop.server.org&f.'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
     right_click_commands:
-    - '[message] &b&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&f.'
+    - '[message] &b&lREWARDS &8&l» &fTo open this buy rank in &bshop.server.org&f.'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
   'Vip+':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWM2Mjc0YzIyZDcyNmZjMTIwY2UyNTczNjAzMGNjOGFmMjM4YjQ0YmNiZjU2NjU1MjA3OTUzYzQxNDQyMmYifX19
     priority: 1
     slot: 15
-    display_name: '&2[*] &aVip+ Reward'
+    display_name: '&b[*] &bVip+ Reward'
     view_requirement:
       requirements:
         Delay:
@@ -241,17 +241,17 @@ items:
           permission: 'vip+.reward'
     lore:
     - '&8Weekly reward'
-    - '&7'
+    - '&f'
     - '&f&lContain:'
-    - '&7Money: &b$5,000'
-    - '&7Basic Keys: &b1'
-    - '&7Mega Keys: &b1'
-    - '&7'
-    - '&8» &eClick to open'
+    - '&fMoney: &b$5,000'
+    - '&fBasic Keys: &b1'
+    - '&fMega Keys: &b1'
+    - '&f'
+    - '&8» &bClick to open'
     left_click_commands:
     - '[console] papi parse %player_name% %javascript_rewards-delay_Vip+_start%'
     - '[console] papi parse %player_name% %javascript_rewards-delay_OpenDelay_start%'
-    - '[message] &b&lREWARDS &8&l» &7You claimed the Vip+ reward.' 
+    - '[message] &b&lREWARDS &8&l» &fYou claimed the Vip+ reward.' 
     - '[console] eco give %player_name% 5000'
     - '[console] cc give v Basic 1 %player_name%'
     - '[console] cc give v Mega 1 %player_name%'
@@ -260,7 +260,7 @@ items:
     right_click_commands:
     - '[console] papi parse %player_name% %javascript_rewards-delay_Vip+_start%'
     - '[console] papi parse %player_name% %javascript_rewards-delay_OpenDelay_start%'
-    - '[message] &b&lREWARDS &8&l» &7You claimed the Vip+ reward.' 
+    - '[message] &b&lREWARDS &8&l» &fYou claimed the Vip+ reward.' 
     - '[console] eco give %player_name% 5000'
     - '[console] cc give v Basic 1 %player_name%'
     - '[console] cc give v Mega 1 %player_name%'
@@ -271,7 +271,7 @@ items:
     priority: 2
     slot: 15
     update: true
-    display_name: '&2[*] &aVip+ Reward'
+    display_name: '&b[*] &bVip+ Reward'
     view_requirement:
       requirements:
         Pex:
@@ -279,12 +279,12 @@ items:
           permission: 'Vip+.reward'
     lore:
     - '&8Weekly reward'
-    - '&7'
+    - '&f'
     - '&f&lContain:'
-    - '&7Money: &b$5,000'
-    - '&7Basic Keys: &b1'
-    - '&7Mega Keys: &b1'
-    - '&7'
+    - '&fMoney: &b$5,000'
+    - '&fBasic Keys: &b1'
+    - '&fMega Keys: &b1'
+    - '&f'
     - '&8» &cReward available in: %javascript_rewards-delay_Vip+_604800%'
     left_click_commands:
     - '[refresh]'
@@ -294,29 +294,29 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmViOTExZWE5NGI1YTFjZjc3ZjNjYTYzN2EzYjE2NjJiMzUxMjFiZDcyZTExODY1MTE4NGYyZmIxMDYwZDEifX19
     priority: 3
     slot: 15
-    display_name: '&2[*] &aVip+ Reward'
+    display_name: '&b[*] &bVip+ Reward'
     lore:
     - '&8Weekly reward'
-    - '&7'
+    - '&f'
     - '&f&lContain:'
-    - '&7Money: &b$5,000'
-    - '&7Basic Keys: &b1'
-    - '&7Mega Keys: &b1'
-    - '&7'
+    - '&fMoney: &b$5,000'
+    - '&fBasic Keys: &b1'
+    - '&fMega Keys: &b1'
+    - '&f'
     - '&cYou dont have enought rank'
     left_click_commands:
-    - '[message] &b&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&f.'
+    - '[message] &b&lREWARDS &8&l» &fTo open this buy rank in &bshop.server.org&f.'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
     right_click_commands:
-    - '[message] &b&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&f.'
+    - '[message] &b&lREWARDS &8&l» &fTo open this buy rank in &bshop.server.org&f.'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
   'Mvp':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTI4ZTY5MmQ4NmUyMjQ0OTc5MTVhMzk1ODNkYmUzOGVkZmZkMzljYmJhNDU3Y2M5NWE3YWMzZWEyNWQ0NDUifX19
     priority: 1
     slot: 29
-    display_name: '&2[*] &aMvp Reward'
+    display_name: '&b[*] &bMvp Reward'
     view_requirement:
       requirements:
         Delay:
@@ -328,18 +328,18 @@ items:
           permission: 'mvp.reward'
     lore:
     - '&8Weekly reward'
-    - '&7'
+    - '&f'
     - '&f&lContain:'
-    - '&7Money: &b$10,000'
-    - '&7Basic Keys: &b1'
-    - '&7Mega Keys: &b1'
-    - '&7Legendary Keys: &b1'
-    - '&7'
-    - '&8» &eClick to open'
+    - '&fMoney: &b$10,000'
+    - '&fBasic Keys: &b1'
+    - '&fMega Keys: &b1'
+    - '&fLegendary Keys: &b1'
+    - '&f'
+    - '&8» &bClick to open'
     left_click_commands:
     - '[console] papi parse %player_name% %javascript_rewards-delay_Mvp_start%'
     - '[console] papi parse %player_name% %javascript_rewards-delay_OpenDelay_start%'
-    - '[message] &b&lREWARDS &8&l» &7You claimed the Mvp reward.' 
+    - '[message] &b&lREWARDS &8&l» &fYou claimed the Mvp reward.' 
     - '[console] eco give %player_name% 10000'
     - '[console] cc give v Basic 1 %player_name%'
     - '[console] cc give v Mega 1 %player_name%'
@@ -349,7 +349,7 @@ items:
     right_click_commands:
     - '[console] papi parse %player_name% %javascript_rewards-delay_Mvp_start%'
     - '[console] papi parse %player_name% %javascript_rewards-delay_OpenDelay_start%'
-    - '[message] &b&lREWARDS &8&l» &7You claimed the Mvp reward.' 
+    - '[message] &b&lREWARDS &8&l» &fYou claimed the Mvp reward.' 
     - '[console] eco give %player_name% 10000'
     - '[console] cc give v Basic 1 %player_name%'
     - '[console] cc give v Mega 1 %player_name%'
@@ -361,7 +361,7 @@ items:
     priority: 2
     slot: 29
     update: true
-    display_name: '&2[*] &aMvp Reward'
+    display_name: '&b[*] &bMvp Reward'
     view_requirement:
       requirements:
         Pex:
@@ -369,13 +369,13 @@ items:
           permission: 'mvp.reward'
     lore:
     - '&8Weekly reward'
-    - '&7'
+    - '&f'
     - '&f&lContain:'
-    - '&7Money: &b$10,000'
-    - '&7Basic Keys: &b1'
-    - '&7Mega Keys: &b1'
-    - '&7Legendary Keys: &b1'
-    - '&7'
+    - '&fMoney: &b$10,000'
+    - '&fBasic Keys: &b1'
+    - '&fMega Keys: &b1'
+    - '&fLegendary Keys: &b1'
+    - '&f'
     - '&8» &cReward available in: %javascript_rewards-delay_Mvp_604800%'
     left_click_commands:
     - '[refresh]'
@@ -385,30 +385,30 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmViOTExZWE5NGI1YTFjZjc3ZjNjYTYzN2EzYjE2NjJiMzUxMjFiZDcyZTExODY1MTE4NGYyZmIxMDYwZDEifX19
     priority: 3
     slot: 29
-    display_name: '&2[*] &aMvp Reward'
+    display_name: '&b[*] &bMvp Reward'
     lore:
     - '&8Weekly reward'
-    - '&7'
+    - '&f'
     - '&f&lContain:'
-    - '&7Money: &b$10,000'
-    - '&7Basic Keys: &b1'
-    - '&7Mega Keys: &b1'
-    - '&7Legendary Keys: &b1'
-    - '&7'
+    - '&fMoney: &b$10,000'
+    - '&fBasic Keys: &b1'
+    - '&fMega Keys: &b1'
+    - '&fLegendary Keys: &b1'
+    - '&f'
     - '&cYou dont have enought rank'
     left_click_commands:
-    - '[message] &b&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&f.'
+    - '[message] &b&lREWARDS &8&l» &fTo open this buy rank in &bshop.server.org&f.'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
     right_click_commands:
-    - '[message] &b&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&f.'
+    - '[message] &b&lREWARDS &8&l» &fTo open this buy rank in &bshop.server.org&f.'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
   'Mvp+':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTlmMDc0MzU3NmJiYTRhMjYyMjQ4MDU0ODk3MGI3MjE1NDNkMmM0NTc5NTVlOGRkNWM0ZjlkZGI2YTU2Yjk1YyJ9fX0=
     priority: 1
     slot: 31
-    display_name: '&2[*] &aMvp+ Reward'
+    display_name: '&b[*] &bMvp+ Reward'
     view_requirement:
       requirements:
         Delay:
@@ -420,18 +420,18 @@ items:
           permission: 'mvp+.reward'
     lore:
     - '&8Weekly reward'
-    - '&7'
+    - '&f'
     - '&f&lContain:'
-    - '&7Money: &b$15,000'
-    - '&7Basic Keys: &b2'
-    - '&7Mega Keys: &b1'
-    - '&7Legendary Keys: &b1'
-    - '&7'
-    - '&8» &eClick to open'
+    - '&fMoney: &b$15,000'
+    - '&fBasic Keys: &b2'
+    - '&fMega Keys: &b1'
+    - '&fLegendary Keys: &b1'
+    - '&f'
+    - '&8» &bClick to open'
     left_click_commands:
     - '[console] papi parse %player_name% %javascript_rewards-delay_Mvp+_start%'
     - '[console] papi parse %player_name% %javascript_rewards-delay_OpenDelay_start%'
-    - '[message] &b&lREWARDS &8&l» &7You claimed the Mvp+ reward.'  
+    - '[message] &b&lREWARDS &8&l» &fYou claimed the Mvp+ reward.'  
     - '[console] eco give %player_name% 15000'
     - '[console] cc give v Basic 2 %player_name%'
     - '[console] cc give v Mega 1 %player_name%'
@@ -441,7 +441,7 @@ items:
     right_click_commands:
     - '[console] papi parse %player_name% %javascript_rewards-delay_Mvp+_start%'
     - '[console] papi parse %player_name% %javascript_rewards-delay_OpenDelay_start%'
-    - '[message] &b&lREWARDS &8&l» &7You claimed the Mvp+ reward.'   
+    - '[message] &b&lREWARDS &8&l» &fYou claimed the Mvp+ reward.'   
     - '[console] eco give %player_name% 15000'
     - '[console] cc give v Basic 2 %player_name%'
     - '[console] cc give v Mega 1 %player_name%'
@@ -453,7 +453,7 @@ items:
     priority: 2
     slot: 31
     update: true
-    display_name: '&2[*] &aMvp+ Reward'
+    display_name: '&b[*] &bMvp+ Reward'
     view_requirement:
       requirements:
         Pex:
@@ -461,13 +461,13 @@ items:
           permission: 'mvp+.reward'
     lore:
     - '&8Weekly reward'
-    - '&7'
+    - '&f'
     - '&f&lContain:'
-    - '&7Money: &b$15,000'
-    - '&7Basic Keys: &b2'
-    - '&7Mega Keys: &b1'
-    - '&7Legendary Keys: &b1'
-    - '&7'
+    - '&fMoney: &b$15,000'
+    - '&fBasic Keys: &b2'
+    - '&fMega Keys: &b1'
+    - '&fLegendary Keys: &b1'
+    - '&f'
     - '&8» &cReward available in: %javascript_rewards-delay_Mvp+_604800%'
     left_click_commands:
     - '[refresh]'
@@ -477,30 +477,30 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmViOTExZWE5NGI1YTFjZjc3ZjNjYTYzN2EzYjE2NjJiMzUxMjFiZDcyZTExODY1MTE4NGYyZmIxMDYwZDEifX19
     priority: 3
     slot: 31
-    display_name: '&2[*] &aMvp+ Reward'
+    display_name: '&b[*] &bMvp+ Reward'
     lore:
     - '&8Weekly reward'
-    - '&7'
+    - '&f'
     - '&f&lContain:'
-    - '&7Money: &b$15,000'
-    - '&7Basic Keys: &b2'
-    - '&7Mega Keys: &b1'
-    - '&7Legendary Keys: &b1'
-    - '&7'
+    - '&fMoney: &b$15,000'
+    - '&fBasic Keys: &b2'
+    - '&fMega Keys: &b1'
+    - '&fLegendary Keys: &b1'
+    - '&f'
     - '&cYou dont have enought rank'
     left_click_commands:
-    - '[message] &b&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&f.'
+    - '[message] &b&lREWARDS &8&l» &fTo open this buy rank in &bshop.server.org&f.'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
     right_click_commands:
-    - '[message] &b&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&f.'
+    - '[message] &b&lREWARDS &8&l» &fTo open this buy rank in &bshop.server.org&f.'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
   'Special':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTBjNzVhMDViMzQ0ZWEwNDM4NjM5NzRjMTgwYmE4MTdhZWE2ODY3OGNiZWE1ZTRiYTM5NWY3NGQ0ODAzZDFkIn19fQ==
     priority: 1
     slot: 33
-    display_name: '&2[*] &aSpecial Reward'
+    display_name: '&b[*] &bSpecial Reward'
     view_requirement:
       requirements:
         Delay:
@@ -512,22 +512,22 @@ items:
           permission: 'Special.reward'
     lore:
     - '&8Monthly reward'
-    - '&7'
+    - '&f'
     - '&f&lContain:'
-    - '&7Legendary Keys: &b2'
-    - '&7'
-    - '&8» &eClick to open'
+    - '&fLegendary Keys: &b2'
+    - '&f'
+    - '&8» &bClick to open'
     left_click_commands:
     - '[console] papi parse %player_name% %javascript_rewards-delay_Special_start%'
     - '[console] papi parse %player_name% %javascript_rewards-delay_OpenDelay_start%'
-    - '[message] &b&lREWARDS &8&l» &7You claimed the Special reward.'  
+    - '[message] &b&lREWARDS &8&l» &fYou claimed the Special reward.'  
     - '[console] cc give v Legendary 2 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_commands:
     - '[console] papi parse %player_name% %javascript_rewards-delay_Special_start%'
     - '[console] papi parse %player_name% %javascript_rewards-delay_OpenDelay_start%'
-    - '[message] &b&lREWARDS &8&l» &7You claimed the Special reward.'   
+    - '[message] &b&lREWARDS &8&l» &fYou claimed the Special reward.'   
     - '[console] cc give v Legendary 2 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -536,7 +536,7 @@ items:
     priority: 2
     slot: 33
     update: true
-    display_name: '&2[*] &aSpecial Reward'
+    display_name: '&b[*] &bSpecial Reward'
     view_requirement:
       requirements:
         Pex:
@@ -544,10 +544,10 @@ items:
           permission: 'Special.reward'
     lore:
     - '&8Monthly reward'
-    - '&7'
+    - '&f'
     - '&f&lContain:'
-    - '&7Legendary Keys: &b2'
-    - '&7'
+    - '&fLegendary Keys: &b2'
+    - '&f'
     - '&8» &cReward available in: %javascript_rewards-delay_Special_2064000%'
     left_click_commands:
     - '[refresh]'
@@ -557,19 +557,19 @@ items:
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmViOTExZWE5NGI1YTFjZjc3ZjNjYTYzN2EzYjE2NjJiMzUxMjFiZDcyZTExODY1MTE4NGYyZmIxMDYwZDEifX19
     priority: 3
     slot: 33
-    display_name: '&2[*] &aSpecial Reward'
+    display_name: '&b[*] &bSpecial Reward'
     lore:
     - '&8Weekly reward'
-    - '&7'
+    - '&f'
     - '&f&lContain:'
-    - '&7Legendary Keys: &b2'
-    - '&7'
+    - '&fLegendary Keys: &b2'
+    - '&f'
     - '&cYou dont have enought rank'
     left_click_commands:
-    - '[message] &b&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&f.'
+    - '[message] &b&lREWARDS &8&l» &fTo open this buy rank in &bshop.server.org&f.'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
     right_click_commands:
-    - '[message] &b&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&f.'
+    - '[message] &b&lREWARDS &8&l» &fTo open this buy rank in &bshop.server.org&f.'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'

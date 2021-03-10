@@ -4,14 +4,14 @@ open_command:
 size: 27
 items:
   'Decoration-1':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 15
     slots:
     - 18
     - 26
   'Decoration-2':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 7
     slots:
@@ -24,7 +24,7 @@ items:
   'Close':
     material: barrier
     slot: 22
-    display_name: '&2[*] &aClose'
+    display_name: '&b[*] &bClose'
     lore: ''
     left_click_commands:
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -35,15 +35,15 @@ items:
   'VillagerSpawner':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
     slot: 0
-    display_name: '&2[*] &aVillager Spawner'
+    display_name: '&b[*] &bVillager Spawner'
     lore:
     - ''
-    - '&7Buy x1 villager'
-    - '&7spawner.'
+    - '&fBuy x1 villager'
+    - '&fspawner.'
     - ''
-    - '&8* &7Price: &b400,000 ⛁'
+    - '&8* &fPrice: &b400,000 ⛁'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -55,7 +55,7 @@ items:
           type: has money
           amount: 399999
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e400,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b400,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -69,21 +69,21 @@ items:
           type: has money
           amount: 399999 
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e400,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b400,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'ZombieSpawner':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
     slot: 1
-    display_name: '&2[*] &aZombie Spawner'
+    display_name: '&b[*] &bZombie Spawner'
     lore:
     - ''
-    - '&7Buy x1 zombie'
-    - '&7spawner.'
+    - '&fBuy x1 zombie'
+    - '&fspawner.'
     - ''
-    - '&8* &7Price: &b300,000 ⛁'
+    - '&8* &fPrice: &b300,000 ⛁'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -95,7 +95,7 @@ items:
           type: has money
           amount: 299999
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b300,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -109,21 +109,21 @@ items:
           type: has money
           amount: 299999 
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b300,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'CreeperSpawner':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
     slot: 2
-    display_name: '&2[*] &aCreeper Spawner'
+    display_name: '&b[*] &bCreeper Spawner'
     lore:
     - ''
-    - '&7Buy x1 creeper'
-    - '&7spawner.'
+    - '&fBuy x1 creeper'
+    - '&fspawner.'
     - ''
-    - '&8* &7Price: &b300,000 ⛁'
+    - '&8* &fPrice: &b300,000 ⛁'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -135,7 +135,7 @@ items:
           type: has money
           amount: 299999
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b300,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -149,21 +149,21 @@ items:
           type: has money
           amount: 299999 
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b300,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'SkeletonSpawner':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
     slot: 3
-    display_name: '&2[*] &aSkeleton Spawner'
+    display_name: '&b[*] &bSkeleton Spawner'
     lore:
     - ''
-    - '&7Buy x1 skeleton'
-    - '&7spawner.'
+    - '&fBuy x1 skeleton'
+    - '&fspawner.'
     - ''
-    - '&8* &7Price: &b300,000 ⛁'
+    - '&8* &fPrice: &b300,000 ⛁'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -175,7 +175,7 @@ items:
           type: has money
           amount: 299999
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b300,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -189,21 +189,21 @@ items:
           type: has money
           amount: 299999 
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b300,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'SpiderSpawner':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
     slot: 4
-    display_name: '&2[*] &aSpider Spawner'
+    display_name: '&b[*] &bSpider Spawner'
     lore:
     - ''
-    - '&7Buy x1 spider'
-    - '&7spawner.'
+    - '&fBuy x1 spider'
+    - '&fspawner.'
     - ''
-    - '&8* &7Price: &b300,000 ⛁'
+    - '&8* &fPrice: &b300,000 ⛁'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -215,7 +215,7 @@ items:
           type: has money
           amount: 299999
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b300,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -229,21 +229,21 @@ items:
           type: has money
           amount: 299999 
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b300,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'SlimeSpawner':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
     slot: 5
-    display_name: '&2[*] &aSlime Spawner'
+    display_name: '&b[*] &bSlime Spawner'
     lore:
     - ''
-    - '&7Buy x1 slime'
-    - '&7spawner.'
+    - '&fBuy x1 slime'
+    - '&fspawner.'
     - ''
-    - '&8* &7Price: &b300,000 ⛁'
+    - '&8* &fPrice: &b300,000 ⛁'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -255,7 +255,7 @@ items:
           type: has money
           amount: 299999
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b300,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -269,21 +269,21 @@ items:
           type: has money
           amount: 299999 
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b300,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'GhastSpawner':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
     slot: 6
-    display_name: '&2[*] &aGhast Spawner'
+    display_name: '&b[*] &bGhast Spawner'
     lore:
     - ''
-    - '&7Buy x1 ghast'
-    - '&7spawner.'
+    - '&fBuy x1 ghast'
+    - '&fspawner.'
     - ''
-    - '&8* &7Price: &b300,000 ⛁'
+    - '&8* &fPrice: &b300,000 ⛁'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -295,7 +295,7 @@ items:
           type: has money
           amount: 299999
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b300,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -309,21 +309,21 @@ items:
           type: has money
           amount: 299999 
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b300,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'ZombiePigmanSpawner':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
     slot: 7
-    display_name: '&2[*] &aPigman Spawner'
+    display_name: '&b[*] &bPigman Spawner'
     lore:
     - ''
-    - '&7Buy x1 pigman'
-    - '&7spawner.'
+    - '&fBuy x1 pigman'
+    - '&fspawner.'
     - ''
-    - '&8* &7Price: &b300,000 ⛁'
+    - '&8* &fPrice: &b300,000 ⛁'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -335,7 +335,7 @@ items:
           type: has money
           amount: 299999
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b300,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -349,21 +349,21 @@ items:
           type: has money
           amount: 299999 
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b300,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'EndermanSpawner':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
     slot: 8
-    display_name: '&2[*] &aEnderman Spawner'
+    display_name: '&b[*] &bEnderman Spawner'
     lore:
     - ''
-    - '&7Buy x1 enderman'
-    - '&7spawner.'
+    - '&fBuy x1 enderman'
+    - '&fspawner.'
     - ''
-    - '&8* &7Price: &b300,000 ⛁'
+    - '&8* &fPrice: &b300,000 ⛁'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -375,7 +375,7 @@ items:
           type: has money
           amount: 299999
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b300,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -389,21 +389,21 @@ items:
           type: has money
           amount: 299999 
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b300,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'BlazeSpawner':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
     slot: 9
-    display_name: '&2[*] &aBlaze Spawner'
+    display_name: '&b[*] &bBlaze Spawner'
     lore:
     - ''
-    - '&7Buy x1 blaze'
-    - '&7spawner.'
+    - '&fBuy x1 blaze'
+    - '&fspawner.'
     - ''
-    - '&8* &7Price: &b300,000 ⛁'
+    - '&8* &fPrice: &b300,000 ⛁'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -415,7 +415,7 @@ items:
           type: has money
           amount: 299999
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b300,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -429,21 +429,21 @@ items:
           type: has money
           amount: 299999 
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b300,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'MagmaCubeSpawner':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
     slot: 10
-    display_name: '&2[*] &aMagma Cube Spawner'
+    display_name: '&b[*] &bMagma Cube Spawner'
     lore:
     - ''
-    - '&7Buy x1 magma cube'
-    - '&7spawner.'
+    - '&fBuy x1 magma cube'
+    - '&fspawner.'
     - ''
-    - '&8* &7Price: &b300,000 ⛁'
+    - '&8* &fPrice: &b300,000 ⛁'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -455,7 +455,7 @@ items:
           type: has money
           amount: 299999
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b300,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -469,21 +469,21 @@ items:
           type: has money
           amount: 299999 
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b300,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'WitchSpawner':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
     slot: 11
-    display_name: '&2[*] &aWitch Spawner'
+    display_name: '&b[*] &bWitch Spawner'
     lore:
     - ''
-    - '&7Buy x1 witch'
-    - '&7spawner.'
+    - '&fBuy x1 witch'
+    - '&fspawner.'
     - ''
-    - '&8* &7Price: &b300,000 ⛁'
+    - '&8* &fPrice: &b300,000 ⛁'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -495,7 +495,7 @@ items:
           type: has money
           amount: 299999
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b300,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -509,21 +509,21 @@ items:
           type: has money
           amount: 299999 
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b300,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'PigSpawner':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
     slot: 12
-    display_name: '&2[*] &aPig Spawner'
+    display_name: '&b[*] &bPig Spawner'
     lore:
     - ''
-    - '&7Buy x1 pig'
-    - '&7spawner.'
+    - '&fBuy x1 pig'
+    - '&fspawner.'
     - ''
-    - '&8* &7Price: &b150,000 ⛁'
+    - '&8* &fPrice: &b150,000 ⛁'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -535,7 +535,7 @@ items:
           type: has money
           amount: 149999
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e150,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b150,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -549,21 +549,21 @@ items:
           type: has money
           amount: 149999 
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e150,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b150,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'SheepSpawner':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
     slot: 13
-    display_name: '&2[*] &aSheep Spawner'
+    display_name: '&b[*] &bSheep Spawner'
     lore:
     - ''
-    - '&7Buy x1 sheep'
-    - '&7spawner.'
+    - '&fBuy x1 sheep'
+    - '&fspawner.'
     - ''
-    - '&8* &7Price: &b150,000 ⛁'
+    - '&8* &fPrice: &b150,000 ⛁'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -575,7 +575,7 @@ items:
           type: has money
           amount: 149999
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e150,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b150,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -589,21 +589,21 @@ items:
           type: has money
           amount: 149999 
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e150,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b150,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'CowSpawner':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
     slot: 14
-    display_name: '&2[*] &aCow Spawner'
+    display_name: '&b[*] &bCow Spawner'
     lore:
     - ''
-    - '&7Buy x1 cow'
-    - '&7spawner.'
+    - '&fBuy x1 cow'
+    - '&fspawner.'
     - ''
-    - '&8* &7Price: &b150,000 ⛁'
+    - '&8* &fPrice: &b150,000 ⛁'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -615,7 +615,7 @@ items:
           type: has money
           amount: 149999
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e150,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b150,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -629,21 +629,21 @@ items:
           type: has money
           amount: 149999 
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e150,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b150,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'ChickenSpawner':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3ZTJlNWQ1NWI2ZDA0OTQzNTE5YmVkMjU1N2M2MzI5ZTMzYjYwYjkwOWRlZTg5MjNjZDg4YjExNTIxMCJ9fX0=
     slot: 15
-    display_name: '&2[*] &aChicken Spawner'
+    display_name: '&b[*] &bChicken Spawner'
     lore:
     - ''
-    - '&7Buy x1 chicken'
-    - '&7spawner.'
+    - '&fBuy x1 chicken'
+    - '&fspawner.'
     - ''
-    - '&8* &7Price: &b150,000 ⛁'
+    - '&8* &fPrice: &b150,000 ⛁'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -655,7 +655,7 @@ items:
           type: has money
           amount: 149999
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e150,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b150,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -669,6 +669,6 @@ items:
           type: has money
           amount: 149999 
       deny_commands:
-      - '[message] &b&lSPAWNERS &8&l» &7You need &e150,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &fYou need &b150,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'      

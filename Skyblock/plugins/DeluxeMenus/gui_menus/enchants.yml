@@ -4,7 +4,7 @@ open_command:
 size: 36
 items:
   'Decoration':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 7
     slots:
@@ -27,7 +27,7 @@ items:
     - 29
     - 33
   'Decoration-1':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 15
     slots:
@@ -48,7 +48,7 @@ items:
   'Back':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
     slot: 31
-    display_name: '&2[*] &aBack'
+    display_name: '&b[*] &bBack'
     lore: ''
     left_click_commands:
     - '[openguimenu] enchantsmain'
@@ -61,17 +61,17 @@ items:
   'Common':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWU1OTI0Nzk4YTQ4N2Y5OWJhMDhlNTRhNWIxMzA2OTJjYzU4NjkwMmE4N2UxZGVlMjEzODEzZWY4YzY2In19fQ==
     slot: 11
-    display_name: '&2[*] &aCommon Enchant'
+    display_name: '&b[*] &bCommon Enchant'
     lore:
     - ''
-    - '&7Buy one common random'
-    - '&7special enchant book.'
+    - '&fBuy one common random'
+    - '&fspecial enchant book.'
     - ''
-    - '&8* &7Price: &b30 &7Exp Levels.'
+    - '&8* &fPrice: &b30 &fExp Levels.'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lENCHANTS &8&l» &7You have bought &eCommon Enchant&f.'
+    - '[message] &b&lENCHANTS &8&l» &fYou have bought &bCommon Enchant&f.'
     - '[console] ce lostbook Common 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -83,11 +83,11 @@ items:
           input: '%player_total_exp%'
           output: 1395
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e30 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b30 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
     right_click_commands:
-    - '[message] &b&lENCHANTS &8&l» &7You have bought &eCommon Enchant&f.'
+    - '[message] &b&lENCHANTS &8&l» &fYou have bought &bCommon Enchant&f.'
     - '[console] ce lostbook Common 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -99,23 +99,23 @@ items:
           input: '%player_total_exp%'
           output: 1395
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e30 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b30 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
   'Rare':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY3OTliZmFhM2EyYzYzYWQ4NWRkMzc4ZTY2ZDU3ZDlhOTdhM2Y4NmQwZDlmNjgzYzQ5ODYzMmY0ZjVjIn19fQ==
     slot: 13
-    display_name: '&2[*] &aRare Enchant'
+    display_name: '&b[*] &bRare Enchant'
     lore:
     - ''
-    - '&7Buy one rare random'
-    - '&7special enchant book.'
+    - '&fBuy one rare random'
+    - '&fspecial enchant book.'
     - ''
-    - '&8* &7Price: &b60 &7Exp Levels.'
+    - '&8* &fPrice: &b60 &fExp Levels.'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lENCHANTS &8&l» &7You have bought &eRare Enchant&f.'
+    - '[message] &b&lENCHANTS &8&l» &fYou have bought &bRare Enchant&f.'
     - '[console] ce lostbook Rare 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -127,11 +127,11 @@ items:
           input: '%player_total_exp%'
           output: 8670
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e60 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b60 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
     right_click_commands:
-    - '[message] &b&lENCHANTS &8&l» &7You have bought &eRare Enchant&f.'
+    - '[message] &b&lENCHANTS &8&l» &fYou have bought &bRare Enchant&f.'
     - '[console] ce lostbook Rare 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -143,23 +143,23 @@ items:
           input: '%player_total_exp%'
           output: 8670
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e60 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b60 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
   'Legendary':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY3NzhmNzJlYWNhNDUyZWUwMTM4OTNlMmJjNTNkOGQ1YjFmY2E0NGNmZTI3MDM4NjViMDU0YzI4YTNkZDcifX19
     slot: 15
-    display_name: '&2[*] &aLegendary Enchant'
+    display_name: '&b[*] &bLegendary Enchant'
     lore:
     - ''
-    - '&7Buy one legendary random'
-    - '&7special enchant book.'
+    - '&fBuy one legendary random'
+    - '&fspecial enchant book.'
     - ''
-    - '&8* &7Price: &b120 &7Exp Levels.'
+    - '&8* &fPrice: &b120 &fExp Levels.'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lENCHANTS &8&l» &7You have bought &eLegendary Enchant&f.'
+    - '[message] &b&lENCHANTS &8&l» &fYou have bought &bLegendary Enchant&f.'
     - '[console] ce lostbook Legendary 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -171,11 +171,11 @@ items:
           input: '%player_total_exp%'
           output: 47520
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e120 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b120 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'
     right_click_commands:
-    - '[message] &b&lENCHANTS &8&l» &7You have bought &eLegendary Enchant&f.'
+    - '[message] &b&lENCHANTS &8&l» &fYou have bought &bLegendary Enchant&f.'
     - '[console] ce lostbook Legendary 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -187,6 +187,6 @@ items:
           input: '%player_total_exp%'
           output: 47520
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e120 Exp Levs &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b120 Exp Levs &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND'  
       - '[close]'

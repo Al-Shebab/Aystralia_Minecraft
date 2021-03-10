@@ -4,7 +4,7 @@ open_command:
 size: 36
 items:
   'Decoration':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 7
     slots:
@@ -27,7 +27,7 @@ items:
     - 29
     - 33
   'Decoration-1':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 15
     slots:
@@ -48,7 +48,7 @@ items:
   'Back':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
     slot: 31
-    display_name: '&2[*] &aBack'
+    display_name: '&b[*] &bBack'
     lore: ''
     left_click_commands:
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -62,7 +62,7 @@ items:
     material: head;%player_name%
     slot: 11
     priority: 1
-    display_name: '&2[*] &b%player_name% Info'
+    display_name: '&b[*] &b%player_name% Info'
     view_requirement:
       requirements:
         Pex:
@@ -70,44 +70,44 @@ items:
           permission: 'rank.yes'
     lore:
     - ''
-    - '&8* &7Rank: %vault_prefix%'
+    - '&8* &fRank: %vault_prefix%'
     - ''
-    - '&8* &7Exp Level: &b%player_level%'
-    - '&8* &7Purse: &b%vault_eco_balance_fixed% ⛁'
+    - '&8* &fExp Level: &b%player_level%'
+    - '&8* &fPurse: &b%vault_eco_balance_fixed% ⛁'
     - ''
   'Profile2':
     material: head;%player_name%
     slot: 11
     priority: 2
-    display_name: '&2[*] &b%player_name% Info'
+    display_name: '&b[*] &b%player_name% Info'
     lore:
     - ''
-    - '&7Rank: %vault_prefix%'
+    - '&fRank: %vault_prefix%'
     - ''
-    - '&7Purse: &6$%vault_eco_balance_formatted%'
-    - '&7Exp Level: &b%player_level%'
+    - '&fPurse: &6$%vault_eco_balance_formatted%'
+    - '&fExp Level: &b%player_level%'
     - ''
-    - '&8» &eClick to buy rank'
+    - '&8» &bClick to buy rank'
     left_click_commands:
-    - '[message] &b&lBUY &8&l» &7Buy rank in &eshop.server.org'
+    - '[message] &b&lBUY &8&l» &fBuy rank in &bshop.server.org'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[close]'
     right_click_commands:
-    - '[message] &b&lBUY &8&l» &7Buy rank in &eshop.server.org'
+    - '[message] &b&lBUY &8&l» &fBuy rank in &bshop.server.org'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[close]'
   'Cosmetics':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ==
     slot: 13
-    display_name: '&2[*] &aCosmetics'
+    display_name: '&b[*] &bCosmetics'
     lore:
     - ''
-    - '&7Use this menu to select'
-    - '&7a name color and tag.'
+    - '&fUse this menu to select'
+    - '&fa name color and tag.'
     - ''
-    - '&8* &7Min Requiered Rank: &b&lVIP'
+    - '&8* &fMin Requiered Rank: &b&lVIP'
     - ''  
-    - '&8» &eClick to open'
+    - '&8» &bClick to open'
     left_click_commands:
     - '[openguimenu] cosmetics'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -119,13 +119,13 @@ items:
   'Settings':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmI3OGZhNWRlZmU3MmRlYmNkOWM3NmFiOWY0ZTExNDI1MDQ3OWJiOWI0NGY0Mjg4N2JiZjZmNzM4NjEyYiJ9fX0=
     slot: 15
-    display_name: '&2[*] &aSettings'
+    display_name: '&b[*] &bSettings'
     lore:
     - ''
-    - '&7In this menu you can'
-    - '&7manage your settings.'
+    - '&fIn this menu you can'
+    - '&fmanage your settings.'
     - '' 
-    - '&8» &eClick to open'
+    - '&8» &bClick to open'
     left_click_commands:
     - '[openguimenu] playersettings'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 

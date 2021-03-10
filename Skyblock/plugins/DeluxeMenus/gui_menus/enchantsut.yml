@@ -4,7 +4,7 @@ open_command:
 size: 36
 items:
   'Decoration':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 7
     slots:
@@ -27,7 +27,7 @@ items:
     - 29
     - 33
   'Decoration-1':
-    display_name: '&7'
+    display_name: '&f'
     material: 160
     data: 15
     slots:
@@ -48,7 +48,7 @@ items:
   'Back':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
     slot: 31
-    display_name: '&2[*] &aBack'
+    display_name: '&b[*] &bBack'
     lore: ''
     left_click_commands:
     - '[openguimenu] enchantsmain'
@@ -61,17 +61,17 @@ items:
   'WhiteScroll':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzBjZjc0ZTI2MzhiYTVhZDMyMjM3YTM3YjFkNzZhYTEyM2QxODU0NmU3ZWI5YTZiOTk2MWU0YmYxYzNhOTE5In19fQ==
     slot: 11
-    display_name: '&2[*] &aWhite Scroll'
+    display_name: '&b[*] &bWhite Scroll'
     lore:
     - ''
-    - '&7Use it on your items to'
-    - '&7protect then from break.'
+    - '&fUse it on your items to'
+    - '&fprotect then from break.'
     - ''
-    - '&8* &7Price: &b10,000 ⛁'
+    - '&8* &fPrice: &b10,000 ⛁'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lENCHANTS &8&l» &7You have bought &eWhite Scroll&f.'
+    - '[message] &b&lENCHANTS &8&l» &fYou have bought &bWhite Scroll&f.'
     - '[console] ce scroll white 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -82,11 +82,11 @@ items:
           type: has money
           amount: 9999
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e10,000 ⛁ &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b10,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lENCHANTS &8&l» &7You have bought &eWhite Scroll&f.'
+    - '[message] &b&lENCHANTS &8&l» &fYou have bought &bWhite Scroll&f.'
     - '[console] ce scroll white 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -97,23 +97,23 @@ items:
           type: has money
           amount: 9999
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e10,000 ⛁ &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b10,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'BlackScroll':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU2NThiZWNkZDlkZTk3ODVjY2M4MTM3YWY0OGE5NzI4Y2MyNGEwZDljZWM5ZTQ2MDU1MmYyNGEwOTRkMzQyZiJ9fX0=
     slot: 13
-    display_name: '&2[*] &aBlack Scroll'
+    display_name: '&b[*] &bBlack Scroll'
     lore:
     - ''
-    - '&7Use it in your items to'
-    - '&7remove a random enchant.'
+    - '&fUse it in your items to'
+    - '&fremove a random enchant.'
     - ''
-    - '&8* &7Price: &b10,000 ⛁'
+    - '&8* &fPrice: &b10,000 ⛁'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lENCHANTS &8&l» &7You have bought &eBlack Scroll&f.'
+    - '[message] &b&lENCHANTS &8&l» &fYou have bought &bBlack Scroll&f.'
     - '[console] ce scroll black 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -124,11 +124,11 @@ items:
           type: has money
           amount: 9999
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e10,000 ⛁ &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b10,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lENCHANTS &8&l» &7You have bought &eBlack Scroll&f.'
+    - '[message] &b&lENCHANTS &8&l» &fYou have bought &bBlack Scroll&f.'
     - '[console] ce scroll black 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -139,23 +139,23 @@ items:
           type: has money
           amount: 9999
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e10,000 ⛁ &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b10,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]' 
   'SucessDust':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2E1YTA3MTVjNjIxMjJkZWQ2NWFmNGVhZTA5NjlmMjNmNTcxYjBhZmE1MGNmOTNmYzllZTJhZjRjN2IzNGUxMiJ9fX0=
     slot: 15
-    display_name: '&2[*] &aSucess Dust'
+    display_name: '&b[*] &bSucess Dust'
     lore:
     - ''
-    - '&7Magic dust that increase the percent'
-    - '&7of adding an enchant to your item.'
+    - '&fMagic dust that increase the percent'
+    - '&fof adding an enchant to your item.'
     - ''
-    - '&8* &7Price: &b5,000 ⛁'
+    - '&8* &fPrice: &b5,000 ⛁'
     - ''
-    - '&8» &eClick to buy'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lENCHANTS &8&l» &7You have bought &eSucess Dust&f.'
+    - '[message] &b&lENCHANTS &8&l» &fYou have bought &bSucess Dust&f.'
     - '[console] ce dust Success 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -166,11 +166,11 @@ items:
           type: has money
           amount: 4999
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e5,000 ⛁ &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b5,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lENCHANTS &8&l» &7You have bought &eSucess Dust&f.'
+    - '[message] &b&lENCHANTS &8&l» &fYou have bought &bSucess Dust&f.'
     - '[console] ce dust Success 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -181,6 +181,6 @@ items:
           type: has money
           amount: 4999
       deny_commands:
-      - '[message] &b&lERROR &8&l» &7You need &e5,000 ⛁ &7to buy this.'
+      - '[message] &b&lERROR &8&l» &fYou need &b5,000 ⛁ &fto buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
