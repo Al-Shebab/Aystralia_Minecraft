@@ -1,0 +1,102 @@
+menu_title: '&8Zombie Leather'
+open_command:
+- 78gdc7igsdco23
+size: 63
+items:
+  'Decoration':
+    material: 160
+    data: 7
+    slots:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 10
+    - 14
+    - 15
+    - 16
+    - 18
+    - 19
+    - 23
+    - 25
+    - 26
+    - 27
+    - 28
+    - 32
+    - 33
+    - 34
+    - 35
+    - 36
+    - 37
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    - 43
+    - 44
+    - 47
+    - 48
+    - 50
+    - 51
+  'Decoration-1':
+    material: 160
+    data: 15
+    slots:
+    - 0
+    - 8
+    - 9
+    - 17
+    - 45
+    - 46
+    - 52
+    - 53
+  'Back':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+    slot: 49
+    display_name: '&2[*] &aBack'
+    lore: ''
+    left_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    - '[openguimenu] recipes'
+    right_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    - '[openguimenu] recipes'
+  'Zombiefragment':
+    material: 367
+    slots:
+    - 11
+    - 12
+    - 20
+    - 29
+    - 30
+    display_name: '&2[*] &aZombie Fragment'
+    enchantments:
+    - 'ARROW_DAMAGE;6'
+    hide_enchantments: true
+    lore:
+    - '&a&lCOMMON'
+  'UltimateDiamond':
+    material: 264
+    slot: 21
+    display_name: '&2[*] &aUltimate Diamond'
+    enchantments:
+    - 'ARROW_DAMAGE;6'
+    hide_enchantments: true
+    lore:
+    - '&a&lCOMMON'
+  'Zombieleather':
+    material: 367
+    slots:
+    - 24
+    display_name: '&2Zombie Leather'
+    enchantments:
+    - 'ARROW_DAMAGE;6'
+    hide_enchantments: true
+    lore:
+    - '&2&lUNCOMMON'

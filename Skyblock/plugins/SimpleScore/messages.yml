@@ -1,0 +1,10 @@
+Help: |
+  &b/SB toggle &fto toggle the scoreboard
+
+Prefix: "&b&lScoreboard &8> &f "
+Permission: "&7You don't have permission to execute this command."
+OnlyPlayers: "&7Only players can execute this command."
+Reloading: "&7Reloading plugin..."
+Reloaded: "&7Plugin reloaded."
+Enabled: "&7You have &eenabled &7the scoreboard."
+Disabled: "&7You have &edisabled &7the scoreboard."

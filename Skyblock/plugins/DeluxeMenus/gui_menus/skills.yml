@@ -1,0 +1,1158 @@
+menu_title: '&8Skills'
+open_command:
+- skills
+- skill
+size: 36
+open_requirement:
+  requirements:
+    JoinTimes:
+      type: '>='
+      input: '%playtime_timesjoined%'
+      output: 2
+      deny_commands:
+      - '[message] &a&lSKILLS &8&l» &7Please exit and enter to use it.'
+items:
+  'Decoration':
+    display_name: '&7'
+    material: 160
+    data: 7
+    slots:
+    - 2
+    - 4
+    - 6
+    - 10
+    - 12
+    - 14
+    - 16
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    - 29
+    - 33
+  'Decoration-1':
+    display_name: '&7' 
+    material: 160
+    data: 15
+    slots:
+    - 0
+    - 1
+    - 3
+    - 5
+    - 7
+    - 8
+    - 9
+    - 17
+    - 27
+    - 28
+    - 30
+    - 32
+    - 34
+    - 35
+  'Back':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+    slot: 31
+    display_name: '&2[*] &aBack'
+    lore: ''
+    left_click_commands:
+    - '[close]'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'  
+    - '[openguimenu] menu'
+    right_click_commands:
+    - '[close]'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[openguimenu] menu'
+  'Strength':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg5MWU1ZmI4OTRjYTFiMjE2Njc5NWQ5YzhjNmY3NzBkYTc1OTY2ZWNmNjNjNTNkNzdkODQ4ZmY0YmEzOSJ9fX0=
+    priority: 5
+    slot: 11
+    display_name: '&2[*] &aStrength'
+    lore:
+    - ''
+    - '&7Increase your damage'
+    - '&7by &e8% &7per upgrade.'
+    - ''
+    - '&7Increase your damage by: &b108%'
+    - ''
+    - '&8* &7Price: &d20 &7Exp Levels.'
+    - ''
+    - '&8» &eClick to buy'
+    left_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eStrength #1&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L20'
+    - '[console] pex user %player_name% add strengthlev.1'
+    - '[console] skillsadmin setlevel %player_name% strength 1'
+    left_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 315
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e20 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+    right_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eStrength #1&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L20'
+    - '[console] pex user %player_name% add strengthlev.1'
+    - '[console] skillsadmin setlevel %player_name% strength 1'
+    right_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 315
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e20 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+  'Strength #2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg5MWU1ZmI4OTRjYTFiMjE2Njc5NWQ5YzhjNmY3NzBkYTc1OTY2ZWNmNjNjNTNkNzdkODQ4ZmY0YmEzOSJ9fX0=
+    priority: 4
+    slot: 11
+    display_name: '&2[*] &aStrength #2'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'strengthlev.1'
+    lore:
+    - ''
+    - '&7Increase your damage'
+    - '&7by &e8% &7per upgrade.'
+    - ''
+    - '&7Increase your damage by: &b116%'
+    - ''
+    - '&8* &7Price: &d30 &7Exp Levels.'
+    - ''
+    - '&8» &eClick to buy'
+    left_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eStrength #2&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L30'
+    - '[console] pex user %player_name% add strengthlev.2'
+    - '[console] skillsadmin setlevel %player_name% strength 2'
+    left_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 550
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e30 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+    right_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eStrength #2&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L30'
+    - '[console] pex user %player_name% add strengthlev.2'
+    - '[console] skillsadmin setlevel %player_name% strength 2'
+    right_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 550
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e30 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+  'Strength #3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg5MWU1ZmI4OTRjYTFiMjE2Njc5NWQ5YzhjNmY3NzBkYTc1OTY2ZWNmNjNjNTNkNzdkODQ4ZmY0YmEzOSJ9fX0=
+    priority: 3
+    slot: 11
+    display_name: '&2[*] &aStrength #3'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'strengthlev.2'
+    lore:
+    - ''
+    - '&7Increase your damage'
+    - '&7by &e8% &7per upgrade.'
+    - ''
+    - '&7Increase your damage by: &b124%'
+    - ''
+    - '&8* &7Price: &d40 &7Exp Levels.'
+    - ''
+    - '&8» &eClick to buy'
+    left_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eStrength #3&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L40'
+    - '[console] pex user %player_name% add strengthlev.3'
+    - '[console] skillsadmin setlevel %player_name% strength 3'
+    left_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 910
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e40 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+    right_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eStrength #3&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L40'
+    - '[console] pex user %player_name% add strengthlev.3'
+    - '[console] skillsadmin setlevel %player_name% strength 3'
+    right_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 910
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e40 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+  'Strength #4':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg5MWU1ZmI4OTRjYTFiMjE2Njc5NWQ5YzhjNmY3NzBkYTc1OTY2ZWNmNjNjNTNkNzdkODQ4ZmY0YmEzOSJ9fX0=
+    priority: 2
+    slot: 11
+    display_name: '&2[*] &aStrength #4'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'strengthlev.3'
+    lore:
+    - ''
+    - '&7Increase your damage'
+    - '&7by &e8% &7per upgrade.'
+    - ''
+    - '&7Increase your damage by: &b132%'
+    - ''
+    - '&8* &7Price: &d50 &7Exp Levels.'
+    - ''
+    - '&8» &eClick to buy'
+    left_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eStrength #4&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L50'
+    - '[console] pex user %player_name% add strengthlev.4'
+    - '[console] skillsadmin setlevel %player_name% strength 4'
+    left_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 1395
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e50 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+    right_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eStrength #4&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L50'
+    - '[console] pex user %player_name% add strengthlev.4'
+    - '[console] skillsadmin setlevel %player_name% strength 4'
+    right_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 1395
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e50 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+  'Strength #4-':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg5MWU1ZmI4OTRjYTFiMjE2Njc5NWQ5YzhjNmY3NzBkYTc1OTY2ZWNmNjNjNTNkNzdkODQ4ZmY0YmEzOSJ9fX0=
+    priority: 1
+    slot: 11
+    display_name: '&2[*] &aStrength #4'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'strengthlev.4'
+    lore:
+    - ''
+    - '&7Increase your damage'
+    - '&7by &e8% &7per upgrade.'
+    - ''
+    - '&8» &cNo more improvements available'
+  'Criticals':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA1NThkY2U5N2NkZWViOGE3NThkY2YzOTQxNTNkNDQ1MzRhZjU0N2YzMGM0ZjU4NThhNTFjOWY0NDNjN2YwYiJ9fX0=
+    priority: 5
+    slot: 12
+    display_name: '&2[*] &aCriticals'
+    lore:
+    - ''
+    - '&7Increase critical damage'
+    - '&7by &e5% &7per upgrade.'
+    - ''
+    - '&7Increase your damage by: &b105%'
+    - ''
+    - '&8* &7Price: &d20 &7Exp Levels.'
+    - ''
+    - '&8» &eClick to buy'
+    left_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eCriticals #1&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L20'
+    - '[console] pex user %player_name% add criticalslev.1'
+    - '[console] skillsadmin setlevel %player_name% criticals 1'
+    left_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 315
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e20 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+    right_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eCriticals #1&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L20'
+    - '[console] pex user %player_name% add criticalslev.1'
+    - '[console] skillsadmin setlevel %player_name% criticals 1'
+    right_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 315
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e20 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+  'Criticals #2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA1NThkY2U5N2NkZWViOGE3NThkY2YzOTQxNTNkNDQ1MzRhZjU0N2YzMGM0ZjU4NThhNTFjOWY0NDNjN2YwYiJ9fX0=
+    priority: 4
+    slot: 12
+    display_name: '&2[*] &aCriticals #2'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'criticalslev.1'
+    lore:
+    - ''
+    - '&7Increase critical damage'
+    - '&7by &e5% &7per upgrade.'
+    - ''
+    - '&7Increase your damage by: &b110%'
+    - ''
+    - '&8* &7Price: &d30 &7Exp Levels.'
+    - ''
+    - '&8» &eClick to buy'
+    left_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eCriticals #2&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L30'
+    - '[console] pex user %player_name% add criticalslev.2'
+    - '[console] skillsadmin setlevel %player_name% criticals 2'
+    left_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 550
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e30 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+    right_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eCriticals #2&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L30'
+    - '[console] pex user %player_name% add criticalslev.2'
+    - '[console] skillsadmin setlevel %player_name% criticals 2'
+    right_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 550
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e30 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+  'Criticals #3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA1NThkY2U5N2NkZWViOGE3NThkY2YzOTQxNTNkNDQ1MzRhZjU0N2YzMGM0ZjU4NThhNTFjOWY0NDNjN2YwYiJ9fX0=
+    priority: 3
+    slot: 12
+    display_name: '&2[*] &aCriticals #3'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'criticalslev.2'
+    lore:
+    - ''
+    - '&7Increase critical damage'
+    - '&7by &e5% &7per upgrade.'
+    - ''
+    - '&7Increase your damage by: &b115%'
+    - ''
+    - '&8* &7Price: &d40 &7Exp Levels.'
+    - ''
+    - '&8» &eClick to buy'
+    left_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eCriticals #3&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L40'
+    - '[console] pex user %player_name% add criticalslev.3'
+    - '[console] skillsadmin setlevel %player_name% criticals 3'
+    left_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 910
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e40 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+    right_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eCriticals #3&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L40'
+    - '[console] pex user %player_name% add criticalslev.3'
+    - '[console] skillsadmin setlevel %player_name% criticals 3'
+    right_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 910
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e40 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+  'Criticals #4':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA1NThkY2U5N2NkZWViOGE3NThkY2YzOTQxNTNkNDQ1MzRhZjU0N2YzMGM0ZjU4NThhNTFjOWY0NDNjN2YwYiJ9fX0=
+    priority: 2
+    slot: 12
+    display_name: '&2[*] &aCriticals #4'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'criticalslev.3'
+    lore:
+    - ''
+    - '&7Increase critical damage'
+    - '&7by &e5% &7per upgrade.'
+    - ''
+    - '&7Increase your damage by: &b120%'
+    - ''
+    - '&8* &7Price: &d50 &7Exp Levels.'
+    - ''
+    - '&8» &eClick to buy'
+    left_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eCriticals #4&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L50'
+    - '[console] pex user %player_name% add criticalslev.4'
+    - '[console] skillsadmin setlevel %player_name% criticals 4'
+    left_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 1395
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e50 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+    right_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eCriticals #4&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L50'
+    - '[console] pex user %player_name% add criticalslev.4'
+    - '[console] skillsadmin setlevel %player_name% criticals 4'
+    right_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 1395
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e50 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+  'Criticals #4-':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA1NThkY2U5N2NkZWViOGE3NThkY2YzOTQxNTNkNDQ1MzRhZjU0N2YzMGM0ZjU4NThhNTFjOWY0NDNjN2YwYiJ9fX0=
+    priority: 1
+    slot: 12
+    display_name: '&2[*] &aCriticals #4'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'criticalslev.4'
+    lore:
+    - ''
+    - '&7Increase critical damage'
+    - '&7by &e5% &7per upgrade.'
+    - ''
+    - '&7Your criticals is increased by: &b120%'
+    - ''
+    - '&8» &cNo more improvements available'
+  'Resistance':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRlNzFiNjg0MjQ5NDY5ZWFmMWUyMmNkMTkzODE0YzVjZmQyMTUyNTI1Y2IzNjQ2YTMyZDQyMzI0NzIzOCJ9fX0=
+    priority: 5
+    slot: 13
+    display_name: '&2[*] &aResistance'
+    lore:
+    - ''
+    - '&7Reduces damage taken'
+    - '&7by &e8% &7per upgrade.'
+    - ''
+    - '&7Reduces damage taken by: &b108%'
+    - ''
+    - '&8* &7Price: &d20 &7Exp Levels.'
+    - ''
+    - '&8» &eClick to buy'
+    left_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eResistance #1&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L20'
+    - '[console] pex user %player_name% add resistancelev.1'
+    - '[console] skillsadmin setlevel %player_name% resistance 1'
+    left_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 315
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e20 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+    right_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eResistance #1&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L20'
+    - '[console] pex user %player_name% add resistancelev.1'
+    - '[console] skillsadmin setlevel %player_name% resistance 1'
+    right_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 315
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e20 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+  'Resistance #2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRlNzFiNjg0MjQ5NDY5ZWFmMWUyMmNkMTkzODE0YzVjZmQyMTUyNTI1Y2IzNjQ2YTMyZDQyMzI0NzIzOCJ9fX0=
+    priority: 4
+    slot: 13
+    display_name: '&2[*] &aResistance #2'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'resistancelev.1'
+    lore:
+    - ''
+    - '&7Reduces damage taken'
+    - '&7by &e8% &7per upgrade.'
+    - ''
+    - '&7Reduces damage taken by: &b116%'
+    - ''
+    - '&8* &7Price: &d30 &7Exp Levels.'
+    - ''
+    - '&8» &eClick to buy'
+    left_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eResistance #2&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L30'
+    - '[console] pex user %player_name% add resistancelev.2'
+    - '[console] skillsadmin setlevel %player_name% resistance 2'
+    left_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 550
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e30 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+    right_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eResistance #2&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L30'
+    - '[console] pex user %player_name% add resistancelev.2'
+    - '[console] skillsadmin setlevel %player_name% resistance 2'
+    right_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 550
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e30 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+  'Resistance #3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRlNzFiNjg0MjQ5NDY5ZWFmMWUyMmNkMTkzODE0YzVjZmQyMTUyNTI1Y2IzNjQ2YTMyZDQyMzI0NzIzOCJ9fX0=
+    priority: 3
+    slot: 13
+    display_name: '&2[*] &aResistance #3'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'resistancelev.2'
+    lore:
+    - ''
+    - '&7Reduces damage taken'
+    - '&7by &e8% &7per upgrade.'
+    - ''
+    - '&7Reduces damage taken by: &b124%'
+    - ''
+    - '&8* &7Price: &d40 &7Exp Levels.'
+    - ''
+    - '&8» &eClick to buy'
+    left_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eResistance #3&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L40'
+    - '[console] pex user %player_name% add resistancelev.3'
+    - '[console] skillsadmin setlevel %player_name% resistance 3'
+    left_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 910
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e40 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+    right_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eResistance #3&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L40'
+    - '[console] pex user %player_name% add resistancelev.3'
+    - '[console] skillsadmin setlevel %player_name% resistance 3'
+    right_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 910
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e40 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+  'Resistance #3-':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRlNzFiNjg0MjQ5NDY5ZWFmMWUyMmNkMTkzODE0YzVjZmQyMTUyNTI1Y2IzNjQ2YTMyZDQyMzI0NzIzOCJ9fX0=
+    priority: 1
+    slot: 13
+    display_name: '&2[*] &aResistance #3'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'resistancelev.3'
+    lore:
+    - ''
+    - '&7Reduces damage taken'
+    - '&7by &e8% &7per upgrade.'
+    - ''
+    - '&7Your damage received is reduced by: &b124%'
+    - ''
+    - '&8» &cNo more improvements available'
+  'Archery':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI0ZjEzMmNiODZkY2ExZWRlODA5NTVlYTg2ZjlmMjI5MmJlNzg3OTIxNGVmYjBjZTEyNjA2ZTEwMjY4Y2U2In19fQ==
+    priority: 5
+    slot: 14
+    display_name: '&2[*] &aArchery'
+    lore:
+    - ''
+    - '&7Increase arrow damage'
+    - '&7by &e8% &7per upgrade.'
+    - ''
+    - '&7Increase arrow damage by: &b108%'
+    - ''
+    - '&8* &7Price: &d20 &7Exp Levels.'
+    - ''
+    - '&8» &eClick to buy'
+    left_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eArchery #1&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L20'
+    - '[console] pex user %player_name% add archerylev.1'
+    - '[console] skillsadmin setlevel %player_name% archery 1'
+    left_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 315
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e20 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+    right_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eArchery #1&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L20'
+    - '[console] pex user %player_name% add archerylev.1'
+    - '[console] skillsadmin setlevel %player_name% archery 1'
+    right_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 315
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e20 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+  'Archery #2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI0ZjEzMmNiODZkY2ExZWRlODA5NTVlYTg2ZjlmMjI5MmJlNzg3OTIxNGVmYjBjZTEyNjA2ZTEwMjY4Y2U2In19fQ==
+    priority: 4
+    slot: 14
+    display_name: '&2[*] &aArchery #2'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'archerylev.1'
+    lore:
+    - ''
+    - '&7Increase arrow damage'
+    - '&7by &e8% &7per upgrade.'
+    - ''
+    - '&7Increase arrow damage by: &b116%'
+    - ''
+    - '&8* &7Price: &d30 &7Exp Levels.'
+    - ''
+    - '&8» &eClick to buy'
+    left_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eArchery #2&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L30'
+    - '[console] pex user %player_name% add archerylev.2'
+    - '[console] skillsadmin setlevel %player_name% archery 2'
+    left_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 550
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e30 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+    right_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eArchery #2&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L30'
+    - '[console] pex user %player_name% add archerylev.2'
+    - '[console] skillsadmin setlevel %player_name% archery 2'
+    right_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 550
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e30 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+  'Archery #3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI0ZjEzMmNiODZkY2ExZWRlODA5NTVlYTg2ZjlmMjI5MmJlNzg3OTIxNGVmYjBjZTEyNjA2ZTEwMjY4Y2U2In19fQ==
+    priority: 3
+    slot: 14
+    display_name: '&2[*] &aArchery #3'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'archerylev.2'
+    lore:
+    - ''
+    - '&7Increase arrow damage'
+    - '&7by &e8% &7per upgrade.'
+    - ''
+    - '&7Increase arrow damage by: &b124%'
+    - ''
+    - '&8* &7Price: &d40 &7Exp Levels.'
+    - ''
+    - '&8» &eClick to buy'
+    left_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eArchery #3&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L40'
+    - '[console] pex user %player_name% add archerylev.3'
+    - '[console] skillsadmin setlevel %player_name% archery 3'
+    left_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 910
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e40 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+    right_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eArchery #3&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L40'
+    - '[console] pex user %player_name% add archerylev.3'
+    - '[console] skillsadmin setlevel %player_name% archery 3'
+    right_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 910
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e40 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+  'Archery #4':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI0ZjEzMmNiODZkY2ExZWRlODA5NTVlYTg2ZjlmMjI5MmJlNzg3OTIxNGVmYjBjZTEyNjA2ZTEwMjY4Y2U2In19fQ==
+    priority: 2
+    slot: 14
+    display_name: '&2[*] &aArchery #4'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'archerylev.3'
+    lore:
+    - ''
+    - '&7Increase arrow damage'
+    - '&7by &e8% &7per upgrade.'
+    - ''
+    - '&7Increase arrow damage by: &b132%'
+    - ''
+    - '&8* &7Price: &d50 &7Exp Levels.'
+    - ''
+    - '&8» &eClick to buy'
+    left_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eArchery #4&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L50'
+    - '[console] pex user %player_name% add archerylev.4'
+    - '[console] skillsadmin setlevel %player_name% archery 4'
+    left_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 1395
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e50 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+    right_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eArchery #4&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L50'
+    - '[console] pex user %player_name% add archerylev.4'
+    - '[console] skillsadmin setlevel %player_name% archery 4'
+    right_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 1395
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e50 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+  'Archery #4-':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI0ZjEzMmNiODZkY2ExZWRlODA5NTVlYTg2ZjlmMjI5MmJlNzg3OTIxNGVmYjBjZTEyNjA2ZTEwMjY4Y2U2In19fQ==
+    priority: 1
+    slot: 14
+    display_name: '&2[*] &aArchery #4'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'archerylev.4'
+    lore:
+    - ''
+    - '&7Increase arrow damage'
+    - '&7by &e8% &7per upgrade.'
+    - ''
+    - '&7Your arrow damage is increased by: &b132%'
+    - ''
+    - '&8» &cNo more improvements available'
+  'Health':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ1ZjRkMTM5YzllODkyNjJlYzA2YjI3YWFhZDczZmE0ODhhYjQ5MjkwZDJjY2Q2ODVhMjU1NDcyNTM3M2M5YiJ9fX0=
+    priority: 5
+    slot: 15
+    display_name: '&2[*] &aHealth'
+    lore:
+    - ''
+    - '&7Increase your health'
+    - '&7by &e8% &7per upgrade.'
+    - ''
+    - '&7Increase your health by: &b102%'
+    - ''
+    - '&8* &7Price: &d20 &7Exp Levels.'
+    - ''
+    - '&8» &eClick to buy'
+    left_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eHealth #1&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L20'
+    - '[console] pex user %player_name% add healthlev.1'
+    - '[console] skillsadmin setlevel %player_name% health 1'
+    left_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 315
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e20 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+    right_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eHealth #1&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L20'
+    - '[console] pex user %player_name% add healthlev.1'
+    - '[console] skillsadmin setlevel %player_name% health 1'
+    right_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 315
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e20 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+  'Health #2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ1ZjRkMTM5YzllODkyNjJlYzA2YjI3YWFhZDczZmE0ODhhYjQ5MjkwZDJjY2Q2ODVhMjU1NDcyNTM3M2M5YiJ9fX0=
+    priority: 4
+    slot: 15
+    display_name: '&2[*] &aHealth #2'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'healthlev.1'
+    lore:
+    - ''
+    - '&7Increase your health'
+    - '&7by &e8% &7per upgrade.'
+    - ''
+    - '&7Increase your health by: &b104%'
+    - ''
+    - '&8* &7Price: &d30 &7Exp Levels.'
+    - ''
+    - '&8» &eClick to buy'
+    left_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eHealth #2&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L30'
+    - '[console] pex user %player_name% add healthlev.2'
+    - '[console] skillsadmin setlevel %player_name% health 2'
+    left_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 550
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e30 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+    right_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eHealth #2&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L30'
+    - '[console] pex user %player_name% add healthlev.2'
+    - '[console] skillsadmin setlevel %player_name% health 2'
+    right_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 550
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e30 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+  'Health #3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ1ZjRkMTM5YzllODkyNjJlYzA2YjI3YWFhZDczZmE0ODhhYjQ5MjkwZDJjY2Q2ODVhMjU1NDcyNTM3M2M5YiJ9fX0=
+    priority: 3
+    slot: 15
+    display_name: '&2[*] &aHealth #3'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'healthlev.2'
+    lore:
+    - ''
+    - '&7Increase your health'
+    - '&7by &e8% &7per upgrade.'
+    - ''
+    - '&7Increase your health by: &b106%'
+    - ''
+    - '&8* &7Price: &d40 &7Exp Levels.'
+    - ''
+    - '&8» &eClick to buy'
+    left_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eHealth #3&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L40'
+    - '[console] pex user %player_name% add healthlev.3'
+    - '[console] skillsadmin setlevel %player_name% health 3'
+    left_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 910
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e40 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+    right_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eHealth #3&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L40'
+    - '[console] pex user %player_name% add healthlev.3'
+    - '[console] skillsadmin setlevel %player_name% health 3'
+    right_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 910
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e40 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+  'Health #4':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ1ZjRkMTM5YzllODkyNjJlYzA2YjI3YWFhZDczZmE0ODhhYjQ5MjkwZDJjY2Q2ODVhMjU1NDcyNTM3M2M5YiJ9fX0=
+    priority: 2
+    slot: 15
+    display_name: '&2[*] &aHealth #4'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'healthlev.3'
+    lore:
+    - ''
+    - '&7Increase your health'
+    - '&7by &e8% &7per upgrade.'
+    - ''
+    - '&7Increase your health by: &b108%'
+    - ''
+    - '&8* &7Price: &d50 &7Exp Levels.'
+    - ''
+    - '&8» &eClick to buy'
+    left_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eHealth #4&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L50'
+    - '[console] pex user %player_name% add healthlev.4'
+    - '[console] skillsadmin setlevel %player_name% health 4'
+    left_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 1395
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e50 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+    right_click_commands:
+    - '[message] &a&lSKILLS &8&l» &7You have bought &eHealth #4&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] xp give %player_name% -L50'
+    - '[console] pex user %player_name% add healthlev.4'
+    - '[console] skillsadmin setlevel %player_name% health 4'
+    right_click_requirement:
+      requirements:
+        EXP:
+          type: '>='
+          input: '%player_total_exp%'
+          output: 1395
+      deny_commands:
+      - '[message] &a&lERROR &8&l» &7You need &e50 Exp Levs &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND'  
+      - '[close]'
+  'Health #4-':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ1ZjRkMTM5YzllODkyNjJlYzA2YjI3YWFhZDczZmE0ODhhYjQ5MjkwZDJjY2Q2ODVhMjU1NDcyNTM3M2M5YiJ9fX0=
+    priority: 1
+    slot: 15
+    display_name: '&2[*] &aHealth #4'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'healthlev.4'
+    lore:
+    - ''
+    - '&7Increase your health'
+    - '&7by &e8% &7per upgrade.'
+    - ''
+    - '&7Your health is increased by: &b108%'
+    - ''
+    - '&8» &cNo more improvements available'  

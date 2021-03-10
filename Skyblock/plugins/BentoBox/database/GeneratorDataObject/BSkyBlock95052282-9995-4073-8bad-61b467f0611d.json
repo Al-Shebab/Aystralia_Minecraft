@@ -1,7 +1,11 @@
 {
   "uniqueId": "BSkyBlock95052282-9995-4073-8bad-61b467f0611d",
-  "unlockedTiers": [],
-  "purchasedTiers": [],
+  "unlockedTiers": [
+    "bskyblock_coal_generator"
+  ],
+  "purchasedTiers": [
+    "bskyblock_coal_generator"
+  ],
   "activeGeneratorList": [],
   "ownerActiveGeneratorCount": 0,
   "ownerWorkingRange": 0,

@@ -1,0 +1,64 @@
+# Time in ticks for a score to stay on the scoreboard (20 ticks = 3 second)
+UpdateTime: 20
+
+# Save which players have the scoreboard disabled
+SaveScoreboards: true
+
+# Per world scoreboards
+Worlds:
+  Spawn:
+    Titles:
+      - text: "&b&lSKYBLOCK"
+        time: 3
+      - text: "&b&lS&2&lK&f&lYBLOCK"
+        time: 3
+      - text: "&b&lSK&2&lY&f&lBLOCK"
+        time: 3
+      - text: "&b&lSKY&2&lB&f&lLOCK"
+        time: 3
+      - text: "&b&lSKYB&2&lL&f&lOCK"
+        time: 3
+      - text: "&b&lSKYBL&2&lO&f&lCK"
+        time: 3
+      - text: "&b&lSKYBLO&2&lC&f&lK"
+        time: 3
+      - text: "&b&lSKYBLOC&2&lK"
+        time: 3
+      - text: "&b&lSKYBLOCK"
+        time: 3
+      - text: "&2&lSKYBLOCK"
+        time: 3
+      - text: "&f&lSKYBLOCK"
+        time: 3
+    Scores:
+      11:
+        - ""
+      10:
+        - "&fRank: %luckperms_prefix%"
+      9:
+        - ""
+      8:
+        - "&fIsland Level: &d%Level_bskyblock_island_level%"
+      7:
+        - ""
+      6:
+        - ""
+      5:
+        - "&fBalance: &b$%vault_eco_balance_formatted%"
+      4:
+        - ""
+      3:
+        - ""
+      2:
+        - ""      
+      1:
+        - "&"
+
+# Shared scoreboards
+Shared:
+  Spawn:
+    - "skyblock"
+    - "skyblock_nether"
+    - "skyblock_the_end"
+    - "Mine"
+    - "Dungeon"

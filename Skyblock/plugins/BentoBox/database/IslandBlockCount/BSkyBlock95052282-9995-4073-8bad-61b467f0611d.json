@@ -4,7 +4,9 @@
   "blockCount": {
     "OAK_SAPLING": 5,
     "CRAFTING_TABLE": 1,
-    "COBBLESTONE": 2
+    "COBBLESTONE": 2,
+    "DIAMOND_BLOCK": 15,
+    "SPAWNER": 11
   },
   "blockLimits": {},
   "entityLimits": {},

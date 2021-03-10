@@ -1,0 +1,316 @@
+menu_title: '&b&lSkyBlock Menu'
+open_command:
+- menu
+size: 54
+items:
+  'Decoration':
+    material: 160
+    data: 7
+    slots:
+    - 1
+    - 2
+    - 6
+    - 7
+    - 11
+    - 13
+    - 15
+    - 18
+    - 20
+    - 22
+    - 24
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 38
+    - 40
+    - 42
+    - 46
+    - 47
+    - 51
+    - 52
+  'Decoration-1':
+    material: 160
+    data: 15
+    slots:
+    - 0
+    - 3
+    - 4
+    - 5
+    - 8
+    - 9
+    - 17
+    - 36
+    - 44
+    - 45
+    - 48
+    - 49
+    - 50
+    - 53
+  'SkillsYes':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+    priority: 1
+    slot: 10
+    display_name: '&b[*] &bSpawn'
+    lore:
+    - ''
+    - '&fTeleport to spawn'
+    - ''
+    - '&bClick to teleport'
+    left_click_commands:
+    - '[player] spawn'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    right_click_commands:
+    - '[player] spawn'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+  'SkillsNo':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+    priority: 2
+    display_name: '&b[*] &bSpawn'
+    lore:
+    - ''
+    - '&fTeleport to spawn'
+    - ''
+    - '&bClick to teleport'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[close]'
+    - '[player] spawn'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[close]'
+    - '[player] spawn'
+  'Teleports':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWE3NzlkZWUyYTZiMTk4OTcwYTEwZTcxYjJiNDc0ZjQ0N2RmYmUyZjEyMGZmMjIzN2M0N2ZkMTY3Y2Q0ZjFhNyJ9fX0=
+    slot: 12
+    display_name: '&b[*] &bTeleports'
+    lore:
+    - ''
+    - '&fUse this menu to teleport'
+    - '&finstantly to some zones of'
+    - '&fthe server.'
+    - ''
+    - '&8» &bClick to open'
+    left_click_commands:
+    - '[openguimenu] teleports'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    right_click_commands:
+    - '[openguimenu] teleports'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+  'Enderchest':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ==
+    slot: 14
+    display_name: '&b[*] &bEnderchest'
+    lore:
+    - ''
+    - '&fOpen a menu to store your'
+    - '&fitems and keep it safe.'
+    - ''
+    - '&8» &bClick to open'
+    left_click_commands:
+    - '[player] enderchest'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    right_click_commands:
+    - '[player] enderchest'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+  'Recipes':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJlMGRjOTJkNzg2MmYwNDQzY2M3NzU3Mzc3NzRmNDA3YWFlZmJlMDVlOWM0MzIzMmJiNjkzZDM5YzE4ZmI4OSJ9fX0=
+    slot: 16
+    display_name: '&b[*] &bMarket'
+    lore:
+    - ''
+    - '&fVisit the market'
+    - '&fat spawn.'
+    - ''
+    - '&8» &bClick to teleport'
+    left_click_commands:
+    - '[player] warp market'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    right_click_commands:
+    - '[player] warp market'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+  'Challenges':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y3Y2RlZWZjNmQzN2ZlY2FiNjc2YzU4NGJmNjIwODMyYWFhYzg1Mzc1ZTlmY2JmZjI3MzcyNDkyZDY5ZiJ9fX0=
+    slot: 19
+    display_name: '&b[*] &bAuction House'
+    lore:
+    - ''
+    - '&fAccess the auction house'
+    - '&fand buy/sell goods with'
+    - '&fothers.'
+    - '' 
+    - '&8» &bClick to open'
+    left_click_commands:
+    - '[player] ah'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    right_click_commands:
+    - '[player] ah'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+  'Upgrades':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGYyZWQ0ZWYzNThiZjkyNTJlYTczYTZiMGY0ZTg2OGIyN2ZlZWJjYWU2MDNlZTVlNWQwOTgyYjZkOWU2NjkwIn19fQ==
+    slot: 21
+    display_name: '&b[*] &bUpgrades'
+    lore:
+    - ''
+    - '&fUse the upgrades menu to'
+    - '&fimprove your stats,'
+    - '&fstrength, speed. ect'
+    - ''
+    - '&8» &bClick to open'
+    left_click_commands:
+    - '[player] perks'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    right_click_commands:
+    - '[player] perks'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+  'Crafting':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2U3ZDhjMjQyZDJlNGY4MDI4ZjkzMGJlNzZmMzUwMTRiMjFiNTI1NTIwOGIxYzA0MTgxYjI1NzQxMzFiNzVhIn19fQ==
+    slot: 23
+    display_name: '&b[*] &bCrafting Table'
+    lore:
+    - ''
+    - '&fOpen a virtual crafting'
+    - '&ftable.'
+    - ''
+    - '&8» &bClick to open'
+    left_click_commands:
+    - '[player] workbench'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    right_click_commands:
+    - '[player] workbench'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+  'Jobs':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU1OWYzYjE1NTRkOWMwMmRjOGEyMTllMjU4ZDEzNjNjODhmNzI3OGM0NTI2MjYzODA0ZWFjNDZjNWQ1NyJ9fX0=
+    slot: 25
+    display_name: '&b[*] &bJobs'
+    lore:
+    - ''
+    - '&fSelect 2 jobs and start'
+    - '&fearning money.'
+    - ''
+    - '&8» &bClick to open'
+    left_click_commands:
+    - '[player] jobs browse'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    right_click_commands:
+    - '[player] jobs browse'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+  'Go-to-the-spawn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IyOGVkZmI0MGFiYTU4YWEyNGQ4ZDlkYjc4ZTU2OTQ1MTgyNDNmNmU0OTllNGU2NjU2ZTM1ZTBjMGQ5NjNhIn19fQ==
+    priority: 1
+    slot: 37
+    display_name: '&b[*] &bGo to the spawn'
+    view_requirement:
+      requirements:
+        IsInWorld:
+          type: string equals ignorecase
+          input: '%player_world%'
+          output: 'ASkyBlock'
+    lore:
+    - ''
+    - '&fTeleport to the spawn'
+    - ''
+    - '&8» &eClick to go'
+    left_click_commands:
+    - '[player] spawn'
+    - '[sound] ENTITY_ENDERMEN_TELEPORT' 
+    - '[close]'
+    right_click_commands:
+    - '[player] spawn'
+    - '[sound] ENTITY_ENDERMEN_TELEPORT' 
+    - '[close]'
+  'Go-to-your-Island':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQ0OWI5MzE4ZTMzMTU4ZTY0YTQ2YWIwZGUxMjFjM2Q0MDAwMGUzMzMyYzE1NzQ5MzJiM2M4NDlkOGZhMGRjMiJ9fX0=
+    priority: 2
+    slot: 37
+    display_name: '&b[*] &bGo to your Island'
+    lore:
+    - ''
+    - '&fTeleport to your island'
+    - ''
+    - '&8» &eClick to go'
+    left_click_commands:
+    - '[player] is'
+    - '[sound] ENTITY_ENDERMEN_TELEPORT' 
+    - '[close]'
+    right_click_commands:
+    - '[player] is'
+    - '[sound] ENTITY_ENDERMEN_TELEPORT' 
+    - '[close]'
+  'Reset-Island':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWMyZmYyNDRkZmM5ZGQzYTJjZWY2MzExMmU3NTAyZGM2MzY3YjBkMDIxMzI5NTAzNDdiMmI0NzlhNzIzNjZkZCJ9fX0=
+    slot: 39
+    display_name: '&b[*] &bIsland Control Panel'
+    lore:
+    - ''
+    - '&7In this menu you can edit'
+    - '&7your island.'
+    - ''
+    - '&8» &bClick to open'
+    left_click_commands:
+    - '[player] is controlpanel'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    right_click_commands:
+    - '[player] is controlpanel'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+  'Settings':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWNiYTcyNzdmYzg5NWJmM2I2NzM2OTQxNTk4NjRiODMzNTFhNGQxNDcxN2U0NzZlYmRhMWMzYmYzOGZjZjM3In19fQ==
+    slot: 41
+    display_name: '&b[*] &bIsland Settings'
+    lore:
+    - ''
+    - '&fIn this menu you can manage'
+    - '&fyour island settings.'   
+    - ''
+    - '&8» &bClick to open'
+    left_click_commands:
+    - '[openguimenu] settings'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    right_click_commands:
+    - '[openguimenu] settings'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+  'Profile':
+    material: head;%player_name%
+    slot: 43
+    display_name: '&b[*] &bProfile'
+    lore:
+    - ''
+    - '&fIn the profile you can'
+    - '&fselect cosmetics, see'
+    - '&fyour stats and more.'
+    - ''
+    - '&8» &bClick to open'
+    left_click_commands:
+    - '[openguimenu] profile'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    right_click_commands:
+    - '[openguimenu] profile'
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'

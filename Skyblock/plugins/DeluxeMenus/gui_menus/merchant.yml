@@ -1,0 +1,123 @@
+menu_title: '&8Merchant'
+open_command:
+- merchant
+size: 36
+items:
+  'Decoration':
+    material: 160
+    data: 7
+    slots:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 10
+    - 11
+    - 12
+    - 14
+    - 15
+    - 16
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    - 29
+    - 30
+    - 32 
+    - 33
+  'Decoration-1':
+    material: 160
+    data: 15
+    slots:
+    - 0
+    - 8
+    - 9
+    - 17
+    - 27
+    - 28
+    - 34
+    - 35
+  'Back':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+    slot: 31
+    display_name: '&2[*] &aBack'
+    lore: ''
+    left_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    - '[openguimenu] menu'
+    right_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]'
+    - '[openguimenu] menu'
+  'OrcValleyAcess':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODM3NjVlOGNlMTFhZTZmMTMxYzcyNWMwN2Y1OGYyZDQxMzJkOTg0YWQ2NjM2MDM5YTdhMzZhM2M1MTI3MjEifX19
+    priority: 1
+    slot: 13
+    display_name: '&2[*] &aOrc Valley Acess'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'essentials.warps.orc-valley'
+        Pex2:
+          type: has permission
+          permission: 'group.orc-valley'   
+    lore:
+    - '&8Orc Valley Acess'
+    - ''
+    - '&7Price: &d500,000 ⛁'
+    - '&7Status: &a&lUNLOCKED'
+    - ''
+  'OrcValleyAcess2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU4NmY2ZDMzMzlhYTVlZjA1OTI1MjgzNjUwNjU5ZmY3YzU1YmQyZWYyMzBmNWU4ZjcwYmVhYWFlYjE2YSJ9fX0=
+    priority: 2
+    slot: 13
+    display_name: '&2[*] &aOrc Valley Acess'
+    lore:
+    - '&8Orc Valley Acess'
+    - ''
+    - '&7Price: &d500,000 ⛁'
+    - '&7Status: &c&lLOCKED'
+    - ''
+    - '&8» &eClick to buy'
+    left_click_commands:
+    - '[message] &a&lMERCHANT &8&l» &7You have buy acess to &eOrc Valley&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 500000'
+    - '[console] pex user %player_name% add essentials.warps.orc-valley'
+    - '[console] pex user %player_name% add group.orc-valley'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 500000
+      deny_commands:
+      - '[message] &a&lMERCHANT &8&l» &7You need &e500,000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &a&lMERCHANT &8&l» &7You have buy acess to &eOrc Valley&7.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] eco take %player_name% 500000'
+    - '[console] pex user %player_name% add essentials.warps.orc-valley'
+    - '[console] pex user %player_name% add group.orc-valley'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 500000 
+      deny_commands:
+      - '[message] &a&lMERCHANT &8&l» &7You need &e500,000 ⛁ &7to buy this.'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
