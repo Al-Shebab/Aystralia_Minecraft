@@ -37,7 +37,7 @@ items:
     - 52
   'Decoration-1':
     material: 160
-    data: 15
+    data: 7
     slots:
     - 0
     - 3

@@ -6,7 +6,7 @@
     "CRAFTING_TABLE": 1,
     "COBBLESTONE": 2,
     "DIAMOND_BLOCK": 15,
-    "SPAWNER": 11
+    "GRASS_BLOCK": 1
   },
   "blockLimits": {},
   "entityLimits": {},

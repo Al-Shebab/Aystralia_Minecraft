@@ -55,7 +55,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: equipment,commandtrait,mounttrait,spawned,skintrait,scoreboardtrait,location,type,owner,lookclose,inventory
+    traitnames: commandtrait,inventory,equipment,owner,scoreboardtrait,mounttrait,lookclose,spawned,location,type,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -113,7 +113,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: equipment,commandtrait,mounttrait,spawned,skintrait,scoreboardtrait,location,type,owner,lookclose,inventory
+    traitnames: commandtrait,equipment,inventory,owner,scoreboardtrait,mounttrait,lookclose,spawned,location,type,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -171,7 +171,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: equipment,commandtrait,mounttrait,spawned,skintrait,scoreboardtrait,location,type,owner,lookclose,inventory
+    traitnames: commandtrait,equipment,inventory,owner,scoreboardtrait,mounttrait,lookclose,spawned,location,type,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -229,7 +229,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: equipment,commandtrait,mounttrait,skintrait,spawned,scoreboardtrait,location,type,owner,lookclose,inventory
+    traitnames: commandtrait,equipment,inventory,owner,scoreboardtrait,mounttrait,lookclose,spawned,location,type,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -291,7 +291,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: followtrait,equipment,commandtrait,mounttrait,skintrait,spawned,scoreboardtrait,location,type,owner,lookclose,inventory
+    traitnames: commandtrait,inventory,equipment,owner,scoreboardtrait,followtrait,mounttrait,lookclose,spawned,location,type,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
