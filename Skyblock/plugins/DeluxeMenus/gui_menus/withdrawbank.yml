@@ -9,7 +9,7 @@ open_requirement:
      input: '%javascript_rewards-delay_Bank_1%'
      output: 0s
      deny_commands:
-     - '[message] &a&lBANK &8&l» &7Wait &e%javascript_rewards-delay_Bank_10% &7to use again.'
+     - '[message] &b&lBANK &8&l» &7Wait &e%javascript_rewards-delay_Bank_10% &7to use again.'
 items:
   'Decoration':
     display_name: '&7'
@@ -97,7 +97,7 @@ items:
     - '&damount &7do click on'
     - '&7withdraw specific'
     - '&7amount and &ewrite the'
-    - '&eamount &7in the &cchat&7.'
+    - '&eamount &7in the &cchat&f.'
     - ''
   'WithdrawCustom-Yes':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdmNTdlN2FhOGRlODY1OTFiYjBiYzUyY2JhMzBhNDlkOTMxYmZhYmJkNDdiYmM4MGJkZDY2MjI1MTM5MjE2MSJ9fX0=

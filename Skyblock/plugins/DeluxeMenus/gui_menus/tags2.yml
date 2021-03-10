@@ -128,11 +128,11 @@ items:
     left_click_commands:
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
-    - '[message] &a&lTAGS &8&l» &7To select buy rank in &eshop.server.org&7.'
+    - '[message] &b&lTAGS &8&l» &7To select buy rank in &eshop.server.org&f.'
     right_click_commands:
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
-    - '[message] &a&lTAGS &8&l» &7To select buy rank in &eshop.server.org&7.'
+    - '[message] &b&lTAGS &8&l» &7To select buy rank in &eshop.server.org&f.'
   'Flower1-Permission':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQzYTU3NmE0MjdjMjE0MTYyOThmZGQ1M2Y3NTgxNDIyYjJmZWQzNzc1MzQ2ZWUzNzk4YzNmN2Q5ZmM3MyJ9fX0=
     slot: 12
@@ -170,11 +170,11 @@ items:
     left_click_commands:
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
-    - '[message] &a&lTAGS &8&l» &7To select buy rank in &eshop.server.org&7.'
+    - '[message] &b&lTAGS &8&l» &7To select buy rank in &eshop.server.org&f.'
     right_click_commands:
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
-    - '[message] &a&lTAGS &8&l» &7To select buy rank in &eshop.server.org&7.'
+    - '[message] &b&lTAGS &8&l» &7To select buy rank in &eshop.server.org&f.'
   'Flower2-Permission':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmRlMmNjNDVkYzIzMTU5ZTkyZGZiMjM0ZmRjMmNmNGIzZmUxMzc5MjRlNzIxMzhkNzhmNTE1YTY0OTUifX19
     slot: 13
@@ -212,11 +212,11 @@ items:
     left_click_commands:
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
-    - '[message] &a&lTAGS &8&l» &7To select buy rank in &eshop.server.org&7.'
+    - '[message] &b&lTAGS &8&l» &7To select buy rank in &eshop.server.org&f.'
     right_click_commands:
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
-    - '[message] &a&lTAGS &8&l» &7To select buy rank in &eshop.server.org&7.'
+    - '[message] &b&lTAGS &8&l» &7To select buy rank in &eshop.server.org&f.'
   'Clover-Permission':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzY3ZmU1ZTNlMmY3YmY5MmVhYTZmMjAyNzYxYzEwZWMzMmRhZjNhMmEyYWRlYzFkYmJhY2E4M2M1ZjcxNmRhNSJ9fX0=
     slot: 14
@@ -229,7 +229,7 @@ items:
           permission: 'mvp.tags' 
     lore:
     - '&7'
-    - '&8* &7Tag Preview: &a☘' 
+    - '&8* &7Tag Preview: &b☘' 
     - '&7'
     - '&8» &eClick to select'
     left_click_commands:
@@ -248,17 +248,17 @@ items:
     lore:
     - '&7'
     - '&8* &7Required Rank: &b&lMVP'
-    - '&8* &7Tag Preview: &a☘' 
+    - '&8* &7Tag Preview: &b☘' 
     - '&7'
     - '&8» &cBuy rank to select'
     left_click_commands:
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
-    - '[message] &a&lTAGS &8&l» &7To select buy rank in &eshop.server.org&7.'
+    - '[message] &b&lTAGS &8&l» &7To select buy rank in &eshop.server.org&f.'
     right_click_commands:
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
-    - '[message] &a&lTAGS &8&l» &7To select buy rank in &eshop.server.org&7.'
+    - '[message] &b&lTAGS &8&l» &7To select buy rank in &eshop.server.org&f.'
   'Snowflake-Permission':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjJlYTQ1YWNhNDUwMjRkNDczMGM3YTA0ZmQ0N2ZlNGUzMTlmNWQzYjdlOWNlODBiMzFmZGM2NzE1MzllMWEzIn19fQ==
     slot: 15
@@ -296,11 +296,11 @@ items:
     left_click_commands:
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
-    - '[message] &a&lTAGS &8&l» &7To select buy rank in &eshop.server.org&7.'
+    - '[message] &b&lTAGS &8&l» &7To select buy rank in &eshop.server.org&f.'
     right_click_commands:
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
-    - '[message] &a&lTAGS &8&l» &7To select buy rank in &eshop.server.org&7.'
+    - '[message] &b&lTAGS &8&l» &7To select buy rank in &eshop.server.org&f.'
   'Snowman-Permission':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjY4MTI5NjIzZmZkZTIyY2JjNTM0OTE1YWUzOGE1ZDYwZjMyZGFlZGJjNGZkNWQyYzMxMGZlYTUzN2VkIn19fQ==
     slot: 20
@@ -338,11 +338,11 @@ items:
     left_click_commands:
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
-    - '[message] &a&lTAGS &8&l» &7To select buy rank in &eshop.server.org&7.'
+    - '[message] &b&lTAGS &8&l» &7To select buy rank in &eshop.server.org&f.'
     right_click_commands:
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
-    - '[message] &a&lTAGS &8&l» &7To select buy rank in &eshop.server.org&7.'
+    - '[message] &b&lTAGS &8&l» &7To select buy rank in &eshop.server.org&f.'
   'Hot-Permission':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA4MGJiZWZjYTg3ZGMwZjM2NTM2YjY1MDg0MjVjZmM0Yjk1YmE2ZThmNWU2YTQ2ZmY5ZTljYjQ4OGE5ZWQifX19
     slot: 21
@@ -380,11 +380,11 @@ items:
     left_click_commands:
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
-    - '[message] &a&lTAGS &8&l» &7To select buy rank in &eshop.server.org&7.'
+    - '[message] &b&lTAGS &8&l» &7To select buy rank in &eshop.server.org&f.'
     right_click_commands:
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
-    - '[message] &a&lTAGS &8&l» &7To select buy rank in &eshop.server.org&7.'
+    - '[message] &b&lTAGS &8&l» &7To select buy rank in &eshop.server.org&f.'
   'Music1-Permission':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNlZWI3N2Q0ZDI1NzI0YTljYWYyYzdjZGYyZDg4Mzk5YjE0MTdjNmI5ZmY1MjEzNjU5YjY1M2JlNDM3NmUzIn19fQ==
     slot: 22
@@ -422,11 +422,11 @@ items:
     left_click_commands:
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
-    - '[message] &a&lTAGS &8&l» &7To select buy rank in &eshop.server.org&7.'
+    - '[message] &b&lTAGS &8&l» &7To select buy rank in &eshop.server.org&f.'
     right_click_commands:
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
-    - '[message] &a&lTAGS &8&l» &7To select buy rank in &eshop.server.org&7.'
+    - '[message] &b&lTAGS &8&l» &7To select buy rank in &eshop.server.org&f.'
   'Music2-Permission':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQxZDhjNTA0ODY3OTMzNzAzZGEzNmVjMTFmNTM4ZjYyNjVmOTg0NDFkODgxZWFjNDhlZjJjNDkzNGMxYiJ9fX0=
     slot: 23
@@ -464,11 +464,11 @@ items:
     left_click_commands:
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
-    - '[message] &a&lTAGS &8&l» &7To select buy rank in &eshop.server.org&7.'
+    - '[message] &b&lTAGS &8&l» &7To select buy rank in &eshop.server.org&f.'
     right_click_commands:
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
-    - '[message] &a&lTAGS &8&l» &7To select buy rank in &eshop.server.org&7.'
+    - '[message] &b&lTAGS &8&l» &7To select buy rank in &eshop.server.org&f.'
   'Music3-Permission':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjIyNzkxZTg4NzcyNmJiMGY3YmRlYTY4NmI2N2I1NDk5Y2NiMmIyM2Q1YWNmZjY2Yzg3MGZhOTk5Nzk3MyJ9fX0=
     slot: 24
@@ -506,8 +506,8 @@ items:
     left_click_commands:
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
-    - '[message] &a&lTAGS &8&l» &7To select buy rank in &eshop.server.org&7.'
+    - '[message] &b&lTAGS &8&l» &7To select buy rank in &eshop.server.org&f.'
     right_click_commands:
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
-    - '[message] &a&lTAGS &8&l» &7To select buy rank in &eshop.server.org&7.'
+    - '[message] &b&lTAGS &8&l» &7To select buy rank in &eshop.server.org&f.'

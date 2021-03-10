@@ -71,7 +71,7 @@ items:
     - ''
     - '&8» &eClick to buy'
     left_click_commands:
-    - '[message] &a&lENCHANTS &8&l» &7You have bought &eWhite Scroll&7.'
+    - '[message] &b&lENCHANTS &8&l» &7You have bought &eWhite Scroll&f.'
     - '[console] ce scroll white 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -82,11 +82,11 @@ items:
           type: has money
           amount: 9999
       deny_commands:
-      - '[message] &a&lERROR &8&l» &7You need &e10,000 ⛁ &7to buy this.'
+      - '[message] &b&lERROR &8&l» &7You need &e10,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &a&lENCHANTS &8&l» &7You have bought &eWhite Scroll&7.'
+    - '[message] &b&lENCHANTS &8&l» &7You have bought &eWhite Scroll&f.'
     - '[console] ce scroll white 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -97,7 +97,7 @@ items:
           type: has money
           amount: 9999
       deny_commands:
-      - '[message] &a&lERROR &8&l» &7You need &e10,000 ⛁ &7to buy this.'
+      - '[message] &b&lERROR &8&l» &7You need &e10,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'BlackScroll':
@@ -113,7 +113,7 @@ items:
     - ''
     - '&8» &eClick to buy'
     left_click_commands:
-    - '[message] &a&lENCHANTS &8&l» &7You have bought &eBlack Scroll&7.'
+    - '[message] &b&lENCHANTS &8&l» &7You have bought &eBlack Scroll&f.'
     - '[console] ce scroll black 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -124,11 +124,11 @@ items:
           type: has money
           amount: 9999
       deny_commands:
-      - '[message] &a&lERROR &8&l» &7You need &e10,000 ⛁ &7to buy this.'
+      - '[message] &b&lERROR &8&l» &7You need &e10,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &a&lENCHANTS &8&l» &7You have bought &eBlack Scroll&7.'
+    - '[message] &b&lENCHANTS &8&l» &7You have bought &eBlack Scroll&f.'
     - '[console] ce scroll black 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -139,7 +139,7 @@ items:
           type: has money
           amount: 9999
       deny_commands:
-      - '[message] &a&lERROR &8&l» &7You need &e10,000 ⛁ &7to buy this.'
+      - '[message] &b&lERROR &8&l» &7You need &e10,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]' 
   'SucessDust':
@@ -155,7 +155,7 @@ items:
     - ''
     - '&8» &eClick to buy'
     left_click_commands:
-    - '[message] &a&lENCHANTS &8&l» &7You have bought &eSucess Dust&7.'
+    - '[message] &b&lENCHANTS &8&l» &7You have bought &eSucess Dust&f.'
     - '[console] ce dust Success 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -166,11 +166,11 @@ items:
           type: has money
           amount: 4999
       deny_commands:
-      - '[message] &a&lERROR &8&l» &7You need &e5,000 ⛁ &7to buy this.'
+      - '[message] &b&lERROR &8&l» &7You need &e5,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &a&lENCHANTS &8&l» &7You have bought &eSucess Dust&7.'
+    - '[message] &b&lENCHANTS &8&l» &7You have bought &eSucess Dust&f.'
     - '[console] ce dust Success 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -181,6 +181,6 @@ items:
           type: has money
           amount: 4999
       deny_commands:
-      - '[message] &a&lERROR &8&l» &7You need &e5,000 ⛁ &7to buy this.'
+      - '[message] &b&lERROR &8&l» &7You need &e5,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'

@@ -55,7 +55,7 @@ items:
           type: has money
           amount: 399999
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e400,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e400,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -69,7 +69,7 @@ items:
           type: has money
           amount: 399999 
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e400,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e400,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'ZombieSpawner':
@@ -95,7 +95,7 @@ items:
           type: has money
           amount: 299999
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -109,7 +109,7 @@ items:
           type: has money
           amount: 299999 
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'CreeperSpawner':
@@ -135,7 +135,7 @@ items:
           type: has money
           amount: 299999
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -149,7 +149,7 @@ items:
           type: has money
           amount: 299999 
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'SkeletonSpawner':
@@ -175,7 +175,7 @@ items:
           type: has money
           amount: 299999
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -189,7 +189,7 @@ items:
           type: has money
           amount: 299999 
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'SpiderSpawner':
@@ -215,7 +215,7 @@ items:
           type: has money
           amount: 299999
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -229,7 +229,7 @@ items:
           type: has money
           amount: 299999 
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'SlimeSpawner':
@@ -255,7 +255,7 @@ items:
           type: has money
           amount: 299999
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -269,7 +269,7 @@ items:
           type: has money
           amount: 299999 
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'GhastSpawner':
@@ -295,7 +295,7 @@ items:
           type: has money
           amount: 299999
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -309,7 +309,7 @@ items:
           type: has money
           amount: 299999 
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'ZombiePigmanSpawner':
@@ -335,7 +335,7 @@ items:
           type: has money
           amount: 299999
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -349,7 +349,7 @@ items:
           type: has money
           amount: 299999 
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'EndermanSpawner':
@@ -375,7 +375,7 @@ items:
           type: has money
           amount: 299999
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -389,7 +389,7 @@ items:
           type: has money
           amount: 299999 
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'BlazeSpawner':
@@ -415,7 +415,7 @@ items:
           type: has money
           amount: 299999
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -429,7 +429,7 @@ items:
           type: has money
           amount: 299999 
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'MagmaCubeSpawner':
@@ -455,7 +455,7 @@ items:
           type: has money
           amount: 299999
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -469,7 +469,7 @@ items:
           type: has money
           amount: 299999 
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'WitchSpawner':
@@ -495,7 +495,7 @@ items:
           type: has money
           amount: 299999
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -509,7 +509,7 @@ items:
           type: has money
           amount: 299999 
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e300,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'PigSpawner':
@@ -535,7 +535,7 @@ items:
           type: has money
           amount: 149999
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e150,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e150,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -549,7 +549,7 @@ items:
           type: has money
           amount: 149999 
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e150,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e150,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'SheepSpawner':
@@ -575,7 +575,7 @@ items:
           type: has money
           amount: 149999
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e150,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e150,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -589,7 +589,7 @@ items:
           type: has money
           amount: 149999 
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e150,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e150,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'CowSpawner':
@@ -615,7 +615,7 @@ items:
           type: has money
           amount: 149999
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e150,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e150,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -629,7 +629,7 @@ items:
           type: has money
           amount: 149999 
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e150,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e150,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'ChickenSpawner':
@@ -655,7 +655,7 @@ items:
           type: has money
           amount: 149999
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e150,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e150,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
@@ -669,6 +669,6 @@ items:
           type: has money
           amount: 149999 
       deny_commands:
-      - '[message] &a&lSPAWNERS &8&l» &7You need &e150,000 ⛁ &7to buy this.'
+      - '[message] &b&lSPAWNERS &8&l» &7You need &e150,000 ⛁ &7to buy this.'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'      

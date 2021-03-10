@@ -70,7 +70,7 @@
         display_name: '&4[*] &cRed Color'
         lore:
         - '&7'
-        - '&8* &7Preview: &7%vault_prefix%&c%player_name%'
+        - '&8* &7Preview: &f%vault_prefix%&c%player_name%'
         - '&7'
         - '&8» &eClick to select'
         left_click_commands:
@@ -94,11 +94,11 @@
         left_click_commands:
         - '[sound] BLOCK_ANVIL_LAND' 
         - '[close]'
-        - '[message] &a&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&7.'
+        - '[message] &b&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&f.'
         right_click_commands:
         - '[sound] BLOCK_ANVIL_LAND' 
         - '[close]'
-        - '[message] &a&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&7.'
+        - '[message] &b&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&f.'
       Purple:
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTZmNTRmODI4MzZhNTU5MjRlZTg1ZGVjNTZiYmJkOGNhMTQ2MzNkYWE5YmZlMzU2NTU5MmVkZjM5YTZkZSJ9fX0=
         slot: 12
@@ -111,7 +111,7 @@
         display_name: '&5Purple Color'
         lore:
         - '&7'
-        - '&8* &7Preview: &7%vault_prefix%&5%player_name%'
+        - '&8* &7Preview: &f%vault_prefix%&5%player_name%'
         - '&7'
         - '&8» &eClick to select'
         left_click_commands:
@@ -135,11 +135,11 @@
         left_click_commands:
         - '[sound] BLOCK_ANVIL_LAND' 
         - '[close]'
-        - '[message] &a&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&7.'
+        - '[message] &b&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&f.'
         right_click_commands:
         - '[sound] BLOCK_ANVIL_LAND' 
         - '[close]'
-        - '[message] &a&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&7.'
+        - '[message] &b&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&f.'
       Cyan:
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQ2MzgxMWZkMGM0OGZjZDczYWJjYjdiYmU1YWE1ZWM2YmMyODA5ZmZjNTU3N2QzZjQ1NTlkZjMwNzY1ZiJ9fX0=
         slot: 13
@@ -152,7 +152,7 @@
         display_name: '&3Cyan Color'
         lore:
         - '&7'
-        - '&8* &7Preview: &7%vault_prefix%&3%player_name%'
+        - '&8* &7Preview: &f%vault_prefix%&3%player_name%'
         - '&7'
         - '&8» &eClick to select'
         left_click_commands:
@@ -176,11 +176,11 @@
         left_click_commands:
         - '[sound] BLOCK_ANVIL_LAND' 
         - '[close]'
-        - '[message] &a&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&7.'
+        - '[message] &b&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&f.'
         right_click_commands:
         - '[sound] BLOCK_ANVIL_LAND' 
         - '[close]'
-        - '[message] &a&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&7.'
+        - '[message] &b&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&f.'
       Gray1:
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWNkZTk5YjcyNzI4ZWY4ODE2NDBmYTUwNjhkMTIyZTYxZGQ5Y2Y3MThkYmIzNzA5ZmM1YjMyNmYxYWY1ZCJ9fX0=
         slot: 14
@@ -193,17 +193,17 @@
         display_name: '&7Gray #1 Color'
         lore:
         - '&7'
-        - '&8* &7Preview: &7%vault_prefix%&7%player_name%'
+        - '&8* &7Preview: &f%vault_prefix%&7%player_name%'
         - '&7'
         - '&8» &eClick to select'
         left_click_commands:
         - '[sound] ENTITY_ARROW_HIT_PLAYER' 
         - '[close]'
-        - '[console] nick %player_name% &7%player_name%'
+        - '[console] nick %player_name% &f%player_name%'
         right_click_commands:
         - '[sound] ENTITY_ARROW_HIT_PLAYER' 
         - '[close]'
-        - '[console] nick %player_name% &7%player_name%'
+        - '[console] nick %player_name% &f%player_name%'
       Gray12:
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19
         slot: 14
@@ -217,11 +217,11 @@
         left_click_commands:
         - '[sound] BLOCK_ANVIL_LAND' 
         - '[close]'
-        - '[message] &a&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&7.'
+        - '[message] &b&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&f.'
         right_click_commands:
         - '[sound] BLOCK_ANVIL_LAND' 
         - '[close]'
-        - '[message] &a&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&7.'
+        - '[message] &b&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&f.'
       Gray2:
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWVmYTdiNWU1ZTYzZDQ2ZDE0NjE1YzYxYmVkMTU0MjdkOTBiMjYxYzdjYTVlODE1OWM0NjZmMDk1NjFkYSJ9fX0=
         slot: 15
@@ -234,7 +234,7 @@
         display_name: '&8Gray #2 Color'
         lore:
         - '&7'
-        - '&8* &7Preview: &7%vault_prefix%&8%player_name%'
+        - '&8* &7Preview: &f%vault_prefix%&8%player_name%'
         - '&7'
         - '&8» &eClick to select'
         left_click_commands:
@@ -258,11 +258,11 @@
         left_click_commands:
         - '[sound] BLOCK_ANVIL_LAND' 
         - '[close]'
-        - '[message] &a&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&7.'
+        - '[message] &b&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&f.'
         right_click_commands:
         - '[sound] BLOCK_ANVIL_LAND' 
         - '[close]'
-        - '[message] &a&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&7.'
+        - '[message] &b&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&f.'
       Lime:
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTVhMTE3ZTE2MWY3YTI5MWQwYTNhMTY4ZTc3YTIxYjA5ZDM5ZmZkZjU3NzNkMjJhYzAyZjVmYTY2MTFkYjY3In19fQ==
         slot: 20
@@ -275,17 +275,17 @@
         display_name: '&2[*] &aLime Color'
         lore:
         - '&7'
-        - '&8* &7Preview: &7%vault_prefix%&a%player_name%'
+        - '&8* &7Preview: &f%vault_prefix%&a%player_name%'
         - '&7'
         - '&8» &eClick to select'
         left_click_commands:
         - '[sound] ENTITY_ARROW_HIT_PLAYER' 
         - '[close]'
-        - '[console] nick %player_name% &a%player_name%'
+        - '[console] nick %player_name% &b%player_name%'
         right_click_commands:
         - '[sound] ENTITY_ARROW_HIT_PLAYER' 
         - '[close]'
-        - '[console] nick %player_name% &a%player_name%'
+        - '[console] nick %player_name% &b%player_name%'
       Lime2:
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19
         slot: 20
@@ -299,11 +299,11 @@
         left_click_commands:
         - '[sound] BLOCK_ANVIL_LAND' 
         - '[close]'
-        - '[message] &a&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&7.'
+        - '[message] &b&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&f.'
         right_click_commands:
         - '[sound] BLOCK_ANVIL_LAND' 
         - '[close]'
-        - '[message] &a&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&7.'
+        - '[message] &b&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&f.'
       Yellow:
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmNhNWJmZjMyNWVkNzFkOTdhMmRkZmM4M2FjZjA1ZmU3ZmQ5Y2I3Y2JkYjE1ZWJiNGYwNTYyMTkwN2U5ZjJiIn19fQ==
         slot: 21
@@ -340,11 +340,11 @@
         left_click_commands:
         - '[sound] BLOCK_ANVIL_LAND' 
         - '[close]'
-        - '[message] &a&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&7.'
+        - '[message] &b&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&f.'
         right_click_commands:
         - '[sound] BLOCK_ANVIL_LAND' 
         - '[close]'
-        - '[message] &a&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&7.'
+        - '[message] &b&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&f.'
       Blue:
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdiYzhmNWFjMmJmMzM2OTc0MWE5NjJkZTJhZGRiYWExN2QxNWNjNGRhZGIxOWFlZjZlOTQ0ODE3ZTZjMjQifX19
         slot: 22
@@ -381,11 +381,11 @@
         left_click_commands:
         - '[sound] BLOCK_ANVIL_LAND' 
         - '[close]'
-        - '[message] &a&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&7.'
+        - '[message] &b&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&f.'
         right_click_commands:
         - '[sound] BLOCK_ANVIL_LAND' 
         - '[close]'
-        - '[message] &a&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&7.'
+        - '[message] &b&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&f.'
       Orange:
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzMxNmMxNmIxYWM0NzBkMmMxMTQ0MzRmZjg3MzBmMTgxNTcwOTM4M2RiNmYzY2Y3MjBjMzliNmRjZTIxMTYifX19
         slot: 23
@@ -422,11 +422,11 @@
         left_click_commands:
         - '[sound] BLOCK_ANVIL_LAND' 
         - '[close]'
-        - '[message] &a&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&7.'
+        - '[message] &b&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&f.'
         right_click_commands:
         - '[sound] BLOCK_ANVIL_LAND' 
         - '[close]'
-        - '[message] &a&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&7.'
+        - '[message] &b&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&f.'
       White1:
         material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzE1OTU5NDM4OGJmMDEzYTRlM2U2ODY5ZmFhYmNiOTVkMzFkZDNmNGEyNThhNTM1ZTdjYmQ5MmM5OTg2YjcifX19
         slot: 24
@@ -439,7 +439,7 @@
         display_name: '&fWhite Color'
         lore:
         - '&7'
-        - '&8* &7Preview: &7%vault_prefix%&f%player_name%'
+        - '&8* &7Preview: &f%vault_prefix%&f%player_name%'
         - '&7'
         - '&8» &eClick to select'
         left_click_commands:
@@ -463,8 +463,8 @@
         left_click_commands:
         - '[sound] BLOCK_ANVIL_LAND' 
         - '[close]'
-        - '[message] &a&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&7.'
+        - '[message] &b&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&f.'
         right_click_commands:
         - '[sound] BLOCK_ANVIL_LAND' 
         - '[close]'
-        - '[message] &a&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&7.'
+        - '[message] &b&lCHATCOLOR &8» &7To select buy rank in &eshop.server.org&f.'

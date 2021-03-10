@@ -62,7 +62,7 @@ items:
     material: head;%player_name%
     slot: 11
     priority: 1
-    display_name: '&2[*] &a%player_name% Info'
+    display_name: '&2[*] &b%player_name% Info'
     view_requirement:
       requirements:
         Pex:
@@ -79,7 +79,7 @@ items:
     material: head;%player_name%
     slot: 11
     priority: 2
-    display_name: '&2[*] &a%player_name% Info'
+    display_name: '&2[*] &b%player_name% Info'
     lore:
     - ''
     - '&7Rank: %vault_prefix%'
@@ -89,11 +89,11 @@ items:
     - ''
     - '&8» &eClick to buy rank'
     left_click_commands:
-    - '[message] &a&lBUY &8&l» &7Buy rank in &eshop.server.org'
+    - '[message] &b&lBUY &8&l» &7Buy rank in &eshop.server.org'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[close]'
     right_click_commands:
-    - '[message] &a&lBUY &8&l» &7Buy rank in &eshop.server.org'
+    - '[message] &b&lBUY &8&l» &7Buy rank in &eshop.server.org'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[close]'
   'Cosmetics':

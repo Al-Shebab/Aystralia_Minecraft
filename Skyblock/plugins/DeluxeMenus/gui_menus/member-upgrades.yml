@@ -77,7 +77,7 @@ items:
     - ''
     - '&8* &7Price: &6100,000 ⛁'
     - ''
-    - '&8&l▪ &7Status: &a&lUNLOCKED'
+    - '&8&l▪ &7Status: &b&lUNLOCKED'
     - ''
     - '&8» &eAlready purchased'
   'Members11':
@@ -97,7 +97,7 @@ items:
     - ''
     - '&8» &eClick to buy'
     left_click_commands:
-    - '[message] &a&lUPGRADES &8&l» &7You have bought &eMembers #1&7.'
+    - '[message] &b&lUPGRADES &8&l» &7You have bought &eMembers #1&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] eco take %player_name% 99999'
@@ -109,11 +109,11 @@ items:
           type: has money
           amount: 99999
       deny_commands:
-      - '[message] &a&lUPGRADES &8&l» &7You need &e100,000 ⛁ &7to buy this'
+      - '[message] &b&lUPGRADES &8&l» &7You need &e100,000 ⛁ &7to buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &a&lUPGRADES &8&l» &7You have bought &eMembers #1&7.'
+    - '[message] &b&lUPGRADES &8&l» &7You have bought &eMembers #1&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] eco take %player_name% 99999'
@@ -125,7 +125,7 @@ items:
           type: has money
           amount: 99999 
       deny_commands:
-      - '[message] &a&lUPGRADES &8&l» &7You need &e100,000 ⛁ &7to buy this'
+      - '[message] &b&lUPGRADES &8&l» &7You need &e100,000 ⛁ &7to buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'Members2':
@@ -143,7 +143,7 @@ items:
     - ''
     - '&8* &7Price: &6200,000 ⛁'
     - ''
-    - '&8&l▪ &7Status: &a&lUNLOCKED'
+    - '&8&l▪ &7Status: &b&lUNLOCKED'
     - ''
     - '&8» &eAlready purchased'
   'Members22':
@@ -168,7 +168,7 @@ items:
     - ''
     - '&8» &eClick to buy'
     left_click_commands:
-    - '[message] &a&lUPGRADES &8&l» &7You have bought &eMembers #2&7.'
+    - '[message] &b&lUPGRADES &8&l» &7You have bought &eMembers #2&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] eco take %player_name% 199999'
@@ -183,11 +183,11 @@ items:
           type: has permission
           permission: 'askyblock.team.maxsize.4'
       deny_commands:
-      - '[message] &a&lUPGRADES &8&l» &7You need &e200,000 ⛁ &7to buy this'
+      - '[message] &b&lUPGRADES &8&l» &7You need &e200,000 ⛁ &7to buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &a&lUPGRADES &8&l» &7You have bought &eMembers #2&7.'
+    - '[message] &b&lUPGRADES &8&l» &7You have bought &eMembers #2&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] eco take %player_name% 199999'
@@ -202,7 +202,7 @@ items:
           type: has permission
           permission: 'askyblock.team.maxsize.4'
       deny_commands:
-      - '[message] &a&lUPGRADES &8&l» &7You need &e200,000 ⛁ &7to buy this'
+      - '[message] &b&lUPGRADES &8&l» &7You need &e200,000 ⛁ &7to buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'Members222':
@@ -222,11 +222,11 @@ items:
     - ''
     - '&8» &cYou cant buy this'
     left_click_commands:
-    - '[message] &a&lUPGRADES &8&l» &7First buy the previous upgrade(s)'
+    - '[message] &b&lUPGRADES &8&l» &7First buy the previous upgrade(s)'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
     right_click_commands:
-    - '[message] &a&lUPGRADES &8&l» &7First buy the previous upgrade(s)'
+    - '[message] &b&lUPGRADES &8&l» &7First buy the previous upgrade(s)'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
   'Members3':
@@ -244,7 +244,7 @@ items:
     - ''
     - '&8* &7Price: &6300,000 ⛁'
     - ''
-    - '&8&l▪ &7Status: &a&lUNLOCKED'
+    - '&8&l▪ &7Status: &b&lUNLOCKED'
     - ''
     - '&8» &eAlready purchased'
   'Members33':
@@ -269,7 +269,7 @@ items:
     - ''
     - '&8» &eClick to buy'
     left_click_commands:
-    - '[message] &a&lUPGRADES &8&l» &7You have bought &eMembers #3&7.'
+    - '[message] &b&lUPGRADES &8&l» &7You have bought &eMembers #3&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] eco take %player_name% 299999'
@@ -284,11 +284,11 @@ items:
           type: has permission
           permission: 'askyblock.team.maxsize.6'
       deny_commands:
-      - '[message] &a&lUPGRADES &8&l» &7You need &e300,000 ⛁ &7to buy this'
+      - '[message] &b&lUPGRADES &8&l» &7You need &e300,000 ⛁ &7to buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &a&lUPGRADES &8&l» &7You have bought &eMembers #3&7.'
+    - '[message] &b&lUPGRADES &8&l» &7You have bought &eMembers #3&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] eco take %player_name% 299999'
@@ -303,7 +303,7 @@ items:
           type: has permission
           permission: 'askyblock.team.maxsize.6'
       deny_commands:
-      - '[message] &a&lUPGRADES &8&l» &7You need &e300,000 ⛁ &7to buy this'
+      - '[message] &b&lUPGRADES &8&l» &7You need &e300,000 ⛁ &7to buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'Members333':
@@ -323,10 +323,10 @@ items:
     - ''
     - '&8» &cYou cant buy this'
     left_click_commands:
-    - '[message] &a&lUPGRADES &8&l» &7First buy the previous upgrade(s)'
+    - '[message] &b&lUPGRADES &8&l» &7First buy the previous upgrade(s)'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
     right_click_commands:
-    - '[message] &a&lUPGRADES &8&l» &7First buy the previous upgrade(s)'
+    - '[message] &b&lUPGRADES &8&l» &7First buy the previous upgrade(s)'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'

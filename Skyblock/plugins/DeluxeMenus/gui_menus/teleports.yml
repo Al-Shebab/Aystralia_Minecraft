@@ -168,7 +168,7 @@ items:
     - ''
     - ' &8* Stats:'
     - ' &8- &7Deaths: &c%statistic_deaths%'
-    - ' &8- &7Kills: &a%statistic_player_kills%'
+    - ' &8- &7Kills: &b%statistic_player_kills%'
     - ''
     - '&8» &eClick to go'
     left_click_commands:

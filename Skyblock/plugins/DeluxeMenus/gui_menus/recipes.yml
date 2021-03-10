@@ -148,7 +148,7 @@ items:
         hide_enchantments: true
         lore:
         - '&7'
-        - '&7Item tier: &2&lUNCOMMON'
+        - '&7Item tier: &b&lUNCOMMON'
         - '&7'
         - '&8» &eClick to view recipe'
         left_click_commands:
@@ -168,7 +168,7 @@ items:
         hide_enchantments: true
         lore:
         - '&7'
-        - '&7Item tier: &a&lCOMMON'
+        - '&7Item tier: &b&lCOMMON'
         - '&7'
         - '&8» &eClick to view recipe'
         left_click_commands:
@@ -209,7 +209,7 @@ items:
         hide_enchantments: true
         lore:
         - '&7'
-        - '&7Item tier: &2&lUNCOMMON'
+        - '&7Item tier: &b&lUNCOMMON'
         - '&7'
         - '&8» &eClick to view recipe'
         left_click_commands:

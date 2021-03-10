@@ -10,7 +10,7 @@ open_requirement:
      input: '%javascript_rewards-delay_OpenDelay_5%'
      output: 0s
      deny_commands:
-     - '[message] &a&lREWARDS &8&l» &7Wait &e%javascript_rewards-delay_OpenDelay_5% &7to open again.'
+     - '[message] &b&lREWARDS &8&l» &7Wait &e%javascript_rewards-delay_OpenDelay_5% &7to open again.'
 items:
   'Decoration':
     display_name: '&7'
@@ -86,7 +86,7 @@ items:
     left_click_commands:
     - '[console] papi parse %player_name% %javascript_rewards-delay_Member_start%'
     - '[console] papi parse %player_name% %javascript_rewards-delay_OpenDelay_start%'
-    - '[message] &a&lREWARDS &8&l» &7You claimed the Member reward.' 
+    - '[message] &b&lREWARDS &8&l» &7You claimed the Member reward.' 
     - '[console] eco give %player_name% 1000'
     - '[console] cc give v Basic 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
@@ -94,7 +94,7 @@ items:
     right_click_commands:
     - '[console] papi parse %player_name% %javascript_rewards-delay_Member_start%'
     - '[console] papi parse %player_name% %javascript_rewards-delay_OpenDelay_start%'
-    - '[message] &a&lREWARDS &8&l» &7You claimed the Member reward.'    
+    - '[message] &b&lREWARDS &8&l» &7You claimed the Member reward.'    
     - '[console] eco give %player_name% 1000'
     - '[console] cc give v Basic 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
@@ -136,11 +136,11 @@ items:
     - '&7'
     - '&cYou dont have enought rank'
     left_click_commands:
-    - '[message] &a&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&7.'
+    - '[message] &b&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&f.'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
     right_click_commands:
-    - '[message] &a&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&7.'
+    - '[message] &b&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&f.'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
   'Vip':
@@ -168,7 +168,7 @@ items:
     left_click_commands:
     - '[console] papi parse %player_name% %javascript_rewards-delay_Vip_start%'
     - '[console] papi parse %player_name% %javascript_rewards-delay_OpenDelay_start%'
-    - '[message] &a&lREWARDS &8&l» &7You claimed the Vip reward.' 
+    - '[message] &b&lREWARDS &8&l» &7You claimed the Vip reward.' 
     - '[console] eco give %player_name% 2500'
     - '[console] cc give v Basic 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
@@ -176,7 +176,7 @@ items:
     right_click_commands:
     - '[console] papi parse %player_name% %javascript_rewards-delay_Vip_start%'
     - '[console] papi parse %player_name% %javascript_rewards-delay_OpenDelay_start%'
-    - '[message] &a&lREWARDS &8&l» &7You claimed the Vip reward.' 
+    - '[message] &b&lREWARDS &8&l» &7You claimed the Vip reward.' 
     - '[console] eco give %player_name% 2500'
     - '[console] cc give v Basic 1 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
@@ -218,11 +218,11 @@ items:
     - '&7'
     - '&cYou dont have enought rank'
     left_click_commands:
-    - '[message] &a&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&7.'
+    - '[message] &b&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&f.'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
     right_click_commands:
-    - '[message] &a&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&7.'
+    - '[message] &b&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&f.'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
   'Vip+':
@@ -251,7 +251,7 @@ items:
     left_click_commands:
     - '[console] papi parse %player_name% %javascript_rewards-delay_Vip+_start%'
     - '[console] papi parse %player_name% %javascript_rewards-delay_OpenDelay_start%'
-    - '[message] &a&lREWARDS &8&l» &7You claimed the Vip+ reward.' 
+    - '[message] &b&lREWARDS &8&l» &7You claimed the Vip+ reward.' 
     - '[console] eco give %player_name% 5000'
     - '[console] cc give v Basic 1 %player_name%'
     - '[console] cc give v Mega 1 %player_name%'
@@ -260,7 +260,7 @@ items:
     right_click_commands:
     - '[console] papi parse %player_name% %javascript_rewards-delay_Vip+_start%'
     - '[console] papi parse %player_name% %javascript_rewards-delay_OpenDelay_start%'
-    - '[message] &a&lREWARDS &8&l» &7You claimed the Vip+ reward.' 
+    - '[message] &b&lREWARDS &8&l» &7You claimed the Vip+ reward.' 
     - '[console] eco give %player_name% 5000'
     - '[console] cc give v Basic 1 %player_name%'
     - '[console] cc give v Mega 1 %player_name%'
@@ -305,11 +305,11 @@ items:
     - '&7'
     - '&cYou dont have enought rank'
     left_click_commands:
-    - '[message] &a&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&7.'
+    - '[message] &b&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&f.'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
     right_click_commands:
-    - '[message] &a&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&7.'
+    - '[message] &b&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&f.'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
   'Mvp':
@@ -339,7 +339,7 @@ items:
     left_click_commands:
     - '[console] papi parse %player_name% %javascript_rewards-delay_Mvp_start%'
     - '[console] papi parse %player_name% %javascript_rewards-delay_OpenDelay_start%'
-    - '[message] &a&lREWARDS &8&l» &7You claimed the Mvp reward.' 
+    - '[message] &b&lREWARDS &8&l» &7You claimed the Mvp reward.' 
     - '[console] eco give %player_name% 10000'
     - '[console] cc give v Basic 1 %player_name%'
     - '[console] cc give v Mega 1 %player_name%'
@@ -349,7 +349,7 @@ items:
     right_click_commands:
     - '[console] papi parse %player_name% %javascript_rewards-delay_Mvp_start%'
     - '[console] papi parse %player_name% %javascript_rewards-delay_OpenDelay_start%'
-    - '[message] &a&lREWARDS &8&l» &7You claimed the Mvp reward.' 
+    - '[message] &b&lREWARDS &8&l» &7You claimed the Mvp reward.' 
     - '[console] eco give %player_name% 10000'
     - '[console] cc give v Basic 1 %player_name%'
     - '[console] cc give v Mega 1 %player_name%'
@@ -397,11 +397,11 @@ items:
     - '&7'
     - '&cYou dont have enought rank'
     left_click_commands:
-    - '[message] &a&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&7.'
+    - '[message] &b&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&f.'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
     right_click_commands:
-    - '[message] &a&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&7.'
+    - '[message] &b&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&f.'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
   'Mvp+':
@@ -431,7 +431,7 @@ items:
     left_click_commands:
     - '[console] papi parse %player_name% %javascript_rewards-delay_Mvp+_start%'
     - '[console] papi parse %player_name% %javascript_rewards-delay_OpenDelay_start%'
-    - '[message] &a&lREWARDS &8&l» &7You claimed the Mvp+ reward.'  
+    - '[message] &b&lREWARDS &8&l» &7You claimed the Mvp+ reward.'  
     - '[console] eco give %player_name% 15000'
     - '[console] cc give v Basic 2 %player_name%'
     - '[console] cc give v Mega 1 %player_name%'
@@ -441,7 +441,7 @@ items:
     right_click_commands:
     - '[console] papi parse %player_name% %javascript_rewards-delay_Mvp+_start%'
     - '[console] papi parse %player_name% %javascript_rewards-delay_OpenDelay_start%'
-    - '[message] &a&lREWARDS &8&l» &7You claimed the Mvp+ reward.'   
+    - '[message] &b&lREWARDS &8&l» &7You claimed the Mvp+ reward.'   
     - '[console] eco give %player_name% 15000'
     - '[console] cc give v Basic 2 %player_name%'
     - '[console] cc give v Mega 1 %player_name%'
@@ -489,11 +489,11 @@ items:
     - '&7'
     - '&cYou dont have enought rank'
     left_click_commands:
-    - '[message] &a&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&7.'
+    - '[message] &b&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&f.'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
     right_click_commands:
-    - '[message] &a&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&7.'
+    - '[message] &b&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&f.'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
   'Special':
@@ -520,14 +520,14 @@ items:
     left_click_commands:
     - '[console] papi parse %player_name% %javascript_rewards-delay_Special_start%'
     - '[console] papi parse %player_name% %javascript_rewards-delay_OpenDelay_start%'
-    - '[message] &a&lREWARDS &8&l» &7You claimed the Special reward.'  
+    - '[message] &b&lREWARDS &8&l» &7You claimed the Special reward.'  
     - '[console] cc give v Legendary 2 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_commands:
     - '[console] papi parse %player_name% %javascript_rewards-delay_Special_start%'
     - '[console] papi parse %player_name% %javascript_rewards-delay_OpenDelay_start%'
-    - '[message] &a&lREWARDS &8&l» &7You claimed the Special reward.'   
+    - '[message] &b&lREWARDS &8&l» &7You claimed the Special reward.'   
     - '[console] cc give v Legendary 2 %player_name%'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
@@ -566,10 +566,10 @@ items:
     - '&7'
     - '&cYou dont have enought rank'
     left_click_commands:
-    - '[message] &a&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&7.'
+    - '[message] &b&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&f.'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
     right_click_commands:
-    - '[message] &a&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&7.'
+    - '[message] &b&lREWARDS &8&l» &7To open this buy rank in &eshop.server.org&f.'
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
