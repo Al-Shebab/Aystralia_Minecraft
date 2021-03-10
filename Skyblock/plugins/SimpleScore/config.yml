@@ -31,28 +31,20 @@ Worlds:
       - text: "&f&lSKYBLOCK"
         time: 3
     Scores:
-      11:
-        - ""
-      10:
-        - "&fRank: %luckperms_prefix%"
-      9:
-        - ""
-      8:
-        - "&fIsland Level: &d%Level_bskyblock_island_level%"
       7:
         - ""
       6:
         - ""
       5:
-        - "&fBalance: &b$%vault_eco_balance_formatted%"
+        - ""
       4:
         - ""
       3:
-        - ""
+        - "&fBalance: &b$%vault_eco_balance_formatted%"
       2:
-        - ""      
+        - "&fIsland Level: &b%Level_bskyblock_island_level%"     
       1:
-        - "&"
+        - ""
 
 # Shared scoreboards
 Shared:

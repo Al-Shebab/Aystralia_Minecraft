@@ -1,0 +1,8 @@
+market:
+  owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  location: world,36.249610958416795,64.0,-4.45119278523117,89.0979,-0.09155266
+  flags:
+    PRIVATE: false
+    SIGNPRIVATE: true
+  invited: []
+  timeswarpedto: 2
