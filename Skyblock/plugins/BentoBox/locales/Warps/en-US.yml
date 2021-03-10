@@ -19,12 +19,12 @@ warps:
       Run the level command.'
   help:
     description: open the warps panel
-  next: '&6 Next page'
-  player-warped: '&2 [name] warped to your warp sign!'
-  previous: '&6 Previous page'
-  random: '&4 Random Warp'
+  next: '&a Next page'
+  player-warped: '&b [name] warped to your warp sign!'
+  previous: '&c Previous page'
+  random: '&b Random Warp'
   sign-removed: '&c Warp sign removed!'
   success: '&a Success!'
   title: Warp Signs
-  warpTip: '&6 Place a warp sign with [text] on the top'
-  warpToPlayersSign: '&6 Warping to [player]''s sign'
+  warpTip: '&b&lWarps &8> &fPlace a warp sign with &b[text] &fon the top'
+  warpToPlayersSign: '&b&lWarps &8> &fWarping to &b[player]''s &fsign'

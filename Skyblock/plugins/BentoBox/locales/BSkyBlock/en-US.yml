@@ -3,7 +3,7 @@
 # the one at http://yaml-online-parser.appspot.com                                        #
 bskyblock:
   sign:
-    line0: '&cBSkyBlock'
+    line0: '&b&lSkyblock'
     line1: Welcome!
     line2: '[name]'
-    line3: Do not fall! &c<3
+    line3: '&bEnjoy'
