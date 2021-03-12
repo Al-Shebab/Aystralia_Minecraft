@@ -72,8 +72,8 @@ items:
     lore:
       - '&fClick to join!'
       - ' '
-      - '&fStatus &cIn Development'
-      - '&cPlayers Online&f: &c%bungee_Skyblock%'
+      - '&fStatus &2In Beta'
+      - '&aPlayers Online&f: &a%bungee_Skyblock%'
     actions:
       - '[CLOSE]'
       - '[MESSAGE] &fSending you to: &9Skyblock'

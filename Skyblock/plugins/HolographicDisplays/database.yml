@@ -62,8 +62,6 @@ spawn:
   location: world, 59.500, 69.000, -13.500
   lines:
   - '&b&lWelcome to Skyblock'
-  - '&fAuction House'
-  - '&f--------->'
   - '&f'
   - '&fMarkets'
   - '&f<---------'

@@ -10,6 +10,7 @@ Newbie:
   CommandName: Newbie
 Daily:
   CommandName: Daily
+  Enabled: false
   Delay: 86400
   Items:
     '27':

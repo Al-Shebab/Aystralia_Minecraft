@@ -1447,7 +1447,7 @@ catalog:
         &8 [topic]
         &b [install]
 
-        &f &o [description]
+        &f [description]
 
         &3 Click &b to get the link to the
         &b latest release.

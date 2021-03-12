@@ -6,14 +6,17 @@
 # [expires] = How long until the ban/mute ends
 
 messages:
-  duplicateIP: '&cBans &8> &4Warning: [player] has the same IP as the following banned players:\n&c[players]'
+  duplicateIP: '&cBans &8> &4Warning: [player] has the same IP as the following banned
+    players:\n&c[players]'
   configReloaded: '&cBans &8> &cConfiguration reloaded successfully!'
   deniedNotify:
-    player: '&cBans &8> &4Warning: [player] attempted to join the server but was denied due to
-      &c[reason]'
-    ip: '&cBans &8> &4Warning: &c[ip] &4attempted to join the server but was denied due to &c[reason]'
+    player: '&cBans &8> &4Warning: [player] attempted to join the server but was denied
+      due to &c[reason]'
+    ip: '&cBans &8> &4Warning: &c[ip] &4attempted to join the server but was denied
+      due to &c[reason]'
   deniedMaxIp: '&cBans &8> &4Too many players with your ip address online'
-  deniedMultiaccounts: '&cBans &8> &4Too many players with your ip address logged in recently'
+  deniedMultiaccounts: '&cBans &8> &4Too many players with your ip address logged
+    in recently'
   deniedCountry: '&cBans &8> &4You may not connect from your region'
   time:
     now: now
@@ -41,12 +44,13 @@ messages:
       notFound: '&cBans &8> &4[player] not found, are you sure they exist?'
       offline: '&cBans &8> &4[player] is offline'
       noSelf: '&cBans &8> &4You cannot perform that action on yourself!'
-      exception: '&cBans &8> &4An error occured whilst attempting to perform this command. Please
-        check the console for further details.'
+      exception: '&cBans &8> &4An error occured whilst attempting to perform this
+        command. Please check the console for further details.'
       invalidIp: '&cBans &8> &4Invalid IP address, expecting w.x.y.z format'
-      ipNotSupported: '&cBans &8> &4Fetching information by IP address is currently unsupported.'
-      offlinePermission: '&cBans &8> &4You are not allowed to perform this action on an offline
-        player'
+      ipNotSupported: '&cBans &8> &4Fetching information by IP address is currently
+        unsupported.'
+      offlinePermission: '&cBans &8> &4You are not allowed to perform this action
+        on an offline player'
       exempt: '&cBans &8> &4[player] is exempt from that action'
       noPermission: '&cBans &8> &4You do not have permission to perform that action'
       invalidReason: '&cBans &8> &c[reason] is no valid reason.'
@@ -80,30 +84,30 @@ messages:
     error:
       incorrectFlagUsage: '&cBans &8> &4A flag has been incorrectly used'
       invalidIndex: '&cBans &8> &4Invalid player option used'
-      indexRequired: '&cBans &8> &4Multiple players named [name], found, please select a player
-        by providing an index between 1 and [size], e.g. /bminfo [name] 1'
+      indexRequired: '&cBans &8> &4Multiple players named [name], found, please select
+        a player by providing an index between 1 and [size], e.g. /bminfo [name] 1'
       index: '&cBans &8> &f#[index] - &4[name] - &c[uuid]'
     stats:
-      player: '&cBans &8> &4[player] has been banned [bans] times, muted [mutes] times, kicked
-        [kicks] times and warned [warns] times ([warnPoints] Points) and has [notes]
-        notes'
+      player: '&cBans &8> &4[player] has been banned [bans] times, muted [mutes] times,
+        kicked [kicks] times and warned [warns] times ([warnPoints] Points) and has
+        [notes] notes'
       ip: '&cBans &8> &4This ip has been banned [bans] times'
     connection: '&cBans &8> &4Their last connection was with [ip] on [lastSeen]'
     geoip: 'Country: [country] City: [city]'
     ban:
       permanent: '&cBans &8> &4Currently banned for &c[reason]&4 by [actor] at [created]'
-      temporary: '&cBans &8> &4Currently banned for &c[reason]&4 by [actor] at [created] which
-        expires in [expires]'
+      temporary: '&cBans &8> &4Currently banned for &c[reason]&4 by [actor] at [created]
+        which expires in [expires]'
       dateTimeFormat: dd-MM-yyyy HH:mm:ss
     ipban:
       permanent: '&cBans &8> &4Currently banned for &c[reason]&4 by [actor] at [created]'
-      temporary: '&cBans &8> &4Currently banned for &c[reason]&4 by [actor] at [created] which
-        expires in [expires]'
+      temporary: '&cBans &8> &4Currently banned for &c[reason]&4 by [actor] at [created]
+        which expires in [expires]'
       dateTimeFormat: dd-MM-yyyy HH:mm:ss
     mute:
       permanent: '&cBans &8> &4Currently muted for &c[reason]&4 by [actor] at [created]'
-      temporary: '&cBans &8> &4Currently muted for &c[reason]&4 by [actor] at [created] which
-        expires in [expires]'
+      temporary: '&cBans &8> &4Currently muted for &c[reason]&4 by [actor] at [created]
+        which expires in [expires]'
       dateTimeFormat: dd-MM-yyyy HH:mm:ss
     website:
       player: http://yourdomain.com/index.php?action=viewplayer&player=[player]&server=0
@@ -134,12 +138,14 @@ messages:
     notify: '&cBans &8> &4[player] will be permanently banned by [actor] for &c[reason]'
   tempban:
     player:
-      disallowed: '&cBans &8> &4You have been temporarily banned from this server for &c[reason]
-        \n&4It expires in [expires]'
+      disallowed: '&cBans &8> &4You have been temporarily banned from this server
+        for &c[reason] \n&4It expires in [expires]'
       kick: '&cBans &8> &4You have been temporarily banned for &c[reason]'
-    notify: '&cBans &8> &4[player] has been temporarily banned for [expires] by [actor] for &c[reason]'
+    notify: '&cBans &8> &4[player] has been temporarily banned for [expires] by [actor]
+      for &c[reason]'
   tempbanall:
-    notify: '&cBans &8> &4[player] will be temporarily banned for [expires] by [actor] for &c[reason]'
+    notify: '&cBans &8> &4[player] will be temporarily banned for [expires] by [actor]
+      for &c[reason]'
   unban:
     notify: '&cBans &8> &4[player] has been unbanned by [actor]'
     error:
@@ -150,7 +156,8 @@ messages:
   mute:
     player:
       blocked: '&cBans &8> &4You may not use the [command] command whilst muted!'
-      disallowed: '&cBans &8> &4You have been permanently muted for &c[reason] &4by [actor]'
+      disallowed: '&cBans &8> &4You have been permanently muted for &c[reason] &4by
+        [actor]'
       broadcast: '&cBans &8> &4[Muted]&r [message]'
     notify: '&cBans &8> &4[player] has been permanently muted by [actor] for &c[reason]'
     error:
@@ -160,28 +167,31 @@ messages:
     ip:
       disallowed: '&cBans &8> &4You have been banned from this server for &c[reason]'
       broadcast: '&cBans &8> &4[Muted]&r [message]'
-    notify: '&cBans &8> &4[ip] ([players]) have been permanently muted by [actor] for &c[reason]'
+    notify: '&cBans &8> &4[ip] ([players]) have been permanently muted by [actor]
+      for &c[reason]'
     error:
       exists: '&cBans &8> &4[ip] is already muted'
   muteall:
     notify: '&cBans &8> &4[player] will be permanently muted by [actor] for &c[reason]'
   tempmute:
     player:
-      disallowed: '&cBans &8> &4You have been temporarily muted for &c[reason] &4by [actor] which
-        expires in [expires]'
-    notify: '&cBans &8> &4[player] has been temporarily muted for [expires] by [actor] for &c[reason]'
+      disallowed: '&cBans &8> &4You have been temporarily muted for &c[reason] &4by
+        [actor] which expires in [expires]'
+    notify: '&cBans &8> &4[player] has been temporarily muted for [expires] by [actor]
+      for &c[reason]'
     error:
       exists: '&cBans &8> &4[player] is already muted'
   tempmuteip:
     ip:
-      disallowed: '&cBans &8> &4You have been temporarily muted for &c[reason] &4by [actor] which
-        expires in [expires]'
-    notify: '&cBans &8> &4[ip] ([players]) have been temporarily muted for [expires] by [actor]
-      for &c[reason]'
+      disallowed: '&cBans &8> &4You have been temporarily muted for &c[reason] &4by
+        [actor] which expires in [expires]'
+    notify: '&cBans &8> &4[ip] ([players]) have been temporarily muted for [expires]
+      by [actor] for &c[reason]'
     error:
       exists: '&cBans &8> &4[ip] is already muted'
   tempmuteall:
-    notify: '&cBans &8> &4[player] will be temporarily muted for [expires] by [actor] for &c[reason]'
+    notify: '&cBans &8> &4[player] will be temporarily muted for [expires] by [actor]
+      for &c[reason]'
   unmute:
     notify: '&cBans &8> &4[player] has been unmuted by [actor]'
     player: '&cBans &8> &4You have been unmuted by [actor]'
@@ -204,11 +214,11 @@ messages:
       exists: '&cBans &8> &4Name [name] is already banned'
   tempbanname:
     name:
-      disallowed: '&cBans &8> &4You have been banned from this server for &c[reason] \n&4It expires
-        in [expires]'
+      disallowed: '&cBans &8> &4You have been banned from this server for &c[reason]
+        \n&4It expires in [expires]'
       kick: '&cBans &8> &4You have been temporarily banned for &c[reason]'
-    notify: '&cBans &8> &4Name [name] has been temporarily banned for [expires] by [actor] for
-      &c[reason]'
+    notify: '&cBans &8> &4Name [name] has been temporarily banned for [expires] by
+      [actor] for &c[reason]'
   unbanname:
     notify: '&cBans &8> &4Name [name] has been unbanned by [actor]'
     error:
@@ -217,14 +227,15 @@ messages:
     ip:
       disallowed: '&cBans &8> &4You have been banned from this server for &c[reason]'
       kick: '&cBans &8> &4You have been banned permanently for &c[reason]'
-    notify: '&cBans &8> &4[ip] ([players]) has been permanently banned by [actor] for &c[reason]'
+    notify: '&cBans &8> &4[ip] ([players]) has been permanently banned by [actor]
+      for &c[reason]'
     error:
       exists: '&cBans &8> &4[ip] is already banned'
       cooldown: '&cBans &8> &4This ip was banned too recently, try again later'
   baniprange:
     error:
-      invalid: '&cBans &8> &4Invalid range, please use cidr notation 192.168.0.1/16 or wildcard
-        192.168.*.*'
+      invalid: '&cBans &8> &4Invalid range, please use cidr notation 192.168.0.1/16
+        or wildcard 192.168.*.*'
       minMax: '&cBans &8> &4Range must be lowest to highest'
       exists: '&cBans &8> &4A ban containing those ranges already exists'
     ip:
@@ -232,24 +243,27 @@ messages:
       kick: '&cBans &8> &4You have been banned permanently for &c[reason]'
     notify: '&cBans &8> &4[from] - [to] have been banned by [actor]'
   tempbaniprange:
-    notify: '&cBans &8> &4[from] - [to] has been temporarily banned for [expires] by [actor]'
+    notify: '&cBans &8> &4[from] - [to] has been temporarily banned for [expires]
+      by [actor]'
     ip:
-      disallowed: '&cBans &8> &4You have been banned from this server for &c[reason] \n&4It expires
-        in [expires]'
-      kick: '&cBans &8> &4You have been temporarily banned for [expires] by [actor] for &c[reason]'
+      disallowed: '&cBans &8> &4You have been banned from this server for &c[reason]
+        \n&4It expires in [expires]'
+      kick: '&cBans &8> &4You have been temporarily banned for [expires] by [actor]
+        for &c[reason]'
   unbaniprange:
     notify: '&cBans &8> &4[from] - [to] has been unbanned by [actor]'
   banipall:
     notify: '&cBans &8> &4[ip] will be permanently banned by [actor] for &c[reason]'
   tempbanip:
     ip:
-      disallowed: '&cBans &8> &4You have been banned from this server for &c[reason] \n&4It expires
-        in [expires]'
+      disallowed: '&cBans &8> &4You have been banned from this server for &c[reason]
+        \n&4It expires in [expires]'
       kick: '&cBans &8> &4You have been temporarily banned for &c[reason]'
-    notify: '&cBans &8> &4[ip] ([players]) has been temporarily banned for [expires] by [actor]
-      for &c[reason]'
+    notify: '&cBans &8> &4[ip] ([players]) has been temporarily banned for [expires]
+      by [actor] for &c[reason]'
   tempbanipall:
-    notify: '&cBans &8> &4[ip] will be temporarily banned for [expires] by [actor] for &c[reason]'
+    notify: '&cBans &8> &4[ip] will be temporarily banned for [expires] by [actor]
+      for &c[reason]'
   unbanip:
     notify: '&cBans &8> &4[ip] has been unbanned by [actor]'
     error:
@@ -260,10 +274,11 @@ messages:
     player:
       warned: '&cBans &8> &4You have been warned by [actor] for &c[reason]'
       disallowed:
-        header: '&cBans &8> &4You may not speak until you have accepted your most recent warning.
-          Please type the following:'
+        header: '&cBans &8> &4You may not speak until you have accepted your most
+          recent warning. Please type the following:'
         reason: '&cBans &8> &c[reason]'
-        removed: '&cBans &8> &aThank you for your understanding, you may now speak again'
+        removed: '&cBans &8> &aThank you for your understanding, you may now speak
+          again'
     notify: '&cBans &8> &4[player] has been warned by [actor] for &c[reason]'
     error:
       cooldown: '&cBans &8> &4This player was warned too recently, try again later'
@@ -280,8 +295,8 @@ messages:
   bmclear:
     notify: '&cBans &8> &4[player] has had their [type] cleared'
     error:
-      invalid: '&cBans &8> &4Invalid type, please choose between banrecords, muterecords, kicks,
-        notes or warnings'
+      invalid: '&cBans &8> &4Invalid type, please choose between banrecords, muterecords,
+        kicks, notes or warnings'
   bmutils:
     missingplayers:
       notify: '&cBans &8> &4[amount] missing players added'
@@ -289,14 +304,14 @@ messages:
       found: '&cBans &8> &4[amount] missing player data found. Fixing...'
       error:
         failedLookup: '&cBans &8> &4Failed to lookup player [uuid], check server logs'
-      complete: '&cBans &8> &a[amount] players resolved, please restart your server for failed
-        punishments to take affect'
+      complete: '&cBans &8> &a[amount] players resolved, please restart your server
+        for failed punishments to take affect'
     duplicates:
       lookup:
         notFound: '&cBans &8> &aNo duplicate player names found'
       error:
-        invalidName: '&cBans &8> &4Invalid name, must be 16 characters or less and contain only
-          letters, numbers and an underscore'
+        invalidName: '&cBans &8> &4Invalid name, must be 16 characters or less and
+          contain only letters, numbers and an underscore'
         nameExists: '&cBans &8> &4A player with that name already exists'
       success: '&cBans &8> &aPlayer name set to [player] successfully'
   bmrollback:
@@ -349,7 +364,8 @@ messages:
         invalidId: '&cBans &8> &4[id] is not a valid report id'
       dateTimeFormat: yyyy-MM-dd HH:mm:ss
       notify:
-        report: '&cBans &8> &f#[id] &4[actor] reported [player] for &c[reason]&4 at [created]'
+        report: '&cBans &8> &f#[id] &4[actor] reported [player] for &c[reason]&4 at
+          [created]'
         location: '[world] - [x], [y], [z]'
     info:
       error:
@@ -357,7 +373,8 @@ messages:
         invalidId: '&cBans &8> &4[id] is not a valid report id'
       dateTimeFormat: yyyy-MM-dd HH:mm:ss
       notify:
-        report: '&cBans &8> &f#[id] &4[actor] reported [player] for &c[reason]&4 at [created]'
+        report: '&cBans &8> &f#[id] &4[actor] reported [player] for &c[reason]&4 at
+          [created]'
         location: '[world] - [x], [y], [z]'
   addnoteall:
     notify: '&cBans &8> &4[player] will have a new attached by [actor]: [message]'
@@ -372,11 +389,12 @@ messages:
   bmdelete:
     notify: '&cBans &8> &a[rows] rows deleted'
     error:
-      invalid: '&cBans &8> &4Invalid type, please choose between banrecords, muterecords, kicks,
-        notes or warnings'
+      invalid: '&cBans &8> &4Invalid type, please choose between banrecords, muterecords,
+        kicks, notes or warnings'
       invalidId: '&cBans &8> &4[id] is not a valid number'
   denyalts:
     player:
-      disallowed: '&cBans &8> &4The IP address you are joining from is linked to a banned player'
+      disallowed: '&cBans &8> &4The IP address you are joining from is linked to a
+        banned player'
   reasons:
     row: '[hashtag] = [reason]'
