@@ -39,9 +39,9 @@ enableSellAll: true
 # Define whether the buy GUI with option to select quantity is enabled
 enableBuyGUI: true
 # Define whether the sell GUI with option to select quantity is enabled
-enableSellGUI: false
+enableSellGUI: true
 # Define whether sell all button in SellGUI is enabled (enableSellGUI has to be enabled too)
-enableSellGUISellAll: false
+enableSellGUISellAll: true
 # Define whether after closing/buying/selling the shop GUI should be opened again
 returnToShop: true
 # Define whether the quick buy/sell option should be enabled (amount selection gui will stay open until player closes it)
@@ -53,7 +53,7 @@ hideSellPriceForUnsellable: true
 # Define whether buy and sell buttons should be inverted (false - LMB buy, RMB sell / true - LMB sell, RMB buy)
 invertBuySell: false
 # Maximum amount of enchantments players can add to an item, set to -1 for no limit
-maxEnchantments: 3
+maxEnchantments: -1
 # Choose whether players should be able to buy enchantments only 1 level higher than current (eg. player has sword with Sharpness 1, they could buy only Sharpness 2)
 limitEnchantmentLevelDiff: false
 # Define whether the amount selection double click bug fix should be enabled
@@ -91,6 +91,12 @@ itemStackSizeCappedAt:
     size: 1
   5:
     material: MINECART
+    size: 1
+  6:
+    material: LAVA_BUCKET
+    size: 1
+  7:
+    material: WATER_BUCKET
     size: 1
 # Choose what gamemodes will prevent players from accessing shops. Valid values: ADVENTURE, CREATIVE, SPECTATOR, SURVIVAL
 disableShopsInGamemodes:
@@ -181,7 +187,7 @@ log:
 # Sell hand command settings
 sellHand:
   # When set to true, players will be able to sell any quantity of the item (the price will be calculated from the base price)
-  allowAllQuantities: false
+  allowAllQuantities: true
   # When set to true, /sell hand will work same way as /sell handall does
   sellsAllItems: false
   # When set to true, free items (with sell price of $0) will be excluded from being sold using /sell hand and /sell handall
@@ -600,6 +606,16 @@ shopMenuItems:
     shop: "perks"
     # Slot in shops menu, counting from 0 to 53
     slot: 14
+  6:
+    item:
+      # The same rules apply for material, amount, damage and lore as for goBackButton
+      material: BARRIER
+      quantity: 1
+      name: "&c&lSell"
+    # Shop ID from shops yaml
+    shop: "sell"
+    # Slot in shops menu, counting from 0 to 53
+    slot: 15
 
 
 specialElements:

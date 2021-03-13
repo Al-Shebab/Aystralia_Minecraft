@@ -1,0 +1,415 @@
+# ##################################################################################
+#                                                                                  #
+# __      ______ _____ _____   _____ _    _ ______  _____ _______                  #
+# \ \    / / __ \_   _|  __ \ / ____| |  | |  ____|/ ____|__   __|                 #
+#  \ \  / / |  | || | | |  | | |    | |__| | |__  | (___    | |                    #
+#   \ \/ /| |  | || | | |  | | |    |  __  |  __|  \___ \   | |                    #
+#    \  / | |__| || |_| |__| | |____| |  | | |____ ____) |  | |                    #
+#     \/   \____/_____|_____/ \_____|_|  |_|______|_____/   |_|                    #
+#                                                                                  #
+# ##################################################################################
+
+# Items:
+#   <material>
+#    price: <price>
+Items:
+  NETHERITE_INGOT:
+    price: 300
+  DIAMOND:
+    price: 140
+  IRON_INGOT:
+    price: 50
+  GOLD_INGOT:
+    price: 20
+  REDSTONE:
+    price: 12
+  EMERALD:
+    price: 12
+  LAPIS_LAZULI:
+    price: 12
+  COAL:
+    price: 5
+  NETHERITE_BLOCK:
+    price: 2700
+  DIAMOND_BLOCK:
+    price: 1260
+  IRON_BLOCK:
+    price: 450
+  GOLD_BLOCK:
+    price: 180
+  REDSTONE_BLOCK:
+    price: 108
+  EMERALD_BLOCK:
+    price: 108
+  LAPIS_BLCOK:
+    price: 108
+  COAL_BLOCK:
+    price: 45
+  OAK_SAPLING:
+    price: 2
+  SPRUCE_SAPLING:
+    price: 2
+  BIRCH_SAPLING:
+    price: 2
+  JUNGLE_SAPLING:
+    price: 2
+  ACACIA_SAPLING:
+    price: 2
+  DARK_OAK_SAPLING:
+    price: 2
+  OAK_WOOD:
+    price: 5
+  SPRUCE_WOOD:
+    price: 5
+  BIRCH_WOOD:
+    price: 5
+  JUNGLE_WOOD:
+    price: 5
+  ACACIA_WOOD:
+    price: 5
+  DARK_OAK_WOOD:
+    price: 5
+  OAK_LOG:
+    price: 5
+  SPRUCE_LOG:
+    price: 5
+  BIRCH_LOG:
+    price: 5
+  JUNGLE_LOG:
+    price: 5
+  ACACIA_LOG:
+    price: 5
+  DARK_OAK_LOG:
+    price: 5
+  STRIPPED_OAK_LOG:
+    price: 5
+  STRIPPED_SPRUCE_LOG:
+    price: 5
+  STRIPPED_BIRCH_LOG:
+    price: 5
+  STRIPPED_JUNGLE_LOG:
+    price: 5
+  STRIPPED_ACACIA_LOG:
+    price: 5
+  STRIPPED_DARK_OAK_LOG:
+    price: 5
+  CRIMSON_STEM:
+    price: 1
+  WARPED_STEM:
+    price: 1
+  OAK_PLANKS:
+    price: 0.5
+  SPRUCE_WOOD_PLANKS:
+    price: 0.5
+  BIRCH_WOOD_PLANKS:
+    price: 0.5
+  JUNGLE_PLANKS:
+    price: 0.5
+  ACACIA_PLANKS:
+    price: 0.5
+  DARK_OAK_PLANKS:
+    price: 0.5
+  CRIMSON_PLANKS:
+    price: 0.5
+  WARPED_PLANKS:
+    price: 0.5
+  ROTTEN_FLESH:
+    price: 5
+  ARROW:
+    price: 5
+  BONE:
+    price: 5
+  STRING:
+    price: 5
+  SPIDER_EYE:
+    price: 5
+  GUNPOWDER:
+    price: 5
+  SLIME_BALL:
+    price: 5
+  ENDER_PEARL:
+    price: 5
+  BLAZE_ROD:
+    price: 10
+  MAGMA_CREAM:
+    price: 10
+  GHAST_TEAR:
+    price: 50
+  SHULKER_SHELL:
+    price: 100
+  NETHER_STAR:
+    price: 500
+  DRAGON_HEAD:
+    price: 1000
+  BEEF:
+    price: 6
+  PORKCHOP:
+    price: 6
+  MUTTON:
+    price: 6
+  CHICKEN:
+    price: 6
+  RABBIT:
+    price: 15
+  SALMON:
+    price: 6.0
+  TROPICAL_FISH:
+    price: 10
+  COOKED_BEEF:
+    price: 10
+  COOKED_PORKCHOP:
+    price: 10
+  COOKED_MUTTON:
+    price: 10
+  COOKED_CHICKEN:
+    price: 10
+  COOKED_RABBIT:
+    price: 20
+  COOKED_SALMON:
+    price: 10
+  FEATHER:
+    price: 2
+  LEATHER:
+    price: 5
+  EGG:
+    price: 1
+  INK_SACK:
+    price: 1
+  WHITE_WOOL:
+    price: 1
+  LIGHT_GRAY_WOOL:
+    price: 1
+  GRAY_WOOL:
+    price: 1
+  BLACK_WOOL:
+    price: 1
+  BROWN_WOOL:
+    price: 1
+  PINK_WOOL:
+    price: 1
+  MAGENTA_WOOL:
+    price: 1
+  PURPLE_WOOL:
+    price: 1
+  BLUE_WOOL:
+    price: 1
+  RED_WOOL:
+    price: 1
+  ORANGE_WOOL:
+    price: 1
+  YELLOW_WOOL:
+    price: 1
+  LIME_WOOL:
+    price: 1
+  GREEN_WOOL:
+    price: 1
+  CYAN_WOOL:
+    price: 1
+  LIGHT_BLUE_WOOL:
+    price: 1
+  WHITE_CONCRETE_POWDER:
+    price: 1
+  LIGHT_GRAY_CONCRETE_POWDER:
+    price: 1
+  GRAY_CONCRETE_POWDER:
+    price: 1
+  BLACK_CONCRETE_POWDER:
+    price: 1
+  BROWN_CONCRETE_POWDER:
+    price: 1
+  PINK_CONCRETE_POWDER:
+    price: 1
+  MAGENTA_CONCRETE_POWDER:
+    price: 1
+  PURPLE_CONCRETE_POWDER:
+    price: 1
+  BLUE_CONCRETE_POWDER:
+    price: 1
+  RED_CONCRETE_POWDER:
+    price: 1
+  ORANGE_CONCRETE_POWDER:
+    price: 1
+  YELLOW_CONCRETE_POWDER:
+    price: 1
+  LIME_CONCRETE_POWDER:
+    price: 1
+  GREEN_CONCRETE_POWDER:
+    price: 1
+  CYAN_CONCRETE_POWDER:
+    price: 1
+  LIGHT_BLUE_CONCRETE_POWDER:
+    price: 1
+  WHITE_CONCRETE:
+    price: 1
+  LIGHT_GRAY_CONCRETE:
+    price: 1
+  GRAY_CONCRETE:
+    price: 1
+  BLACK_CONCRETE:
+    price: 1
+  BROWN_CONCRETE:
+    price: 1
+  PINK_CONCRETE:
+    price: 1
+  MAGENTA_CONCRETE:
+    price: 1
+  PURPLE_CONCRETE:
+    price: 1
+  BLUE_CONCRETE:
+    price: 1
+  RED_CONCRETE:
+    price: 1
+  ORANGE_CONCRETE:
+    price: 1
+  YELLOW_CONCRETE:
+    price: 1
+  LIME_CONCRETE:
+    price: 1
+  GREEN_CONCRETE:
+    price: 1
+  CYAN_CONCRETE:
+    price: 1
+  LIGHT_BLUE_CONCRETE:
+    price: 1
+  CARROT:
+    price: 2
+  POTATO:
+    price: 2
+  RED_MUSHROOM:
+    price: 4
+  BROWN_MUSHROOM:
+    price: 4
+  COCOA_BEANS:
+    price: 4
+  WHEAT:
+    price: 2
+  SUGARCANE:
+    price: 2
+  CACTUS:
+    price: 2
+  BAMBOO:
+    price: 1
+  MELON:
+    price: 2
+  PUMPKIN:
+    price: 2
+  SWEET_BERRIES:
+    price: 2
+  KELP:
+    price: 1
+  APPLE:
+    price: 2
+  BEETROOT:
+    price: 2
+  WHEAT_SEEDS:
+    price: 1
+  BEETROOT_SEEDS:
+    price: 1
+  PUMPKIN_PIE:
+    price: 3
+  COOKIE:
+    price: 1
+  GRASS_BLOCK:
+    price: 5
+  DIRT:
+    price: 5
+  COARSE_DIRT:
+    price: 10
+  PODZOL:
+    price: 10
+  MYCELIUM:
+    price: 10
+  GRAVEL:
+    price: 10
+  CLAY:
+    price: 10
+  SAND:
+    price: 10
+  RED_SAND:
+    price: 10
+  SANDSTONE:
+    price: 15
+  RED_SANDSTONE:
+    price: 15
+  CHISELED_SANDSTONE:
+    price: 15
+  CHISELED_RED_SANDSTONE:
+    price: 15
+  SMOOTH_SANDSTONE:
+    price: 15
+  SMOOTH_RED_SANDSTONE:
+    price: 15
+  SANDSTONE_SLAB:
+    price: 5
+  RED_SANDSTONE_SLAB:
+    price: 5
+  COBBLESTONE:
+    price: 0.10
+  GRANITE:
+    price: 0.15
+  DIORITE:
+    price: 0.15
+  ANDESITE:
+    price: 0.15
+  STONE:
+    price: 0.20
+  STONE_BRICKS:
+    price: 0.50
+  MOSSY_STONE_BRICKS:
+    price: 1
+  CRACKED_STONE_BRICKS:
+    price: 1
+  CHISELED_STONE_BRICKS:
+    price: 1
+  MOSSY_COBBLESTONE:
+    price: 0.10
+  BRICKS:
+    price: 2
+  NETHERRACK:
+    price: 0.10
+  NETHER_BRICKS:
+    price: 0.50
+  RED_NETHER_BRICKS:
+    price: 0.50
+  CRACKED_NETHER_BRICKS:
+    price: 1
+  CHISELED_NETHER_BRICKS:
+    price: 1
+  BLACKSTONE:
+    price: 0.50
+  POLISHED_BLACKSTONE:
+    price: 1
+  POLISHED_BLACKSTONE_BRICKS:
+    price: 1
+  CRACKED_POLISHED_BLACKSTONE_BRICKS:
+    price: 1
+  CHISELED_POLISHED_BLACKSTONE:
+    price: 1
+  GILDED_BLACKSTONE:
+    price: 1
+  CRYING_OBSIDIAN:
+    price: 5
+  OBSIDIAN:
+    price: 5
+  QUARTZ_BLOCK:
+    price: 3
+  BONE_BLOCK:
+    price: 6
+  GLOWSTONE:
+    price: 3
+  MAGMA_BLOCK:
+    price: 1
+  SOUL_SAND:
+    price: 0.30
+  SOUL_SOIL:
+    price: 0.30
+  BASALT:
+    price: 0.50
+  NAMETAG:
+    price: 10
+  DIAMOND_HORSE_ARMOUR:
+    price: 200
+  GOLD_HORSE_ARMOUR:
+    price: 150
+  IRON_HORSE_ARMOUR:
+    price: 100

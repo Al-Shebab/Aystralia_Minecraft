@@ -29,7 +29,7 @@ votes:
 # Streaks configuration
 # Important: Streaks does not support JSON storage
 streaks:
-  enabled: false
+  enabled: true
   # Fetch streaks almost everywhere to enable %streak%, %streak_days%, and %streak_today_services% placeholders
   # outside of streak-related commands
   enable-placeholders: true
@@ -40,11 +40,10 @@ streaks:
 
   command:
     # note: will be disabled if streaks are disabled
-    enabled: false
+    enabled: true
     use-json-text: false
     text: |-
-      You currently hold a vote streak of %streak% (%streak_days% days), keep going!
-      You've voted on %streak_today_services% website(s) out of X today.
+      "&fYou've voted &b%streak_days% days in a row!
 
 # Rewards. This is the main section you will need to edit. Ordering is important.
 rewards:
@@ -52,8 +51,8 @@ rewards:
       default: true
     commands:
     - money give %player% 2500
-    - cratesplus key %player% Vote 1
-    - tppos -301.51 138.0 200.54 world 1.45 180.46 %player%
+    - cratesplus key %player% vote 1
+    - tppos 55.5 66.0 -8.5 world %player%
     player-message: "&bThanks for voting. &fTo use your key go to &b/warp crates"
     broadcast-message: "&9&l%player% &fhas voted for us on &b&l%service%. &fThank you!"
 
@@ -80,7 +79,7 @@ broadcast:
     enabled: false
 
     # How many seconds should be between broadcasts?
-    time: 1
+    time: 0
 
 # Vote command.
 # See http://www.minecraftforum.net/forums/minecraft-discussion/redstone-discussion-and/351959-1-9-json-text-component-for-tellraw-title-books
@@ -97,9 +96,9 @@ vote-command:
 
 # Vote reminder.
 vote-reminder:
-  message: "&cDon't forget to vote for us! You currently have &a%votes%&c votes."
-  on-join: false
-  repeat: -1
+  message: "&fDon't forget to vote for today! &fYou currently have &b%votes%&f votes."
+  on-join: true
+  repeat: 3600
 
 # Controls the /sv <top/leaderboard> command.
 leaderboard:

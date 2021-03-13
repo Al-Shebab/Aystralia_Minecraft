@@ -23,3 +23,13 @@ aliases:
   - warplist $1-
   openinv:
   - invsee $1-
+  hub:
+  - server Hub
+  skyblock:
+  - server Skyblock
+  creative:
+  - server Creative
+  anarchy:
+  - server Anarchy
+  prison:
+  - server Prison

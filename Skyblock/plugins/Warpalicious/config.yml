@@ -17,14 +17,14 @@ effects:
     arrival:
         sign:
             effect: portal
-            count: 50
+            count: 10
         command:
             effect: portal
-            count: 50
+            count: 25
     departure:
         sign:
             effect: flame
-            count: 500
+            count: 25
         command:
             effect: flame
-            count: 500
+            count: 25

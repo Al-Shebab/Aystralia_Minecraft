@@ -17,9 +17,9 @@
   "resets": {},
   "locale": "",
   "deaths": {
-    "skyblock": 2
+    "skyblock": 3
   },
   "pendingKicks": [],
-  "flagsDisplayMode": "BASIC",
+  "flagsDisplayMode": "EXPERT",
   "metaData": {}
 }

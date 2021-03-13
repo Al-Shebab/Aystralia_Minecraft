@@ -82,14 +82,14 @@
 #         KilledBy - defines amount of deaths by monster. If specific monster is not defined, then total amount is used
 
 guest:
-  Enabled: true
+  Enabled: false
   DisplayName: '{#5d18ff}&lGuest&r'
   DefaultRank: true
   AutoRankup: true
   NextRanks:
   - member
 member:
-  Enabled: true
+  Enabled: false
   DisplayName: '{#763bff}&lMember&r'
   AutoRankup: true
   RankupConfirmation: false
@@ -103,7 +103,7 @@ member:
   StatsRequirements:
   - PlayTime:1200
 trusted:
-  Enabled: true
+  Enabled: false
   DisplayName: '{#773dff}Trusted&r'
   AutoRankup: true
   RankupConfirmation: false

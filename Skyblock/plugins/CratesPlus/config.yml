@@ -1,0 +1,346 @@
+# [][][][][][][][][][][][][][][][][][][][][]
+#  CratesPlus V4.5.3 Config
+# [][][][][][][][][][][][][][][][][][][][][]
+# ------------------------------------------
+# There are many placeholders that can now be used withing the config and messages file, placeholders are as followed:
+# - %name% - Replaces with the players name, Example: "Notch".
+# - %displayname% - Replaces with the players display name, Example: "[Owner] Notch".
+# - %uuid% - Replaces with the players UUID.
+# - %crate% - The crate types name.
+# - %prize% - The name of the winning.
+# - %percentage% - Percentage of the winning, useful for "Chance Message".
+# - %rand;100;500% - Generates a random number between two numbers, example is between 100 and 500.
+# ------------------------------------------
+# Don't change the config version!
+
+Default Hologram Text:
+- []
+Config Version: 6
+Update Checks: false
+Update Branch: spigot
+Metrics: false
+Default Opener: BasicGUI
+Default Cooldown: 1
+Crate Protection: false
+Disable Key Swapping: false
+Crates:
+  Vote:
+    Knockback: 2.0
+    Block: CHEST
+    Color: WHITE
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: PIG_SPAWN_EGG
+        Item Data: 90
+        Name: '&bVote &fPig Egg'
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: SPAWN_EGG
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Vote
+            "},{"italic":false,"color":"white","text":"Pig Egg"}],"text":""}'
+      '2':
+        Type: ITEM
+        Item Type: CHICKEN_SPAWN_EGG
+        Item Data: 93
+        Name: '&bVote &fChicken Egg'
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: SPAWN_EGG
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Vote
+            "},{"italic":false,"color":"white","text":"Chicken Egg"}],"text":""}'
+      '3':
+        Type: ITEM
+        Item Type: COW_SPAWN_EGG
+        Item Data: 92
+        Name: '&bVote &fCow Egg'
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: SPAWN_EGG
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Vote
+            "},{"italic":false,"color":"white","text":"Cow Egg"}],"text":""}'
+      '4':
+        Type: ITEM
+        Item Type: SHEEP_SPAWN_EGG
+        Item Data: 91
+        Name: '&bVote &fSheep Egg'
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: SPAWN_EGG
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Vote
+            "},{"italic":false,"color":"white","text":"Sheep Egg"}],"text":""}'
+      '5':
+        Type: ITEM
+        Item Type: SHULKER_SHELL
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments: []
+        Lore: []
+      '6':
+        Type: ITEM
+        Item Type: DIAMOND_PICKAXE
+        Percentage: 25
+        Item Data: 0
+        Name: '&bVote &fPickaxe'
+        Amount: 1
+        Enchantments:
+        - DIG_SPEED-5
+        - LOOT_BONUS_BLOCKS-3
+        - MENDING-1
+        - DURABILITY-5
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Vote
+            "},{"italic":false,"color":"white","text":"Pickaxe"}],"text":""}'
+          enchants:
+            DIG_SPEED: 5
+            LOOT_BONUS_BLOCKS: 3
+            MENDING: 1
+            DURABILITY: 5
+      '7':
+        Type: ITEM
+        Item Type: ENCHANTED_BOOK
+        Percentage: 25
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            MENDING: 1
+      '8':
+        Type: ITEM
+        Item Type: NAME_TAG
+        Percentage: 25
+        Item Data: 0
+        Name: '&bVote &fNametag'
+        Amount: 1
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Vote
+            "},{"italic":false,"color":"white","text":"Nametag"}],"text":""}'
+      '9':
+        Type: ITEM
+        Item Type: NETHERITE_SCRAP
+        Percentage: 25
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments: []
+        Lore: []
+      '10':
+        Type: ITEM
+        Item Type: REDSTONE_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 8
+        Enchantments: []
+        Lore: []
+      '11':
+        Type: ITEM
+        Item Type: HONEY_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments: []
+        Lore: []
+      '12':
+        Type: ITEM
+        Item Type: ELYTRA
+        Item Data: 0
+        Name: '&bVote &fElytra'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-3
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Vote
+            "},{"italic":false,"color":"white","text":"Elytra"}],"text":""}'
+          enchants:
+            DURABILITY: 3
+      '13':
+        Type: ITEM
+        Item Type: IRON_INGOT
+        Item Data: 0
+        Name: NONE
+        Amount: 3
+        Enchantments: []
+        Lore: []
+      '14':
+        Type: ITEM
+        Item Type: HOPPER
+        Item Data: 0
+        Name: NONE
+        Amount: 8
+        Enchantments: []
+        Lore: []
+      '15':
+        Type: ITEM
+        Item Type: LIGHT_BLUE_SHULKER_BOX
+        Item Data: 1
+        Name: NONE
+        Amount: 1
+        Enchantments: []
+        Lore: []
+      '16':
+        Type: ITEM
+        Item Type: COOKED_BEEF
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '17':
+        Type: ITEM
+        Item Type: POISONOUS_POTATO
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments: []
+        Lore: []
+      '18':
+        Type: ITEM
+        Item Type: ENDER_PEARL
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '19':
+        Type: ITEM
+        Item Type: DIAMOND
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments: []
+        Lore: []
+      '20':
+        Type: ITEM
+        Item Type: FIREWORK_ROCKET
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+  vote:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: CHEST
+    Color: WHITE
+    Winnings:
+      '1':
+        Type: COMMAND
+        Item Type: STICK
+        Percentage: 5
+        Commands:
+        - sellstick give %name% 1 25
+        Name: '&bSell &fStick'
+        Item Data: 0
+        Amount: 1
+      '2':
+        Type: COMMAND
+        Item Type: CHEST
+        Percentage: 5
+        Commands:
+        - voidc give default %name%
+        Name: '&b&lVoid &fChest'
+        Item Data: 0
+        Amount: 1
+      '3':
+        Type: COMMAND
+        Item Type: SPAWNER
+        Percentage: 5
+        Commands:
+        - es give %name% BLAZE
+        Name: '&cBlaze &fSpawner &cx1'
+        Item Data: 0
+        Amount: 1
+      '4':
+        Type: COMMAND
+        Item Type: SPAWNER
+        Percentage: 5
+        Commands:
+        - es give %name% ZOMBIE
+        Name: '&cZombie &fSpawner &cx1'
+        Item Data: 0
+        Amount: 1
+      '5':
+        Type: COMMAND
+        Item Type: SPAWNER
+        Percentage: 5
+        Commands:
+        - es give %name% COW
+        Name: '&bCow &fSpawner &bx1'
+        Item Data: 0
+        Amount: 1
+      '6':
+        Type: ITEM
+        Item Type: IRON_BLOCK
+        Name: '&bIron &fBlock &bx3'
+        Percentage: 25
+        Item Data: 0`
+        Amount: 3
+      '7':
+        Type: ITEM
+        Item Type: COOKED_CHICKEN
+        Name: '&c&lKFC'
+        Percentage: 25
+        Item Data: 0`
+        Amount: 16
+      '8':
+        Type: ITEM
+        Item Type: NETHERITE_PICKAXE
+        Name: NONE
+        Item Data: 0
+        Percentage: 1
+        Amount: 1
+      '9':
+        Type: ITEM
+        Item Type: LIGHT_BLUE_SHULKER_BOX
+        Name: NONE
+        Item Data: 0
+        Percentage: 9
+        Amount: 1
+      '10':
+        Type: ITEM
+        Item Type: NETHERITE_SCRAP
+        Name: NONE
+        Item Data: 0
+        Percentage: 10
+        Amount: 2

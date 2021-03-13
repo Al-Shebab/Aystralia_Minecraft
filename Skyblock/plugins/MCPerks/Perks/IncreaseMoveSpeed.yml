@@ -1,0 +1,9 @@
+Enabled: true
+TimeLasts: -1
+CoolDown: 0
+Name: '&aSpeed II'
+Description: '&fPermanant Speed II'
+Effects:
+- 'MoveSpeed:2'
+Item:
+  Material: 'DIAMOND_BOOTS'

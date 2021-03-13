@@ -32,7 +32,7 @@ command:
   - '&f/kit claim'
   - '&f/buyclaimblocks'
 vote:
-  location: world, -301.467, 141.075, 198.542
+  location: world, 53.500, 68.500, -8.500
   lines:
   - '&b&ki&f&ki&b Vote &fCrate &f&ki&b&ki'
   - '&bGet keys by voting via &f/vote'
@@ -72,3 +72,7 @@ perks:
   location: world, 48.500, 67.500, -15.500
   lines:
   - '&b&lPerks Manager'
+seller:
+  location: world, 26.500, 66.500, -7.500
+  lines:
+  - '&b&lTrader'

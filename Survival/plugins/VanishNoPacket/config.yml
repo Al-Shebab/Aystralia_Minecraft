@@ -3,9 +3,9 @@
 #   A fine choice of invisibility for the discerning server administrator.
 #   https://www.kitteh.org
 fakeannounce:
-  automaticforsilentjoin: true
-  join: '&f[&a+&f] &a%p &fjoined the game'
-  quit: '&f[&c-&f] &c%p &fleft the game'
+  automaticforsilentjoin: false
+  join: '%p joined the game.'
+  quit: '%p left the game.'
 hooks:
   essentials: false
   dynmap: false
@@ -13,7 +13,7 @@ permissionsupdates:
   checkonworldchange: false
 effects:
   lightning:
-    count: 1
+    count: 30
 permtest: false
 debug: false
 configVersionDoNotTouch:
