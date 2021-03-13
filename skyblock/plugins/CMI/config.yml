@@ -279,7 +279,7 @@ Optimizations:
     Nether: false
     TheEnd: false
   # Will teleport players down from nether 'roof'
-  PreventPlayersOnNetherRoof: true
+  PreventPlayersOnNetherRoof: false
   PreventIronGolem:
     # When set to true, iron golems will not drop roses on death
     Roses: false
@@ -1279,11 +1279,11 @@ Spawn:
   FirstSpawn:
     Use: true
     World: world
-    X: -301.5654824840717
-    Y: 136.0
-    Z: 267.30031989686694
-    Pitch: -2.287545
-    Yaw: 180.20325
+    X: 59.49820407213202
+    Y: 67.0
+    Z: -9.309114563087718
+    Pitch: 8.460738
+    Yaw: 177.6954
 Newbie:
   # Kit name to give for new players joining server
   Kit: Newbie

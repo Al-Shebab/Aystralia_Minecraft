@@ -8,15 +8,15 @@ admin:
     sethandicap:
       parameters: <player> <handicap>
       description: set the island handicap, usually the level of the starter island
-      changed: '&b Initial island handicap changed from [number] to [new_number].'
+      changed: '&a Initial island handicap changed from [number] to [new_number].'
       invalid-level: '&c Invalid handicap. Use an integer.'
   levelstatus:
     description: show how many islands are in the queue for scanning
-    islands-in-queue: '&b Islands in queue: [number]'
+    islands-in-queue: '&a Islands in queue: [number]'
   top:
     description: show the top ten list
     unknown-world: '&c Unknown world!'
-    display: '&f[rank]. &f- &b[level]'
+    display: '&f[rank]. &a[name] &7- &b[level]'
     remove:
       description: remove player from Top Ten
       parameters: <player>
@@ -24,21 +24,21 @@ island:
   level:
     parameters: '[player]'
     description: calculate your island level or show the level of [player]
-    calculating: '&b Calculating level...'
-    estimated-wait: '&b Estimated wait: [number] seconds'
-    in-queue: '&b You are number [number] in the queue'
-    island-level-is: '&b Island level is &b[level]'
-    required-points-to-next-level: '&b [points] points required until the next level'
+    calculating: '&a Calculating level...'
+    estimated-wait: '&a Estimated wait: [number] seconds'
+    in-queue: '&a You are number [number] in the queue'
+    island-level-is: '&a Island level is &b[level]'
+    required-points-to-next-level: '&a [points] points required until the next level'
     deaths: '&c([number] deaths)'
     cooldown: '&c You must wait &b[time] &c seconds until you can do that again'
-    in-progress: '&a Island level calculation is in progress...'
+    in-progress: '&6 Island level calculation is in progress...'
     time-out: '&c The level calculation took too long. Please try again later.'
   top:
     description: show the Top Ten
-    gui-title: '&b Top Ten'
-    gui-heading: '&f[name]: &b[rank]'
-    island-level: '&f Level &b[level]'
-    warp-to: '&b Warping to [name]''s island'
+    gui-title: '&a Top Ten'
+    gui-heading: '&6[name]: &B[rank]'
+    island-level: '&b Level [level]'
+    warp-to: '&A Warping to [name]''s island'
   level-details:
     above-sea-level-blocks: Above Sea Level Blocks
     spawners: Spawners
@@ -50,7 +50,7 @@ island:
     hint: '&c Run level to see the block report'
   value:
     description: shows the value of any block
-    success: '&f The value of this block is: &e[value]'
-    success-underwater: '&f The value of this block below sea-level: &e[value]'
+    success: '&7 The value of this block is: &e[value]'
+    success-underwater: '&7 The value of this block below sea-level: &e[value]'
     empty-hand: '&c There are no blocks in your hand'
     no-value: '&c That item has no value.'

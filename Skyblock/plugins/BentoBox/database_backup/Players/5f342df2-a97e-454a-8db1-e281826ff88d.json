@@ -1,0 +1,25 @@
+{
+  "homeLocations": [
+    [
+      [
+        "skyblock",
+        -1999.5,
+        121.0,
+        2000.5,
+        0.0,
+        0.0
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "5f342df2-a97e-454a-8db1-e281826ff88d",
+  "playerName": "Tyler49765",
+  "resets": {},
+  "locale": "",
+  "deaths": {
+    "skyblock": 2
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC",
+  "metaData": {}
+}

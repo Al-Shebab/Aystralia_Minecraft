@@ -2,4 +2,4 @@ border:
   toggle:
     description: toggles the border on/off
     border-on: '&a Border enabled.'
-    border-off: '&c Border disabled.'
+    border-off: '&a Border disabled.'

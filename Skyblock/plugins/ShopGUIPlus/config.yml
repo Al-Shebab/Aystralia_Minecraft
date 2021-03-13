@@ -63,7 +63,7 @@ allowAllSellAllStackSizes: false
 # Define whether all prices should be rounded up, down, to the nearest whole number or not rounded (valid values are UP, DOWN, NEAREST and NONE)
 roundPrices: none
 # Define whether main menu (/shop command) should be disabled. The only way to access shops will be to use /shop <id> when you disable it.
-disableMainMenu: false
+disableMainMenu: true
 # Choose if different messages should be sent when someone buy/sell items for $0 (MSG_ITEM_BOUGHTFREE, MSG_ITEM_SOLDFREE, MSG_ITEM_SOLDALLFREE)
 useDifferentMessagesForFreeItems: true
 # Choose if item names should have first letters of their names capitalized, for instance nether brick would become Nether Brick

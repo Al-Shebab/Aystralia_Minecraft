@@ -110,7 +110,7 @@ world:
     # Make the nether roof, if false, there is nothing up there
     # Change to false if lag is a problem from the generation
     # Only applies to islands Nether
-    roof: true
+    roof: false
     # Nether spawn protection radius - this is the distance around the nether spawn
     # that will be protected from player interaction (breaking blocks, pouring lava etc.)
     # Minimum is 0 (not recommended), maximum is 100. Default is 25.
@@ -127,8 +127,8 @@ world:
     dragon-spawn: false
   # Mob white list - these mobs will NOT be removed when logging in or doing /island
   remove-mobs-whitelist:
-  - ENDERMAN
   - ZOMBIE_VILLAGER
+  - ENDERMAN
   - WITHER
   # World flags. These are boolean settings for various flags for this world
   flags:
@@ -174,8 +174,8 @@ world:
     END_PORTAL: 500
     BREEDING: 500
     HURT_VILLAGERS: 500
-    FROST_WALKER: 500
     TURTLE_EGGS: 500
+    FROST_WALKER: 500
     COLLECT_LAVA: 500
     LEVER: 500
     RIDING: 500
@@ -187,8 +187,8 @@ world:
     ITEM_DROP: 0
     NOTE_BLOCK: 0
     NETHER_PORTAL: 500
-    ITEM_PICKUP: 0
     CROP_TRAMPLE: 500
+    ITEM_PICKUP: 0
     DROPPER: 500
     BREWING: 500
     COLLECT_WATER: 500
@@ -200,8 +200,8 @@ world:
     ITEM_FRAME: 500
     PLACE_BLOCKS: 500
     CRAFTING: 0
-    ENCHANTING: 0
     SHEARING: 500
+    ENCHANTING: 0
     SPAWN_EGGS: 500
     BED: 500
     MILKING: 0

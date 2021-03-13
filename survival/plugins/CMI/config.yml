@@ -279,7 +279,7 @@ Optimizations:
     Nether: false
     TheEnd: false
   # Will teleport players down from nether 'roof'
-  PreventPlayersOnNetherRoof: true
+  PreventPlayersOnNetherRoof: false
   PreventIronGolem:
     # When set to true, iron golems will not drop roses on death
     Roses: false

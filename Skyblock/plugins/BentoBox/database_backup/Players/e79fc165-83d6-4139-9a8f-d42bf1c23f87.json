@@ -1,24 +1,10 @@
 {
-  "homeLocations": [
-    [
-      [
-        "skyblock",
-        2.5,
-        161.0,
-        6.5,
-        270.0,
-        30.0
-      ],
-      1
-    ]
-  ],
+  "homeLocations": {},
   "uniqueId": "e79fc165-83d6-4139-9a8f-d42bf1c23f87",
   "playerName": "Al_Shebab",
   "resets": {},
   "locale": "",
-  "deaths": {
-    "skyblock": 2
-  },
+  "deaths": {},
   "pendingKicks": [],
   "flagsDisplayMode": "BASIC",
   "metaData": {}
