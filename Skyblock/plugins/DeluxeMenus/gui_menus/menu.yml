@@ -173,11 +173,11 @@ items:
     - ''
     - '&8» &bClick to open'
     left_click_commands:
-    - '[player] perks'
+    - '[openguimenu] upgrades'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[close]'
     right_click_commands:
-    - '[player] perks'
+    - '[openguimenu] upgrades'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[close]'
   'Crafting':

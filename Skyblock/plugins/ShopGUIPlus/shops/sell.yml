@@ -728,7 +728,7 @@ sell:
     107:
       type: item
       item:
-        material: SUGARCANE
+        material: SUGAR_CANE
         quantity: 1
       sellPrice: 0.5
       slot: 12

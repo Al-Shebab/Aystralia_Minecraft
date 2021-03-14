@@ -442,7 +442,7 @@ ReSpawn:
   # Set to 0 if you want to disable it
   Immortality: 0
   # If you want 3rd party plugin to handle player respawning, simply set this to false and reload plugin
-  Enabled: true
+  Enabled: false
   Global:
     # Defines respawn order if defined world is not present in Specific list
     # Possible respawn locations: anchor, bedLocation, spawn, homeLocation, worldSpawn, warp![warpName]

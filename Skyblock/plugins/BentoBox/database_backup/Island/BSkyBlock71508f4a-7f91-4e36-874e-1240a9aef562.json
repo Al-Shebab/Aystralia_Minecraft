@@ -19,7 +19,8 @@
   "owner": "1132a3f9-cf23-42e1-8595-79d07b07844e",
   "members": {
     "1132a3f9-cf23-42e1-8595-79d07b07844e": 1000,
-    "e79fc165-83d6-4139-9a8f-d42bf1c23f87": 500
+    "e79fc165-83d6-4139-9a8f-d42bf1c23f87": 900,
+    "362b5125-f865-4358-b10f-04e3e8beed65": 500
   },
   "spawn": false,
   "purgeProtected": false,

@@ -1,0 +1,13 @@
+{
+  "uniqueId": "skyblock",
+  "signs": {
+    "5f342df2-a97e-454a-8db1-e281826ff88d": {
+      "signText": [],
+      "type": "OAK_SIGN"
+    },
+    "e79fc165-83d6-4139-9a8f-d42bf1c23f87": {
+      "signText": [],
+      "type": "OAK_SIGN"
+    }
+  }
+}

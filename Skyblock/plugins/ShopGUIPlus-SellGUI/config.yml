@@ -70,7 +70,7 @@ options:
 
 messages:
   no_permission: "&cYou do not have permission"
-  sellgui_title: "&cSell"
+  sellgui_title: "&b&lTrader"
   reloaded_config: "&b&lMarket&f Reloaded configuration files."
   no_items_sold: "&b&lMarket &8> &f&fThis is junk!"
   no_items_in_gui: "&b&lMarket &8> &f&fSee you next time!"

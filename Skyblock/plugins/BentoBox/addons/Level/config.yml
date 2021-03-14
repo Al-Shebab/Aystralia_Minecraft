@@ -10,7 +10,7 @@ log-report-to-console: true
 # 
 # Number of concurrent island calculations
 # If your CPU can handle it, you can run parallel island calcs if there are more than one in the queue
-concurrent-island-calcs: 1
+concurrent-island-calcs: 10
 # 
 # Island level calculation timeout in minutes.
 # If an island takes longer that this time to calculate, then the calculation will abort.
@@ -48,7 +48,7 @@ include-chests: true
 underwater: 1.0
 # 
 # Value of one island level. Default 100. Minimum value is 1.
-levelcost: 1
+levelcost: 100
 # 
 # Island level calculation formula
 # blocks - the sum total of all block values, less any death penalty

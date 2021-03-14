@@ -18,14 +18,14 @@ generators:
     label: "beginner"
     blocks:
     # Please use Bukkit-Blocknames. List: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
-    - STONE:73.4
+    - STONE:70.4
     - IRON_ORE:5.0
     - COAL_ORE:7.5
     - GOLD_ORE:5.0
-    - LAPIS_ORE:3.5
-    - REDSTONE_ORE:3.5
-    - EMERALD_ORE:1.5
-    - DIAMOND_ORE:1.0
+    - LAPIS_ORE:4.0
+    - REDSTONE_ORE:4.0
+    - EMERALD_ORE:2.0
+    - DIAMOND_ORE:2.0
     - ANCIENT_DEBRIS:0.1
     permission: ''
     # You can also define from what level the generator should be activated. Example: Leave all permissions empty and

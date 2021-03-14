@@ -10,10 +10,6 @@ items:
     - 2
     - 4
     - 6
-    - 10
-    - 12
-    - 14
-    - 16
     - 18
     - 19
     - 20
@@ -57,285 +53,445 @@ items:
     - '[sound] ENTITY_ARROW_HIT_PLAYER'  
     - '[close]'
     - '[openguimenu] upgrades'
-  'Null':
-    material: 351
-    data: 8
-    slot: 33
-    display_name: '&f'
-    #//
-    #// Homes Upgrade #1
   'Homes1':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFmYzg0NGE2OTlkNDkyODgwMWIzNzJiOTFjOTlhZjYwMWE4ZjY0YTdmMGEwYzJiNjE2MzQyNGUwZGRiOTMifX19
     priority: 1
-    slot: 11
-    display_name: '&b[*] &bHomes #1'
-    view_requirement:
-      requirements:
-        Pex:
-          type: has permission
-          permission: 'askyblock.island.maxhomes.2'
+    slot: 10
+    display_name: '&b[*] &bPaycheck &f[Level 1]'
     lore:
-    - '&8Tier 1 Home Upgrade'
     - ''
-    - '&8* &fPrice: &6100,000 ⛁'
-    - ''
-    - '&8&l▪ &fStatus: &b&lUNLOCKED'
-    - ''
-    - '&8» &bAlready purchased'
-  'Homes11':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
-    priority: 2
-    slot: 11
-    display_name: '&b[*] &bHomes #1'
-    lore:
-    - '&8Tier 1 Home Upgrade'
-    - ''
-    - '&8* &fCurrent: &31'
-    - '&8* &fUpgrade: &b2'
-    - ''
-    - '&8* &fPrice: &6100,000 ⛁'
-    - ''
-    - '&8&l▪ &fStatus: &c&lLOCKED'
-    - ''
-    - '&8» &bClick to buy'
-    left_click_commands:
-    - '[message] &b&lUPGRADES &8&l» &fYou have bought &bHomes #1&f.'
-    - '[sound] ENTITY_PLAYER_LEVELUP' 
-    - '[close]'
-    - '[console] eco take %player_name% 99999'
-    - '[console] pex user %player_name% add Homes.bar.1'
-    - '[console] pex user %player_name% add askyblock.island.maxhomes.2'
-    left_click_requirement:
-      requirements:
-        Economy:
-          type: has money
-          amount: 99999
-      deny_commands:
-      - '[message] &b&lUPGRADES &8&l» &fYou need &b100,000 ⛁ &fto buy this'
-      - '[sound] BLOCK_ANVIL_LAND' 
-      - '[close]'
-    right_click_commands:
-    - '[message] &b&lUPGRADES &8&l» &fYou have bought &bHomes #1&f.'
-    - '[sound] ENTITY_PLAYER_LEVELUP' 
-    - '[close]'
-    - '[console] eco take %player_name% 99999'
-    - '[console] pex user %player_name% add Homes.bar.1'
-    - '[console] pex user %player_name% add askyblock.island.maxhomes.2'
-    right_click_requirement:
-      requirements:
-        Economy:
-          type: has money
-          amount: 99999 
-      deny_commands:
-      - '[message] &b&lUPGRADES &8&l» &fYou need &b100,000 ⛁ &fto buy this'
-      - '[sound] BLOCK_ANVIL_LAND' 
-      - '[close]'
-    #// Homes Upgrade #1
-    #//
-    #// Homes Upgrade #2
+    - '&bAlready Purchased'
+    - '&8» &bDefault Paycheck'
   'Homes2':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFmYzg0NGE2OTlkNDkyODgwMWIzNzJiOTFjOTlhZjYwMWE4ZjY0YTdmMGEwYzJiNjE2MzQyNGUwZGRiOTMifX19
     priority: 1
-    slot: 13
-    display_name: '&b[*] &bHomes #2'
+    slot: 11
+    display_name: '&b[*] &bPaycheck &f[Level 2]'
     view_requirement:
       requirements:
-        Pex:
+        Permission:
           type: has permission
-          permission: 'askyblock.island.maxhomes.4'
+          permission: 'cmi.prewards.paycheck2view'
     lore:
-    - '&8Tier 2 Home Upgrade'
     - ''
-    - '&8* &fPrice: &6200,000 ⛁'
-    - ''
-    - '&8&l▪ &fStatus: &b&lUNLOCKED'
-    - ''
-    - '&8» &bAlready purchased'
+    - '&bAlready Purchased'
+    - '&8» &a$25,000'
   'Homes22':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
     priority: 2
-    slot: 13
-    display_name: '&b[*] &bHomes #2'
+    slot: 11
+    display_name: '&b[*] &bPaycheck &f[Level 2]'
     view_requirement:
       requirements:
-        Pex:
+        Permission:
           type: has permission
-          permission: 'askyblock.island.maxhomes.2'
+          permission: 'cmi.prewards.paycheck'
     lore:
-    - '&8Tier 2 Home Upgrade'
     - ''
-    - '&8* &fCurrent: &32'
-    - '&8* &fUpgrade: &b4'
+    - '&bCurrent Paycheck: &fLevel 1'
+    - '&bUpgrade: &fLevel 2'
     - ''
-    - '&8* &fPrice: &6200,000 ⛁'
-    - ''
-    - '&8&l▪ &fStatus: &c&lLOCKED'
+    - '&bPrice: &f$25,000'
     - ''
     - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lUPGRADES &8&l» &fYou have bought &bHomes #2&f.'
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPaycheck &f[Level 2]&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] eco take %player_name% 199999'
-    - '[console] pex user %player_name% add Homes.bar.2'
-    - '[console] pex user %player_name% add askyblock.island.maxhomes.4'
+    - '[console] money take %player_name% 25000'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck2 true'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck2view true'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck false'
     left_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 199999
-        Pex:
+          amount: 25000
+        Permission:
           type: has permission
-          permission: 'askyblock.island.maxhomes.2'
+          permission: 'cmi.prewards.paycheck'
       deny_commands:
-      - '[message] &b&lUPGRADES &8&l» &fYou need &b200,000 ⛁ &fto buy this'
+      - '[message] &b&lUpgrades &8> &fYou need &b$25,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPaycheck &f[Level 2]&f.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] eco take %player_name% 199999'
-    - '[console] pex user %player_name% add Homes.bar.2'
-    - '[console] pex user %player_name% add askyblock.island.maxhomes.4'
+    - '[console] money take %player_name% 25000'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck2 true'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck2view true'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck false'
     right_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 199999 
-        Pex:
+          amount: 25000
+        Permission:
           type: has permission
-          permission: 'askyblock.island.maxhomes.2'
+          permission: 'cmi.prewards.paycheck'
       deny_commands:
-      - '[message] &b&lUPGRADES &8&l» &fYou need &b200,000 ⛁ &fto buy this'
+      - '[message] &b&lUpgrades &8> &fYou need &b$25,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'Homes222':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmViOTExZWE5NGI1YTFjZjc3ZjNjYTYzN2EzYjE2NjJiMzUxMjFiZDcyZTExODY1MTE4NGYyZmIxMDYwZDEifX19
-    priority: 3
-    slot: 13
-    display_name: '&b[*] &bHomes #2'
-    lore:
-    - '&8Tier 2 Home Upgrade'
-    - ''
-    - '&8* &fCurrent: &32'
-    - '&8* &fUpgrade: &b4'
-    - ''
-    - '&8* &fPrice: &6200,000 ⛁'
-    - ''
-    - '&8&l▪ &fStatus: &c&lLOCKED'
-    - ''
-    - '&8» &cYou cant buy this'
-    left_click_commands:
-    - '[message] &b&lUPGRADES &8&l» &fFirst buy the previous upgrade(s)'
-    - '[sound] BLOCK_ANVIL_LAND' 
-    - '[close]'
-    right_click_commands:
-    - '[message] &b&lUPGRADES &8&l» &fFirst buy the previous upgrade(s)'
-    - '[sound] BLOCK_ANVIL_LAND' 
-    - '[close]'
-    #// Homes Upgrade #2
-    #//
-    #// Homes Upgrade #3
   'Homes3':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFmYzg0NGE2OTlkNDkyODgwMWIzNzJiOTFjOTlhZjYwMWE4ZjY0YTdmMGEwYzJiNjE2MzQyNGUwZGRiOTMifX19
     priority: 1
-    slot: 15
-    display_name: '&b[*] &bHomes #3'
+    slot: 12
+    display_name: '&b[*] &bPaycheck &f[Level 3]'
     view_requirement:
       requirements:
-        Pex:
+        Permission:
           type: has permission
-          permission: 'askyblock.island.maxhomes.6'
+          permission: 'cmi.prewards.paycheck3view'
     lore:
-    - '&8Tier 3 Home Upgrade'
     - ''
-    - '&8* &fPrice: &6300,000 ⛁'
-    - ''
-    - '&8&l▪ &fStatus: &b&lUNLOCKED'
-    - ''
-    - '&8» &bAlready purchased'
+    - '&bAlready Purchased'
+    - '&8» &a$50,000'
   'Homes33':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
     priority: 2
-    slot: 15
-    display_name: '&b[*] &bHomes #3'
+    slot: 12
+    display_name: '&b[*] &bPaycheck &f[Level 3]'
     view_requirement:
       requirements:
-        Pex:
+        Permission:
           type: has permission
-          permission: 'askyblock.island.maxhomes.4'
+          permission: 'cmi.prewards.paycheck2'
     lore:
-    - '&8Tier 3 Home Upgrade'
     - ''
-    - '&8* &fCurrent: &34'
-    - '&8* &fUpgrade: &b6'
+    - '&bCurrent Paycheck: &fLevel 2'
+    - '&bUpgrade: &fLevel 3'
     - ''
-    - '&8* &fPrice: &6300,000 ⛁'
-    - ''
-    - '&8&l▪ &fStatus: &c&lLOCKED'
+    - '&bPrice: &f$50,000'
     - ''
     - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lUPGRADES &8&l» &fYou have bought &bHomes #3&f.'
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPaycheck &f[Level 3]&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] eco take %player_name% 299999'
-    - '[console] pex user %player_name% add Homes.bar.3'
-    - '[console] pex user %player_name% add askyblock.island.maxhomes.6'
+    - '[console] money take %player_name% 50000'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck3 true'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck3view true'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck2 false'
     left_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 299999
-        Pex:
+          amount: 50000
+        Permission:
           type: has permission
-          permission: 'askyblock.island.maxhomes.4'
+          permission: 'cmi.prewards.paycheck2'
       deny_commands:
-      - '[message] &b&lUPGRADES &8&l» &fYou need &b300,000 ⛁ &fto buy this'
+      - '[message] &b&lUpgrades &8> &fYou need &b$50,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lUPGRADES &8&l» &fYou have bought &bHomes #3&f.'
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPaycheck &f[Level 3]&f.'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] eco take %player_name% 299999'
-    - '[console] pex user %player_name% add Homes.bar.3'
-    - '[console] pex user %player_name% add askyblock.island.maxhomes.6'
+    - '[console] money take %player_name% 50000'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck3 true'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck3view true'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck2 false'
     right_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 299999 
-        Pex:
+          amount: 50000
+        Permission:
           type: has permission
-          permission: 'askyblock.island.maxhomes.4'
+          permission: 'cmi.prewards.paycheck2'
       deny_commands:
-      - '[message] &b&lUPGRADES &8&l» &fYou need &b300,000 ⛁ &fto buy this'
+      - '[message] &b&lUpgrades &8> &fYou need &b$50,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'Homes333':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmViOTExZWE5NGI1YTFjZjc3ZjNjYTYzN2EzYjE2NjJiMzUxMjFiZDcyZTExODY1MTE4NGYyZmIxMDYwZDEifX19
-    priority: 3
-    slot: 15
-    display_name: '&b[*] &bHomes #3'
+  'Homes4':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFmYzg0NGE2OTlkNDkyODgwMWIzNzJiOTFjOTlhZjYwMWE4ZjY0YTdmMGEwYzJiNjE2MzQyNGUwZGRiOTMifX19
+    priority: 1
+    slot: 13
+    display_name: '&b[*] &bPaycheck &f[Level 4]'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'cmi.prewards.paycheck4view'
     lore:
-    - '&8Tier 3 Home Upgrade'
     - ''
-    - '&8* &fCurrent: &34'
-    - '&8* &fUpgrade: &b6'
+    - '&bAlready Purchased'
+    - '&8» &a$100,000'
+  'Homes44':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
+    priority: 2
+    slot: 13
+    display_name: '&b[*] &bPaycheck &f[Level 4]'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'cmi.prewards.paycheck3'
+    lore:
     - ''
-    - '&8* &fPrice: &6300,000 ⛁'
+    - '&bCurrent Paycheck: &fLevel 3'
+    - '&bUpgrade: &fLevel 4'
     - ''
-    - '&8&l▪ &fStatus: &c&lLOCKED'
+    - '&bPrice: &f$100,000'
     - ''
-    - '&8» &cYou cant buy this'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lUPGRADES &8&l» &fFirst buy the previous upgrade(s)'
-    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPaycheck &f[Level 4]&f.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
+    - '[console] money take %player_name% 100000'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck4 true'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck4view true'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck3 false'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 100000
+        Permission:
+          type: has permission
+          permission: 'cmi.prewards.paycheck3'
+      deny_commands:
+      - '[message] &b&lUpgrades &8> &fYou need &b$100,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
     right_click_commands:
-    - '[message] &b&lUPGRADES &8&l» &fFirst buy the previous upgrade(s)'
-    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPaycheck &f[Level 4]&f.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    #//
-    #// Homes Upgrade #3
-    #//
+    - '[console] money take %player_name% 100000'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck4 true'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck4view true'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck3 false'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 100000
+        Permission:
+          type: has permission
+          permission: 'cmi.prewards.paycheck3'
+      deny_commands:
+      - '[message] &b&lUpgrades &8> &fYou need &b$100,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'Homes5':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFmYzg0NGE2OTlkNDkyODgwMWIzNzJiOTFjOTlhZjYwMWE4ZjY0YTdmMGEwYzJiNjE2MzQyNGUwZGRiOTMifX19
+    priority: 1
+    slot: 14
+    display_name: '&b[*] &bPaycheck &f[Level 5]'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'cmi.prewards.paycheck5view'
+    lore:
+    - ''
+    - '&bAlready Purchased'
+    - '&8» &a$200,000'
+  'Homes55':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
+    priority: 2
+    slot: 14
+    display_name: '&b[*] &bPaycheck &f[Level 5]'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'cmi.prewards.paycheck4'
+    lore:
+    - ''
+    - '&bCurrent Paycheck: &fLevel 4'
+    - '&bUpgrade: &fLevel 5'
+    - ''
+    - '&bPrice: &f$200,000'
+    - ''
+    - '&8» &bClick to buy'
+    left_click_commands:
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPaycheck &f[Level 5]&f.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] money take %player_name% 200000'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck5 true'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck5view true'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck4 false'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 200000
+        Permission:
+          type: has permission
+          permission: 'cmi.prewards.paycheck4'
+      deny_commands:
+      - '[message] &b&lUpgrades &8> &fYou need &b$200,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPaycheck &f[Level 5]&f.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] money take %player_name% 200000'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck5 true'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck5view true'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck4 false'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 200000
+        Permission:
+          type: has permission
+          permission: 'cmi.prewards.paycheck4'
+      deny_commands:
+      - '[message] &b&lUpgrades &8> &fYou need &b$200,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'Homes6':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFmYzg0NGE2OTlkNDkyODgwMWIzNzJiOTFjOTlhZjYwMWE4ZjY0YTdmMGEwYzJiNjE2MzQyNGUwZGRiOTMifX19
+    priority: 1
+    slot: 15
+    display_name: '&b[*] &bPaycheck &f[Level 6]'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'cmi.prewards.paycheck6view'
+    lore:
+    - ''
+    - '&bAlready Purchased'
+    - '&8» &a$400,000'
+  'Homes66':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
+    priority: 2
+    slot: 15
+    display_name: '&b[*] &bPaycheck &f[Level 6]'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'cmi.prewards.paycheck5'
+    lore:
+    - ''
+    - '&bCurrent Paycheck: &fLevel 5'
+    - '&bUpgrade: &fLevel 6'
+    - ''
+    - '&bPrice: &f$400,000'
+    - ''
+    - '&8» &bClick to buy'
+    left_click_commands:
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPaycheck &f[Level 6]&f.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] money take %player_name% 400000'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck6 true'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck6view true'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck5 false'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 400000
+        Permission:
+          type: has permission
+          permission: 'cmi.prewards.paycheck5'
+      deny_commands:
+      - '[message] &b&lUpgrades &8> &fYou need &b$400,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPaycheck &f[Level 6]&f.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] money take %player_name% 400000'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck6 true'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck6view true'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck5 false'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 400000
+        Permission:
+          type: has permission
+          permission: 'cmi.prewards.paycheck5'
+      deny_commands:
+      - '[message] &b&lUpgrades &8> &fYou need &b$400,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'Homes7':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFmYzg0NGE2OTlkNDkyODgwMWIzNzJiOTFjOTlhZjYwMWE4ZjY0YTdmMGEwYzJiNjE2MzQyNGUwZGRiOTMifX19
+    priority: 1
+    slot: 16
+    display_name: '&b[*] &bPaycheck &f[Level 7]'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'cmi.prewards.paycheck7view'
+    lore:
+    - ''
+    - '&bAlready Purchased'
+    - '&8» &a$800,000'
+  'Homes77':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
+    priority: 2
+    slot: 16
+    display_name: '&b[*] &bPaycheck &f[Level 7]'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'cmi.prewards.paycheck6'
+    lore:
+    - ''
+    - '&bCurrent Paycheck: &fLevel 6'
+    - '&bUpgrade: &fLevel 7'
+    - ''
+    - '&bPrice: &f$800,000'
+    - ''
+    - '&8» &bClick to buy'
+    left_click_commands:
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPaycheck &f[Level 7]&f.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] money take %player_name% 800000'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck7 true'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck7view true'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck6 false'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 800000
+        Permission:
+          type: has permission
+          permission: 'cmi.prewards.paycheck6'
+      deny_commands:
+      - '[message] &b&lUpgrades &8> &fYou need &b$800,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    left_click_commands:
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPaycheck &f[Level 7]&f.'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] money take %player_name% 800000'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck7 true'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck7view true'
+    - '[console] lp user %player_name% permission set cmi.prewards.paycheck6 false'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 800000
+        Permission:
+          type: has permission
+          permission: 'cmi.prewards.paycheck6'
+      deny_commands:
+      - '[message] &b&lUpgrades &8> &fYou need &b$800,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
