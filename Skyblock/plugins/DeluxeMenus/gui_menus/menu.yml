@@ -95,16 +95,15 @@ items:
     lore:
     - ''
     - '&fUse this menu to teleport'
-    - '&finstantly to some zones of'
-    - '&fthe server.'
+    - '&fto other islands!'
     - ''
     - '&8» &bClick to open'
     left_click_commands:
-    - '[message] &BTemporarily Unavailible'
+    - '[player] is warps'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[close]'
     right_click_commands:
-    - '[message] &BTemporarily Unavailible'
+    - '[player] is warps'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[close]'
   'Enderchest':

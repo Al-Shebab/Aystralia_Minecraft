@@ -129,22 +129,22 @@ world-settings:
         flying-monsters-every: 200
         flying-monsters-for: 100
     growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      beetroot-modifier: 100
-      carrot-modifier: 100
-      potato-modifier: 100
-      wheat-modifier: 100
-      netherwart-modifier: 100
-      vine-modifier: 100
-      cocoa-modifier: 100
-      bamboo-modifier: 100
-      sweetberry-modifier: 100
-      kelp-modifier: 100
+      cactus-modifier: 250
+      cane-modifier: 250
+      melon-modifier: 250
+      mushroom-modifier: 250
+      pumpkin-modifier: 250
+      sapling-modifier: 250
+      beetroot-modifier: 250
+      carrot-modifier: 250
+      potato-modifier: 250
+      wheat-modifier: 250
+      netherwart-modifier: 250
+      vine-modifier: 250
+      cocoa-modifier: 250
+      bamboo-modifier: 250
+      sweetberry-modifier: 250
+      kelp-modifier: 250
     ticks-per:
       hopper-transfer: 8
       hopper-check: 1

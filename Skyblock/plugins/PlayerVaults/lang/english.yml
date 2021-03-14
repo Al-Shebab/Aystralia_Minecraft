@@ -7,7 +7,7 @@
 # %m will be replaced by the blacklisted material (where applicable)
 # Made with love :)
 
-title-name: "&f[&bPlayerVaultsX&f]:"
+title-name: "&b&lVaults &8> &f"
 open-vault: "&fOpening vault &a%v"
 open-other-vault: "&fOpening vault &a%v &fof &a%p"
 delete-vault: "&fDeleted vault &a%v"

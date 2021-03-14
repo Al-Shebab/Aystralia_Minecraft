@@ -96,26 +96,6 @@ items:
     - '[message] &b&lBUY &8&l» &fBuy rank in &bshop.server.org'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[close]'
-  'Cosmetics':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZjYzQ4NmMyYmUxY2I5ZGZjYjJlNTNkZDlhM2U5YTg4M2JmYWRiMjdjYjk1NmYxODk2ZDYwMmI0MDY3In19fQ==
-    slot: 13
-    display_name: '&b[*] &bCosmetics'
-    lore:
-    - ''
-    - '&fUse this menu to select'
-    - '&fa name color and tag.'
-    - ''
-    - '&8* &fMin Requiered Rank: &b&lVIP'
-    - ''  
-    - '&8» &bClick to open'
-    left_click_commands:
-    - '[openguimenu] cosmetics'
-    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
-    - '[close]'
-    right_click_commands:
-    - '[openguimenu] cosmetics'
-    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
-    - '[close]'
   'Settings':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmI3OGZhNWRlZmU3MmRlYmNkOWM3NmFiOWY0ZTExNDI1MDQ3OWJiOWI0NGY0Mjg4N2JiZjZmNzM4NjEyYiJ9fX0=
     slot: 15

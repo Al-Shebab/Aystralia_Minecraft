@@ -1,4 +1,16 @@
 {
   "uniqueId": "warps",
-  "warpSigns": {}
+  "warpSigns": [
+    [
+      [
+        "skyblock",
+        1994.0,
+        161.0,
+        -2000.0,
+        0.0,
+        0.0
+      ],
+      "e79fc165-83d6-4139-9a8f-d42bf1c23f87"
+    ]
+  ]
 }
