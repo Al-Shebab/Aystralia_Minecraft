@@ -42,7 +42,7 @@
     "JUKEBOX": 500,
     "ITEM_FRAME": 500,
     "LECTERN": 500,
-    "SPAWN_EGGS": 500,
+    "SPAWN_EGGS": 0,
     "EXPERIENCE_PICKUP": 500,
     "CAKE": 500,
     "BOAT": 500,

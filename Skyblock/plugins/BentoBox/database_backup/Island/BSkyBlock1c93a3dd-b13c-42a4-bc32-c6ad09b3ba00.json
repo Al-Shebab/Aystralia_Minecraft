@@ -107,7 +107,32 @@
   },
   "history": [],
   "levelHandicap": 0,
-  "spawnPoint": {},
+  "spawnPoint": {
+    "NORMAL": [
+      "skyblock",
+      -1997.5,
+      161.0,
+      -3993.5,
+      270.0,
+      30.0
+    ],
+    "NETHER": [
+      "skyblock_nether",
+      -1999.5,
+      125.0,
+      -3997.5,
+      0.0,
+      30.0
+    ],
+    "THE_END": [
+      "skyblock_the_end",
+      -2000.5,
+      126.0,
+      -4000.5,
+      315.0,
+      30.0
+    ]
+  },
   "doNotLoad": false,
   "cooldowns": {}
 }

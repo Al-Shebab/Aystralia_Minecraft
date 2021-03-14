@@ -12,6 +12,7 @@ listeners:
   ping_passthrough: false
   priorities:
   - Hub
+  - Hub2
   bind_local_address: true
   host: 139.99.144.49:25565
   max_players: 999
@@ -51,6 +52,12 @@ servers:
                    &b&lAystralia Network&r
         &9&lSurvival &f| &9&lSkyblock &f| &9&lPrison &f| &9&lCreative
     address: localhost:25560
+    restricted: false
+  Hub2:
+    motd: |2-
+                   &b&lAystralia Network&r
+        &9&lSurvival &f| &9&lSkyblock &f| &9&lPrison &f| &9&lCreative
+    address: localhost:25567
     restricted: false
   Survival:
     motd: |2-
