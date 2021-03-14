@@ -584,10 +584,7 @@ Votifier:
   # Defines commands to be performed when player votes
   # Supports specialized commands and placeholders
   # [serviceName] variable can be used to insert address
-  CommandsOnVote:
-  - cmi broadcast !{#fa7814}[playerDisplayName] {#fae600}voted!
-  - ccrate give v Vote 1 [playerName]
-  - money give [playerName] 1000
+  CommandsOnVote: []
   # Keep it at false if you dont want to give out extra rewards
   ExtraRewardsEnabled: false
   # Commands will be performed when player collect determined amount of votes

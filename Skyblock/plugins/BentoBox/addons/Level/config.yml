@@ -48,7 +48,7 @@ include-chests: true
 underwater: 1.0
 # 
 # Value of one island level. Default 100. Minimum value is 1.
-levelcost: 100
+levelcost: 1
 # 
 # Island level calculation formula
 # blocks - the sum total of all block values, less any death penalty

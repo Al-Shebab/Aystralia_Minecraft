@@ -1,5 +1,5 @@
 @echo off
-title Hub 1 Server
+title Hub Server
 color 0A
 prompt [server]:
 cls

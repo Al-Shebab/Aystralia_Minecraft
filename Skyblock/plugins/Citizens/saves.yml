@@ -12,13 +12,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 12.434082
+        bodyYaw: -10.885635
         world: world
         x: '32.5'
         y: '64.0'
         z: '-7.5'
-        yaw: '52.4341'
-        pitch: '-6.0296'
+        yaw: '-26.1422'
+        pitch: '0.0'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -52,6 +52,15 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
+          '1':
+            command: shopgui basics
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
@@ -70,13 +79,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 75.07626
+        bodyYaw: -91.84279
         world: world
         x: '17.5'
         y: '64.0'
         z: '1.5'
-        yaw: '36.924'
-        pitch: '-0.6525'
+        yaw: '-87.0827'
+        pitch: '-17.68'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -128,12 +137,12 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 101.43767
+        bodyYaw: 125.676636
         world: world
         x: '34.5'
         y: '64.0'
         z: '-1.5'
-        yaw: '141.4377'
+        yaw: '165.6766'
         pitch: '0.0'
       spawned: true
       skintrait:
@@ -186,12 +195,12 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -14.443924
+        bodyYaw: -37.30797
         world: world
         x: '18.5'
         y: '64.0'
         z: '-6.5'
-        yaw: '25.5561'
+        yaw: '-38.6729'
         pitch: '0.0'
       spawned: true
       skintrait:
@@ -254,12 +263,12 @@ npc:
         updateSkins: false
       type: PLAYER
       location:
-        bodyYaw: 2.6112518
+        bodyYaw: -9.403458
         world: world
         x: '48.5'
         y: '65.0'
         z: '-15.5'
-        yaw: '36.0412'
+        yaw: '30.5965'
         pitch: '0.0'
       lookclose:
         range: '5.0'
@@ -326,12 +335,12 @@ npc:
       spawned: true
       type: PLAYER
       location:
-        bodyYaw: 17.028091
+        bodyYaw: -24.131111
         world: world
         x: '26.5'
         y: '64.0'
         z: '-7.5'
-        yaw: '48.0294'
+        yaw: '-32.6436'
         pitch: '0.0'
       commandtrait:
         cost: -1.0

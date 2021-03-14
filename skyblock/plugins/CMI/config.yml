@@ -311,7 +311,7 @@ Optimizations:
 PlaytimeRewards:
   # Enable or disable playtime rewards.
   # This is required if you want to have auto rewards
-  Enabled: false
+  Enabled: true
   # When enabled, while player is in afk mode, repeatable playtime rewards will not increase in playtime
   # ATENTION! this setting will not have any effect if you have Afk.StopPlayTime set to true
   # When StopPlayTime set to true, afk will be expluded automatically
@@ -571,7 +571,7 @@ Holograms:
     placeUp: true
 Votifier:
   # When set to true votifier votes will be counted for player
-  CountVotes: true
+  CountVotes: false
   # Number of votes one IP can make in last 24 hours
   # Set it to 0 to have unlimited amount
   MaxVotesInADay: 0
@@ -584,10 +584,7 @@ Votifier:
   # Defines commands to be performed when player votes
   # Supports specialized commands and placeholders
   # [serviceName] variable can be used to insert address
-  CommandsOnVote:
-  - cmi broadcast !{#fa7814}[playerDisplayName] {#fae600}voted!
-  - ccrate give v Vote 1 [playerName]
-  - money give [playerName] 1000
+  CommandsOnVote: []
   # Keep it at false if you dont want to give out extra rewards
   ExtraRewardsEnabled: false
   # Commands will be performed when player collect determined amount of votes
