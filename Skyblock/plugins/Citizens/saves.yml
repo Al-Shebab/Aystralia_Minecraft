@@ -12,12 +12,12 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 3.6465607
+        bodyYaw: 13.977295
         world: world
         x: '32.5'
         y: '64.0'
         z: '-7.5'
-        yaw: '35.9013'
+        yaw: '27.6483'
         pitch: '0.0'
       spawned: true
       skintrait:
@@ -137,12 +137,12 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 100.03906
+        bodyYaw: 102.92859
         world: world
         x: '34.5'
         y: '64.0'
         z: '-1.5'
-        yaw: '137.0532'
+        yaw: '117.711'
         pitch: '0.0'
       spawned: true
       skintrait:
@@ -335,12 +335,12 @@ npc:
       spawned: true
       type: PLAYER
       location:
-        bodyYaw: -19.892967
+        bodyYaw: -26.433975
         world: world
         x: '26.5'
         y: '64.0'
         z: '-7.5'
-        yaw: '-39.5107'
+        yaw: '-66.434'
         pitch: '0.0'
       commandtrait:
         cost: -1.0
