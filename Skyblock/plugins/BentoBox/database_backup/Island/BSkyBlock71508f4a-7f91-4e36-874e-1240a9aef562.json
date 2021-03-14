@@ -18,7 +18,8 @@
   "updatedDate": 1615539523720,
   "owner": "1132a3f9-cf23-42e1-8595-79d07b07844e",
   "members": {
-    "1132a3f9-cf23-42e1-8595-79d07b07844e": 1000
+    "1132a3f9-cf23-42e1-8595-79d07b07844e": 1000,
+    "e79fc165-83d6-4139-9a8f-d42bf1c23f87": 500
   },
   "spawn": false,
   "purgeProtected": false,

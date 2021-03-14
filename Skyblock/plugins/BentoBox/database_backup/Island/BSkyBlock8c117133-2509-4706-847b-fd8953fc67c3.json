@@ -16,10 +16,7 @@
   "gameMode": "BSkyBlock",
   "createdDate": 1615650617238,
   "updatedDate": 1615650617238,
-  "owner": "e79fc165-83d6-4139-9a8f-d42bf1c23f87",
-  "members": {
-    "e79fc165-83d6-4139-9a8f-d42bf1c23f87": 1000
-  },
+  "members": {},
   "spawn": false,
   "purgeProtected": false,
   "flags": {
@@ -105,7 +102,13 @@
     "PLACE_BLOCKS": 500,
     "SHEARING": 500
   },
-  "history": [],
+  "history": [
+    {
+      "timestamp": 1615695399348,
+      "type": "UNOWNED",
+      "data": {}
+    }
+  ],
   "levelHandicap": 0,
   "spawnPoint": {
     "NORMAL": [

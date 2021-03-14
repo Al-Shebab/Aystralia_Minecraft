@@ -42,3 +42,7 @@ expansions:
     server_name: A Minecraft Server
   bungee:
     check_interval: 30
+  math:
+    Precision: 3
+    Rounding: half_up
+    Debug: false
