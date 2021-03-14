@@ -27,7 +27,7 @@ world:
   world-name: skyblock
   # World difficulty setting - PEACEFUL, EASY, NORMAL, HARD
   # Other plugins may override this setting
-  difficulty: NORMAL
+  difficulty: HARD
   spawn-limits:
     # Spawn limits. These override the limits set in bukkit.yml
     # If set to a negative number, the server defaults will be used
@@ -42,11 +42,11 @@ world:
     # Setting to 0 will disable animal spawns, but this is not recommended. Minecraft default is 400.
     # A negative value uses the server default
     # Added since 1.11.2.
-    ticks-per-animal-spawns: 400
+    ticks-per-animal-spawns: -1
     # Setting to 0 will disable monster spawns, but this is not recommended. Minecraft default is 400.
     # A negative value uses the server default
     # Added since 1.11.2.
-    ticks-per-monster-spawns: 400
+    ticks-per-monster-spawns: -1
   # Radius of island in blocks. (So distance between islands is twice this)
   # It is the same for every dimension : Overworld, Nether and End.
   # This value cannot be changed mid-game and the plugin will not start if it is different.
