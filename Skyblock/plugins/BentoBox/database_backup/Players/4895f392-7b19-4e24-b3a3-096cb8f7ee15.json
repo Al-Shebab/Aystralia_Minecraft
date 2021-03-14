@@ -1,0 +1,25 @@
+{
+  "homeLocations": [
+    [
+      [
+        "skyblock",
+        0.5,
+        125.0,
+        -3997.5,
+        0.0,
+        30.0
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "4895f392-7b19-4e24-b3a3-096cb8f7ee15",
+  "playerName": "DeeJoker",
+  "resets": {},
+  "locale": "",
+  "deaths": {
+    "skyblock": 3
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC",
+  "metaData": {}
+}

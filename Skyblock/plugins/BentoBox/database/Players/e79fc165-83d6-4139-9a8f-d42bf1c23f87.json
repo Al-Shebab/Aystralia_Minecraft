@@ -4,7 +4,7 @@
       [
         "skyblock",
         2000.5,
-        120.0,
+        161.0,
         4000.5,
         0.0,
         0.0
@@ -20,6 +20,6 @@
     "skyblock": 0
   },
   "pendingKicks": [],
-  "flagsDisplayMode": "BASIC",
+  "flagsDisplayMode": "ADVANCED",
   "metaData": {}
 }

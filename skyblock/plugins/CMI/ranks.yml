@@ -82,14 +82,14 @@
 #         KilledBy - defines amount of deaths by monster. If specific monster is not defined, then total amount is used
 
 guest:
-  Enabled: false
+  Enabled: true
   DisplayName: '{#5d18ff}&lGuest&r'
   DefaultRank: true
   AutoRankup: true
   NextRanks:
   - member
 member:
-  Enabled: false
+  Enabled: true
   DisplayName: '{#763bff}&lMember&r'
   AutoRankup: true
   RankupConfirmation: false
@@ -99,11 +99,11 @@ member:
   Commands:
   - broadcast! &b[playerDisplayName] &fleveled up to {#763bff}&lMember&r
   - cmi money give [playerName] 10000
-  - luckperms user [playerName] parent set member
+  - luckperms user [playerName] parent add member
   StatsRequirements:
   - PlayTime:1200
 trusted:
-  Enabled: false
+  Enabled: true
   DisplayName: '{#773dff}Trusted&r'
   AutoRankup: true
   RankupConfirmation: false
@@ -113,6 +113,6 @@ trusted:
   Commands:
   - broadcast! &b[playerDisplayName] &fleveled up to {#773dff}Trusted&r
   - cmi money give [playerName] 25000
-  - luckperms user [playerName] parent set trusted
+  - luckperms user [playerName] parent add trusted
   StatsRequirements:
   - PlayTime:86400

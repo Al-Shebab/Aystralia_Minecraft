@@ -38,15 +38,15 @@ world:
     # Added since 1.11.2.
     water-animals: -1
     # Added since 1.11.2.
-    ambient: -1
+    ambient: 0
     # Setting to 0 will disable animal spawns, but this is not recommended. Minecraft default is 400.
     # A negative value uses the server default
     # Added since 1.11.2.
-    ticks-per-animal-spawns: -1
+    ticks-per-animal-spawns: 400
     # Setting to 0 will disable monster spawns, but this is not recommended. Minecraft default is 400.
     # A negative value uses the server default
     # Added since 1.11.2.
-    ticks-per-monster-spawns: -1
+    ticks-per-monster-spawns: 400
   # Radius of island in blocks. (So distance between islands is twice this)
   # It is the same for every dimension : Overworld, Nether and End.
   # This value cannot be changed mid-game and the plugin will not start if it is different.
@@ -126,10 +126,7 @@ world:
     # /!\ This feature is experimental and might not work as expected or might not work at all.
     dragon-spawn: false
   # Mob white list - these mobs will NOT be removed when logging in or doing /island
-  remove-mobs-whitelist:
-  - ENDERMAN
-  - ZOMBIE_VILLAGER
-  - WITHER
+  remove-mobs-whitelist: []
   # World flags. These are boolean settings for various flags for this world
   flags:
     CREEPER_DAMAGE: true
@@ -148,7 +145,7 @@ world:
     OFFLINE_REDSTONE: true
     REMOVE_END_EXIT_ISLAND: true
     OFFLINE_GROWTH: true
-    REMOVE_MOBS: true
+    REMOVE_MOBS: false
     ENDER_CHEST: false
     ITEM_FRAME_DAMAGE: false
     TREES_GROWING_OUTSIDE_RANGE: false
@@ -415,7 +412,9 @@ protection:
   # BSkyBlock blocked mobs.
   # List of mobs that should not spawn in BSkyBlock.
   # Added since 1.13.1.
-  block-mobs: []
+  block-mobs:
+  - BAT
+  - GHAST
   # Invincible visitors. List of damages that will not affect visitors.
   # Make list blank if visitors should receive all damages
   invincible-visitors:

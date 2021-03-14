@@ -14,6 +14,7 @@ regions:
         members: {}
         flags:
             blocked-cmds: [/sellgui]
+            mob-spawning: allow
         owners: {}
         type: global
         priority: 0
