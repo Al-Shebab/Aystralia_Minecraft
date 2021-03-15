@@ -6,65 +6,65 @@
 #Head SQLDatabase is supported to get heads, the headitem for a head in headdatabase would be hdb-<headnumber>
 Skins:
   Miner: #The skin identifier
-    DisplayName: "&3%PLAYERNAME%'s Miner"
+    DisplayName: "&b%PLAYERNAME%'s Miner"
     HeadItem: "%HEAD%" #Use %HEAD% to get the player's head in game, or simply the name of a minecraft account to get the skin of that (without %'s) - You can also use HeadDatabase by using hdb-<headnumber>
-    HeadDisplayName: "&7Default &3Miner Skin"
+    HeadDisplayName: "&fDefault &bMiner Skin"
     Body: "0,0,0" #Requires an RGB colour - https://www.rapidtables.com/web/color/RGB_Color.html
     Legs: "40,159,219" #rgb colour
     Boots: "40,159,219" #rgb
     HandItem: "IRON_PICKAXE" #Does not have to be specified, but it must be a valid material found here https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
   Slayer:
-    DisplayName: "&3%PLAYERNAME%'s Slayer"
+    DisplayName: "&b%PLAYERNAME%'s Slayer"
     HeadItem: "%HEAD%"
-    HeadDisplayName: "&7Default &cSlayer Skin"
+    HeadDisplayName: "&fDefault &cSlayer Skin"
     Body: "255,0,0" #Requires an RGB colour
     Legs: "255,0,0" #rgb colour
     Boots: "55,150,0" #rgb
     HandItem: "STONE_SWORD"
   Collector:
-    DisplayName: "&3%PLAYERNAME%'s Collector"
+    DisplayName: "&b%PLAYERNAME%'s Collector"
     HeadItem: "%HEAD%"
-    HeadDisplayName: "&7Default &cCollector Skin"
+    HeadDisplayName: "&fDefault &cCollector Skin"
     Body: "238,255,11" #Requires an RGB colour
     Legs: "156,159,113" #rgb colour
     Boots: "238,255,11" #rgb
     HandItem: "ENDER_PEARL"
   Feeder:
-    DisplayName: "&3%PLAYERNAME%'s FeederMinion"
+    DisplayName: "&b%PLAYERNAME%'s FeederMinion"
     HeadItem: "%HEAD%"
-    HeadDisplayName: "&7Default &cFeeder Skin"
+    HeadDisplayName: "&fDefault &cFeeder Skin"
     Body: "238,255,40"
     Legs: "156,159,100"
     Boots: "238,255,40"
     HandItem: "COOKED_BEEF"
   Lumberjack:
-    DisplayName: "&3%PLAYERNAME%'s Lumberjack"
+    DisplayName: "&b%PLAYERNAME%'s Lumberjack"
     HeadItem: "%HEAD%"
-    HeadDisplayName: "&7Default &cLumberjack Skin"
+    HeadDisplayName: "&fDefault &cLumberjack Skin"
     Body: "108,77,5"
     Legs: "178,159,39"
     Boots: "108,77,5"
     HandItem: "STONE_AXE"
   Farmer:
-    DisplayName: "&3%PLAYERNAME%'s Farmer"
+    DisplayName: "&b%PLAYERNAME%'s Farmer"
     HeadItem: "%HEAD%"
-    HeadDisplayName: "&7Default &cFarmers Skin"
+    HeadDisplayName: "&fDefault &cFarmers Skin"
     Body: "204,204,0"
     Legs: "102,204,0"
     Boots: "204,204,0"
     HandItem: "STONE_HOE"
   Fisher:
-    DisplayName: "&3%PLAYERNAME%'s Fisher"
+    DisplayName: "&b%PLAYERNAME%'s Fisher"
     HeadItem: "%HEAD%"
-    HeadDisplayName: "&7Default &cFisher Skin"
+    HeadDisplayName: "&fDefault &cFisher Skin"
     Body: "51,153,255"
     Legs: "153,255,255"
     Boots: "51,153,255"
     HandItem: "FISHING_ROD"
   Seller:
-    DisplayName: "&3%PLAYERNAME%'s Seller"
+    DisplayName: "&b%PLAYERNAME%'s Seller"
     HeadItem: "%HEAD%"
-    HeadDisplayName: "&7Default &cSeller Minion!"
+    HeadDisplayName: "&fDefault &cSeller Minion!"
     Body: "255,65,65"
     Legs: "245,195,120"
     Boots: "255,65,65"
@@ -100,32 +100,32 @@ SkinGUI:
     Action: Default
     DisplayName: "&e&lDefault Skin"
     Lore:
-      - "&7Click me to equip the"
-      - "&7Default Skin"
+      - "&fClick me to equip the"
+      - "&fDefault Skin"
   SecondSkin:
     Slot: 11
     Item: SKULL:SpiderMan578
     Action: Spiderman #Skin names are case-sensitive, it must match the identifier of the skin
     DisplayName: "&cSpider Man"
     Lore:
-      - "&7Click me to equip the"
-      - "&7Spider Man Skin"
+      - "&fClick me to equip the"
+      - "&fSpider Man Skin"
   ThirdSkin:
     Slot: 12
     Item: SKULL:1mBatman
     Action: Batman #Skin names are case-sensitive, it must match the identifier of the skin
-    DisplayName: "&7Batman"
+    DisplayName: "&fBatman"
     Lore:
-      - "&7Click me to equip the"
-      - "&7Batman Skin"
+      - "&fClick me to equip the"
+      - "&fBatman Skin"
   BackButton:
     Slot: 22
     Item: NETHER_STAR:0
     Action: Back
     DisplayName: "&cBack To Main Menu"
     Lore:
-      - "&7Click to return to the"
-      - "&7Main Menu"
+      - "&fClick to return to the"
+      - "&fMain Menu"
 
 #Disabling skins may be required for some servers, this prevents the plugin from accessing mojangs servers to acquire skin textures
 DisableSkins: false

@@ -366,7 +366,8 @@ island:
     #    * "[SUDO] bbox version"
     #    * "bsbadmin deaths set [player] 0"
     # Added since 1.8.0.
-    on-join: []
+    on-join: 
+    - "minions give [player] Miner 1"
     # List of commands to run when a player leaves an island, resets his island or gets kicked from it.
     # These commands are run by the console, unless otherwise stated using the [SUDO] prefix,
     # in which case they are executed by the player.

@@ -1,5 +1,5 @@
 #Set this to true to enable the Minion Store
-Enabled: true
+Enabled: false
 #Store settings
 Store:
   Settings:

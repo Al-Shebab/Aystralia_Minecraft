@@ -6,7 +6,7 @@
 #############################################
 
 #The prefix that is shown before the plugin
-PluginsPrefix: "&eMinions &7» "
+PluginsPrefix: "&b&lMinions &8> &f"
 
 #Just whether you want Minions to only be picked up if they are on full health
 OnlyAllowMinionPickupIfFullHealth: false
@@ -74,7 +74,7 @@ DisabledItems: []
 MaximumChestDistanceFromMinion: 30
 
 MaxMinionsAllowed:
-  - minions.place.default:3 #Specifiy the permission : number of minions allowed, then give players/groups the permission part ingame. The permission minions.admin.bypasslimit can also be used for no limit
+  - minions.place.default:1 #Specifiy the permission : number of minions allowed, then give players/groups the permission part ingame. The permission minions.admin.bypasslimit can also be used for no limit
   - minions.place.vip:5
   - minions.place.god:10
 #OR you can also do permissions per minion type
@@ -97,15 +97,15 @@ Minions:
       Item: NETHER_STAR
       Damage: 0 #For items that require additional data, put this here
       Glow: true #Do you want the item to have the enchanted glow?
-      DisplayName: "&3Miner &eMinion" #Can use %STATS% for the blocks mined, and %LEVEL% for the level of the minion
+      DisplayName: "&3Miner &bMinion" #Can use %STATS% for the blocks mined, and %LEVEL% for the level of the minion
       Lore:
-        - "&7Right-Click this Minion" #Can use %STATS% for the blocks mined, and %LEVEL% for the level of the minion
-        - "&7to place it! Once placed"
-        - "&7it will mine the block infront."
-        - "&7Remember to feed it!" #If you don't want minions to be fed, maybe delete this :)
+        - "&fRight-Click this Minion" #Can use %STATS% for the blocks mined, and %LEVEL% for the level of the minion
+        - "&fto place it! Once placed"
+        - "&fit will mine the block infront."
+        - "&fRemember to feed it!" #If you don't want minions to be fed, maybe delete this :)
         - " "
-        - "&eBlocks Mined: &b%STATS%"
-        - "&eLevel: &b%LEVEL%"
+        - "&fBlocks Mined: &b%STATS%"
+        - "&fLevel: &b%LEVEL%"
   Slayer:
     Settings:
       TicksPerAnimation: 4
@@ -122,16 +122,16 @@ Minions:
       Item: NETHER_STAR
       Damage: 0
       Glow: true
-      DisplayName: "&cSlayer &eMinion" #Can use %STATS% for the kills the minion has done, and %LEVEL% for the level of the minion
+      DisplayName: "&cSlayer &bMinion" #Can use %STATS% for the kills the minion has done, and %LEVEL% for the level of the minion
       Lore:
-        - "&7Right-Click this Minion" #Can use %STATS% for the kills the minion has done, and %LEVEL% for the level of the minion
-        - "&7to place it! Once placed"
-        - "&7it will kill mobs within its"
-        - "&7range! "
-        - "&7Remember to feed it!" #If you don't want minions to be fed, maybe delete this :)
+        - "&fRight-Click this Minion" #Can use %STATS% for the kills the minion has done, and %LEVEL% for the level of the minion
+        - "&fto place it! Once placed"
+        - "&fit will kill mobs within its"
+        - "&frange! "
+        - "&fRemember to feed it!" #If you don't want minions to be fed, maybe delete this :)
         - " "
-        - "&eMobs Killed: &b%STATS%"
-        - "&eLevel: &b%LEVEL%"
+        - "&fMobs Killed: &b%STATS%"
+        - "&fLevel: &b%LEVEL%"
   Collector:
     Settings:
       TicksPerAnimation: 4
@@ -148,16 +148,16 @@ Minions:
       Item: NETHER_STAR
       Damage: 0
       Glow: true
-      DisplayName: "&eCollector Minion" #Can use %STATS% for the kills the minion has done, and %LEVEL% for the level of the minion
+      DisplayName: "&fCollector Minion" #Can use %STATS% for the kills the minion has done, and %LEVEL% for the level of the minion
       Lore:
-        - "&7Right-Click this Minion" #Can use %STATS% for the kills the minion has done, and %LEVEL% for the level of the minion
-        - "&7to place it! Once placed"
-        - "&7it will collect all items"
-        - "&7within its range!"
-        - "&7Remember to feed it!" #If you don't want minions to be fed, maybe delete this :)
+        - "&fRight-Click this Minion" #Can use %STATS% for the kills the minion has done, and %LEVEL% for the level of the minion
+        - "&fto place it! Once placed"
+        - "&fit will collect all items"
+        - "&fwithin its range!"
+        - "&fRemember to feed it!" #If you don't want minions to be fed, maybe delete this :)
         - " "
-        - "&eItems Collected: &b%STATS%"
-        - "&eLevel: &b%LEVEL%"
+        - "&fItems Collected: &b%STATS%"
+        - "&fLevel: &b%LEVEL%"
   Feeder:
     Settings:
       TicksPerAnimation: 4
@@ -174,16 +174,16 @@ Minions:
       Item: NETHER_STAR
       Damage: 0
       Glow: true
-      DisplayName: "&eFeeder Minion"
+      DisplayName: "&fFeeder Minion"
       Lore:
-        - "&7Right-Click this Minion"
-        - "&7to place it! Once placed"
-        - "&7it will feed all minions"
-        - "&7within its range!"
-        - "&7Remember to feed it!"
+        - "&fRight-Click this Minion"
+        - "&fto place it! Once placed"
+        - "&fit will feed all minions"
+        - "&fwithin its range!"
+        - "&fRemember to feed it!"
         - " "
-        - "&eHunger Healed: &b%STATS%"
-        - "&eLevel: &b%LEVEL%"
+        - "&fHunger Healed: &b%STATS%"
+        - "&fLevel: &b%LEVEL%"
   Lumberjack:
     Settings:
       TicksPerAnimation: 4
@@ -200,16 +200,16 @@ Minions:
       Item: NETHER_STAR
       Damage: 0
       Glow: true
-      DisplayName: "&eLumberjack Minion"
+      DisplayName: "&fLumberjack Minion"
       Lore:
-        - "&7Right-Click this Minion"
-        - "&7to place it! Once placed"
-        - "&7it start chopping logs & leaves"
-        - "&7within its range!"
-        - "&7Remember to feed it!"
+        - "&fRight-Click this Minion"
+        - "&fto place it! Once placed"
+        - "&fit start chopping logs & leaves"
+        - "&fwithin its range!"
+        - "&fRemember to feed it!"
         - " "
-        - "&eLogs chopped: &b%STATS%"
-        - "&eLevel: &b%LEVEL%"
+        - "&fLogs chopped: &b%STATS%"
+        - "&fLevel: &b%LEVEL%"
   Farmer:
     Settings:
       TicksPerAnimation: 4
@@ -226,16 +226,16 @@ Minions:
       Item: NETHER_STAR
       Damage: 0
       Glow: true
-      DisplayName: "&eFarmer Minion"
+      DisplayName: "&fFarmer Minion"
       Lore:
-        - "&7Right-Click this Minion"
-        - "&7to place it! Once placed"
-        - "&7it start farming crops"
-        - "&7within its range!"
-        - "&7Remember to feed it!"
+        - "&fRight-Click this Minion"
+        - "&fto place it! Once placed"
+        - "&fit start farming crops"
+        - "&fwithin its range!"
+        - "&fRemember to feed it!"
         - " "
-        - "&eTotal Harvests: &b%STATS%"
-        - "&eLevel: &b%LEVEL%"
+        - "&fTotal Harvests: &b%STATS%"
+        - "&fLevel: &b%LEVEL%"
   Fisher:
     Settings:
       TicksPerAnimation: 4
@@ -252,17 +252,17 @@ Minions:
       Item: NETHER_STAR
       Damage: 0
       Glow: true
-      DisplayName: "&eFisher Minion"
+      DisplayName: "&fFisher Minion"
       Lore:
-        - "&7Right-Click this Minion"
-        - "&7to place it! Once placed"
-        - "&7it will start fishing"
-        - "&7in water pools 4 blocks"
-        - "&7within range"
-        - "&7Remember to feed it!"
+        - "&fRight-Click this Minion"
+        - "&fto place it! Once placed"
+        - "&fit will start fishing"
+        - "&fin water pools 4 blocks"
+        - "&fwithin range"
+        - "&fRemember to feed it!"
         - " "
-        - "&eTotal fish caught: &b%STATS%"
-        - "&eLevel: &b%LEVEL%"
+        - "&fTotal fish caught: &b%STATS%"
+        - "&fLevel: &b%LEVEL%"
   Seller:
     Settings:
       TicksPerAnimation: 4
@@ -279,16 +279,16 @@ Minions:
       Item: NETHER_STAR
       Damage: 0
       Glow: true
-      DisplayName: "&eSeller Minion"
+      DisplayName: "&fSeller Minion"
       Lore:
-        - "&7Right-Click this Minion"
-        - "&7to place it! Once placed"
-        - "&7it will start selling"
-        - "&7the items in its attached"
-        - "&7chest!"
+        - "&fRight-Click this Minion"
+        - "&fto place it! Once placed"
+        - "&fit will start selling"
+        - "&fthe items in its attached"
+        - "&fchest!"
         - " "
-        - "&eItems Sold: &b%STATS%"
-        - "&eLevel: &b%LEVEL%"
+        - "&fItems Sold: &b%STATS%"
+        - "&fLevel: &b%LEVEL%"
 
 
 # -- SQLDatabase properties --

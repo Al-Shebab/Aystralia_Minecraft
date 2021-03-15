@@ -14,9 +14,9 @@ ChunkMinionPlaceLimit: "&aYou cannot have more than %CHUNKLIMIT% minions in a ch
 MinionCannotPerformHere: "&cThe minion cannot perform his actions here (is the minion in a suitable area?)"
 
 #The message that appears when they click the 'rename' button in the UI
-RenameMessage: "&eType the text you wish the Minions Name to be! &cCancel&e can also be used to cancel this command"
-RenameMessageCanceled: "&eThe minion will not be renamed."
-RenameMessageSuccess: "&eYou successfully changed the minions name to&f %NAME%" #%NAME% will get the minions display name
+RenameMessage: "&bType the text you wish the Minions Name to be! &cCancel&b can also be used to cancel this command"
+RenameMessageCanceled: "&bThe minion will not be renamed."
+RenameMessageSuccess: "&bYou successfully changed the minions name to&f %NAME%" #%NAME% will get the minions display name
 
 MinionMustBeFullHealthToDestroy: "&cThe minion must have full health to pick it up!"
 
@@ -29,7 +29,7 @@ NotEnoughMoneyToUpgradeMinion: "&cYou do not have the money to upgrade the minio
 MinionAlreadyMaxLevel: "&cThe minion cannot be upgraded anymore!"
 
 #rotation
-MinionRotatedMessage: "&aYou have rotated the minion &e%DIRECTION%"
+MinionRotatedMessage: "&aYou have rotated the minion &b%DIRECTION%"
 
 #Link a chest messages
 LinkAChestMessage: "&aRight-Click a chest to link a chest!"
@@ -42,16 +42,16 @@ UnknownCommand: "&cUnknown Command"
 
 #When /minions is entered - Placeholders %VERSION%
 HelpCommand:
-  - "&b&m---------------&r&e[ &e&lMinions &a%VERSION% &e]&b&m---------------"
-  - "&8/&aminions list {player} &7- &fLists a players minions"
-  - "&8/&aminions remove {world} {x} {y} {z} &7- &fRemoves a minion at the location specified"
-  - "&8/&aminions about &7- &fDisplays information about the plugin"
-  - "&8/&aminions give {online_player} {minion_type} {amount} [level] &7- &fGives the specified user that minion, [level] is optional"
-  - "&8/&aminions reload &7- &fReloads the configuration file however a restart is suggested."
-  - "&8/&aminions storeother {online_player} &7- &fOpens a store for another player."
-  - "&8/&aminions store &7- &fOpens the minion store"
+  - "&b&m---------------&r&b[ &b&lMinions &a%VERSION% &b]&b&m---------------"
+  - "&b/&aminions list {player} &f- &fLists a players minions"
+  - "&b/&aminions remove {world} {x} {y} {z} &f- &fRemoves a minion at the location specified"
+  - "&b/&aminions about &f- &fDisplays information about the plugin"
+  - "&b/&aminions give {online_player} {minion_type} {amount} [level] &f- &fGives the specified user that minion, [level] is optional"
+  - "&b/&aminions reload &f- &fReloads the configuration file however a restart is suggested."
+  - "&b/&aminions storeother {online_player} &f- &fOpens a store for another player."
+  - "&b/&aminions store &f- &fOpens the minion store"
 
-GivenMinion: "&aYou have been given a &b%TYPE% &aMinion!" #Placeholders, %AMOUNT% and %TYPE%
+GivenMinion: "&fYou have been given a &b%TYPE% &fMinion!" #Placeholders, %AMOUNT% and %TYPE%
 
 MaxMinionAmount: "&cYou cannot place anymore Minions as you already have %MAXAMOUNTALLOWED%" #placeholder will return the max minions allowed for that user
 
@@ -59,8 +59,8 @@ BreakMinionWithFullInventory: "&cYour inventory was full! The Minion has been dr
 
 MinionNameMaxLength: "&cThis minion name is too long! Try a shorter one!"
 
-MinionExpGiven: "&AYou have collected &e%EXP% EXP &afrom this minion!"
-MinionNoExpToGive: "&cThis minion has no &eEXP&c to collect!"
+MinionExpGiven: "&AYou have collected &b%EXP% EXP &afrom this minion!"
+MinionNoExpToGive: "&cThis minion has no &bEXP&c to collect!"
 
 MinionStoreNotEnoughMoney: "&cYou do not have enough money to buy this Minion!" #%MONEYNEEDED%,%MINIONTYPE% can be used as a placeholder
 MinionStorePurchase: "&cYou have bought the %MINIONTYPE% Minion for %MONEYNEEDED%!"
