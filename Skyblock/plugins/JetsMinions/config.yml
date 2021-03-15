@@ -88,21 +88,20 @@ Minions:
       DefaultSkin: Miner #Want to change the default skin? Check the skins.yml file (You can modify the Miner skin, or create your own one!)
     Health:
       EnableHealth: true #Health goes down over time & is recovered by feeding a minion. When health gets to 0 the minion will stop
-      MaxHealth: 20 #The max health for a minion
+      MaxHealth: 100 #The max health for a minion
       ActionPerHealth: 10 #The amount of actions (in this case block mines) the minion can do before dropping 1 health
       RightClickWithFoodToFeed: true #Whether the people can right-click the minion with food to heal it
-      FeedWithMoney: true #Players will click a GUI option to feed with money
+      FeedWithMoney: false #Players will click a GUI option to feed with money
       FeedWithMoneyCost: 200 #If the above is true & the GUI has a 'feedwithmoney' option, how much should it cost them to fully feed the minion?
     DisplayItem: #
       Item: NETHER_STAR
       Damage: 0 #For items that require additional data, put this here
       Glow: true #Do you want the item to have the enchanted glow?
-      DisplayName: "&3Miner &bMinion" #Can use %STATS% for the blocks mined, and %LEVEL% for the level of the minion
+      DisplayName: "&bMiner Minion" #Can use %STATS% for the blocks mined, and %LEVEL% for the level of the minion
       Lore:
         - "&fRight-Click this Minion" #Can use %STATS% for the blocks mined, and %LEVEL% for the level of the minion
         - "&fto place it! Once placed"
         - "&fit will mine the block infront."
-        - "&fRemember to feed it!" #If you don't want minions to be fed, maybe delete this :)
         - " "
         - "&fBlocks Mined: &b%STATS%"
         - "&fLevel: &b%LEVEL%"
@@ -113,10 +112,10 @@ Minions:
       DefaultSkin: Slayer
     Health:
       EnableHealth: true
-      MaxHealth: 20
+      MaxHealth: 100
       ActionPerHealth: 4
       RightClickWithFoodToFeed: true
-      FeedWithMoney: true
+      FeedWithMoney: false
       FeedWithMoneyCost: 200
     DisplayItem:
       Item: NETHER_STAR
@@ -128,7 +127,6 @@ Minions:
         - "&fto place it! Once placed"
         - "&fit will kill mobs within its"
         - "&frange! "
-        - "&fRemember to feed it!" #If you don't want minions to be fed, maybe delete this :)
         - " "
         - "&fMobs Killed: &b%STATS%"
         - "&fLevel: &b%LEVEL%"
@@ -139,10 +137,10 @@ Minions:
       DefaultSkin: Collector
     Health:
       EnableHealth: true
-      MaxHealth: 20
+      MaxHealth: 100
       ActionPerHealth: 15
       RightClickWithFoodToFeed: true
-      FeedWithMoney: true
+      FeedWithMoney: false
       FeedWithMoneyCost: 200
     DisplayItem:
       Item: NETHER_STAR
@@ -154,7 +152,6 @@ Minions:
         - "&fto place it! Once placed"
         - "&fit will collect all items"
         - "&fwithin its range!"
-        - "&fRemember to feed it!" #If you don't want minions to be fed, maybe delete this :)
         - " "
         - "&fItems Collected: &b%STATS%"
         - "&fLevel: &b%LEVEL%"
@@ -165,10 +162,10 @@ Minions:
       DefaultSkin: Feeder
     Health:
       EnableHealth: true
-      MaxHealth: 20
+      MaxHealth: 100
       ActionPerHealth: 15
       RightClickWithFoodToFeed: true
-      FeedWithMoney: true
+      FeedWithMoney: false
       FeedWithMoneyCost: 200
     DisplayItem:
       Item: NETHER_STAR
@@ -191,10 +188,10 @@ Minions:
       DefaultSkin: Lumberjack
     Health:
       EnableHealth: true
-      MaxHealth: 20
+      MaxHealth: 100
       ActionPerHealth: 10
       RightClickWithFoodToFeed: true
-      FeedWithMoney: true
+      FeedWithMoney: false
       FeedWithMoneyCost: 200
     DisplayItem:
       Item: NETHER_STAR
@@ -217,10 +214,10 @@ Minions:
       DefaultSkin: Farmer
     Health:
       EnableHealth: true
-      MaxHealth: 20
+      MaxHealth: 100
       ActionPerHealth: 15
       RightClickWithFoodToFeed: true
-      FeedWithMoney: true
+      FeedWithMoney: false
       FeedWithMoneyCost: 200
     DisplayItem:
       Item: NETHER_STAR
@@ -243,10 +240,10 @@ Minions:
       DefaultSkin: Fisher
     Health:
       EnableHealth: true
-      MaxHealth: 20
+      MaxHealth: 100
       ActionPerHealth: 20
       RightClickWithFoodToFeed: true
-      FeedWithMoney: true
+      FeedWithMoney: false
       FeedWithMoneyCost: 200
     DisplayItem:
       Item: NETHER_STAR
@@ -270,10 +267,10 @@ Minions:
       DefaultSkin: Seller
     Health:
       EnableHealth: true
-      MaxHealth: 20
+      MaxHealth: 100
       ActionPerHealth: 15
       RightClickWithFoodToFeed: true
-      FeedWithMoney: true
+      FeedWithMoney: false
       FeedWithMoneyCost: 200
     DisplayItem:
       Item: NETHER_STAR

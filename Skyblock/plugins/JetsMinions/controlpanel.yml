@@ -18,7 +18,7 @@ ControlPanel:
       Slot: 19
       Item: SKULL:%DEFAULTSKIN% #If using a Skull, put Skull:<playersname> (or %PLAYERSNAME% for the person who opened the inventory, or %DEFAULTSKIN% for the Minions Default Head)
       Action: SKINS #Will open skins menu
-      DisplayName: "&e&lSkin Menu"
+      DisplayName: "&b&lSkin Menu"
       Lore:
         - "&fClick this to change your"
         - "&fMinions Skin!"
@@ -26,7 +26,7 @@ ControlPanel:
       Slot: 20
       Item: SKULL:MHF_ArrowUp
       Action: ROTATE_NORTH
-      DisplayName: "&e&lRotate North"
+      DisplayName: "&b&lRotate North"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -35,7 +35,7 @@ ControlPanel:
       Slot: 21
       Item: SKULL:MHF_ArrowRight
       Action: ROTATE_EAST
-      DisplayName: "&e&lRotate East"
+      DisplayName: "&b&lRotate East"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -44,7 +44,7 @@ ControlPanel:
       Slot: 22
       Item: SKULL:MHF_ArrowDown
       Action: ROTATE_SOUTH
-      DisplayName: "&e&lRotate South"
+      DisplayName: "&b&lRotate South"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -53,7 +53,7 @@ ControlPanel:
       Slot: 23
       Item: SKULL:MHF_ArrowLeft
       Action: ROTATE_WEST
-      DisplayName: "&e&lRotate West"
+      DisplayName: "&b&lRotate West"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -62,7 +62,7 @@ ControlPanel:
       Slot: 24
       Item: GOLDEN_APPLE
       Action: PAYHEAL
-      DisplayName: "&e&lHeal Minion"
+      DisplayName: "&b&lHeal Minion"
       Lore:
         - "&fThis will cost"
         - "&f$200" #Change the amount if needed in the config.yml
@@ -70,7 +70,7 @@ ControlPanel:
       Slot: 25
       Item: HOPPER
       Action: ATTACHCHEST
-      DisplayName: "&e&lAttach a chest"
+      DisplayName: "&b&lAttach a chest"
       Lore:
         - "&fAttach a chest to this minion"
         - "&fso that its blocks go into it!"
@@ -78,15 +78,15 @@ ControlPanel:
       Slot: 30
       Item: DIAMOND_PICKAXE
       Action: NONE
-      DisplayName: "&e&lStats"
+      DisplayName: "&b&lStats"
       Lore:
         - "&fYour minion has mined"
-        - "&e%STATS% &fblocks since being placed"
+        - "&b%STATS% &fblocks since being placed"
     Nametag:
       Slot: 31
       Item: NAME_TAG
       Action: RENAME
-      DisplayName: "&e&lRename"
+      DisplayName: "&b&lRename"
       Lore:
         - "&fClick to Rename"
         - "&fThe minion!"
@@ -94,19 +94,19 @@ ControlPanel:
       Slot: 32
       Item: COOKED_BEEF
       Action: NONE
-      DisplayName: "&e&lHealth"
+      DisplayName: "&b&lHealth"
       Lore:
         - "&fYour minions health is"
-        - "&e%HEALTH%/%MAXMINIONHEALTH%"
+        - "&b%HEALTH%/%MAXMINIONHEALTH%"
     UpgradeMinion:
       Slot: 40
       Item: GOLD_INGOT
       Action: LEVELUP
-      DisplayName: "&e&lLevel Up"
+      DisplayName: "&b&lLevel Up"
       Lore:
         - "&fUpgrade the Minion to the"
         - "&fnext level"
-        - "&fCost: &e$%NEXTLEVELCOST%"
+        - "&fCost: &b$%NEXTLEVELCOST%"
     Close:
       Slot: 49
       Item: NETHER_STAR
@@ -129,7 +129,7 @@ ControlPanel:
       Slot: 19
       Item: SKULL:%DEFAULTSKIN%
       Action: SKINS
-      DisplayName: "&e&lSkin Menu"
+      DisplayName: "&b&lSkin Menu"
       Lore:
         - "&fClick this to change your"
         - "&fMinions Skin!"
@@ -137,7 +137,7 @@ ControlPanel:
       Slot: 20
       Item: SKULL:MHF_ArrowUp
       Action: ROTATE_NORTH
-      DisplayName: "&e&lRotate North"
+      DisplayName: "&b&lRotate North"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -146,7 +146,7 @@ ControlPanel:
       Slot: 21
       Item: SKULL:MHF_ArrowRight
       Action: ROTATE_EAST
-      DisplayName: "&e&lRotate East"
+      DisplayName: "&b&lRotate East"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -155,7 +155,7 @@ ControlPanel:
       Slot: 22
       Item: SKULL:MHF_ArrowDown
       Action: ROTATE_SOUTH
-      DisplayName: "&e&lRotate South"
+      DisplayName: "&b&lRotate South"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -164,7 +164,7 @@ ControlPanel:
       Slot: 23
       Item: SKULL:MHF_ArrowLeft
       Action: ROTATE_WEST
-      DisplayName: "&e&lRotate West"
+      DisplayName: "&b&lRotate West"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -173,7 +173,7 @@ ControlPanel:
       Slot: 24
       Item: GOLDEN_APPLE
       Action: PAYHEAL
-      DisplayName: "&e&lHeal Minion"
+      DisplayName: "&b&lHeal Minion"
       Lore:
         - "&fThis will cost"
         - "&f$200" #Change the amount if needed in the config.yml
@@ -181,7 +181,7 @@ ControlPanel:
       Slot: 25
       Item: HOPPER
       Action: ATTACHCHEST
-      DisplayName: "&e&lAttach a chest"
+      DisplayName: "&b&lAttach a chest"
       Lore:
         - "&fAttach a chest to this minion"
         - "&fso that its fish go into it!"
@@ -189,15 +189,15 @@ ControlPanel:
       Slot: 30
       Item: DIAMOND_PICKAXE
       Action: NONE
-      DisplayName: "&e&lStats"
+      DisplayName: "&b&lStats"
       Lore:
         - "&fYour minion has caught"
-        - "&e%STATS% &ffishy's since being placed"
+        - "&b%STATS% &ffishy's since being placed"
     Nametag:
       Slot: 31
       Item: NAME_TAG
       Action: RENAME
-      DisplayName: "&e&lRename"
+      DisplayName: "&b&lRename"
       Lore:
         - "&fClick to Rename"
         - "&fThe minion!"
@@ -205,19 +205,19 @@ ControlPanel:
       Slot: 32
       Item: COOKED_BEEF
       Action: NONE
-      DisplayName: "&e&lHealth"
+      DisplayName: "&b&lHealth"
       Lore:
         - "&fYour minions health is"
-        - "&e%HEALTH%/%MAXMINIONHEALTH%"
+        - "&b%HEALTH%/%MAXMINIONHEALTH%"
     UpgradeMinion:
       Slot: 40
       Item: GOLD_INGOT
       Action: LEVELUP
-      DisplayName: "&e&lLevel Up"
+      DisplayName: "&b&lLevel Up"
       Lore:
         - "&fUpgrade the Minion to the"
         - "&fnext level"
-        - "&fCost: &e$%NEXTLEVELCOST%"
+        - "&fCost: &b$%NEXTLEVELCOST%"
     Close:
       Slot: 49
       Item: NETHER_STAR
@@ -240,7 +240,7 @@ ControlPanel:
       Slot: 19
       Item: SKULL:%DEFAULTSKIN%
       Action: SKINS
-      DisplayName: "&e&lSkin Menu"
+      DisplayName: "&b&lSkin Menu"
       Lore:
         - "&fClick this to change your"
         - "&fMinions Skin!"
@@ -248,7 +248,7 @@ ControlPanel:
       Slot: 20
       Item: SKULL:MHF_ArrowUp
       Action: ROTATE_NORTH
-      DisplayName: "&e&lRotate North"
+      DisplayName: "&b&lRotate North"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -257,7 +257,7 @@ ControlPanel:
       Slot: 21
       Item: SKULL:MHF_ArrowRight
       Action: ROTATE_EAST
-      DisplayName: "&e&lRotate East"
+      DisplayName: "&b&lRotate East"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -266,7 +266,7 @@ ControlPanel:
       Slot: 22
       Item: SKULL:MHF_ArrowDown
       Action: ROTATE_SOUTH
-      DisplayName: "&e&lRotate South"
+      DisplayName: "&b&lRotate South"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -275,7 +275,7 @@ ControlPanel:
       Slot: 23
       Item: SKULL:MHF_ArrowLeft
       Action: ROTATE_WEST
-      DisplayName: "&e&lRotate West"
+      DisplayName: "&b&lRotate West"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -284,7 +284,7 @@ ControlPanel:
       Slot: 24
       Item: GOLDEN_APPLE
       Action: PAYHEAL
-      DisplayName: "&e&lHeal Minion"
+      DisplayName: "&b&lHeal Minion"
       Lore:
         - "&fThis will cost"
         - "&f$200" #Change the amount if needed in the config.yml
@@ -292,7 +292,7 @@ ControlPanel:
       Slot: 25
       Item: HOPPER
       Action: ATTACHCHEST
-      DisplayName: "&e&lAttach a chest"
+      DisplayName: "&b&lAttach a chest"
       Lore:
         - "&fAttach a chest to this minion"
         - "&fso that its mob drops go into it!"
@@ -300,15 +300,15 @@ ControlPanel:
       Slot: 29
       Item: DIAMOND_SWORD
       Action: NONE
-      DisplayName: "&e&lStats"
+      DisplayName: "&b&lStats"
       Lore:
         - "&fYour minion has killed"
-        - "&e%STATS% &fmobs since being placed"
+        - "&b%STATS% &fmobs since being placed"
     Nametag:
       Slot: 30
       Item: NAME_TAG
       Action: RENAME
-      DisplayName: "&e&lRename"
+      DisplayName: "&b&lRename"
       Lore:
         - "&fClick to Rename"
         - "&fThe minion!"
@@ -316,27 +316,27 @@ ControlPanel:
       Slot: 32
       Item: EXPERIENCE_BOTTLE
       Action: EXP
-      DisplayName: "&e&lEXP"
+      DisplayName: "&b&lEXP"
       Lore:
         - "&fYour minion has collected"
-        - "&e%EXP% &fEXP"
+        - "&b%EXP% &fEXP"
     Health:
       Slot: 33
       Item: COOKED_BEEF
       Action: NONE
-      DisplayName: "&e&lHealth"
+      DisplayName: "&b&lHealth"
       Lore:
         - "&fYour minions health is"
-        - "&e%HEALTH%/%MAXMINIONHEALTH%"
+        - "&b%HEALTH%/%MAXMINIONHEALTH%"
     UpgradeMinion:
       Slot: 40
       Item: GOLD_INGOT
       Action: LEVELUP
-      DisplayName: "&e&lLevel Up"
+      DisplayName: "&b&lLevel Up"
       Lore:
         - "&fUpgrade the Minion to the"
         - "&fnext level"
-        - "&fCost: &e$%NEXTLEVELCOST%"
+        - "&fCost: &b$%NEXTLEVELCOST%"
     Close:
       Slot: 49
       Item: NETHER_STAR
@@ -359,7 +359,7 @@ ControlPanel:
       Slot: 19
       Item: SKULL:%DEFAULTSKIN%
       Action: SKINS
-      DisplayName: "&e&lSkin Menu"
+      DisplayName: "&b&lSkin Menu"
       Lore:
         - "&fClick this to change your"
         - "&fMinions Skin!"
@@ -367,7 +367,7 @@ ControlPanel:
       Slot: 20
       Item: SKULL:MHF_ArrowUp
       Action: ROTATE_NORTH
-      DisplayName: "&e&lRotate North"
+      DisplayName: "&b&lRotate North"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -376,7 +376,7 @@ ControlPanel:
       Slot: 21
       Item: SKULL:MHF_ArrowRight
       Action: ROTATE_EAST
-      DisplayName: "&e&lRotate East"
+      DisplayName: "&b&lRotate East"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -385,7 +385,7 @@ ControlPanel:
       Slot: 22
       Item: SKULL:MHF_ArrowDown
       Action: ROTATE_SOUTH
-      DisplayName: "&e&lRotate South"
+      DisplayName: "&b&lRotate South"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -394,7 +394,7 @@ ControlPanel:
       Slot: 23
       Item: SKULL:MHF_ArrowLeft
       Action: ROTATE_WEST
-      DisplayName: "&e&lRotate West"
+      DisplayName: "&b&lRotate West"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -403,7 +403,7 @@ ControlPanel:
       Slot: 24
       Item: GOLDEN_APPLE
       Action: PAYHEAL
-      DisplayName: "&e&lHeal Minion"
+      DisplayName: "&b&lHeal Minion"
       Lore:
         - "&fThis will cost"
         - "&f$200" #Change the amount if needed in the config.yml
@@ -411,7 +411,7 @@ ControlPanel:
       Slot: 25
       Item: HOPPER
       Action: ATTACHCHEST
-      DisplayName: "&e&lAttach a chest"
+      DisplayName: "&b&lAttach a chest"
       Lore:
         - "&fAttach a chest to this minion"
         - "&fso that its items go into it!"
@@ -419,15 +419,15 @@ ControlPanel:
       Slot: 29
       Item: ENDER_PEARL
       Action: NONE
-      DisplayName: "&e&lStats"
+      DisplayName: "&b&lStats"
       Lore:
         - "&fYour minion has collected"
-        - "&e%STATS% &fitems since being placed"
+        - "&b%STATS% &fitems since being placed"
     Nametag:
       Slot: 30
       Item: NAME_TAG
       Action: RENAME
-      DisplayName: "&e&lRename"
+      DisplayName: "&b&lRename"
       Lore:
         - "&fClick to Rename"
         - "&fThe minion!"
@@ -435,27 +435,27 @@ ControlPanel:
       Slot: 32
       Item: EXPERIENCE_BOTTLE
       Action: EXP
-      DisplayName: "&e&lEXP"
+      DisplayName: "&b&lEXP"
       Lore:
         - "&fYour minion has collected"
-        - "&e%EXP% &fEXP"
+        - "&b%EXP% &fEXP"
     Health:
       Slot: 33
       Item: COOKED_BEEF
       Action: NONE
-      DisplayName: "&e&lHealth"
+      DisplayName: "&b&lHealth"
       Lore:
         - "&fYour minions health is"
-        - "&e%HEALTH%/%MAXMINIONHEALTH%"
+        - "&b%HEALTH%/%MAXMINIONHEALTH%"
     UpgradeMinion:
       Slot: 40
       Item: GOLD_INGOT
       Action: LEVELUP
-      DisplayName: "&e&lLevel Up"
+      DisplayName: "&b&lLevel Up"
       Lore:
         - "&fUpgrade the Minion to the"
         - "&fnext level"
-        - "&fCost: &e$%NEXTLEVELCOST%"
+        - "&fCost: &b$%NEXTLEVELCOST%"
     Close:
       Slot: 49
       Item: NETHER_STAR
@@ -478,7 +478,7 @@ ControlPanel:
       Slot: 19
       Item: SKULL:%DEFAULTSKIN%
       Action: SKINS
-      DisplayName: "&e&lSkin Menu"
+      DisplayName: "&b&lSkin Menu"
       Lore:
         - "&fClick this to change your"
         - "&fMinions Skin!"
@@ -486,7 +486,7 @@ ControlPanel:
       Slot: 20
       Item: SKULL:MHF_ArrowUp
       Action: ROTATE_NORTH
-      DisplayName: "&e&lRotate North"
+      DisplayName: "&b&lRotate North"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -495,7 +495,7 @@ ControlPanel:
       Slot: 21
       Item: SKULL:MHF_ArrowRight
       Action: ROTATE_EAST
-      DisplayName: "&e&lRotate East"
+      DisplayName: "&b&lRotate East"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -504,7 +504,7 @@ ControlPanel:
       Slot: 22
       Item: SKULL:MHF_ArrowDown
       Action: ROTATE_SOUTH
-      DisplayName: "&e&lRotate South"
+      DisplayName: "&b&lRotate South"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -513,7 +513,7 @@ ControlPanel:
       Slot: 23
       Item: SKULL:MHF_ArrowLeft
       Action: ROTATE_WEST
-      DisplayName: "&e&lRotate West"
+      DisplayName: "&b&lRotate West"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -522,7 +522,7 @@ ControlPanel:
       Slot: 24
       Item: GOLDEN_APPLE
       Action: PAYHEAL
-      DisplayName: "&e&lHeal Minion"
+      DisplayName: "&b&lHeal Minion"
       Lore:
         - "&fThis will cost"
         - "&f$200"
@@ -530,15 +530,15 @@ ControlPanel:
       Slot: 30
       Item: DIAMOND_HOE
       Action: NONE
-      DisplayName: "&e&lStats"
+      DisplayName: "&b&lStats"
       Lore:
         - "&fYour minion has fed a hunger total of:"
-        - "&e%STATS%"
+        - "&b%STATS%"
     Nametag:
       Slot: 31
       Item: NAME_TAG
       Action: RENAME
-      DisplayName: "&e&lRename"
+      DisplayName: "&b&lRename"
       Lore:
         - "&fClick to Rename"
         - "&fThe minion!"
@@ -546,19 +546,19 @@ ControlPanel:
       Slot: 32
       Item: COOKED_BEEF
       Action: NONE
-      DisplayName: "&e&lHealth"
+      DisplayName: "&b&lHealth"
       Lore:
         - "&fYour minions health is"
-        - "&e%HEALTH%/%MAXMINIONHEALTH%"
+        - "&b%HEALTH%/%MAXMINIONHEALTH%"
     UpgradeMinion:
       Slot: 40
       Item: GOLD_INGOT
       Action: LEVELUP
-      DisplayName: "&e&lLevel Up"
+      DisplayName: "&b&lLevel Up"
       Lore:
         - "&fUpgrade the Minion to the"
         - "&fnext level"
-        - "&fCost: &e$%NEXTLEVELCOST%"
+        - "&fCost: &b$%NEXTLEVELCOST%"
     Close:
       Slot: 49
       Item: NETHER_STAR
@@ -581,7 +581,7 @@ ControlPanel:
       Slot: 19
       Item: SKULL:%DEFAULTSKIN%
       Action: SKINS
-      DisplayName: "&e&lSkin Menu"
+      DisplayName: "&b&lSkin Menu"
       Lore:
         - "&fClick this to change your"
         - "&fMinions Skin!"
@@ -589,7 +589,7 @@ ControlPanel:
       Slot: 20
       Item: SKULL:MHF_ArrowUp
       Action: ROTATE_NORTH
-      DisplayName: "&e&lRotate North"
+      DisplayName: "&b&lRotate North"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -598,7 +598,7 @@ ControlPanel:
       Slot: 21
       Item: SKULL:MHF_ArrowRight
       Action: ROTATE_EAST
-      DisplayName: "&e&lRotate East"
+      DisplayName: "&b&lRotate East"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -607,7 +607,7 @@ ControlPanel:
       Slot: 22
       Item: SKULL:MHF_ArrowDown
       Action: ROTATE_SOUTH
-      DisplayName: "&e&lRotate South"
+      DisplayName: "&b&lRotate South"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -616,7 +616,7 @@ ControlPanel:
       Slot: 23
       Item: SKULL:MHF_ArrowLeft
       Action: ROTATE_WEST
-      DisplayName: "&e&lRotate West"
+      DisplayName: "&b&lRotate West"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -625,7 +625,7 @@ ControlPanel:
       Slot: 24
       Item: GOLDEN_APPLE
       Action: PAYHEAL
-      DisplayName: "&e&lHeal Minion"
+      DisplayName: "&b&lHeal Minion"
       Lore:
         - "&fThis will cost"
         - "&f$200" #Change the amount if needed in the config.yml
@@ -633,7 +633,7 @@ ControlPanel:
       Slot: 25
       Item: HOPPER
       Action: ATTACHCHEST
-      DisplayName: "&e&lAttach a chest"
+      DisplayName: "&b&lAttach a chest"
       Lore:
         - "&fAttach a chest to this minion"
         - "&fso that its chopped logs go into it!"
@@ -641,15 +641,15 @@ ControlPanel:
       Slot: 30
       Item: DIAMOND_PICKAXE
       Action: NONE
-      DisplayName: "&e&lStats"
+      DisplayName: "&b&lStats"
       Lore:
         - "&fYour minion has chopped"
-        - "&e%STATS% &flogs since being placed"
+        - "&b%STATS% &flogs since being placed"
     Nametag:
       Slot: 31
       Item: NAME_TAG
       Action: RENAME
-      DisplayName: "&e&lRename"
+      DisplayName: "&b&lRename"
       Lore:
         - "&fClick to Rename"
         - "&fThe minion!"
@@ -657,19 +657,19 @@ ControlPanel:
       Slot: 32
       Item: COOKED_BEEF
       Action: NONE
-      DisplayName: "&e&lHealth"
+      DisplayName: "&b&lHealth"
       Lore:
         - "&fYour minions health is"
-        - "&e%HEALTH%/%MAXMINIONHEALTH%"
+        - "&b%HEALTH%/%MAXMINIONHEALTH%"
     UpgradeMinion:
       Slot: 40
       Item: GOLD_INGOT
       Action: LEVELUP
-      DisplayName: "&e&lLevel Up"
+      DisplayName: "&b&lLevel Up"
       Lore:
         - "&fUpgrade the Minion to the"
         - "&fnext level"
-        - "&fCost: &e$%NEXTLEVELCOST%"
+        - "&fCost: &b$%NEXTLEVELCOST%"
     Close:
       Slot: 49
       Item: NETHER_STAR
@@ -692,7 +692,7 @@ ControlPanel:
       Slot: 19
       Item: SKULL:%DEFAULTSKIN%
       Action: SKINS
-      DisplayName: "&e&lSkin Menu"
+      DisplayName: "&b&lSkin Menu"
       Lore:
         - "&fClick this to change your"
         - "&fMinions Skin!"
@@ -700,7 +700,7 @@ ControlPanel:
       Slot: 20
       Item: SKULL:MHF_ArrowUp
       Action: ROTATE_NORTH
-      DisplayName: "&e&lRotate North"
+      DisplayName: "&b&lRotate North"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -709,7 +709,7 @@ ControlPanel:
       Slot: 21
       Item: SKULL:MHF_ArrowRight
       Action: ROTATE_EAST
-      DisplayName: "&e&lRotate East"
+      DisplayName: "&b&lRotate East"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -718,7 +718,7 @@ ControlPanel:
       Slot: 22
       Item: SKULL:MHF_ArrowDown
       Action: ROTATE_SOUTH
-      DisplayName: "&e&lRotate South"
+      DisplayName: "&b&lRotate South"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -727,7 +727,7 @@ ControlPanel:
       Slot: 23
       Item: SKULL:MHF_ArrowLeft
       Action: ROTATE_WEST
-      DisplayName: "&e&lRotate West"
+      DisplayName: "&b&lRotate West"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -736,7 +736,7 @@ ControlPanel:
       Slot: 24
       Item: GOLDEN_APPLE
       Action: PAYHEAL
-      DisplayName: "&e&lHeal Minion"
+      DisplayName: "&b&lHeal Minion"
       Lore:
         - "&fThis will cost"
         - "&f$200" #Change the amount if needed in the config.yml
@@ -744,7 +744,7 @@ ControlPanel:
       Slot: 25
       Item: HOPPER
       Action: ATTACHCHEST
-      DisplayName: "&e&lAttach a chest"
+      DisplayName: "&b&lAttach a chest"
       Lore:
         - "&fAttach a chest to this minion"
         - "&fso that its crops go into it!"
@@ -752,15 +752,15 @@ ControlPanel:
       Slot: 30
       Item: DIAMOND_AXE
       Action: NONE
-      DisplayName: "&e&lStats"
+      DisplayName: "&b&lStats"
       Lore:
         - "&fYour minion has farmed"
-        - "&e%STATS% &fcrops since being placed"
+        - "&b%STATS% &fcrops since being placed"
     Nametag:
       Slot: 31
       Item: NAME_TAG
       Action: RENAME
-      DisplayName: "&e&lRename"
+      DisplayName: "&b&lRename"
       Lore:
         - "&fClick to Rename"
         - "&fThe minion!"
@@ -768,19 +768,19 @@ ControlPanel:
       Slot: 32
       Item: COOKED_BEEF
       Action: NONE
-      DisplayName: "&e&lHealth"
+      DisplayName: "&b&lHealth"
       Lore:
         - "&fYour minions health is"
-        - "&e%HEALTH%/%MAXMINIONHEALTH%"
+        - "&b%HEALTH%/%MAXMINIONHEALTH%"
     UpgradeMinion:
       Slot: 40
       Item: GOLD_INGOT
       Action: LEVELUP
-      DisplayName: "&e&lLevel Up"
+      DisplayName: "&b&lLevel Up"
       Lore:
         - "&fUpgrade the Minion to the"
         - "&fnext level"
-        - "&fCost: &e$%NEXTLEVELCOST%"
+        - "&fCost: &b$%NEXTLEVELCOST%"
     Close:
       Slot: 49
       Item: NETHER_STAR
@@ -803,7 +803,7 @@ ControlPanel:
       Slot: 19
       Item: SKULL:%DEFAULTSKIN%
       Action: SKINS
-      DisplayName: "&e&lSkin Menu"
+      DisplayName: "&b&lSkin Menu"
       Lore:
         - "&fClick this to change your"
         - "&fMinions Skin!"
@@ -811,7 +811,7 @@ ControlPanel:
       Slot: 20
       Item: SKULL:MHF_ArrowUp
       Action: ROTATE_NORTH
-      DisplayName: "&e&lRotate North"
+      DisplayName: "&b&lRotate North"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -820,7 +820,7 @@ ControlPanel:
       Slot: 21
       Item: SKULL:MHF_ArrowRight
       Action: ROTATE_EAST
-      DisplayName: "&e&lRotate East"
+      DisplayName: "&b&lRotate East"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -829,7 +829,7 @@ ControlPanel:
       Slot: 22
       Item: SKULL:MHF_ArrowDown
       Action: ROTATE_SOUTH
-      DisplayName: "&e&lRotate South"
+      DisplayName: "&b&lRotate South"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -838,7 +838,7 @@ ControlPanel:
       Slot: 23
       Item: SKULL:MHF_ArrowLeft
       Action: ROTATE_WEST
-      DisplayName: "&e&lRotate West"
+      DisplayName: "&b&lRotate West"
       Lore:
         - "&fClick this to change the"
         - "&fDirection of your minion"
@@ -847,7 +847,7 @@ ControlPanel:
       Slot: 24
       Item: GOLDEN_APPLE
       Action: PAYHEAL
-      DisplayName: "&e&lHeal Minion"
+      DisplayName: "&b&lHeal Minion"
       Lore:
         - "&fThis will cost"
         - "&f$200" #Change the amount if needed in the config.yml
@@ -855,7 +855,7 @@ ControlPanel:
       Slot: 25
       Item: HOPPER
       Action: ATTACHCHEST
-      DisplayName: "&e&lAttach a chest"
+      DisplayName: "&b&lAttach a chest"
       Lore:
         - "&fAttach a chest to this minion"
         - "&fto sell the items in it!"
@@ -863,15 +863,15 @@ ControlPanel:
       Slot: 30
       Item: CHEST
       Action: NONE
-      DisplayName: "&e&lStats"
+      DisplayName: "&b&lStats"
       Lore:
         - "&fYour minion has sold"
-        - "&e%STATS% &fitems since being placed"
+        - "&b%STATS% &fitems since being placed"
     Nametag:
       Slot: 31
       Item: NAME_TAG
       Action: RENAME
-      DisplayName: "&e&lRename"
+      DisplayName: "&b&lRename"
       Lore:
         - "&fClick to Rename"
         - "&fThe minion!"
@@ -879,19 +879,19 @@ ControlPanel:
       Slot: 32
       Item: COOKED_BEEF
       Action: NONE
-      DisplayName: "&e&lHealth"
+      DisplayName: "&b&lHealth"
       Lore:
         - "&fYour minions health is"
-        - "&e%HEALTH%/%MAXMINIONHEALTH%"
+        - "&b%HEALTH%/%MAXMINIONHEALTH%"
     UpgradeMinion:
       Slot: 40
       Item: GOLD_INGOT
       Action: LEVELUP
-      DisplayName: "&e&lLevel Up"
+      DisplayName: "&b&lLevel Up"
       Lore:
         - "&fUpgrade the Minion to the"
         - "&fnext level"
-        - "&fCost: &e$%NEXTLEVELCOST%"
+        - "&fCost: &b$%NEXTLEVELCOST%"
     Close:
       Slot: 49
       Item: NETHER_STAR
