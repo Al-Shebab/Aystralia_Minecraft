@@ -4106,7 +4106,7 @@ command:
         relog.'
       targetTimedEnabled: '&fYour flight was enabled by &3[senderDisplayName]&f for
         the next [time].'
-      targetTimedEnabledAdd: '&fYour flight time was increased by [addTime] ([time]).'
+      targetTimedEnabledAdd: '&fYour fly time has increased by [addTime]'
       targetUntilRelogEnabled: '&fYour flight was enabled by &3[senderDisplayName]&f
         until you relog.'
       setFor: '&fTemporary fly mode enabled for next [time]'

@@ -36,7 +36,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -80,7 +80,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -124,7 +124,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -168,7 +168,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -212,7 +212,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -256,7 +256,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -300,7 +300,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -344,7 +344,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -388,7 +388,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -432,7 +432,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -476,7 +476,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -520,7 +520,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -564,7 +564,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -608,7 +608,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -652,7 +652,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -696,7 +696,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -740,7 +740,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -784,7 +784,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -828,7 +828,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ''
           Height: 50:70
@@ -872,7 +872,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -916,7 +916,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -960,7 +960,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -1004,7 +1004,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -1048,7 +1048,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -1092,7 +1092,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -1136,7 +1136,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -1180,7 +1180,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -1224,7 +1224,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -1268,7 +1268,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -1312,7 +1312,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -1356,7 +1356,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -1400,7 +1400,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -1444,7 +1444,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -1488,7 +1488,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -1532,7 +1532,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -1576,7 +1576,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -1620,7 +1620,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -1664,7 +1664,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -1708,7 +1708,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -1752,7 +1752,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -1796,7 +1796,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -1846,7 +1846,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -1890,7 +1890,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -1934,7 +1934,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -1978,7 +1978,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -2022,7 +2022,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -2066,7 +2066,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -2110,7 +2110,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -2154,7 +2154,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -2198,7 +2198,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -2242,7 +2242,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -2286,7 +2286,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -2330,7 +2330,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -2374,7 +2374,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -2418,7 +2418,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -2462,7 +2462,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -2506,7 +2506,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -2550,7 +2550,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -2594,7 +2594,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -2638,7 +2638,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -2682,7 +2682,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -2726,7 +2726,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -2770,7 +2770,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -2814,7 +2814,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -2858,7 +2858,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -2902,7 +2902,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -2946,7 +2946,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -2990,7 +2990,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -3034,7 +3034,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256
@@ -3078,7 +3078,7 @@ Spawners:
         Particle-Amount: NORMAL
         Particle-Effect-Boosted-Only: true
         Conditions:
-          Required Player Distance And Amount: '16:1'
+          Required Player Distance And Amount: '64:1'
           Max Entities Around Spawner: 6
           Biomes: ALL
           Height: 0:256

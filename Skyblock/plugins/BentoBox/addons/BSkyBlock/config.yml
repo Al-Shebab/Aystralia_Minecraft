@@ -177,8 +177,8 @@ world:
     LEVER: 500
     HURT_MONSTERS: 0
     RIDING: 500
-    NAME_TAG: 500
     ARMOR_STAND: 500
+    NAME_TAG: 500
     TRADING: 0
     EGGS: 500
     ITEM_DROP: 0
@@ -197,8 +197,8 @@ world:
     ITEM_FRAME: 500
     PLACE_BLOCKS: 500
     CRAFTING: 0
-    ENCHANTING: 0
     SHEARING: 500
+    ENCHANTING: 0
     SPAWN_EGGS: 500
     BED: 500
     MILKING: 0
@@ -211,8 +211,8 @@ world:
     BREAK_BLOCKS: 500
     CHORUS_FRUIT: 500
     CONTAINER: 500
-    JUKEBOX: 500
     POTION_THROWING: 500
+    JUKEBOX: 500
   # These are the default settings for new islands
   default-island-settings:
     PVP_END: false

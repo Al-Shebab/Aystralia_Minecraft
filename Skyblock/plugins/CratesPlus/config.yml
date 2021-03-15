@@ -330,10 +330,10 @@ Crates:
         Item Data: 0
         Percentage: 1
         Enchantments:
-        - 'DURABILITY-10'
-        - 'MENDING-1'
-        - 'dig_speed-10'
-        - 'loot_bonus_blocks-5'
+        - DURABILITY-10
+        - MENDING-1
+        - dig_speed-10
+        - loot_bonus_blocks-5
         Amount: 1
       '9':
         Type: ITEM
