@@ -12,13 +12,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 13.977295
+        bodyYaw: -46.714348
         world: world
         x: '32.5'
         y: '64.0'
         z: '-7.5'
-        yaw: '27.6483'
-        pitch: '0.0'
+        yaw: '-86.7143'
+        pitch: '-8.8567'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -79,12 +79,12 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -174.75354
+        bodyYaw: 162.39206
         world: world
         x: '17.5'
         y: '64.0'
         z: '1.5'
-        yaw: '145.2465'
+        yaw: '-157.6079'
         pitch: '0.0'
       spawned: true
       skintrait:
@@ -137,12 +137,12 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 102.92859
+        bodyYaw: 158.55551
         world: world
         x: '34.5'
         y: '64.0'
         z: '-1.5'
-        yaw: '117.711'
+        yaw: '-161.4445'
         pitch: '0.0'
       spawned: true
       skintrait:
@@ -195,12 +195,12 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -1.3403931
+        bodyYaw: -16.173431
         world: world
         x: '18.5'
         y: '64.0'
         z: '-6.5'
-        yaw: '38.6596'
+        yaw: '-46.419'
         pitch: '0.0'
       spawned: true
       skintrait:
@@ -263,13 +263,13 @@ npc:
         updateSkins: false
       type: PLAYER
       location:
-        bodyYaw: 7.5813293
+        bodyYaw: -17.331108
         world: world
         x: '48.5'
         y: '65.0'
         z: '-15.5'
-        yaw: '47.5813'
-        pitch: '-1.4308'
+        yaw: '-57.3311'
+        pitch: '-14.9229'
       lookclose:
         range: '5.0'
         disablewhilenavigating: true
@@ -335,12 +335,12 @@ npc:
       spawned: true
       type: PLAYER
       location:
-        bodyYaw: -26.433975
+        bodyYaw: -19.81179
         world: world
         x: '26.5'
         y: '64.0'
         z: '-7.5'
-        yaw: '-66.434'
+        yaw: '-59.8118'
         pitch: '0.0'
       commandtrait:
         cost: -1.0

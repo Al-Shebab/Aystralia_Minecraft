@@ -1,4 +1,4 @@
-menu_title: '&8Upgrades | Size'
+menu_title: '&b&lCobble Generator Upgrades'
 open_command: size-upgrades
 size: 36
 items:
@@ -10,10 +10,6 @@ items:
     - 2
     - 4
     - 6
-    - 10
-    - 12
-    - 14
-    - 16
     - 18
     - 19
     - 20
@@ -37,6 +33,8 @@ items:
     - 7
     - 8
     - 9
+    - 10
+    - 16
     - 17
     - 27
     - 28
@@ -57,282 +55,300 @@ items:
     - '[sound] ENTITY_ARROW_HIT_PLAYER'  
     - '[close]'
     - '[openguimenu] upgrades'
-  'Null':
-    material: 351
-    data: 8
-    slot: 33
-    display_name: '&f'
-  'Size1':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19
+  'Homes1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU0ZDljNDg4YzNmYmRlNTQ1NGUzODYxOWY5Y2M1YjViYThjNmMwMTg2ZjhhYTFkYTYwOTAwZmNiYzNlYTYifX19
     priority: 1
     slot: 11
-    display_name: '&b[*] &bSize #1'
+    display_name: '&b[*] &bCobble Generator &f[Level 1]'
+    lore:
+    - ''
+    - '&bAlready Purchased'
+    - '&8» &bDefault Cobble Generator'
+  'Homes2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU3OGQ4ZWI1ODgzYTExMDY2N2I1MWVlMjBhM2IyMWQ1MmQwODlhMGQ0YzkxYmUzY2I3ODZjMzE4MjhhMjA5NyJ9fX0=
+    priority: 1
+    slot: 12
+    display_name: '&b[*] &bCobble Generator &f[Level 2]'
     view_requirement:
       requirements:
-        Pex:
+        Permission:
           type: has permission
-          permission: 'Size.1'
+          permission: 'oregen.upgrade2view'
     lore:
-    - '&8Tier 1 Size Upgrade'
     - ''
-    - '&8* &fPrice: &6200,000 ⛁'
-    - ''
-    - '&8&l▪ &fStatus: &b&lUNLOCKED'
-    - ''
-    - '&8» &bAlready purchased'
-  'Size11':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
+    - '&bAlready Purchased'
+    - '&8» &a$75,000'
+  'Homes22':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU3OGQ4ZWI1ODgzYTExMDY2N2I1MWVlMjBhM2IyMWQ1MmQwODlhMGQ0YzkxYmUzY2I3ODZjMzE4MjhhMjA5NyJ9fX0=
     priority: 2
-    slot: 11
-    display_name: '&b[*] &bSize #1'
+    slot: 12
+    display_name: '&b[*] &bCobble Generator &f[Level 2]'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'oregen.upgrade1'
     lore:
-    - '&8Tier 1 Size Upgrade'
     - ''
-    - '&8* &fCurrent: &3100x100'
-    - '&8* &fCurrent: &b200x200'
+    - '&bCurrent Cobble Generator: &fLevel 1'
+    - '&bUpgrade: &fLevel 2'
     - ''
-    - '&8* &fPrice: &6200,000 ⛁'
-    - ''
-    - '&8&l▪ &fStatus: &c&lLOCKED'
+    - '&bPrice: &f$75,000'
     - ''
     - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lUPGRADES &8&l» &fYou have bought &bSize #1&f.'
+    - '[message] &b&lUpgrades &8> &fYou have bought &bCobble Generator Upgrade &f[Level 2]'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] eco take %player_name% 199999'
-    - '[console] pex user %player_name% add Size.1'
-    - '[console] pex user %player_name% add size.bar.1'  
-    - '[console] asadmin setrange %player_name% 200'
+    - '[console] money take %player_name% 75000'
+    - '[console] lp user %player_name% permission set oregen.upgrade2 true'
+    - '[console] lp user %player_name% permission set oregen.upgrade2view true'
+    - '[console] lp user %player_name% permission set oregen.upgrade1 false'
     left_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 199999
+          amount: 75000
+        Permission:
+          type: has permission
+          permission: 'oregen.upgrade1'
       deny_commands:
-      - '[message] &b&lUPGRADES &8&l» &fYou need &b200,000 ⛁ &fto buy this'
+      - '[message] &b&lUpgrades &8> &fYou need &b$75,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lUPGRADES &8&l» &fYou have bought &bSize #1&f.'
+    - '[message] &b&lUpgrades &8> &fYou have bought &bCobble Generator Upgrade &f[Level 2]'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] eco take %player_name% 199999'
-    - '[console] pex user %player_name% add Size.1'
-    - '[console] pex user %player_name% add size.bar.1' 
-    - '[console] asadmin setrange %player_name% 200'
+    - '[console] money take %player_name% 75000'
+    - '[console] lp user %player_name% permission set oregen.upgrade2 true'
+    - '[console] lp user %player_name% permission set oregen.upgrade2view true'
+    - '[console] lp user %player_name% permission set oregen.upgrade1 false'
     right_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 199999 
+          amount: 75000
+        Permission:
+          type: has permission
+          permission: 'oregen.upgrade1'
       deny_commands:
-      - '[message] &b&lUPGRADES &8&l» &fYou need &b200,000 ⛁ &fto buy this'
+      - '[message] &b&lUpgrades &8> &fYou need &b$75,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'Size2':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19
+  'Homes3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGZjNTZhZDAyM2QyMmRmMzUyM2VkMTBlZWI2ZmNhMzc4NTliMjUxNTRlM2VjNDBiNGY2M2FiZjMyZDU0OSJ9fX0=
     priority: 1
     slot: 13
-    display_name: '&b[*] &bSize #2'
+    display_name: '&b[*] &bCobble Generator &f[Level 3]'
     view_requirement:
       requirements:
-        Pex:
+        Permission:
           type: has permission
-          permission: 'Size.2'
+          permission: 'oregen.upgrade3view'
     lore:
-    - '&8Tier 2 Size Upgrade'
     - ''
-    - '&8* &fPrice: &6400,000 ⛁'
-    - ''
-    - '&8&l▪ &fStatus: &b&lUNLOCKED'
-    - ''
-    - '&8» &bAlready purchased'
-  'Size22':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
+    - '&bAlready Purchased'
+    - '&8» &a$150,000'
+  'Homes33':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGZjNTZhZDAyM2QyMmRmMzUyM2VkMTBlZWI2ZmNhMzc4NTliMjUxNTRlM2VjNDBiNGY2M2FiZjMyZDU0OSJ9fX0=
     priority: 2
     slot: 13
-    display_name: '&b[*] &bSize #2'
+    display_name: '&b[*] &bCobble Generator &f[Level 3]'
     view_requirement:
       requirements:
-        Pex:
+        Permission:
           type: has permission
-          permission: 'Size.1'
+          permission: 'oregen.upgrade2'
     lore:
-    - '&8Tier 2 Size Upgrade'
     - ''
-    - '&8* &fCurrent: &3200x200'
-    - '&8* &fCurrent: &b300x300'
+    - '&bCurrent Cobble Generator: &fLevel 2'
+    - '&bUpgrade: &fLevel 3'
     - ''
-    - '&8* &fPrice: &6400,000 ⛁'
-    - ''
-    - '&8&l▪ &fStatus: &c&lLOCKED'
+    - '&bPrice: &f$150,000'
     - ''
     - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lUPGRADES &8&l» &fYou have bought &bSize #2&f.'
+    - '[message] &b&lUpgrades &8> &fYou have bought &bCobble Generator Upgrade &f[Level 3]'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] eco take %player_name% 399999'
-    - '[console] pex user %player_name% add Size.2'
-    - '[console] pex user %player_name% add size.bar.2' 
-    - '[console] asadmin setrange %player_name% 300'
+    - '[console] money take %player_name% 150000'
+    - '[console] lp user %player_name% permission set oregen.upgrade3 true'
+    - '[console] lp user %player_name% permission set oregen.upgrade3view true'
+    - '[console] lp user %player_name% permission set oregen.upgrade2 false'
     left_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 399999
-        Pex:
+          amount: 150000
+        Permission:
           type: has permission
-          permission: 'Size.1'
+          permission: 'oregen.upgrade2'
       deny_commands:
-      - '[message] &b&lUPGRADES &8&l» &fYou need &b400,000 ⛁ &fto buy this'
+      - '[message] &b&lUpgrades &8> &fYou need &b$150,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lUPGRADES &8&l» &fYou have bought &bSize #2&f.'
+    - '[message] &b&lUpgrades &8> &fYou have bought &bCobble Generator Upgrade &f[Level 3]'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] eco take %player_name% 399999'
-    - '[console] pex user %player_name% add Size.2'
-    - '[console] pex user %player_name% add size.bar.2' 
-    - '[console] asadmin setrange %player_name% 300'
+    - '[console] money take %player_name% 150000'
+    - '[console] lp user %player_name% permission set oregen.upgrade3 true'
+    - '[console] lp user %player_name% permission set oregen.upgrade3view true'
+    - '[console] lp user %player_name% permission set oregen.upgrade2 false'
     right_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 399999 
-        Pex:
+          amount: 150000
+        Permission:
           type: has permission
-          permission: 'Size.1'
+          permission: 'oregen.upgrade2'
       deny_commands:
-      - '[message] &b&lUPGRADES &8&l» &fYou need &b400,000 ⛁ &fto buy this'
+      - '[message] &b&lUpgrades &8> &fYou need &b$150,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'Size222':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmViOTExZWE5NGI1YTFjZjc3ZjNjYTYzN2EzYjE2NjJiMzUxMjFiZDcyZTExODY1MTE4NGYyZmIxMDYwZDEifX19
-    priority: 3
-    slot: 13
-    display_name: '&b[*] &bSize #2'
+  'Homes4':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhlOTlkZGY5NTExZDM1YjU3OTA2N2Y2ZmI3OWEwYTJhNWI3N2ZjNGMyODk4YmJlZjU3MTJmOTg1M2NmYmQwNCJ9fX0=
+    priority: 1
+    slot: 14
+    display_name: '&b[*] &bCobble Generator &f[Level 4]'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'oregen.upgrade4view'
     lore:
-    - '&8Tier 2 Size Upgrade'
     - ''
-    - '&8* &fCurrent: &3200x200'
-    - '&8* &fCurrent: &b300x300'
+    - '&bAlready Purchased'
+    - '&8» &a$350,000'
+  'Homes44':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhlOTlkZGY5NTExZDM1YjU3OTA2N2Y2ZmI3OWEwYTJhNWI3N2ZjNGMyODk4YmJlZjU3MTJmOTg1M2NmYmQwNCJ9fX0=
+    priority: 2
+    slot: 14
+    display_name: '&b[*] &bCobble Generator &f[Level 4]'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'oregen.upgrade3'
+    lore:
     - ''
-    - '&8* &fPrice: &6400,000 ⛁'
+    - '&bCurrent Cobble Generator: &fLevel 3'
+    - '&bUpgrade: &fLevel 4'
     - ''
-    - '&8&l▪ &fStatus: &c&lLOCKED'
+    - '&bPrice: &f$350,000'
     - ''
-    - '&8» &cYou cant buy this'
+    - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lUPGRADES &8&l» &fFirst buy the previous upgrade(s)'
-    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[message] &b&lUpgrades &8> &fYou have bought &bCobble Generator Upgrade &f[Level 4]'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
+    - '[console] money take %player_name% 350000'
+    - '[console] lp user %player_name% permission set oregen.upgrade4 true'
+    - '[console] lp user %player_name% permission set oregen.upgrade4view true'
+    - '[console] lp user %player_name% permission set oregen.upgrade3 false'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 350000
+        Permission:
+          type: has permission
+          permission: 'oregen.upgrade3'
+      deny_commands:
+      - '[message] &b&lUpgrades &8> &fYou need &b$350,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
     right_click_commands:
-    - '[message] &b&lUPGRADES &8&l» &fFirst buy the previous upgrade(s)'
-    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[message] &b&lUpgrades &8> &fYou have bought &bCobble Generator Upgrade &f[Level 4]'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-  'Size3':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19
+    - '[console] money take %player_name% 350000'
+    - '[console] lp user %player_name% permission set oregen.upgrade4 true'
+    - '[console] lp user %player_name% permission set oregen.upgrade4view true'
+    - '[console] lp user %player_name% permission set oregen.upgrade3 false'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 350000
+        Permission:
+          type: has permission
+          permission: 'oregen.upgrade3'
+      deny_commands:
+      - '[message] &b&lUpgrades &8> &fYou need &b$350,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'Homes5':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRmMjE4NTI1YzE5YTkyMmRmMmQwMDAxNzc4YTFkOTQ1Yzc1ZDJhOTI0YzBlYWEyMGU0YjI3MTlmODQ4NTQyZSJ9fX0=
     priority: 1
     slot: 15
-    display_name: '&b[*] &bSize #3'
+    display_name: '&b[*] &bCobble Generator &f[Level 5]'
     view_requirement:
       requirements:
-        Pex:
+        Permission:
           type: has permission
-          permission: 'Size.3'
+          permission: 'oregen.upgrade5view'
     lore:
-    - '&8Tier 3 Size Upgrade'
     - ''
-    - '&8* &fPrice: &6600,000 ⛁'
-    - ''
-    - '&8&l▪ &fStatus: &b&lUNLOCKED'
-    - ''
-    - '&8» &bAlready purchased'
-  'Size33':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3MTZiMzc1MjNmNDUzZTE4NzFmMjI2M2Y4MjNjMjgwYmI4ZGQ3M2Q2OTZkNTI3YjllZWM4N2NkZjMyIn19fQ==
+    - '&bAlready Purchased'
+    - '&8» &a$700,000'
+  'Homes55':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRmMjE4NTI1YzE5YTkyMmRmMmQwMDAxNzc4YTFkOTQ1Yzc1ZDJhOTI0YzBlYWEyMGU0YjI3MTlmODQ4NTQyZSJ9fX0=
     priority: 2
     slot: 15
-    display_name: '&b[*] &bSize #3'
+    display_name: '&b[*] &bCobble Generator &f[Level 5]'
     view_requirement:
       requirements:
-        Pex:
+        Permission:
           type: has permission
-          permission: 'Size.2'
+          permission: 'oregen.upgrade4'
     lore:
-    - '&8Tier 3 Size Upgrade'
     - ''
-    - '&8* &fCurrent: &3300x300'
-    - '&8* &fCurrent: &b400x400'
+    - '&bCurrent Cobble Generator: &fLevel 4'
+    - '&bUpgrade: &fLevel 5'
     - ''
-    - '&8* &fPrice: &6600,000 ⛁'
-    - ''
-    - '&8&l▪ &fStatus: &c&lLOCKED'
+    - '&bPrice: &f$700,000'
     - ''
     - '&8» &bClick to buy'
     left_click_commands:
-    - '[console] tm msg %player_name% &b&lUPGRADES\n&b&bYou have bought &8[&bSize #3&f.'
+    - '[message] &b&lUpgrades &8> &fYou have bought &bCobble Generator Upgrade &f[Level 5]'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] eco take %player_name% 599999'
-    - '[console] pex user %player_name% add Size.3'
-    - '[console] pex user %player_name% add size.bar.3' 
-    - '[console] asadmin setrange %player_name% 400'
+    - '[console] money take %player_name% 700000'
+    - '[console] lp user %player_name% permission set oregen.upgrade5 true'
+    - '[console] lp user %player_name% permission set oregen.upgrade5view true'
+    - '[console] lp user %player_name% permission set oregen.upgrade4 false'
     left_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 599999
-        Pex:
+          amount: 700000
+        Permission:
           type: has permission
-          permission: 'Size.2'
+          permission: 'oregen.upgrade4'
       deny_commands:
-      - '[message] &b&lUPGRADES &8&l» &fYou need &b600,000 ⛁ &fto buy this'
+      - '[message] &b&lUpgrades &8> &fYou need &b$700,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[console] tm msg %player_name% &b&lUPGRADES\n&b&bYou have bought &f(Size #3&f.'
+    - '[message] &b&lUpgrades &8> &fYou have bought &bCobble Generator Upgrade &f[Level 5]'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] eco take %player_name% 599999'
-    - '[console] pex user %player_name% add Size.3'
-    - '[console] pex user %player_name% add size.bar.3' 
-    - '[console] asadmin setrange %player_name% 400'
+    - '[console] money take %player_name% 700000'
+    - '[console] lp user %player_name% permission set oregen.upgrade5 true'
+    - '[console] lp user %player_name% permission set oregen.upgrade5view true'
+    - '[console] lp user %player_name% permission set oregen.upgrade4 false'
     right_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 599999 
-        Pex:
+          amount: 700000
+        Permission:
           type: has permission
-          permission: 'Size.2'
+          permission: 'oregen.upgrade4'
       deny_commands:
-      - '[message] &b&lUPGRADES &8&l» &fYou need &b600,000 ⛁ &fto buy this'
+      - '[message] &b&lUpgrades &8> &fYou need &b$700,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'Size333':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmViOTExZWE5NGI1YTFjZjc3ZjNjYTYzN2EzYjE2NjJiMzUxMjFiZDcyZTExODY1MTE4NGYyZmIxMDYwZDEifX19
-    priority: 3
-    slot: 15
-    display_name: '&b[*] &bSize #3'
-    lore:
-    - '&8Tier 3 Size Upgrade'
-    - ''
-    - '&8* &fCurrent: &3300x300'
-    - '&8* &fCurrent: &b400x400'
-    - ''
-    - '&8* &fPrice: &6600,000 ⛁'
-    - ''
-    - '&8&l▪ &fStatus: &c&lLOCKED'
-    - ''
-    - '&8» &cYou cant buy this'
-    left_click_commands:
-    - '[message] &b&lUPGRADES &8&l» &fFirst buy the previous upgrade(s)'
-    - '[sound] BLOCK_ANVIL_LAND' 
-    - '[close]'
-    right_click_commands:
-    - '[message] &b&lUPGRADES &8&l» &fFirst buy the previous upgrade(s)'
-    - '[sound] BLOCK_ANVIL_LAND' 
-    - '[close]'

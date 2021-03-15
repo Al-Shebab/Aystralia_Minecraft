@@ -76,7 +76,7 @@ items:
     - '[close]'
     - '[player] perks'
   'HomeUpgrades':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFmYzg0NGE2OTlkNDkyODgwMWIzNzJiOTFjOTlhZjYwMWE4ZjY0YTdmMGEwYzJiNjE2MzQyNGUwZGRiOTMifX19
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM2ZTk0ZjZjMzRhMzU0NjVmY2U0YTkwZjJlMjU5NzYzODllYjk3MDlhMTIyNzM1NzRmZjcwZmQ0ZGFhNjg1MiJ9fX0=
     slot: 13
     display_name: '&b[*] &bPaycheck upgrades'
     lore:
@@ -93,15 +93,20 @@ items:
     - '[close]'
     - '[openguimenu] home-upgrades'
   'SizeUpgrades':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU3OGQ4ZWI1ODgzYTExMDY2N2I1MWVlMjBhM2IyMWQ1MmQwODlhMGQ0YzkxYmUzY2I3ODZjMzE4MjhhMjA5NyJ9fX0=
     slot: 15
-    display_name: '&b[*] &bComing Soon...'
+    display_name: '&b[*] &bCobble Generator upgrades'
     lore:
     - ''
-    - '&b...'
+    - '&fUpgrade your Cobble Generator'
+    - '&fTo produce more ores'
     - ''
-    - '&8» &bClick to close'
+    - '&8» &bClick to open'
     left_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'  
     - '[close]'
+    - '[openguimenu] size-upgrades'
     right_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'  
     - '[close]'
+    - '[openguimenu] size-upgrades'

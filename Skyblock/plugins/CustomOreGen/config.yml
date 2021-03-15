@@ -15,10 +15,10 @@ generators:
   generator1:
     # default generator
     # name of the generator (does not need to be set, just for placeholders)
-    label: "beginner"
+    label: "1"
     blocks:
     # Please use Bukkit-Blocknames. List: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
-    - STONE:70.4
+    - COBBLESTONE:70.4
     - IRON_ORE:5.0
     - COAL_ORE:7.5
     - GOLD_ORE:5.0
@@ -27,19 +27,86 @@ generators:
     - EMERALD_ORE:2.0
     - DIAMOND_ORE:2.0
     - ANCIENT_DEBRIS:0.1
-    permission: ''
+    permission: 'oregen.upgrade1'
     # You can also define from what level the generator should be activated. Example: Leave all permissions empty and
     # only work with the island Level. The plugin would only consider the islandLevel then.
     unlock_islandLevel: 0
   generator2:
-    # vip generator, VIPS need generators.vip permission
-    label: "VIP"
+    # default generator
+    # name of the generator (does not need to be set, just for placeholders)
+    label: "2"
     blocks:
-    - IRON_ORE:90.0
-    - STONE:5.0
-    - SANDSTONE:5.0
-    permission: 'oregen.vip'
+    # Please use Bukkit-Blocknames. List: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+    - COBBLESTONE:64.4
+    - IRON_ORE:6.0
+    - COAL_ORE:8.0
+    - GOLD_ORE:6.0
+    - LAPIS_ORE:5.0
+    - REDSTONE_ORE:5.0
+    - EMERALD_ORE:3.0
+    - DIAMOND_ORE:2.0
+    - ANCIENT_DEBRIS:0.2
+    permission: 'oregen.upgrade2'
+    # You can also define from what level the generator should be activated. Example: Leave all permissions empty and
+    # only work with the island Level. The plugin would only consider the islandLevel then.
     unlock_islandLevel: 0
-# Here you can define worlds where the generator should not work
+  generator3:
+    # default generator
+    # name of the generator (does not need to be set, just for placeholders)
+    label: "3"
+    blocks:
+    # Please use Bukkit-Blocknames. List: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+    - COBBLESTONE:29.4
+    - STONE:29.3
+    - IRON_ORE:7.0
+    - COAL_ORE:8.0
+    - GOLD_ORE:7.0
+    - LAPIS_ORE:6.0
+    - REDSTONE_ORE:6.0
+    - EMERALD_ORE:4.0
+    - DIAMOND_ORE:3.0
+    - ANCIENT_DEBRIS:0.3
+    permission: 'oregen.upgrade3'
+    # You can also define from what level the generator should be activated. Example: Leave all permissions empty and
+    # only work with the island Level. The plugin would only consider the islandLevel then.
+    unlock_islandLevel: 0
+  generator4:
+    # default generator
+    # name of the generator (does not need to be set, just for placeholders)
+    label: "4"
+    blocks:
+    # Please use Bukkit-Blocknames. List: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+    - STONE:51.5
+    - IRON_ORE:8.0
+    - COAL_ORE:8.0
+    - GOLD_ORE:8.0
+    - LAPIS_ORE:8.0
+    - REDSTONE_ORE:6.0
+    - EMERALD_ORE:5.0
+    - DIAMOND_ORE:5.0
+    - ANCIENT_DEBRIS:0.5
+    permission: 'oregen.upgrade4'
+    # You can also define from what level the generator should be activated. Example: Leave all permissions empty and
+    # only work with the island Level. The plugin would only consider the islandLevel then.
+    unlock_islandLevel: 0
+  generator5:
+    # default generator
+    # name of the generator (does not need to be set, just for placeholders)
+    label: "5"
+    blocks:
+    # Please use Bukkit-Blocknames. List: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+    - STONE:41.0
+    - IRON_ORE:10.0
+    - COAL_ORE:6.0
+    - GOLD_ORE:10.0
+    - LAPIS_ORE:10.0
+    - REDSTONE_ORE:8.0
+    - EMERALD_ORE:7.0
+    - DIAMOND_ORE:7.0
+    - ANCIENT_DEBRIS:1.0
+    permission: 'oregen.upgrade5'
+    # You can also define from what level the generator should be activated. Example: Leave all permissions empty and
+    # only work with the island Level. The plugin would only consider the islandLevel then.
+    unlock_islandLevel: 0
 disabled-worlds:
-- "world_netheaar"
+- "world_disabled"

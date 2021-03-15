@@ -1,5 +1,7 @@
 PlayerName: Tyler49765
-Haste_CoolDown: '1615741553944'
+Haste_CoolDown: '1615814773937'
 CheckWorld: 'false'
 OfflineRewards: ''
-LastOnline: '1615722847482'
+LastOnline: '1615811812838'
+Experation:
+  Haste: '0'
