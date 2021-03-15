@@ -3,11 +3,11 @@
     [
       [
         "skyblock",
-        4000.5,
-        120.0,
-        0.5,
-        0.0,
-        0.0
+        4003.5,
+        131.0,
+        1.5,
+        270.0,
+        30.0
       ],
       1
     ]
@@ -20,5 +20,6 @@
     "skyblock": 0
   },
   "pendingKicks": [],
-  "flagsDisplayMode": "BASIC"
+  "flagsDisplayMode": "BASIC",
+  "metaData": {}
 }

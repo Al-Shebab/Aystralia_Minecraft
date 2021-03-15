@@ -204,16 +204,16 @@ items:
     display_name: '&b[*] &bJobs'
     lore:
     - ''
-    - '&fSelect 2 jobs and start'
+    - '&fSelect 3 jobs and start'
     - '&fearning money.'
     - ''
     - '&8» &bClick to open'
     left_click_commands:
-    - '[player] jobs browse'
+    - '[openguimenu] jobs'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[close]'
     right_click_commands:
-    - '[player] jobs browse'
+    - '[openguimenu] jobs'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[close]'
   'Go-to-the-spawn':

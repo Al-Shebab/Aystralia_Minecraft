@@ -3,22 +3,21 @@
     [
       [
         "skyblock",
-        4003.5,
-        131.0,
-        1.5,
+        4002.5,
+        161.0,
+        -1993.5,
         270.0,
         30.0
       ],
       1
     ]
   ],
-  "uniqueId": "58e3cb86-ff1d-4522-af0e-b75dfda6c8ca",
-  "playerName": "Melasxd",
+  "uniqueId": "f08f3bdf-fe06-4135-a538-57ef5eababf0",
+  "playerName": "Jensen_B13",
   "resets": {},
   "locale": "",
   "deaths": {
-    "skyblock": 0,
-    "skyblock_nether": 1
+    "skyblock": 1
   },
   "pendingKicks": [],
   "flagsDisplayMode": "BASIC",
