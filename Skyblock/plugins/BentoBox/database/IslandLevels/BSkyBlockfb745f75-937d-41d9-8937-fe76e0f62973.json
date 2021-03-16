@@ -1,0 +1,33 @@
+{
+  "uniqueId": "BSkyBlockfb745f75-937d-41d9-8937-fe76e0f62973",
+  "level": 23,
+  "initialLevel": 75,
+  "pointsToNextLevel": 24,
+  "uwCount": {},
+  "mdCount": {
+    "COBBLESTONE_SLAB": 792,
+    "HOPPER": 2,
+    "CACTUS": 33,
+    "OAK_LOG": 50,
+    "BEDROCK": 1,
+    "AIR": 10237386,
+    "OAK_LEAVES": 433,
+    "CRAFTING_TABLE": 2,
+    "OAK_WALL_SIGN": 1,
+    "PACKED_ICE": 26,
+    "WATER": 979,
+    "OAK_SLAB": 50,
+    "CHEST": 9,
+    "LAVA": 1,
+    "TORCH": 20,
+    "COBBLESTONE": 144,
+    "DIRT": 12,
+    "OAK_SIGN": 30,
+    "OAK_PLANKS": 6,
+    "OAK_FENCE": 15,
+    "WALL_TORCH": 16,
+    "SAND": 31,
+    "FURNACE": 1,
+    "LAPIS_ORE": 1
+  }
+}

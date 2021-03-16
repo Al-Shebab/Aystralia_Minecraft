@@ -41,7 +41,7 @@ Items:
     price: 108
   EMERALD_BLOCK:
     price: 108
-  LAPIS_BLCOK:
+  LAPIS_BLOCK:
     price: 108
   COAL_BLOCK:
     price: 45
@@ -413,3 +413,6 @@ Items:
     price: 150
   IRON_HORSE_ARMOUR:
     price: 100
+  WITHER_SKELETON_SKULL:
+    price: 20
+

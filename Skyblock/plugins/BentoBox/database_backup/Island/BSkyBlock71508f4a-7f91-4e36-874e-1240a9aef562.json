@@ -10,8 +10,8 @@
     0.0
   ],
   "range": 1000,
-  "protectionRange": 100,
-  "maxEverProtectionRange": 100,
+  "protectionRange": 500,
+  "maxEverProtectionRange": 500,
   "world": "skyblock",
   "gameMode": "BSkyBlock",
   "createdDate": 1615539523720,
@@ -38,7 +38,7 @@
     "RIDING": 500,
     "BREAK_SPAWNERS": 500,
     "ARMOR_STAND": 500,
-    "PVP_NETHER": -1,
+    "PVP_NETHER": 1,
     "FISH_SCOOPING": 500,
     "EGGS": 500,
     "CRAFTING": 0,
@@ -46,7 +46,7 @@
     "BREAK_BLOCKS": 500,
     "CHORUS_FRUIT": 500,
     "HOPPER": 500,
-    "PVP_OVERWORLD": -1,
+    "PVP_OVERWORLD": 1,
     "MILKING": 0,
     "TNT_PRIMING": 500,
     "FIRE_IGNITE": 500,
@@ -137,5 +137,8 @@
     ]
   },
   "doNotLoad": false,
-  "cooldowns": {}
+  "cooldowns": {
+    "PVP_OVERWORLD": 1615880705184,
+    "PVP_NETHER": 1615880705984
+  }
 }

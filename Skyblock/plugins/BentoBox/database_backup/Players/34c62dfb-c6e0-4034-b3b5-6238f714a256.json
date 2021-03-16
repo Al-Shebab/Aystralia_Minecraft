@@ -1,0 +1,25 @@
+{
+  "homeLocations": [
+    [
+      [
+        "skyblock",
+        -1997.5,
+        161.0,
+        6006.5,
+        270.0,
+        30.0
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "34c62dfb-c6e0-4034-b3b5-6238f714a256",
+  "playerName": "PROGRAM_Z",
+  "resets": {},
+  "locale": "",
+  "deaths": {
+    "skyblock": 0
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC",
+  "metaData": {}
+}

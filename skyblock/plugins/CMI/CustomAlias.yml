@@ -61,18 +61,6 @@ CustomAlias:
   wild:
     Cmds:
     - cmi rt world
-  hub:
+  level:
     Cmds:
-    - server Hub
-  creative:
-    Cmds:
-    - server Creative
-  skyblock:
-    Cmds:
-    - server Skyblock
-  anarchy:
-    Cmds:
-    - server Anarchy
-  prison:
-    Cmds:
-    - server Prison
+    - is level

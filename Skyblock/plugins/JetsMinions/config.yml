@@ -87,7 +87,7 @@ Minions:
       TicksPerAction: 50 #How often do you want the minion to mine the rock infront in ticks (20 = 1 second)
       DefaultSkin: Miner #Want to change the default skin? Check the skins.yml file (You can modify the Miner skin, or create your own one!)
     Health:
-      EnableHealth: true #Health goes down over time & is recovered by feeding a minion. When health gets to 0 the minion will stop
+      EnableHealth: false #Health goes down over time & is recovered by feeding a minion. When health gets to 0 the minion will stop
       MaxHealth: 100 #The max health for a minion
       ActionPerHealth: 10 #The amount of actions (in this case block mines) the minion can do before dropping 1 health
       RightClickWithFoodToFeed: true #Whether the people can right-click the minion with food to heal it
@@ -111,7 +111,7 @@ Minions:
       TicksPerAction: 140
       DefaultSkin: Slayer
     Health:
-      EnableHealth: true
+      EnableHealth: false
       MaxHealth: 100
       ActionPerHealth: 4
       RightClickWithFoodToFeed: true
@@ -136,7 +136,7 @@ Minions:
       TicksPerAction: 100
       DefaultSkin: Collector
     Health:
-      EnableHealth: true
+      EnableHealth: false
       MaxHealth: 100
       ActionPerHealth: 15
       RightClickWithFoodToFeed: true
@@ -161,7 +161,7 @@ Minions:
       TicksPerAction: 300
       DefaultSkin: Feeder
     Health:
-      EnableHealth: true
+      EnableHealth: false
       MaxHealth: 100
       ActionPerHealth: 15
       RightClickWithFoodToFeed: true
@@ -177,7 +177,6 @@ Minions:
         - "&fto place it! Once placed"
         - "&fit will feed all minions"
         - "&fwithin its range!"
-        - "&fRemember to feed it!"
         - " "
         - "&fHunger Healed: &b%STATS%"
         - "&fLevel: &b%LEVEL%"
@@ -187,7 +186,7 @@ Minions:
       TicksPerAction: 200
       DefaultSkin: Lumberjack
     Health:
-      EnableHealth: true
+      EnableHealth: false
       MaxHealth: 100
       ActionPerHealth: 10
       RightClickWithFoodToFeed: true
@@ -203,7 +202,6 @@ Minions:
         - "&fto place it! Once placed"
         - "&fit start chopping logs & leaves"
         - "&fwithin its range!"
-        - "&fRemember to feed it!"
         - " "
         - "&fLogs chopped: &b%STATS%"
         - "&fLevel: &b%LEVEL%"
@@ -213,7 +211,7 @@ Minions:
       TicksPerAction: 60 #one complete harvest = 1 action
       DefaultSkin: Farmer
     Health:
-      EnableHealth: true
+      EnableHealth: false
       MaxHealth: 100
       ActionPerHealth: 15
       RightClickWithFoodToFeed: true
@@ -229,7 +227,6 @@ Minions:
         - "&fto place it! Once placed"
         - "&fit start farming crops"
         - "&fwithin its range!"
-        - "&fRemember to feed it!"
         - " "
         - "&fTotal Harvests: &b%STATS%"
         - "&fLevel: &b%LEVEL%"
@@ -239,7 +236,7 @@ Minions:
       TicksPerAction: 60 #one attempt to catch a fish
       DefaultSkin: Fisher
     Health:
-      EnableHealth: true
+      EnableHealth: false
       MaxHealth: 100
       ActionPerHealth: 20
       RightClickWithFoodToFeed: true
@@ -256,7 +253,6 @@ Minions:
         - "&fit will start fishing"
         - "&fin water pools 4 blocks"
         - "&fwithin range"
-        - "&fRemember to feed it!"
         - " "
         - "&fTotal fish caught: &b%STATS%"
         - "&fLevel: &b%LEVEL%"
@@ -266,7 +262,7 @@ Minions:
       TicksPerAction: 300 #The time it takes for the minion to sell items in the chest
       DefaultSkin: Seller
     Health:
-      EnableHealth: true
+      EnableHealth: false
       MaxHealth: 100
       ActionPerHealth: 15
       RightClickWithFoodToFeed: true

@@ -4113,7 +4113,7 @@ command:
       setForRelog: '&fTemporary fly mode enabled until relog'
       notSet: '&fTemporary fly mode is not enabled for player'
       willBeDisabled: '&fFly mode will be disabled in [time]'
-      disabled: '&fTemporarly fly mode is disabled!'
+      disabled: '&cTemporary fly  disabled!'
   tgod:
     help:
       info: '&fSet players temporarily god mode until relog or time end'

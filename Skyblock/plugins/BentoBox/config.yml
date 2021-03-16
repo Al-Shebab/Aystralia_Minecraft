@@ -159,7 +159,7 @@ island:
   # Smaller values will help reduce noticeable lag but will make pasting take slightly longer.
   # On the contrary, greater values will make pasting take less time, but this benefit is quickly severely impacted by the
   # resulting amount of chunks that must be loaded to fulfill the process, which often causes the server to hang out.
-  paste-speed: 64
+  paste-speed: 256
   # Island deletion: Number of chunks per world to regenerate per second.
   # If there is a nether and end then 3x this number will be regenerated per second.
   # Smaller values will help reduce noticeable lag but will make deleting take longer.
@@ -184,7 +184,7 @@ web:
     # features that rely on the data downloaded from the GitHub API.
     # It does not send any data.
     # Added since 1.5.0.
-    download-data: true
+    download-data: false
     # Time in minutes between each connection to the GitHub API.
     # This allows for up-to-the-minute information gathering.
     # However, as the GitHub API data does not get updated instantly, this value cannot be set to less than 60 minutes.

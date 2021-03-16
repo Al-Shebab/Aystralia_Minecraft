@@ -1,0 +1,25 @@
+{
+  "homeLocations": [
+    [
+      [
+        "skyblock",
+        -3999.5,
+        125.0,
+        -1999.5,
+        0.0,
+        30.0
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "a4de17ad-abe0-4fe7-9f1c-f21c18607509",
+  "playerName": "Stoopid_Ugly",
+  "resets": {},
+  "locale": "",
+  "deaths": {
+    "skyblock": 3
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC",
+  "metaData": {}
+}

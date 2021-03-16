@@ -14,14 +14,6 @@ ControlPanel:
       Action: none #Possible Actions: NONE, CLOSE, LEVELUP, ROTATE_NORTH, ROTATE_EAST, ROTATE_SOUTH, ROTATE_WEST,ROTATE, SKINS (opens Skin Menu for that minion), ATTACHCHEST, RENAME, PAYHEAL, HEAL (PAYHEAL will charge the user in money, HEAL will not), EXP (Gives the experience the minion has to the player)
       DisplayName: " " #Placeholders: %MINIONNAME% get the minion name, %HEALTH% get the current minions health, %NEXTLEVELCOST% cost for the next level, %SETTINGVALUE% for the value of the setting, and %NEXTSETTINGVALUE% for the next (upgraded) setting value), and %LEVEL% current minion level
       Lore: [] #Same placeholders as aboved
-    Skins:
-      Slot: 19
-      Item: SKULL:%DEFAULTSKIN% #If using a Skull, put Skull:<playersname> (or %PLAYERSNAME% for the person who opened the inventory, or %DEFAULTSKIN% for the Minions Default Head)
-      Action: SKINS #Will open skins menu
-      DisplayName: "&b&lSkin Menu"
-      Lore:
-        - "&fClick this to change your"
-        - "&fMinions Skin!"
     North:
       Slot: 20
       Item: SKULL:MHF_ArrowUp
@@ -58,16 +50,8 @@ ControlPanel:
         - "&fClick this to change the"
         - "&fDirection of your minion"
         - "&fto West"
-    PayToHeal:
-      Slot: 24
-      Item: GOLDEN_APPLE
-      Action: PAYHEAL
-      DisplayName: "&b&lHeal Minion"
-      Lore:
-        - "&fThis will cost"
-        - "&f$200" #Change the amount if needed in the config.yml
     Hopper:
-      Slot: 25
+      Slot: 24
       Item: HOPPER
       Action: ATTACHCHEST
       DisplayName: "&b&lAttach a chest"
@@ -90,16 +74,8 @@ ControlPanel:
       Lore:
         - "&fClick to Rename"
         - "&fThe minion!"
-    Health:
-      Slot: 32
-      Item: COOKED_BEEF
-      Action: NONE
-      DisplayName: "&b&lHealth"
-      Lore:
-        - "&fYour minions health is"
-        - "&b%HEALTH%/%MAXMINIONHEALTH%"
     UpgradeMinion:
-      Slot: 40
+      Slot: 32
       Item: GOLD_INGOT
       Action: LEVELUP
       DisplayName: "&b&lLevel Up"
@@ -125,14 +101,6 @@ ControlPanel:
       Action: none #Possible Actions: NONE, CLOSE, LEVELUP, ROTATE_NORTH, ROTATE_EAST, ROTATE_SOUTH, ROTATE_WEST,ROTATE, SKINS (opens Skin Menu for that minion), ATTACHCHEST, RENAME, PAYHEAL, HEAL (PAYHEAL will charge the user in money, HEAL will not), EXP (Gives the experience the minion has to the player)
       DisplayName: " " #Placeholders: %MINIONNAME% get the minion name, %HEALTH% get the current minions health, %NEXTLEVELCOST% cost for the next level, %SETTINGVALUE% for the value of the setting, and %NEXTSETTINGVALUE% for the next (upgraded) setting value), and %LEVEL% current minion level
       Lore: [] #Same placeholders as aboved
-    Skins:
-      Slot: 19
-      Item: SKULL:%DEFAULTSKIN%
-      Action: SKINS
-      DisplayName: "&b&lSkin Menu"
-      Lore:
-        - "&fClick this to change your"
-        - "&fMinions Skin!"
     North:
       Slot: 20
       Item: SKULL:MHF_ArrowUp
@@ -169,16 +137,8 @@ ControlPanel:
         - "&fClick this to change the"
         - "&fDirection of your minion"
         - "&fto West"
-    PayToHeal:
-      Slot: 24
-      Item: GOLDEN_APPLE
-      Action: PAYHEAL
-      DisplayName: "&b&lHeal Minion"
-      Lore:
-        - "&fThis will cost"
-        - "&f$200" #Change the amount if needed in the config.yml
     Hopper:
-      Slot: 25
+      Slot: 24
       Item: HOPPER
       Action: ATTACHCHEST
       DisplayName: "&b&lAttach a chest"
@@ -201,16 +161,8 @@ ControlPanel:
       Lore:
         - "&fClick to Rename"
         - "&fThe minion!"
-    Health:
-      Slot: 32
-      Item: COOKED_BEEF
-      Action: NONE
-      DisplayName: "&b&lHealth"
-      Lore:
-        - "&fYour minions health is"
-        - "&b%HEALTH%/%MAXMINIONHEALTH%"
     UpgradeMinion:
-      Slot: 40
+      Slot: 32
       Item: GOLD_INGOT
       Action: LEVELUP
       DisplayName: "&b&lLevel Up"
@@ -236,14 +188,6 @@ ControlPanel:
       Action: none
       DisplayName: " "
       Lore: []
-    Skins:
-      Slot: 19
-      Item: SKULL:%DEFAULTSKIN%
-      Action: SKINS
-      DisplayName: "&b&lSkin Menu"
-      Lore:
-        - "&fClick this to change your"
-        - "&fMinions Skin!"
     North:
       Slot: 20
       Item: SKULL:MHF_ArrowUp
@@ -280,16 +224,8 @@ ControlPanel:
         - "&fClick this to change the"
         - "&fDirection of your minion"
         - "&fto West"
-    PayToHeal:
-      Slot: 24
-      Item: GOLDEN_APPLE
-      Action: PAYHEAL
-      DisplayName: "&b&lHeal Minion"
-      Lore:
-        - "&fThis will cost"
-        - "&f$200" #Change the amount if needed in the config.yml
     Hopper:
-      Slot: 25
+      Slot: 24
       Item: HOPPER
       Action: ATTACHCHEST
       DisplayName: "&b&lAttach a chest"
@@ -320,16 +256,8 @@ ControlPanel:
       Lore:
         - "&fYour minion has collected"
         - "&b%EXP% &fEXP"
-    Health:
-      Slot: 33
-      Item: COOKED_BEEF
-      Action: NONE
-      DisplayName: "&b&lHealth"
-      Lore:
-        - "&fYour minions health is"
-        - "&b%HEALTH%/%MAXMINIONHEALTH%"
     UpgradeMinion:
-      Slot: 40
+      Slot: 32
       Item: GOLD_INGOT
       Action: LEVELUP
       DisplayName: "&b&lLevel Up"
@@ -355,14 +283,6 @@ ControlPanel:
       Action: none
       DisplayName: " "
       Lore: []
-    Skins:
-      Slot: 19
-      Item: SKULL:%DEFAULTSKIN%
-      Action: SKINS
-      DisplayName: "&b&lSkin Menu"
-      Lore:
-        - "&fClick this to change your"
-        - "&fMinions Skin!"
     North:
       Slot: 20
       Item: SKULL:MHF_ArrowUp
@@ -399,16 +319,8 @@ ControlPanel:
         - "&fClick this to change the"
         - "&fDirection of your minion"
         - "&fto West"
-    PayToHeal:
-      Slot: 24
-      Item: GOLDEN_APPLE
-      Action: PAYHEAL
-      DisplayName: "&b&lHeal Minion"
-      Lore:
-        - "&fThis will cost"
-        - "&f$200" #Change the amount if needed in the config.yml
     Hopper:
-      Slot: 25
+      Slot: 24
       Item: HOPPER
       Action: ATTACHCHEST
       DisplayName: "&b&lAttach a chest"
@@ -439,16 +351,8 @@ ControlPanel:
       Lore:
         - "&fYour minion has collected"
         - "&b%EXP% &fEXP"
-    Health:
-      Slot: 33
-      Item: COOKED_BEEF
-      Action: NONE
-      DisplayName: "&b&lHealth"
-      Lore:
-        - "&fYour minions health is"
-        - "&b%HEALTH%/%MAXMINIONHEALTH%"
     UpgradeMinion:
-      Slot: 40
+      Slot: 32
       Item: GOLD_INGOT
       Action: LEVELUP
       DisplayName: "&b&lLevel Up"
@@ -474,14 +378,6 @@ ControlPanel:
       Action: none
       DisplayName: " "
       Lore: []
-    Skins:
-      Slot: 19
-      Item: SKULL:%DEFAULTSKIN%
-      Action: SKINS
-      DisplayName: "&b&lSkin Menu"
-      Lore:
-        - "&fClick this to change your"
-        - "&fMinions Skin!"
     North:
       Slot: 20
       Item: SKULL:MHF_ArrowUp
@@ -518,14 +414,6 @@ ControlPanel:
         - "&fClick this to change the"
         - "&fDirection of your minion"
         - "&fto West"
-    PayToHeal:
-      Slot: 24
-      Item: GOLDEN_APPLE
-      Action: PAYHEAL
-      DisplayName: "&b&lHeal Minion"
-      Lore:
-        - "&fThis will cost"
-        - "&f$200"
     Stats:
       Slot: 30
       Item: DIAMOND_HOE
@@ -542,16 +430,8 @@ ControlPanel:
       Lore:
         - "&fClick to Rename"
         - "&fThe minion!"
-    Health:
-      Slot: 32
-      Item: COOKED_BEEF
-      Action: NONE
-      DisplayName: "&b&lHealth"
-      Lore:
-        - "&fYour minions health is"
-        - "&b%HEALTH%/%MAXMINIONHEALTH%"
     UpgradeMinion:
-      Slot: 40
+      Slot: 32
       Item: GOLD_INGOT
       Action: LEVELUP
       DisplayName: "&b&lLevel Up"
@@ -577,14 +457,6 @@ ControlPanel:
       Action: none
       DisplayName: " "
       Lore: []
-    Skins:
-      Slot: 19
-      Item: SKULL:%DEFAULTSKIN%
-      Action: SKINS
-      DisplayName: "&b&lSkin Menu"
-      Lore:
-        - "&fClick this to change your"
-        - "&fMinions Skin!"
     North:
       Slot: 20
       Item: SKULL:MHF_ArrowUp
@@ -621,16 +493,8 @@ ControlPanel:
         - "&fClick this to change the"
         - "&fDirection of your minion"
         - "&fto West"
-    PayToHeal:
-      Slot: 24
-      Item: GOLDEN_APPLE
-      Action: PAYHEAL
-      DisplayName: "&b&lHeal Minion"
-      Lore:
-        - "&fThis will cost"
-        - "&f$200" #Change the amount if needed in the config.yml
     Hopper:
-      Slot: 25
+      Slot: 24
       Item: HOPPER
       Action: ATTACHCHEST
       DisplayName: "&b&lAttach a chest"
@@ -653,16 +517,8 @@ ControlPanel:
       Lore:
         - "&fClick to Rename"
         - "&fThe minion!"
-    Health:
-      Slot: 32
-      Item: COOKED_BEEF
-      Action: NONE
-      DisplayName: "&b&lHealth"
-      Lore:
-        - "&fYour minions health is"
-        - "&b%HEALTH%/%MAXMINIONHEALTH%"
     UpgradeMinion:
-      Slot: 40
+      Slot: 32
       Item: GOLD_INGOT
       Action: LEVELUP
       DisplayName: "&b&lLevel Up"
@@ -688,14 +544,6 @@ ControlPanel:
       Action: none
       DisplayName: " "
       Lore: []
-    Skins:
-      Slot: 19
-      Item: SKULL:%DEFAULTSKIN%
-      Action: SKINS
-      DisplayName: "&b&lSkin Menu"
-      Lore:
-        - "&fClick this to change your"
-        - "&fMinions Skin!"
     North:
       Slot: 20
       Item: SKULL:MHF_ArrowUp
@@ -732,16 +580,8 @@ ControlPanel:
         - "&fClick this to change the"
         - "&fDirection of your minion"
         - "&fto West"
-    PayToHeal:
-      Slot: 24
-      Item: GOLDEN_APPLE
-      Action: PAYHEAL
-      DisplayName: "&b&lHeal Minion"
-      Lore:
-        - "&fThis will cost"
-        - "&f$200" #Change the amount if needed in the config.yml
     Hopper:
-      Slot: 25
+      Slot: 24
       Item: HOPPER
       Action: ATTACHCHEST
       DisplayName: "&b&lAttach a chest"
@@ -764,16 +604,8 @@ ControlPanel:
       Lore:
         - "&fClick to Rename"
         - "&fThe minion!"
-    Health:
-      Slot: 32
-      Item: COOKED_BEEF
-      Action: NONE
-      DisplayName: "&b&lHealth"
-      Lore:
-        - "&fYour minions health is"
-        - "&b%HEALTH%/%MAXMINIONHEALTH%"
     UpgradeMinion:
-      Slot: 40
+      Slot: 32
       Item: GOLD_INGOT
       Action: LEVELUP
       DisplayName: "&b&lLevel Up"
@@ -799,14 +631,6 @@ ControlPanel:
       Action: none
       DisplayName: " "
       Lore: []
-    Skins:
-      Slot: 19
-      Item: SKULL:%DEFAULTSKIN%
-      Action: SKINS
-      DisplayName: "&b&lSkin Menu"
-      Lore:
-        - "&fClick this to change your"
-        - "&fMinions Skin!"
     North:
       Slot: 20
       Item: SKULL:MHF_ArrowUp
@@ -843,16 +667,8 @@ ControlPanel:
         - "&fClick this to change the"
         - "&fDirection of your minion"
         - "&fto West"
-    PayToHeal:
-      Slot: 24
-      Item: GOLDEN_APPLE
-      Action: PAYHEAL
-      DisplayName: "&b&lHeal Minion"
-      Lore:
-        - "&fThis will cost"
-        - "&f$200" #Change the amount if needed in the config.yml
     Hopper:
-      Slot: 25
+      Slot: 24
       Item: HOPPER
       Action: ATTACHCHEST
       DisplayName: "&b&lAttach a chest"
@@ -875,16 +691,8 @@ ControlPanel:
       Lore:
         - "&fClick to Rename"
         - "&fThe minion!"
-    Health:
-      Slot: 32
-      Item: COOKED_BEEF
-      Action: NONE
-      DisplayName: "&b&lHealth"
-      Lore:
-        - "&fYour minions health is"
-        - "&b%HEALTH%/%MAXMINIONHEALTH%"
     UpgradeMinion:
-      Slot: 40
+      Slot: 32
       Item: GOLD_INGOT
       Action: LEVELUP
       DisplayName: "&b&lLevel Up"

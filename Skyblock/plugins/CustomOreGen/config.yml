@@ -30,7 +30,7 @@ generators:
     permission: 'oregen.upgrade1'
     # You can also define from what level the generator should be activated. Example: Leave all permissions empty and
     # only work with the island Level. The plugin would only consider the islandLevel then.
-    unlock_islandLevel: 0
+    unlock_islandLevel: -10000
   generator2:
     # default generator
     # name of the generator (does not need to be set, just for placeholders)
@@ -49,7 +49,7 @@ generators:
     permission: 'oregen.upgrade2'
     # You can also define from what level the generator should be activated. Example: Leave all permissions empty and
     # only work with the island Level. The plugin would only consider the islandLevel then.
-    unlock_islandLevel: 0
+    unlock_islandLevel: -10000
   generator3:
     # default generator
     # name of the generator (does not need to be set, just for placeholders)
@@ -69,7 +69,7 @@ generators:
     permission: 'oregen.upgrade3'
     # You can also define from what level the generator should be activated. Example: Leave all permissions empty and
     # only work with the island Level. The plugin would only consider the islandLevel then.
-    unlock_islandLevel: 0
+    unlock_islandLevel: -10000
   generator4:
     # default generator
     # name of the generator (does not need to be set, just for placeholders)
@@ -88,7 +88,7 @@ generators:
     permission: 'oregen.upgrade4'
     # You can also define from what level the generator should be activated. Example: Leave all permissions empty and
     # only work with the island Level. The plugin would only consider the islandLevel then.
-    unlock_islandLevel: 0
+    unlock_islandLevel: -10000
   generator5:
     # default generator
     # name of the generator (does not need to be set, just for placeholders)
@@ -107,6 +107,6 @@ generators:
     permission: 'oregen.upgrade5'
     # You can also define from what level the generator should be activated. Example: Leave all permissions empty and
     # only work with the island Level. The plugin would only consider the islandLevel then.
-    unlock_islandLevel: 0
+    unlock_islandLevel: -10000
 disabled-worlds:
 - "world_disabled"

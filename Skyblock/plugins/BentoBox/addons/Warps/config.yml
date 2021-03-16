@@ -6,7 +6,7 @@
 # 
 # Warp Restriction - needed levels to be able to create a warp
 # 0 or negative values will disable this restriction 10 is default
-warplevelrestriction: 10
+warplevelrestriction: -1
 # 
 # Text that player must put on sign to make it a warp sign
 # Not case sensitive!

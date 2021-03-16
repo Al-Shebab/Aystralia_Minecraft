@@ -1,0 +1,28 @@
+{
+  "homeLocations": [
+    [
+      [
+        "skyblock",
+        6002.5,
+        161.0,
+        6.5,
+        270.0,
+        30.0
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "38e9a66c-5de9-4d18-ae81-627d08f21841",
+  "playerName": "Kobe16",
+  "resets": {
+    "skyblock": 2
+  },
+  "locale": "",
+  "deaths": {
+    "skyblock": 0,
+    "skyblock_nether": 1
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC",
+  "metaData": {}
+}

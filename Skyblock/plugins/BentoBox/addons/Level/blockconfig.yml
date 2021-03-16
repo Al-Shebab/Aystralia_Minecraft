@@ -7,8 +7,7 @@
 # are not counted.
 # Format:
 # MATERIAL: limit
-limits:
-  COBBLESTONE: 1000000
+limits: []
 blocks:
   NETHERITE_BLOCK: 180
   DIAMOND_BLOCK: 84

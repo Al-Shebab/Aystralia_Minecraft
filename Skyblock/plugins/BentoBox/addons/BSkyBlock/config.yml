@@ -171,21 +171,21 @@ world:
     END_PORTAL: 500
     BREEDING: 500
     HURT_VILLAGERS: 500
-    TURTLE_EGGS: 500
     FROST_WALKER: 500
+    TURTLE_EGGS: 500
     COLLECT_LAVA: 500
     LEVER: 500
-    RIDING: 500
     HURT_MONSTERS: 0
-    NAME_TAG: 500
+    RIDING: 500
     ARMOR_STAND: 500
+    NAME_TAG: 500
     TRADING: 0
     EGGS: 500
     ITEM_DROP: 0
     NOTE_BLOCK: 0
     NETHER_PORTAL: 500
-    CROP_TRAMPLE: 500
     ITEM_PICKUP: 0
+    CROP_TRAMPLE: 500
     BREWING: 500
     DROPPER: 500
     COLLECT_WATER: 500
@@ -197,8 +197,8 @@ world:
     ITEM_FRAME: 500
     PLACE_BLOCKS: 500
     CRAFTING: 0
-    ENCHANTING: 0
     SHEARING: 500
+    ENCHANTING: 0
     SPAWN_EGGS: 500
     BED: 500
     MILKING: 0
@@ -366,8 +366,8 @@ island:
     #    * "[SUDO] bbox version"
     #    * "bsbadmin deaths set [player] 0"
     # Added since 1.8.0.
-    on-join: 
-    - "minions give [player] Miner 1"
+    on-join:
+    - minions give [player] Miner 1
     # List of commands to run when a player leaves an island, resets his island or gets kicked from it.
     # These commands are run by the console, unless otherwise stated using the [SUDO] prefix,
     # in which case they are executed by the player.

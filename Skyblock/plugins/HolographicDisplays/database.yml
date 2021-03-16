@@ -71,7 +71,7 @@ spawn:
 perks:
   location: world, 48.500, 67.500, -15.500
   lines:
-  - '&b&lPerks Manager'
+  - '&b&lIsland Manager'
 seller:
   location: world, 26.500, 66.500, -7.500
   lines:

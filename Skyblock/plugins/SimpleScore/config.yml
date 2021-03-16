@@ -64,7 +64,7 @@ Worlds:
       2:
         - ""
       1:
-        - ""
+        - "&fPing: &B%player_ping%"
 
 # Shared scoreboards
 Shared:

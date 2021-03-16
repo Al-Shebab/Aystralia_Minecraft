@@ -1,0 +1,25 @@
+{
+  "homeLocations": [
+    [
+      [
+        "skyblock",
+        -3996.5,
+        132.0,
+        6001.5,
+        270.0,
+        30.0
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "80d03676-0864-4b60-a40c-5729cb8c1c73",
+  "playerName": "x_Tessa",
+  "resets": {},
+  "locale": "",
+  "deaths": {
+    "skyblock": 1
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC",
+  "metaData": {}
+}

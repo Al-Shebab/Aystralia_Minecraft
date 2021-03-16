@@ -146,6 +146,10 @@ Farmer:
       income: 2.5
       points: 0
       experience: 3.0
+    bamboo:
+      income: 2.5
+      points: 0
+      experience: 3.0
     chorus_flower:
       income: 2.5
       points: 0

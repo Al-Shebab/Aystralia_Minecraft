@@ -10,7 +10,7 @@
 # - %prize% - The name of the winning.
 # - %percentage% - Percentage of the winning, useful for "Chance Message".
 
-Prefix: '&f[&bCratesPlus&f]'
+Prefix: '&b&lCrates &8> &f'
 Command No Permission: '&cYou do not have the correct permission to run this command'
 Crate No Permission: '&cYou do not have the correct permission to use this crate'
 Crate Open Without Key: '&fYou must be holding a &c%crate% &fkey to open this crate'

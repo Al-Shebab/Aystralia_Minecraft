@@ -105,7 +105,7 @@ sell:
     15:
       type: item
       item:
-        material: LAPIS_BLCOK
+        material: LAPIS_BLOCK
         quantity: 1
       sellPrice: 27
       slot: 12
@@ -1179,3 +1179,9 @@ sell:
         material: IRON_HORSE_ARMOUR
         quantity: 1
       sellPrice: 100
+    1547252143124124723:
+      type: item
+      item:
+        material: WITHER_SKELETON_SKULL
+        quantity: 1
+      sellPrice: 20
