@@ -119,10 +119,10 @@ world:
   end:
     # End Nether - if this is false, the end world will not be made and access to
     # the end will not occur. Other plugins may still enable portal usage.
-    generate: true
+    generate: false
     # Islands in The End. Change to false for standard vanilla end.
     # /!\ BentoBox currently does not support changing this value mid-game. If you do need to change it, do a full reset of your databases and worlds.
-    islands: true
+    islands: false
     # /!\ This feature is experimental and might not work as expected or might not work at all.
     dragon-spawn: false
   # Mob white list - these mobs will NOT be removed when logging in or doing /island

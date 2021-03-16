@@ -8,35 +8,37 @@ SaveScoreboards: true
 Worlds:
   Spawn:
     Titles:
-      - text: "&b&lS&3&lK&f&lYBLOCK"
+      - text: "&b&lA&f&lystralia"
         time: 6
-      - text: "&b&lSK&3&lY&f&lBLOCK"
+      - text: "&b&lAy&f&lstralia"
         time: 6
-      - text: "&b&lSKY&3&lB&f&lLOCK"
+      - text: "&b&lAys&f&ltralia"
         time: 6
-      - text: "&b&lSKYB&3&lL&f&lOCK"
+      - text: "&b&lAyst&f&lralia"
         time: 6
-      - text: "&b&lSKYBL&3&lO&f&lCK"
+      - text: "&b&lAystr&f&lalia"
         time: 6
-      - text: "&b&lSKYBLO&3&lC&f&lK"
+      - text: "&b&lAystra&f&llia"
         time: 6
-      - text: "&b&lSKYBLOC&3&lK"
+      - text: "&b&lAystral&f&lia"
         time: 6
-      - text: "&b&lSKYBLOCK"
+      - text: "&b&lAystrali&f&la"
         time: 6
-      - text: "&f&lSKYBLOCK"
+      - text: "&b&lAystralia"
         time: 6
-      - text: "&b&lSKYBLOCK"
+      - text: "&f&lAystralia"
         time: 6
-      - text: "&f&lSKYBLOCK"
+      - text: "&b&lAystralia"
         time: 6
-      - text: "&b&lSKYBLOCK"
+      - text: "&f&lAystralia"
         time: 6
-      - text: "&f&lSKYBLOCK"
+      - text: "&b&lAystralia"
         time: 6
-      - text: "&b&lSKYBLOCK"
+      - text: "&f&lAystralia"
         time: 6
-      - text: "&f&lSKYBLOCK"
+      - text: "&b&lAystralia"
+        time: 6
+      - text: "&f&lAystralia"
         time: 24
     Scores:
       13:

@@ -12,12 +12,12 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 25.919388
+        bodyYaw: -9.104202
         world: world
         x: '32.5'
         y: '64.0'
         z: '-7.5'
-        yaw: '65.9194'
+        yaw: '30.8958'
         pitch: '0.0'
       spawned: true
       skintrait:
@@ -79,12 +79,12 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 149.06387
+        bodyYaw: 176.54881
         world: world
         x: '17.5'
         y: '64.0'
         z: '1.5'
-        yaw: '-170.9361'
+        yaw: '-143.4512'
         pitch: '0.0'
       spawned: true
       skintrait:
@@ -137,13 +137,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 99.66791
+        bodyYaw: 97.02013
         world: world
         x: '34.5'
         y: '64.0'
         z: '-1.5'
-        yaw: '125.3514'
-        pitch: '-9.4183'
+        yaw: '65.8764'
+        pitch: '0.0'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -195,12 +195,12 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -25.665787
+        bodyYaw: -31.025513
         world: world
         x: '18.5'
         y: '64.0'
         z: '-6.5'
-        yaw: '-63.6678'
+        yaw: '-71.0255'
         pitch: '0.0'
       spawned: true
       skintrait:
@@ -263,13 +263,13 @@ npc:
         updateSkins: false
       type: PLAYER
       location:
-        bodyYaw: -12.63995
+        bodyYaw: 4.2408295
         world: world
         x: '48.5'
         y: '65.0'
         z: '-15.5'
-        yaw: '-52.6399'
-        pitch: '-5.7663'
+        yaw: '44.2408'
+        pitch: '0.0'
       lookclose:
         range: '5.0'
         disablewhilenavigating: true
@@ -290,6 +290,15 @@ npc:
         commands:
           '0':
             command: shop perks
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+          '1':
+            command: is
             hand: RIGHT
             player: true
             op: false
@@ -335,12 +344,12 @@ npc:
       spawned: true
       type: PLAYER
       location:
-        bodyYaw: -72.566635
+        bodyYaw: -7.0671616
         world: world
         x: '26.5'
         y: '64.0'
         z: '-7.5'
-        yaw: '-42.9707'
+        yaw: '-25.1542'
         pitch: '0.0'
       commandtrait:
         cost: -1.0
