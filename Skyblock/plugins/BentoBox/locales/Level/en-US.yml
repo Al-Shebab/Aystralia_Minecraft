@@ -16,7 +16,7 @@ admin:
   top:
     description: show the top ten list
     unknown-world: '&c Unknown world!'
-    display: '&f[rank]. &a[name] &7- &b[level]'
+    display: '&f[rank]. &a[name] &f- &b[level]'
     remove:
       description: remove player from Top Ten
       parameters: <player>
@@ -36,9 +36,9 @@ island:
   top:
     description: show the Top Ten
     gui-title: '&a Top Ten'
-    gui-heading: '&6[name]: &B[rank]'
+    gui-heading: '&fPosition: &B[rank]'
     island-level: '&b Level [level]'
-    warp-to: '&A Warping to [name]''s island'
+    warp-to: '&f Warping to &b[name]''s &fisland'
   level-details:
     above-sea-level-blocks: Above Sea Level Blocks
     spawners: Spawners
@@ -50,7 +50,7 @@ island:
     hint: '&c Run level to see the block report'
   value:
     description: shows the value of any block
-    success: '&7 The value of this block is: &e[value]'
-    success-underwater: '&7 The value of this block below sea-level: &e[value]'
+    success: '&f The value of this block is: &b[value]'
+    success-underwater: '&f The value of this block below sea-level: &b[value]'
     empty-hand: '&c There are no blocks in your hand'
     no-value: '&c That item has no value.'

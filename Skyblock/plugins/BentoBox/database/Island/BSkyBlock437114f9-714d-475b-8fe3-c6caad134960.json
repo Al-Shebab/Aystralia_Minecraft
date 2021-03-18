@@ -30,7 +30,7 @@
     "BREEDING": 500,
     "HURT_MONSTERS": 0,
     "DISPENSER": 500,
-    "LOCK": 0,
+    "LOCK": 500,
     "ITEM_DROP": 0,
     "FURNACE": 500,
     "BUTTON": 500,

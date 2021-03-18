@@ -51,7 +51,7 @@ basics:
       item:
         material: GLASS
         quantity: 1
-      buyPrice: 25
+      buyPrice: 5
       slot: 6
     8:
       type: item
