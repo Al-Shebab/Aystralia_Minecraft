@@ -1,11 +1,11 @@
 {
   "deleted": false,
-  "uniqueId": "BSkyBlock812bb34f-76f0-4488-8f97-8132ca031a13",
+  "uniqueId": "BSkyBlock03c1f2d5-885e-43d1-8d39-52531f067e34",
   "center": [
     "skyblock",
-    -4000.0,
+    6000.0,
     120.0,
-    0.0,
+    -4000.0,
     0.0,
     0.0
   ],
@@ -14,9 +14,12 @@
   "maxEverProtectionRange": 100,
   "world": "skyblock",
   "gameMode": "BSkyBlock",
-  "createdDate": 1616084722790,
-  "updatedDate": 1616084722790,
-  "members": {},
+  "createdDate": 1616087317506,
+  "updatedDate": 1616087317506,
+  "owner": "91fb8d7e-fc20-4404-8220-881b8cafceed",
+  "members": {
+    "91fb8d7e-fc20-4404-8220-881b8cafceed": 1000
+  },
   "spawn": false,
   "purgeProtected": false,
   "flags": {
@@ -102,28 +105,22 @@
     "CAKE": 500,
     "PVP_OVERWORLD": -1
   },
-  "history": [
-    {
-      "timestamp": 1616086880907,
-      "type": "UNOWNED",
-      "data": {}
-    }
-  ],
+  "history": [],
   "levelHandicap": 0,
   "spawnPoint": {
     "NORMAL": [
       "skyblock",
-      -3997.5,
+      6002.5,
       161.0,
-      6.5,
+      -3993.5,
       270.0,
       30.0
     ],
     "NETHER": [
       "skyblock_nether",
-      -3999.5,
+      6000.5,
       125.0,
-      2.5,
+      -3997.5,
       0.0,
       30.0
     ]

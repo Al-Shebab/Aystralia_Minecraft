@@ -1,9 +1,9 @@
 {
   "deleted": false,
-  "uniqueId": "BSkyBlock812bb34f-76f0-4488-8f97-8132ca031a13",
+  "uniqueId": "BSkyBlocke2cff952-9c39-43b9-9db4-70a5f46eef81",
   "center": [
     "skyblock",
-    -4000.0,
+    6000.0,
     120.0,
     0.0,
     0.0,
@@ -14,8 +14,8 @@
   "maxEverProtectionRange": 100,
   "world": "skyblock",
   "gameMode": "BSkyBlock",
-  "createdDate": 1616084722790,
-  "updatedDate": 1616084722790,
+  "createdDate": 1616086880923,
+  "updatedDate": 1616086880923,
   "members": {},
   "spawn": false,
   "purgeProtected": false,
@@ -104,7 +104,7 @@
   },
   "history": [
     {
-      "timestamp": 1616086880907,
+      "timestamp": 1616087188665,
       "type": "UNOWNED",
       "data": {}
     }
@@ -113,7 +113,7 @@
   "spawnPoint": {
     "NORMAL": [
       "skyblock",
-      -3997.5,
+      6002.5,
       161.0,
       6.5,
       270.0,
@@ -121,7 +121,7 @@
     ],
     "NETHER": [
       "skyblock_nether",
-      -3999.5,
+      6000.5,
       125.0,
       2.5,
       0.0,

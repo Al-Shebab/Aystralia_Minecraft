@@ -246,12 +246,11 @@ charge:
 hologram:
   enabled: true
   default: true
-  height: 3.9
+  height: 2.6
   text:
   - '&b&lVoidChest'
   - ''
   - '&fOwner: &b%owner%'
-  - '&fBoost: &b%booster%x'
   - '&fMoney made: &a$%money%'
   - '&fItems sold: &b%items_sold%'
   - '&fItems purged: &b%items_purged%'

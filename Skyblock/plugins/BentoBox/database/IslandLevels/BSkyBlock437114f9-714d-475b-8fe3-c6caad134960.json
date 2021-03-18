@@ -1,11 +1,11 @@
 {
   "uniqueId": "BSkyBlock437114f9-714d-475b-8fe3-c6caad134960",
-  "level": 367,
+  "level": 371,
   "initialLevel": 0,
-  "pointsToNextLevel": 32,
+  "pointsToNextLevel": 47,
   "uwCount": {},
   "mdCount": {
-    "WATER": 45944,
+    "WATER": 54761,
     "OAK_WALL_SIGN": 16,
     "REDSTONE_WALL_TORCH": 9,
     "LIGHT_BLUE_SHULKER_BOX": 4,
@@ -22,13 +22,13 @@
     "SEA_LANTERN": 376,
     "BEDROCK": 1,
     "TORCH": 35,
-    "SPRUCE_SIGN": 2,
-    "COBBLESTONE": 5,
-    "GRASS_BLOCK": 297,
+    "COBBLESTONE": 6,
+    "GRASS_BLOCK": 305,
     "STONE_BRICK_SLAB": 128,
     "POWERED_RAIL": 2,
     "SPAWNER": 3,
     "RAIL": 1,
+    "GOLD_ORE": 2,
     "REDSTONE_WIRE": 59,
     "REDSTONE_ORE": 1,
     "BLAST_FURNACE": 17,
@@ -38,11 +38,12 @@
     "LAVA": 32,
     "STONE_PRESSURE_PLATE": 16,
     "HOPPER": 121,
-    "DIRT": 117,
+    "DIRT": 109,
     "COMPARATOR": 9,
-    "AIR": 10181728,
+    "AIR": 10172526,
     "REDSTONE_BLOCK": 1,
     "STONE_BRICKS": 1378,
-    "PACKED_ICE": 4727
+    "PACKED_ICE": 5110,
+    "COAL_ORE": 1
   }
 }
