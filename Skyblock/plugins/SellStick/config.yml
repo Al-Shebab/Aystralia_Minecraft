@@ -85,7 +85,7 @@ DurabilityLine: 2
 # Again, if you change this, previous sellsticks may break!
 #
 #Messages sent to the player will be prefixed with this
-MessagePrefix: '&f[&bSellStick&f] '
+MessagePrefix: '&b&lSell Stick &8> &f'
 #
 #
 #When they sell the items what message should be displayed
@@ -93,7 +93,7 @@ MessagePrefix: '&f[&bSellStick&f] '
 #Use %price% for how much they gained
 #Use %balance% to show new balance
 #---------------------------#
-SellMessage: '&fYou sold items for &a%price% &fand now have &a%balance%'
+SellMessage: '&fYou sold items for &b%price% &fand now have &b%balance%'
 #
 #
 #If they don't have permission to do something
@@ -120,7 +120,7 @@ NonSellingRelated: '&cNothing worth selling inside'
 #Do you want to use shopgui+ for prices
 #instead of my prices.yml?
 #if so, enable this
-UseShopGUI: false
+UseShopGUI: true
 #
 #
 #Do you want to use essentials worth.yml for your prices
@@ -133,13 +133,13 @@ UseEssentialsWorth: false
 # Placeholders:
 #   %player - person who will get the sellstick
 #   %amount - amount of sellsticks that %player% will receive
-GiveMessage: '&aYou gave &e%player% &e&l%amount% &asell sticks!'
+GiveMessage: '&fYou gave &b%player% &b&l%amount% &bsell sticks!'
 #
 #
 #Message to send to the player who received the sticks
 # Placehlders:
 #   %amount% - money that the seller receives.
-ReceiveMessage: '&aYou''ve received &e&l%amount% &asell sticks!'
+ReceiveMessage: '&fYou''ve received a &bsell stick!'
 #
 #Do you want a little noise to play when players sell something?
 UseSound: true

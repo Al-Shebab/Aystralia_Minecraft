@@ -38,7 +38,7 @@
     "TURTLE_EGGS": 500,
     "BREEDING": 500,
     "NOTE_BLOCK": 0,
-    "LOCK": 0,
+    "LOCK": 200,
     "FROST_WALKER": 500,
     "FIRE_IGNITE": 500,
     "BEACON": 500,
@@ -122,14 +122,6 @@
       125.0,
       2.5,
       0.0,
-      30.0
-    ],
-    "THE_END": [
-      "skyblock_the_end",
-      -4000.5,
-      126.0,
-      -0.5,
-      315.0,
       30.0
     ]
   },

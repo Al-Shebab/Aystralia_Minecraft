@@ -1,0 +1,354 @@
+menu_title: '&b&lIsland Size Upgrades'
+open_command: island-upgrades
+size: 36
+items:
+  'Decoration':
+    display_name: '&f'
+    material: 160
+    data: 7
+    slots:
+    - 2
+    - 4
+    - 6
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    - 29
+    - 33
+  'Decoration-1':
+    display_name: '&f'
+    material: 160
+    data: 7
+    slots:
+    - 0
+    - 1
+    - 3
+    - 5
+    - 7
+    - 8
+    - 9
+    - 10
+    - 16
+    - 17
+    - 27
+    - 28
+    - 30
+    - 32
+    - 34
+    - 35
+  'Back':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+    slot: 31
+    display_name: '&b[*] &bBack'
+    lore: ''
+    left_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'  
+    - '[close]'
+    - '[openguimenu] upgrades'
+    right_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'  
+    - '[close]'
+    - '[openguimenu] upgrades'
+  'Homes1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+    priority: 1
+    slot: 11
+    display_name: '&b[*] &bIsland Size &f[100x100]'
+    lore:
+    - ''
+    - '&bAlready Purchased'
+    - '&8» &bDefault Island Size'
+  'Homes2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+    priority: 1
+    slot: 12
+    display_name: '&b[*] &bIsland Size &f[100x100]'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'oregen.upgrade2view'
+    lore:
+    - ''
+    - '&bAlready Purchased'
+    - '&8» &a$150,000'
+  'Homes22':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+    priority: 2
+    slot: 12
+    display_name: '&b[*] &bCobble Generator &f[150x150]'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'oregen.upgrade1'
+    lore:
+    - ''
+    - '&bCurrent Cobble Generator: &fLevel 1'
+    - '&bUpgrade: &f150x150'
+    - ''
+    - '&bPrice: &f$75,000'
+    - ''
+    - '&8» &bClick to buy'
+    left_click_commands:
+    - '[message] &b&lUpgrades &8> &fYou have bought &bCobble Generator Upgrade &f[150x150]'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] money take %player_name% 75000'
+    - '[console] lp user %player_name% permission set oregen.upgrade2 true'
+    - '[console] lp user %player_name% permission set oregen.upgrade2view true'
+    - '[console] lp user %player_name% permission set oregen.upgrade1 false'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 75000
+        Permission:
+          type: has permission
+          permission: 'oregen.upgrade1'
+      deny_commands:
+      - '[message] &b&lUpgrades &8> &fYou need &b$75,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lUpgrades &8> &fYou have bought &bCobble Generator Upgrade &f[150x150]'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] money take %player_name% 75000'
+    - '[console] lp user %player_name% permission set oregen.upgrade2 true'
+    - '[console] lp user %player_name% permission set oregen.upgrade2view true'
+    - '[console] lp user %player_name% permission set oregen.upgrade1 false'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 75000
+        Permission:
+          type: has permission
+          permission: 'oregen.upgrade1'
+      deny_commands:
+      - '[message] &b&lUpgrades &8> &fYou need &b$75,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'Homes3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+    priority: 1
+    slot: 13
+    display_name: '&b[*] &bCobble Generator &f[275x275]'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'oregen.upgrade3view'
+    lore:
+    - ''
+    - '&bAlready Purchased'
+    - '&8» &a$150,000'
+  'Homes33':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+    priority: 2
+    slot: 13
+    display_name: '&b[*] &bCobble Generator &f[275x275]'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'oregen.upgrade2'
+    lore:
+    - ''
+    - '&bCurrent Cobble Generator: &f150x150'
+    - '&bUpgrade: &f275x275'
+    - ''
+    - '&bPrice: &f$150,000'
+    - ''
+    - '&8» &bClick to buy'
+    left_click_commands:
+    - '[message] &b&lUpgrades &8> &fYou have bought &bCobble Generator Upgrade &f[275x275]'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] money take %player_name% 150000'
+    - '[console] lp user %player_name% permission set oregen.upgrade3 true'
+    - '[console] lp user %player_name% permission set oregen.upgrade3view true'
+    - '[console] lp user %player_name% permission set oregen.upgrade2 false'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 150000
+        Permission:
+          type: has permission
+          permission: 'oregen.upgrade2'
+      deny_commands:
+      - '[message] &b&lUpgrades &8> &fYou need &b$150,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lUpgrades &8> &fYou have bought &bCobble Generator Upgrade &f[275x275]'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] money take %player_name% 150000'
+    - '[console] lp user %player_name% permission set oregen.upgrade3 true'
+    - '[console] lp user %player_name% permission set oregen.upgrade3view true'
+    - '[console] lp user %player_name% permission set oregen.upgrade2 false'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 150000
+        Permission:
+          type: has permission
+          permission: 'oregen.upgrade2'
+      deny_commands:
+      - '[message] &b&lUpgrades &8> &fYou need &b$150,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'Homes4':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+    priority: 1
+    slot: 14
+    display_name: '&b[*] &bCobble Generator &f[400x400]'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'oregen.upgrade4view'
+    lore:
+    - ''
+    - '&bAlready Purchased'
+    - '&8» &a$350,000'
+  'Homes44':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+    priority: 2
+    slot: 14
+    display_name: '&b[*] &bCobble Generator &f[400x400]'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'oregen.upgrade3'
+    lore:
+    - ''
+    - '&bCurrent Cobble Generator: &f275x275'
+    - '&bUpgrade: &f400x400'
+    - ''
+    - '&bPrice: &f$350,000'
+    - ''
+    - '&8» &bClick to buy'
+    left_click_commands:
+    - '[message] &b&lUpgrades &8> &fYou have bought &bCobble Generator Upgrade &f[400x400]'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] money take %player_name% 350000'
+    - '[console] lp user %player_name% permission set oregen.upgrade4 true'
+    - '[console] lp user %player_name% permission set oregen.upgrade4view true'
+    - '[console] lp user %player_name% permission set oregen.upgrade3 false'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 350000
+        Permission:
+          type: has permission
+          permission: 'oregen.upgrade3'
+      deny_commands:
+      - '[message] &b&lUpgrades &8> &fYou need &b$350,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lUpgrades &8> &fYou have bought &bCobble Generator Upgrade &f[400x400]'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] money take %player_name% 350000'
+    - '[console] lp user %player_name% permission set oregen.upgrade4 true'
+    - '[console] lp user %player_name% permission set oregen.upgrade4view true'
+    - '[console] lp user %player_name% permission set oregen.upgrade3 false'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 350000
+        Permission:
+          type: has permission
+          permission: 'oregen.upgrade3'
+      deny_commands:
+      - '[message] &b&lUpgrades &8> &fYou need &b$350,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'Homes5':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+    priority: 1
+    slot: 15
+    display_name: '&b[*] &bCobble Generator &f[500x500]'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'oregen.upgrade5view'
+    lore:
+    - ''
+    - '&bAlready Purchased'
+    - '&8» &a$700,000'
+  'Homes55':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+    priority: 2
+    slot: 15
+    display_name: '&b[*] &bCobble Generator &f[500x500]'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'oregen.upgrade4'
+    lore:
+    - ''
+    - '&bCurrent Cobble Generator: &f400x400'
+    - '&bUpgrade: &f500x500'
+    - ''
+    - '&bPrice: &f$700,000'
+    - ''
+    - '&8» &bClick to buy'
+    left_click_commands:
+    - '[message] &b&lUpgrades &8> &fYou have bought &bCobble Generator Upgrade &f[500x500]'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] money take %player_name% 700000'
+    - '[console] lp user %player_name% permission set oregen.upgrade5 true'
+    - '[console] lp user %player_name% permission set oregen.upgrade5view true'
+    - '[console] lp user %player_name% permission set oregen.upgrade4 false'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 700000
+        Permission:
+          type: has permission
+          permission: 'oregen.upgrade4'
+      deny_commands:
+      - '[message] &b&lUpgrades &8> &fYou need &b$700,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lUpgrades &8> &fYou have bought &bCobble Generator Upgrade &f[500x500]'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] money take %player_name% 700000'
+    - '[console] lp user %player_name% permission set oregen.upgrade5 true'
+    - '[console] lp user %player_name% permission set oregen.upgrade5view true'
+    - '[console] lp user %player_name% permission set oregen.upgrade4 false'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 700000
+        Permission:
+          type: has permission
+          permission: 'oregen.upgrade4'
+      deny_commands:
+      - '[message] &b&lUpgrades &8> &fYou need &b$700,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'

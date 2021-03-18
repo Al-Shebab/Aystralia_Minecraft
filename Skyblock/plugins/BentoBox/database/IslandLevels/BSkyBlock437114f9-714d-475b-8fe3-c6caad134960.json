@@ -1,0 +1,25 @@
+{
+  "uniqueId": "BSkyBlock437114f9-714d-475b-8fe3-c6caad134960",
+  "level": 37,
+  "initialLevel": 0,
+  "pointsToNextLevel": 74,
+  "uwCount": {},
+  "mdCount": {
+    "BEDROCK": 1,
+    "LIGHT_BLUE_SHULKER_BOX": 1,
+    "SEA_LANTERN": 76,
+    "STONE_BRICK_SLAB": 52,
+    "NETHER_PORTAL": 16,
+    "SMOOTH_STONE": 145,
+    "AIR": 10238818,
+    "STONE_BRICK_STAIRS": 211,
+    "STONE_BRICKS": 391,
+    "SPRUCE_SIGN": 2,
+    "OBSIDIAN": 16,
+    "HOPPER": 70,
+    "CHEST": 179,
+    "CRAFTING_TABLE": 1,
+    "DIRT": 20,
+    "FURNACE": 1
+  }
+}

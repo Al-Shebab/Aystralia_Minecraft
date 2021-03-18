@@ -41,11 +41,11 @@ databases:
       nameBans: bm_name_bans
       nameBanRecords: bm_name_ban_records
   global:
-    enabled: false
+    enabled: true
     storageType: mysql
     host: 127.0.0.1
     port: 3306
-    name: global_bans
+    name: minecraft
     user: root
     password: ''
     maxConnections: 10
@@ -94,7 +94,7 @@ hooks:
   enabled: false
 checkForUpdates: true
 offlineAutoComplete: true
-punishAlts: false
+punishAlts: true
 denyAlts: false
 cleanUp:
   kicks: 30

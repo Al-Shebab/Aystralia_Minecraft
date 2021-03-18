@@ -18,7 +18,8 @@
   "updatedDate": 1615831887597,
   "owner": "a4de17ad-abe0-4fe7-9f1c-f21c18607509",
   "members": {
-    "a4de17ad-abe0-4fe7-9f1c-f21c18607509": 1000
+    "a4de17ad-abe0-4fe7-9f1c-f21c18607509": 1000,
+    "b7ce396a-aabf-4bf6-bffc-d222f80d5c70": 500
   },
   "spawn": false,
   "purgeProtected": false,
@@ -122,14 +123,6 @@
       125.0,
       -1997.5,
       0.0,
-      30.0
-    ],
-    "THE_END": [
-      "skyblock_the_end",
-      -4000.5,
-      126.0,
-      -2000.5,
-      315.0,
       30.0
     ]
   },

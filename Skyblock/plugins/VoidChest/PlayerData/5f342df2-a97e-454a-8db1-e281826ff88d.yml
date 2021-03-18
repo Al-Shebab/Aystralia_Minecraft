@@ -7,16 +7,16 @@ chests:
     name: default
     location:
       world: skyblock
-      x: -1995
-      y: 120
-      z: 1996
-    money: 126955.40000000008
-    items-sold: 15839
-    items-purged: 1479
+      x: -1987
+      y: 121
+      z: 1998
+    money: 131680.70000000016
+    items-sold: 9888
+    items-purged: 776
     autosell: true
     purge-items: true
     hologram: true
     chunk-collector: true
     bank: true
     charge:
-      time: 1615905358307
+      time: 1616039734885

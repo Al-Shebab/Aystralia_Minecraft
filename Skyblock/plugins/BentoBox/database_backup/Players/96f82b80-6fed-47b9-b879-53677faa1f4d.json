@@ -1,0 +1,25 @@
+{
+  "homeLocations": [
+    [
+      [
+        "skyblock",
+        6002.5,
+        161.0,
+        4006.5,
+        270.0,
+        30.0
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "96f82b80-6fed-47b9-b879-53677faa1f4d",
+  "playerName": "MrDisasterss",
+  "resets": {},
+  "locale": "",
+  "deaths": {
+    "skyblock": 0
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC",
+  "metaData": {}
+}

@@ -18,7 +18,8 @@
   "updatedDate": 1615610599323,
   "owner": "5f342df2-a97e-454a-8db1-e281826ff88d",
   "members": {
-    "5f342df2-a97e-454a-8db1-e281826ff88d": 1000
+    "5f342df2-a97e-454a-8db1-e281826ff88d": 1000,
+    "38e9a66c-5de9-4d18-ae81-627d08f21841": 500
   },
   "spawn": false,
   "purgeProtected": false,
@@ -43,7 +44,7 @@
     "ITEM_FRAME": 500,
     "LECTERN": 500,
     "SPAWN_EGGS": 1000,
-    "EXPERIENCE_PICKUP": 500,
+    "EXPERIENCE_PICKUP": 0,
     "CAKE": 500,
     "BOAT": 500,
     "RIDING": 500,
@@ -122,14 +123,6 @@
       125.0,
       2002.5,
       0.0,
-      30.0
-    ],
-    "THE_END": [
-      "skyblock_the_end",
-      -2000.5,
-      126.0,
-      1999.5,
-      315.0,
       30.0
     ]
   },

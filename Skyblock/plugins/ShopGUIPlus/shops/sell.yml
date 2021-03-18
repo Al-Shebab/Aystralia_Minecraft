@@ -23,7 +23,7 @@ sell:
       item:
         material: IRON_INGOT
         quantity: 1
-      sellPrice: 10
+      sellPrice: 30
       slot: 12
     4:
       type: item
@@ -79,7 +79,7 @@ sell:
       item:
         material: IRON_BLOCK
         quantity: 1
-      sellPrice: 90
+      sellPrice: 270
       slot: 12
     12:
       type: item

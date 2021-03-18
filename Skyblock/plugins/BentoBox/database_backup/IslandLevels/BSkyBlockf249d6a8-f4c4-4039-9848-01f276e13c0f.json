@@ -1,8 +1,20 @@
 {
   "uniqueId": "BSkyBlockf249d6a8-f4c4-4039-9848-01f276e13c0f",
-  "level": 0,
+  "level": 1,
   "initialLevel": 75,
-  "pointsToNextLevel": 0,
+  "pointsToNextLevel": 69,
   "uwCount": {},
-  "mdCount": {}
+  "mdCount": {
+    "BEDROCK": 1,
+    "DIAMOND_BLOCK": 3,
+    "COBBLESTONE": 108,
+    "CHEST": 4,
+    "OAK_PLANKS": 39,
+    "OAK_STAIRS": 12,
+    "CRAFTING_TABLE": 1,
+    "OAK_SLAB": 80,
+    "AIR": 10239718,
+    "FURNACE": 2,
+    "NETHER_BRICK_FENCE": 32
+  }
 }

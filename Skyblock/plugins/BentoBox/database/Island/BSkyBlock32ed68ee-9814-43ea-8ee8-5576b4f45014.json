@@ -19,7 +19,10 @@
   "members": {},
   "spawn": false,
   "purgeProtected": false,
-  "flags": {},
+  "flags": {
+    "LOCK": 0,
+    "BREAK_BLOCKS": 500
+  },
   "history": [],
   "levelHandicap": 0,
   "spawnPoint": {},

@@ -1,0 +1,25 @@
+{
+  "homeLocations": [
+    [
+      [
+        "skyblock",
+        -3999.4759292960953,
+        121.0,
+        -1999.3248445125557,
+        7.347509860992432,
+        -3.000544548034668
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "b7ce396a-aabf-4bf6-bffc-d222f80d5c70",
+  "playerName": "Saalty_Huge_Dong",
+  "resets": {},
+  "locale": "",
+  "deaths": {
+    "skyblock": 3
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC",
+  "metaData": {}
+}

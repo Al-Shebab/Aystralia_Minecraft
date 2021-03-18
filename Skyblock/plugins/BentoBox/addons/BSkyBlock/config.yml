@@ -119,7 +119,7 @@ world:
   end:
     # End Nether - if this is false, the end world will not be made and access to
     # the end will not occur. Other plugins may still enable portal usage.
-    generate: false
+    generate: true
     # Islands in The End. Change to false for standard vanilla end.
     # /!\ BentoBox currently does not support changing this value mid-game. If you do need to change it, do a full reset of your databases and worlds.
     islands: false
@@ -134,6 +134,7 @@ world:
     PISTON_PUSH: false
     ISLAND_RESPAWN: true
     CREEPER_GRIEFING: false
+    COARSE_DIRT_TILLING: true
     ENDERMAN_GRIEFING: true
     CLEAN_SUPER_FLAT: false
     CHEST_DAMAGE: false
@@ -177,8 +178,8 @@ world:
     LEVER: 500
     HURT_MONSTERS: 0
     RIDING: 500
-    ARMOR_STAND: 500
     NAME_TAG: 500
+    ARMOR_STAND: 500
     TRADING: 0
     EGGS: 500
     ITEM_DROP: 0
@@ -194,21 +195,21 @@ world:
     BEACON: 500
     TRAPDOOR: 500
     PRESSURE_PLATE: 0
-    ITEM_FRAME: 500
     PLACE_BLOCKS: 500
+    ITEM_FRAME: 500
     CRAFTING: 0
-    SHEARING: 500
     ENCHANTING: 0
-    SPAWN_EGGS: 500
+    SHEARING: 500
     BED: 500
+    SPAWN_EGGS: 500
     MILKING: 0
     DISPENSER: 500
     GATE: 0
     EXPERIENCE_PICKUP: 500
     HOPPER: 500
     LEASH: 500
-    MOUNT_INVENTORY: 500
     BREAK_BLOCKS: 500
+    MOUNT_INVENTORY: 500
     CHORUS_FRUIT: 500
     CONTAINER: 500
     POTION_THROWING: 500

@@ -3,21 +3,23 @@
     [
       [
         "skyblock",
-        2010.6171364002696,
-        162.0,
-        -1980.9792725268471,
-        -175.53329467773438,
-        -1.1397148370742798
+        5987.5419575121305,
+        122.0,
+        1997.5646669858495,
+        90.94640350341797,
+        90.0
       ],
       1
     ]
   ],
   "uniqueId": "1132a3f9-cf23-42e1-8595-79d07b07844e",
   "playerName": "Aystralia",
-  "resets": {},
+  "resets": {
+    "skyblock": 1
+  },
   "locale": "",
   "deaths": {
-    "skyblock": 16
+    "skyblock": 0
   },
   "pendingKicks": [],
   "flagsDisplayMode": "ADVANCED",

@@ -16,13 +16,7 @@
   "gameMode": "BSkyBlock",
   "createdDate": 1615539523720,
   "updatedDate": 1615539523720,
-  "owner": "1132a3f9-cf23-42e1-8595-79d07b07844e",
-  "members": {
-    "1132a3f9-cf23-42e1-8595-79d07b07844e": 1000,
-    "e79fc165-83d6-4139-9a8f-d42bf1c23f87": 900,
-    "362b5125-f865-4358-b10f-04e3e8beed65": 500,
-    "5e9388ba-0573-444c-a761-b6d9174042af": 500
-  },
+  "members": {},
   "spawn": false,
   "purgeProtected": false,
   "flags": {
@@ -108,7 +102,13 @@
     "EXPERIENCE_BOTTLE_THROWING": 500,
     "ANIMAL_SPAWNERS_SPAWN": 500
   },
-  "history": [],
+  "history": [
+    {
+      "timestamp": 1615992399341,
+      "type": "UNOWNED",
+      "data": {}
+    }
+  ],
   "levelHandicap": 0,
   "spawnPoint": {
     "NORMAL": [
@@ -125,14 +125,6 @@
       125.0,
       -1997.5,
       0.0,
-      30.0
-    ],
-    "THE_END": [
-      "skyblock_the_end",
-      1999.5,
-      126.0,
-      -2000.5,
-      315.0,
       30.0
     ]
   },

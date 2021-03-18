@@ -49,9 +49,9 @@ basics:
     7:
       type: item
       item:
-        material: RED_SAND
+        material: GLASS
         quantity: 1
-      buyPrice: 100
+      buyPrice: 25
       slot: 6
     8:
       type: item

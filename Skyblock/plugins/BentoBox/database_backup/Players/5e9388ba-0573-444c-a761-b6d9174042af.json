@@ -17,8 +17,8 @@
   "resets": {},
   "locale": "",
   "deaths": {
-    "skyblock": 11,
-    "skyblock_nether": 1
+    "skyblock": 12,
+    "skyblock_nether": 2
   },
   "pendingKicks": [],
   "flagsDisplayMode": "BASIC",

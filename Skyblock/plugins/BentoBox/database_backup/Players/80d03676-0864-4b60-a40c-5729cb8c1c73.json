@@ -3,11 +3,11 @@
     [
       [
         "skyblock",
-        -3996.5,
-        132.0,
-        6001.5,
-        270.0,
-        30.0
+        -3999.5,
+        121.0,
+        6000.5,
+        0.0,
+        0.0
       ],
       1
     ]
@@ -17,7 +17,7 @@
   "resets": {},
   "locale": "",
   "deaths": {
-    "skyblock": 1
+    "skyblock": 6
   },
   "pendingKicks": [],
   "flagsDisplayMode": "BASIC",

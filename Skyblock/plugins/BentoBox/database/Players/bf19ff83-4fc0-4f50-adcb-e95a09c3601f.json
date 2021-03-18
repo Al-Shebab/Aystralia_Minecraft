@@ -19,7 +19,8 @@
   },
   "locale": "",
   "deaths": {
-    "skyblock": 1
+    "skyblock": 1,
+    "skyblock_nether": 2
   },
   "pendingKicks": [],
   "flagsDisplayMode": "BASIC",

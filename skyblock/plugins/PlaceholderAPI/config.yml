@@ -46,3 +46,5 @@ expansions:
     Precision: 3
     Rounding: half_up
     Debug: false
+  localtime:
+    date_format: dd/MM/yyyy hh:mma

@@ -81,7 +81,7 @@ Mechanics:
 
   # Should all voidchests have a single sell interval?
   # Set to false if you want voidchests to have different sell intervals.
-  single-task: false
+  single-task: true
   
   # This part will handle the sell messages from voidchests.
   # The messages can be found in the messages.yml file and can be modified through there.
@@ -102,7 +102,7 @@ Mechanics:
 
   # Should voidchests drop when exploded by any kind of explosion, such as tnt, creepers, etc?
   drop-voidchest-on-explosion: 
-    enabled: false
+    enabled: true
 
   prevent-voidchest-from-exploding: false
 
@@ -156,7 +156,7 @@ Mechanics:
 
     # Should players be prevented from placing voidchests in the same chunk?
     placing-voidchests-in-same-chunk: 
-      enabled: true
+      enabled: false
       deny-message: '&c&l(!) &cYou are not allowed to place more than 1 voidchest per chunk!'
 
     # Should players be prevented from placing normal chests near any voidchest?
@@ -173,7 +173,7 @@ Mechanics:
   money-logging:
     # If the voidchest made less than this number, the log won't be triggered.
     minimum-amount: 0
-    enabled: true
+    enabled: false
 
 
 
@@ -226,7 +226,7 @@ Player:
   sell-messages:
   
     # Should by default, the players receive sell messages? If not, set this to false. True otherwise.
-    default: true
+    default: false
     
     # Should the server remember the player's option on restart or make it go back to default?
     restart-persistent: false
@@ -298,21 +298,21 @@ Sell:
   # Currently available: VoidChest, ShopGuiPlus, Essentials, CMI, Custom.
   #
   # Use "Custom" only if you know what you're doing, otherwise consult Shin1gamiX.
-  plugin-mode: voidchest
+  plugin-mode: ShopGuiPlus
   
   # ignore-item-meta explanation: should the item meta be ignored? If this is set to
   # false, if an item has any item meta (lore, enchant, etc), it will not be considered
   # as a sellable and will be removed if you have the purge option to true. This may vary depending
   # on each plugin and how it retrieves it's prices for itemstacks.
-  ignore-item-meta: false
+  ignore-item-meta: true
 
 
 # Should you get notified through the console every 2 hours?
 # Please do keep this true, updates are important and you should keep track of them.
-Auto-update: true
+Auto-update: false
 
 # Should operator players be notified through a message ingame if there is an update?
-Notify-update: true
+Notify-update: false
 
 # Debugging: Should the plugin print useful messages in console?
 Debugging:
