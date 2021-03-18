@@ -9,7 +9,7 @@
 # Note: If the Island's owner is offline, the cobblestone generator would be choose the first Generator-Config.
 
 # Enable this when you also want random blocks from stone generators (lava floats on water vertically)
-enable-stone-generator: false
+enable-stone-generator: true
 
 generators:
   generator1:

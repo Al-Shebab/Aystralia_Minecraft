@@ -16,10 +16,7 @@
   "gameMode": "BSkyBlock",
   "createdDate": 1615822007972,
   "updatedDate": 1615822007972,
-  "owner": "91fb8d7e-fc20-4404-8220-881b8cafceed",
-  "members": {
-    "91fb8d7e-fc20-4404-8220-881b8cafceed": 1000
-  },
+  "members": {},
   "spawn": false,
   "purgeProtected": false,
   "flags": {
@@ -105,7 +102,13 @@
     "MINECART": 500,
     "ANIMAL_SPAWNERS_SPAWN": 500
   },
-  "history": [],
+  "history": [
+    {
+      "timestamp": 1616067881939,
+      "type": "UNOWNED",
+      "data": {}
+    }
+  ],
   "levelHandicap": 0,
   "spawnPoint": {
     "NORMAL": [

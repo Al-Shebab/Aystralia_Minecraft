@@ -3,9 +3,9 @@
     [
       [
         "skyblock",
+        6000.5,
+        115.0,
         2000.5,
-        121.0,
-        -1999.5,
         0.0,
         0.0
       ],
@@ -17,7 +17,7 @@
   "resets": {},
   "locale": "",
   "deaths": {
-    "skyblock": 12,
+    "skyblock": 0,
     "skyblock_nether": 2
   },
   "pendingKicks": [],
