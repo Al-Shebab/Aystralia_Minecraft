@@ -293,14 +293,14 @@ database:
   yaml:
     use: false
   sqlite:
-    use: true
-  mysql:
     use: false
+  mysql:
+    use: true
     host: "localhost"
     user: "root"
-    password: "pa55sw0rd"
+    password: ""
     port: "3306"
-    db: "jetsminions"
+    db: "minecraft"
     ssl: false
 #This option should not be changed, unless Entity IDs are changing over server restarts (I.E you run a SkyBlock server where the island is generated each time, and therefor UUIDs of entities are changing)
 #Should UUIDs of Minions be stored?
