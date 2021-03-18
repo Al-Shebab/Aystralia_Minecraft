@@ -89,15 +89,6 @@ itemStackSizeCappedAt:
   4:
     material: BUCKET
     size: 1
-  5:
-    material: MINECART
-    size: 1
-  6:
-    material: LAVA_BUCKET
-    size: 1
-  7:
-    material: WATER_BUCKET
-    size: 1
 # Choose what gamemodes will prevent players from accessing shops. Valid values: ADVENTURE, CREATIVE, SPECTATOR, SURVIVAL
 disableShopsInGamemodes:
   - ADVENTURE
