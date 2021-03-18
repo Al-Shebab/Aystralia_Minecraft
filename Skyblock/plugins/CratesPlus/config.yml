@@ -269,7 +269,7 @@ Crates:
         Item Type: STICK
         Percentage: 5
         Commands:
-        - sellstick give %name% 1 25
+        - sellstick give %name% 1 i
         Name: '&bSell &fStick'
         Item Data: 0
         Amount: 1

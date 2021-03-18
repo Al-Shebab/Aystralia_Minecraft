@@ -41,7 +41,7 @@ disable-player-collisions:
 disable-sword-sweep:
   # This is to disable the sword sweep attack
   # Particle effect is also now removed
-  enabled: true
+  enabled: false
   worlds: []
 
 disable-attack-sounds:

@@ -219,7 +219,7 @@ buttons:
         - "&fClick here to return"
         - "&fto the main menu"
     # Slot in each shop's GUI
-    slot: 49
+    slot: 600
   # "Previous page" button
   previousPage:
     item:
