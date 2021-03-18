@@ -358,8 +358,8 @@ ExploitProtections:
     KeepDataFor: 14
     # All blocks will be protected X sec after player places it on ground.
     GlobalBlockTimer:
-      use: false
-      timer: 3
+      use: true
+      timer: 1
     # Enable silk touch protection.
     # With this enabled players wont get paid for broken blocks from restrictedblocks list with silk touch tool.
     SilkTouchProtection: false
