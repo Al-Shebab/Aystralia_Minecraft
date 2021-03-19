@@ -1203,7 +1203,7 @@ sell:
         material: GOLDEN_CHESTPLATE
         quantity: 1
       sellPrice: 25
-    1547252124124723:
+    21547252124124723:
       type: item
       item:
         material: GOLDEN_HELMET
@@ -1217,11 +1217,17 @@ sell:
       sellPrice: 20
       type: item
     154410021223:
+      type: item
       item:
         material: LEATHER_LEGGINGS
         quantity: 1
       sellPrice: 10
+    1510021923000:
       type: item
+      item:
+        material: CHAINMAIL_LEGGINGS
+        quantity: 1
+      sellPrice: 15
     1547252122441247523:
       type: item
       item:

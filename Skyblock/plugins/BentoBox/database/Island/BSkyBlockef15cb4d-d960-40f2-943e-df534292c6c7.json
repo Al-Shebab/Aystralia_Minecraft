@@ -87,7 +87,7 @@
     "LEVER": 500,
     "HOPPER": 500,
     "PVP_END": -1,
-    "CONTAINER": 500,
+    "CONTAINER": 200,
     "MONSTER_NATURAL_SPAWN": -1,
     "MINECART": 500,
     "LEAF_DECAY": 500,
