@@ -308,14 +308,14 @@ sell:
     44:
       type: item
       item:
-        material: SPRUCE_WOOD_PLANKS
+        material: SPRUCE_PLANKS
         quantity: 1
       sellPrice: 0.25
       slot: 12
     45:
       type: item
       item:
-        material: BIRCH_WOOD_PLANKS
+        material: BIRCH_PLANKS
         quantity: 1
       sellPrice: 0.25
       slot: 12
@@ -567,7 +567,7 @@ sell:
     84:
       type: item
       item:
-        material: INK_SACK
+        material: INK_SAC
         quantity: 1
       sellPrice: 1
       slot: 12
@@ -1155,28 +1155,28 @@ sell:
     135797834:
       type: item
       item:
-        material: NAMETAG
+        material: NAME_TAG
         quantity: 1
       sellPrice: 10
       slot: 12
     1234562458723:
       type: item
       item:
-        material: DIAMOND_HORSE_ARMOUR
+        material: DIAMOND_HORSE_ARMOR
         quantity: 1
       sellPrice: 200
       slot: 12
     1436354732453:
       type: item
       item:
-        material: GOLD_HORSE_ARMOUR
+        material: GOLD_HORSE_ARMOR
         quantity: 1
       sellPrice: 150
       slot: 12
     154725723:
       type: item
       item:
-        material: IRON_HORSE_ARMOUR
+        material: IRON_HORSE_ARMOR
         quantity: 1
       sellPrice: 100
     1547252143124124723:
