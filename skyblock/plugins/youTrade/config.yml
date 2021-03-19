@@ -8,7 +8,7 @@ help-message:
 - '&b&l * &b/trade&f ignore&8 - &fIgnore all incoming trade requests!'
 - '&f'
 - '&f'
-prefix: '&b&lAYN&b&lTrade:'
+prefix: '&b&lTrade:'
 trade-success: '&fThis trade was successfull!'
 trade-cancel: '&fThis trade was cancelled!'
 not-send-request: '&b%TARGET%&f hasn''t sent you a trade request!'
