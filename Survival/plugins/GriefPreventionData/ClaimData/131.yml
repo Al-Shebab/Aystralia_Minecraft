@@ -4,6 +4,7 @@ Owner: 7dae338c-90fc-4209-a971-d3b37fcfc92d
 Builders: []
 Containers: []
 Accessors: []
-Managers: []
+Managers:
+- 97892ebb-5501-4fcb-8200-10174c3a8bdd
 Parent Claim ID: -1
 inheritNothing: false

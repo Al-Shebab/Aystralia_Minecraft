@@ -19,7 +19,8 @@
   "owner": "a4de17ad-abe0-4fe7-9f1c-f21c18607509",
   "members": {
     "a4de17ad-abe0-4fe7-9f1c-f21c18607509": 1000,
-    "b7ce396a-aabf-4bf6-bffc-d222f80d5c70": 500
+    "b7ce396a-aabf-4bf6-bffc-d222f80d5c70": 500,
+    "91fb8d7e-fc20-4404-8220-881b8cafceed": 500
   },
   "spawn": false,
   "purgeProtected": false,
@@ -36,7 +37,7 @@
     "BREEDING": 500,
     "ITEM_PICKUP": 0,
     "MONSTER_SPAWNERS_SPAWN": 500,
-    "LOCK": 0,
+    "LOCK": 200,
     "COLLECT_WATER": 500,
     "TURTLE_EGGS": 500,
     "FIRE_EXTINGUISH": 500,
