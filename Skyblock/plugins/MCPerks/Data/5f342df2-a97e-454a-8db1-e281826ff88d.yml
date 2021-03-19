@@ -4,6 +4,6 @@ CheckWorld: 'false'
 OfflineRewards: ''
 LastOnline: '1616146621820'
 Experation:
-  Haste: '-1'
-  IncreaseMobDrops: '-1'
+  Haste: '0'
+  IncreaseMobDrops: '0'
 IncreaseMobDrops_CoolDown: '1616146726468'

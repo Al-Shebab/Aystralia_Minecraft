@@ -17,12 +17,6 @@
 # Commands under this alias will get executed. Exelent way to show help page and correct usage if needed
 
 CustomAlias:
-  bin:
-    Cmds:
-    - cmi dispose
-  trash:
-    Cmds:
-    - cmi dispose
   rtp:
     Cmds:
     - cmi rt world
@@ -70,3 +64,16 @@ CustomAlias:
   worthlist:
     Cmds:
     - cmi ctext worth
+  trash:
+    Cmds:
+    - cmi dispose
+  bin:
+    Cmds:
+    - cmi dispose
+  garbage: Cmds:s - cmi dispose
+  dispose:
+    Cmds:
+    - cmi dispose
+  trashcan:
+    Cmds:
+    - cmi dispose

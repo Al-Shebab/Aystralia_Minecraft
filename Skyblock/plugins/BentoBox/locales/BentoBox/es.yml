@@ -95,6 +95,10 @@ commands:
         trash-instructions: Haga clic derecho aquí para eliminar
         world-instructions: Coloque el plano a la derecha para configurar
         world-name-syntax: '[name] mundo'
+        no-trash: No se puede tirar a la basura
+        no-trash-instructions: No se puede eliminar el paquete predeterminado
+        no-permission: Sin autorizaciÃ³n
+        no-perm-required: No se puede establecer la permanente para el paquete predeterminado
       mid-copy: '&c Estás a mitad de la copia. Espere hasta que termine la copia.'
       need-pos1-pos2: '&cPonga Posición 1 y Posición 2 primero!'
       no-such-file: '&cNo existe el archivo!'
@@ -213,6 +217,11 @@ commands:
       unowned:
         description: Purga islas sin dueño - requiere confirmación
         unowned-islands: '&dEncontradas [number] islas'
+      no-purge-in-progress: '&c Actualmente no hay ninguna purga en curso.'
+      status:
+        description: muestra el estado de la purga
+        status: '&b [purged] &a islas purgadas de &b [purgeable] & 7 (& b [percentage]
+          %&7)&a.'
     range:
       description: Comando de rango de la isla de administración
       display:
@@ -360,6 +369,17 @@ commands:
         description: Transfiere la propiedad de la isla al jugador
         parameters: <player>
         success: '&b[name]&a ahora es el dueño de esta isla.'
+      fix:
+        description: escanea y corrige la membresÃ­a entre islas en la base de datos
+        scanning: Escaneando la base de datos ...
+        duplicate-owner: '&c El jugador posee mÃ¡s de una isla en la base de datos:
+          [name]'
+        player-has: '&c El jugador [name] tiene [number] islas'
+        fixed: '&a Arreglado'
+        done: '&a Escanear'
+        duplicate-member: '&c El jugador [name] es miembro de mÃ¡s de una isla en
+          la base de datos'
+        rank-on-island: '&c [rank] en la isla en [xyz]'
     tp:
       description: Teletransportarse a la isla de un jugador
       manual: '&cNo se ha encontrado un warp seguro! Manualmente teletransportado
@@ -389,6 +409,16 @@ commands:
       turning-on: Activando la depuración de la consola para [name].
     world:
       description: Administrar la configuración del mundo
+    setspawnpoint:
+      description: establecer la ubicaciÃ³n actual como punto de generaciÃ³n para
+        esta isla
+      no-island-here: '&c No hay isla aquÃ­.'
+      confirmation: '&c Â¿EstÃ¡s seguro de que deseas establecer esta ubicaciÃ³n como
+        punto de generaciÃ³n de esta isla?'
+      success: '&a Establecer con Ã©xito esta ubicaciÃ³n como el punto de generaciÃ³n
+        de esta isla.'
+      island-spawnpoint-changed: '&a [user] cambiÃ³ el punto de apariciÃ³n de esta
+        isla.'
   bentobox:
     about:
       description: Mostrar derechos de autor e información de licencia
@@ -511,6 +541,9 @@ commands:
       parameters: <player>
     language:
       description: seleccione el idioma
+      parameters: '[language]'
+      not-available: '&c Este idioma no estÃ¡ disponible.'
+      already-selected: '&c Ya estÃ¡ utilizando este idioma.'
     near:
       description: muestra el nombre de las islas vecinas a tu alrededor
       east: Este
@@ -589,6 +622,7 @@ commands:
         member-layout:
           online: '&a &l  o &r &f [name]'
           offline: '&c &l  o &r &f [name] &7 ([last_seen])'
+          offline-not-last-seen: '&c &l  o &r &f [name]'
         header: |-
           &f --- &a Detalles del equipo &f ---
           &a Miembros: &b[total] &7 / &b[ max]
@@ -666,6 +700,7 @@ commands:
         you-are-trusted: '&2Has sido confiado por [name]!'
         name-has-invited-you: '&a[name] te ha invitado a unirte para ser un miembro
           confiable de su isla.'
+        is-full: '&c No puedes confiar en nadie mÃ¡s.'
       uncoop:
         all-members-logged-off: '&cTodos los miembros de la isla se desconectaron,
           ya no tienes permisos en la isla de [name]'
@@ -677,6 +712,7 @@ commands:
         player-not-cooped: '&cEse jugador no tiene permisos!'
         success: '&b[name] &aya no es un miembro de la cooperativa de su isla.'
         you-are-no-longer-a-coop-member: '&cYano tienes permisos en la isla de [name]'
+        is-full: '&c No puedes cooperar a nadie mÃ¡s.'
       untrust:
         cannot-untrust-member: '&cNo puedes desconfiar de un miembro del equipo!'
         cannot-untrust-yourself: '&cNo puedes desconfiar de ti mismo!'
@@ -715,6 +751,8 @@ general:
     you-must-wait: '&cDebe esperar [number]s antes de poder volver a ejecutar ese
       comando'
     player-is-not-owner: '&b [name] &c no es dueño de una isla!'
+    insufficient-rank: '&cÂ¡Tu rango no es lo suficientemente alto para hacer eso!
+      (&7[rank]&c)'
   invalid: Invalido
   success: '&aÉxito!'
   tips:
@@ -1311,6 +1349,36 @@ protection:
       name: '&e Limitar el spawn de la entidad'
       can: '&a Pueden aparecer'
       cannot: '&cNo pueden aparecer'
+    ANIMAL_NATURAL_SPAWN:
+      description: Alternar el desove natural de animales
+      name: Engendro natural animal
+    ANIMAL_SPAWNERS_SPAWN:
+      description: Alternar el desove de animales con reproductores
+      name: Spawners de animales
+    BREAK_SPAWNERS:
+      description: |-
+        Alternar spawners rotos.
+        Anula la marca Romper bloques.
+      name: Romper los spawners
+      hint: Spawners roto desactivado
+    BREAK_HOPPERS:
+      description: |-
+        Las tolvas se rompen.
+        Anula la marca Romper bloques.
+      name: Romper tolvas
+      hint: Rupturas de tolvas inhabilitadas
+    MONSTER_NATURAL_SPAWN:
+      description: Alternar el spawn natural de monstruos
+      name: Spawn natural de monstruos
+    MONSTER_SPAWNERS_SPAWN:
+      description: Alternar el spawn de monstruos con spawners
+      name: Spawners de monstruos
+    WORLD_TNT_DAMAGE:
+      description: |-
+        &a Permitir carros de minas TNT y TNT
+        &a para romper bloques y daÃ±ar
+        &a entidades fuera de los lÃ­mites de la isla.
+      name: DaÃ±o mundial de TNT
   locked: '&cEsta isla esta cerrada!'
   panel:
     flag-item:
@@ -1400,3 +1468,5 @@ panel:
         &aPermitir que BentoBox se conecte a GitHub en
         &a la configuración o intente nuevamente más tarde.
 
+prefixes:
+  bentobox: '&6 BentoBox &7 &l > &r '

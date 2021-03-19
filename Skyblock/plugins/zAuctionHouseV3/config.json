@@ -31,6 +31,7 @@
   "enableCustomEconomy": false,
   "displayCooldownMessage": true,
   "giveItemAfterPurchase": false,
+  "enableInventoryPreRender": false,
   "maxPrice": 999999999999999999,
   "minPrice": 0,
   "sellTime": 172800,

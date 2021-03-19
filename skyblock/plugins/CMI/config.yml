@@ -1705,21 +1705,10 @@ Time:
       night: 420
       # Default value: 90 Starts from tick: 22200 Ends at tick: 24000
       sunrise: 90
-    # Time is defined in seconds. Vanilla 24 hour ingame duration is 1200 seconds of real time
-    skyblock:
-      Enabled: false
-      # Default value: 600 Starts from tick: 0 Ends at tick: 12000
-      day: 600
-      # Default value: 90 Starts from tick: 12000 Ends at tick: 13800
-      sunset: 90
-      # Default value: 420 Starts from tick: 13800 Ends at tick: 22200
-      night: 420
-      # Default value: 90 Starts from tick: 22200 Ends at tick: 24000
-      sunrise: 90
 RandomTeleportation:
   # If this set to true we will generate random teleport default settings for all detected worlds
   # Setting to false will not longer generate world setups, but you can add them manually if needed
-  AutoGenerateWorlds: true
+  AutoGenerateWorlds: false
   Worlds:
     # World name to use this feature. Add annother one with appropriate name to enable random teleportation
     world_nether:
@@ -1756,105 +1745,6 @@ RandomTeleportation:
       IgnoreWater: true
       IgnoreLava: true
       minY: 62
-      maxY: 256
-    flat:
-      Enabled: false
-      MaxRange: 1000
-      MinRange: 500
-      CenterX: 0
-      CenterZ: 0
-      Circle: false
-      IgnoreWater: true
-      IgnoreLava: true
-      minY: 0
-      maxY: 256
-    events:
-      Enabled: false
-      MaxRange: 100
-      MinRange: 0
-      CenterX: 2410.5
-      CenterZ: 2631.5
-      Circle: false
-      IgnoreWater: true
-      IgnoreLava: true
-      minY: 63
-      maxY: 256
-    build:
-      Enabled: false
-      MaxRange: 1000
-      MinRange: 500
-      CenterX: 0
-      CenterZ: 0
-      Circle: false
-      IgnoreWater: true
-      IgnoreLava: true
-      minY: 0
-      maxY: 256
-    buildcomp:
-      Enabled: false
-      MaxRange: 100
-      MinRange: 100
-      CenterX: 0
-      CenterZ: 0
-      Circle: false
-      IgnoreWater: true
-      IgnoreLava: true
-      minY: 0
-      maxY: 256
-    buildcomp_old:
-      Enabled: false
-      MaxRange: 1000
-      MinRange: 500
-      CenterX: 0
-      CenterZ: 0
-      Circle: false
-      IgnoreWater: true
-      IgnoreLava: true
-      minY: 0
-      maxY: 256
-    creative:
-      Enabled: false
-      MaxRange: 1000
-      MinRange: 500
-      CenterX: 0
-      CenterZ: 0
-      Circle: false
-      IgnoreWater: true
-      IgnoreLava: true
-      minY: 0
-      maxY: 256
-    bskyblock_world_the_end:
-      Enabled: true
-      MaxRange: 1000
-      MinRange: 500
-      CenterX: 0
-      CenterZ: 0
-      Circle: false
-      IgnoreWater: true
-      IgnoreLava: true
-      minY: 0
-      maxY: 256
-    bskyblock_world:
-      Enabled: true
-      MaxRange: 1000
-      MinRange: 500
-      CenterX: 0
-      CenterZ: 0
-      Circle: false
-      IgnoreWater: true
-      IgnoreLava: true
-      minY: 0
-      maxY: 256
-    bskyblock_world_nether:
-      Enabled: true
-      MaxRange: 1000
-      MinRange: 500
-      CenterX: 0
-      CenterZ: 0
-      Circle: false
-      IgnoreWater: true
-      IgnoreLava: true
-      minY: 0
       maxY: 256
     skyblock_nether:
       Enabled: true

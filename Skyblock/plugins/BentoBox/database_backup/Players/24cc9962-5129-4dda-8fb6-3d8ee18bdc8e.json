@@ -4,10 +4,10 @@
       [
         "skyblock",
         4000.5,
-        125.0,
-        -3997.5,
+        121.0,
+        -3999.5,
         0.0,
-        30.0
+        0.0
       ],
       1
     ]
@@ -19,7 +19,7 @@
   },
   "locale": "",
   "deaths": {
-    "skyblock": 0
+    "skyblock": 1
   },
   "pendingKicks": [],
   "flagsDisplayMode": "BASIC",

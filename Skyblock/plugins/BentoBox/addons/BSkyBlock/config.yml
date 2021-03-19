@@ -196,21 +196,21 @@ world:
     BEACON: 500
     TRAPDOOR: 500
     PRESSURE_PLATE: 0
-    ITEM_FRAME: 500
     PLACE_BLOCKS: 500
+    ITEM_FRAME: 500
     CRAFTING: 0
     SHEARING: 500
     ENCHANTING: 0
-    BED: 500
     SPAWN_EGGS: 500
+    BED: 500
     MILKING: 0
     DISPENSER: 500
     GATE: 0
     EXPERIENCE_PICKUP: 0
     HOPPER: 500
     LEASH: 500
-    BREAK_BLOCKS: 500
     MOUNT_INVENTORY: 500
+    BREAK_BLOCKS: 500
     CHORUS_FRUIT: 500
     CONTAINER: 500
     POTION_THROWING: 500
@@ -233,7 +233,6 @@ world:
   # if the PREVENT_TELEPORT_WHEN_FALLING world setting flag is active
   # Added since 1.8.0.
   falling-banned-commands:
-  - is
   - spawn
   - home
   - warp

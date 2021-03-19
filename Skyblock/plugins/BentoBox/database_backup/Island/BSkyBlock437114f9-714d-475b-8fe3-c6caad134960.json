@@ -23,6 +23,7 @@
     "b7ce396a-aabf-4bf6-bffc-d222f80d5c70": 400,
     "aed14379-c0c9-4b85-b6d0-031d46f30b67": 500
   },
+  "maxMembers": {},
   "spawn": false,
   "purgeProtected": false,
   "flags": {
@@ -105,7 +106,8 @@
     "EXPERIENCE_PICKUP": 500,
     "FIRE_SPREAD": 0,
     "CRAFTING": 0,
-    "ARMOR_STAND": 400
+    "ARMOR_STAND": 400,
+    "ISLAND_FLY_PROTECTION": 500
   },
   "history": [],
   "levelHandicap": 0,
@@ -128,5 +130,23 @@
     ]
   },
   "doNotLoad": false,
-  "cooldowns": {}
+  "cooldowns": {},
+  "metaData": {
+    "Visit_Payment": {
+      "doubleValue": 10.0
+    },
+    "Visit_Offline": {
+      "booleanValue": false
+    }
+  },
+  "homes": {
+    "": [
+      "skyblock",
+      6008.092239855156,
+      122.0,
+      1995.6008588752984,
+      179.1829376220703,
+      -0.5290437340736389
+    ]
+  }
 }

@@ -25,3 +25,4 @@ Waterfall/locations.yml
 Anarchy/*
 Survival/plugins/CMI/moneyLog/*
 *.mca
+*.db

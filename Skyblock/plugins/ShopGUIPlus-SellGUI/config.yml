@@ -32,7 +32,7 @@ options:
   #
   # Action Bar Messages only work on versions 1.9+
   #
-  action_bar_msgs: true
+  action_bar_msgs: false
 
   #
   # Only relevent in versions prior to 1.13, basically do you want trialing ":(NUMBER)" on item lists (IE: "STONE:2")

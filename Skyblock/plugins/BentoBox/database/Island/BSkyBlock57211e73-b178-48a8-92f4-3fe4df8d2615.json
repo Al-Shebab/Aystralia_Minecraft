@@ -21,6 +21,7 @@
     "6d86b027-cacd-420e-8a8f-786f8048e185": 1000,
     "e79fc165-83d6-4139-9a8f-d42bf1c23f87": 500
   },
+  "maxMembers": {},
   "spawn": false,
   "purgeProtected": false,
   "flags": {
@@ -103,7 +104,8 @@
     "DYE": 500,
     "ENCHANTING": 0,
     "EXPERIENCE_BOTTLE_THROWING": 500,
-    "ANIMAL_SPAWNERS_SPAWN": 500
+    "ANIMAL_SPAWNERS_SPAWN": 500,
+    "ISLAND_FLY_PROTECTION": 500
   },
   "history": [],
   "levelHandicap": 0,
@@ -126,5 +128,16 @@
     ]
   },
   "doNotLoad": false,
-  "cooldowns": {}
+  "cooldowns": {},
+  "metaData": {},
+  "homes": {
+    "": [
+      "skyblock",
+      0.5,
+      125.0,
+      -1997.5,
+      0.0,
+      30.0
+    ]
+  }
 }

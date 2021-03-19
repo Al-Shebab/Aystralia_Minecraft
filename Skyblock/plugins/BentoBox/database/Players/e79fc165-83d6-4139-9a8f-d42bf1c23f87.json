@@ -14,7 +14,9 @@
   ],
   "uniqueId": "e79fc165-83d6-4139-9a8f-d42bf1c23f87",
   "playerName": "Al_Shebab",
-  "resets": {},
+  "resets": {
+    "skyblock": 1
+  },
   "locale": "",
   "deaths": {
     "skyblock": 0

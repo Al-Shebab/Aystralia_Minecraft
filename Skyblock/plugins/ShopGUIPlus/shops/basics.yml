@@ -301,7 +301,7 @@ basics:
     43:
       type: item
       item:
-        material: CARTOGRAPHY_TABLE
+        material: SOUL_SAND
         quantity: 1
       buyPrice: 100
       slot: 42
@@ -361,3 +361,24 @@ basics:
         quantity: 1
       buyPrice: 100
       slot: 51
+    52:
+      type: item
+      item:
+        material: SLIME_BALL
+        quantity: 1
+      buyPrice: 25
+      slot: 50
+    53:
+      type: item
+      item:
+        material: FIREWORK_ROCKET
+        quantity: 1
+      buyPrice: 25
+      slot: 49
+    54:
+      type: item
+      item:
+        material: ENCHANTING_TABLE
+        quantity: 1
+      buyPrice: 1250
+      slot: 48

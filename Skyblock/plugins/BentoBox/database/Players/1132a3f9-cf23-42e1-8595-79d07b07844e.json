@@ -1,17 +1,5 @@
 {
-  "homeLocations": [
-    [
-      [
-        "skyblock",
-        6008.092239855156,
-        122.0,
-        1995.6008588752984,
-        179.1829376220703,
-        -0.5290437340736389
-      ],
-      1
-    ]
-  ],
+  "homeLocations": {},
   "uniqueId": "1132a3f9-cf23-42e1-8595-79d07b07844e",
   "playerName": "Aystralia",
   "resets": {
