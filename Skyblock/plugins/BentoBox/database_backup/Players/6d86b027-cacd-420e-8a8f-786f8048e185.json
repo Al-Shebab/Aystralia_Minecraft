@@ -1,17 +1,5 @@
 {
-  "homeLocations": [
-    [
-      [
-        "skyblock",
-        0.5,
-        125.0,
-        -1997.5,
-        0.0,
-        30.0
-      ],
-      1
-    ]
-  ],
+  "homeLocations": {},
   "uniqueId": "6d86b027-cacd-420e-8a8f-786f8048e185",
   "playerName": "Jacktank",
   "resets": {},

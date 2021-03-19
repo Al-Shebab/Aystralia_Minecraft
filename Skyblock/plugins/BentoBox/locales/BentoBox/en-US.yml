@@ -209,6 +209,8 @@ commands:
       banned-players: 'Banned players:'
       banned-format: '&c [name]'
       unowned: '&c Unowned'
+      island-protection-center: 'Protection area center: [xyz]'
+      island-center: 'Island center: [xyz]'
     switch:
       description: switch on/off protection bypass
       op: '&c Ops can always bypass protection. Deop to use command.'
@@ -276,6 +278,7 @@ commands:
     settings:
       parameters: '[player]'
       description: open system settings or island settings for player
+      unknown-setting: '&c Unknown setting'
     blueprint:
       parameters: <load/copy/paste/pos1/pos2/save>
       description: manipulate blueprints
@@ -418,6 +421,16 @@ commands:
         parameters: <player> <deaths>
         success: '&a Successfully removed &b [number] &a deaths to &b [name], decreasing
           the total to &b [total]&a  deaths.'
+    setprotectionlocation:
+      parameters: '[x y z coords]'
+      description: set current location or [x y z] as center of island's protection
+        area
+      island: '&c This will affect the island at [xyz] owned by ''[name]''.'
+      confirmation: '&c Are you sure you want to set [xyz] as the protection center?'
+      success: '&a Successfully set [xyz] as the protection center.'
+      fail: '&a Successfully set [xyz] as the protection center.'
+      island-location-changed: '&a [user] changed island''s protection center to [xyz].'
+      xyz-error: '&c Specify three integer coordinates: e.g, 100 120 100'
   bentobox:
     description: BentoBox admin command
     about:
@@ -475,6 +488,7 @@ commands:
       description: teleport you to your island
       teleport: '&a Teleporting you to your island.'
       teleported: '&a Teleported you to home &e #[number].'
+      unknown-home: '&c Unknown home name!'
     help:
       description: the main island command
     spawn:
@@ -536,6 +550,9 @@ commands:
         not-allowed: '&c You are not allowed to set your home in the End.'
         confirmation: '&c Are you sure you want to set your home in the End?'
       parameters: '[home number]'
+      too-many-homes: '&c Cannot set - your island is at the maximum of [number] homes.'
+      homes-are: '&6 Island homes are:'
+      home-list-syntax: '&6 [name]'
     setname:
       description: set a name for your island
       name-too-short: '&c Too short. Minimum size is [number] characters.'
@@ -713,6 +730,14 @@ commands:
       not-on-island: '&c That player is not on your island!'
       player-expelled-you: '&b [name]&c  expelled you from the island!'
       success: '&a You expelled &b [name] &a from the island.'
+    deletehome:
+      description: delete a home location
+      parameters: '[home name]'
+    renamehome:
+      description: rename a home location
+      parameters: '[home name]'
+      enter-new-name: '&6 Enter the new name'
+      already-exists: '&c That name already exists, try another name.'
 ranks:
   owner: Owner
   sub-owner: Sub-Owner
@@ -1275,6 +1300,17 @@ protection:
         &a to break blocks and damage
         &a entities outside of island limits.
       name: World TNT damage
+    HIVE:
+      description: '&a Toggle hive harvesting.'
+      name: Hive harvesting
+      hint: Harvesting disabled
+    PETS_STAY_AT_HOME:
+      description: |-
+        &a When active, tamed pets
+        &a can only go to and
+        &a cannot leave the owner's
+        &a home island.
+      name: Pets Stay At Home
   locked: '&c This island is locked!'
   protected: '&c Island protected: [description].'
   world-protected: '&c World protected: [description].'

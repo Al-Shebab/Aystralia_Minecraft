@@ -1169,7 +1169,7 @@ sell:
     1436354732453:
       type: item
       item:
-        material: GOLD_HORSE_ARMOR
+        material: GOLDEN_HORSE_ARMOR
         quantity: 1
       sellPrice: 150
       slot: 12

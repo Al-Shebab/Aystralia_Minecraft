@@ -10,13 +10,13 @@ chests:
       x: 6
       y: 125
       z: -1967
-    money: 32682.800000000003
-    items-sold: 8038
-    items-purged: 378
+    money: 34073.8
+    items-sold: 8607
+    items-purged: 382
     autosell: true
     purge-items: true
     hologram: true
     chunk-collector: true
     bank: true
     charge:
-      time: 1616168600174
+      time: 1616172307995

@@ -128,5 +128,16 @@
     ]
   },
   "doNotLoad": false,
-  "cooldowns": {}
+  "cooldowns": {},
+  "metaData": {},
+  "homes": {
+    "": [
+      "skyblock",
+      -3999.5,
+      121.0,
+      -1999.5,
+      0.0,
+      0.0
+    ]
+  }
 }

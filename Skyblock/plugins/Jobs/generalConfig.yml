@@ -11,7 +11,7 @@ locale-language: en
 storage:
   # storage method, can be MySQL or sqlite
   method: sqlite
-# Requires Mysql.
+# Requires Mysql
 mysql:
   username: root
   password: ''
@@ -21,6 +21,8 @@ mysql:
   verify-server-certificate: false
   use-ssl: false
   auto-reconnect: true
+  characterEncoding: utf8
+  encoding: UTF-8
 # How often in minutes you want it to save. This must be a non-zero number
 save-period: 10
 # Should player data be saved on disconnect?
@@ -140,9 +142,10 @@ disablePaymentIfRiding: false
 add-xp-player: false
 # Do the jobs boost ignore the boosted items usage in off hand?
 enable-boosted-items-in-offhand: true
-# Do you want to prevent crop resizing payment when placing more cactus?
-# This option is only related to: sugar_cane, cactus, kelp, bamboo
-prevent-crop-resize-payment: false
+# Do the jobs boost ignore the boosted items usage in main hand?
+enable-boosted-items-in-mainhand: true
+# Do the jobs boost ignore the boosted items usage in armor slots?
+enable-boosted-armor-items: true
 # Allows to pay for stacked entities for each one. Requires StackMob or WildStacker.
 pay-for-stacked-entities: false
 # Allows, when losing maximum durability of item then it does not pay the player until it is repaired.
@@ -412,6 +415,8 @@ ActionBars:
     # When this set to true player will see action bar messages by default
     # When false, players will see chat messages instead.
     EnabledByDefault: true
+    # If true, should we mute the payment messages from appearing in chat if actionbar is disabled?
+    SilentMode: false
 BossBar:
   # Enables BossBar feature
   # Works only from 1.9 mc version
