@@ -16,7 +16,7 @@ welcomeLine: '[Welcome]'
 # wood used will be reflected in the panel if the server supports it.
 # It uses native Minecraft material strings, but using string 'PLAYER_HEAD', it is possible to
 # use player heads instead. Beware that Mojang API rate limiting may prevent heads from loading.
-icon: SIGN
+icon: PLAYER_HEAD
 # 
 # This list stores GameModes in which Level addon should not work.
 # To disable addon it is necessary to write its name in new line that starts with -. Example:
@@ -26,7 +26,7 @@ disabled-gamemodes: []
 # 
 # Warp panel name formatting.
 # Example: &c will make names red. &f is white
-name-format: '&f'
+name-format: '&b'
 # 
 # Warp panel default lore formatting.
 # Example: &c will make lore red. &f is white

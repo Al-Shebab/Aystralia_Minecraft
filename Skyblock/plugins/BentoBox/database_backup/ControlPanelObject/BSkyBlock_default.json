@@ -12,57 +12,45 @@
       "command": "[label] go"
     },
     {
-      "slot": 8,
+      "slot": 1,
       "material": "LAVA_BUCKET",
       "description": "&bOpen your island settings",
       "command": "[label] settings"
     },
     {
-      "slot": 3,
+      "slot": 2,
       "description": "&bList team members",
       "command": "[label] team"
     },
     {
-      "slot": 1,
+      "slot": 3,
       "material": "WHITE_BED",
       "description": "&bSet your home here",
       "command": "[label] sethome"
     },
     {
-      "slot": 9,
+      "slot": 4,
       "material": "ACACIA_STAIRS",
-      "description": "&bIsland level |Level: %Level_bskyblock-island-level%",
+      "description": "&bIsland level",
       "command": "[label] level"
     },
     {
-      "slot": 10,
+      "slot": 5,
       "material": "BOOK",
       "description": "&bList the Top 10 islands",
       "command": "[label] top"
     },
     {
-      "slot": 12,
+      "slot": 6,
       "material": "OAK_SIGN",
       "description": "&bList warps available",
       "command": "[label] warps"
     },
     {
-      "slot": 5,
-      "material": "BEDROCK",
+      "slot": 8,
+      "material": "BEACON",
       "description": "&bGo to world spawn",
-      "command": "[label] spawn"
-    },
-    {
-      "slot": 14,
-      "material": "OAK_SAPLING",
-      "description": "&bChange Biome",
-      "command": "[label] biomes"
-    },
-    {
-      "slot": 15,
-      "material": "ENCHANTING_TABLE",
-      "description": "&bChallenges",
-      "command": "[label] challenges"
+      "command": "spawn"
     }
   ]
 }
