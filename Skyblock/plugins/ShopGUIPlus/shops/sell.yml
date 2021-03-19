@@ -1197,6 +1197,12 @@ sell:
         material: GOLDEN_BOOTS
         quantity: 1
       sellPrice: 20
+    154725214312412413:
+      type: item
+      item:
+        material: GOLDEN_CHESTPLATE
+        quantity: 1
+      sellPrice: 25
     1547252124124723:
       type: item
       item:
@@ -1210,14 +1216,39 @@ sell:
         quantity: 1
       sellPrice: 20
       type: item
-    1544122521241245723:
+    154410021223:
       item:
         material: LEATHER_LEGGINGS
         quantity: 1
       sellPrice: 10
+      type: item
     1547252122441247523:
       type: item
       item:
         material: IRON_SHOVEL
+        quantity: 1
+      sellPrice: 5
+    15472521224415247523:
+      type: item
+      item:
+        material: CHAINMAIL_HELMET
+        quantity: 1
+      sellPrice: 15
+    15472521212441247523:
+      type: item
+      item:
+        material: CHAINMAIL_BOOTS
+        quantity: 1
+      sellPrice: 15
+    154725452122441247523:
+      type: item
+      item:
+        material: LEATHER_BOOTS
+        quantity: 1
+      sellPrice: 5
+    15472521252441247523:
+      type: item
+      item:
+        material: LEATHER_HELMET
         quantity: 1
       sellPrice: 5

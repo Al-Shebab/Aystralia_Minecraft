@@ -11,7 +11,7 @@
   ],
   "range": 1000,
   "protectionRange": 100,
-  "maxEverProtectionRange": 100,
+  "maxEverProtectionRange": 500,
   "world": "skyblock",
   "gameMode": "BSkyBlock",
   "createdDate": 1615992399370,

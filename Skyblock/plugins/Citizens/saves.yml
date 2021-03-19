@@ -12,12 +12,12 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -10.885635
+        bodyYaw: 29.020248
         world: world
         x: '32.5'
         y: '64.0'
         z: '-7.5'
-        yaw: '-50.8856'
+        yaw: '69.0202'
         pitch: '0.0'
       spawned: true
       skintrait:
@@ -79,13 +79,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 153.72342
+        bodyYaw: -99.95868
         world: world
         x: '17.5'
         y: '64.0'
         z: '1.5'
-        yaw: '-166.2766'
-        pitch: '0.0'
+        yaw: '-134.8679'
+        pitch: '-14.9823'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -137,13 +137,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 170.66138
+        bodyYaw: 101.36661
         world: world
         x: '34.5'
         y: '64.0'
         z: '-1.5'
-        yaw: '-149.3386'
-        pitch: '0.0'
+        yaw: '133.0462'
+        pitch: '-13.9979'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -195,13 +195,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -18.270512
+        bodyYaw: -95.16086
         world: world
         x: '18.5'
         y: '64.0'
         z: '-6.5'
-        yaw: '2.628'
-        pitch: '0.0'
+        yaw: '-135.0641'
+        pitch: '-51.7016'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -263,13 +263,13 @@ npc:
         updateSkins: false
       type: PLAYER
       location:
-        bodyYaw: 27.736954
+        bodyYaw: -5.761345
         world: world
         x: '48.5'
         y: '65.0'
         z: '-15.5'
-        yaw: '67.737'
-        pitch: '-14.7311'
+        yaw: '34.2387'
+        pitch: '-53.9918'
       lookclose:
         range: '5.0'
         disablewhilenavigating: true
@@ -344,13 +344,13 @@ npc:
       spawned: true
       type: PLAYER
       location:
-        bodyYaw: 3.8004913
+        bodyYaw: -5.6815796
         world: world
         x: '26.5'
         y: '64.0'
         z: '-7.5'
-        yaw: '43.8005'
-        pitch: '-4.8205'
+        yaw: '-44.3518'
+        pitch: '0.0'
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
