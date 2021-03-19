@@ -107,9 +107,7 @@
     "FIRE_SPREAD": 0,
     "CRAFTING": 0,
     "ARMOR_STAND": 400,
-    "ISLAND_FLY_PROTECTION": 500,
-    "ALLOW_VISITS_FLAG": -1,
-    "VISIT_CONFIG_PERMISSION": 900
+    "ISLAND_FLY_PROTECTION": 500
   },
   "history": [],
   "levelHandicap": 0,
