@@ -105,7 +105,8 @@
     "EXPERIENCE_PICKUP": 500,
     "FIRE_SPREAD": 0,
     "CRAFTING": 0,
-    "ARMOR_STAND": 400
+    "ARMOR_STAND": 400,
+    "ISLAND_FLY_PROTECTION": 500
   },
   "history": [],
   "levelHandicap": 0,

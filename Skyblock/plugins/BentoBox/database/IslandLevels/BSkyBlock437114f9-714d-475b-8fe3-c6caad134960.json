@@ -1,6 +1,6 @@
 {
   "uniqueId": "BSkyBlock437114f9-714d-475b-8fe3-c6caad134960",
-  "level": 1884,
+  "level": 1883,
   "initialLevel": 0,
   "pointsToNextLevel": 30,
   "uwCount": {},
@@ -19,7 +19,7 @@
     "REDSTONE_WALL_TORCH": 9,
     "SAND": 312,
     "FURNACE": 7,
-    "DIRT": 91,
+    "DIRT": 93,
     "TORCH": 55,
     "CACTUS": 312,
     "REDSTONE_BLOCK": 3,
@@ -33,20 +33,22 @@
     "RAIL": 23,
     "PACKED_ICE": 6425,
     "BEDROCK": 1,
-    "COBBLESTONE": 10,
+    "COBBLESTONE": 7,
     "STONE_BRICK_STAIRS": 1511,
+    "GOLD_ORE": 1,
     "POWERED_RAIL": 4,
     "CRAFTING_TABLE": 2,
     "CHEST": 145,
     "SPAWNER": 2,
     "LIGHT_BLUE_SHULKER_BOX": 5,
     "SEA_LANTERN": 372,
+    "LAPIS_ORE": 2,
     "HOPPER": 168,
     "SMOOTH_STONE_SLAB": 10,
     "STONE_BRICK_SLAB": 128,
     "OAK_WALL_SIGN": 18,
     "AIR": 10197097,
     "GLASS": 21233,
-    "GRASS_BLOCK": 523
+    "GRASS_BLOCK": 521
   }
 }

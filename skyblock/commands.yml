@@ -23,16 +23,6 @@ aliases:
   - warplist $1-
   openinv:
   - invsee $1-
-  hub:
-  - server hub
-  survival:
-  - server survival
-  creative:
-  - server creative
-  anarchy:
-  - server anarchy
-  prison:
-  - server prison
   sell:
   - warp sell
   market:
