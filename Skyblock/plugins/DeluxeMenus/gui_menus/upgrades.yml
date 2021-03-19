@@ -114,7 +114,7 @@ items:
     display_name: '&b[*] &bIsland Size Upgrades'
     lore:
     - ''
-    - '&fUpgrade your  Island Size'
+    - '&fUpgrade your Island Size'
     - ''
     - '&8» &bClick to open'
     left_click_commands:

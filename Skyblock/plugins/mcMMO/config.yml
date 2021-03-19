@@ -266,7 +266,7 @@ Party:
     # Amount of time (in hours) to wait between automatically kicking old party members
     # To only run at server start, set to 0
     # To never kick old users, set to -1
-    AutoKick_Interval: 12
+    AutoKick_Interval: -1
     # Any user who hasn't connected in this many days will get kicked from their party
     Old_Party_Member_Cutoff: 7
 

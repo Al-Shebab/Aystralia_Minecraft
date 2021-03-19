@@ -312,7 +312,6 @@ Crates:
       '6':
         Type: ITEM
         Item Type: IRON_BLOCK
-        Name: '&bIron &fBlock &bx3'
         Percentage: 25
         Item Data: 0`
         Amount: 3

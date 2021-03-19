@@ -64,3 +64,9 @@ CustomAlias:
   level:
     Cmds:
     - is level
+  worth:
+    Cmds:
+    - cmi ctext worth
+  worthlist:
+    Cmds:
+    - cmi ctext worth

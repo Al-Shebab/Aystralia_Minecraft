@@ -1185,3 +1185,39 @@ sell:
         material: WITHER_SKELETON_SKULL
         quantity: 1
       sellPrice: 20
+    1547252143124124724:
+      type: item
+      item:
+        material: LEATHER_CHESTPLATE
+        quantity: 1
+      sellPrice: 10
+    154725214312412413:
+      type: item
+      item:
+        material: GOLDEN_BOOTS
+        quantity: 1
+      sellPrice: 20
+    1547252124124723:
+      type: item
+      item:
+        material: GOLDEN_HELMET
+        quantity: 1
+      sellPrice: 20
+    154412252124124723:
+      type: item
+      item:
+        material: GOLDEN_LEGGINGS
+        quantity: 1
+      sellPrice: 20
+      type: item
+    1544122521241245723:
+      item:
+        material: LEATHER_LEGGINGS
+        quantity: 1
+      sellPrice: 10
+    1547252122441247523:
+      type: item
+      item:
+        material: IRON_SHOVEL
+        quantity: 1
+      sellPrice: 5

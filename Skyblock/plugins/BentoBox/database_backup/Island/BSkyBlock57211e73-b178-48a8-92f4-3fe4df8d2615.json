@@ -11,14 +11,15 @@
   ],
   "range": 1000,
   "protectionRange": 100,
-  "maxEverProtectionRange": 100,
+  "maxEverProtectionRange": 101,
   "world": "skyblock",
   "gameMode": "BSkyBlock",
   "createdDate": 1615539780501,
   "updatedDate": 1615539780501,
   "owner": "6d86b027-cacd-420e-8a8f-786f8048e185",
   "members": {
-    "6d86b027-cacd-420e-8a8f-786f8048e185": 1000
+    "6d86b027-cacd-420e-8a8f-786f8048e185": 1000,
+    "e79fc165-83d6-4139-9a8f-d42bf1c23f87": 500
   },
   "spawn": false,
   "purgeProtected": false,

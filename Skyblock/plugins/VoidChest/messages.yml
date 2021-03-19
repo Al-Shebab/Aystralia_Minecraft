@@ -36,7 +36,7 @@ VoidChest:
     owner!'
   Give: '&a&l(!) &aYou have given &7%player% %amount%x %voidchest% &3voidchest(s)&a.'
   Give-Invalid: '&c&l(!) &cNo voidchest by the name &e%voidchest% &cexists.'
-  Receive: '&a&l(!) &aYou have received &7%amount%x %voidchest% &3voidchest(s)&a.'
+  Receive: '&b&l(!) &fYou have received &b1x Void Chest'
   List: '&7&l(!) &7Currently &e%amount% &7voidchests loaded: &e%voidchests%'
   Money-Logging: The player %player% has made %amount%$ from a voidchest located in
     %location_world%, %location_x%, %location_y%, %location_z%
@@ -68,9 +68,6 @@ Stats:
   - ''
   - '&7&l&m------==[&6 Your Stats &7&l&m]==------'
   - ''
-  - '&7Total voidchests: &6%voidchests%'
-  - '&7Booster: &a%booster%'
-  - '&7Booster timeleft: &a%timeleft%'
   - '&7Money made: &a$%money%'
   - '&7Items sold: &6%items_sold%'
   - '&7Items purged: &6%items_purged%'
@@ -80,9 +77,6 @@ Stats:
   - ''
   - '&7&l&m------==[&6 %player% Stats &7&l&m]==------'
   - ''
-  - '&7Total voidchests: &6%voidchests%'
-  - '&7Booster: &a%booster%'
-  - '&7Booster timeleft: &a%timeleft%'
   - '&7Money made: &a$%money%'
   - '&7Items sold: &6%items_sold%'
   - '&7Items purged: &6%items_purged%'
