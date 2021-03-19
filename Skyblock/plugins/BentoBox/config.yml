@@ -176,7 +176,7 @@ island:
     # * If set to 'false', whenever a player resets his island, his previous island will be deleted from the world.
     #   This is the default behaviour.
     # Added since 1.13.0.
-    keep-previous-island-on-reset: false
+    keep-previous-island-on-reset: true
 web:
   github:
     # Toggle whether BentoBox can connect to GitHub to get data about updates and addons.
@@ -184,10 +184,10 @@ web:
     # features that rely on the data downloaded from the GitHub API.
     # It does not send any data.
     # Added since 1.5.0.
-    download-data: false
+    download-data: true
     # Time in minutes between each connection to the GitHub API.
     # This allows for up-to-the-minute information gathering.
     # However, as the GitHub API data does not get updated instantly, this value cannot be set to less than 60 minutes.
     # Setting this to 0 will make BentoBox download data only at startup.
     # Added since 1.5.0.
-    connection-interval: 120
+    connection-interval: 0
