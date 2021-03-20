@@ -69,7 +69,7 @@ PerkSystemType: 'PLAYER'
 DisableOnClick: true
 
 # Deactivate perk on logout
-DeactivateOnLogout: true
+DeactivateOnLogout: false
 
 # Enable if certain modifiers don't get removed
 ForceClearModifiers: false

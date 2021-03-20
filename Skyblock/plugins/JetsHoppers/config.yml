@@ -48,7 +48,7 @@ Hoppers:
         - "&fPlace this hopper down"
         - "&fto start pulling in items!"
     Upgradeable: II #So either put NONE to disallow upgrading for this hopper, or put an identifier of a hopper that it should upgrade to.
-    UpgradeCost: 15000 #The cost to upgrade if the above is true, must be an integer
+    UpgradeCost: 30000 #The cost to upgrade if the above is true, must be an integer
     SuctionRange: 4x4x4 #Needs VALUExVALUExVALUE (X, Y and Z) of around where the hopper can pickup items to
     MaxConnectionRange: -1 #The amount of blocks away a container can be connected to (can either be a chest, or another hopper) Set this to -1 if you don't want items to be able to teleport to other containers
     SecondsPerPickup: 10 #The amount of seconds that the hopper will scan to pickup items (this can make large difference to performance)

@@ -23,7 +23,7 @@ sell:
       item:
         material: IRON_INGOT
         quantity: 1
-      sellPrice: 30
+      sellPrice: 25
       slot: 12
     4:
       type: item
@@ -1256,5 +1256,11 @@ sell:
       type: item
       item:
         material: LEATHER_HELMET
+        quantity: 1
+      sellPrice: 5
+    155212524412947523:
+      type: item
+      item:
+        material: POPPY
         quantity: 1
       sellPrice: 5
