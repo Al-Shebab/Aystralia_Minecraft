@@ -1,7 +1,7 @@
 core:
   command-aliases: goldenenchants,genchants,ge
   lang: en
-  prefix: GoldenEnchants
+  prefix: '&b&lEnchants &8>&f'
 general:
   tasks:
     arrow-trails:
@@ -10,9 +10,13 @@ general:
       tick-time: 80
   enchantments:
     disabled:
-    - some_enchant
-    - enchant_name
-    - enchant_name2
+    - self_destruction
+    - bomber
+    - divine_touch
+    - executioner
+    - explosive_arrows
+    - silk_chest
+    - village_defender
     max-item-golden-enchants: 3
     sword-enchants-applies-to-axes: true
     bow-enchants-applies-to-crossbows: true
@@ -47,8 +51,8 @@ tiers:
       VILLAGER: 80.0
       LOOT_GENERATION: 80.0
   common:
-    name: '&fCommon'
-    color: '&f'
+    name: '&2Common'
+    color: '&2'
     obtain-chance:
       ENCHANTING: 60.0
       VILLAGER: 60.0
@@ -68,8 +72,8 @@ tiers:
       VILLAGER: 20.0
       LOOT_GENERATION: 20.0
   legendary:
-    name: '&6Legendary'
-    color: '&6'
+    name: '&bLegendary'
+    color: '&b'
     obtain-chance:
       ENCHANTING: 5.0
       VILLAGER: 5.0
