@@ -1,20 +1,20 @@
 HelpCommand:
-  - "&7&m----------&r &bJetsHoppers&7 &m---------"
-  - "&aJetsHoppers give <player> <hopper> <Amount> &7Gives a specified player a hopper"
-  - "&aJetsHoppers about &7Displays information about the plugin"
-  - "&aJetsHoppers reload &7reloads plugin configuration"
-  - "&aJetsHoppers info &7displays info about the plugin"
-  - "&7&m-----------------------------------------"
+  - "&f---------- &bHoppers&f ---------"
+  - "&bHoppers give <player> <hopper> <Amount> &fGives a specified player a hopper"
+  - "&bHoppers about &fDisplays information about the plugin"
+  - "&bHoppers reload &freloads plugin configuration"
+  - "&bHoppers info &fdisplays info about the plugin"
+  - "&f-----------------------------------------"
 
 #%TYPE% and %AMOUNT% can be used
-GivenHoppers: "&aYou have been given &2%AMOUNT%&ax tier &2%TYPE%&a hoppers"
+GivenHoppers: "&fYou have been given &b%AMOUNT%x Tier &b%TYPE%&f hoppers"
 
 
 # -- Upgrade Stuff --
 #%MONEY_NEEDED% for the money needed
 UpgradeNotEnoughMoney: "&cYou do not have the required funds to do this!"
 #%OLDTIER% and %NEWTIER% can be used as placeholders
-UpgradeHopperMessage: "&aYou have upgraded this hopper from %OLDTIER% to %NEWTIER%"
+UpgradeHopperMessage: "&fYou have upgraded this hopper from &9%OLDTIER% &fto &b%NEWTIER%"
 UpgradeMaxAlready: "&cThis hopper is already at its maximum level!"
 
 
@@ -24,11 +24,11 @@ LinkHopper: "&aRight click a chest or hopper to connect it to this hopper!"
 LinkExpire: "&aLink Hopper Expired. You took too long to select a container!"
 SuccessfullyLinkedContainer: "&aYou have successfully linked this container to the hopper!"
 CannotLinkToSelf: "&cYou cannot link the hopper to itself!"
-LinkToFar: "&cYou cannot link a hopper over %DISTANCE% blocks"
+LinkToFar: "&fYou cannot link a hopper over &c%DISTANCE% blocks"
 
 # -- Teleport Stuff --
-DisabledTeleportaion: "&6You have &cDisabled &6teleportation for this hopper!"
-EnabledTeleportation: "&6You have &aEnabled &6teleportation for this hopper!"
+DisabledTeleportaion: "&fYou have &cDisabled &fteleportation for this hopper!"
+EnabledTeleportation: "&fYou have &aEnabled &fteleportation for this hopper!"
 Teleported: "&aWooosh!"
 NoPermissionToToggleTeleport: "&cYou do not have permission to do this!"
 
@@ -39,11 +39,11 @@ FilterToBlacklist: "&cYou have toggled the hopper will pickup all items, apart f
 BadInputItem: "&c%MATERIAL% &ecannot be added as it is damaged, repair it before adding it to the filter list!"
 
 # -- Hologram Stuff --
-HologramDisabled: "&7You have &c&lDISABLED &7the hoppers hologram!"
-HologramEnabled: "&7You have &a&lENABLED &7the hoppers hologram!"
+HologramDisabled: "&fYou have &c&lDisabled &fthe hoppers hologram!"
+HologramEnabled: "&fYou have &a&lEnabled &fthe hoppers hologram!"
 
 # Other
-ErrorOccurred: "&CAn error occured, please try again"
+ErrorOccurred: "&cAn error occured, please try again"
 NoPermission: "&cSorry, you do not have the permission for this!"
 UnknownCommand: "&cThe command is unknown"
 VaultNotInstalled: "&cYou cannot do this as Vault is not installed. Please contact an administrator."

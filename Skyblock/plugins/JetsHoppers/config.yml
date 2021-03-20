@@ -50,7 +50,7 @@ Hoppers:
     Upgradeable: II #So either put NONE to disallow upgrading for this hopper, or put an identifier of a hopper that it should upgrade to.
     UpgradeCost: 15000 #The cost to upgrade if the above is true, must be an integer
     SuctionRange: 4x4x4 #Needs VALUExVALUExVALUE (X, Y and Z) of around where the hopper can pickup items to
-    MaxConnectionRange: 30 #The amount of blocks away a container can be connected to (can either be a chest, or another hopper) Set this to -1 if you don't want items to be able to teleport to other containers
+    MaxConnectionRange: -1 #The amount of blocks away a container can be connected to (can either be a chest, or another hopper) Set this to -1 if you don't want items to be able to teleport to other containers
     SecondsPerPickup: 10 #The amount of seconds that the hopper will scan to pickup items (this can make large difference to performance)
     Teleportation: true #If this is enabled, players can jump into the hopper to teleport to the linked hopper (if it has a linked hopper)
     Glow: true #Whether the item should have a glow effect
@@ -66,10 +66,10 @@ Hoppers:
         - "&fPlace this hopper down"
         - "&fto start pulling in items!"
     Upgradeable: III #Upgrades to 'LevelIII' hopper
-    UpgradeCost: 30000
+    UpgradeCost: 60000
     SuctionRange: 8x8x8
     MaxConnectionRange: 50
-    SecondsPerPickup: 8
+    SecondsPerPickup: 10
     Teleportation: true
     Glow: true
     Hologram:
@@ -84,10 +84,10 @@ Hoppers:
         - "&fPlace this hopper down"
         - "&fto start pulling in items!"
     Upgradeable: NONE #No more upgrades for this path!
-    UpgradeCost: 60000 #Wont be used if its not upgradeable
+    UpgradeCost: 120000 #Wont be used if its not upgradeable
     SuctionRange: 16x16x16
     MaxConnectionRange: 100
-    SecondsPerPickup: 6
+    SecondsPerPickup: 10
     Teleportation: true
     Glow: true
     Hologram:
@@ -102,10 +102,10 @@ Hoppers:
         - "&fPlace this hopper down"
         - "&fto start pulling in items!"
     Upgradeable: NONE #You could specify a different hopper it upgrades to, just create it underneath :)
-    UpgradeCost: 120000
+    UpgradeCost: 240000
     SuctionRange: 20x20x20
-    MaxConnectionRange: 300
-    SecondsPerPickup: 20
+    MaxConnectionRange: 200
+    SecondsPerPickup: 10
     Teleportation: true
     Glow: true
     Hologram:
@@ -122,8 +122,8 @@ Hoppers:
     Upgradeable: NONE 
     UpgradeCost: -1
     SuctionRange: 32x32x32
-    MaxConnectionRange: 300
-    SecondsPerPickup: 20
+    MaxConnectionRange: 400
+    SecondsPerPickup: 10
     Teleportation: true
     Glow: true
     Hologram:
