@@ -1,6 +1,6 @@
 # GUI config
 
-# I have tried creating this file as easy to use as possible (Join our discord via the Spigot Page if you have an issues)
+# I have tried creating this file as easy to use as possible [Join our discord via the Spigot Page if you have an issues)
 
 # Use 1.13 Material names - Plugin will change to 1.8 if needed.
 HopperInventory:
@@ -14,199 +14,199 @@ HopperInventory:
       name: " "
       slot: -1 # No slot needed for filler
       condition: NONE #The condition is a way of deciding whether the item gets shown in a slot or not, see below for examples
-      action: FILLER #Actions NONE, LINK (To link chest), FILTER (filter page), TELEPORT (to enable/disable teleporting), FILLER (To fill inventory)
+      action: FILLER #Actions NONE, LINK [To link chest), FILTER [filter page), Teleport [to enable/disable Teleporting), FILLER [To fill inventory)
       lore: []
 
 #The Link Button:
     LinkHopperItemNoPermission:
       type: CHEST
-      name: "&4» &c&lLINK CONTAINER"
+      name: "&8» &c&lLink Container"
       slot: 10
       condition: NOPERMISSION #Conditions for the action LINK can be NOPERMISSION, LINKED, LINK
       action: LINK
       lore:
         - "&cYou do not have the"
-        - "&crequired permission &4(jetshoppers.default.linkchest)"
+        - "&crequired permission &4[jetshoppers.default.linkchest]"
         - "&cneeded to link a chest"
     LinkHopperAlreadyLinked:
       type: CHEST
-      name: "&4» &c&lLINK CONTAINER"
+      name: "&8» &c&lLink Container"
       slot: 10
       condition: LINKED
       action: LINK
       lore:
-        - "&7Click this to &8&lUNLINK"
-        - "&7the attached container!"
+        - "&fClick this to &bUnlink"
+        - "&fthe attached container!"
         - " "
-        - "&8(Right-Click)"
+        - "&8[Right-Click]"
     LinkHopperLink:
       type: CHEST
-      name: "&4» &c&lLINK CONTAINER"
+      name: "&8» &c&lLink Container"
       slot: 10
       condition: LINK
       action: LINK
       lore:
-        - "&7Click this to &8&lLINK"
-        - "&7a container to this hopper!"
+        - "&fClick this to &8&lLINK"
+        - "&fa container to this hopper!"
         - " "
-        - "&8(Right-Click)"
-#The Upgrade button (also used to see stats)
+        - "&8[Right-Click]"
+#The Upgrade button [also used to see stats)
 #Placeholders available:
-# %TIER% - Returns it's  current level (level name in config file)
+# %TIER% - Returns it's  current level [level name in config file)
 # %HOPPERSUCTIONRANGE% - returns <x>x<y>x<z> of the hoppers suction range
 # %HOPPERCONNECTIONRANGE% - returns how far a chest can be linked
 # %SECONDSPERPICKUP% - returns the number of seconds the hopper picks up items
 # %LINKED% - True or false, depending on whether the hopper has a linked container
 #
-# %UPGRADED-HOPPERSUCTIONRANGE% - Returns the upgraded stat (the stats of the hopper upgraded)
+# %UPGRADED-HOPPERSUCTIONRANGE% - Returns the upgraded stat [the stats of the hopper upgraded)
 # %UPGRADED-HOPPERCONNECTIONRANGE% - Returns the upgraded stat
 # %UPGRADED-SECONDSPERPICKUP% - Returns the upgraded stat
 # %UPGRADE-COST% - Retruns cost to upgrade
     HopperMaxUpgraded:
       type: HOPPER
-      name: "&e» &6&lHOPPER STATS &7(Max Upgraded)"
+      name: "&8» &b&lHopper Stats &f[Max Upgraded]"
       slot: 11
       condition: MAXUPGRADED # = Has no further upgrade
       action: UPGRADE
       lore:
-        - "&eCurrent &7»"
-        - "&6Level: &7%TIER% &C(MAX)"
-        - "&6Suction Range: &7%HOPPERSUCTIONRANGE%"
-        - "&6Hopper Connection Range: &7%HOPPERCONNECTIONRANGE%"
-        - "&6Pickup Rate: &7%SECONDSPERPICKUP%&7s"
-        - "&6Linked To Container: &7%LINKED%"
+        - "&fCurrent &8»"
+        - "&fLevel: &b%TIER%"
+        - "&fSuction Range: &b%HOPPERSUCTIONRANGE%"
+        - "&fHopper Connection Range: &b%HOPPERCONNECTIONRANGE%"
+        - "&fPickup Rate: &b%SECONDSPERPICKUP%s"
+        - "&fLinked To Container: &b%LINKED%"
         - " "
-        - "&7This hopper is already"
-        - "&7maximum upgrade."
+        - "&bThis hopper is already"
+        - "&bmaximum upgrade."
     HopperUppgradable:
       type: HOPPER
-      name: "&e» &6&lHOPPER STATS"
+      name: "&8» &b&lHopper Stats"
       slot: 11
       condition: UPGRADEABLE # = Has an upgrade
       action: UPGRADE
       lore:
-        - "&eCurrent &7»"
-        - "&6Level: &7%TIER%"
-        - "&6Suction Range: &7%HOPPERSUCTIONRANGE%"
-        - "&6Hopper Connection Range: &7%HOPPERCONNECTIONRANGE%"
-        - "&6Pickup Rate: &7%SECONDSPERPICKUP%s"
-        - "&6Linked To Container: &7%LINKED%"
+        - "&fCurrent &8»"
+        - "&fLevel: &b%TIER%"
+        - "&fSuction Range: &b%HOPPERSUCTIONRANGE%"
+        - "&fHopper Connection Range: &b%HOPPERCONNECTIONRANGE%"
+        - "&fPickup Rate: &b%SECONDSPERPICKUP%s"
+        - "&fLinked To Container: &b%LINKED%"
         - " "
-        - "&eUpgraded &7»"
-        - "&6Level: &7%UPGRADED-TIER%"
-        - "&6Suction Range: &7%UPGRADED-HOPPERSUCTIONRANGE%"
-        - "&6Hopper Connection Range: &7%UPGRADED-HOPPERCONNECTIONRANGE%"
-        - "&6Pickup Rate: &7%UPGRADED-SECONDSPERPICKUP%&6s"
+        - "&fUpgraded &8»"
+        - "&fLevel: &a%UPGRADED-TIER%"
+        - "&fSuction Range: &a%UPGRADED-HOPPERSUCTIONRANGE%"
+        - "&fHopper Connection Range: &a%UPGRADED-HOPPERCONNECTIONRANGE%"
+        - "&fPickup Rate: &a%UPGRADED-SECONDSPERPICKUP%&fs"
         - " "
-        - "&7Click to Upgrade"
-        - "&eCost: &6$&e%UPGRADE-COST%"
+        - "&aClick to Upgrade"
+        - "&fCost: &a$%UPGRADE-COST%"
 #Hologram enable/disable button
     HologramNoPermission:
       type: NAME_TAG
-      name: "&3» &b&lHOLOGRAM"
+      name: "&8» &b&lHologram"
       slot: 13
       condition: NOPERMISSION
-      action: HOLOGRAM
+      action: Hologram
       lore:
         - "&cYou do not have the required"
-        - "&cpermission &4(jetshoppers.default.hologram)&c"
+        - "&cpermission &4[jetshoppers.default.Hologram)&c"
         - "&cIn order to use this feature!"
     HologramEnabled:
       type: NAME_TAG
-      name: "&3» &b&lHOLOGRAM"
+      name: "&8» &b&lHologram"
       slot: 13
       condition: ENABLED
-      action: HOLOGRAM
+      action: Hologram
       lore:
-        - "&7Hologram: &aEnabled"
+        - "&fHologram: &aEnabled"
         - " "
-        - "&7Right Click to Toggle!"
+        - "&fRight Click to Toggle!"
     HologramDisabled:
       type: NAME_TAG
-      name: "&3» &b&lHOLOGRAM"
+      name: "&8» &b&lHologram"
       slot: 13
       condition: DISABLED
-      action: HOLOGRAM
+      action: Hologram
       lore:
-        - "&7Hologram: &cDisabled"
+        - "&fHologram: &cDisabled"
         - " "
-        - "&7Right Click to Toggle!"
+        - "&fRight Click to Toggle!"
 #Filter upgrade button
     FilterButtonWhitelist:
       type: PAPER
-      name: "&2» &a&lHOPPER FILTER"
+      name: "&8» &a&lHopper Filter"
       slot: 15
       condition: WHITELIST
       action: FILTER
       lore:
-        - "&7Setting: &aWHITELIST"
+        - "&fSetting: &aWhitelist"
         - " "
-        - "&7Items found on the next page"
-        - "&7will be the only items"
-        - "&7the hopper is able to collect"
+        - "&fItems found on the next page"
+        - "&fwill be the only items"
+        - "&fthe hopper is able to collect"
         - " "
-        - "&8(Click to go to Filter Page)"
-        - "&8(Shift-Click to toggle Setting Type)"
+        - "&8[Click to go to Filter Page]"
+        - "&8[Shift-Click to toggle Setting Type]"
     FilterButtonBlacklist:
       type: PAPER
-      name: "&2» &a&lHOPPER FILTER"
+      name: "&8» &a&lHopper Filter"
       slot: 15
       condition: BLACKLIST
       action: FILTER
       lore:
-        - "&7Setting: &2BLACKLIST"
+        - "&fSetting: &2Blacklist"
         - " "
-        - "&7Items found on the next page"
-        - "&7will be items ignored"
-        - "&7and will not be picked up"
+        - "&fItems found on the next page"
+        - "&fwill be items ignored"
+        - "&fand will not be picked up"
         - " "
-        - "&8(Click to go to Filter Page)"
-        - "&8(Shift-Click to toggle Setting Type)"
+        - "&8[Click to go to Filter Page]"
+        - "&8[Shift-Click to toggle Setting Type]"
 #Teleport Button
     TeleportNoPermission:
       type: END_PORTAL_FRAME
-      name: "&5» &d&lTELEPORT"
+      name: "&8» &d&lTeleport"
       slot: 16
       condition: NOPERMISSION
-      action: TELEPORT
+      action: Teleport
       lore:
         - "&cYou do not have the required"
-        - "&cpermission &4(jetshoppers.default.teleport)&c"
+        - "&cpermission &4[jetshoppers.default.Teleport)&c"
         - "&cIn order to use this feature!"
     TeleportNoLinkedHopper:
       type: END_PORTAL_FRAME
-      name: "&5» &d&lTELEPORTING"
+      name: "&8» &d&lTeleporting"
       slot: 16
       condition: NOLINKEDBLOCK
-      action: TELEPORT
+      action: Teleport
       lore:
-        - "&7Teleporting: &cDisabled"
+        - "&fTeleporting: &cDisabled"
         - " "
-        - "&7Link a hopper to enable"
-        - "&7teleporting!"
+        - "&fLink a hopper to enable"
+        - "&fTeleporting!"
     TeleportEnabled:
       type: END_PORTAL_FRAME
-      name: "&5» &d&lTELEPORTING"
+      name: "&8» &d&lTeleporting"
       slot: 16
       condition: ENABLED #Telporting to another hopper is enabled
-      action: TELEPORT
+      action: Teleport
       lore:
-        - "&7Teleporting: &aEnabled"
+        - "&fTeleporting: &aEnabled"
         - " "
-        - "&7Jump on this hopper and sneak to"
-        - "&7teleport to its connected hopper!"
+        - "&fJump on this hopper and sneak to"
+        - "&fTeleport to its connected hopper!"
         - " "
-        - "&7Right Click to Toggle!"
+        - "&fRight Click to Toggle!"
     TeleportDisabled:
       type: END_PORTAL_FRAME
-      name: "&5» &d&lTELEPORTING"
+      name: "&8» &d&lTeleporting"
       slot: 16
       condition: DISABLED #Telporting to another hopper is enabled
-      action: TELEPORT
+      action: Teleport
       lore:
         - "&2Teleporting: &cDisabled"
         - " "
-        - "&7Right Click to Toggle!"
+        - "&fRight Click to Toggle!"
 
 #The Filter inventory, works similar to the one above
 #All free spots are places where people will be able to place items into
@@ -216,43 +216,41 @@ FilterInventory:
   Items:
     InfoItemWhitelist:
       type: PAPER
-      name: "&e» &6&lINFORMATION"
+      name: "&8» &b&lInformation"
       slot: 22
       condition: WHITELIST
       action: NONE
       lore:
-        - "&7Setting: &aWHITELIST"
+        - "&fSetting: &aWHITELIST"
         - " "
-        - "&7Add items to this inventory to"
-        - "&7add them to the whitelist!"
+        - "&fAdd items to this inventory to"
+        - "&fadd them to the whitelist!"
         - " "
-        - "&7This means the hopper will only"
-        - "&7pickup items on this whitelist!"
+        - "&fThis means the hopper will only"
+        - "&fpickup items on this whitelist!"
     InfoItemBlacklist:
       type: PAPER
-      name: "&e» &6&lINFORMATION"
+      name: "&8» &b&lInformation"
       slot: 22
       condition: BLACKLIST
       action: NONE
       lore:
-        - "&7Setting: &2BLACKLIST"
+        - "&fSetting: &2Blacklist"
         - " "
-        - "&7Add items to this inventory to"
-        - "&7add them to the blacklist!"
+        - "&fAdd items to this inventory to"
+        - "&fadd them to the Blacklist!"
         - " "
-        - "&7This means the hopper will pickup"
-        - "&7all items, apart from those specified"
-        - "&7on this list!"
+        - "&fThis means the hopper will pickup"
+        - "&fall items, apart from those specified"
+        - "&fon this list!"
     Back:
       type: BARRIER
-      name: "&4» &c&lBACK"
+      name: "&8» &c&lBack"
       slot: 18
       condition: NONE
       action: BACK
       lore:
-        - "&7Back to main page!"
-        - " "
-        - "&7(Click)"
+        - "&fBack to main page!"
 #Filler items work abit different in this, as there needs to be a few free slots for the user to put items into the inventory
 #Similar to the top filler item, just a range needs to be specified
     FillerItem18:

@@ -6,7 +6,7 @@
 #############################################
 
 #The prefix that is shown before the plugin
-PluginsPrefix: "&eHoppers &7» "
+PluginsPrefix: "&b&lHoppers &8> &f"
 
 #Would NOT suggest setting this to false
 #By setting to false, it is assumed your server is cracked
@@ -43,75 +43,91 @@ MaxHoppersAllowed:
 Hoppers:
   I: #the Identifier of the hopper - Used in the give command or to upgrade to CASE SENSITIVE
     Item:
-      Name: "&aHopper &7(Level I)"
+      Name: "&bHopper &f[&7Level I&f]"
       Lore:
-        - "&ePlace this hopper down"
-        - "&eto start pulling in items!"
+        - "&fPlace this hopper down"
+        - "&fto start pulling in items!"
     Upgradeable: II #So either put NONE to disallow upgrading for this hopper, or put an identifier of a hopper that it should upgrade to.
-    UpgradeCost: 500 #The cost to upgrade if the above is true, must be an integer
-    SuctionRange: 5x5x5 #Needs VALUExVALUExVALUE (X, Y and Z) of around where the hopper can pickup items to
+    UpgradeCost: 15000 #The cost to upgrade if the above is true, must be an integer
+    SuctionRange: 4x4x4 #Needs VALUExVALUExVALUE (X, Y and Z) of around where the hopper can pickup items to
     MaxConnectionRange: 30 #The amount of blocks away a container can be connected to (can either be a chest, or another hopper) Set this to -1 if you don't want items to be able to teleport to other containers
     SecondsPerPickup: 10 #The amount of seconds that the hopper will scan to pickup items (this can make large difference to performance)
     Teleportation: true #If this is enabled, players can jump into the hopper to teleport to the linked hopper (if it has a linked hopper)
     Glow: true #Whether the item should have a glow effect
     Hologram: #If you do not want a hologram to be used, ' set Hologram: [] ' - Possibly a good idea on big servers.. PLACEHOLDERS: %PICKUPTIME% (Pickup Time of hopper), %ITEMSTRANSFERRED% (Total items transferred)
-      - "&a%PLAYER% Hopper &7(Level I)"
-      - "&6Pickup Rate:&e %PICKUPTIME%s"
-      - "&6Suction Range:&e %SUCTIONRANGE%"
-      - "&6Total items Transfered:&e %ITEMSTRANSFERRED%"
+      - "&b%PLAYER% Hopper &f[&7Level I&f]"
+      - "&fPickup Rate:&b %PICKUPTIME%s"
+      - "&fSuction Range:&b %SUCTIONRANGE%"
+      - "&fTotal items Transfered:&b %ITEMSTRANSFERRED%"
   II:
     Item:
-      Name: "&aHopper &7(Level II)"
+      Name: "&bHopper &f[&2Level II&f]"
       Lore:
-        - "&ePlace this hopper down"
-        - "&eto start pulling in items!"
+        - "&fPlace this hopper down"
+        - "&fto start pulling in items!"
     Upgradeable: III #Upgrades to 'LevelIII' hopper
-    UpgradeCost: 500
-    SuctionRange: 7x7x7
+    UpgradeCost: 30000
+    SuctionRange: 8x8x8
     MaxConnectionRange: 50
     SecondsPerPickup: 8
     Teleportation: true
     Glow: true
     Hologram:
-      - "&a%PLAYER% Hopper &7(Level II)"
-      - "&6Pickup Rate:&e %PICKUPTIME%s"
-      - "&6Suction Range:&e %SUCTIONRANGE%"
-      - "&6Total items Transfered:&e %ITEMSTRANSFERRED%"
+      - "&b%PLAYER% Hopper &f[&2Level II&f]"
+      - "&fPickup Rate:&b %PICKUPTIME%s"
+      - "&fSuction Range:&b %SUCTIONRANGE%"
+      - "&fTotal items Transfered:&b %ITEMSTRANSFERRED%"
   III:
     Item:
-      Name: "&aHopper &7(Level III)"
+      Name: "&bHopper &f[&aLevel III&f]"
       Lore:
-        - "&ePlace this hopper down"
-        - "&eto start pulling in items!"
+        - "&fPlace this hopper down"
+        - "&fto start pulling in items!"
     Upgradeable: NONE #No more upgrades for this path!
-    UpgradeCost: -1 #Wont be used if its not upgradeable
-    SuctionRange: 10x10x10
+    UpgradeCost: 60000 #Wont be used if its not upgradeable
+    SuctionRange: 16x16x16
     MaxConnectionRange: 100
     SecondsPerPickup: 6
     Teleportation: true
     Glow: true
     Hologram:
-      - "&a%PLAYER% Hopper &7(Level III)"
-      - "&6Pickup Rate:&e %PICKUPTIME%s"
-      - "&6Suction Range:&e %SUCTIONRANGE%"
-      - "&6Total items Transfered:&e %ITEMSTRANSFERRED%"
-#
-#You can create more hoppers that they upgrade to, or just create special hoppers like the one below! (Maybe a super special one, that can be given in a give command in a rare crate?)
+      - "&b%PLAYER% Hopper &f[&aLevel III&f]"
+      - "&fPickup Rate:&b %PICKUPTIME%s"
+      - "&fSuction Range:&b %SUCTIONRANGE%"
+      - "&fTotal items Transfered:&b %ITEMSTRANSFERRED%"
   IV:
     Item:
-      Name: "&aHopper &4(Level IV)"
+      Name: "&bHopper &f[&9Level IV&f]"
       Lore:
-        - "&ePlace this hopper down"
-        - "&eto start pulling in items!"
+        - "&fPlace this hopper down"
+        - "&fto start pulling in items!"
     Upgradeable: NONE #You could specify a different hopper it upgrades to, just create it underneath :)
-    UpgradeCost: -1
+    UpgradeCost: 120000
     SuctionRange: 20x20x20
     MaxConnectionRange: 300
     SecondsPerPickup: 20
     Teleportation: true
     Glow: true
     Hologram:
-      - "&a%PLAYER% Hopper &4(Level IV)"
-      - "&6Pickup Rate:&e %PICKUPTIME%s"
-      - "&6Suction Range:&e %SUCTIONRANGE%"
-      - "&6Total items Transfered:&e %ITEMSTRANSFERRED%"
+      - "&b%PLAYER% Hopper &f[&9Level IV&f]"
+      - "&fPickup Rate:&b %PICKUPTIME%s"
+      - "&fSuction Range:&b %SUCTIONRANGE%"
+      - "&fTotal items Transfered:&b %ITEMSTRANSFERRED%"
+  V:
+    Item:
+      Name: "&bHopper &f[&bLevel V&f]"
+      Lore:
+        - "&fPlace this hopper down"
+        - "&fto start pulling in items!"
+    Upgradeable: NONE 
+    UpgradeCost: -1
+    SuctionRange: 32x32x32
+    MaxConnectionRange: 300
+    SecondsPerPickup: 20
+    Teleportation: true
+    Glow: true
+    Hologram:
+      - "&b%PLAYER% Hopper &f[&bLevel V&f]"
+      - "&fPickup Rate:&b %PICKUPTIME%s"
+      - "&fSuction Range:&b %SUCTIONRANGE%"
+      - "&fTotal items Transfered:&b %ITEMSTRANSFERRED%"

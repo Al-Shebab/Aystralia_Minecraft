@@ -62,7 +62,7 @@ items:
     - ''
     - '&fTeleport to spawn'
     - ''
-    - '&bClick to teleport'
+    - '&8» &bClick to teleport'
     left_click_commands:
     - '[player] spawn'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
@@ -79,7 +79,7 @@ items:
     - ''
     - '&fTeleport to spawn'
     - ''
-    - '&bClick to teleport'
+    - '&8» &bClick to teleport'
     left_click_commands:
     - '[sound] BLOCK_ANVIL_LAND' 
     - '[close]'
