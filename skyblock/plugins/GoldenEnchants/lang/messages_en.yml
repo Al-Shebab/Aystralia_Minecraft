@@ -6,11 +6,11 @@ Command:
   Book:
     Usage: <player> <enchant> <level>
     Desc: Gives custom enchanted book.
-    Done: Given &6%enchant%&7 enchanted book to &6%player%&7.
+    Done: '&fGiven &b%enchant%&f enchanted book to &b%player%&f.'
   TierBook:
     Usage: <player> <tier> <level>
     Desc: Gives an enchanted book.
     Error: '&cInvalid tier!'
-    Done: Given &6%enchant%&7 enchanted book to &6%player%&7.
+    Done: '&fGiven &b%enchant%&f enchanted book to &b%player%&f.'
 Error:
   NoEnchant: '&cNo such enchant.'

@@ -1,17 +1,5 @@
 {
-  "homeLocations": [
-    [
-      [
-        "skyblock",
-        -3999.533751354486,
-        121.0,
-        -1999.6233345916457,
-        -7.026568055152893E-4,
-        -1.799730658531189
-      ],
-      1
-    ]
-  ],
+  "homeLocations": {},
   "uniqueId": "a4de17ad-abe0-4fe7-9f1c-f21c18607509",
   "playerName": "Stoopid_Ugly",
   "resets": {},

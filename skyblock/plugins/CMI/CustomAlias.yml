@@ -20,16 +20,15 @@ CustomAlias:
   rtp:
     Cmds:
     - cmi rt world
+  hoppers:
+    Cmds:
+    - jetshoppers
   fix:
     Cmds:
     - cmi repair
   repair:
     Cmds:
     - mcmmo:repair $1-
-  fakequit:
-    Cmds:
-    - v on
-    - broadcast! &4&l- &r%cmi_user_name%
     Perm: true
   colours:
     Cmds:
@@ -70,7 +69,12 @@ CustomAlias:
   bin:
     Cmds:
     - cmi dispose
-  garbage: Cmds:s - cmi dispose
+  garbage:
+    Cmds:
+    - cmi dispose
+  garbagecan:
+    Cmds:
+    - cmi dispose
   dispose:
     Cmds:
     - cmi dispose

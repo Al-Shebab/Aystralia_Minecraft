@@ -1,5 +1,5 @@
 name: 'Ghast'
-tier: 'common'
+tier: 'legendary'
 description: '%chance%% chance to launch Fireball.'
 level:
   min: 1
