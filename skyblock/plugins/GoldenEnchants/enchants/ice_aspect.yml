@@ -3,7 +3,7 @@ tier: 'common'
 description: '%chance%% chance to apply %potion-effect% %potion-level% for %potion-duration%s. on hit.'
 level:
   min: 1
-  max: 10
+  max: 3
 enchantment-table:
   min-player-level: 12
   chance: 45.0
@@ -16,5 +16,5 @@ loot-generation:
 settings:
   particle-effect: 'BLOCK_CRACK:ICE'
   enchant-trigger-chance: '25.0 * %level%'
-  effect-level: '%level%'
+  effect-level: '%level% * 1.5'
   effect-duration: '%level% * 2'

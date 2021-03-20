@@ -17,6 +17,7 @@ general:
     - explosive_arrows
     - silk_chest
     - village_defender
+    - saturation
     max-item-golden-enchants: 3
     sword-enchants-applies-to-axes: true
     bow-enchants-applies-to-crossbows: true

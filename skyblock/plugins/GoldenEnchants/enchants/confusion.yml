@@ -3,7 +3,7 @@ tier: 'common'
 description: '%chance%% chance to apply %potion-effect% %potion-level% for %potion-duration%s. on hit.'
 level:
   min: 1
-  max: 10
+  max: 3
 enchantment-table:
   min-player-level: 15
   chance: 30.0
@@ -16,5 +16,5 @@ loot-generation:
 settings:
   particle-effect: 'ITEM_CRACK:ROTTEN_FLESH'
   enchant-trigger-chance: '60.0'
-  effect-level: '%level%'
+  effect-level: '%level% * 1.5'
   effect-duration: '%level% * 3.2'
