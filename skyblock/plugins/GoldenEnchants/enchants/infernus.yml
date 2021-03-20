@@ -3,7 +3,7 @@ tier: 'common'
 description: '%chance%% chance to launch flame Trident that ignites enemy for %duration%s.'
 level:
   min: 1
-  max: 2
+  max: 10
 enchantment-table:
   min-player-level: 30
   chance: 25.0
