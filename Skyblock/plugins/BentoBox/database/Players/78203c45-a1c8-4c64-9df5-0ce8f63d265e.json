@@ -1,17 +1,5 @@
 {
-  "homeLocations": [
-    [
-      [
-        "skyblock",
-        0.5,
-        124.0,
-        4000.5,
-        0.0,
-        0.0
-      ],
-      1
-    ]
-  ],
+  "homeLocations": {},
   "uniqueId": "78203c45-a1c8-4c64-9df5-0ce8f63d265e",
   "playerName": "ZomboMancer",
   "resets": {},

@@ -48,7 +48,3 @@ panel-list:
         material: OAK_SIGN
         description: '&bList warps available'
         command: '[label] warps'
-      8:
-        material: BEACON
-        description: '&bGo to world spawn'
-        command: 'spawn'
