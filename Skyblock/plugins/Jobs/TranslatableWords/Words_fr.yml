@@ -1186,42 +1186,42 @@ EntityList:
 EnchantList:
   Fire protection: Protection contre le feu
   Sharpness: Tranchant
-  Flame: Flamee
   Unknown: Inconnu
-  Aqua affinity: Affinité aquatique
   Punch: Frappe
   Loyalty: Loyauté
-  Depth strider: Agilité aquatique
-  Vanishing curse: Malédiction de disparition
   Unbreaking: Solidité
-  Knockback: Recul
   Luck of the sea: Chance de la mer
   Binding curse: Malédiction du lien éternel
   Fortune: Fortune
-  Protection: Protection
   Efficiency: Efficacité
-  Mending: Raccommodage
   Frost walker: Semelles givrantes
-  Lure: Appât
-  Looting: Butin
-  Piercing: Perforation
-  Blast protection: Protection contre les explosions
   Smite: Châtiment
   Multishot: Tir multiple
   Fire aspect: Aura de feu
   Channeling: Canalisation
-  Sweeping: Affilage
   Thorns: Épines
   Bane of arthropods: Fléau des arthropodes
-  Respiration: Respiration
-  Riptide: Impulsion
   Silk touch: Toucher de soie
   Quick charge: Charge rapide
   Projectile protection: Protection contre les projectile
   Impaling: Empalement
-  Feather falling: Chute amortie
   Power: Puissance
   Infinity: Infinité
+  Flame: Flamee
+  Aqua affinity: Affinité aquatique
+  Depth strider: Agilité aquatique
+  Vanishing curse: Malédiction de disparition
+  Knockback: Recul
+  Protection: Protection
+  Mending: Raccommodage
+  Lure: Appât
+  Looting: Butin
+  Piercing: Perforation
+  Blast protection: Protection contre les explosions
+  Sweeping: Affilage
+  Respiration: Respiration
+  Riptide: Impulsion
+  Feather falling: Chute amortie
 ColorList:
   0-white: '&fBlanc'
   1-orange: '&6Orange'

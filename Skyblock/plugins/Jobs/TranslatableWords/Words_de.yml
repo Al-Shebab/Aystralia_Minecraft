@@ -1186,42 +1186,42 @@ EntityList:
 EnchantList:
   Fire protection: Fire protection
   Sharpness: Sharpness
-  Flame: Flame
   Unknown: Unknown
-  Aqua affinity: Aqua affinity
   Punch: Punch
   Loyalty: Loyalty
-  Depth strider: Depth strider
-  Vanishing curse: Vanishing curse
   Unbreaking: Unbreaking
-  Knockback: Knockback
   Luck of the sea: Luck of the sea
   Binding curse: Binding curse
   Fortune: Fortune
-  Protection: Protection
   Efficiency: Efficiency
-  Mending: Mending
   Frost walker: Frost walker
-  Lure: Lure
-  Looting: Looting
-  Piercing: Piercing
-  Blast protection: Blast protection
   Smite: Smite
   Multishot: Multishot
   Fire aspect: Fire aspect
   Channeling: Channeling
-  Sweeping: Sweeping
   Thorns: Thorns
   Bane of arthropods: Bane of arthropods
-  Respiration: Respiration
-  Riptide: Riptide
   Silk touch: Silk touch
   Quick charge: Quick charge
   Projectile protection: Projectile protection
   Impaling: Impaling
-  Feather falling: Feather falling
   Power: Power
   Infinity: Infinity
+  Flame: Flame
+  Aqua affinity: Aqua affinity
+  Depth strider: Depth strider
+  Vanishing curse: Vanishing curse
+  Knockback: Knockback
+  Protection: Protection
+  Mending: Mending
+  Lure: Lure
+  Looting: Looting
+  Piercing: Piercing
+  Blast protection: Blast protection
+  Sweeping: Sweeping
+  Respiration: Respiration
+  Riptide: Riptide
+  Feather falling: Feather falling
 ColorList:
   0-white: '&fWhite'
   1-orange: '&6Orange'
