@@ -55,7 +55,7 @@ Hoppers:
     Teleportation: true #If this is enabled, players can jump into the hopper to teleport to the linked hopper (if it has a linked hopper)
     Glow: true #Whether the item should have a glow effect
     Hologram: #If you do not want a hologram to be used, ' set Hologram: [] ' - Possibly a good idea on big servers.. PLACEHOLDERS: %PICKUPTIME% (Pickup Time of hopper), %ITEMSTRANSFERRED% (Total items transferred)
-      - "&b%PLAYER% Hopper &f[&7Level I&f]"
+      - "&b%PLAYER%'s Hopper &f[&7Level I&f]"
       - "&fPickup Rate:&b %PICKUPTIME%s"
       - "&fSuction Range:&b %SUCTIONRANGE%"
       - "&fTotal items Transfered:&b %ITEMSTRANSFERRED%"
@@ -73,7 +73,7 @@ Hoppers:
     Teleportation: true
     Glow: true
     Hologram:
-      - "&b%PLAYER% Hopper &f[&2Level II&f]"
+      - "&b%PLAYER%'s Hopper &f[&2Level II&f]"
       - "&fPickup Rate:&b %PICKUPTIME%s"
       - "&fSuction Range:&b %SUCTIONRANGE%"
       - "&fTotal items Transfered:&b %ITEMSTRANSFERRED%"
@@ -91,7 +91,7 @@ Hoppers:
     Teleportation: true
     Glow: true
     Hologram:
-      - "&b%PLAYER% Hopper &f[&aLevel III&f]"
+      - "&b%PLAYER%'s Hopper &f[&aLevel III&f]"
       - "&fPickup Rate:&b %PICKUPTIME%s"
       - "&fSuction Range:&b %SUCTIONRANGE%"
       - "&fTotal items Transfered:&b %ITEMSTRANSFERRED%"
@@ -109,7 +109,7 @@ Hoppers:
     Teleportation: true
     Glow: true
     Hologram:
-      - "&b%PLAYER% Hopper &f[&9Level IV&f]"
+      - "&b%PLAYER%'s Hopper &f[&9Level IV&f]"
       - "&fPickup Rate:&b %PICKUPTIME%s"
       - "&fSuction Range:&b %SUCTIONRANGE%"
       - "&fTotal items Transfered:&b %ITEMSTRANSFERRED%"
@@ -127,7 +127,7 @@ Hoppers:
     Teleportation: true
     Glow: true
     Hologram:
-      - "&b%PLAYER% Hopper &f[&bLevel V&f]"
+      - "&b%PLAYER%'s Hopper &f[&bLevel V&f]"
       - "&fPickup Rate:&b %PICKUPTIME%s"
       - "&fSuction Range:&b %SUCTIONRANGE%"
       - "&fTotal items Transfered:&b %ITEMSTRANSFERRED%"

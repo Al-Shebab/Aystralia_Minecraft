@@ -1796,42 +1796,83 @@ Enchanting:
     MaxLevel:
       protection_fire: 4
       damage_all: 5
-      arrow_fire: 1
+      aquaman: 1
       soul_speed: 3
-      water_worker: 1
+      lucky_miner: 3
+      surprise: 3
       arrow_knockback: 2
       loyalty: 3
-      depth_strider: 3
-      vanishing_curse: 1
+      poisoned_arrows: 3
       durability: 3
-      knockback: 2
       luck: 3
       binding_curse: 1
       loot_bonus_blocks: 3
-      protection_environmental: 4
+      smelter: 7
       dig_speed: 5
-      mending: 1
       frost_walker: 2
-      lure: 3
-      loot_bonus_mobs: 3
-      piercing: 4
-      protection_explosions: 4
+      paralyze: 2
+      withered_arrows: 3
       damage_undead: 5
       multishot: 1
       fire_aspect: 2
       channeling: 1
-      sweeping_edge: 3
+      blindness: 3
       thorns: 3
       damage_arthropods: 5
+      ender_bow: 1
+      ice_aspect: 3
+      rocket: 4
+      silk_touch: 1
+      confusion: 3
+      cutter: 5
+      quick_charge: 3
+      double_strike: 4
+      protection_projectile: 4
+      sonic: 3
+      impaling: 5
+      night_vision: 1
+      arrow_damage: 5
+      cold_steel: 3
+      arrow_infinite: 1
+      criticals: 3
+      infernus: 2
+      tunnel: 3
+      venom: 2
+      arrow_fire: 1
+      treasures: 4
+      scavenger: 4
+      water_worker: 1
+      exhaust: 2
+      vampire: 4
+      depth_strider: 3
+      exp_hunter: 6
+      thrifty: 3
+      vanishing_curse: 1
+      knockback: 2
+      wither: 2
+      pigificator: 5
+      telekinesis: 3
+      protection_environmental: 4
+      bane_of_netherspawn: 5
+      mending: 1
+      replanter: 1
+      lure: 3
+      loot_bonus_mobs: 3
+      piercing: 4
+      flame_walker: 3
+      protection_explosions: 4
+      hardened: 3
+      rage: 2
+      bunny_hop: 3
+      ghast: 1
+      sweeping_edge: 3
       oxygen: 3
       riptide: 3
-      silk_touch: 1
-      quick_charge: 3
-      protection_projectile: 4
-      impaling: 5
       protection_fall: 4
-      arrow_damage: 5
-      arrow_infinite: 1
+      haste: 3
+      thunder: 3
+      saturation: 2
+      blast_mining: 3
   # When set to true, players will be required to have cmi.enchantments.[enchantname] permission node
   RequireSpecificPermission: false
   # When set to true, players will be required to have cmi.enchantments.[enchantname].[maxlevel] permission node to be abble to enchant item to defined max level

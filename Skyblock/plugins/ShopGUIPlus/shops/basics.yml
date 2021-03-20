@@ -334,11 +334,18 @@ basics:
       buyPrice: 100
       slot: 52
     48:
-      type: item
+      type: command
       item:
-        material: LOOM
+        material: HOPPER
+        name: "&bHopper &f[&7Level I&f]"
         quantity: 1
-      buyPrice: 100
+        lore: 
+          - "&fPlace this hopper down"
+          - "&fto start pulling in items!"
+          - ""
+      commands: 
+        - jetshoppers give %PLAYER% I 1
+      buyPrice: 100000
       slot: 53
     49:
       type: item

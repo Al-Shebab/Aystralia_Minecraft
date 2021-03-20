@@ -1,13 +1,13 @@
 HelpCommand:
   - "&f---------- &bHoppers&f ---------"
-  - "&bHoppers give <player> <hopper> <Amount> &fGives a specified player a hopper"
-  - "&bHoppers about &fDisplays information about the plugin"
-  - "&bHoppers reload &freloads plugin configuration"
-  - "&bHoppers info &fdisplays info about the plugin"
+  - "&b/hoppers give <player> <hopper> <Amount> &fGives a specified player a hopper"
+  - "&b/hoppers about &fDisplays information about the plugin"
+  - "&b/hoppers reload &freloads plugin configuration"
+  - "&b/hoppers info &fdisplays info about the plugin"
   - "&f-----------------------------------------"
 
 #%TYPE% and %AMOUNT% can be used
-GivenHoppers: "&fYou have been given &b%AMOUNT%x Tier &b%TYPE%&f hoppers"
+GivenHoppers: "&fYou have been given &b%AMOUNT%x Tier &b%TYPE%&f Hopper"
 
 
 # -- Upgrade Stuff --
@@ -21,7 +21,7 @@ UpgradeMaxAlready: "&cThis hopper is already at its maximum level!"
 # -- Link Hopper Stuff --
 UnlinkedHopper: "&aYou have unlinked this hopper from its container"
 LinkHopper: "&aRight click a chest or hopper to connect it to this hopper!"
-LinkExpire: "&aLink Hopper Expired. You took too long to select a container!"
+LinkExpire: "&cLink Hopper Expired. You took too long to select a container!"
 SuccessfullyLinkedContainer: "&aYou have successfully linked this container to the hopper!"
 CannotLinkToSelf: "&cYou cannot link the hopper to itself!"
 LinkToFar: "&fYou cannot link a hopper over &c%DISTANCE% blocks"
@@ -29,14 +29,14 @@ LinkToFar: "&fYou cannot link a hopper over &c%DISTANCE% blocks"
 # -- Teleport Stuff --
 DisabledTeleportaion: "&fYou have &cDisabled &fteleportation for this hopper!"
 EnabledTeleportation: "&fYou have &aEnabled &fteleportation for this hopper!"
-Teleported: "&aWooosh!"
+Teleported: "&bWooosh!"
 NoPermissionToToggleTeleport: "&cYou do not have permission to do this!"
 
 # -- Filter Stuff --
-FilterToWhitelist: "&cYou have toggled the hopper to only collect certain items!"
-FilterToBlacklist: "&cYou have toggled the hopper will pickup all items, apart from those specified!"
+FilterToWhitelist: "&fYou have &aturned on&f the hopper filter"
+FilterToBlacklist: "&fYou have &cturned off&f the hopper filter"
 #%MATERIAL% can be used as the name of the item
-BadInputItem: "&c%MATERIAL% &ecannot be added as it is damaged, repair it before adding it to the filter list!"
+BadInputItem: "&c%MATERIAL% &fcannot be added as it is damaged."
 
 # -- Hologram Stuff --
 HologramDisabled: "&fYou have &c&lDisabled &fthe hoppers hologram!"

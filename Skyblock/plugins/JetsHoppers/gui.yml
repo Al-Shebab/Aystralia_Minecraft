@@ -1,6 +1,6 @@
 # GUI config
 
-# I have tried creating this file as easy to use as possible [Join our discord via the Spigot Page if you have an issues)
+# I have tried creating this file as easy to use as possible (Join our discord via the Spigot Page if you have an issues)
 
 # Use 1.13 Material names - Plugin will change to 1.8 if needed.
 HopperInventory:
@@ -14,62 +14,58 @@ HopperInventory:
       name: " "
       slot: -1 # No slot needed for filler
       condition: NONE #The condition is a way of deciding whether the item gets shown in a slot or not, see below for examples
-      action: FILLER #Actions NONE, LINK [To link chest), FILTER [filter page), Teleport [to enable/disable Teleporting), FILLER [To fill inventory)
+      action: FILLER #Actions NONE, LINK (To link chest), FILTER (filter page), TELEPORT (to enable/disable teleporting), FILLER (To fill inventory)
       lore: []
 
 #The Link Button:
     LinkHopperItemNoPermission:
       type: CHEST
-      name: "&8» &c&lLink Container"
+      name: "&8» &b&lLink Container"
       slot: 10
       condition: NOPERMISSION #Conditions for the action LINK can be NOPERMISSION, LINKED, LINK
       action: LINK
       lore:
         - "&cYou do not have the"
-        - "&crequired permission &4[jetshoppers.default.linkchest]"
+        - "&crequired permission &4(jetshoppers.default.linkchest)"
         - "&cneeded to link a chest"
     LinkHopperAlreadyLinked:
       type: CHEST
-      name: "&8» &c&lLink Container"
+      name: "&8» &b&lLink Container"
       slot: 10
       condition: LINKED
       action: LINK
       lore:
-        - "&fClick this to &bUnlink"
+        - "&fClick this to &8&lUNLINK"
         - "&fthe attached container!"
-        - " "
-        - "&8[Right-Click]"
     LinkHopperLink:
       type: CHEST
-      name: "&8» &c&lLink Container"
+      name: "&8» &b&lLink Container"
       slot: 10
       condition: LINK
       action: LINK
       lore:
-        - "&fClick this to &8&lLINK"
+        - "&fClick this to link"
         - "&fa container to this hopper!"
-        - " "
-        - "&8[Right-Click]"
-#The Upgrade button [also used to see stats)
+#The Upgrade button (also used to see stats)
 #Placeholders available:
-# %TIER% - Returns it's  current level [level name in config file)
+# %TIER% - Returns it's  current level (level name in config file)
 # %HOPPERSUCTIONRANGE% - returns <x>x<y>x<z> of the hoppers suction range
 # %HOPPERCONNECTIONRANGE% - returns how far a chest can be linked
 # %SECONDSPERPICKUP% - returns the number of seconds the hopper picks up items
 # %LINKED% - True or false, depending on whether the hopper has a linked container
 #
-# %UPGRADED-HOPPERSUCTIONRANGE% - Returns the upgraded stat [the stats of the hopper upgraded)
+# %UPGRADED-HOPPERSUCTIONRANGE% - Returns the upgraded stat (the stats of the hopper upgraded)
 # %UPGRADED-HOPPERCONNECTIONRANGE% - Returns the upgraded stat
 # %UPGRADED-SECONDSPERPICKUP% - Returns the upgraded stat
 # %UPGRADE-COST% - Retruns cost to upgrade
     HopperMaxUpgraded:
       type: HOPPER
-      name: "&8» &b&lHopper Stats &f[Max Upgraded]"
+      name: "&8» &b&lHopper Stats"
       slot: 11
       condition: MAXUPGRADED # = Has no further upgrade
       action: UPGRADE
       lore:
-        - "&fCurrent &8»"
+        - "&fCurrent &b»"
         - "&fLevel: &b%TIER%"
         - "&fSuction Range: &b%HOPPERSUCTIONRANGE%"
         - "&fHopper Connection Range: &b%HOPPERCONNECTIONRANGE%"
@@ -85,56 +81,56 @@ HopperInventory:
       condition: UPGRADEABLE # = Has an upgrade
       action: UPGRADE
       lore:
-        - "&fCurrent &8»"
-        - "&fLevel: &b%TIER%"
-        - "&fSuction Range: &b%HOPPERSUCTIONRANGE%"
-        - "&fHopper Connection Range: &b%HOPPERCONNECTIONRANGE%"
-        - "&fPickup Rate: &b%SECONDSPERPICKUP%s"
-        - "&fLinked To Container: &b%LINKED%"
+        - "&fCurrent &9»"
+        - "&fLevel: &9%TIER%"
+        - "&fSuction Range: &9%HOPPERSUCTIONRANGE%"
+        - "&fHopper Connection Range: &9%HOPPERCONNECTIONRANGE%"
+        - "&fPickup Rate: &9%SECONDSPERPICKUP%s"
+        - "&fLinked To Container: &9%LINKED%"
         - " "
-        - "&fUpgraded &8»"
-        - "&fLevel: &a%UPGRADED-TIER%"
-        - "&fSuction Range: &a%UPGRADED-HOPPERSUCTIONRANGE%"
-        - "&fHopper Connection Range: &a%UPGRADED-HOPPERCONNECTIONRANGE%"
-        - "&fPickup Rate: &a%UPGRADED-SECONDSPERPICKUP%&fs"
+        - "&fUpgraded &b»"
+        - "&fLevel: &b%UPGRADED-TIER%"
+        - "&fSuction Range: &b%UPGRADED-HOPPERSUCTIONRANGE%"
+        - "&fHopper Connection Range: &b%UPGRADED-HOPPERCONNECTIONRANGE%"
+        - "&fPickup Rate: &b%UPGRADED-SECONDSPERPICKUP%&fs"
         - " "
-        - "&aClick to Upgrade"
-        - "&fCost: &a$%UPGRADE-COST%"
+        - "&bClick to Upgrade"
+        - "&b$%UPGRADE-COST%"
 #Hologram enable/disable button
     HologramNoPermission:
       type: NAME_TAG
-      name: "&8» &b&lHologram"
+      name: "&b&lHologram"
       slot: 13
       condition: NOPERMISSION
-      action: Hologram
+      action: HOLOGRAM
       lore:
         - "&cYou do not have the required"
-        - "&cpermission &4[jetshoppers.default.Hologram)&c"
+        - "&cpermission &4(jetshoppers.default.hologram)&c"
         - "&cIn order to use this feature!"
     HologramEnabled:
       type: NAME_TAG
-      name: "&8» &b&lHologram"
+      name: "&b&lHologram"
       slot: 13
       condition: ENABLED
-      action: Hologram
+      action: HOLOGRAM
       lore:
         - "&fHologram: &aEnabled"
         - " "
-        - "&fRight Click to Toggle!"
+        - "&fClick to Toggle!"
     HologramDisabled:
       type: NAME_TAG
-      name: "&8» &b&lHologram"
+      name: "&b&lHologram"
       slot: 13
       condition: DISABLED
-      action: Hologram
+      action: HOLOGRAM
       lore:
         - "&fHologram: &cDisabled"
         - " "
-        - "&fRight Click to Toggle!"
+        - "&fClick to Toggle!"
 #Filter upgrade button
     FilterButtonWhitelist:
       type: PAPER
-      name: "&8» &a&lHopper Filter"
+      name: "&8» &b&lFilter"
       slot: 15
       condition: WHITELIST
       action: FILTER
@@ -145,40 +141,40 @@ HopperInventory:
         - "&fwill be the only items"
         - "&fthe hopper is able to collect"
         - " "
-        - "&8[Click to go to Filter Page]"
-        - "&8[Shift-Click to toggle Setting Type]"
+        - "&b(Click to go to Filter Page)"
+        - "&b(Shift-Click to toggle Setting Type)"
     FilterButtonBlacklist:
       type: PAPER
-      name: "&8» &a&lHopper Filter"
+      name: "&8» &b&lFilter"
       slot: 15
       condition: BLACKLIST
       action: FILTER
       lore:
-        - "&fSetting: &2Blacklist"
+        - "&fSetting: &cBlacklist"
         - " "
         - "&fItems found on the next page"
         - "&fwill be items ignored"
         - "&fand will not be picked up"
         - " "
-        - "&8[Click to go to Filter Page]"
-        - "&8[Shift-Click to toggle Setting Type]"
+        - "&b(Click to go to Filter Page)"
+        - "&b(Shift-Click to toggle Setting Type)"
 #Teleport Button
     TeleportNoPermission:
       type: END_PORTAL_FRAME
-      name: "&8» &d&lTeleport"
+      name: "&5» &d&lTELEPORT"
       slot: 16
       condition: NOPERMISSION
-      action: Teleport
+      action: TELEPORT
       lore:
         - "&cYou do not have the required"
-        - "&cpermission &4[jetshoppers.default.Teleport)&c"
+        - "&cpermission &4(jetshoppers.default.teleport)&c"
         - "&cIn order to use this feature!"
     TeleportNoLinkedHopper:
       type: END_PORTAL_FRAME
-      name: "&8» &d&lTeleporting"
+      name: "&8» &b&lTeleporting"
       slot: 16
       condition: NOLINKEDBLOCK
-      action: Teleport
+      action: TELEPORT
       lore:
         - "&fTeleporting: &cDisabled"
         - " "
@@ -189,24 +185,20 @@ HopperInventory:
       name: "&8» &d&lTeleporting"
       slot: 16
       condition: ENABLED #Telporting to another hopper is enabled
-      action: Teleport
+      action: TELEPORT
       lore:
         - "&fTeleporting: &aEnabled"
         - " "
-        - "&fJump on this hopper and sneak to"
-        - "&fTeleport to its connected hopper!"
-        - " "
-        - "&fRight Click to Toggle!"
+        - "&bJump on this hopper and sneak to"
+        - "&bteleport to its connected hopper!"
     TeleportDisabled:
       type: END_PORTAL_FRAME
       name: "&8» &d&lTeleporting"
       slot: 16
       condition: DISABLED #Telporting to another hopper is enabled
-      action: Teleport
+      action: TELEPORT
       lore:
-        - "&2Teleporting: &cDisabled"
-        - " "
-        - "&fRight Click to Toggle!"
+        - "&fTeleporting: &cDisabled"
 
 #The Filter inventory, works similar to the one above
 #All free spots are places where people will be able to place items into
@@ -216,41 +208,41 @@ FilterInventory:
   Items:
     InfoItemWhitelist:
       type: PAPER
-      name: "&8» &b&lInformation"
+      name: "&8» &f&lInformation"
       slot: 22
       condition: WHITELIST
       action: NONE
       lore:
-        - "&fSetting: &aWHITELIST"
+        - "&fSetting: &aWhitelist"
         - " "
-        - "&fAdd items to this inventory to"
-        - "&fadd them to the whitelist!"
+        - "&aAdd items to this inventory to"
+        - "&aadd them to the whitelist!"
         - " "
-        - "&fThis means the hopper will only"
-        - "&fpickup items on this whitelist!"
+        - "&aThis means the hopper will only"
+        - "&apickup items on this whitelist!"
     InfoItemBlacklist:
       type: PAPER
-      name: "&8» &b&lInformation"
+      name: "&8» &f&lINFORMATION"
       slot: 22
       condition: BLACKLIST
       action: NONE
       lore:
-        - "&fSetting: &2Blacklist"
+        - "&bSetting: &cBlacklist"
         - " "
-        - "&fAdd items to this inventory to"
-        - "&fadd them to the Blacklist!"
+        - "&cAdd items to this inventory to"
+        - "&cadd them to the blacklist!"
         - " "
-        - "&fThis means the hopper will pickup"
-        - "&fall items, apart from those specified"
-        - "&fon this list!"
+        - "&cThis means the hopper will pickup"
+        - "&call items, apart from those specified"
+        - "&con this list!"
     Back:
       type: BARRIER
-      name: "&8» &c&lBack"
+      name: "&4» &c&lBACK"
       slot: 18
       condition: NONE
       action: BACK
       lore:
-        - "&fBack to main page!"
+        - "&bBack to main page!"
 #Filler items work abit different in this, as there needs to be a few free slots for the user to put items into the inventory
 #Similar to the top filler item, just a range needs to be specified
     FillerItem18:

@@ -522,46 +522,38 @@ info:
     - FireProtection
     damage_all:
     - Sharpness
-    arrow_fire:
-    - Flame
+    aquaman:
+    - AQUAMAN
     soul_speed:
     - SOULSPEED
-    water_worker:
-    - AquaAffinity
+    lucky_miner:
+    - LUCKYMINER
+    surprise:
+    - SURPRISE
     arrow_knockback:
     - Punch
     loyalty:
     - Loyalty
-    depth_strider:
-    - DepthStrider
-    vanishing_curse:
-    - VanishingCurse
+    poisoned_arrows:
+    - POISONEDARROWS
     durability:
     - Unbreaking
-    knockback:
-    - Knockback
     luck:
     - Luck
     binding_curse:
     - BindingCurse
     loot_bonus_blocks:
     - Fortune
-    protection_environmental:
-    - Protection
+    smelter:
+    - SMELTER
     dig_speed:
     - Efficiency
-    mending:
-    - Mending
     frost_walker:
     - FrostWalker
-    lure:
-    - Lure
-    loot_bonus_mobs:
-    - Looting
-    piercing:
-    - Piercing
-    protection_explosions:
-    - BlastProtection
+    paralyze:
+    - PARALYZE
+    withered_arrows:
+    - WITHEREDARROWS
     damage_undead:
     - Smite
     multishot:
@@ -570,31 +562,121 @@ info:
     - FireAspect
     channeling:
     - Channeling
-    sweeping_edge:
-    - SweepingEdge
+    blindness:
+    - BLINDNESS
     thorns:
     - Thorns
     damage_arthropods:
     - BaneOfArthropods
+    ender_bow:
+    - ENDERBOW
+    ice_aspect:
+    - ICEASPECT
+    rocket:
+    - ROCKET
+    silk_touch:
+    - SilkTouch
+    confusion:
+    - CONFUSION
+    cutter:
+    - CUTTER
+    quick_charge:
+    - QUICKCHARGE
+    double_strike:
+    - DOUBLESTRIKE
+    protection_projectile:
+    - ProjectileProtection
+    sonic:
+    - SONIC
+    impaling:
+    - Impaling
+    night_vision:
+    - NIGHTVISION
+    arrow_damage:
+    - Power
+    cold_steel:
+    - COLDSTEEL
+    arrow_infinite:
+    - Infinity
+    criticals:
+    - CRITICALS
+    infernus:
+    - INFERNUS
+    tunnel:
+    - TUNNEL
+    venom:
+    - VENOM
+    arrow_fire:
+    - Flame
+    treasures:
+    - TREASURES
+    scavenger:
+    - SCAVENGER
+    water_worker:
+    - AquaAffinity
+    exhaust:
+    - EXHAUST
+    vampire:
+    - VAMPIRE
+    depth_strider:
+    - DepthStrider
+    exp_hunter:
+    - EXPHUNTER
+    thrifty:
+    - THRIFTY
+    vanishing_curse:
+    - VanishingCurse
+    knockback:
+    - Knockback
+    wither:
+    - WITHER
+    pigificator:
+    - PIGIFICATOR
+    telekinesis:
+    - TELEKINESIS
+    protection_environmental:
+    - Protection
+    bane_of_netherspawn:
+    - BANEOFNETHERSPAWN
+    mending:
+    - Mending
+    replanter:
+    - REPLANTER
+    lure:
+    - Lure
+    loot_bonus_mobs:
+    - Looting
+    piercing:
+    - Piercing
+    flame_walker:
+    - FLAMEWALKER
+    protection_explosions:
+    - BlastProtection
+    hardened:
+    - HARDENED
+    rage:
+    - RAGE
+    bunny_hop:
+    - BUNNYHOP
+    ghast:
+    - GHAST
+    sweeping_edge:
+    - SweepingEdge
     oxygen:
     - Respiration
     riptide:
     - Riptide
-    silk_touch:
-    - SilkTouch
-    quick_charge:
-    - QUICKCHARGE
-    protection_projectile:
-    - ProjectileProtection
-    impaling:
-    - Impaling
     protection_fall:
     - FallProtection
     - FeatherFalling
-    arrow_damage:
-    - Power
-    arrow_infinite:
-    - Infinity
+    haste:
+    - HASTE
+    thunder:
+    - THUNDER
+    saturation:
+    - SATURATION
+    blast_mining:
+    - BLASTMINING
   PotionEffectAliases:
     speed:
     - Speed

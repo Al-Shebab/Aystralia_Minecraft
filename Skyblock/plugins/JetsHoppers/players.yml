@@ -1,0 +1,6 @@
+# 
+#  PlayerUUID
+#    hopperconfig,world,xpos,ypos,zpos,worldforchest/hopper,xpos,ypos,zpos,level,itemstransfered,dateplaced,hoppertpenabled,blockeswhitelisted,blocksblacklisted
+Players:
+  e79fc165-83d6-4139-9a8f-d42bf1c23f87:
+  - I,skyblock,0,125,-1995,null,null,null,null,I,202,1616243125109,false,null,null,WHITELIST,true

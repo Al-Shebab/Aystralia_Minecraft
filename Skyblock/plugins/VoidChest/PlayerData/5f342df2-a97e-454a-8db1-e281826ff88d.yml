@@ -10,16 +10,16 @@ chests:
       x: -1988
       y: 121
       z: 1996
-    money: 3450201.4000000153
-    items-sold: 224337
-    items-purged: 17470
+    money: 3676183.600000044
+    items-sold: 239202
+    items-purged: 18800
     autosell: true
     purge-items: true
     hologram: true
     chunk-collector: true
     bank: true
     charge:
-      time: 1616242105221
+      time: 1616251720689
   '1':
     name: default
     location:
@@ -27,13 +27,13 @@ chests:
       x: -1988
       y: 121
       z: 1999
-    money: 4255727.400000036
-    items-sold: 239366
-    items-purged: 28818
+    money: 4619549.200000114
+    items-sold: 257593
+    items-purged: 31398
     autosell: true
     purge-items: true
     hologram: true
     chunk-collector: true
     bank: true
     charge:
-      time: 1616242105221
+      time: 1616251720689
