@@ -56,6 +56,24 @@ Crates:
         Amount: 1
       '3':
         Type: COMMAND
+        Item Type: NETHER_STAR
+        Percentage: 5
+        Commands:
+        - minions give %name% Miner 1
+        Name: '&b&lMiner &fMinion'
+        Item Data: 0
+        Amount: 1
+      '4':
+        Type: COMMAND
+        Item Type: HOPPER
+        Percentage: 5
+        Commands:
+        - jetshoppers give %name% I 1
+        Name: '&b&lHopper &fUpgrade'
+        Item Data: 0
+        Amount: 1
+      '5':
+        Type: COMMAND
         Item Type: SPAWNER
         Percentage: 5
         Commands:
@@ -63,7 +81,7 @@ Crates:
         Name: '&cBlaze &fSpawner &cx1'
         Item Data: 0
         Amount: 1
-      '4':
+      '6':
         Type: COMMAND
         Item Type: SPAWNER
         Percentage: 5
@@ -72,29 +90,41 @@ Crates:
         Name: '&cZombie &fSpawner &cx1'
         Item Data: 0
         Amount: 1
-      '5':
+      '7':
         Type: COMMAND
         Item Type: SPAWNER
-        Percentage: 5
+        Percentage: 10
+        Commands:
+        - wildstacker:stacker give %name% spawner PIG 1
+        Name: '&bCow &fSpawner &bx1'
+        Item Data: 0
+        Amount: 1
+      '8':
+        Type: COMMAND
+        Item Type: SPAWNER
+        Percentage: 10
         Commands:
         - wildstacker:stacker give %name% spawner COW 1
         Name: '&bCow &fSpawner &bx1'
         Item Data: 0
         Amount: 1
-      '6':
-        Type: ITEM
-        Item Type: IRON_BLOCK
-        Percentage: 25
-        Item Data: 0`
-        Amount: 3
-      '7':
+      '9':
+        Type: COMMAND
+        Item Type: SPAWNER
+        Percentage: 5
+        Commands:
+        - wildstacker:stacker give %name% spawner IRON_GOLEM 1
+        Name: '&6Iron Golem &fSpawner &bx1'
+        Item Data: 0
+        Amount: 1
+      '10':
         Type: ITEM
         Item Type: COOKED_CHICKEN
         Name: '&c&lKFC'
-        Percentage: 25
+        Percentage: 24
         Item Data: 0`
         Amount: 16
-      '8':
+      '11':
         Type: ITEM
         Item Type: NETHERITE_PICKAXE
         Name: '&b&lAystralia &f&lPickaxe'
@@ -106,17 +136,23 @@ Crates:
         - dig_speed-10
         - loot_bonus_blocks-5
         Amount: 1
-      '9':
+      '12':
         Type: ITEM
-        Item Type: LIGHT_BLUE_SHULKER_BOX
-        Name: NONE
-        Item Data: 0
-        Percentage: 9
+        Item Type: TUBE_CORAL_BLOCK
+        Name: '&b&l+100 Island Level'
+        Percentage: 5
+        Item Data: 0`
         Amount: 1
-      '10':
+      '13':
         Type: ITEM
-        Item Type: NETHERITE_SCRAP
-        Name: NONE
-        Item Data: 0
+        Item Type: HORN_CORAL_BLOCK
+        Name: '&b&l+250 Island Level'
         Percentage: 10
-        Amount: 2
+        Item Data: 0`
+        Amount: 1
+      '14':
+        Type: ITEM
+        Item Type: DIRT
+        Percentage: 5
+        Item Data: 0`
+        Amount: 1

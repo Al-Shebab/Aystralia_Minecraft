@@ -76,6 +76,7 @@ seller:
   location: world, 26.500, 66.500, -7.500
   lines:
   - '&b&lTrader'
+  - '&fSell items here!'
 perks2:
   location: world, 42.500, 66.500, -5.500
   lines:
