@@ -12,12 +12,12 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 27.926102
+        bodyYaw: 13.435329
         world: world
         x: '32.5'
         y: '64.0'
         z: '-7.5'
-        yaw: '20.8176'
+        yaw: '-14.0043'
         pitch: '0.0'
       spawned: true
       skintrait:
@@ -79,13 +79,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 137.63538
+        bodyYaw: -95.85841
         world: world
         x: '17.5'
         y: '64.0'
         z: '1.5'
-        yaw: '177.6354'
-        pitch: '0.0'
+        yaw: '-117.692'
+        pitch: '-33.9159'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -137,12 +137,12 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 105.519745
+        bodyYaw: 119.27493
         world: world
         x: '34.5'
         y: '64.0'
         z: '-1.5'
-        yaw: '145.5197'
+        yaw: '159.2749'
         pitch: '0.0'
       spawned: true
       skintrait:
@@ -195,13 +195,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -7.4077682
+        bodyYaw: -13.276852
         world: world
         x: '18.5'
         y: '64.0'
         z: '-6.5'
-        yaw: '-41.5793'
-        pitch: '-5.0729'
+        yaw: '-53.2769'
+        pitch: '0.0'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -263,13 +263,13 @@ npc:
         updateSkins: false
       type: PLAYER
       location:
-        bodyYaw: -24.321991
+        bodyYaw: 8.459198
         world: world
         x: '48.5'
         y: '65.0'
         z: '-15.5'
-        yaw: '-64.3218'
-        pitch: '-12.0715'
+        yaw: '48.4592'
+        pitch: '0.0'
       lookclose:
         range: '5.0'
         disablewhilenavigating: true
@@ -335,7 +335,7 @@ npc:
       spawned: true
       type: PLAYER
       location:
-        bodyYaw: 11.332928
+        bodyYaw: -15.141537
         world: world
         x: '26.5'
         y: '64.0'
@@ -393,13 +393,13 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNjE3MjE5NTQyNSwKICAicHJvZmlsZUlkIiA6ICIyMzUwMzc5NWZmOGY0YmQyODE4YzBhZDA1OGZkYmNmNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4eHh0ZW50IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q5NGEwMjY4ZWUyZWYyZDY4MjkwNGQxMGRmZDI4YmQ0YWNkNTJhZDQ3ZWNjMmUxZGFmODcyYmIzOGM1N2UzZGUiCiAgICB9CiAgfQp9
         updateSkins: false
       location:
-        bodyYaw: 90.33261
+        bodyYaw: 101.30611
         world: world
         x: '42.5164'
         y: '64.0'
         z: '-5.5243'
-        yaw: '96.2164'
-        pitch: '0.0'
+        yaw: '100.7468'
+        pitch: '-14.7997'
       lookclose:
         range: '5.0'
         disablewhilenavigating: true

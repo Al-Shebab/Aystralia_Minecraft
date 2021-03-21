@@ -2,12 +2,19 @@
 #  PlayerUUID
 #    hopperconfig,world,xpos,ypos,zpos,worldforchest/hopper,xpos,ypos,zpos,level,itemstransfered,dateplaced,hoppertpenabled,blockeswhitelisted,blocksblacklisted
 Players:
+  e79fc165-83d6-4139-9a8f-d42bf1c23f87:
+  - I,skyblock,0,125,-1995,null,null,null,null,I,412,1616243125109,false,null,null,WHITELIST,true
   a4de17ad-abe0-4fe7-9f1c-f21c18607509:
-  - I,skyblock,-4014,1,-2002,null,null,null,null,I,113,1616251869719,false,null,null,BLACKLIST,true
+  - I,skyblock,-4015,2,-2002,null,null,null,null,I,376,1616319117054,false,null,null,BLACKLIST,true
   6d86b027-cacd-420e-8a8f-786f8048e185:
-  - II,skyblock,6,125,-1966,null,null,null,null,II,130,1616253371749,false,null,null,BLACKLIST,true
+  - II,skyblock,6,125,-1966,null,null,null,null,II,263,1616253371749,false,null,null,BLACKLIST,true
+  - I,skyblock,-8,125,-1965,null,null,null,null,I,638,1616309243084,false,null,null,BLACKLIST,true
   b7ce396a-aabf-4bf6-bffc-d222f80d5c70:
   - I,skyblock,-4010,1,-1981,null,null,null,null,I,297,1616264254176,false,null,null,BLACKLIST,true
   5f342df2-a97e-454a-8db1-e281826ff88d:
-  - III,skyblock,-1987,121,1996,skyblock,-1988,121,1996,III,9251,1616280530410,false,null,null,BLACKLIST,true
-  - III,skyblock,-1987,121,1999,skyblock,-1988,121,1999,III,5094,1616280602260,false,null,null,BLACKLIST,true
+  - III,skyblock,-1987,121,1996,skyblock,-1988,121,1996,III,49378,1616280530410,false,null,null,BLACKLIST,true
+  - III,skyblock,-1988,121,1998,skyblock,-1988,121,1999,III,28876,1616302432495,false,null,null,BLACKLIST,true
+  - III,skyblock,-1987,121,1999,skyblock,-1988,121,1999,III,35632,1616280602260,false,null,null,BLACKLIST,true
+  - II,skyblock,-1987,121,1997,skyblock,-1988,121,1996,II,856,1616324980974,false,null,null,BLACKLIST,true
+  - III,skyblock,-1987,121,1998,skyblock,-1988,121,1999,III,798,1616324979023,false,null,null,BLACKLIST,true
+  - III,skyblock,-1988,121,1997,skyblock,-1988,121,1996,III,499,1616324982123,false,null,null,BLACKLIST,true

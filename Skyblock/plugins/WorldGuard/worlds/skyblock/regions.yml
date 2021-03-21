@@ -13,7 +13,9 @@ regions:
     __global__:
         members: {}
         flags:
+            coral-fade: deny
             blocked-cmds: [/sellgui]
+            pvp: deny
             mob-spawning: allow
         owners: {}
         type: global

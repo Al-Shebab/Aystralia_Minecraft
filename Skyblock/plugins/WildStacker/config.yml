@@ -18,7 +18,7 @@ inspect-tool:
   type: STICK
   name: '&bInspect Tool'
   lore:
-    - '&fClick on an object to get more details about it.'
+  - '&fClick on an object to get more details about it.'
 
 # The simulate tool of the plugin.
 # You can check if two objects can stack together using this tool.
@@ -26,7 +26,7 @@ simulate-tool:
   type: STICK
   name: '&bSimulate Tool'
   lore:
-    - '&fClick on two objects to check if they can stack together.'
+  - '&fClick on two objects to check if they can stack together.'
 
 # Settings related to database.
 database:
@@ -102,9 +102,7 @@ items:
   # Material list: https://bg-software.com/materials/
   # Make sure you follow the "TYPE" and "TYPE:DATA" formats.
   # If you wish to disable blacklisted items, use "blacklist: []"
-  blacklist:
-    - COBBLESTONE
-    - STONE
+  blacklist: []
 
   # Whitelisted items are items that will get stacked.
   # Material list: https://bg-software.com/materials/
@@ -117,11 +115,11 @@ items:
   # You can use 'all' as a global limit (all: 20 will set all items to be limited to 20 per stack)
   # If you don't want any limits, you can set a random type.
   limits:
-    EXAMPLE_ITEM: 1024
+    all: 512
 
   # A list of worlds items won't get stacked inside them (case-sensitive)
   disabled-worlds:
-    - disabled_world
+  - disabled_world
 
   # Set a maximum amount of item objects in a chunk.
   # If you want to disable the feature, set it to 0.
@@ -150,7 +148,7 @@ items:
     enabled: true
 
     # What the toggle command will be?
-    command: 'stacker names item'
+    command: stacker names item
 
   # When enabled, a pickup sound will be played to the player.
   pickup-sound:
@@ -199,8 +197,7 @@ entities:
   # SpawnReason list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html
   # You can combine both filters using "ENTITY_TYPE:SPAWN_REASON"
   # If you wish to disable blacklisted entities, use "blacklist: []"
-  blacklist:
-    - EXAMPLE_MOB
+  blacklist: []
 
   # Whitelisted entities are entities that will get stacked.
   # EntityType list: https://bg-software.com/entities/
@@ -214,18 +211,17 @@ entities:
   # You can use 'all' as a global limit (all: 20 will set all entities to be limited to 20 per stack)
   # If you don't want any limits, you can set a random type.
   limits:
-    EXAMPLE_ENTITY: 10
+    all: 100
 
   # Set a minimum required entities to stack for specific entities.
   # Make sure you follow the "ENTITY-TYPE" format.
   # You can use 'all' as a global limit (all: 20 will set all entities to must have at least 20 entities around before stacking)
   # If you don't want any limits, you can set a random type.
-  minimum-required:
-    EXAMPLE_ENTITY: 10
+  minimum-required: []
 
   # A list of worlds entities won't get stacked inside them (case-sensitive)
   disabled-worlds:
-    - disabled_world
+  - disabled_world
 
   # Set a maximum amount of entity objects in a chunk.
   # If you want to disable the feature, set it to 0.
@@ -248,49 +244,29 @@ entities:
   stack-interval: 0
 
   # A list of all checks that the plugin does before trying to stack two entities together.
-  stack-checks:
+  stack-checks:    NERFED: true
     AGE: true
-    ANIMAL_OWNER: true
-    BAT_AWAKE: false
-    CAN_BREED: true
-    CAT_COLLAR_COLOR: true
-    CAT_TYPE: true
-    ENDERMAN_CARRIED_BLOCK: true
-    EXACT_AGE: false
-    GUARDIAN_ELDER: true
-    HORSE_CARRYING_CHEST: true
-    HORSE_COLOR: true
-    HORSE_JUMP: true
-    HORSE_MAX_TAME_PROGRESS: true
-    HORSE_STYLE: true
-    HORSE_TAME_PROGRESS: true
-    HORSE_TYPE: true
     IS_TAMED: true
-    LLAMA_COLOR: true
-    LLAMA_STRENGTH: true
-    MOOSHROOM_TYPE: true
-    NAME_TAG: true
-    NERFED: true
-    OCELOT_TYPE: true
-    PARROT_TYPE: true
-    PHANTOM_SIZE: true
-    PIG_SADDLE: true
-    PUFFERFISH_STATE: true
-    RABBIT_TYPE: true
-    SHEEP_COLOR: true
-    SHEEP_SHEARED: true
+    ANIMAL_OWNER: true
     SKELETON_TYPE: true
-    SLIME_SIZE: true
-    SPAWN_REASON: false
-    TROPICALFISH_BODY_COLOR: true
-    TROPICALFISH_TYPE: true
-    TROPICALFISH_TYPE_COLOR: true
-    UPGRADE: true
-    VILLAGER_PROFESSION: true
-    WOLF_ANGRY: false
-    WOLF_COLLAR_COLOR: true
     ZOMBIE_BABY: true
-    ZOMBIE_PIGMAN_ANGRY: false
+    SLIME_SIZE: true
+    PIG_SADDLE: true
+    SHEEP_SHEARED: true
+    SNOWMAN_DERPED: true
+    WOLF_COLLAR_COLOR: true
+    HORSE_STYLE: true
+    HORSE_CARRYING_CHEST: true
+    HORSE_HAS_ARMOR: true
+    HORSE_HAS_SADDLE: true
+    HORSE_JUMP: true
+    VILLAGER_PROFESSION: true
+    LLAMA_STRENGTH: true
+    PUFFERFISH_STATE: true
+    TROPICALFISH_PATTERN: true
+    TROPICALFISH_BODY_COLOR: true
+    TROPICALFISH_PATTERN_COLOR: true
+    PHANTOM_SIZE: true
 
   # A list of all actions that the plugin check before unstacking an entity stack.
   stack-split:
@@ -323,10 +299,10 @@ entities:
   # You can combine both filters using "ENTITY_TYPE:DAMAGE_CAUSE" or "ENTITY_TYPE:SPAWN_REASON"
   # If you don't want instant-kill, use "instant-kill: []"
   instant-kill:
-    - FALL
-    - LAVA
-    - VOID
-    - DROWNING
+  - FALL
+  - LAVA
+  - VOID
+  - DROWNING
 
   # Nerfed entities are entities that cannot attack / target other entities and players.
   # EntityType list: https://bg-software.com/entities/
@@ -352,12 +328,12 @@ entities:
   # This feature is great for flying entities, like blazes and ghasts.
   stack-down:
     # Should the stack-down feature be enabled on the server?
-    enabled: false
+    enabled: true
     # A list of entities that will be forced to only stack down.
     # You can combine filters using "ENTITY_TYPE:SPAWN_REASON"
     stack-down-types:
-      - BLAZE
-      - GHAST
+    - BLAZE
+    - GHAST
 
   # If a stacked entity dies from fire, should the fire continue to the next entity?
   keep-fire: true
@@ -389,7 +365,7 @@ entities:
     enabled: true
 
     # What the toggle command will be?
-    command: 'stacker names entity'
+    command: stacker names entity
 
   # Should entities get knockback after they are killed?
   next-stack-knockback: true
@@ -427,14 +403,14 @@ entities:
     enabled: false
     # A list of tools that can one shot entities.
     tools:
-      - DIAMOND_SWORD
-      - DIAMOND_AXE
+    - DIAMOND_SWORD
+    - DIAMOND_AXE
     # A list of entities that will be one shot.
     # EntityType list: https://bg-software.com/entities/
     # SpawnReason list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html
     # You can combine both filters using "ENTITY_TYPE:SPAWN_REASON"
     whitelist:
-      - ALL
+    - ALL
 
   # Should entities get stored into the database?
   store-entities: true
@@ -491,7 +467,7 @@ spawners:
 
   # A list of worlds spawners won't get stacked inside them (case-sensitive)
   disabled-worlds:
-    - disabled_world
+  - disabled_world
 
   # Set a maximum amount of spawner objects in a chunk.
   # If you want to disable the feature, set it to 0.
@@ -647,7 +623,7 @@ spawners:
     # Set a command for a toggle mode for the inventory teaks.
     # You can split multiple commands using ",".
     # You can set it to be disabled in order to disable the feature.
-    toggle-command: 'stacker inventorytweaks,stacker it'
+    toggle-command: stacker inventorytweaks,stacker it
 
   # Settings related to the manage menu of spawners.
   # If all the sub menus are disabled, the manage menu will not be opened.
@@ -672,122 +648,123 @@ spawners:
     ladders:
       '1':
         entities:
-          - AREA_EFFECT_CLOUD
-          - ARMOR_STAND
-          - ARROW
-          - BAT
-          - BEE
-          - BLAZE
-          - BOAT
-          - CAT
-          - CAVE_SPIDER
-          - CHICKEN
-          - COD
-          - COW
-          - CREEPER
-          - DOLPHIN
-          - DONKEY
-          - DRAGON_FIREBALL
-          - DROPPED_ITEM
-          - DROWNED
-          - EGG
-          - ELDER_GUARDIAN
-          - ENDERMAN
-          - ENDERMITE
-          - ENDER_CRYSTAL
-          - ENDER_DRAGON
-          - ENDER_PEARL
-          - ENDER_SIGNAL
-          - EVOKER
-          - EVOKER_FANGS
-          - EXPERIENCE_ORB
-          - FALLING_BLOCK
-          - FIREBALL
-          - FIREWORK
-          - FISHING_HOOK
-          - FOX
-          - GHAST
-          - GIANT
-          - GUARDIAN
-          - HOGLIN
-          - HORSE
-          - HUSK
-          - ILLUSIONER
-          - IRON_GOLEM
-          - ITEM_FRAME
-          - LEASH_HITCH
-          - LIGHTNING
-          - LLAMA
-          - LLAMA_SPIT
-          - MAGMA_CUBE
-          - MINECART
-          - MINECART_CHEST
-          - MINECART_COMMAND
-          - MINECART_FURNACE
-          - MINECART_HOPPER
-          - MINECART_MOB_SPAWNER
-          - MINECART_TNT
-          - MULE
-          - MUSHROOM_COW
-          - OCELOT
-          - PAINTING
-          - PANDA
-          - PARROT
-          - PHANTOM
-          - PIG
-          - PIGLIN
-          - PIGLIN_BRUTE
-          - PILLAGER
-          - PLAYER
-          - POLAR_BEAR
-          - PRIMED_TNT
-          - PUFFERFISH
-          - RABBIT
-          - RAVAGER
-          - SALMON
-          - SHEEP
-          - SHULKER
-          - SHULKER_BULLET
-          - SILVERFISH
-          - SKELETON
-          - SKELETON_HORSE
-          - SLIME
-          - SMALL_FIREBALL
-          - SNOWBALL
-          - SNOWMAN
-          - SPECTRAL_ARROW
-          - SPIDER
-          - SPLASH_POTION
-          - SQUID
-          - STRAY
-          - STRIDER
-          - THROWN_EXP_BOTTLE
-          - TRADER_LLAMA
-          - TRIDENT
-          - TROPICAL_FISH
-          - TURTLE
-          - UNKNOWN
-          - VEX
-          - VILLAGER
-          - VINDICATOR
-          - WANDERING_TRADER
-          - WITCH
-          - WITHER
-          - WITHER_SKELETON
-          - WITHER_SKULL
-          - WOLF
-          - ZOGLIN
-          - ZOMBIE
-          - ZOMBIE_HORSE
-          - ZOMBIE_VILLAGER
-          - ZOMBIFIED_PIGLIN
+        - AREA_EFFECT_CLOUD
+        - ARMOR_STAND
+        - ARROW
+        - BAT
+        - BEE
+        - BLAZE
+        - BOAT
+        - CAT
+        - CAVE_SPIDER
+        - CHICKEN
+        - COD
+        - COW
+        - CREEPER
+        - DOLPHIN
+        - DONKEY
+        - DRAGON_FIREBALL
+        - DROPPED_ITEM
+        - DROWNED
+        - EGG
+        - ELDER_GUARDIAN
+        - ENDERMAN
+        - ENDERMITE
+        - ENDER_CRYSTAL
+        - ENDER_DRAGON
+        - ENDER_PEARL
+        - ENDER_SIGNAL
+        - EVOKER
+        - EVOKER_FANGS
+        - EXPERIENCE_ORB
+        - FALLING_BLOCK
+        - FIREBALL
+        - FIREWORK
+        - FISHING_HOOK
+        - FOX
+        - GHAST
+        - GIANT
+        - GUARDIAN
+        - HOGLIN
+        - HORSE
+        - HUSK
+        - ILLUSIONER
+        - IRON_GOLEM
+        - ITEM_FRAME
+        - LEASH_HITCH
+        - LIGHTNING
+        - LLAMA
+        - LLAMA_SPIT
+        - MAGMA_CUBE
+        - MINECART
+        - MINECART_CHEST
+        - MINECART_COMMAND
+        - MINECART_FURNACE
+        - MINECART_HOPPER
+        - MINECART_MOB_SPAWNER
+        - MINECART_TNT
+        - MULE
+        - MUSHROOM_COW
+        - OCELOT
+        - PAINTING
+        - PANDA
+        - PARROT
+        - PHANTOM
+        - PIG
+        - PIGLIN
+        - PIGLIN_BRUTE
+        - PILLAGER
+        - PLAYER
+        - POLAR_BEAR
+        - PRIMED_TNT
+        - PUFFERFISH
+        - RABBIT
+        - RAVAGER
+        - SALMON
+        - SHEEP
+        - SHULKER
+        - SHULKER_BULLET
+        - SILVERFISH
+        - SKELETON
+        - SKELETON_HORSE
+        - SLIME
+        - SMALL_FIREBALL
+        - SNOWBALL
+        - SNOWMAN
+        - SPECTRAL_ARROW
+        - SPIDER
+        - SPLASH_POTION
+        - SQUID
+        - STRAY
+        - STRIDER
+        - THROWN_EXP_BOTTLE
+        - TRADER_LLAMA
+        - TRIDENT
+        - TROPICAL_FISH
+        - TURTLE
+        - UNKNOWN
+        - VEX
+        - VILLAGER
+        - VINDICATOR
+        - WANDERING_TRADER
+        - WITCH
+        - WITHER
+        - WITHER_SKELETON
+        - WITHER_SKULL
+        - WOLF
+        - ZOGLIN
+        - ZOMBIE
+        - ZOMBIE_HORSE
+        - ZOMBIE_VILLAGER
+        - ZOMBIFIED_PIGLIN
         default:
           required-player-range: 64
           icon:
             type: STONE
             name: '&bDefault'
             lore:
-              - '&cComing soon...'
+            - '&cComing soon...'
+  break-menu: {}
 
 # Here you can configurable all features related to stacked barrels (aka stacked blocks).
 barrels:
@@ -819,7 +796,7 @@ barrels:
   # Make sure you follow the "TYPE" and "TYPE:DATA" formats.
   # If you wish to disable whitelisted barrels, use "whitelist: []"
   whitelist:
-    - EXAMPLE_BARREL
+  - EXAMPLE_BARREL
 
   # Set a maximum stack for a specific barrel.
   # Make sure you follow the "TYPE" and "TYPE:DATA" formats.
@@ -830,7 +807,7 @@ barrels:
 
   # A list of worlds barrels won't get stacked inside them (case-sensitive)
   disabled-worlds:
-    - disabled_world
+  - disabled_world
 
   # Set a maximum amount of barrel objects in a chunk.
   # If you want to disable the feature, set it to 0.
@@ -854,13 +831,13 @@ barrels:
     enabled: false
 
     # What the toggle command will be?
-    command: 'stacker toggle'
+    command: stacker toggle
 
   # When enabled and player is clicking a barrel while sneaking, an inventory will be opened, there
   # he can put blocks to add to the barrel.
   place-inventory:
     enabled: true
-    title: 'Add items here ({0})'
+    title: Add items here ({0})
 
   # This should not be set to true unless being told by the dev.
   # When enabled, the plugin sets the barrel types to cauldron if they aren't already.
@@ -887,7 +864,7 @@ buckets:
 
   # A list of blacklisted bucket names.
   name-blacklist:
-    - '&fGenbucket'
+  - '&fGenbucket'
 
   # The new max-stack size for buckets. Must be a number between 1 and 64.
   max-stack: 16

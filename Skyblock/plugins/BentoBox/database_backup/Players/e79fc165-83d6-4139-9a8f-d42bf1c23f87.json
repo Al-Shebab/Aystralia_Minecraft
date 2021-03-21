@@ -1,21 +1,9 @@
 {
-  "homeLocations": [
-    [
-      [
-        "skyblock",
-        0.5,
-        125.0,
-        -1997.5,
-        0.0,
-        0.0
-      ],
-      1
-    ]
-  ],
+  "homeLocations": {},
   "uniqueId": "e79fc165-83d6-4139-9a8f-d42bf1c23f87",
   "playerName": "Al_Shebab",
   "resets": {
-    "skyblock": 1
+    "skyblock": 2
   },
   "locale": "",
   "deaths": {

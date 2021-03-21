@@ -16,10 +16,7 @@
   "gameMode": "BSkyBlock",
   "createdDate": 1616290378912,
   "updatedDate": 1616290378912,
-  "owner": "152e09b4-ba18-4460-8f81-5992dec80c6c",
-  "members": {
-    "152e09b4-ba18-4460-8f81-5992dec80c6c": 1000
-  },
+  "members": {},
   "maxMembers": {},
   "spawn": false,
   "purgeProtected": false,
@@ -107,7 +104,13 @@
     "BOAT": 500,
     "LOCK": 500
   },
-  "history": [],
+  "history": [
+    {
+      "timestamp": 1616308621658,
+      "type": "UNOWNED",
+      "data": {}
+    }
+  ],
   "levelHandicap": 0,
   "spawnPoint": {
     "NORMAL": [
@@ -129,6 +132,7 @@
   },
   "doNotLoad": false,
   "cooldowns": {},
+  "metaData": {},
   "homes": {
     "": [
       "skyblock",

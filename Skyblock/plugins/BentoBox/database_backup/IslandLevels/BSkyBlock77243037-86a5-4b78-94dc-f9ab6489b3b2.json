@@ -1,0 +1,33 @@
+{
+  "uniqueId": "BSkyBlock77243037-86a5-4b78-94dc-f9ab6489b3b2",
+  "level": 219,
+  "initialLevel": 0,
+  "pointsToNextLevel": 67,
+  "uwCount": {},
+  "mdCount": {
+    "IRON_ORE": 12,
+    "GOLD_ORE": 4,
+    "DIRT": 62,
+    "OAK_FENCE": 15,
+    "SAND": 9,
+    "WATER": 10,
+    "COBBLESTONE": 335,
+    "OAK_LEAVES": 292,
+    "FURNACE": 2,
+    "COBBLESTONE_SLAB": 6,
+    "AIR": 10238893,
+    "CRAFTING_TABLE": 1,
+    "GRASS_BLOCK": 96,
+    "STONE": 197,
+    "OAK_LOG": 29,
+    "LAVA": 4,
+    "COAL_ORE": 11,
+    "OAK_PLANKS": 1,
+    "TORCH": 8,
+    "OAK_FENCE_GATE": 1,
+    "BEDROCK": 1,
+    "DIAMOND_ORE": 2,
+    "CHEST": 8,
+    "SPAWNER": 1
+  }
+}

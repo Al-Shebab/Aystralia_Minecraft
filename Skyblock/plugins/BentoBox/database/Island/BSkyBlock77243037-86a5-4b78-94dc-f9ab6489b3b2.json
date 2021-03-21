@@ -106,7 +106,7 @@
     "TRADING": 0,
     "JUKEBOX": 500,
     "BOAT": 500,
-    "LOCK": 500
+    "LOCK": 0
   },
   "history": [],
   "levelHandicap": 0,
@@ -134,7 +134,7 @@
     "": [
       "skyblock",
       -3999.5,
-      132.0,
+      131.0,
       -5999.5,
       0.0,
       0.0

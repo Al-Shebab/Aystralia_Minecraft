@@ -584,6 +584,8 @@ info:
     - QUICKCHARGE
     double_strike:
     - DOUBLESTRIKE
+    wildstackerglow:
+    - WildStackerGlow
     protection_projectile:
     - ProjectileProtection
     sonic:
@@ -2907,7 +2909,7 @@ command:
       newBalance: '&b[playerDisplayName] &fnew balance: &b[money]'
       paid: '&fYou have sent &b[amount] &fto &b[playerDisplayName]'
       gotMoney: '&fPaid &b[amount] &ffrom &b[senderDisplayName]&f. Balance: &b[money]'
-      gotMoneyGive: '&fYou received &b[amount]&f. Balance: &b[money]'
+      gotMoneyGive: '&b&lPaycheck &8> &fYou received &b[amount]&f. Balance: &b[money]'
       noMoney: '&cYou don''t have enough money'
       worldGroups: '&cYou can''t send money between different world groups'
       self: '&cYou can''t send money to yourself!'

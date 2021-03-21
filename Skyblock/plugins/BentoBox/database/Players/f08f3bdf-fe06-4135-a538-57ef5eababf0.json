@@ -1,23 +1,13 @@
 {
-  "homeLocations": [
-    [
-      [
-        "skyblock",
-        4002.5,
-        161.0,
-        -1993.5,
-        270.0,
-        30.0
-      ],
-      1
-    ]
-  ],
+  "homeLocations": {},
   "uniqueId": "f08f3bdf-fe06-4135-a538-57ef5eababf0",
   "playerName": "Jensen_B13",
-  "resets": {},
+  "resets": {
+    "skyblock": 1
+  },
   "locale": "",
   "deaths": {
-    "skyblock": 1
+    "skyblock": 0
   },
   "pendingKicks": [],
   "flagsDisplayMode": "BASIC",
