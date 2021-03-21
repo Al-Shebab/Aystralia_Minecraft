@@ -673,8 +673,6 @@ info:
     - HASTE
     thunder:
     - THUNDER
-    saturation:
-    - SATURATION
     blast_mining:
     - BLASTMINING
   PotionEffectAliases:

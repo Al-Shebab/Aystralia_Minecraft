@@ -1,9 +1,11 @@
 PlayerName: Tyler49765
-Haste_CoolDown: '1616193841757'
+Haste_CoolDown: '1616291720951'
 CheckWorld: 'false'
 OfflineRewards: ''
-LastOnline: '1616242438976'
+LastOnline: '1616291704103'
 Experation:
-  Haste: '0'
-  IncreaseMobDrops: '0'
-IncreaseMobDrops_CoolDown: '1616193842506'
+  Haste: '-1'
+  IncreaseMobDrops: '-1'
+  IncreaseMoveSpeed: '-1'
+IncreaseMobDrops_CoolDown: '1616291717551'
+IncreaseMoveSpeed_CoolDown: '1616291715249'
