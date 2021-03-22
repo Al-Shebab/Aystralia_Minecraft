@@ -24,7 +24,7 @@ data:
   # Recommended load-delay interval is any number from 1 to 10, the highest, the more time the data will delay to load.
   # 
   # Any number that is < 1 will make the plugin instantly load data when the plugin enabled as well.
-  load-delay: 2
+  load-delay: 5
 
   # In minutes, when to check for currently unused data to be removed. Set to 0 to disable.
   # Would recommend leaving to 30. Change this only if you know what you're doing.
@@ -199,7 +199,7 @@ chunk-collector:
   
   # Should the plugin attempt to hook to one of the plugins: WildStacker, UltimateStacker, SpaceStacker, RoseStacker, zItemStacker, NONE
   hooks:
-    stacking-plugin: NONE
+    stacking-plugin: WildStacker
 
 
 
@@ -210,7 +210,7 @@ hologram-support:
   # Holograms are already updated when chests attempt to execute either way.
   # If you have a countdown timer in the hologram, this should be used as well.
   # The amount of ticks the update should happen. Default is 20 (1 second).
-  update-interval: 20
+  update-interval: 100
   
   # Set enabled to false if you'd like to disable this.
   enabled: true
@@ -292,7 +292,7 @@ Purging:
 Sell:
 
   # The interval is being run in seconds. This will only be selected if the path can't be found in the voidchest's file itself.
-  interval: 10
+  interval: 30
 
   # From which plugin should items have their prices picked from?
   # Currently available: VoidChest, ShopGuiPlus, Essentials, CMI, Custom.

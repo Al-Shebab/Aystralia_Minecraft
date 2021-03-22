@@ -3,8 +3,28 @@
 #    hopperconfig,world,xpos,ypos,zpos,worldforchest/hopper,xpos,ypos,zpos,level,itemstransfered,dateplaced,hoppertpenabled,blockeswhitelisted,blocksblacklisted
 Players:
   e79fc165-83d6-4139-9a8f-d42bf1c23f87:
-  - I,skyblock,0,125,-1995,null,null,null,null,I,222,1616243125109,false,null,null,WHITELIST,true
+  - I,skyblock,0,125,-1995,null,null,null,null,I,412,1616243125109,false,null,null,WHITELIST,true
   a4de17ad-abe0-4fe7-9f1c-f21c18607509:
-  - I,skyblock,-4014,1,-2002,null,null,null,null,I,0,1616251869719,false,null,null,BLACKLIST,true
+  - II,skyblock,-3991,1,-1968,null,null,null,null,II,411,1616405360632,false,null,null,BLACKLIST,false
   6d86b027-cacd-420e-8a8f-786f8048e185:
-  - II,skyblock,6,125,-1966,null,null,null,null,II,27,1616253371749,false,null,null,BLACKLIST,true
+  - II,skyblock,6,125,-1966,null,null,null,null,II,725,1616253371749,false,null,null,BLACKLIST,true
+  - II,skyblock,-8,125,-1965,skyblock,-6,125,-1965,II,2909,1616309243084,false,null,null,BLACKLIST,true
+  b7ce396a-aabf-4bf6-bffc-d222f80d5c70:
+  - II,skyblock,-4008,1,-1983,null,null,null,null,II,1031,1616358816425,false,null,null,BLACKLIST,true
+  5f342df2-a97e-454a-8db1-e281826ff88d:
+  - III,skyblock,-1987,121,1996,skyblock,-1988,121,1996,III,66201,1616407589475,false,null,null,BLACKLIST,true
+  - III,skyblock,-1988,121,1998,skyblock,-1988,121,1999,III,91528,1616407638423,false,null,null,BLACKLIST,true
+  - III,skyblock,-1988,121,1997,skyblock,-1988,121,1996,III,70539,1616407614825,false,null,null,BLACKLIST,true
+  - III,skyblock,-1987,121,1999,skyblock,-1988,121,1999,III,55574,1616407616375,false,null,null,BLACKLIST,true
+  - III,skyblock,-1987,121,1997,skyblock,-1988,121,1996,III,92294,1616407591821,false,null,null,BLACKLIST,true
+  - III,skyblock,-1987,121,1998,skyblock,-1988,121,1999,III,106232,1616407635274,false,null,null,BLACKLIST,true
+  1132a3f9-cf23-42e1-8595-79d07b07844e:
+  - IV,skyblock,6023,123,1986,null,null,null,null,IV,4757,1616428664419,false,null,R09MRF9PUkV8bnVsbA==:,BLACKLIST,true
+  - IV,skyblock,6023,122,1985,null,null,null,null,IV,2941,1616428655522,false,null,null,BLACKLIST,true
+  - II,skyblock,5982,122,1986,skyblock,5978,122,1988,II,1431,1616423637807,false,null,null,BLACKLIST,true
+  - IV,skyblock,6023,122,1987,null,null,null,null,IV,5952,1616428531823,false,null,null,BLACKLIST,true
+  - IV,skyblock,6024,122,1986,null,null,null,null,IV,13729,1616428533021,false,null,null,BLACKLIST,true
+  aed14379-c0c9-4b85-b6d0-031d46f30b67:
+  - II,skyblock,5969,122,1986,null,null,null,null,II,1,1616423654771,false,null,null,BLACKLIST,true
+  5e9388ba-0573-444c-a761-b6d9174042af:
+  - I,skyblock,5956,125,2017,null,null,null,null,I,1,1616425274035,false,null,null,BLACKLIST,true

@@ -1871,7 +1871,6 @@ Enchanting:
       protection_fall: 4
       haste: 3
       thunder: 3
-      saturation: 2
       blast_mining: 3
   # When set to true, players will be required to have cmi.enchantments.[enchantname] permission node
   RequireSpecificPermission: false

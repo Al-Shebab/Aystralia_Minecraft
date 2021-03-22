@@ -10,8 +10,8 @@ chests:
       x: 5974
       y: 122
       z: 1988
-    money: 20107.3
-    items-sold: 2231
+    money: 2214124.299999999
+    items-sold: 123861
     items-purged: 0
     autosell: true
     purge-items: false
@@ -19,4 +19,21 @@ chests:
     chunk-collector: true
     bank: true
     charge:
-      time: 1616256853794
+      time: 1616430225575
+  '1':
+    name: default
+    location:
+      world: skyblock
+      x: 5957
+      y: 122
+      z: 2023
+    money: 83202.9
+    items-sold: 16653
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1616430225575

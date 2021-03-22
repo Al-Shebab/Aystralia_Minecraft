@@ -24,234 +24,6 @@ Default Cooldown: 1
 Crate Protection: false
 Disable Key Swapping: false
 Crates:
-  Vote:
-    Knockback: 2.0
-    Block: CHEST
-    Color: WHITE
-    Broadcast: false
-    Firework: false
-    Preview: true
-    Key:
-      Item: TRIPWIRE_HOOK
-      Name: '%type% Crate Key'
-      Enchanted: true
-    Winnings:
-      '1':
-        Type: ITEM
-        Item Type: PIG_SPAWN_EGG
-        Item Data: 90
-        Name: '&bVote &fPig Egg'
-        Amount: 1
-        Enchantments: []
-        Lore: []
-        Metadata:
-          ==: ItemMeta
-          meta-type: SPAWN_EGG
-          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Vote
-            "},{"italic":false,"color":"white","text":"Pig Egg"}],"text":""}'
-      '2':
-        Type: ITEM
-        Item Type: CHICKEN_SPAWN_EGG
-        Item Data: 93
-        Name: '&bVote &fChicken Egg'
-        Amount: 1
-        Enchantments: []
-        Lore: []
-        Metadata:
-          ==: ItemMeta
-          meta-type: SPAWN_EGG
-          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Vote
-            "},{"italic":false,"color":"white","text":"Chicken Egg"}],"text":""}'
-      '3':
-        Type: ITEM
-        Item Type: COW_SPAWN_EGG
-        Item Data: 92
-        Name: '&bVote &fCow Egg'
-        Amount: 1
-        Enchantments: []
-        Lore: []
-        Metadata:
-          ==: ItemMeta
-          meta-type: SPAWN_EGG
-          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Vote
-            "},{"italic":false,"color":"white","text":"Cow Egg"}],"text":""}'
-      '4':
-        Type: ITEM
-        Item Type: SHEEP_SPAWN_EGG
-        Item Data: 91
-        Name: '&bVote &fSheep Egg'
-        Amount: 1
-        Enchantments: []
-        Lore: []
-        Metadata:
-          ==: ItemMeta
-          meta-type: SPAWN_EGG
-          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Vote
-            "},{"italic":false,"color":"white","text":"Sheep Egg"}],"text":""}'
-      '5':
-        Type: ITEM
-        Item Type: SHULKER_SHELL
-        Item Data: 0
-        Name: NONE
-        Amount: 1
-        Enchantments: []
-        Lore: []
-      '6':
-        Type: ITEM
-        Item Type: DIAMOND_PICKAXE
-        Percentage: 25
-        Item Data: 0
-        Name: '&bVote &fPickaxe'
-        Amount: 1
-        Enchantments:
-        - DIG_SPEED-5
-        - LOOT_BONUS_BLOCKS-3
-        - MENDING-1
-        - DURABILITY-5
-        Lore: []
-        Metadata:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Vote
-            "},{"italic":false,"color":"white","text":"Pickaxe"}],"text":""}'
-          enchants:
-            DIG_SPEED: 5
-            LOOT_BONUS_BLOCKS: 3
-            MENDING: 1
-            DURABILITY: 5
-      '7':
-        Type: ITEM
-        Item Type: ENCHANTED_BOOK
-        Percentage: 25
-        Item Data: 0
-        Name: NONE
-        Amount: 1
-        Enchantments: []
-        Lore: []
-        Metadata:
-          ==: ItemMeta
-          meta-type: ENCHANTED
-          stored-enchants:
-            MENDING: 1
-      '8':
-        Type: ITEM
-        Item Type: NAME_TAG
-        Percentage: 25
-        Item Data: 0
-        Name: '&bVote &fNametag'
-        Amount: 1
-        Enchantments: []
-        Lore: []
-        Metadata:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Vote
-            "},{"italic":false,"color":"white","text":"Nametag"}],"text":""}'
-      '9':
-        Type: ITEM
-        Item Type: NETHERITE_SCRAP
-        Percentage: 25
-        Item Data: 0
-        Name: NONE
-        Amount: 1
-        Enchantments: []
-        Lore: []
-      '10':
-        Type: ITEM
-        Item Type: REDSTONE_BLOCK
-        Item Data: 0
-        Name: NONE
-        Amount: 8
-        Enchantments: []
-        Lore: []
-      '11':
-        Type: ITEM
-        Item Type: HONEY_BLOCK
-        Item Data: 0
-        Name: NONE
-        Amount: 1
-        Enchantments: []
-        Lore: []
-      '12':
-        Type: ITEM
-        Item Type: ELYTRA
-        Item Data: 0
-        Name: '&bVote &fElytra'
-        Amount: 1
-        Enchantments:
-        - DURABILITY-3
-        Lore: []
-        Metadata:
-          ==: ItemMeta
-          meta-type: UNSPECIFIC
-          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Vote
-            "},{"italic":false,"color":"white","text":"Elytra"}],"text":""}'
-          enchants:
-            DURABILITY: 3
-      '13':
-        Type: ITEM
-        Item Type: IRON_INGOT
-        Item Data: 0
-        Name: NONE
-        Amount: 3
-        Enchantments: []
-        Lore: []
-      '14':
-        Type: ITEM
-        Item Type: HOPPER
-        Item Data: 0
-        Name: NONE
-        Amount: 8
-        Enchantments: []
-        Lore: []
-      '15':
-        Type: ITEM
-        Item Type: LIGHT_BLUE_SHULKER_BOX
-        Item Data: 1
-        Name: NONE
-        Amount: 1
-        Enchantments: []
-        Lore: []
-      '16':
-        Type: ITEM
-        Item Type: COOKED_BEEF
-        Item Data: 0
-        Name: NONE
-        Amount: 16
-        Enchantments: []
-        Lore: []
-      '17':
-        Type: ITEM
-        Item Type: POISONOUS_POTATO
-        Item Data: 0
-        Name: NONE
-        Amount: 1
-        Enchantments: []
-        Lore: []
-      '18':
-        Type: ITEM
-        Item Type: ENDER_PEARL
-        Item Data: 0
-        Name: NONE
-        Amount: 16
-        Enchantments: []
-        Lore: []
-      '19':
-        Type: ITEM
-        Item Type: DIAMOND
-        Item Data: 0
-        Name: NONE
-        Amount: 1
-        Enchantments: []
-        Lore: []
-      '20':
-        Type: ITEM
-        Item Type: FIREWORK_ROCKET
-        Item Data: 0
-        Name: NONE
-        Amount: 64
-        Enchantments: []
-        Lore: []
   vote:
     Key:
       Item: TRIPWIRE_HOOK
@@ -284,20 +56,20 @@ Crates:
         Amount: 1
       '3':
         Type: COMMAND
-        Item Type: SPAWNER
+        Item Type: NETHER_STAR
         Percentage: 5
         Commands:
-        - es give %name% BLAZE
-        Name: '&cBlaze &fSpawner &cx1'
+        - minions give %name% Miner 1
+        Name: '&b&lMiner &fMinion'
         Item Data: 0
         Amount: 1
       '4':
         Type: COMMAND
-        Item Type: SPAWNER
+        Item Type: HOPPER
         Percentage: 5
         Commands:
-        - es give %name% ZOMBIE
-        Name: '&cZombie &fSpawner &cx1'
+        - jetshoppers give %name% I 1
+        Name: '&b&lHopper &fUpgrade'
         Item Data: 0
         Amount: 1
       '5':
@@ -305,24 +77,54 @@ Crates:
         Item Type: SPAWNER
         Percentage: 5
         Commands:
-        - es give %name% COW
-        Name: '&bCow &fSpawner &bx1'
+        - wildstacker:stacker give %name% spawner BLAZE 1
+        Name: '&cBlaze &fSpawner &cx1'
         Item Data: 0
         Amount: 1
       '6':
-        Type: ITEM
-        Item Type: IRON_BLOCK
-        Percentage: 25
-        Item Data: 0`
-        Amount: 3
+        Type: COMMAND
+        Item Type: SPAWNER
+        Percentage: 9
+        Commands:
+        - wildstacker:stacker give %name% spawner ZOMBIE 1
+        Name: '&cZombie &fSpawner &cx1'
+        Item Data: 0
+        Amount: 1
       '7':
+        Type: COMMAND
+        Item Type: SPAWNER
+        Percentage: 10
+        Commands:
+        - wildstacker:stacker give %name% spawner PIG 1
+        Name: '&bCow &fSpawner &bx1'
+        Item Data: 0
+        Amount: 1
+      '8':
+        Type: COMMAND
+        Item Type: SPAWNER
+        Percentage: 10
+        Commands:
+        - wildstacker:stacker give %name% spawner COW 1
+        Name: '&bCow &fSpawner &bx1'
+        Item Data: 0
+        Amount: 1
+      '9':
+        Type: COMMAND
+        Item Type: SPAWNER
+        Percentage: 1
+        Commands:
+        - wildstacker:stacker give %name% spawner IRON_GOLEM 1
+        Name: '&6Iron Golem &fSpawner &bx1'
+        Item Data: 0
+        Amount: 1
+      '10':
         Type: ITEM
         Item Type: COOKED_CHICKEN
         Name: '&c&lKFC'
-        Percentage: 25
+        Percentage: 24
         Item Data: 0`
         Amount: 16
-      '8':
+      '11':
         Type: ITEM
         Item Type: NETHERITE_PICKAXE
         Name: '&b&lAystralia &f&lPickaxe'
@@ -334,17 +136,23 @@ Crates:
         - dig_speed-10
         - loot_bonus_blocks-5
         Amount: 1
-      '9':
+      '12':
         Type: ITEM
-        Item Type: LIGHT_BLUE_SHULKER_BOX
-        Name: NONE
-        Item Data: 0
-        Percentage: 9
+        Item Type: TUBE_CORAL_BLOCK
+        Name: '&b&l+100 Island Level'
+        Percentage: 5
+        Item Data: 0`
         Amount: 1
-      '10':
+      '13':
         Type: ITEM
-        Item Type: NETHERITE_SCRAP
-        Name: NONE
-        Item Data: 0
+        Item Type: HORN_CORAL_BLOCK
+        Name: '&b&l+250 Island Level'
         Percentage: 10
-        Amount: 2
+        Item Data: 0`
+        Amount: 1
+      '14':
+        Type: ITEM
+        Item Type: DIRT
+        Percentage: 5
+        Item Data: 0`
+        Amount: 1

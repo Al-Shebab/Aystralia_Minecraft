@@ -9,7 +9,14 @@ sell:
       item:
         material: NETHERITE_INGOT
         quantity: 1
-      sellPrice: 150
+      sellPrice: 300
+      slot: 12
+    19999954452342:
+      type: item
+      item:
+        material: NETHERITE_SCRAP
+        quantity: 1
+      sellPrice: 75
       slot: 12
     2:
       type: item
@@ -31,6 +38,20 @@ sell:
         material: GOLD_INGOT
         quantity: 1
       sellPrice: 15
+      slot: 12
+    3666512322222:
+      type: item
+      item:
+        material: IRON_ORE
+        quantity: 1
+      sellPrice: 2.5
+      slot: 12
+    9954712787222:
+      type: item
+      item:
+        material: GOLD_ORE
+        quantity: 1
+      sellPrice: 1.5
       slot: 12
     5:
       type: item
@@ -65,7 +86,7 @@ sell:
       item:
         material: NETHERITE_BLOCK
         quantity: 1
-      sellPrice: 1350
+      sellPrice: 2700
       slot: 12
     10:
       type: item
@@ -499,49 +520,49 @@ sell:
       item:
         material: TROPICAL_FISH
         quantity: 1
-      sellPrice: 10
+      sellPrice: 5
       slot: 12
     72:
       type: item
       item:
         material: COOKED_BEEF
         quantity: 1
-      sellPrice: 10
+      sellPrice: 5
       slot: 12
     73:
       type: item
       item:
         material: COOKED_PORKCHOP
         quantity: 1
-      sellPrice: 10
+      sellPrice: 5
       slot: 12
     74:
       type: item
       item:
         material: COOKED_MUTTON
         quantity: 1
-      sellPrice: 10
+      sellPrice: 5
       slot: 12
     75:
       type: item
       item:
         material: COOKED_CHICKEN
         quantity: 1
-      sellPrice: 10
+      sellPrice: 5
       slot: 12
     76:
       type: item
       item:
         material: COOKED_RABBIT
         quantity: 1
-      sellPrice: 20
+      sellPrice: 5
       slot: 12
     80:
       type: item
       item:
         material: COOKED_SALMON
         quantity: 1
-      sellPrice: 10
+      sellPrice: 5
       slot: 12
     81:
       type: item
@@ -576,112 +597,112 @@ sell:
       item:
         material: WHITE_WOOL
         quantity: 1
-      sellPrice: 1
+      sellPrice: 5
       slot: 12
     86:
       type: item
       item:
         material: LIGHT_GRAY_WOOL
         quantity: 1
-      sellPrice: 1
+      sellPrice: 5
       slot: 12
     87:
       type: item
       item:
         material: GRAY_WOOL
         quantity: 1
-      sellPrice: 1
+      sellPrice: 5
       slot: 12
     88:
       type: item
       item:
         material: BLACK_WOOL
         quantity: 1
-      sellPrice: 1
+      sellPrice: 5
       slot: 12
     89:
       type: item
       item:
         material: BROWN_WOOL
         quantity: 1
-      sellPrice: 1
+      sellPrice: 5
       slot: 12
     90:
       type: item
       item:
         material: PINK_WOOL
         quantity: 1
-      sellPrice: 1
+      sellPrice: 5
       slot: 12
     91:
       type: item
       item:
         material: MAGENTA_WOOL
         quantity: 1
-      sellPrice: 1
+      sellPrice: 5
       slot: 12
     92:
       type: item
       item:
         material: PURPLE_WOOL
         quantity: 1
-      sellPrice: 1
+      sellPrice: 5
       slot: 12
     93:
       type: item
       item:
         material: BLUE_WOOL
         quantity: 1
-      sellPrice: 1
+      sellPrice: 5
       slot: 12
     94:
       type: item
       item:
         material: RED_WOOL
         quantity: 1
-      sellPrice: 1
+      sellPrice: 5
       slot: 12
     95:
       type: item
       item:
         material: ORANGE_WOOL
         quantity: 1
-      sellPrice: 1
+      sellPrice: 5
       slot: 12
     96:
       type: item
       item:
         material: YELLOW_WOOL
         quantity: 1
-      sellPrice: 1
+      sellPrice: 5
       slot: 12
     97:
       type: item
       item:
         material: LIME_WOOL
         quantity: 1
-      sellPrice: 1
+      sellPrice: 5
       slot: 12
     98:
       type: item
       item:
         material: GREEN_WOOL
         quantity: 1
-      sellPrice: 1
+      sellPrice: 5
       slot: 12
     99:
       type: item
       item:
         material: CYAN_WOOL
         quantity: 1
-      sellPrice: 1
+      sellPrice: 5
       slot: 12
     100:
       type: item
       item:
         material: LIGHT_BLUE_WOOL
         quantity: 1
-      sellPrice: 1
+      sellPrice: 5
       slot: 12
     101:
       type: item

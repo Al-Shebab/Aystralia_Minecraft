@@ -1,8 +1,8 @@
 MaxLevel: 3
 
 Levels:
-  CostToUpgradeToLevel2: 10000 #The cost to upgrade to level 2
-  CostToUpgradeToLevel3: 30000
+  CostToUpgradeToLevel2: 50000 #The cost to upgrade to level 2
+  CostToUpgradeToLevel3: 100000
 # ENCHANTED will enchant the minions item
 Settings:
   SettingsAtLevel1: 3x3x3 #For the Collector minion, 3x3x3 means it will pickup items within a 3x3x3 radius

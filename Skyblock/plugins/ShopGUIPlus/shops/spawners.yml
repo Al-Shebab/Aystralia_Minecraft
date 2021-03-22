@@ -116,17 +116,17 @@ spawners:
         type: item
         item:
           material: SPAWNER
-          mob: IRON_GOLEM
-          name: "&6Iron Golem Spawner"
+          mob: ZOMBIFIED_PIGLIN
+          name: "&6Zombie Pigman Spawner"
           quantity: 1
-        buyPrice: 1000000
+        buyPrice: 250000
         slot: 28
     14:
         type: item
         item:
           material: SPAWNER
-          mob: ZOMBIFIED_PIGLIN
-          name: "&6Zombie Pigman Spawner"
+          mob: IRON_GOLEM
+          name: "&6Iron Golem Spawner"
           quantity: 1
-        buyPrice: 250000
+        buyPrice: 1000000
         slot: 29

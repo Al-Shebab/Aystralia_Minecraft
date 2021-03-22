@@ -8,7 +8,7 @@ Hooks:
   UseFactions: false
   UseFactionsX: false
   UseWildStacker: false
-  UseUltimateStacker: true
+  UseUltimateStacker: false
   useMaxStacker: true
   UseResidence: false
   UsePlotSquared: false

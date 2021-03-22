@@ -8,7 +8,7 @@ Effects:
 Potions:
   SPEED:
     Duration: 60
-    Amplifier: 2
+    Amplifier: 1
 Item:
   Material: 'BEACON'
   Data: 0

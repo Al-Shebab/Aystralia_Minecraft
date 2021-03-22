@@ -67,7 +67,7 @@
     "CHALLENGES_ISLAND_PROTECTION": 0,
     "BREAK_SPAWNERS": 500,
     "FROST_WALKER": 500,
-    "ITEM_PICKUP": 0,
+    "ITEM_PICKUP": 500,
     "DISPENSER": 500,
     "TURTLE_EGGS": 500,
     "CRAFTING": 0,
@@ -88,7 +88,7 @@
     "LEVER": 500,
     "HOPPER": 500,
     "PVP_END": -1,
-    "CONTAINER": 200,
+    "CONTAINER": 400,
     "MONSTER_NATURAL_SPAWN": -1,
     "MINECART": 500,
     "LEAF_DECAY": 500,
@@ -105,7 +105,8 @@
     "NETHER_PORTAL": 500,
     "PLACE_BLOCKS": 500,
     "SHEARING": 500,
-    "ISLAND_FLY_PROTECTION": 500
+    "ISLAND_FLY_PROTECTION": 500,
+    "HIVE": 500
   },
   "history": [],
   "levelHandicap": 0,

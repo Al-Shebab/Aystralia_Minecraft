@@ -2,9 +2,14 @@
   "homeLocations": {},
   "uniqueId": "152e09b4-ba18-4460-8f81-5992dec80c6c",
   "playerName": "Legacy_op70",
-  "resets": {},
+  "resets": {
+    "skyblock": 1
+  },
   "locale": "",
-  "deaths": {},
+  "deaths": {
+    "skyblock": 0
+  },
   "pendingKicks": [],
-  "flagsDisplayMode": "BASIC"
+  "flagsDisplayMode": "BASIC",
+  "metaData": {}
 }
