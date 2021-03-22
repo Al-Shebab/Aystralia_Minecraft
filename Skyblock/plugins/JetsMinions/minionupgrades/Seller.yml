@@ -1,8 +1,8 @@
 MaxLevel: 3
 
 Levels:
-  CostToUpgradeToLevel2: 15000 #The cost to upgrade to level 2
-  CostToUpgradeToLevel3: 30000
+  CostToUpgradeToLevel2: 50000 #The cost to upgrade to level 2
+  CostToUpgradeToLevel3: 100000
 #ENCHANTED
 Settings:
   SettingsAtLevel1: 1.0 #The multiply value, of which the minion sells its items for

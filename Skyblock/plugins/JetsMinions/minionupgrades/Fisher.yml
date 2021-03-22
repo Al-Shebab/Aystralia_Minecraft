@@ -1,8 +1,8 @@
 MaxLevel: 3
 
 Levels:
-  CostToUpgradeToLevel2: 25000 #The cost to upgrade to level 2
-  CostToUpgradeToLevel3: 50000 #The cost to upgrade to level 2
+  CostToUpgradeToLevel2: 50000 #The cost to upgrade to level 2
+  CostToUpgradeToLevel3: 100000 #The cost to upgrade to level 2
 # ENCHANTED will enchant the minions item
 Settings:
   SettingsAtLevel1: 1 #Pretty much, the higher this number the higher chance of catchinga  fish
