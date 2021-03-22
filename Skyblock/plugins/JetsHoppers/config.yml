@@ -83,7 +83,7 @@ Hoppers:
       Lore:
         - "&fPlace this hopper down"
         - "&fto start pulling in items!"
-    Upgradeable: NONE #No more upgrades for this path!
+    Upgradeable: IV
     UpgradeCost: 120000 #Wont be used if its not upgradeable
     SuctionRange: 16x16x16
     MaxConnectionRange: 100

@@ -1,17 +1,5 @@
 {
-  "homeLocations": [
-    [
-      [
-        "skyblock",
-        3.5,
-        131.0,
-        6001.5,
-        270.0,
-        30.0
-      ],
-      1
-    ]
-  ],
+  "homeLocations": {},
   "uniqueId": "bf19ff83-4fc0-4f50-adcb-e95a09c3601f",
   "playerName": "Ducklezz",
   "resets": {
