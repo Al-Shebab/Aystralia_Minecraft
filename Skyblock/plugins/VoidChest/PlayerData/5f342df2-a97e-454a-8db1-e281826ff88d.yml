@@ -1,0 +1,39 @@
+name: Tyler49765
+booster:
+  multiplier: 1.0
+  time: 0
+chests:
+  '0':
+    name: default
+    location:
+      world: skyblock
+      x: -1988
+      y: 121
+      z: 1996
+    money: 5020572.3999999985
+    items-sold: 243038
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1616427525528
+  '1':
+    name: default
+    location:
+      world: skyblock
+      x: -1988
+      y: 121
+      z: 1999
+    money: 5787507.0
+    items-sold: 275519
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1616427525528

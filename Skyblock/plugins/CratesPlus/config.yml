@@ -84,7 +84,7 @@ Crates:
       '6':
         Type: COMMAND
         Item Type: SPAWNER
-        Percentage: 5
+        Percentage: 9
         Commands:
         - wildstacker:stacker give %name% spawner ZOMBIE 1
         Name: '&cZombie &fSpawner &cx1'
@@ -111,7 +111,7 @@ Crates:
       '9':
         Type: COMMAND
         Item Type: SPAWNER
-        Percentage: 5
+        Percentage: 1
         Commands:
         - wildstacker:stacker give %name% spawner IRON_GOLEM 1
         Name: '&6Iron Golem &fSpawner &bx1'
