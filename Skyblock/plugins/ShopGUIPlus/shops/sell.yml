@@ -39,6 +39,20 @@ sell:
         quantity: 1
       sellPrice: 15
       slot: 12
+    3666512322222:
+      type: item
+      item:
+        material: IRON_ORE
+        quantity: 1
+      sellPrice: 2.5
+      slot: 12
+    9954712787222:
+      type: item
+      item:
+        material: GOLD_ORE
+        quantity: 1
+      sellPrice: 1.5
+      slot: 12
     5:
       type: item
       item:
