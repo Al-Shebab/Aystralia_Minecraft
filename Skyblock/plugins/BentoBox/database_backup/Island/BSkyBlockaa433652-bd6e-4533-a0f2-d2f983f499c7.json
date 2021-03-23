@@ -16,10 +16,7 @@
   "gameMode": "BSkyBlock",
   "createdDate": 1616514570897,
   "updatedDate": 1616514570897,
-  "owner": "3a906378-4193-4549-a392-01387b2896b9",
-  "members": {
-    "3a906378-4193-4549-a392-01387b2896b9": 1000
-  },
+  "members": {},
   "spawn": false,
   "purgeProtected": false,
   "flags": {
@@ -106,7 +103,13 @@
     "HURT_MONSTERS": 0,
     "END_PORTAL": 400
   },
-  "history": [],
+  "history": [
+    {
+      "timestamp": 1616515931898,
+      "type": "UNOWNED",
+      "data": {}
+    }
+  ],
   "levelHandicap": 0,
   "spawnPoint": {
     "NORMAL": [

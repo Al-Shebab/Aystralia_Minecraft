@@ -1,6 +1,6 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 8
+last-created-npc-id: 9
 npc:
   '1':
     metadata:
@@ -12,13 +12,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -2.231247
+        bodyYaw: 18.621307
         world: world
         x: '32.5'
         y: '64.0'
         z: '-7.5'
-        yaw: '37.7099'
-        pitch: '0.0'
+        yaw: '58.6213'
+        pitch: '-14.6384'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -79,12 +79,12 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 177.22095
+        bodyYaw: 157.38202
         world: world
         x: '17.5'
         y: '64.0'
         z: '1.5'
-        yaw: '-142.7791'
+        yaw: '-162.618'
         pitch: '0.0'
       spawned: true
       skintrait:
@@ -137,13 +137,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 98.83856
+        bodyYaw: 102.5719
         world: world
         x: '34.5'
         y: '64.0'
         z: '-1.5'
-        yaw: '125.7519'
-        pitch: '0.0'
+        yaw: '132.6364'
+        pitch: '-1.4368'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -195,12 +195,12 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -22.65258
+        bodyYaw: -39.4803
         world: world
         x: '18.5'
         y: '64.0'
         z: '-6.5'
-        yaw: '-62.6526'
+        yaw: '-76.0798'
         pitch: '0.0'
       spawned: true
       skintrait:
@@ -263,12 +263,12 @@ npc:
         updateSkins: false
       type: PLAYER
       location:
-        bodyYaw: -24.210487
+        bodyYaw: 9.71703
         world: world
         x: '48.5'
         y: '65.0'
         z: '-15.5'
-        yaw: '-64.2105'
+        yaw: '-20.283'
         pitch: '0.0'
       lookclose:
         range: '5.0'
@@ -335,13 +335,13 @@ npc:
       spawned: true
       type: PLAYER
       location:
-        bodyYaw: -19.184277
+        bodyYaw: 46.845726
         world: world
         x: '26.5'
         y: '64.0'
         z: '-7.5'
-        yaw: '4.4792'
-        pitch: '-11.5678'
+        yaw: '8.7845'
+        pitch: '0.0'
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
@@ -393,13 +393,13 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNjE3MjE5NTQyNSwKICAicHJvZmlsZUlkIiA6ICIyMzUwMzc5NWZmOGY0YmQyODE4YzBhZDA1OGZkYmNmNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4eHh0ZW50IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q5NGEwMjY4ZWUyZWYyZDY4MjkwNGQxMGRmZDI4YmQ0YWNkNTJhZDQ3ZWNjMmUxZGFmODcyYmIzOGM1N2UzZGUiCiAgICB9CiAgfQp9
         updateSkins: false
       location:
-        bodyYaw: 101.749374
+        bodyYaw: 42.878128
         world: world
         x: '42.5164'
         y: '64.0'
         z: '-5.5243'
-        yaw: '78.403'
-        pitch: '0.0'
+        yaw: '2.8781'
+        pitch: '-42.3955'
       lookclose:
         range: '5.0'
         disablewhilenavigating: true
@@ -413,6 +413,63 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
+      owner:
+        owner: Al_Shebab
+        uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+    traitnames: skintrait,spawned,scoreboardtrait,lookclose,location,commandtrait,inventory,type,owner,mounttrait,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '9':
+    metadata:
+      cached-skin-uuid-name: auction
+      cached-skin-uuid: a47df667-8be9-4755-bf2c-985a1fda964b
+      nameplate-visible: 'false'
+    name: auction
+    uuid: 10040249-390c-4a2b-8303-c51b52b41f35
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        signature: lqSCAtydmlTi1nSSubyVSa9PKpMatE6nunjXhPZRRJ4sn4613ru/Pt3CoCsRcsjo82ZeooHaGz1I71ikzmzVChfA5eTWJaT2fOVB7ZwmkaeIDaiezYTrjnXMRgfRNVz56cKjKaP/I2YEFD/SgbB/7Yr4GG+BtzCYAOGx019pjcBmywwglpSBy7rdz9LUvdr2f21LhlFQLYJCyOtusjpAsZsWO1HmoKBFN/Eyiu6fe085NV4J9pgcNmPTXuDQU1nk6tEVJQ9eJCwOT7yxxrpLOoo64hYqgV1OUCtOC03cJ/mxY9650LQWL1IvPVfKCc7VUuG7Bfyey7TKXhFRYRyqYWiNAQQg5Gzsnn+PcQZHEDRFaniG4j/K+4MhYq7wEgucHyv3K1CqGfLbeVrP6rA2Ghn4/vX6IJyCPBbO5ezMtCZs+YIj00IS2V940jhKPfjjcQqaYTVhNTy4ELntnF88lnQIvv563CwIhyuP3nE9SG3Sk9arAAxejehx+7ZqqQxHP5BvWvecQqFYSlj9f5m63El0TgbRxp/3NrW4XyrEG3S7tvQE62MM91Rpo3fkSPtlxQNEU/3M6KJUnkVuQSvWMhWCkF0H25wohosFhZ3JGqBY/+E6BxrAjOZBpLE5aCEogGbcgZcazxv0UEa84YRnZXM72FrsbaPTATB4qZBu638=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNjUxNjU5MTExOSwKICAicHJvZmlsZUlkIiA6ICJhNDdkZjY2NzhiZTk0NzU1YmYyYzk4NWExZmRhOTY0YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJBdWN0aW9uIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M5NTA0N2ExMjI1ZGRhYmQxYjgxMGFhZjIzNjY5NTY3OGQ0MmIxZmY4NDQ3MWM4ODMxOGMyMDRhNTU3YzdjZCIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      spawned: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        bodyYaw: 64.762634
+        world: world
+        x: '-14.5'
+        y: '64.0'
+        z: '-34.5'
+        yaw: '34.2224'
+        pitch: '-17.1368'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '1':
+            command: zauctionhouse
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      type: PLAYER
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87

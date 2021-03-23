@@ -81,3 +81,21 @@ perks2:
   location: world, 42.500, 66.500, -5.500
   lines:
   - '&b&lPerks Store'
+ah:
+  location: world, -14.500, 66.500, -34.500
+  lines:
+  - '&b&lAuction &f&lHouse'
+auctionh:
+  location: world, 11.500, 66.000, -2.500
+  lines:
+  - '&b&lAuction &f&lHouse'
+  - '&f'
+  - '&fStraight Ahead'
+  - '&for use /ah'
+auctionho:
+  location: world, -17.500, 69.000, -23.500
+  lines:
+  - '&b&lAuction &f&lHouse'
+  - '&f'
+  - '&fBuy and sell your'
+  - '&fitems to the whole server!'

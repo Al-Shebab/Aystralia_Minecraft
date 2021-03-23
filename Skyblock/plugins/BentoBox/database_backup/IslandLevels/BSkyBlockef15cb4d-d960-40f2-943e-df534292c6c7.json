@@ -1,8 +1,8 @@
 {
   "uniqueId": "BSkyBlockef15cb4d-d960-40f2-943e-df534292c6c7",
-  "level": 2167,
+  "level": 2171,
   "initialLevel": 0,
-  "pointsToNextLevel": 29,
+  "pointsToNextLevel": 79,
   "uwCount": {},
   "mdCount": {
     "OAK_DOOR": 6,
@@ -40,7 +40,7 @@
     "OAK_WALL_SIGN": 58,
     "ENCHANTING_TABLE": 1,
     "FURNACE": 36,
-    "GRASS_BLOCK": 1141,
+    "GRASS_BLOCK": 1148,
     "BOOKSHELF": 16,
     "FARMLAND": 65,
     "IRON_ORE": 6,
@@ -66,7 +66,7 @@
     "COARSE_DIRT": 30,
     "MYCELIUM": 30,
     "REDSTONE_WALL_TORCH": 2,
-    "DIRT": 147,
+    "DIRT": 140,
     "OAK_LOG": 139,
     "OBSIDIAN": 58,
     "BEDROCK": 1,

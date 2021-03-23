@@ -1,6 +1,6 @@
 {
   "deleted": false,
-  "uniqueId": "BSkyBlockaa433652-bd6e-4533-a0f2-d2f983f499c7",
+  "uniqueId": "BSkyBlock4df0c738-0df4-471b-9744-b9b82f05dab1",
   "center": [
     "skyblock",
     0.0,
@@ -14,12 +14,13 @@
   "maxEverProtectionRange": 100,
   "world": "skyblock",
   "gameMode": "BSkyBlock",
-  "createdDate": 1616514570897,
-  "updatedDate": 1616514570897,
-  "owner": "3a906378-4193-4549-a392-01387b2896b9",
+  "createdDate": 1616516644396,
+  "updatedDate": 1616516644396,
+  "owner": "c84009a9-6524-4def-97a7-0108bf3df4ad",
   "members": {
-    "3a906378-4193-4549-a392-01387b2896b9": 1000
+    "c84009a9-6524-4def-97a7-0108bf3df4ad": 1000
   },
+  "maxMembers": {},
   "spawn": false,
   "purgeProtected": false,
   "flags": {
@@ -111,10 +112,10 @@
   "spawnPoint": {
     "NORMAL": [
       "skyblock",
-      0.5,
-      125.0,
-      8002.5,
-      0.0,
+      2.5,
+      161.0,
+      8006.5,
+      270.0,
       30.0
     ],
     "NETHER": [
@@ -131,11 +132,11 @@
   "homes": {
     "": [
       "skyblock",
-      0.5,
-      121.0,
-      8000.5,
-      0.0,
-      0.0
+      2.5,
+      161.0,
+      8006.5,
+      270.0,
+      30.0
     ]
   }
 }
