@@ -146,7 +146,7 @@ world-settings:
       sweetberry-modifier: 250
       kelp-modifier: 250
     ticks-per:
-      hopper-transfer: 2
+      hopper-transfer: 8
       hopper-check: 1
     max-tick-time:
       tile: 50

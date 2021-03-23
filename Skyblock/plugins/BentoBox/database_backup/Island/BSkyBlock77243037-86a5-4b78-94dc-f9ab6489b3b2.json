@@ -10,8 +10,8 @@
     0.0
   ],
   "range": 1000,
-  "protectionRange": 100,
-  "maxEverProtectionRange": 100,
+  "protectionRange": 150,
+  "maxEverProtectionRange": 150,
   "world": "skyblock",
   "gameMode": "BSkyBlock",
   "createdDate": 1616296226583,
@@ -133,11 +133,11 @@
   "homes": {
     "": [
       "skyblock",
-      -3999.5,
-      131.0,
-      -5999.5,
-      2.5500004291534424,
-      1.649999976158142
+      -3984.078650524457,
+      132.0,
+      -6008.443041789083,
+      -167.99365234375,
+      21.749874114990234
     ]
   }
 }

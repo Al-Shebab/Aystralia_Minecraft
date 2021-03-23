@@ -10,8 +10,8 @@
     0.0
   ],
   "range": 1000,
-  "protectionRange": 100,
-  "maxEverProtectionRange": 100,
+  "protectionRange": 150,
+  "maxEverProtectionRange": 150,
   "world": "skyblock",
   "gameMode": "BSkyBlock",
   "createdDate": 1615831887597,
@@ -20,7 +20,8 @@
   "members": {
     "a4de17ad-abe0-4fe7-9f1c-f21c18607509": 1000,
     "b7ce396a-aabf-4bf6-bffc-d222f80d5c70": 500,
-    "91fb8d7e-fc20-4404-8220-881b8cafceed": 500
+    "91fb8d7e-fc20-4404-8220-881b8cafceed": 500,
+    "5f342df2-a97e-454a-8db1-e281826ff88d": 500
   },
   "maxMembers": {},
   "spawn": false,
@@ -81,7 +82,7 @@
     "BOAT": 500,
     "POTION_THROWING": 500,
     "BUCKET": 500,
-    "MONSTER_NATURAL_SPAWN": 500,
+    "MONSTER_NATURAL_SPAWN": -1,
     "CONTAINER": 500,
     "COLLECT_LAVA": 500,
     "HOPPER": 500,
@@ -95,7 +96,7 @@
     "JUKEBOX": 500,
     "COMMAND_RANKS": 500,
     "DROPPER": 500,
-    "ANIMAL_NATURAL_SPAWN": 500,
+    "ANIMAL_NATURAL_SPAWN": -1,
     "PLACE_BLOCKS": 500,
     "NETHER_PORTAL": 500,
     "ITEM_FRAME": 500,
@@ -106,7 +107,8 @@
     "FLINT_AND_STEEL": 500,
     "MILKING": 0,
     "PRESSURE_PLATE": 0,
-    "ISLAND_FLY_PROTECTION": 500
+    "ISLAND_FLY_PROTECTION": 900,
+    "HIVE": 500
   },
   "history": [],
   "levelHandicap": 0,
@@ -129,13 +131,16 @@
     ]
   },
   "doNotLoad": false,
-  "cooldowns": {},
+  "cooldowns": {
+    "ANIMAL_NATURAL_SPAWN": 1616495908616,
+    "MONSTER_NATURAL_SPAWN": 1616495912017
+  },
   "metaData": {},
   "homes": {
     "": [
       "skyblock",
       -3999.533751354486,
-      121.0,
+      122.0,
       -1999.6233345916457,
       -7.026568055152893E-4,
       -1.799730658531189

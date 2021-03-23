@@ -7,22 +7,22 @@ Claims:
   - Vote|8
   5f6d615d-453c-4960-bce1-758c27bf7011: []
   6d86b027-cacd-420e-8a8f-786f8048e185:
-  - Vote|24
+  - Vote|28
   69dfdab1-aa5a-42d2-b909-02e95d96f136:
-  - Vote|5
+  - Vote|9
   6690875e-c600-4151-adb0-ab773454713c:
-  - Vote|2
+  - Vote|3
   2f3467d7-112e-45ce-aa33-fcb5dd4a5478: []
   e79fc165-83d6-4139-9a8f-d42bf1c23f87:
-  - Vote|20
+  - Vote|24
   1132a3f9-cf23-42e1-8595-79d07b07844e:
-  - Vote|28
+  - Vote|32
   91fb8d7e-fc20-4404-8220-881b8cafceed:
   - Vote|21
   78203c45-a1c8-4c64-9df5-0ce8f63d265e:
   - Vote|13
   80d03676-0864-4b60-a40c-5729cb8c1c73:
-  - Vote|7
+  - Vote|11
   bf19ff83-4fc0-4f50-adcb-e95a09c3601f: []
   96f82b80-6fed-47b9-b879-53677faa1f4d:
   - Vote|3
@@ -30,3 +30,5 @@ Claims:
   - Vote|8
   7dae338c-90fc-4209-a971-d3b37fcfc92d:
   - Vote|3
+  3a906378-4193-4549-a392-01387b2896b9:
+  - Vote|4

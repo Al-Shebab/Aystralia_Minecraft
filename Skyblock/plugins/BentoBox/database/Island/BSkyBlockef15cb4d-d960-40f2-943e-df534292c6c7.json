@@ -16,10 +16,9 @@
   "gameMode": "BSkyBlock",
   "createdDate": 1615610599323,
   "updatedDate": 1615610599323,
-  "owner": "5f342df2-a97e-454a-8db1-e281826ff88d",
+  "owner": "38e9a66c-5de9-4d18-ae81-627d08f21841",
   "members": {
-    "5f342df2-a97e-454a-8db1-e281826ff88d": 1000,
-    "38e9a66c-5de9-4d18-ae81-627d08f21841": 500
+    "38e9a66c-5de9-4d18-ae81-627d08f21841": 1000
   },
   "maxMembers": {},
   "spawn": false,
@@ -30,7 +29,7 @@
     "TRAPDOOR": 500,
     "ENDER_PEARL": 500,
     "MOUNT_INVENTORY": 500,
-    "ANIMAL_SPAWNERS_SPAWN": 1,
+    "ANIMAL_SPAWNERS_SPAWN": -1,
     "PRESSURE_PLATE": 0,
     "DYE": 500,
     "BUCKET": 500,
@@ -60,7 +59,7 @@
     "FIRE_EXTINGUISH": 500,
     "ARMOR_STAND": 500,
     "TNT_PRIMING": 500,
-    "ANIMAL_NATURAL_SPAWN": 500,
+    "ANIMAL_NATURAL_SPAWN": -1,
     "FURNACE": 500,
     "ITEM_DROP": 0,
     "GATE": 0,
@@ -76,7 +75,7 @@
     "HURT_MONSTERS": 0,
     "END_PORTAL": 500,
     "REDSTONE": 500,
-    "LOCK": 0,
+    "LOCK": 200,
     "BUTTON": 500,
     "TNT_DAMAGE": 500,
     "BREEDING": 500,
@@ -130,19 +129,20 @@
   },
   "doNotLoad": false,
   "cooldowns": {
-    "ANIMAL_SPAWNERS_SPAWN": 1615691009857,
     "MONSTER_SPAWNERS_SPAWN": 1615691013212,
-    "MONSTER_NATURAL_SPAWN": 1615694641609,
-    "FIRE_IGNITE": 1616065362960
+    "FIRE_IGNITE": 1616065362960,
+    "MONSTER_NATURAL_SPAWN": 1616480275293,
+    "ANIMAL_SPAWNERS_SPAWN": 1616502638689,
+    "ANIMAL_NATURAL_SPAWN": 1616502642137
   },
   "homes": {
     "": [
       "skyblock",
-      -2000.5705788301573,
-      122.0,
-      2035.5518573000672,
-      -1.7675848007202148,
-      -3.0910134315490723
+      -2000.4820022517986,
+      121.875,
+      1997.692659903828,
+      52.6971321105957,
+      22.006771087646484
     ]
   }
 }

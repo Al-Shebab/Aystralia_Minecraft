@@ -292,7 +292,7 @@ Purging:
 Sell:
 
   # The interval is being run in seconds. This will only be selected if the path can't be found in the voidchest's file itself.
-  interval: 30
+  interval: 10
 
   # From which plugin should items have their prices picked from?
   # Currently available: VoidChest, ShopGuiPlus, Essentials, CMI, Custom.
