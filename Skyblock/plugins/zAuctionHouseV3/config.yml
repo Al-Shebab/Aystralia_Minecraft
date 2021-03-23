@@ -3,11 +3,7 @@ customInventories:
 
 #Monde d�sactiv�
 disableWorlds:
-  - skyblock
-  - skyblock_nether
-  - skyblock_the_end
-  - world_the_end
-  - world_nether
+  - skyblockn
   
 bannedItems:
   goldenappel:

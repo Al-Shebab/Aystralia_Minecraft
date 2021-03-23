@@ -83,10 +83,4 @@ CustomAlias:
     - cmi dispose
   ah:
     Cmds:
-    - warp ah
-  auctionhouse:
-    Cmds:
-    - warp ah
-  auction:
-    Cmds:
-    - warp ah
+    - warpalicious:warp ah

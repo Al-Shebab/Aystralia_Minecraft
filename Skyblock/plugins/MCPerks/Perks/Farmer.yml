@@ -1,5 +1,5 @@
 Enabled: false
-TimeLasts: -1
+TimeLasts: 1
 CoolDown: 0
 Name: 'Farmer'
 Description: 'Increase the harvests of the world.'

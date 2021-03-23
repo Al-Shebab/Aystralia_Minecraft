@@ -1,9 +1,9 @@
 CheckWorld: 'false'
 OfflineRewards: ''
-LastOnline: '1616517702532'
+LastOnline: '1616519637492'
 PlayerName: Ivid_Lanx
 IncreaseMobDrops_CoolDown: '1616485251951'
 Experation:
-  IncreaseMobDrops: '-1'
+  IncreaseMobDrops: '0'
   IncreaseMoveSpeed: '0'
 IncreaseMoveSpeed_CoolDown: '1616485263853'

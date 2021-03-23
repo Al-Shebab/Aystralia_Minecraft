@@ -1,5 +1,5 @@
 Enabled: false
-TimeLasts: -1
+TimeLasts: 1
 CoolDown: 0
 Name: 'Cure Spells'
 Description: 'Take away all bad spells in the world.'
