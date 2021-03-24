@@ -10,8 +10,8 @@ chests:
       x: -3992
       y: 1
       z: -1970
-    money: 840220.0
-    items-sold: 39600
+    money: 2866512.5
+    items-sold: 136884
     items-purged: 0
     autosell: true
     purge-items: false
@@ -19,7 +19,7 @@ chests:
     chunk-collector: true
     bank: true
     charge:
-      time: 1616593762519
+      time: 1616602192663
   '1':
     name: default
     location:
@@ -27,8 +27,8 @@ chests:
       x: -4005
       y: 1
       z: -1970
-    money: 50325.0
-    items-sold: 10065
+    money: 166465.0
+    items-sold: 33293
     items-purged: 0
     autosell: true
     purge-items: false
@@ -36,4 +36,4 @@ chests:
     chunk-collector: true
     bank: true
     charge:
-      time: 1616593762519
+      time: 1616602192663
