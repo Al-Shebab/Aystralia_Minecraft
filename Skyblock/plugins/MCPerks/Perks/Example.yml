@@ -9,10 +9,10 @@ Limit: 3
 
 # CoolDown to use perk after its been activated for user, in seconds
 # 86400 = 24 hours
-CoolDown: 86400
+CoolDown: 1
 
 # Server wide cooldown
-#GlobalCoolDown: 86400
+#GlobalCoolDown: 1
 
 # Perk display name
 Name: 'Cure Hunger'

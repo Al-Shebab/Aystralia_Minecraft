@@ -1255,6 +1255,12 @@ sell:
         material: IRON_SHOVEL
         quantity: 1
       sellPrice: 5
+    1547256969694203:
+      type: item
+      item:
+        material: IRON_SWORD
+        quantity: 1
+      sellPrice: 5
     15472521224415247523:
       type: item
       item:

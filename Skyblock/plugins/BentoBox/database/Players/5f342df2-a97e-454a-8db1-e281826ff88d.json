@@ -3,13 +3,13 @@
   "uniqueId": "5f342df2-a97e-454a-8db1-e281826ff88d",
   "playerName": "Tyler49765",
   "resets": {
-    "skyblock": 0
+    "skyblock": 1
   },
   "locale": "",
   "deaths": {
-    "skyblock": 14
+    "skyblock": 0
   },
   "pendingKicks": [],
-  "flagsDisplayMode": "BASIC",
+  "flagsDisplayMode": "EXPERT",
   "metaData": {}
 }

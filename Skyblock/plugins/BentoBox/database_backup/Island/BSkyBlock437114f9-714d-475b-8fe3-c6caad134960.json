@@ -16,13 +16,14 @@
   "gameMode": "BSkyBlock",
   "createdDate": 1615992399370,
   "updatedDate": 1615992399370,
-  "owner": "1132a3f9-cf23-42e1-8595-79d07b07844e",
+  "owner": "e79fc165-83d6-4139-9a8f-d42bf1c23f87",
   "members": {
-    "1132a3f9-cf23-42e1-8595-79d07b07844e": 1000,
     "5e9388ba-0573-444c-a761-b6d9174042af": 500,
     "b7ce396a-aabf-4bf6-bffc-d222f80d5c70": 400,
     "aed14379-c0c9-4b85-b6d0-031d46f30b67": 500,
-    "e79fc165-83d6-4139-9a8f-d42bf1c23f87": 500
+    "e79fc165-83d6-4139-9a8f-d42bf1c23f87": 1000,
+    "3a906378-4193-4549-a392-01387b2896b9": 500,
+    "1132a3f9-cf23-42e1-8595-79d07b07844e": 500
   },
   "maxMembers": {},
   "spawn": false,
@@ -37,7 +38,7 @@
     "BREEDING": 400,
     "PLACE_BLOCKS": 400,
     "BEACON": 400,
-    "LOCK": 0,
+    "LOCK": 500,
     "FURNACE": 400,
     "FLINT_AND_STEEL": 500,
     "HIVE": 500,

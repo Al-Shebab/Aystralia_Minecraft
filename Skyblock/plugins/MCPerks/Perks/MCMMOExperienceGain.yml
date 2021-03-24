@@ -1,6 +1,6 @@
 Enabled: false
 TimeLasts: 60
-CoolDown: 86400
+CoolDown: 1
 Name: 'MCMMO XP Increase'
 Description: 'Give yourself increase MCMMO XP for %TimeLasts% seconds.'
 Effects:

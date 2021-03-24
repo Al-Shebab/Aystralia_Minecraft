@@ -1,5 +1,5 @@
 Enabled: false
-CoolDown: 86400
+CoolDown: 1
 TimeLasts: 60
 Name: 'Fly'
 Description: 'Allow flight.'

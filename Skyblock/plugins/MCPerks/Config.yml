@@ -69,10 +69,10 @@ PerkSystemType: 'PLAYER'
 DisableOnClick: true
 
 # Deactivate perk on logout
-DeactivateOnLogout: false
+DeactivateOnLogout: true
 
 # Enable if certain modifiers don't get removed
-ForceClearModifiers: false
+ForceClearModifiers: true
 
 # List of disabled worlds on a global level
 # Per perk options available

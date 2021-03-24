@@ -1,6 +1,6 @@
-Enabled: true
-TimeLasts: -1
-CoolDown: 86400
+Enabled: false
+TimeLasts: 1
+CoolDown: 1
 Name: 'Bonemeal Aura'
 Description: 'Cast a bonemeal aura effect around you'
 Effects:

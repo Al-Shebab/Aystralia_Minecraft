@@ -2,4 +2,38 @@ name: Saalty_Huge_Dong
 booster:
   multiplier: 1.0
   time: 0
-chests: {}
+chests:
+  '0':
+    name: default
+    location:
+      world: skyblock
+      x: -3992
+      y: 1
+      z: -1970
+    money: 2866512.5
+    items-sold: 136884
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1616602192663
+  '1':
+    name: default
+    location:
+      world: skyblock
+      x: -4005
+      y: 1
+      z: -1970
+    money: 166465.0
+    items-sold: 33293
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1616602192663

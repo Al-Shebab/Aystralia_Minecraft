@@ -1,5 +1,5 @@
-Enabled: true
-TimeLasts: -1
+Enabled: false
+TimeLasts: 1
 CoolDown: 0
 Name: 'Double Experience'
 Description: 'Double the experience that drop from mobs.'
