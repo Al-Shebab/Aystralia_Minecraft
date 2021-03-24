@@ -1,8 +1,8 @@
 {
   "uniqueId": "BSkyBlock77243037-86a5-4b78-94dc-f9ab6489b3b2",
-  "level": 2856,
+  "level": 2857,
   "initialLevel": 0,
-  "pointsToNextLevel": 49,
+  "pointsToNextLevel": 99,
   "uwCount": {},
   "mdCount": {
     "FARMLAND": 20,
@@ -18,7 +18,7 @@
     "CHEST": 30,
     "DIAMOND_ORE": 2,
     "HORN_CORAL_BLOCK": 1,
-    "DIRT": 59,
+    "DIRT": 58,
     "STONE_PRESSURE_PLATE": 6,
     "WATER": 150,
     "SPRUCE_WALL_SIGN": 6,
@@ -29,7 +29,7 @@
     "HOPPER": 312,
     "SPAWNER": 8,
     "COBBLESTONE": 2153,
-    "GRASS_BLOCK": 71,
+    "GRASS_BLOCK": 72,
     "STONE": 762,
     "PLAYER_HEAD": 4,
     "OAK_WALL_SIGN": 300,
