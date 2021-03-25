@@ -219,10 +219,10 @@ world:
     POTION_THROWING: 400
   # These are the default settings for new islands
   default-island-settings:
-    PVP_END: false
-    PVP_NETHER: false
+    PVP_END: true
+    PVP_NETHER: true
     FIRE_SPREAD: true
-    PVP_OVERWORLD: false
+    PVP_OVERWORLD: true
   # These settings/flags are hidden from users
   # Ops can toggle hiding in-game using SHIFT-LEFT-CLICK on flags in settings
   # Added since 1.4.1.
