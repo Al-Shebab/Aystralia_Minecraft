@@ -52,8 +52,8 @@ rewards:
     commands:
     - money give %player% 2500
     - cratesplus key %player% vote 1
-    - tppos /tppos 55.5 66.0 -8.5 world 23 90 %player%
     - cmi tfly %player% +300
+    - tppos 55.5 66.0 -8.5 world 23 90 %player%
     player-message: "&bThanks for voting. &fTo use your key go to &b/warp crates"
     broadcast-message: "&9&l%player% &fhas voted for us on &b&l%service%. &fThank you!"
 
@@ -96,6 +96,7 @@ vote-command:
     &b- &fhttps://bit.ly/3bPU8Er
     &b- &fhttps://bit.ly/31c9tdJ
     &b- &fhttps://bit.ly/399wQsw
+    &b- &fhttps://bit.ly/3vV7OXU
 
 # Vote reminder.
 vote-reminder:

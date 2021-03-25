@@ -14,7 +14,7 @@ use-display-name-in-quit-message: false
 verbose: false
 config-version: 20
 settings:
-  max-joins-per-tick: 3
+  max-joins-per-tick: 300
   use-alternative-luck-formula: false
   fix-entity-position-desync: true
   load-permissions-yml-before-plugins: true

@@ -1,0 +1,28 @@
+{
+  "uniqueId": "BSkyBlock7d82bb24-04c9-4ab3-a3ca-6a638443a43e",
+  "level": 122,
+  "initialLevel": 0,
+  "pointsToNextLevel": 71,
+  "uwCount": {},
+  "mdCount": {
+    "AIR": 10239641,
+    "COAL_ORE": 11,
+    "LAVA": 2,
+    "OAK_LEAVES": 14,
+    "FURNACE": 1,
+    "CHEST": 2,
+    "DIAMOND_ORE": 2,
+    "DIRT": 45,
+    "WATER": 9,
+    "IRON_ORE": 12,
+    "CRAFTING_TABLE": 1,
+    "SAND": 7,
+    "HOPPER": 2,
+    "BEDROCK": 1,
+    "COBBLESTONE_SLAB": 2,
+    "STONE": 197,
+    "GRASS_BLOCK": 45,
+    "COBBLESTONE": 2,
+    "GOLD_ORE": 4
+  }
+}

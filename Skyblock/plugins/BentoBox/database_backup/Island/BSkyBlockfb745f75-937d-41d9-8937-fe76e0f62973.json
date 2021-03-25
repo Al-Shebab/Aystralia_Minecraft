@@ -133,7 +133,8 @@
   "doNotLoad": false,
   "cooldowns": {
     "ANIMAL_NATURAL_SPAWN": 1616495908616,
-    "MONSTER_NATURAL_SPAWN": 1616540564244
+    "MONSTER_NATURAL_SPAWN": 1616540564244,
+    "PVP_OVERWORLD": 1616614946100
   },
   "metaData": {},
   "homes": {

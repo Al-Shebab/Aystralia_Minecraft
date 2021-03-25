@@ -140,19 +140,13 @@ Crates:
         Type: ITEM
         Item Type: TUBE_CORAL_BLOCK
         Name: '&b&l+100 Island Level'
-        Percentage: 5
+        Percentage: 15
         Item Data: 0`
         Amount: 1
       '13':
         Type: ITEM
         Item Type: HORN_CORAL_BLOCK
         Name: '&b&l+250 Island Level'
-        Percentage: 10
-        Item Data: 0`
-        Amount: 1
-      '14':
-        Type: ITEM
-        Item Type: DIRT
         Percentage: 5
         Item Data: 0`
         Amount: 1
