@@ -1,0 +1,8 @@
+Allowed: true
+MaxLevel: 3
+SlotCost: 2
+Color: '%WHITE%'
+EnchantCost: 15
+Enchantable: true
+Recipe:
+  Enabled: false

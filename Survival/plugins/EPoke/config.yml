@@ -1,5 +1,5 @@
 Prefix:
-  prefix: "&7[&bEPoke&7]"
+  prefix: "&7[&bAystralia Network&7]"
 
 
 Consolelog:
@@ -55,16 +55,6 @@ Poke:
 #https://www.spigotmc.org/wiki/cc-sounds-list/  
   
 
-  
-#/EPoke without permission.  
-Credit:
-  line1: "&c------ &a+ &c------"
-  line2: "&aEPoke by EivindOE!"
-  line3: "&aDownload the plugin here:"
-  line4: "&6https://www.spigotmc.org/resources/epoke.89235/"
-  line5: "&c------ &a+ &c------"
-
-  
 #/EPoke with permission. (This is a help message)
 Help:
   help1: "&c------ &4Admin &c------"
