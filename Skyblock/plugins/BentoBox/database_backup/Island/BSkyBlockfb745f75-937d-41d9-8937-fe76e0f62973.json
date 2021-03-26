@@ -39,7 +39,7 @@
     "BREEDING": 500,
     "ITEM_PICKUP": 0,
     "MONSTER_SPAWNERS_SPAWN": 500,
-    "LOCK": 500,
+    "LOCK": 0,
     "COLLECT_WATER": 500,
     "TURTLE_EGGS": 500,
     "FIRE_EXTINGUISH": 500,
@@ -133,8 +133,7 @@
   "doNotLoad": false,
   "cooldowns": {
     "ANIMAL_NATURAL_SPAWN": 1616495908616,
-    "MONSTER_NATURAL_SPAWN": 1616540564244,
-    "PVP_OVERWORLD": 1616614946100
+    "MONSTER_NATURAL_SPAWN": 1616540564244
   },
   "metaData": {},
   "homes": {

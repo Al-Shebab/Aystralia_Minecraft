@@ -459,7 +459,7 @@ spawners:
   # How many blocks from the spawner should be checked for other spawners to stack into?
   # EntityType list: https://bg-software.com/entities/
   merge-radius:
-    all: 1
+    all: 0
 
   # Custom hologram for the spawners.
   # Holograms will be displayed only if one of the following plugins is enabled: HolographicDisplay, Holograms, Arconix

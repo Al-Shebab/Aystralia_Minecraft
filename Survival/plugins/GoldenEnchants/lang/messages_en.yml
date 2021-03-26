@@ -1,0 +1,16 @@
+Command:
+  Enchant:
+    Usage: <enchant> <level>
+    Desc: Enchants the item in your hand.
+    Done: '&aSuccessfully enchanted!'
+  Book:
+    Usage: <player> <enchant> <level>
+    Desc: Gives custom enchanted book.
+    Done: '&fGiven &b%enchant%&f enchanted book to &b%player%&f.'
+  TierBook:
+    Usage: <player> <tier> <level>
+    Desc: Gives an enchanted book.
+    Error: '&cInvalid tier!'
+    Done: '&fGiven &b%enchant%&f enchanted book to &b%player%&f.'
+Error:
+  NoEnchant: '&cNo such enchant.'

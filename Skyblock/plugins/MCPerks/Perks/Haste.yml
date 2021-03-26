@@ -1,14 +1,13 @@
 Enabled: false
-TimeLasts: 1
-CoolDown: 0
-Name: '&bHaste II'
-Description: '&fPermanant Haste II'
+CoolDown: 86400
+Name: 'Haste'
+Description: 'Gives a mine speed increase.'
 Effects:
 - Potions
 Potions:
   FAST_DIGGING:
-    Duration: 1000000
-    Amplifier: 1
+    Duration: 60
+    Amplifier: 2
 Item:
   Material: 'BEACON'
   Data: 0

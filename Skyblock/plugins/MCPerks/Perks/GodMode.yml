@@ -1,5 +1,5 @@
 Enabled: false
-CoolDown: 1
+CoolDown: 86400
 TimeLasts: 60
 Name: 'God'
 Description: 'Give a godly effect'

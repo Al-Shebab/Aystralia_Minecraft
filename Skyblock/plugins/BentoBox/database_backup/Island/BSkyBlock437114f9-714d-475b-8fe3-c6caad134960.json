@@ -10,7 +10,7 @@
     0.0
   ],
   "range": 1000,
-  "protectionRange": 100,
+  "protectionRange": 275,
   "maxEverProtectionRange": 500,
   "world": "skyblock",
   "gameMode": "BSkyBlock",
@@ -38,7 +38,7 @@
     "BREEDING": 400,
     "PLACE_BLOCKS": 400,
     "BEACON": 400,
-    "LOCK": 500,
+    "LOCK": 0,
     "FURNACE": 400,
     "FLINT_AND_STEEL": 500,
     "HIVE": 500,

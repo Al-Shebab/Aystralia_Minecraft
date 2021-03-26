@@ -7,46 +7,41 @@
 # Note, item use requires the cmdi.item.<name> permission. I.e. to use the fly items you'll have to give the player cmdi.item.fly
 
 items:
-  fly:
+  islandfly:
     item:
       type: FEATHER
-      name: "&a&lFlight token"
-      lore: ["&1Click for 10 seconds of flight!", "&kRandom second line"]
+      name: "&b&lIsland &f&lFly"
+      lore: ["&fAbility to fly on any island", "&7Activate using &b/is fly", "&f", "&bRedeemable & Permanant"]
       glow: true
     consumed: true
-    cooldown: 20
+    cooldown: 1
     actions:
-      - { action: COMMAND, by: CONSOLE, command: "fly {player} on" }
-      - { action: MESSAGE, to: PLAYER, message: "&aFlight has been enabled!" }
-      - { action: REPEAT, from: 9, to: 1, increment: -1, delay: 20, period: 20, actions: [{ action: MESSAGE, to: PLAYER, message: "&a{i}s to go" }]}
-      - { action: WAIT, duration: 200, actions: [
-          { action: COMMAND, by: CONSOLE, command: "fly {player} off" },
-          { action: MESSAGE, to: PLAYER, message: "&cFlight has been disabled!" }
-        ]}
-  jumper: # This item demonstrates the use of a tool + damage value
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set island.fly true" }
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set island.flybypass true" }
+      - { action: COMMAND, by: PLAYER, command: "is fly" }
+      - { action: MESSAGE, to: PLAYER, message: "&b&lPerks &8> &fYou have redeemed &bPermanant Island Fly!" }
+  personaltrader: # This item demonstrates the use of a tool + damage value
     item:
-      type: DIAMOND_PICKAXE
-      name: "&aJumper"
-      lore: ["&1Click for some vertical displacement ..."]
+      type: PAPER
+      name: "&b&lPersonal &f&lTrader"
+      lore: ["&7Sell items without going", "&7to the market all the time.", "&7using &b/sellgui", "&f", "&bRedeemable & Permanant"]
       glow: true
-      unbreakable: true
-      damage: 50
     consumed: true
-    cooldown: 20
+    cooldown: 1
     actions:
-      - { action: COMMAND, by: CONSOLE, command: "execute as {player} run tp ~ ~10 ~"}
-      - { action: MESSAGE, to: PLAYER, message: "&aWeeee ... ouch!" }
-  helpstick:
+      - { action: COMMAND, by: CONSOLE, command: "rg addmember -w skyblock __global__ {player}" }
+      - { action: MESSAGE, to: PLAYER, message: "&b&lPerks &8> &fYou have redeemed &bPersonal Trader!" }
+  tier5hopper:
     item:
-      type: STICK
-      name: "&a&lHelp Stick"
-      lore: ["&1Click to send a help request to moderators!"]
+      type: PAPER
+      name: "&b&lHopper &f&l[&b&lLevel V&f&l]"
+      lore: ["&7The highest tier", "&7to the market all the time.", "&7using &b/sellgui", "&f", "&bRedeemable & Permanant"]
       glow: true
-    consumed: false
-    cooldown: 60
+    consumed: true
+    cooldown: 1
     actions:
-      - { action: MESSAGE, to: PERMISSION, perm: group.moderator, message: "&6{player} &arequested help!" }
-      - { action: MESSAGE, to: PLAYER, message: "&aModerators have been notified!" }
+      - { action: COMMAND, by: CONSOLE, command: "rg addmember -w skyblock __global__ {player}" }
+      - { action: MESSAGE, to: PLAYER, message: "&b&lPerks &8> &fYou have redeemed &bPersonal Trader!" }
   xpparty:
     item:
       type: EXPERIENCE_BOTTLE

@@ -1,6 +1,6 @@
 Enabled: false
-TimeLasts: 1
-CoolDown: 0
+TimeLasts: 60
+CoolDown: 86400
 Name: 'Fire Walking Effect'
 Description: 'Give yourself fire immunity for %TimeLasts% seconds.'
 Effects:

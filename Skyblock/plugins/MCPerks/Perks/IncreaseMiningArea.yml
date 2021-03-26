@@ -1,6 +1,6 @@
 Enabled: false
-TimeLasts: 1
-CoolDown: 0
+TimeLasts: 60
+CoolDown: 86400
 Name: '3x3 Mining'
 Description: 'Increase mining area'
 Effects:

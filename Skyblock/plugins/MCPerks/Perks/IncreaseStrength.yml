@@ -1,6 +1,6 @@
 Enabled: false
-TimeLasts: 1
-CoolDown: 0
+CoolDown: 86400
+TimeLasts: 60
 Name: 'Increase strength'
 Description: 'Increase strength'
 Effects:
