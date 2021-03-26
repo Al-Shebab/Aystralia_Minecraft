@@ -10,8 +10,8 @@ chests:
       x: -2112
       y: 50
       z: -7456
-    money: 5622.65
-    items-sold: 2817
+    money: 6810.65
+    items-sold: 3411
     items-purged: 11
     autosell: true
     purge-items: true
@@ -19,7 +19,7 @@ chests:
     chunk-collector: true
     bank: true
     charge:
-      time: 1616737753945
+      time: 1616738403957
   '1':
     name: default
     location:
@@ -27,8 +27,8 @@ chests:
       x: -2110
       y: 50
       z: -7452
-    money: 2353.4500000000003
-    items-sold: 1175
+    money: 3101.4500000000003
+    items-sold: 1549
     items-purged: 0
     autosell: true
     purge-items: true
@@ -36,7 +36,7 @@ chests:
     chunk-collector: true
     bank: true
     charge:
-      time: 1616737753945
+      time: 1616738403957
   '2':
     name: default
     location:
@@ -44,30 +44,47 @@ chests:
       x: -2107
       y: 51
       z: -7453
-    money: 525.0
-    items-sold: 210
-    items-purged: 18
+    money: 2012.2
+    items-sold: 545
+    items-purged: 26
     autosell: true
     purge-items: true
     hologram: true
     chunk-collector: true
     bank: true
     charge:
-      time: 1616737753945
+      time: 1616738403957
   '3':
     name: default
     location:
       world: world
-      x: -2107
-      y: 51
-      z: -7455
-    money: 54.0
-    items-sold: 27
-    items-purged: 0
+      x: -2106
+      y: 50
+      z: -7456
+    money: 2409.5
+    items-sold: 1208
+    items-purged: 40
     autosell: true
-    purge-items: false
+    purge-items: true
     hologram: true
     chunk-collector: true
     bank: true
     charge:
-      time: 1616737753945
+      time: 1616738403957
+  '4':
+    name: default
+    location:
+      world: world
+      x: -2107
+      y: 50
+      z: -7455
+    money: 1712.5
+    items-sold: 852
+    items-purged: 50
+    autosell: true
+    purge-items: true
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1616738403957
