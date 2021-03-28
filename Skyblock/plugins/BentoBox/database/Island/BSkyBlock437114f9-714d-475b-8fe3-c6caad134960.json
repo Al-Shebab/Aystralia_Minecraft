@@ -10,7 +10,7 @@
     0.0
   ],
   "range": 1000,
-  "protectionRange": 275,
+  "protectionRange": 400,
   "maxEverProtectionRange": 500,
   "world": "skyblock",
   "gameMode": "BSkyBlock",
@@ -18,12 +18,13 @@
   "updatedDate": 1615992399370,
   "owner": "e79fc165-83d6-4139-9a8f-d42bf1c23f87",
   "members": {
-    "5e9388ba-0573-444c-a761-b6d9174042af": 500,
+    "5e9388ba-0573-444c-a761-b6d9174042af": 900,
     "b7ce396a-aabf-4bf6-bffc-d222f80d5c70": 400,
-    "aed14379-c0c9-4b85-b6d0-031d46f30b67": 500,
+    "aed14379-c0c9-4b85-b6d0-031d46f30b67": 900,
     "e79fc165-83d6-4139-9a8f-d42bf1c23f87": 1000,
-    "3a906378-4193-4549-a392-01387b2896b9": 500,
-    "1132a3f9-cf23-42e1-8595-79d07b07844e": 500
+    "3a906378-4193-4549-a392-01387b2896b9": 900,
+    "1132a3f9-cf23-42e1-8595-79d07b07844e": 900,
+    "80d03676-0864-4b60-a40c-5729cb8c1c73": 900
   },
   "maxMembers": {},
   "spawn": false,
@@ -38,7 +39,7 @@
     "BREEDING": 400,
     "PLACE_BLOCKS": 400,
     "BEACON": 400,
-    "LOCK": 500,
+    "LOCK": 0,
     "FURNACE": 400,
     "FLINT_AND_STEEL": 500,
     "HIVE": 500,

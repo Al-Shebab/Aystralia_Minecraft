@@ -10,11 +10,11 @@ title: 'Spawner Information'
 
 # The pattern of the menu.
 pattern:
-  - '@ # & $ $ $ $ $ $'
-  - '# & $ $ $ $ $ $ $'
-  - '& $ % $ ^ $ ! $ &'
-  - '$ $ $ $ $ $ $ & #'
-  - '$ $ $ $ $ $ & # @'
+  - '@ @ @ @ @ @ @ @ @'
+  - '@ @ @ @ @ @ @ @ @'
+  - '@ @ @ @ % @ @ @ @'
+  - '@ @ @ @ @ @ @ @ @'
+  - '@ @ @ @ @ @ @ @ @'
 
 # The slots of the amounts menu.
 amounts-menu: '^'
@@ -27,31 +27,19 @@ upgrade-menu: '!'
 items:
   '@':
     type: BLACK_STAINED_GLASS_PANE
-    name: '&f'
-  '#':
-    type: YELLOW_STAINED_GLASS_PANE
-    name: '&f'
-  '&':
-    type: ORANGE_STAINED_GLASS_PANE
-    name: '&f'
+    name: '&b'
   '%':
     type: BOOK
-    name: '&eStatistics'
+    name: '&bStatistics'
     lore:
-      - '&7Time until Spawn&e: &f%ticks-left%s'
+      - '&fTime until Spawn&b: &b%ticks-left%s'
       - '&c%failure-reason%'
-      - '&7 '
-      - '&7Spawn Delay Range&e: &f%min-spawn-delay%-%max-spawn-delay%'
-      - '&7Spawn Count&e: &f%spawn-count%'
-      - '&7Max Nearby Entities&e: &f%max-nearby-entities%'
-      - '&7Required Player Range&e: &f%required-player-range%'
-      - '&7Spawn Range&e: &f%spawn-range%'
-  '^':
-    type: EMERALD
-    name: '&eAmounts Menu'
-  '!':
-    type: GOLD_INGOT
-    name: '&eUpgrades Menu'
+      - '&f '
+      - '&fSpawn Delay Range&b: &b%min-spawn-delay%-%max-spawn-delay%'
+      - '&fSpawn Count&b: &b%spawn-count%'
+      - '&fMax Nearby Entities&b: &b%max-nearby-entities%'
+      - '&fRequired Player Range&b: &b%required-player-range%'
+      - '&fSpawn Range&b: &b%spawn-range%'
 
 # Sounds for items
 sounds:

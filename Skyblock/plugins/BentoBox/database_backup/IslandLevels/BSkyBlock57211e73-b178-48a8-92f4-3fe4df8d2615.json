@@ -2,7 +2,7 @@
   "uniqueId": "BSkyBlock57211e73-b178-48a8-92f4-3fe4df8d2615",
   "level": 3188,
   "initialLevel": 3,
-  "pointsToNextLevel": 28,
+  "pointsToNextLevel": 44,
   "uwCount": {},
   "mdCount": {
     "NOTE_BLOCK": 1,
@@ -24,13 +24,13 @@
     "OAK_TRAPDOOR": 16,
     "OAK_WALL_SIGN": 58,
     "COBBLESTONE": 830,
-    "COAL_ORE": 1,
     "DIAMOND_BLOCK": 9,
     "CHIPPED_ANVIL": 1,
     "WALL_TORCH": 9,
     "CHEST": 269,
     "TORCH": 165,
     "MAGENTA_WALL_BANNER": 4,
+    "LAPIS_ORE": 1,
     "IRON_BLOCK": 59,
     "PISTON": 10,
     "VINE": 12,
@@ -45,7 +45,7 @@
     "OAK_PRESSURE_PLATE": 10,
     "LEVER": 1,
     "CHISELED_STONE_BRICKS": 5,
-    "STONE": 5539,
+    "STONE": 5541,
     "REPEATER": 10,
     "SPAWNER": 15,
     "WITHER_SKELETON_WALL_SKULL": 1,
@@ -73,7 +73,6 @@
     "FURNACE": 2,
     "STONECUTTER": 1,
     "OAK_FENCE": 1,
-    "LIGHT_BLUE_SHULKER_BOX": 4,
-    "EMERALD_ORE": 2
+    "LIGHT_BLUE_SHULKER_BOX": 4
   }
 }

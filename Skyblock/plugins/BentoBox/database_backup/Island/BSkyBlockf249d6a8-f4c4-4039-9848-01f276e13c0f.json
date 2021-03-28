@@ -16,10 +16,7 @@
   "gameMode": "BSkyBlock",
   "createdDate": 1615841250152,
   "updatedDate": 1615841250152,
-  "owner": "80d03676-0864-4b60-a40c-5729cb8c1c73",
-  "members": {
-    "80d03676-0864-4b60-a40c-5729cb8c1c73": 1000
-  },
+  "members": {},
   "maxMembers": {},
   "spawn": false,
   "purgeProtected": false,
@@ -107,7 +104,13 @@
     "ISLAND_FLY_PROTECTION": 500,
     "HIVE": 500
   },
-  "history": [],
+  "history": [
+    {
+      "timestamp": 1616941184002,
+      "type": "UNOWNED",
+      "data": {}
+    }
+  ],
   "levelHandicap": 0,
   "spawnPoint": {
     "NORMAL": [

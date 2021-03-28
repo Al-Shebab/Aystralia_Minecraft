@@ -2,7 +2,7 @@
   "uniqueId": "BSkyBlockf249d6a8-f4c4-4039-9848-01f276e13c0f",
   "level": 185,
   "initialLevel": 75,
-  "pointsToNextLevel": 97,
+  "pointsToNextLevel": 87,
   "uwCount": {},
   "mdCount": {
     "CRAFTING_TABLE": 3,
@@ -13,7 +13,7 @@
     "STONE": 20,
     "NETHER_PORTAL": 9,
     "SPAWNER": 2,
-    "AIR": 10237842,
+    "AIR": 10237841,
     "OBSIDIAN": 12,
     "SEA_LANTERN": 9,
     "LAVA": 12,
@@ -24,7 +24,7 @@
     "WATER": 411,
     "CARROTS": 13,
     "GRASS_BLOCK": 42,
-    "COBBLESTONE": 268,
+    "COBBLESTONE": 267,
     "OAK_WALL_SIGN": 9,
     "WHEAT": 14,
     "FARMLAND": 40,
@@ -34,9 +34,11 @@
     "WALL_TORCH": 7,
     "CHEST": 15,
     "TORCH": 34,
+    "LAPIS_ORE": 1,
     "FURNACE": 2,
     "OAK_SLAB": 743,
     "SUGAR_CANE": 30,
-    "PRISMARINE": 68
+    "PRISMARINE": 68,
+    "FIRE": 1
   }
 }

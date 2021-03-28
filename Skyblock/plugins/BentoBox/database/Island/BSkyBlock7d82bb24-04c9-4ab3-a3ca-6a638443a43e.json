@@ -59,7 +59,7 @@
     "BUCKET": 400,
     "MILKING": 400,
     "PRESSURE_PLATE": 200,
-    "LOCK": 500,
+    "LOCK": 0,
     "BREAK_BLOCKS": 400,
     "POTION_THROWING": 400,
     "MOUNT_INVENTORY": 400,

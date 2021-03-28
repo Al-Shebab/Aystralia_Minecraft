@@ -217,7 +217,12 @@ entities:
   # Make sure you follow the "ENTITY-TYPE" format.
   # You can use 'all' as a global limit (all: 20 will set all entities to must have at least 20 entities around before stacking)
   # If you don't want any limits, you can set a random type.
-  minimum-required: []
+  minimum-required:
+    COW: 10
+    SHEEP: 10
+    CHICKEN: 10
+    PIG: 10
+    VILLAGER: 100
 
   # A list of worlds entities won't get stacked inside them (case-sensitive)
   disabled-worlds:
@@ -333,13 +338,10 @@ entities:
   nerfed-entities:
     # A list of entities that will be nerfed.
     # If you want all entities to be nerfed, set this to [].
-    whitelist: []
+    whitelist:
+    - IRON_GOLEM
     # A list of entities that won't be nerfed.
-    blacklist:
-    - ZOMBIE
-    - SKELETON
-    - PIG_ZOMBIE
-    - ENDERMAN
+    blacklist: []
     # A list of worlds that entities can be nerfed in.
     # If you want entities to be nerfed inside all worlds, set this to [].
     worlds: []
@@ -485,7 +487,7 @@ spawners:
   # You can use 'all' as a global limit (all: 20 will set all spawners to be limited to 20 per stack)
   # If you don't want any limits, you can set a random type.
   limits:
-    all: 100
+    all1241: 100
 
   # A list of worlds spawners won't get stacked inside them (case-sensitive)
   disabled-worlds:
