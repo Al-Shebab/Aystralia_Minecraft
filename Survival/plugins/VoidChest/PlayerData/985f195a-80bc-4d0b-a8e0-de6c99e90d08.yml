@@ -1,0 +1,22 @@
+name: zDark_Cloudz
+booster:
+  multiplier: 1.0
+  time: 0
+chests:
+  '0':
+    name: default
+    location:
+      world: world
+      x: 5717
+      y: 137
+      z: -5369
+    money: 393561.0
+    items-sold: 49153
+    items-purged: 0
+    autosell: true
+    purge-items: true
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1616929728154

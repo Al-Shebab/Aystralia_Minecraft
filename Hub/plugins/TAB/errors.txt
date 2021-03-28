@@ -46,3 +46,4 @@
 22.03.2021 - 16:06:34 - [TAB v2.8.10] Group "trusted" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "trusted" into group-sorting-priority-list in config.yml.
 24.03.2021 - 13:01:27 - [TAB v2.8.10] Group "administator" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "administator" into group-sorting-priority-list in config.yml.
 24.03.2021 - 22:47:51 - [TAB v2.8.10] Group "trusted" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "trusted" into group-sorting-priority-list in config.yml.
+26.03.2021 - 14:21:08 - [TAB v2.8.10] Group "administator" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "administator" into group-sorting-priority-list in config.yml.

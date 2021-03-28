@@ -1,14 +1,13 @@
 Enabled: false
-TimeLasts: 1
-CoolDown: 0
-Name: '&fGlow'
-Description: 'Glow in the dark'
+CoolDown: 86400
+Name: 'Invisibility'
+Description: 'Turn invisible.'
 Effects:
 - Potions
 Potions:
-  GLOWING:
-    Duration: 10000000
-    Amplifier: 1
+  INVISIBILITY:
+    Duration: 60
+    Amplifier: 2
 Item:
-  Material: 'TORCH'
+  Material: 'BEACON'
   Data: 0

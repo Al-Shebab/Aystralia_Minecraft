@@ -1152,42 +1152,42 @@ EntityList:
 EnchantList:
   Fire protection: Огнеупорность
   Sharpness: Острота
-  Flame: Горящая стрела
   Unknown: Unknown
-  Aqua affinity: Родство с водой
   Punch: Отбрасывание
   Loyalty: Верность
-  Depth strider: Подводная ходьба
-  Vanishing curse: Vanishing curse
   Unbreaking: Прочность
-  Knockback: Отдача
   Luck of the sea: Морская удача
   Binding curse: Binding curse
   Fortune: Удача
-  Protection: Защита
   Efficiency: Эффективность
-  Mending: Починка
   Frost walker: Ходьба по воде
-  Lure: Приманка
-  Looting: Добыча
-  Piercing: Пронзающая стрела
-  Blast protection: Взрывоустойчивость
   Smite: Небесная кара
   Multishot: Тройной выстрел
   Fire aspect: Заговор огня
   Channeling: Громовержец
-  Sweeping: Разящий клинок
   Thorns: Шипы
   Bane of arthropods: Бич членистоногих
-  Respiration: Подводное дыхание
-  Riptide: Тягун
   Silk touch: Шёлковое касание
   Quick charge: Быстрая перезарядка
   Projectile protection: Защита от снарядов
   Impaling: Пронзатель
-  Feather falling: Невесомость
   Power: Сила
   Infinity: Бессконечность
+  Flame: Горящая стрела
+  Aqua affinity: Родство с водой
+  Depth strider: Подводная ходьба
+  Vanishing curse: Vanishing curse
+  Knockback: Отдача
+  Protection: Защита
+  Mending: Починка
+  Lure: Приманка
+  Looting: Добыча
+  Piercing: Пронзающая стрела
+  Blast protection: Взрывоустойчивость
+  Sweeping: Разящий клинок
+  Respiration: Подводное дыхание
+  Riptide: Тягун
+  Feather falling: Невесомость
 ColorList:
   0-white: '&fБелый'
   1-orange: '&6Оражевый'

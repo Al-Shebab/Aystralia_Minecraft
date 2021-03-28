@@ -1,0 +1,22 @@
+name: imdareaper
+booster:
+  multiplier: 1.0
+  time: 0
+chests:
+  '0':
+    name: default
+    location:
+      world: world
+      x: -1159
+      y: 71
+      z: -2373
+    money: 130.25
+    items-sold: 306
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1616929728150

@@ -1,9 +1,14 @@
 Enabled: false
-TimeLasts: 1
-CoolDown: 0
-Name: '&aSpeed II'
-Description: '&fPermanant Speed II'
+CoolDown: 86400
+TimeLasts: 60
+Name: 'Movement speed increase'
+Description: 'Increase movement speed'
 Effects:
 - 'MoveSpeed:2'
 Item:
-  Material: 'DIAMOND_BOOTS'
+  Material: 'POTION'
+  Potions:
+    SPEED:
+      # Should match time lasts for info to be correct
+      Duration: 60
+      Amplifier: 1

@@ -359,7 +359,7 @@ ExploitProtections:
     # All blocks will be protected X sec after player places it on ground.
     GlobalBlockTimer:
       use: true
-      timer: 3
+      timer: 1
     # Enable silk touch protection.
     # With this enabled players wont get paid for broken blocks from restrictedblocks list with silk touch tool.
     SilkTouchProtection: false
@@ -372,13 +372,13 @@ ExploitProtections:
   McMMO:
     # Players will get part of money from cutting trees with treefeller ability enabled.
     # 0.2 means 20% of original price
-    TreeFellerMultiplier: 0.2
+    TreeFellerMultiplier: 1
     # Players will get part of money from braking blocks with gigaDrill ability enabled.
     # 0.2 means 20% of original price
-    gigaDrillMultiplier: 0.2
+    gigaDrillMultiplier: 1
     # Players will get part of money from braking blocks with super breaker ability enabled.
     # 0.2 means 20% of original price
-    superBreakerMultiplier: 0.2
+    superBreakerMultiplier: 1
   # MythicMobs plugin support
   # Disable if you having issues with it or using old version
   MythicMobs:

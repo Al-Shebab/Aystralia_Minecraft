@@ -18,7 +18,7 @@ general:
     - silk_chest
     - village_defender
     - saturation
-    max-item-golden-enchants: 3
+    max-item-golden-enchants: 10
     sword-enchants-applies-to-axes: true
     bow-enchants-applies-to-crossbows: true
     elytra-as-chestplate: true

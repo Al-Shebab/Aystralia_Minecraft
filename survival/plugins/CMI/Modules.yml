@@ -179,7 +179,7 @@ afk: false
 #  
 # Handling timed commands like tfly and tgod
 # Applies for servers from 1.7.x and up
-timedCommands: false
+timedCommands: true
 #  
 # Handling of eventCommands.yml feature 
 # Applies for servers from 1.9.x and up

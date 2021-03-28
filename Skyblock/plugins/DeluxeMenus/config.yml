@@ -399,3 +399,5 @@ gui_menus:
     file: zrecipe-slimebow.yml
   compactslime:
     file: zrecipe-compactslime.yml
+  perks:
+    file: perks.yml

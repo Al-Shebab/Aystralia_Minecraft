@@ -1,7 +1,7 @@
 Enabled: false
-TimeLasts: 1
-CoolDown: 0
+TimeLasts: 60
 PercentIncrease: 100
+CoolDown: 86400
 Name: 'Double Jump'
 Description: 'Allows Double Jump'
 Effects:

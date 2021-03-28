@@ -7,55 +7,227 @@
 # Note, item use requires the cmdi.item.<name> permission. I.e. to use the fly items you'll have to give the player cmdi.item.fly
 
 items:
-  fly:
+  islandfly:
     item:
       type: FEATHER
-      name: "&a&lFlight token"
-      lore: ["&1Click for 10 seconds of flight!", "&kRandom second line"]
+      name: "&b&lIsland &f&lFly"
+      lore: ["&fRight-click to redeem", "&7Activate using &b/is fly", "&f", "&bSkyblock Only & Permanant"]
       glow: true
     consumed: true
-    cooldown: 20
+    cooldown: 1
     actions:
-      - { action: COMMAND, by: CONSOLE, command: "fly {player} on" }
-      - { action: MESSAGE, to: PLAYER, message: "&aFlight has been enabled!" }
-      - { action: REPEAT, from: 9, to: 1, increment: -1, delay: 20, period: 20, actions: [{ action: MESSAGE, to: PLAYER, message: "&a{i}s to go" }]}
-      - { action: WAIT, duration: 200, actions: [
-          { action: COMMAND, by: CONSOLE, command: "fly {player} off" },
-          { action: MESSAGE, to: PLAYER, message: "&cFlight has been disabled!" }
-        ]}
-  jumper: # This item demonstrates the use of a tool + damage value
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set island.fly true" }
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set island.flybypass true" }
+      - { action: COMMAND, by: PLAYER, command: "is fly" }
+      - { action: MESSAGE, to: PLAYER, message: "&b&lPerks &8> &fYou have redeemed &bPermanant Island Fly!" }
+  perth:
     item:
-      type: DIAMOND_PICKAXE
-      name: "&aJumper"
-      lore: ["&1Click for some vertical displacement ..."]
+      type: COAL
+      name: "&b&lPerth &f&lRank"
+      lore: ["&fRight-click to redeem", "&f", "&bGlobal & Permanant"]
       glow: true
-      unbreakable: true
-      damage: 50
     consumed: true
-    cooldown: 20
+    cooldown: 1
     actions:
-      - { action: COMMAND, by: CONSOLE, command: "execute as {player} run tp ~ ~10 ~"}
-      - { action: MESSAGE, to: PLAYER, message: "&aWeeee ... ouch!" }
-  helpstick:
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} parent add perth" }
+      - { action: MESSAGE, to: PLAYER, message: "&b&lRanks &8> &fYou have redeemed &bPerth Rank!" }
+  brisbane:
     item:
-      type: STICK
-      name: "&a&lHelp Stick"
-      lore: ["&1Click to send a help request to moderators!"]
+      type: IRON_INGOT
+      name: "&b&lBrisbane &f&lRank"
+      lore: ["&fRight-click to redeem", "&f", "&bGlobal & Permanant"]
       glow: true
-    consumed: false
-    cooldown: 60
-    actions:
-      - { action: MESSAGE, to: PERMISSION, perm: group.moderator, message: "&6{player} &arequested help!" }
-      - { action: MESSAGE, to: PLAYER, message: "&aModerators have been notified!" }
-  xpparty:
-    item:
-      type: EXPERIENCE_BOTTLE
-      name: "&a&lEXP PARTY"
     consumed: true
-    sneaking: true
+    cooldown: 1
     actions:
-      - { action: REPEAT, period: 1, delay: 0, from: 0, to: 99, actions: [
-          { action: ITER, what: ONLINE_PLAYERS, actions: [
-            { action: CALC, a: "{iter_locY}", b: "4", op: ADD, target: "y", actions: [
-              { action: COMMAND, by: CONSOLE, command: "minecraft:summon minecraft:experience_bottle {iter_locX} {y} {iter_locZ}" }]}]}]}
-      - { action: MESSAGE, to: EVERYBODY, message: "&a&l{player} has started an XP party!" }
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} parent add brisbane" }
+      - { action: MESSAGE, to: PLAYER, message: "&b&lRanks &8> &fYou have redeemed &bPBrisbane Rank!" }
+  melbourne:
+    item:
+      type: GOLD_INGOT
+      name: "&b&lMelbourne &f&lRank"
+      lore: ["&fRight-click to redeem", "&f", "&bGlobal & Permanant"]
+      glow: true
+    consumed: true
+    cooldown: 1
+    actions:
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} parent add melbourne" }
+      - { action: MESSAGE, to: PLAYER, message: "&b&lRanks &8> &fYou have redeemed &bMelbourne Rank!" }
+  sydney:
+    item:
+      type: DIAMOND
+      name: "&b&lSydney &f&lRank"
+      lore: ["&fRight-click to redeem", "&f", "&bGlobal & Permanant"]
+      glow: true
+    consumed: true
+    cooldown: 1
+    actions:
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} parent add sydney" }
+      - { action: MESSAGE, to: PLAYER, message: "&b&lRanks &8> &fYou have redeemed &bSydney Rank!" }
+  ayssie:
+    item:
+      type: NETHERITE_INGOT
+      name: "&b&lAyssie &f&lRank"
+      lore: ["&fRight-click to redeem", "&f", "&bGlobal & Permanant"]
+      glow: true
+    consumed: true
+    cooldown: 1
+    actions:
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} parent add ayssie" }
+      - { action: MESSAGE, to: PLAYER, message: "&b&lRanks &8> &fYou have redeemed &bAyssie Rank!" }
+  fly:
+    item:
+      type: ELYTRA
+      name: "&b&lGlobal &f&lFly"
+      lore: ["&fRight-click to redeem", "&7Activate using &b/fly", "&f", "&bGlobal & Permanant"]
+      glow: true
+    consumed: true
+    cooldown: 1
+    actions:
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set cmi.command.fly true" }
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set cmi.command.fly.safelogin true" }
+      - { action: COMMAND, by: CONSOLE, command: "cmi fly {player} true" }
+      - { action: MESSAGE, to: PLAYER, message: "&b&lPerks &8> &fYou have redeemed &bGlobal Fly!" }
+  market5:
+    item:
+      type: PAPER
+      name: "&b&l5% Market &f&lDiscount"
+      lore: ["&fRight-click to redeem", "&f", "&bServer Only & Permanant"]
+      glow: true
+    consumed: true
+    cooldown: 1
+    actions:
+      - { action: COMMAND, by: CONSOLE, command: "shop addmodifier global {player} 0.95 buy" }
+      - { action: MESSAGE, to: PLAYER, message: "&b&lShop &8> &fYou have redeemed &b5% Market Discount!" }
+  market25:
+    item:
+      type: PAPER
+      name: "&b&l25% Market &f&lDiscount"
+      lore: ["&fRight-click to redeem", "&f", "&bServer Only & Permanant"]
+      glow: true
+    consumed: true
+    cooldown: 1
+    actions:
+      - { action: COMMAND, by: CONSOLE, command: "shop addmodifier global {player} 0.75 buy" }
+      - { action: MESSAGE, to: PLAYER, message: "&b&lShop &8> &fYou have redeemed &b25% Market Discount!" }
+  market15:
+    item:
+      type: PAPER
+      name: "&b&l1.15x Sale &f&lMultiplier"
+      lore: ["&fRight-click to redeem", "&f", "&bServer Only & Permanant"]
+      glow: true
+    consumed: true
+    cooldown: 1
+    actions:
+      - { action: COMMAND, by: CONSOLE, command: "shop addmodifier global {player} 1.15 sell" }
+      - { action: MESSAGE, to: PLAYER, message: "&b&lShop &8> &fYou have redeemed &b1.15x Sale Multiplier!" }
+  nick:
+    item:
+      type: PAPER
+      name: "&b&lNickname &f&lAccess"
+      lore: ["&fRight-click to redeem", "&7Activate using &b/nick",  "&f", "&bGlobal & Permanant"]
+      glow: true
+    consumed: true
+    cooldown: 1
+    actions:
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set cmi.command.nick true" }
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set cmi.colors.nickname.* true" }
+      - { action: MESSAGE, to: PLAYER, message: "&b&lPerks &8> &fYou have redeemed &bNickname Access!" }
+  jobs:
+    item:
+      type: PAPER
+      name: "&b&lUnlimited &f&lJobs"
+      lore: ["&fRight-click to redeem", "&f", "&bGlobal & Permanant"]
+      glow: true
+    consumed: true
+    cooldown: 1
+    actions:
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set jobs.max.* true" }
+      - { action: MESSAGE, to: PLAYER, message: "&b&lPerks &8> &fYou have redeemed &bUnlimited Jobs!" }
+  jobsboost:
+    item:
+      type: PAPER
+      name: "&b&lJobs &f&lBoost"
+      lore: ["&fRight-click to redeem", "&7Grants 2x Job money and exp", "&f", "&bGlobal & Permanant"]
+      glow: true
+    consumed: true
+    cooldown: 1
+    actions:
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set jobs.boost.all.all.2 true" }
+      - { action: MESSAGE, to: PLAYER, message: "&b&lPerks &8> &fYou have redeemed &bJobs Boost!" }
+  redstone:
+    item:
+      type: REDSTONE
+      name: "&b&lRedstone &f&lKit"
+      lore: ["&fRight-click to redeem", "&7Activate using &b/kit redstone", "&f", "&bGlobal & Permanant"]
+      glow: true
+    consumed: true
+    cooldown: 1
+    actions:
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set cmi.kit.redstone true" }
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set cmi.kit.redstone.preview true" }
+      - { action: MESSAGE, to: PLAYER, message: "&b&lKits &8> &fYou have redeemed &bRedstone Kit!" }
+  concrete:
+    item:
+      type: RED_CONCRETE
+      name: "&b&lConcrete &f&lKit"
+      lore: ["&fRight-click to redeem", "&7Activate using &b/kit concrete", "&f", "&bGlobal & Permanant"]
+      glow: true
+    consumed: true
+    cooldown: 1
+    actions:
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set cmi.kit.concrete true" }
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set cmi.kit.concrete.preview true" }
+      - { action: MESSAGE, to: PLAYER, message: "&b&lKits &8> &fYou have redeemed &bConcrete Kit!" }
+  pvp:
+    item:
+      type: NETHERITE_SWORD
+      name: "&b&lPvp &f&lKit"
+      lore: ["&fRight-click to redeem", "&7Activate using &b/kit pvp", "&f", "&bGlobal & Permanant"]
+      glow: true
+    consumed: true
+    cooldown: 1
+    actions:
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set cmi.kit.pvp true" }
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set cmi.kit.pvp.preview true" }
+      - { action: MESSAGE, to: PLAYER, message: "&b&lKits &8> &fYou have redeemed &Pvp Kit!" }
+  hat:
+    item:
+      type: PLAYER_HEAD
+      name: "&b&lHat &f&lAccess"
+      lore: ["&fRight-click to redeem", "&7Activate using &b/hat", "&f", "&bGlobal & Permanant"]
+      glow: true
+    consumed: true
+    cooldown: 1
+    actions:
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set cmi.inventoryhat true" }
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set cmi.command.hat true" }
+      - { action: MESSAGE, to: PLAYER, message: "&b&lPerks &8> &fYou have redeemed &Hat Access!" }
+  colours:
+    item:
+      type: RED_DYE
+      name: "&b&lColour &f&lPack"
+      lore: ["&fRight-click to redeem", "&7Ability to use & colour", "&7codes anywhere!", "&f", "&bGlobal & Permanant"]
+      glow: true
+    consumed: true
+    cooldown: 1
+    actions:
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set cmi.colors.* true" }
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set cmi.anvil.colors true" }
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set cmi.book.colors true" }
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set cmi.command.colors true" }
+      - { action: MESSAGE, to: PLAYER, message: "&b&lPerks &8> &fYou have redeemed &bColour Pack!" }
+  rename:
+    item:
+      type: ANVIL
+      name: "&b&lRename &f&lAccess"
+      lore: ["&fRight-click to redeem", "&7Activate using &b/rename", "&f", "&bGlobal & Permanant"]
+      glow: true
+    consumed: true
+    cooldown: 1
+    actions:
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set epicrename.rename.* true" }
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set epicrename.glow.* true" }
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set epicrename.removeglow.* true" }
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set epicrename.bypass.* true" }
+      - { action: MESSAGE, to: PLAYER, message: "&b&lPerks &8> &fYou have redeemed &bRename Access!" }

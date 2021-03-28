@@ -1,6 +1,5 @@
 Enabled: false
-TimeLasts: 1
-CoolDown: 0
+CoolDown: 86400
 Name: 'Cure Hunger'
 Description: 'Fill your stomach.'
 Effects:

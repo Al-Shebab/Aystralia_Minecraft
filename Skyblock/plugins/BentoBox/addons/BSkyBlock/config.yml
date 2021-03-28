@@ -131,28 +131,29 @@ world:
   flags:
     CREEPER_DAMAGE: true
     OBSIDIAN_SCOOPING: true
-    PISTON_PUSH: false
     ISLAND_RESPAWN: true
     CREEPER_GRIEFING: false
-    COARSE_DIRT_TILLING: true
     PETS_STAY_AT_HOME: true
+    NATURAL_SPAWNING_OUTSIDE_RANGE: true
+    PLACE_BLOCKS: false
+    LIQUIDS_FLOWING_OUT: false
+    REMOVE_MOBS: false
+    ENDER_CHEST: false
+    TREES_GROWING_OUTSIDE_RANGE: false
+    PISTON_PUSH: false
+    COARSE_DIRT_TILLING: true
     ENDERMAN_GRIEFING: true
     CLEAN_SUPER_FLAT: false
     CHEST_DAMAGE: false
     EXPERIENCE_PICKUP: false
     PREVENT_TELEPORT_WHEN_FALLING: false
-    NATURAL_SPAWNING_OUTSIDE_RANGE: true
     ENTER_EXIT_MESSAGES: true
-    PLACE_BLOCKS: false
     ENDERMAN_DEATH_DROP: true
-    LIQUIDS_FLOWING_OUT: false
     OFFLINE_REDSTONE: true
     REMOVE_END_EXIT_ISLAND: true
     OFFLINE_GROWTH: true
-    REMOVE_MOBS: false
-    ENDER_CHEST: false
     ITEM_FRAME_DAMAGE: false
-    TREES_GROWING_OUTSIDE_RANGE: false
+    SPAWNER_SPAWN_EGGS: true
   # These are the default protection settings for new islands.
   # The value is the minimum island rank required allowed to do the action
   # Ranks are the following:
@@ -179,8 +180,8 @@ world:
     TURTLE_EGGS: 400
     COLLECT_LAVA: 400
     LEVER: 200
-    RIDING: 400
     HURT_MONSTERS: 0
+    RIDING: 400
     ARMOR_STAND: 400
     NAME_TAG: 400
     TRADING: 0
@@ -188,18 +189,18 @@ world:
     ITEM_DROP: 0
     NOTE_BLOCK: 0
     NETHER_PORTAL: 400
-    CROP_TRAMPLE: 400
     ITEM_PICKUP: 0
-    BREWING: 400
+    CROP_TRAMPLE: 400
     DROPPER: 400
+    BREWING: 400
     COLLECT_WATER: 400
     BUTTON: 200
     FIRE_EXTINGUISH: 400
     BEACON: 400
     TRAPDOOR: 400
     PRESSURE_PLATE: 200
-    ITEM_FRAME: 400
     PLACE_BLOCKS: 400
+    ITEM_FRAME: 400
     CRAFTING: 0
     SHEARING: 400
     ENCHANTING: 0
@@ -211,18 +212,18 @@ world:
     EXPERIENCE_PICKUP: 0
     HOPPER: 400
     LEASH: 400
-    BREAK_BLOCKS: 400
     MOUNT_INVENTORY: 400
+    BREAK_BLOCKS: 400
     CHORUS_FRUIT: 400
     CONTAINER: 500
     JUKEBOX: 400
     POTION_THROWING: 400
   # These are the default settings for new islands
   default-island-settings:
-    PVP_END: true
-    PVP_NETHER: true
+    PVP_END: false
+    PVP_NETHER: false
     FIRE_SPREAD: true
-    PVP_OVERWORLD: true
+    PVP_OVERWORLD: false
   # These settings/flags are hidden from users
   # Ops can toggle hiding in-game using SHIFT-LEFT-CLICK on flags in settings
   # Added since 1.4.1.

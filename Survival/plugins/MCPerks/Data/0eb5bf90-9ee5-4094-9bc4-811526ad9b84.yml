@@ -1,4 +1,7 @@
 CheckWorld: 'false'
 OfflineRewards: ''
-LastOnline: '1616653455682'
+LastOnline: '1616903453237'
 PlayerName: Proximity__
+Haste_CoolDown: '1616899981675'
+Experation:
+  Haste: '0'

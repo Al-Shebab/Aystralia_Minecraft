@@ -1,6 +1,5 @@
 Enabled: false
-TimeLasts: 1
-CoolDown: 0
+CoolDown: 86400
 Name: 'Speed'
 Description: 'Gives a movement speed increase.'
 Effects:
@@ -8,7 +7,7 @@ Effects:
 Potions:
   SPEED:
     Duration: 60
-    Amplifier: 1
+    Amplifier: 2
 Item:
   Material: 'BEACON'
   Data: 0

@@ -27,11 +27,11 @@ Crates:
   vote:
     Key:
       Item: TRIPWIRE_HOOK
-      Name: '%type% Crate Key'
+      Name: 'Vote Crate Key'
       Enchanted: true
     Knockback: 0.0
     Broadcast: false
-    Firework: false
+    Firework: true
     Preview: true
     Block: CHEST
     Color: WHITE
@@ -77,7 +77,7 @@ Crates:
         Item Type: SPAWNER
         Percentage: 5
         Commands:
-        - wildstacker:stacker give %name% spawner BLAZE 1
+        - wildstacker:stacker give %name% spawner blaze 1
         Name: '&cBlaze &fSpawner &cx1'
         Item Data: 0
         Amount: 1
@@ -86,7 +86,7 @@ Crates:
         Item Type: SPAWNER
         Percentage: 9
         Commands:
-        - wildstacker:stacker give %name% spawner ZOMBIE 1
+        - wildstacker:stacker give %name% spawner zombie 1
         Name: '&cZombie &fSpawner &cx1'
         Item Data: 0
         Amount: 1
@@ -95,7 +95,7 @@ Crates:
         Item Type: SPAWNER
         Percentage: 10
         Commands:
-        - wildstacker:stacker give %name% spawner PIG 1
+        - wildstacker:stacker give %name% spawner pig 1
         Name: '&bCow &fSpawner &bx1'
         Item Data: 0
         Amount: 1
@@ -104,7 +104,7 @@ Crates:
         Item Type: SPAWNER
         Percentage: 10
         Commands:
-        - wildstacker:stacker give %name% spawner COW 1
+        - wildstacker:stacker give %name% spawner cow 1
         Name: '&bCow &fSpawner &bx1'
         Item Data: 0
         Amount: 1
@@ -113,7 +113,7 @@ Crates:
         Item Type: SPAWNER
         Percentage: 1
         Commands:
-        - wildstacker:stacker give %name% spawner IRON_GOLEM 1
+        - wildstacker:stacker give %name% spawner iron_golem 1
         Name: '&6Iron Golem &fSpawner &bx1'
         Item Data: 0
         Amount: 1
@@ -149,4 +149,215 @@ Crates:
         Name: '&b&l+250 Island Level'
         Percentage: 5
         Item Data: 0`
+        Amount: 1
+  donator:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: 'Donator Crate Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: true
+    Preview: true
+    Hide Percentages: true
+    Block: CHEST
+    Color: WHITE
+    Winnings:
+      '1':
+        Type: COMMAND
+        Item Type: FEATHER
+        Percentage: 10
+        Commands:
+        - cmdi give %name% islandfly
+        Name: '&b&lIsland &f&lFly'
+        Item Data: 0
+        Amount: 1
+      '2':
+        Type: COMMAND
+        Item Type: COAL
+        Percentage: 2
+        Commands:
+        - cmdi give %name% perth
+        Name: '&b&lPerth &f&lRank'
+        Item Data: 0
+        Amount: 1
+      '3':
+        Type: COMMAND
+        Item Type: IRON_INGOT
+        Percentage: 2
+        Commands:
+        - cmdi give %name% brisbane
+        Name: '&b&lBrisbane &f&lRank'
+        Item Data: 0
+        Amount: 1
+      '4':
+        Type: COMMAND
+        Item Type: GOLD_INGOT
+        Percentage: 1
+        Commands:
+        - cmdi give %name% melbourne
+        Name: '&b&lMelborune &f&lRank'
+        Item Data: 0
+        Amount: 1
+      '5':
+        Type: COMMAND
+        Item Type: DIAMOND
+        Percentage: 0
+        Commands:
+        - cmdi give %name% sydney
+        Name: '&b&lSydney &f&lRank'
+        Item Data: 0
+        Amount: 1
+      '6':
+        Type: COMMAND
+        Item Type: NETHERITE_INGOT
+        Percentage: 0
+        Commands:
+        - cmdi give %name% ayssie
+        Name: '&b&lAyssie &f&lRank'
+        Item Data: 0
+        Amount: 1
+      '7':
+        Type: COMMAND
+        Item Type: ELYTRA
+        Percentage: 3
+        Commands:
+        - cmdi give %name% fly
+        Name: '&b&lGlobal &f&lFly'
+        Item Data: 0
+        Amount: 1
+      '8':
+        Type: COMMAND
+        Item Type: PAPER
+        Percentage: 8
+        Commands:
+        - cmdi give %name% nick
+        Name: '&b&lNickname &f&lAccess'
+        Item Data: 0
+        Amount: 1
+      '9':
+        Type: COMMAND
+        Item Type: PAPER
+        Percentage: 5
+        Commands:
+        - cmdi give %name% jobsboost
+        Name: '&b&lJobs &f&lBoost'
+        Item Data: 0
+        Amount: 1
+      '10':
+        Type: COMMAND
+        Item Type: PAPER
+        Percentage: 5
+        Commands:
+        - cmdi give %name% jobs
+        Name: '&b&lUnlimited &f&lJobs'
+        Item Data: 0
+        Amount: 1
+      '11':
+        Type: COMMAND
+        Item Type: ANVIL
+        Percentage: 5
+        Commands:
+        - cmdi give %name% rename
+        Name: '&b&lRename &f&lAccess'
+        Item Data: 0
+        Amount: 1
+      '12':
+        Type: COMMAND
+        Item Type: HOPPER
+        Percentage: 5
+        Commands:
+        - jetshoppers give %name% V 3
+        Name: '&b&lHopper &f&l[&b&lLevel V&f&l] x3'
+        Item Data: 0
+        Amount: 1
+      '13':
+        Type: COMMAND
+        Item Type: CHEST
+        Percentage: 10
+        Commands:
+        - voidchest give default %name% 3
+        Name: '&b&lVoid &f&lChest x3'
+        Item Data: 0
+        Amount: 1
+      '14':
+        Type: COMMAND
+        Item Type: TRIPWIRE_HOOK
+        Percentage: 5
+        Commands:
+        - crate key all vote 1
+        Name: '&b&lVote Key &f&lAll'
+        Item Data: 0
+        Amount: 1
+      '15':
+        Type: COMMAND
+        Item Type: PLAYER_HEAD
+        Percentage: 5
+        Commands:
+        - cmdi give %name% hat
+        Name: '&b&lHat &f&lAccess'
+        Item Data: 0
+        Amount: 1
+      '16':
+        Type: COMMAND
+        Item Type: RED_CONCRETE
+        Percentage: 3
+        Commands:
+        - cmdi give %name% concrete
+        Name: '&b&lConcrete &f&lKit'
+        Item Data: 0
+        Amount: 1
+      '17':
+        Type: COMMAND
+        Item Type: REDSTONE
+        Percentage: 3
+        Commands:
+        - cmdi give %name% redstone
+        Name: '&b&lRedstone &f&lKit'
+        Item Data: 0
+        Amount: 1
+      '18':
+        Type: COMMAND
+        Item Type: NETHERITE_SWORD
+        Percentage: 3
+        Commands:
+        - cmdi give %name% pvp
+        Name: '&b&lPvp &f&lKit'
+        Item Data: 0
+        Amount: 1
+      '19':
+        Type: COMMAND
+        Item Type: RED_DYE
+        Percentage: 10
+        Commands:
+        - cmdi give %name% colour
+        Name: '&b&lColour &f&lPack'
+        Item Data: 0
+        Amount: 1
+      '20':
+        Type: COMMAND
+        Item Type: PAPER
+        Percentage: 5
+        Commands:
+        - cmdi give %name% market15
+        Name: '&b&l1.15x Sale &f&lMultiplier'
+        Item Data: 1
+        Amount: 1
+      '21':
+        Type: COMMAND
+        Item Type: PAPER
+        Percentage: 5
+        Commands:
+        - cmdi give %name% market5
+        Name: '&b&l5% Market &f&lDiscount'
+        Item Data: 3
+        Amount: 1
+      '22':
+        Type: COMMAND
+        Item Type: PAPER
+        Percentage: 5
+        Commands:
+        - cmdi give %name% market25
+        Name: '&b&l25% Market &f&lDiscount'
+        Item Data: 1
         Amount: 1
