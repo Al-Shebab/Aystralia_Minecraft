@@ -38,7 +38,7 @@
     "BREEDING": 400,
     "PLACE_BLOCKS": 400,
     "BEACON": 400,
-    "LOCK": 0,
+    "LOCK": 500,
     "FURNACE": 400,
     "FLINT_AND_STEEL": 500,
     "HIVE": 500,

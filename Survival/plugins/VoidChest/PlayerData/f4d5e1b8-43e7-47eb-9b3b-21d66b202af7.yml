@@ -1,0 +1,22 @@
+name: KingMistik
+booster:
+  multiplier: 1.0
+  time: 0
+chests:
+  '0':
+    name: default
+    location:
+      world: world
+      x: 3325
+      y: 55
+      z: -6876
+    money: 697990.0
+    items-sold: 9937
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1616929728154

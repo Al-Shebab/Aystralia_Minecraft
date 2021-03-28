@@ -1,0 +1,3817 @@
+Builder:
+  fullname: Destroyer
+  shortname: B
+  description: Get paid $1 for every single block broken.
+  ChatColour: WHITE
+  chat-display: full
+  max-level: 200
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 0
+  Quests:
+    '1':
+      Name: Architect
+      Objectives:
+      - Place;spruce_planks;50
+      - Place;birch_planks;50
+      - Place;wool;50
+      RewardCommands:
+      - eco give [playerName] 100
+      - msg [playerName] Completed quest!
+      RewardDesc:
+      - Place blocks and get money
+      - Get 100 for this!
+  Gui:
+    Item: crying_obsidian
+  Break:
+    acacia_boat:
+      income: 1
+      points: 0
+      experience: 1
+    acacia_button:
+      income: 1
+      points: 0
+      experience: 1
+    acacia_door:
+      income: 1
+      points: 0
+      experience: 1
+    acacia_fence_gate:
+      income: 1
+      points: 0
+      experience: 1
+    acacia_fence:
+      income: 1
+      points: 0
+      experience: 1
+    acacia_leaves:
+      income: 1
+      points: 0
+      experience: 1
+    acacia_log:
+      income: 1
+      points: 0
+      experience: 1
+    acacia_planks:
+      income: 1
+      points: 0
+      experience: 1
+    acacia_pressure_plate:
+      income: 1
+      points: 0
+      experience: 1
+    acacia_sapling:
+      income: 1
+      points: 0
+      experience: 1
+    acacia_sign:
+      income: 1
+      points: 0
+      experience: 1
+    acacia_slab:
+      income: 1
+      points: 0
+      experience: 1
+    acacia_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    acacia_trapdoor:
+      income: 1
+      points: 0
+      experience: 1
+    acacia_wood:
+      income: 1
+      points: 0
+      experience: 1
+    activator_rail:
+      income: 1
+      points: 0
+      experience: 1
+    allium:
+      income: 1
+      points: 0
+      experience: 1
+    ancient_debris:
+      income: 1
+      points: 0
+      experience: 1
+    andesite_slab:
+      income: 1
+      points: 0
+      experience: 1
+    andesite_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    andesite_wall:
+      income: 1
+      points: 0
+      experience: 1
+    andesite:
+      income: 1
+      points: 0
+      experience: 1
+    anvil:
+      income: 1
+      points: 0
+      experience: 1
+    apple:
+      income: 1
+      points: 0
+      experience: 1
+    armor_stand:
+      income: 1
+      points: 0
+      experience: 1
+    arrow:
+      income: 1
+      points: 0
+      experience: 1
+    azure_bluet:
+      income: 1
+      points: 0
+      experience: 1
+    baked_potato:
+      income: 1
+      points: 0
+      experience: 1
+    bamboo:
+      income: 1
+      points: 0
+      experience: 1
+    barrel:
+      income: 1
+      points: 0
+      experience: 1
+    barrier:
+      income: 1
+      points: 0
+      experience: 1
+    basalt:
+      income: 1
+      points: 0
+      experience: 1
+    bat_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    beacon:
+      income: 1
+      points: 0
+      experience: 1
+    bedrock:
+      income: 1
+      points: 0
+      experience: 1
+    bee_nest:
+      income: 1
+      points: 0
+      experience: 1
+    bee_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    beef:
+      income: 1
+      points: 0
+      experience: 1
+    beehive:
+      income: 1
+      points: 0
+      experience: 1
+    beetroot_seeds:
+      income: 1
+      points: 0
+      experience: 1
+    beetroot_soup:
+      income: 1
+      points: 0
+      experience: 1
+    beetroot:
+      income: 1
+      points: 0
+      experience: 1
+    bell:
+      income: 1
+      points: 0
+      experience: 1
+    birch_boat:
+      income: 1
+      points: 0
+      experience: 1
+    birch_button:
+      income: 1
+      points: 0
+      experience: 1
+    birch_door:
+      income: 1
+      points: 0
+      experience: 1
+    birch_fence_gate:
+      income: 1
+      points: 0
+      experience: 1
+    birch_fence:
+      income: 1
+      points: 0
+      experience: 1
+    birch_leaves:
+      income: 1
+      points: 0
+      experience: 1
+    birch_log:
+      income: 1
+      points: 0
+      experience: 1
+    birch_planks:
+      income: 1
+      points: 0
+      experience: 1
+    birch_pressure_plate:
+      income: 1
+      points: 0
+      experience: 1
+    birch_sapling:
+      income: 1
+      points: 0
+      experience: 1
+    birch_sign:
+      income: 1
+      points: 0
+      experience: 1
+    birch_slab:
+      income: 1
+      points: 0
+      experience: 1
+    birch_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    birch_trapdoor:
+      income: 1
+      points: 0
+      experience: 1
+    birch_wood:
+      income: 1
+      points: 0
+      experience: 1
+    black_banner:
+      income: 1
+      points: 0
+      experience: 1
+    black_bed:
+      income: 1
+      points: 0
+      experience: 1
+    black_carpet:
+      income: 1
+      points: 0
+      experience: 1
+    black_concrete_powder:
+      income: 1
+      points: 0
+      experience: 1
+    black_concrete:
+      income: 1
+      points: 0
+      experience: 1
+    black_dye:
+      income: 1
+      points: 0
+      experience: 1
+    black_glazed_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    black_shulker_box:
+      income: 1
+      points: 0
+      experience: 1
+    black_stained_glass_pane:
+      income: 1
+      points: 0
+      experience: 1
+    black_stained_glass:
+      income: 1
+      points: 0
+      experience: 1
+    black_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    black_wool:
+      income: 1
+      points: 0
+      experience: 1
+    blackstone_slab:
+      income: 1
+      points: 0
+      experience: 1
+    blackstone_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    blackstone_wall:
+      income: 1
+      points: 0
+      experience: 1
+    blackstone:
+      income: 1
+      points: 0
+      experience: 1
+    blast_furnace:
+      income: 1
+      points: 0
+      experience: 1
+    blaze_powder:
+      income: 1
+      points: 0
+      experience: 1
+    blaze_rod:
+      income: 1
+      points: 0
+      experience: 1
+    blaze_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    blue_banner:
+      income: 1
+      points: 0
+      experience: 1
+    blue_bed:
+      income: 1
+      points: 0
+      experience: 1
+    blue_carpet:
+      income: 1
+      points: 0
+      experience: 1
+    blue_concrete_powder:
+      income: 1
+      points: 0
+      experience: 1
+    blue_concrete:
+      income: 1
+      points: 0
+      experience: 1
+    blue_dye:
+      income: 1
+      points: 0
+      experience: 1
+    blue_glazed_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    blue_ice:
+      income: 1
+      points: 0
+      experience: 1
+    blue_orchid:
+      income: 1
+      points: 0
+      experience: 1
+    blue_shulker_box:
+      income: 1
+      points: 0
+      experience: 1
+    blue_stained_glass_pane:
+      income: 1
+      points: 0
+      experience: 1
+    blue_stained_glass:
+      income: 1
+      points: 0
+      experience: 1
+    blue_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    blue_wool:
+      income: 1
+      points: 0
+      experience: 1
+    bone_block:
+      income: 1
+      points: 0
+      experience: 1
+    bone_meal:
+      income: 1
+      points: 0
+      experience: 1
+    bone:
+      income: 1
+      points: 0
+      experience: 1
+    book:
+      income: 1
+      points: 0
+      experience: 1
+    bookshelf:
+      income: 1
+      points: 0
+      experience: 1
+    bow:
+      income: 1
+      points: 0
+      experience: 1
+    bowl:
+      income: 1
+      points: 0
+      experience: 1
+    brain_coral_block:
+      income: 1
+      points: 0
+      experience: 1
+    brain_coral_fan:
+      income: 1
+      points: 0
+      experience: 1
+    brain_coral:
+      income: 1
+      points: 0
+      experience: 1
+    bread:
+      income: 1
+      points: 0
+      experience: 1
+    brewing_stand:
+      income: 1
+      points: 0
+      experience: 1
+    brick_slab:
+      income: 1
+      points: 0
+      experience: 1
+    brick_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    brick_wall:
+      income: 1
+      points: 0
+      experience: 1
+    brick:
+      income: 1
+      points: 0
+      experience: 1
+    bricks:
+      income: 1
+      points: 0
+      experience: 1
+    brown_banner:
+      income: 1
+      points: 0
+      experience: 1
+    brown_bed:
+      income: 1
+      points: 0
+      experience: 1
+    brown_carpet:
+      income: 1
+      points: 0
+      experience: 1
+    brown_concrete_powder:
+      income: 1
+      points: 0
+      experience: 1
+    brown_concrete:
+      income: 1
+      points: 0
+      experience: 1
+    brown_dye:
+      income: 1
+      points: 0
+      experience: 1
+    brown_glazed_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    brown_mushroom_block:
+      income: 1
+      points: 0
+      experience: 1
+    brown_shulker_box:
+      income: 1
+      points: 0
+      experience: 1
+    brown_stained_glass_pane:
+      income: 1
+      points: 0
+      experience: 1
+    brown_stained_glass:
+      income: 1
+      points: 0
+      experience: 1
+    brown_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    brown_wool:
+      income: 1
+      points: 0
+      experience: 1
+    bubble_coral_block:
+      income: 1
+      points: 0
+      experience: 1
+    bubble_coral_fan:
+      income: 1
+      points: 0
+      experience: 1
+    bubble_coral:
+      income: 1
+      points: 0
+      experience: 1
+    bucket:
+      income: 1
+      points: 0
+      experience: 1
+    cactus:
+      income: 1
+      points: 0
+      experience: 1
+    cake:
+      income: 1
+      points: 0
+      experience: 1
+    campfire:
+      income: 1
+      points: 0
+      experience: 1
+    carrot_on_a_stick:
+      income: 1
+      points: 0
+      experience: 1
+    carrot:
+      income: 1
+      points: 0
+      experience: 1
+    cartography_table:
+      income: 1
+      points: 0
+      experience: 1
+    carved_pumpkin:
+      income: 1
+      points: 0
+      experience: 1
+    cat_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    cauldron:
+      income: 1
+      points: 0
+      experience: 1
+    cave_spider_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    chain_command_block:
+      income: 1
+      points: 0
+      experience: 1
+    chain:
+      income: 1
+      points: 0
+      experience: 1
+    chainmail_boots:
+      income: 1
+      points: 0
+      experience: 1
+    chainmail_chestplate:
+      income: 1
+      points: 0
+      experience: 1
+    chainmail_helmet:
+      income: 1
+      points: 0
+      experience: 1
+    chainmail_leggings:
+      income: 1
+      points: 0
+      experience: 1
+    charcoal:
+      income: 1
+      points: 0
+      experience: 1
+    chest_minecart:
+      income: 1
+      points: 0
+      experience: 1
+    chest:
+      income: 1
+      points: 0
+      experience: 1
+    chicken_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    chicken:
+      income: 1
+      points: 0
+      experience: 1
+    chipped_anvil:
+      income: 1
+      points: 0
+      experience: 1
+    chiseled_nether_bricks:
+      income: 1
+      points: 0
+      experience: 1
+    chiseled_polished_blackstone:
+      income: 1
+      points: 0
+      experience: 1
+    chiseled_quartz_block:
+      income: 1
+      points: 0
+      experience: 1
+    chiseled_red_sandstone:
+      income: 1
+      points: 0
+      experience: 1
+    chiseled_sandstone:
+      income: 1
+      points: 0
+      experience: 1
+    chiseled_stone_bricks:
+      income: 1
+      points: 0
+      experience: 1
+    chorus_flower:
+      income: 1
+      points: 0
+      experience: 1
+    chorus_fruit:
+      income: 1
+      points: 0
+      experience: 1
+    chorus_plant:
+      income: 1
+      points: 0
+      experience: 1
+    clay_ball:
+      income: 1
+      points: 0
+      experience: 1
+    clay:
+      income: 1
+      points: 0
+      experience: 1
+    clock:
+      income: 1
+      points: 0
+      experience: 1
+    coal_block:
+      income: 1
+      points: 0
+      experience: 1
+    coal_ore:
+      income: 1
+      points: 0
+      experience: 1
+    coal:
+      income: 1
+      points: 0
+      experience: 1
+    coarse_dirt:
+      income: 1
+      points: 0
+      experience: 1
+    cobblestone_slab:
+      income: 1
+      points: 0
+      experience: 1
+    cobblestone_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    cobblestone_wall:
+      income: 1
+      points: 0
+      experience: 1
+    cobblestone:
+      income: 1
+      points: 0
+      experience: 1
+    cobweb:
+      income: 1
+      points: 0
+      experience: 1
+    cocoa_beans:
+      income: 1
+      points: 0
+      experience: 1
+    cod_bucket:
+      income: 1
+      points: 0
+      experience: 1
+    cod_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    cod:
+      income: 1
+      points: 0
+      experience: 1
+    command_block_minecart:
+      income: 1
+      points: 0
+      experience: 1
+    command_block:
+      income: 1
+      points: 0
+      experience: 1
+    comparator:
+      income: 1
+      points: 0
+      experience: 1
+    compass:
+      income: 1
+      points: 0
+      experience: 1
+    composter:
+      income: 1
+      points: 0
+      experience: 1
+    conduit:
+      income: 1
+      points: 0
+      experience: 1
+    cooked_beef:
+      income: 1
+      points: 0
+      experience: 1
+    cooked_chicken:
+      income: 1
+      points: 0
+      experience: 1
+    cooked_cod:
+      income: 1
+      points: 0
+      experience: 1
+    cooked_mutton:
+      income: 1
+      points: 0
+      experience: 1
+    cooked_porkchop:
+      income: 1
+      points: 0
+      experience: 1
+    cooked_rabbit:
+      income: 1
+      points: 0
+      experience: 1
+    cooked_salmon:
+      income: 1
+      points: 0
+      experience: 1
+    cookie:
+      income: 1
+      points: 0
+      experience: 1
+    cornflower:
+      income: 1
+      points: 0
+      experience: 1
+    cow_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    cracked_nether_bricks:
+      income: 1
+      points: 0
+      experience: 1
+    cracked_polished_blackstone_bricks:
+      income: 1
+      points: 0
+      experience: 1
+    cracked_stone_bricks:
+      income: 1
+      points: 0
+      experience: 1
+    crafting_table:
+      income: 1
+      points: 0
+      experience: 1
+    creeper_banner_pattern:
+      income: 1
+      points: 0
+      experience: 1
+    creeper_head:
+      income: 1
+      points: 0
+      experience: 1
+    creeper_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    crimson_button:
+      income: 1
+      points: 0
+      experience: 1
+    crimson_door:
+      income: 1
+      points: 0
+      experience: 1
+    crimson_fence_gate:
+      income: 1
+      points: 0
+      experience: 1
+    crimson_fence:
+      income: 1
+      points: 0
+      experience: 1
+    crimson_fungus:
+      income: 1
+      points: 0
+      experience: 1
+    crimson_hyphae:
+      income: 1
+      points: 0
+      experience: 1
+    crimson_nylium:
+      income: 1
+      points: 0
+      experience: 1
+    crimson_planks:
+      income: 1
+      points: 0
+      experience: 1
+    crimson_pressure_plate:
+      income: 1
+      points: 0
+      experience: 1
+    crimson_roots:
+      income: 1
+      points: 0
+      experience: 1
+    crimson_sign:
+      income: 1
+      points: 0
+      experience: 1
+    crimson_slab:
+      income: 1
+      points: 0
+      experience: 1
+    crimson_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    crimson_stem:
+      income: 1
+      points: 0
+      experience: 1
+    crimson_trapdoor:
+      income: 1
+      points: 0
+      experience: 1
+    crossbow:
+      income: 1
+      points: 0
+      experience: 1
+    crying_obsidian:
+      income: 1
+      points: 0
+      experience: 1
+    cut_red_sandstone_slab:
+      income: 1
+      points: 0
+      experience: 1
+    cut_red_sandstone:
+      income: 1
+      points: 0
+      experience: 1
+    cut_sandstone_slab:
+      income: 1
+      points: 0
+      experience: 1
+    cut_sandstone:
+      income: 1
+      points: 0
+      experience: 1
+    cyan_banner:
+      income: 1
+      points: 0
+      experience: 1
+    cyan_bed:
+      income: 1
+      points: 0
+      experience: 1
+    cyan_carpet:
+      income: 1
+      points: 0
+      experience: 1
+    cyan_concrete_powder:
+      income: 1
+      points: 0
+      experience: 1
+    cyan_concrete:
+      income: 1
+      points: 0
+      experience: 1
+    cyan_dye:
+      income: 1
+      points: 0
+      experience: 1
+    cyan_glazed_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    cyan_shulker_box:
+      income: 1
+      points: 0
+      experience: 1
+    cyan_stained_glass_pane:
+      income: 1
+      points: 0
+      experience: 1
+    cyan_stained_glass:
+      income: 1
+      points: 0
+      experience: 1
+    cyan_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    cyan_wool:
+      income: 1
+      points: 0
+      experience: 1
+    damaged_anvil:
+      income: 1
+      points: 0
+      experience: 1
+    dandelion:
+      income: 1
+      points: 0
+      experience: 1
+    dark_oak_boat:
+      income: 1
+      points: 0
+      experience: 1
+    dark_oak_button:
+      income: 1
+      points: 0
+      experience: 1
+    dark_oak_door:
+      income: 1
+      points: 0
+      experience: 1
+    dark_oak_fence_gate:
+      income: 1
+      points: 0
+      experience: 1
+    dark_oak_fence:
+      income: 1
+      points: 0
+      experience: 1
+    dark_oak_leaves:
+      income: 1
+      points: 0
+      experience: 1
+    dark_oak_log:
+      income: 1
+      points: 0
+      experience: 1
+    dark_oak_planks:
+      income: 1
+      points: 0
+      experience: 1
+    dark_oak_pressure_plate:
+      income: 1
+      points: 0
+      experience: 1
+    dark_oak_sapling:
+      income: 1
+      points: 0
+      experience: 1
+    dark_oak_sign:
+      income: 1
+      points: 0
+      experience: 1
+    dark_oak_slab:
+      income: 1
+      points: 0
+      experience: 1
+    dark_oak_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    dark_oak_trapdoor:
+      income: 1
+      points: 0
+      experience: 1
+    dark_oak_wood:
+      income: 1
+      points: 0
+      experience: 1
+    dark_prismarine_slab:
+      income: 1
+      points: 0
+      experience: 1
+    dark_prismarine_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    dark_prismarine:
+      income: 1
+      points: 0
+      experience: 1
+    daylight_detector:
+      income: 1
+      points: 0
+      experience: 1
+    dead_brain_coral_block:
+      income: 1
+      points: 0
+      experience: 1
+    dead_brain_coral_fan:
+      income: 1
+      points: 0
+      experience: 1
+    dead_brain_coral:
+      income: 1
+      points: 0
+      experience: 1
+    dead_bubble_coral_block:
+      income: 1
+      points: 0
+      experience: 1
+    dead_bubble_coral_fan:
+      income: 1
+      points: 0
+      experience: 1
+    dead_bubble_coral:
+      income: 1
+      points: 0
+      experience: 1
+    dead_bush:
+      income: 1
+      points: 0
+      experience: 1
+    dead_fire_coral_block:
+      income: 1
+      points: 0
+      experience: 1
+    dead_fire_coral_fan:
+      income: 1
+      points: 0
+      experience: 1
+    dead_fire_coral:
+      income: 1
+      points: 0
+      experience: 1
+    dead_horn_coral_block:
+      income: 1
+      points: 0
+      experience: 1
+    dead_horn_coral_fan:
+      income: 1
+      points: 0
+      experience: 1
+    dead_horn_coral:
+      income: 1
+      points: 0
+      experience: 1
+    dead_tube_coral_block:
+      income: 1
+      points: 0
+      experience: 1
+    dead_tube_coral_fan:
+      income: 1
+      points: 0
+      experience: 1
+    dead_tube_coral:
+      income: 1
+      points: 0
+      experience: 1
+    detector_rail:
+      income: 1
+      points: 0
+      experience: 1
+    diamond_axe:
+      income: 1
+      points: 0
+      experience: 1
+    diamond_block:
+      income: 1
+      points: 0
+      experience: 1
+    diamond_boots:
+      income: 1
+      points: 0
+      experience: 1
+    diamond_chestplate:
+      income: 1
+      points: 0
+      experience: 1
+    diamond_helmet:
+      income: 1
+      points: 0
+      experience: 1
+    diamond_hoe:
+      income: 1
+      points: 0
+      experience: 1
+    diamond_horse_armor:
+      income: 1
+      points: 0
+      experience: 1
+    diamond_leggings:
+      income: 1
+      points: 0
+      experience: 1
+    diamond_ore:
+      income: 1
+      points: 0
+      experience: 1
+    diamond_pickaxe:
+      income: 1
+      points: 0
+      experience: 1
+    diamond_shovel:
+      income: 1
+      points: 0
+      experience: 1
+    diamond_sword:
+      income: 1
+      points: 0
+      experience: 1
+    diamond:
+      income: 1
+      points: 0
+      experience: 1
+    diorite_slab:
+      income: 1
+      points: 0
+      experience: 1
+    diorite_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    diorite_wall:
+      income: 1
+      points: 0
+      experience: 1
+    diorite:
+      income: 1
+      points: 0
+      experience: 1
+    dirt:
+      income: 1
+      points: 0
+      experience: 1
+    dispenser:
+      income: 1
+      points: 0
+      experience: 1
+    dolphin_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    donkey_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    dragon_breath:
+      income: 1
+      points: 0
+      experience: 1
+    dragon_egg:
+      income: 1
+      points: 0
+      experience: 1
+    dragon_head:
+      income: 1
+      points: 0
+      experience: 1
+    dried_kelp_block:
+      income: 1
+      points: 0
+      experience: 1
+    dried_kelp:
+      income: 1
+      points: 0
+      experience: 1
+    dropper:
+      income: 1
+      points: 0
+      experience: 1
+    drowned_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    egg:
+      income: 1
+      points: 0
+      experience: 1
+    elder_guardian_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    elytra:
+      income: 1
+      points: 0
+      experience: 1
+    emerald_block:
+      income: 1
+      points: 0
+      experience: 1
+    emerald_ore:
+      income: 1
+      points: 0
+      experience: 1
+    emerald:
+      income: 1
+      points: 0
+      experience: 1
+    enchanted_book:
+      income: 1
+      points: 0
+      experience: 1
+    enchanted_golden_apple:
+      income: 1
+      points: 0
+      experience: 1
+    enchanting_table:
+      income: 1
+      points: 0
+      experience: 1
+    end_crystal:
+      income: 1
+      points: 0
+      experience: 1
+    end_portal_frame:
+      income: 1
+      points: 0
+      experience: 1
+    end_rod:
+      income: 1
+      points: 0
+      experience: 1
+    end_stone_brick_slab:
+      income: 1
+      points: 0
+      experience: 1
+    end_stone_brick_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    end_stone_brick_wall:
+      income: 1
+      points: 0
+      experience: 1
+    end_stone_bricks:
+      income: 1
+      points: 0
+      experience: 1
+    end_stone:
+      income: 1
+      points: 0
+      experience: 1
+    ender_chest:
+      income: 1
+      points: 0
+      experience: 1
+    ender_eye:
+      income: 1
+      points: 0
+      experience: 1
+    ender_pearl:
+      income: 1
+      points: 0
+      experience: 1
+    enderman_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    endermite_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    evoker_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    experience_bottle:
+      income: 1
+      points: 0
+      experience: 1
+    farmland:
+      income: 1
+      points: 0
+      experience: 1
+    feather:
+      income: 1
+      points: 0
+      experience: 1
+    fermented_spider_eye:
+      income: 1
+      points: 0
+      experience: 1
+    fern:
+      income: 1
+      points: 0
+      experience: 1
+    fire_charge:
+      income: 1
+      points: 0
+      experience: 1
+    fire_coral_block:
+      income: 1
+      points: 0
+      experience: 1
+    fire_coral_fan:
+      income: 1
+      points: 0
+      experience: 1
+    fire_coral:
+      income: 1
+      points: 0
+      experience: 1
+    firework_rocket:
+      income: 1
+      points: 0
+      experience: 1
+    firework_star:
+      income: 1
+      points: 0
+      experience: 1
+    fishing_rod:
+      income: 1
+      points: 0
+      experience: 1
+    fletching_table:
+      income: 1
+      points: 0
+      experience: 1
+    flint_and_steel:
+      income: 1
+      points: 0
+      experience: 1
+    flint:
+      income: 1
+      points: 0
+      experience: 1
+    flower_banner_pattern:
+      income: 1
+      points: 0
+      experience: 1
+    flower_pot:
+      income: 1
+      points: 0
+      experience: 1
+    fox_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    furnace_minecart:
+      income: 1
+      points: 0
+      experience: 1
+    furnace:
+      income: 1
+      points: 0
+      experience: 1
+    ghast_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    ghast_tear:
+      income: 1
+      points: 0
+      experience: 1
+    gilded_blackstone:
+      income: 1
+      points: 0
+      experience: 1
+    glass_bottle:
+      income: 1
+      points: 0
+      experience: 1
+    glass_pane:
+      income: 1
+      points: 0
+      experience: 1
+    glass:
+      income: 1
+      points: 0
+      experience: 1
+    glistering_melon_slice:
+      income: 1
+      points: 0
+      experience: 1
+    globe_banner_pattern:
+      income: 1
+      points: 0
+      experience: 1
+    glowstone_dust:
+      income: 1
+      points: 0
+      experience: 1
+    glowstone:
+      income: 1
+      points: 0
+      experience: 1
+    gold_block:
+      income: 1
+      points: 0
+      experience: 1
+    gold_ingot:
+      income: 1
+      points: 0
+      experience: 1
+    gold_nugget:
+      income: 1
+      points: 0
+      experience: 1
+    gold_ore:
+      income: 1
+      points: 0
+      experience: 1
+    golden_apple:
+      income: 1
+      points: 0
+      experience: 1
+    golden_axe:
+      income: 1
+      points: 0
+      experience: 1
+    golden_boots:
+      income: 1
+      points: 0
+      experience: 1
+    golden_carrot:
+      income: 1
+      points: 0
+      experience: 1
+    golden_chestplate:
+      income: 1
+      points: 0
+      experience: 1
+    golden_helmet:
+      income: 1
+      points: 0
+      experience: 1
+    golden_hoe:
+      income: 1
+      points: 0
+      experience: 1
+    golden_horse_armor:
+      income: 1
+      points: 0
+      experience: 1
+    golden_leggings:
+      income: 1
+      points: 0
+      experience: 1
+    golden_pickaxe:
+      income: 1
+      points: 0
+      experience: 1
+    golden_shovel:
+      income: 1
+      points: 0
+      experience: 1
+    golden_sword:
+      income: 1
+      points: 0
+      experience: 1
+    granite_slab:
+      income: 1
+      points: 0
+      experience: 1
+    granite_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    granite_wall:
+      income: 1
+      points: 0
+      experience: 1
+    granite:
+      income: 1
+      points: 0
+      experience: 1
+    grass_block:
+      income: 1
+      points: 0
+      experience: 1
+    grass_path:
+      income: 1
+      points: 0
+      experience: 1
+    grass:
+      income: 1
+      points: 0
+      experience: 1
+    gravel:
+      income: 1
+      points: 0
+      experience: 1
+    gray_banner:
+      income: 1
+      points: 0
+      experience: 1
+    gray_bed:
+      income: 1
+      points: 0
+      experience: 1
+    gray_carpet:
+      income: 1
+      points: 0
+      experience: 1
+    gray_concrete_powder:
+      income: 1
+      points: 0
+      experience: 1
+    gray_concrete:
+      income: 1
+      points: 0
+      experience: 1
+    gray_dye:
+      income: 1
+      points: 0
+      experience: 1
+    gray_glazed_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    gray_shulker_box:
+      income: 1
+      points: 0
+      experience: 1
+    gray_stained_glass_pane:
+      income: 1
+      points: 0
+      experience: 1
+    gray_stained_glass:
+      income: 1
+      points: 0
+      experience: 1
+    gray_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    gray_wool:
+      income: 1
+      points: 0
+      experience: 1
+    green_banner:
+      income: 1
+      points: 0
+      experience: 1
+    green_bed:
+      income: 1
+      points: 0
+      experience: 1
+    green_carpet:
+      income: 1
+      points: 0
+      experience: 1
+    green_concrete_powder:
+      income: 1
+      points: 0
+      experience: 1
+    green_concrete:
+      income: 1
+      points: 0
+      experience: 1
+    green_dye:
+      income: 1
+      points: 0
+      experience: 1
+    green_glazed_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    green_shulker_box:
+      income: 1
+      points: 0
+      experience: 1
+    green_stained_glass_pane:
+      income: 1
+      points: 0
+      experience: 1
+    green_stained_glass:
+      income: 1
+      points: 0
+      experience: 1
+    green_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    green_wool:
+      income: 1
+      points: 0
+      experience: 1
+    grindstone:
+      income: 1
+      points: 0
+      experience: 1
+    guardian_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    gunpowder:
+      income: 1
+      points: 0
+      experience: 1
+    hay_block:
+      income: 1
+      points: 0
+      experience: 1
+    heart_of_the_sea:
+      income: 1
+      points: 0
+      experience: 1
+    heavy_weighted_pressure_plate:
+      income: 1
+      points: 0
+      experience: 1
+    hoglin_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    honey_block:
+      income: 1
+      points: 0
+      experience: 1
+    honey_bottle:
+      income: 1
+      points: 0
+      experience: 1
+    honeycomb_block:
+      income: 1
+      points: 0
+      experience: 1
+    honeycomb:
+      income: 1
+      points: 0
+      experience: 1
+    hopper_minecart:
+      income: 1
+      points: 0
+      experience: 1
+    hopper:
+      income: 1
+      points: 0
+      experience: 1
+    horn_coral_block:
+      income: 1
+      points: 0
+      experience: 1
+    horn_coral_fan:
+      income: 1
+      points: 0
+      experience: 1
+    horn_coral:
+      income: 1
+      points: 0
+      experience: 1
+    horse_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    husk_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    ice:
+      income: 1
+      points: 0
+      experience: 1
+    ink_sac:
+      income: 1
+      points: 0
+      experience: 1
+    iron_axe:
+      income: 1
+      points: 0
+      experience: 1
+    iron_bars:
+      income: 1
+      points: 0
+      experience: 1
+    iron_block:
+      income: 1
+      points: 0
+      experience: 1
+    iron_boots:
+      income: 1
+      points: 0
+      experience: 1
+    iron_chestplate:
+      income: 1
+      points: 0
+      experience: 1
+    iron_door:
+      income: 1
+      points: 0
+      experience: 1
+    iron_helmet:
+      income: 1
+      points: 0
+      experience: 1
+    iron_hoe:
+      income: 1
+      points: 0
+      experience: 1
+    iron_horse_armor:
+      income: 1
+      points: 0
+      experience: 1
+    iron_ingot:
+      income: 1
+      points: 0
+      experience: 1
+    iron_leggings:
+      income: 1
+      points: 0
+      experience: 1
+    iron_nugget:
+      income: 1
+      points: 0
+      experience: 1
+    iron_ore:
+      income: 1
+      points: 0
+      experience: 1
+    iron_pickaxe:
+      income: 1
+      points: 0
+      experience: 1
+    iron_shovel:
+      income: 1
+      points: 0
+      experience: 1
+    iron_sword:
+      income: 1
+      points: 0
+      experience: 1
+    iron_trapdoor:
+      income: 1
+      points: 0
+      experience: 1
+    item_frame:
+      income: 1
+      points: 0
+      experience: 1
+    jack_o_lantern:
+      income: 1
+      points: 0
+      experience: 1
+    jukebox:
+      income: 1
+      points: 0
+      experience: 1
+    jungle_boat:
+      income: 1
+      points: 0
+      experience: 1
+    jungle_button:
+      income: 1
+      points: 0
+      experience: 1
+    jungle_door:
+      income: 1
+      points: 0
+      experience: 1
+    jungle_fence_gate:
+      income: 1
+      points: 0
+      experience: 1
+    jungle_fence:
+      income: 1
+      points: 0
+      experience: 1
+    jungle_leaves:
+      income: 1
+      points: 0
+      experience: 1
+    jungle_log:
+      income: 1
+      points: 0
+      experience: 1
+    jungle_planks:
+      income: 1
+      points: 0
+      experience: 1
+    jungle_pressure_plate:
+      income: 1
+      points: 0
+      experience: 1
+    jungle_sapling:
+      income: 1
+      points: 0
+      experience: 1
+    jungle_sign:
+      income: 1
+      points: 0
+      experience: 1
+    jungle_slab:
+      income: 1
+      points: 0
+      experience: 1
+    jungle_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    jungle_trapdoor:
+      income: 1
+      points: 0
+      experience: 1
+    jungle_wood:
+      income: 1
+      points: 0
+      experience: 1
+    kelp:
+      income: 1
+      points: 0
+      experience: 1
+    ladder:
+      income: 1
+      points: 0
+      experience: 1
+    lantern:
+      income: 1
+      points: 0
+      experience: 1
+    lapis_block:
+      income: 1
+      points: 0
+      experience: 1
+    lapis_lazuli:
+      income: 1
+      points: 0
+      experience: 1
+    lapis_ore:
+      income: 1
+      points: 0
+      experience: 1
+    large_fern:
+      income: 1
+      points: 0
+      experience: 1
+    lava_bucket:
+      income: 1
+      points: 0
+      experience: 1
+    lava:
+      income: 1
+      points: 0
+      experience: 1
+    lead:
+      income: 1
+      points: 0
+      experience: 1
+    leather_boots:
+      income: 1
+      points: 0
+      experience: 1
+    leather_chestplate:
+      income: 1
+      points: 0
+      experience: 1
+    leather_helmet:
+      income: 1
+      points: 0
+      experience: 1
+    leather_horse_armor:
+      income: 1
+      points: 0
+      experience: 1
+    leather_leggings:
+      income: 1
+      points: 0
+      experience: 1
+    leather:
+      income: 1
+      points: 0
+      experience: 1
+    lectern:
+      income: 1
+      points: 0
+      experience: 1
+    lever:
+      income: 1
+      points: 0
+      experience: 1
+    light_blue_banner:
+      income: 1
+      points: 0
+      experience: 1
+    light_blue_bed:
+      income: 1
+      points: 0
+      experience: 1
+    light_blue_carpet:
+      income: 1
+      points: 0
+      experience: 1
+    light_blue_concrete_powder:
+      income: 1
+      points: 0
+      experience: 1
+    light_blue_concrete:
+      income: 1
+      points: 0
+      experience: 1
+    light_blue_dye:
+      income: 1
+      points: 0
+      experience: 1
+    light_blue_glazed_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    light_blue_shulker_box:
+      income: 1
+      points: 0
+      experience: 1
+    light_blue_stained_glass_pane:
+      income: 1
+      points: 0
+      experience: 1
+    light_blue_stained_glass:
+      income: 1
+      points: 0
+      experience: 1
+    light_blue_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    light_blue_wool:
+      income: 1
+      points: 0
+      experience: 1
+    light_gray_banner:
+      income: 1
+      points: 0
+      experience: 1
+    light_gray_bed:
+      income: 1
+      points: 0
+      experience: 1
+    light_gray_carpet:
+      income: 1
+      points: 0
+      experience: 1
+    light_gray_concrete_powder:
+      income: 1
+      points: 0
+      experience: 1
+    light_gray_concrete:
+      income: 1
+      points: 0
+      experience: 1
+    light_gray_dye:
+      income: 1
+      points: 0
+      experience: 1
+    light_gray_glazed_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    light_gray_shulker_box:
+      income: 1
+      points: 0
+      experience: 1
+    light_gray_stained_glass_pane:
+      income: 1
+      points: 0
+      experience: 1
+    light_gray_stained_glass:
+      income: 1
+      points: 0
+      experience: 1
+    light_gray_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    light_gray_wool:
+      income: 1
+      points: 0
+      experience: 1
+    light_weighted_pressure_plate:
+      income: 1
+      points: 0
+      experience: 1
+    lilac:
+      income: 1
+      points: 0
+      experience: 1
+    lily_of_the_valley:
+      income: 1
+      points: 0
+      experience: 1
+    lily_pad:
+      income: 1
+      points: 0
+      experience: 1
+    lime_banner:
+      income: 1
+      points: 0
+      experience: 1
+    lime_bed:
+      income: 1
+      points: 0
+      experience: 1
+    lime_carpet:
+      income: 1
+      points: 0
+      experience: 1
+    lime_concrete_powder:
+      income: 1
+      points: 0
+      experience: 1
+    lime_concrete:
+      income: 1
+      points: 0
+      experience: 1
+    lime_dye:
+      income: 1
+      points: 0
+      experience: 1
+    lime_glazed_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    lime_shulker_box:
+      income: 1
+      points: 0
+      experience: 1
+    lime_stained_glass_pane:
+      income: 1
+      points: 0
+      experience: 1
+    lime_stained_glass:
+      income: 1
+      points: 0
+      experience: 1
+    lime_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    lime_wool:
+      income: 1
+      points: 0
+      experience: 1
+    llama_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    lodestone:
+      income: 1
+      points: 0
+      experience: 1
+    loom:
+      income: 1
+      points: 0
+      experience: 1
+    magenta_banner:
+      income: 1
+      points: 0
+      experience: 1
+    magenta_bed:
+      income: 1
+      points: 0
+      experience: 1
+    magenta_carpet:
+      income: 1
+      points: 0
+      experience: 1
+    magenta_concrete_powder:
+      income: 1
+      points: 0
+      experience: 1
+    magenta_concrete:
+      income: 1
+      points: 0
+      experience: 1
+    magenta_dye:
+      income: 1
+      points: 0
+      experience: 1
+    magenta_glazed_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    magenta_shulker_box:
+      income: 1
+      points: 0
+      experience: 1
+    magenta_stained_glass_pane:
+      income: 1
+      points: 0
+      experience: 1
+    magenta_stained_glass:
+      income: 1
+      points: 0
+      experience: 1
+    magenta_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    magenta_wool:
+      income: 1
+      points: 0
+      experience: 1
+    magma_block:
+      income: 1
+      points: 0
+      experience: 1
+    magma_cream:
+      income: 1
+      points: 0
+      experience: 1
+    magma_cube_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    map:
+      income: 1
+      points: 0
+      experience: 1
+    melon_seeds:
+      income: 1
+      points: 0
+      experience: 1
+    melon_slice:
+      income: 1
+      points: 0
+      experience: 1
+    melon:
+      income: 1
+      points: 0
+      experience: 1
+    milk_bucket:
+      income: 1
+      points: 0
+      experience: 1
+    minecart:
+      income: 1
+      points: 0
+      experience: 1
+    mojang_banner_pattern:
+      income: 1
+      points: 0
+      experience: 1
+    mooshroom_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    mossy_cobblestone_slab:
+      income: 1
+      points: 0
+      experience: 1
+    mossy_cobblestone_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    mossy_cobblestone_wall:
+      income: 1
+      points: 0
+      experience: 1
+    mossy_cobblestone:
+      income: 1
+      points: 0
+      experience: 1
+    mossy_stone_brick_slab:
+      income: 1
+      points: 0
+      experience: 1
+    mossy_stone_brick_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    mossy_stone_brick_wall:
+      income: 1
+      points: 0
+      experience: 1
+    mossy_stone_bricks:
+      income: 1
+      points: 0
+      experience: 1
+    mule_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    mushroom_stem:
+      income: 1
+      points: 0
+      experience: 1
+    mushroom_stew:
+      income: 1
+      points: 0
+      experience: 1
+    mutton:
+      income: 1
+      points: 0
+      experience: 1
+    mycelium:
+      income: 1
+      points: 0
+      experience: 1
+    name_tag:
+      income: 1
+      points: 0
+      experience: 1
+    nautilus_shell:
+      income: 1
+      points: 0
+      experience: 1
+    nether_brick_fence:
+      income: 1
+      points: 0
+      experience: 1
+    nether_brick_slab:
+      income: 1
+      points: 0
+      experience: 1
+    nether_brick_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    nether_brick_wall:
+      income: 1
+      points: 0
+      experience: 1
+    nether_brick:
+      income: 1
+      points: 0
+      experience: 1
+    nether_bricks:
+      income: 1
+      points: 0
+      experience: 1
+    nether_gold_ore:
+      income: 1
+      points: 0
+      experience: 1
+    nether_quartz_ore:
+      income: 1
+      points: 0
+      experience: 1
+    nether_sprouts:
+      income: 1
+      points: 0
+      experience: 1
+    nether_star:
+      income: 1
+      points: 0
+      experience: 1
+    nether_wart_block:
+      income: 1
+      points: 0
+      experience: 1
+    nether_wart:
+      income: 1
+      points: 0
+      experience: 1
+    netherite_axe:
+      income: 1
+      points: 0
+      experience: 1
+    netherite_block:
+      income: 1
+      points: 0
+      experience: 1
+    netherite_boots:
+      income: 1
+      points: 0
+      experience: 1
+    netherite_chestplate:
+      income: 1
+      points: 0
+      experience: 1
+    netherite_helmet:
+      income: 1
+      points: 0
+      experience: 1
+    netherite_hoe:
+      income: 1
+      points: 0
+      experience: 1
+    netherite_ingot:
+      income: 1
+      points: 0
+      experience: 1
+    netherite_leggings:
+      income: 1
+      points: 0
+      experience: 1
+    netherite_pickaxe:
+      income: 1
+      points: 0
+      experience: 1
+    netherite_scrap:
+      income: 1
+      points: 0
+      experience: 1
+    netherite_shovel:
+      income: 1
+      points: 0
+      experience: 1
+    netherite_sword:
+      income: 1
+      points: 0
+      experience: 1
+    netherrack:
+      income: 1
+      points: 0
+      experience: 1
+    note_block:
+      income: 1
+      points: 0
+      experience: 1
+    oak_boat:
+      income: 1
+      points: 0
+      experience: 1
+    oak_button:
+      income: 1
+      points: 0
+      experience: 1
+    oak_door:
+      income: 1
+      points: 0
+      experience: 1
+    oak_fence_gate:
+      income: 1
+      points: 0
+      experience: 1
+    oak_fence:
+      income: 1
+      points: 0
+      experience: 1
+    oak_leaves:
+      income: 1
+      points: 0
+      experience: 1
+    oak_log:
+      income: 1
+      points: 0
+      experience: 1
+    oak_planks:
+      income: 1
+      points: 0
+      experience: 1
+    oak_pressure_plate:
+      income: 1
+      points: 0
+      experience: 1
+    oak_sapling:
+      income: 1
+      points: 0
+      experience: 1
+    oak_sign:
+      income: 1
+      points: 0
+      experience: 1
+    oak_slab:
+      income: 1
+      points: 0
+      experience: 1
+    oak_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    oak_trapdoor:
+      income: 1
+      points: 0
+      experience: 1
+    oak_wood:
+      income: 1
+      points: 0
+      experience: 1
+    observer:
+      income: 1
+      points: 0
+      experience: 1
+    obsidian:
+      income: 1
+      points: 0
+      experience: 1
+    ocelot_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    orange_banner:
+      income: 1
+      points: 0
+      experience: 1
+    orange_bed:
+      income: 1
+      points: 0
+      experience: 1
+    orange_carpet:
+      income: 1
+      points: 0
+      experience: 1
+    orange_concrete_powder:
+      income: 1
+      points: 0
+      experience: 1
+    orange_concrete:
+      income: 1
+      points: 0
+      experience: 1
+    orange_dye:
+      income: 1
+      points: 0
+      experience: 1
+    orange_glazed_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    orange_shulker_box:
+      income: 1
+      points: 0
+      experience: 1
+    orange_stained_glass_pane:
+      income: 1
+      points: 0
+      experience: 1
+    orange_stained_glass:
+      income: 1
+      points: 0
+      experience: 1
+    orange_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    orange_tulip:
+      income: 1
+      points: 0
+      experience: 1
+    orange_wool:
+      income: 1
+      points: 0
+      experience: 1
+    oxeye_daisy:
+      income: 1
+      points: 0
+      experience: 1
+    packed_ice:
+      income: 1
+      points: 0
+      experience: 1
+    painting:
+      income: 1
+      points: 0
+      experience: 1
+    panda_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    paper:
+      income: 1
+      points: 0
+      experience: 1
+    parrot_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    peony:
+      income: 1
+      points: 0
+      experience: 1
+    petrified_oak_slab:
+      income: 1
+      points: 0
+      experience: 1
+    phantom_membrane:
+      income: 1
+      points: 0
+      experience: 1
+    phantom_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    pig_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    piglin_banner_pattern:
+      income: 1
+      points: 0
+      experience: 1
+    piglin_brute_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    piglin_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    pillager_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    pink_banner:
+      income: 1
+      points: 0
+      experience: 1
+    pink_bed:
+      income: 1
+      points: 0
+      experience: 1
+    pink_carpet:
+      income: 1
+      points: 0
+      experience: 1
+    pink_concrete_powder:
+      income: 1
+      points: 0
+      experience: 1
+    pink_concrete:
+      income: 1
+      points: 0
+      experience: 1
+    pink_dye:
+      income: 1
+      points: 0
+      experience: 1
+    pink_glazed_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    pink_shulker_box:
+      income: 1
+      points: 0
+      experience: 1
+    pink_stained_glass_pane:
+      income: 1
+      points: 0
+      experience: 1
+    pink_stained_glass:
+      income: 1
+      points: 0
+      experience: 1
+    pink_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    pink_tulip:
+      income: 1
+      points: 0
+      experience: 1
+    pink_wool:
+      income: 1
+      points: 0
+      experience: 1
+    piston:
+      income: 1
+      points: 0
+      experience: 1
+    player_head:
+      income: 1
+      points: 0
+      experience: 1
+    podzol:
+      income: 1
+      points: 0
+      experience: 1
+    poisonous_potato:
+      income: 1
+      points: 0
+      experience: 1
+    polar_bear_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    polished_andesite_slab:
+      income: 1
+      points: 0
+      experience: 1
+    polished_andesite_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    polished_andesite:
+      income: 1
+      points: 0
+      experience: 1
+    polished_basalt:
+      income: 1
+      points: 0
+      experience: 1
+    polished_blackstone_brick_slab:
+      income: 1
+      points: 0
+      experience: 1
+    polished_blackstone_brick_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    polished_blackstone_brick_wall:
+      income: 1
+      points: 0
+      experience: 1
+    polished_blackstone_bricks:
+      income: 1
+      points: 0
+      experience: 1
+    polished_blackstone_button:
+      income: 1
+      points: 0
+      experience: 1
+    polished_blackstone_pressure_plate:
+      income: 1
+      points: 0
+      experience: 1
+    polished_blackstone_slab:
+      income: 1
+      points: 0
+      experience: 1
+    polished_blackstone_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    polished_blackstone_wall:
+      income: 1
+      points: 0
+      experience: 1
+    polished_blackstone:
+      income: 1
+      points: 0
+      experience: 1
+    polished_diorite_slab:
+      income: 1
+      points: 0
+      experience: 1
+    polished_diorite_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    polished_diorite:
+      income: 1
+      points: 0
+      experience: 1
+    polished_granite_slab:
+      income: 1
+      points: 0
+      experience: 1
+    polished_granite_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    polished_granite:
+      income: 1
+      points: 0
+      experience: 1
+    popped_chorus_fruit:
+      income: 1
+      points: 0
+      experience: 1
+    poppy:
+      income: 1
+      points: 0
+      experience: 1
+    porkchop:
+      income: 1
+      points: 0
+      experience: 1
+    potato:
+      income: 1
+      points: 0
+      experience: 1
+    potion:
+      income: 1
+      points: 0
+      experience: 1
+    powered_rail:
+      income: 1
+      points: 0
+      experience: 1
+    prismarine_brick_slab:
+      income: 1
+      points: 0
+      experience: 1
+    prismarine_brick_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    prismarine_bricks:
+      income: 1
+      points: 0
+      experience: 1
+    prismarine_crystals:
+      income: 1
+      points: 0
+      experience: 1
+    prismarine_shard:
+      income: 1
+      points: 0
+      experience: 1
+    prismarine_slab:
+      income: 1
+      points: 0
+      experience: 1
+    prismarine_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    prismarine_wall:
+      income: 1
+      points: 0
+      experience: 1
+    prismarine:
+      income: 1
+      points: 0
+      experience: 1
+    pufferfish_bucket:
+      income: 1
+      points: 0
+      experience: 1
+    pufferfish_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    pufferfish:
+      income: 1
+      points: 0
+      experience: 1
+    pumpkin_pie:
+      income: 1
+      points: 0
+      experience: 1
+    pumpkin_seeds:
+      income: 1
+      points: 0
+      experience: 1
+    pumpkin:
+      income: 1
+      points: 0
+      experience: 1
+    purple_banner:
+      income: 1
+      points: 0
+      experience: 1
+    purple_bed:
+      income: 1
+      points: 0
+      experience: 1
+    purple_carpet:
+      income: 1
+      points: 0
+      experience: 1
+    purple_concrete_powder:
+      income: 1
+      points: 0
+      experience: 1
+    purple_concrete:
+      income: 1
+      points: 0
+      experience: 1
+    purple_dye:
+      income: 1
+      points: 0
+      experience: 1
+    purple_glazed_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    purple_shulker_box:
+      income: 1
+      points: 0
+      experience: 1
+    purple_stained_glass_pane:
+      income: 1
+      points: 0
+      experience: 1
+    purple_stained_glass:
+      income: 1
+      points: 0
+      experience: 1
+    purple_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    purple_wool:
+      income: 1
+      points: 0
+      experience: 1
+    purpur_block:
+      income: 1
+      points: 0
+      experience: 1
+    purpur_pillar:
+      income: 1
+      points: 0
+      experience: 1
+    purpur_slab:
+      income: 1
+      points: 0
+      experience: 1
+    purpur_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    quartz_block:
+      income: 1
+      points: 0
+      experience: 1
+    quartz_bricks:
+      income: 1
+      points: 0
+      experience: 1
+    quartz_pillar:
+      income: 1
+      points: 0
+      experience: 1
+    quartz_slab:
+      income: 1
+      points: 0
+      experience: 1
+    quartz_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    quartz:
+      income: 1
+      points: 0
+      experience: 1
+    rabbit_foot:
+      income: 1
+      points: 0
+      experience: 1
+    rabbit_hide:
+      income: 1
+      points: 0
+      experience: 1
+    rabbit_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    rabbit_stew:
+      income: 1
+      points: 0
+      experience: 1
+    rabbit:
+      income: 1
+      points: 0
+      experience: 1
+    rail:
+      income: 1
+      points: 0
+      experience: 1
+    ravager_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    red_banner:
+      income: 1
+      points: 0
+      experience: 1
+    red_bed:
+      income: 1
+      points: 0
+      experience: 1
+    red_carpet:
+      income: 1
+      points: 0
+      experience: 1
+    red_concrete_powder:
+      income: 1
+      points: 0
+      experience: 1
+    red_concrete:
+      income: 1
+      points: 0
+      experience: 1
+    red_dye:
+      income: 1
+      points: 0
+      experience: 1
+    red_glazed_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    red_mushroom_block:
+      income: 1
+      points: 0
+      experience: 1
+    red_nether_brick_slab:
+      income: 1
+      points: 0
+      experience: 1
+    red_nether_brick_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    red_nether_brick_wall:
+      income: 1
+      points: 0
+      experience: 1
+    red_nether_bricks:
+      income: 1
+      points: 0
+      experience: 1
+    red_sand:
+      income: 1
+      points: 0
+      experience: 1
+    red_sandstone_slab:
+      income: 1
+      points: 0
+      experience: 1
+    red_sandstone_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    red_sandstone_wall:
+      income: 1
+      points: 0
+      experience: 1
+    red_sandstone:
+      income: 1
+      points: 0
+      experience: 1
+    red_shulker_box:
+      income: 1
+      points: 0
+      experience: 1
+    red_stained_glass_pane:
+      income: 1
+      points: 0
+      experience: 1
+    red_stained_glass:
+      income: 1
+      points: 0
+      experience: 1
+    red_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    red_tulip:
+      income: 1
+      points: 0
+      experience: 1
+    red_wool:
+      income: 1
+      points: 0
+      experience: 1
+    redstone_block:
+      income: 1
+      points: 0
+      experience: 1
+    redstone_lamp:
+      income: 1
+      points: 0
+      experience: 1
+    redstone_ore:
+      income: 1
+      points: 0
+      experience: 1
+    redstone_torch:
+      income: 1
+      points: 0
+      experience: 1
+    redstone:
+      income: 1
+      points: 0
+      experience: 1
+    repeater:
+      income: 1
+      points: 0
+      experience: 1
+    repeating_command_block:
+      income: 1
+      points: 0
+      experience: 1
+    respawn_anchor:
+      income: 1
+      points: 0
+      experience: 1
+    rose_bush:
+      income: 1
+      points: 0
+      experience: 1
+    rotten_flesh:
+      income: 1
+      points: 0
+      experience: 1
+    saddle:
+      income: 1
+      points: 0
+      experience: 1
+    salmon_bucket:
+      income: 1
+      points: 0
+      experience: 1
+    salmon_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    salmon:
+      income: 1
+      points: 0
+      experience: 1
+    sand:
+      income: 1
+      points: 0
+      experience: 1
+    sandstone_slab:
+      income: 1
+      points: 0
+      experience: 1
+    sandstone_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    sandstone_wall:
+      income: 1
+      points: 0
+      experience: 1
+    sandstone:
+      income: 1
+      points: 0
+      experience: 1
+    scaffolding:
+      income: 1
+      points: 0
+      experience: 1
+    scute:
+      income: 1
+      points: 0
+      experience: 1
+    sea_lantern:
+      income: 1
+      points: 0
+      experience: 1
+    sea_pickle:
+      income: 1
+      points: 0
+      experience: 1
+    seagrass:
+      income: 1
+      points: 0
+      experience: 1
+    shears:
+      income: 1
+      points: 0
+      experience: 1
+    sheep_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    shield:
+      income: 1
+      points: 0
+      experience: 1
+    shroomlight:
+      income: 1
+      points: 0
+      experience: 1
+    shulker_box:
+      income: 1
+      points: 0
+      experience: 1
+    shulker_shell:
+      income: 1
+      points: 0
+      experience: 1
+    shulker_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    silverfish_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    skeleton_horse_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    skeleton_skull:
+      income: 1
+      points: 0
+      experience: 1
+    skeleton_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    skull_banner_pattern:
+      income: 1
+      points: 0
+      experience: 1
+    slime_ball:
+      income: 1
+      points: 0
+      experience: 1
+    slime_block:
+      income: 1
+      points: 0
+      experience: 1
+    slime_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    smithing_table:
+      income: 1
+      points: 0
+      experience: 1
+    smoker:
+      income: 1
+      points: 0
+      experience: 1
+    smooth_quartz_slab:
+      income: 1
+      points: 0
+      experience: 1
+    smooth_quartz_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    smooth_quartz:
+      income: 1
+      points: 0
+      experience: 1
+    smooth_red_sandstone_slab:
+      income: 1
+      points: 0
+      experience: 1
+    smooth_red_sandstone_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    smooth_red_sandstone:
+      income: 1
+      points: 0
+      experience: 1
+    smooth_sandstone_slab:
+      income: 1
+      points: 0
+      experience: 1
+    smooth_sandstone_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    smooth_sandstone:
+      income: 1
+      points: 0
+      experience: 1
+    smooth_stone_slab:
+      income: 1
+      points: 0
+      experience: 1
+    smooth_stone:
+      income: 1
+      points: 0
+      experience: 1
+    snow_block:
+      income: 1
+      points: 0
+      experience: 1
+    snow:
+      income: 1
+      points: 0
+      experience: 1
+    snowball:
+      income: 1
+      points: 0
+      experience: 1
+    soul_campfire:
+      income: 1
+      points: 0
+      experience: 1
+    soul_lantern:
+      income: 1
+      points: 0
+      experience: 1
+    soul_sand:
+      income: 1
+      points: 0
+      experience: 1
+    soul_soil:
+      income: 1
+      points: 0
+      experience: 1
+    soul_torch:
+      income: 1
+      points: 0
+      experience: 1
+    spawner:
+      income: 1
+      points: 0
+      experience: 1
+    spectral_arrow:
+      income: 1
+      points: 0
+      experience: 1
+    spider_eye:
+      income: 1
+      points: 0
+      experience: 1
+    spider_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    sponge:
+      income: 1
+      points: 0
+      experience: 1
+    spruce_boat:
+      income: 1
+      points: 0
+      experience: 1
+    spruce_button:
+      income: 1
+      points: 0
+      experience: 1
+    spruce_door:
+      income: 1
+      points: 0
+      experience: 1
+    spruce_fence_gate:
+      income: 1
+      points: 0
+      experience: 1
+    spruce_fence:
+      income: 1
+      points: 0
+      experience: 1
+    spruce_leaves:
+      income: 1
+      points: 0
+      experience: 1
+    spruce_log:
+      income: 1
+      points: 0
+      experience: 1
+    spruce_planks:
+      income: 1
+      points: 0
+      experience: 1
+    spruce_pressure_plate:
+      income: 1
+      points: 0
+      experience: 1
+    spruce_sapling:
+      income: 1
+      points: 0
+      experience: 1
+    spruce_sign:
+      income: 1
+      points: 0
+      experience: 1
+    spruce_slab:
+      income: 1
+      points: 0
+      experience: 1
+    spruce_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    spruce_trapdoor:
+      income: 1
+      points: 0
+      experience: 1
+    spruce_wood:
+      income: 1
+      points: 0
+      experience: 1
+    squid_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    stick:
+      income: 1
+      points: 0
+      experience: 1
+    sticky_piston:
+      income: 1
+      points: 0
+      experience: 1
+    stone_axe:
+      income: 1
+      points: 0
+      experience: 1
+    stone_brick_slab:
+      income: 1
+      points: 0
+      experience: 1
+    stone_brick_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    stone_brick_wall:
+      income: 1
+      points: 0
+      experience: 1
+    stone_bricks:
+      income: 1
+      points: 0
+      experience: 1
+    stone_button:
+      income: 1
+      points: 0
+      experience: 1
+    stone_hoe:
+      income: 1
+      points: 0
+      experience: 1
+    stone_pickaxe:
+      income: 1
+      points: 0
+      experience: 1
+    stone_pressure_plate:
+      income: 1
+      points: 0
+      experience: 1
+    stone_shovel:
+      income: 1
+      points: 0
+      experience: 1
+    stone_slab:
+      income: 1
+      points: 0
+      experience: 1
+    stone_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    stone_sword:
+      income: 1
+      points: 0
+      experience: 1
+    stone:
+      income: 1
+      points: 0
+      experience: 1
+    stonecutter:
+      income: 1
+      points: 0
+      experience: 1
+    stray_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    strider_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    string:
+      income: 1
+      points: 0
+      experience: 1
+    stripped_acacia_log:
+      income: 1
+      points: 0
+      experience: 1
+    stripped_acacia_wood:
+      income: 1
+      points: 0
+      experience: 1
+    stripped_birch_log:
+      income: 1
+      points: 0
+      experience: 1
+    stripped_birch_wood:
+      income: 1
+      points: 0
+      experience: 1
+    stripped_crimson_hyphae:
+      income: 1
+      points: 0
+      experience: 1
+    stripped_crimson_stem:
+      income: 1
+      points: 0
+      experience: 1
+    stripped_dark_oak_log:
+      income: 1
+      points: 0
+      experience: 1
+    stripped_dark_oak_wood:
+      income: 1
+      points: 0
+      experience: 1
+    stripped_jungle_log:
+      income: 1
+      points: 0
+      experience: 1
+    stripped_jungle_wood:
+      income: 1
+      points: 0
+      experience: 1
+    stripped_oak_log:
+      income: 1
+      points: 0
+      experience: 1
+    stripped_oak_wood:
+      income: 1
+      points: 0
+      experience: 1
+    stripped_spruce_log:
+      income: 1
+      points: 0
+      experience: 1
+    stripped_spruce_wood:
+      income: 1
+      points: 0
+      experience: 1
+    stripped_warped_hyphae:
+      income: 1
+      points: 0
+      experience: 1
+    stripped_warped_stem:
+      income: 1
+      points: 0
+      experience: 1
+    structure_block:
+      income: 1
+      points: 0
+      experience: 1
+    structure_void:
+      income: 1
+      points: 0
+      experience: 1
+    sugar_cane:
+      income: 1
+      points: 0
+      experience: 1
+    sugar:
+      income: 1
+      points: 0
+      experience: 1
+    sunflower:
+      income: 1
+      points: 0
+      experience: 1
+    suspicious_stew:
+      income: 1
+      points: 0
+      experience: 1
+    sweet_berries:
+      income: 1
+      points: 0
+      experience: 1
+    tall_grass:
+      income: 1
+      points: 0
+      experience: 1
+    target:
+      income: 1
+      points: 0
+      experience: 1
+    terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    tnt_minecart:
+      income: 1
+      points: 0
+      experience: 1
+    tnt:
+      income: 1
+      points: 0
+      experience: 1
+    torch:
+      income: 1
+      points: 0
+      experience: 1
+    totem_of_undying:
+      income: 1
+      points: 0
+      experience: 1
+    trader_llama_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    trapped_chest:
+      income: 1
+      points: 0
+      experience: 1
+    trident:
+      income: 1
+      points: 0
+      experience: 1
+    tripwire_hook:
+      income: 1
+      points: 0
+      experience: 1
+    tropical_fish_bucket:
+      income: 1
+      points: 0
+      experience: 1
+    tropical_fish_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    tube_coral_block:
+      income: 1
+      points: 0
+      experience: 1
+    tube_coral_fan:
+      income: 1
+      points: 0
+      experience: 1
+    tube_coral:
+      income: 1
+      points: 0
+      experience: 1
+    turtle_egg:
+      income: 1
+      points: 0
+      experience: 1
+    turtle_helmet:
+      income: 1
+      points: 0
+      experience: 1
+    turtle_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    twisting_vines:
+      income: 1
+      points: 0
+      experience: 1
+    vex_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    villager_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    vindicator_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    vine:
+      income: 1
+      points: 0
+      experience: 1
+    wandering_trader_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    warped_button:
+      income: 1
+      points: 0
+      experience: 1
+    warped_door:
+      income: 1
+      points: 0
+      experience: 1
+    warped_fence_gate:
+      income: 1
+      points: 0
+      experience: 1
+    warped_fence:
+      income: 1
+      points: 0
+      experience: 1
+    warped_fungus_on_a_stick:
+      income: 1
+      points: 0
+      experience: 1
+    warped_fungus:
+      income: 1
+      points: 0
+      experience: 1
+    warped_hyphae:
+      income: 1
+      points: 0
+      experience: 1
+    warped_nylium:
+      income: 1
+      points: 0
+      experience: 1
+    warped_planks:
+      income: 1
+      points: 0
+      experience: 1
+    warped_pressure_plate:
+      income: 1
+      points: 0
+      experience: 1
+    warped_roots:
+      income: 1
+      points: 0
+      experience: 1
+    warped_sign:
+      income: 1
+      points: 0
+      experience: 1
+    warped_slab:
+      income: 1
+      points: 0
+      experience: 1
+    warped_stairs:
+      income: 1
+      points: 0
+      experience: 1
+    warped_stem:
+      income: 1
+      points: 0
+      experience: 1
+    warped_trapdoor:
+      income: 1
+      points: 0
+      experience: 1
+    warped_wart_block:
+      income: 1
+      points: 0
+      experience: 1
+    water_bucket:
+      income: 1
+      points: 0
+      experience: 1
+    water:
+      income: 1
+      points: 0
+      experience: 1
+    weeping_vines:
+      income: 1
+      points: 0
+      experience: 1
+    wet_sponge:
+      income: 1
+      points: 0
+      experience: 1
+    wheat_seeds:
+      income: 1
+      points: 0
+      experience: 1
+    wheat:
+      income: 1
+      points: 0
+      experience: 1
+    white_banner:
+      income: 1
+      points: 0
+      experience: 1
+    white_bed:
+      income: 1
+      points: 0
+      experience: 1
+    white_carpet:
+      income: 1
+      points: 0
+      experience: 1
+    white_concrete_powder:
+      income: 1
+      points: 0
+      experience: 1
+    white_concrete:
+      income: 1
+      points: 0
+      experience: 1
+    white_dye:
+      income: 1
+      points: 0
+      experience: 1
+    white_glazed_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    white_shulker_box:
+      income: 1
+      points: 0
+      experience: 1
+    white_stained_glass_pane:
+      income: 1
+      points: 0
+      experience: 1
+    white_stained_glass:
+      income: 1
+      points: 0
+      experience: 1
+    white_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    white_tulip:
+      income: 1
+      points: 0
+      experience: 1
+    white_wool:
+      income: 1
+      points: 0
+      experience: 1
+    witch_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    wither_rose:
+      income: 1
+      points: 0
+      experience: 1
+    wither_skeleton_skull:
+      income: 1
+      points: 0
+      experience: 1
+    wither_skeleton_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    wolf_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    wooden_axe:
+      income: 1
+      points: 0
+      experience: 1
+    wooden_hoe:
+      income: 1
+      points: 0
+      experience: 1
+    wooden_pickaxe:
+      income: 1
+      points: 0
+      experience: 1
+    wooden_shovel:
+      income: 1
+      points: 0
+      experience: 1
+    wooden_sword:
+      income: 1
+      points: 0
+      experience: 1
+    writable_book:
+      income: 1
+      points: 0
+      experience: 1
+    written_book:
+      income: 1
+      points: 0
+      experience: 1
+    yellow_banner:
+      income: 1
+      points: 0
+      experience: 1
+    yellow_bed:
+      income: 1
+      points: 0
+      experience: 1
+    yellow_carpet:
+      income: 1
+      points: 0
+      experience: 1
+    yellow_concrete_powder:
+      income: 1
+      points: 0
+      experience: 1
+    yellow_concrete:
+      income: 1
+      points: 0
+      experience: 1
+    yellow_dye:
+      income: 1
+      points: 0
+      experience: 1
+    yellow_glazed_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    yellow_shulker_box:
+      income: 1
+      points: 0
+      experience: 1
+    yellow_stained_glass_pane:
+      income: 1
+      points: 0
+      experience: 1
+    yellow_stained_glass:
+      income: 1
+      points: 0
+      experience: 1
+    yellow_terracotta:
+      income: 1
+      points: 0
+      experience: 1
+    yellow_wool:
+      income: 1
+      points: 0
+      experience: 1
+    zoglin_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    zombie_head:
+      income: 1
+      points: 0
+      experience: 1
+    zombie_horse_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    zombie_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1
+    zombie_villager_spawn_egg:
+      income: 1
+      points: 0
+      experience: 1

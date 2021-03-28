@@ -1,0 +1,22 @@
+name: Picklope
+booster:
+  multiplier: 1.0
+  time: 0
+chests:
+  '0':
+    name: default
+    location:
+      world: world
+      x: 5719
+      y: 137
+      z: -5369
+    money: 237613.15
+    items-sold: 31044
+    items-purged: 45
+    autosell: true
+    purge-items: true
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1616929728149

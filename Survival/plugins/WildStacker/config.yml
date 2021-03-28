@@ -83,7 +83,7 @@ kill-task:
 # Here you can configurable all features related to stacked items.
 items:
   # Should items get stacked on the server?
-  enabled: true
+  enabled: false
 
   # How many blocks from the item should be checked for other items to stack into?
   # Material list: https://bg-software.com/materials/
@@ -175,7 +175,7 @@ items:
 # Here you can configurable all features related to stacked entities.
 entities:
   # Should entities get stacked on the server?
-  enabled: true
+  enabled: false
 
   # How many blocks from the entity should be checked for other entities to stack into?
   # EntityType list: https://bg-software.com/entities/
@@ -457,7 +457,7 @@ spawners:
   # How many blocks from the spawner should be checked for other spawners to stack into?
   # EntityType list: https://bg-software.com/entities/
   merge-radius:
-    all: 0
+    all: 1
 
   # Custom hologram for the spawners.
   # Holograms will be displayed only if one of the following plugins is enabled: HolographicDisplay, Holograms, Arconix

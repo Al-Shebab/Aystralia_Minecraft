@@ -1,26 +1,8 @@
-Pepe:
-  Leader: 4a1c653b-0858-40c6-afdb-95bef03407d7|XxBaGGioxX
-  Password: pepe
-  Locked: true
-  Level: 0
-  Xp: 2920
-  Ally: ''
-  ExpShareMode: NONE
-  ItemShareMode: NONE
-  ItemShareType:
-    LOOT: true
-    MINING: true
-    HERBALISM: true
-    WOODCUTTING: true
-    MISC: true
-  Members:
-  - 4a1c653b-0858-40c6-afdb-95bef03407d7|XxBaGGioxX
-  - dd51bee7-29dc-473c-b915-ccaa8fb3e3db|GayestOfBoys
 BlatantlyHacking:
   Leader: 0eb5bf90-9ee5-4094-9bc4-811526ad9b84|Proximity__
   Locked: true
   Level: 10
-  Xp: 537
+  Xp: 3930
   Ally: ''
   ExpShareMode: NONE
   ItemShareMode: NONE

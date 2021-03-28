@@ -14,7 +14,7 @@ regions:
         members: {}
         flags:
             coral-fade: deny
-            blocked-cmds: [/sellgui false]
+            blocked-cmds: [/sellgui]
             pvp: deny
             mob-spawning: allow
         owners: {}
