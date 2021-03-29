@@ -1,0 +1,20 @@
+{
+  "uniqueId": "BSkyBlock55932ba1-cac8-410d-b99b-7ad60c742e96",
+  "level": 8,
+  "initialLevel": 0,
+  "pointsToNextLevel": 23,
+  "uwCount": {},
+  "mdCount": {
+    "GOLD_ORE": 4,
+    "CHEST": 1,
+    "AIR": 10239680,
+    "COBBLESTONE": 87,
+    "IRON_ORE": 12,
+    "TORCH": 4,
+    "BEDROCK": 1,
+    "CRAFTING_TABLE": 1,
+    "COAL_ORE": 11,
+    "STONE": 197,
+    "DIAMOND_ORE": 2
+  }
+}

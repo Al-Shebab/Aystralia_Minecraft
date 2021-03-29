@@ -78,7 +78,7 @@ anti_wdl:
 
 scoreboard:
   # Should the scoreboard feature be enabled?
-  enabled: false
+  enabled: true
 
   # Should we delay showing the scoreboard?
   # Value in ticks (20 ticks = 1 second), 0 to disable
@@ -89,17 +89,21 @@ scoreboard:
   # Should we refresh the scoreboard (update placeholders)?
   refresh:
     enabled: true
-    rate: 200 # In ticks (20 ticks = 1 second)
+    rate: 600 # In ticks (20 ticks = 1 second)
 
-  title: "&d&l Aystralia Network &7(%online%/%online_max%)"
+  title: "&b&lAystralia Network"
   lines:
-    - "&7&m----------------------"
-    - "&e&lPlayer:"
-    - "  &f%player%"
+    - "&f----------------------"
     - ""
-    - "&e&lRank:"
-    - "  &f%vault_rank%"
-    - "&7&m----------------------"
+    - "&f&lTotal Players Online: &b&l%online%"
+    - ""
+    - "&f&lSurvival: &b%bungee_Survival%"
+    - "&f&lSkyblock: &b%bungee_Skyblock%"
+    - "&f&lAnarchy: &b%bungee_Anarchy%"
+    - "&f&lCreative: &c&lOffline"
+    - "&f&lPrison: &c&lOffline"
+    - ""
+    - "&f----------------------"
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 # |TABLIST                                   |
@@ -117,7 +121,7 @@ tablist:
   # Modify the header of the tablist
   header:
     - ""
-    - "&d&l aystralia Network&7(%online%/%online_max%)"
+    - "&b&lAystralia Network(%online%/%online_max%)"
     - ""
 
   # Modify the footer of the tablist
@@ -343,7 +347,7 @@ custom_join_items:
       material: NETHER_STAR
       amount: 1
       slot: 4
-      display_name: "&eServer Selector"
+      display_name: "&bServer Selector"
       lore:
         - "&7Right-click to open the server selector!"
       actions:

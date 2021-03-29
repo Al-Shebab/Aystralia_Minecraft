@@ -10,8 +10,8 @@ chests:
       x: 8004
       y: 131
       z: -2005
-    money: 12653.49999999999
-    items-sold: 3671
+    money: 12709.099999999991
+    items-sold: 3690
     items-purged: 0
     autosell: true
     purge-items: false
@@ -19,4 +19,4 @@ chests:
     chunk-collector: true
     bank: true
     charge:
-      time: 1616955740003
+      time: 1616967999425

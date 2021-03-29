@@ -1,18 +1,1 @@
-[
-  {
-    "uuid": "3368f471-c1d5-4f9f-8b0e-2245724bf905",
-    "name": "KaoticOCE",
-    "created": "2021-03-07 05:29:40 -0800",
-    "source": "Al_Shebab",
-    "expires": "forever",
-    "reason": "Toxic Behaviour"
-  },
-  {
-    "uuid": "a4de17ad-abe0-4fe7-9f1c-f21c18607509",
-    "name": "Stoopid_Ugly",
-    "created": "2021-03-28 11:11:55 -0700",
-    "source": "Al_Shebab",
-    "expires": "forever",
-    "reason": "Community Ban - Al Shebab"
-  }
-]
+[]

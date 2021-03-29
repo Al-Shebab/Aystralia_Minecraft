@@ -99,7 +99,7 @@ cmiPlaytime: true
 #  
 # Handles hologram updates
 # Applies for servers from 1.7.x and up
-holograms: true
+holograms: false
 #  
 # Handles portals
 # Applies for servers from 1.7.x and up

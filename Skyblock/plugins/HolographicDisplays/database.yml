@@ -99,3 +99,7 @@ auctionho:
   - '&f'
   - '&fBuy and sell your'
   - '&fitems to the whole server!'
+donator:
+  location: world, 56.500, 68.075, -5.500
+  lines:
+  - '&b&ki&f&ki &bDonator &fCrate &f&ki&b&ki'

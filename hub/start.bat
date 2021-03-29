@@ -6,7 +6,7 @@ cls
 
 :start
 echo loading server...
-java -Xmx1G -jar paper.jar --nogui
+java -Xmx4G -jar paper.jar --nogui
 cls
 
 :restart

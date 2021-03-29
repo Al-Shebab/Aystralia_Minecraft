@@ -1,26 +1,32 @@
-spawn1:
-  location: world, -301.508, 139.200, 260.532
+anarchy:
+  location: world, -19.500, 46.000, -414.500
   lines:
-  - '&f&lWelcome to &b&lAystralia!'
-  - '&b&lUseful Commands'
-  - '&f/shop'
-  - '&f/ah'
-  - '&f/jobs'
-  - '&f/mcmmo help'
-  - '&f/sethome'
-  - '&b&lIf you are ready'
-  - '&b&lUse &f/rtp &b&lto start'
-command:
-  location: world, -301.481, 139.200, 248.510
+  - '&0&lAnarchy'
+  - '&f&lPlayers Online: &b&l{online: Anarchy}'
+  - '&f&lStatus: &a&lOnline'
+skyblock:
+  location: world, -15.500, 46.000, -418.500
   lines:
-  - '&b&lCommands'
-  - '&f/pets spawn wolf'
-  - '&f/vote'
-  - /warp
-  - '&f/kit claim'
-  - '&f/buyclaimblocks'
-spawn:
-  location: world, -54.533, 42.200, -109.510
+  - '&2&lSkyblock'
+  - '&f&lPlayers Online: &b&l{online: Skyblock}'
+  - '&f&lStatus: &2&lIn Beta'
+survival:
+  location: world, -14.500, 46.000, -423.500
   lines:
-  - '&fWelcome to &bAystralia Network'
-  - '&fUse the &bServer Selector&f to start!'
+  - '&a&lSurvival'
+  - '&f&lPlayers Online: &b&l{online: Survival}'
+  - '&f&lStatus: &a&lOnline'
+prison:
+  location: world, -19.500, 46.000, -432.500
+  lines:
+  - '&7&lPrison'
+  - '&f&lPlayers Online: &b&l{online: Prison}'
+  - '&f&lStatus: &c&lOffline'
+  - '&c&lIn Development'
+creative:
+  location: world, -15.500, 46.000, -428.500
+  lines:
+  - '&e&lCreative'
+  - '&f&lPlayers Online: &b&l{online: Creative}'
+  - '&f&lStatus: &c&lOffline'
+  - '&c&lIn Development'
