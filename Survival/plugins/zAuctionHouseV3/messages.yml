@@ -1,7 +1,7 @@
 messages:
   prefix:
     type: TCHAT
-    message: '&f[&bAH&f]'
+    message: '&b&lAuctions &8> &f'
   time:
     day:
       type: TCHAT
@@ -101,6 +101,9 @@ messages:
     transaction:
       type: TCHAT
       message: View a player's transactions.
+    lang:
+      type: TCHAT
+      message: See the list of translations.
   'no':
     holding:
       item:

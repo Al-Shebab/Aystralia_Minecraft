@@ -83,7 +83,7 @@ enabled_worlds:
   - 'world_the_end'
 
 #Disables bypass messages from being sent to all players.  
-disable_bypass_messages: false 
+disable_bypass_messages: true
 
 #Exploit Prevention
 disable_grindstone_for_glowing_items: true

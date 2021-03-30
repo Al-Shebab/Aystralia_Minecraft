@@ -1,90 +1,84 @@
 Messages:
-  No-Permission: '&c&l(!) &cYou do not have the correct permissions to do this!'
-  Reload: '&a&l(!) &aAll data have been reloaded successfuly. (%ms% ms)'
+  No-Permission: '&cNo permission'
+  Reload: '&a&l&aAll data have been reloaded successfuly. (%ms% ms)'
   Help:
   - ''
-  - '&c&l(!) &cVoidChest Commands:'
-  - ' &8» &f/voidchest &breload &f- &oReloads all plugin files.'
-  - ' &8» &f/voidchest &btoggle/ignore &f- &oPrevents sell messages from being sent.'
-  - ' &8» &f/voidchest &bstats &o[player] &f- &oShows someone else statistics or yours.'
-  - ' &8» &f/voidchest &blist &f- &oList all available voidchest names.'
-  - ' &8» &f/voidchest &bmode &f- &oDisplays the current voidchest mode being used.'
-  - ' &8» &f/voidchest &bchunk &f- &oShows the chunk''s border with an effect.'
-  - ' &8» &f/voidchest &bgive <voidchest> &o[player] [amount] &f- &oGive someone some
+  - '&b&l&bVoidChest Commands:'
+  - ' &8» &b/voidchest reload &f- &fReloads all plugin files.'
+  - ' &8» &b/voidchest toggle/ignore &f- &fPrevents sell messages from being sent.'
+  - ' &8» &b/voidchest stats &f[player] &f- &fShows someone else statistics or yours.'
+  - ' &8» &b/voidchest list &f- &fList all available voidchest names.'
+  - ' &8» &b/voidchest mode &f- &fDisplays the current voidchest mode being used.'
+  - ' &8» &b/voidchest chunk &f- &fShows the chunk''s border with an effect.'
+  - ' &8» &b/voidchest give <voidchest> &f[player] [amount] &f- &fGive someone some
     voidchests.'
-  - ' &8» &f/voidchest &bboost &o<player> <boost_amount> <time_in_seconds> &f- &oBoost
+  - ' &8» &b/voidchest boost &f<player> <boost_amount> <time_in_seconds> &f- &fBoost
     a player''s income!'
-  - ' &8» &f/voidchest &blocate &o<player> [page] &f- &oLocate a player''s voidchests.'
+  - ' &8» &b/voidchest locate &f<player> [page] &f- &fLocate a player''s voidchests.'
   - ''
 Sell:
-  Inventory-sell: '&a&l+ $%money% &f(sold %items_sold%, purged %items_purged%) &f[VOID
+  Inventory-sell: '&a&l+ $%money% &7(sold %items_sold%, purged %items_purged%) &7[VOID
     CHEST]'
-  Offline: '&a&l(!) &aYou have made &a&l$%money% &f(sold %items_sold%, purged %items_purged%)
+  Offline: '&a&l&aYou have made &a&l$%money% &7(sold %items_sold%, purged %items_purged%)
     &awhile you were &coffline&a.'
   Notify-sell:
-    enabled: '&a&l(!) &aYou have enabled sell notifications.'
-    disabled: '&c&l(!) &cYou have disabled sell notifications.'
-  No-VoidChests: '&c&l(!) &cYou don''t have any voidchests.'
+    enabled: '&a&l&aYou have enabled sell notifications.'
+    disabled: '&c&l&cYou have disabled sell notifications.'
+  No-VoidChests: '&c&l&cYou don''t have any voidchests.'
 Player:
-  Offline: '&c&l(!) &4%player%&c is not found online.'
-  Invalid: '&c&l(!) &4%player%&c couldn''t be found.'
-  no-data: '&c&l(!) &4%player%&c doesn''t have any data for display.'
-  No-VoidChests: '&c&l(!) &cThe player &l%player%&c doesn''t have any voidchests.'
+  Offline: '&c&l&4%player%&c is not found online.'
+  Invalid: '&c&l&4%player%&c couldn''t be found.'
+  no-data: '&c&l&4%player%&c doesn''t have any data for display.'
+  No-VoidChests: '&c&l&cThe player &l%player%&c doesn''t have any voidchests.'
 VoidChest:
-  Limit-Reached: '&c&l(!) &cYou have reached the maximum limit for placed void chests.'
-  not-owner: '&c&l(!) &cYou can''t interact with this voidchest as you''re not the
+  Limit-Reached: '&c&l&cYou have reached the maximum limit for placed void chests.'
+  not-owner: '&c&l&cYou can''t interact with this voidchest as you''re not the
     owner!'
-  Give: '&a&l(!) &aYou have given &f%player% %amount%x %voidchest% &3voidchest(s)&a.'
-  Give-Invalid: '&c&l(!) &cNo voidchest by the name &b%voidchest% &cexists.'
-  Receive: '&a&l(!) &aYou have received &f%amount%x %voidchest% &3voidchest(s)&a.'
-  List: '&f&l(!) &fCurrently &b%amount% &fvoidchests loaded: &b%voidchests%'
+  Give: '&a&l&aYou have given &7%player% %amount%x %voidchest% &3voidchest(s)&a.'
+  Give-Invalid: '&c&l&cNo voidchest by the name &e%voidchest% &cexists.'
+  Receive: '&b&l&fYou have received &b1x Void Chest'
+  List: '&7&l&7Currently &e%amount% &7voidchests loaded: &e%voidchests%'
   Money-Logging: The player %player% has made %amount%$ from a voidchest located in
     %location_world%, %location_x%, %location_y%, %location_z%
   Mode:
-  - '&f&l(!) &fCurrent voidchest mode being used is: &b%voidchest_mode%'
-  - '&f&l(!) &fCurrent economy plugin being used is: &b%economy_mode%'
-  - '&f&l(!) &fCurrent stacking plugin being used is: &b%stack_mode%'
-  - '&f&l(!) &fCurrent bank plugin being used is: &b%bank_mode%'
-  - '&f&l(!) &fCurrent tnt bank plugin being used is: &b%tnt_bank_mode%'
+  - '&7&l&7Current voidchest mode being used is: &e%voidchest_mode%'
+  - '&7&l&7Current economy plugin being used is: &e%economy_mode%'
+  - '&7&l&7Current stacking plugin being used is: &e%stack_mode%'
+  - '&7&l&7Current bank plugin being used is: &e%bank_mode%'
+  - '&7&l&7Current tnt bank plugin being used is: &e%tnt_bank_mode%'
   Locate:
-    Top-Line: '&f&m             &m&8[&c %player% page: &f%current%&8/&f%max% &m&8]&f&m             '
-    Information: '&c&l(%count%) &f%voidchest%; &6%world%, %x%, %y%, %z%'
+    Top-Line: '&7&m             &m&8[&c %player% page: &7%current%&8/&7%max% &m&8]&7&m             '
+    Information: '&c&l(%count%) &7%voidchest%; &6%world%, %x%, %y%, %z%'
 Charge:
-  Maxed-out: '&c&l(!) &cYou can''t add any more charge to this voidchest.'
-  Add: '&f&l(!) &fYou have &asuccessfully &fadded charge to this voidchest. New time
-    left: &b%charge_timeleft%'
+  Maxed-out: '&c&l&cYou can''t add any more charge to this voidchest.'
+  Add: '&7&l&7You have &asuccessfully &7added charge to this voidchest. New time
+    left: &e%charge_timeleft%'
 Chunk:
-  enable: '&f&l(!) &fChunk border visualization is now &aenabled&f.'
-  disable: '&f&l(!) &fChunk border visualization is now &cdisabled&f.'
+  enable: '&7&l&7Chunk border visualization is now &aenabled&7.'
+  disable: '&7&l&7Chunk border visualization is now &cdisabled&7.'
 Boost:
-  Usage: '&f&l(!) &fIncorrect usage, please use this foramt: &c/vc boost <player>
+  Usage: '&7&l&7Incorrect usage, please use this foramt: &c/vc boost <player>
     <boost_amount> <time_in_seconds>'
-  Limit: '&c&l(!) &cYou need to specify a boost higher than 1.0!'
-  Applied: '&f&l(!) &fA boost of &b%boost% &fhas been applied to &b%player% &ffor
-    &b%booster_timeleft%'
-  Time-Limit: '&c&l(!) &cYou need to specify a boost timer higher than 0 seconds!'
+  Limit: '&c&l&cYou need to specify a boost higher than 1.0!'
+  Applied: '&7&l&7A boost of &e%boost% &7has been applied to &e%player% &7for
+    &e%booster_timeleft%'
+  Time-Limit: '&c&l&cYou need to specify a boost timer higher than 0 seconds!'
 Stats:
   Self:
   - ''
-  - '&f&l&m------==[&6 Your Stats &f&l&m]==------'
+  - '&7&l&m------==[&6 Your Stats &7&l&m]==------'
   - ''
-  - '&fTotal voidchests: &6%voidchests%'
-  - '&fBooster: &a%booster%'
-  - '&fBooster timeleft: &a%timeleft%'
-  - '&fMoney made: &a$%money%'
-  - '&fItems sold: &6%items_sold%'
-  - '&fItems purged: &6%items_purged%'
+  - '&7Money made: &a$%money%'
+  - '&7Items sold: &6%items_sold%'
+  - '&7Items purged: &6%items_purged%'
   - ''
-  - '&f&l&m------==[&6 Your Stats &f&l&m]==------'
+  - '&7&l&m------==[&6 Your Stats &7&l&m]==------'
   Other:
   - ''
-  - '&f&l&m------==[&6 %player% Stats &f&l&m]==------'
+  - '&7&l&m------==[&6 %player% Stats &7&l&m]==------'
   - ''
-  - '&fTotal voidchests: &6%voidchests%'
-  - '&fBooster: &a%booster%'
-  - '&fBooster timeleft: &a%timeleft%'
-  - '&fMoney made: &a$%money%'
-  - '&fItems sold: &6%items_sold%'
-  - '&fItems purged: &6%items_purged%'
+  - '&7Money made: &a$%money%'
+  - '&7Items sold: &6%items_sold%'
+  - '&7Items purged: &6%items_purged%'
   - ''
-  - '&f&l&m------==[&6 %player% Stats &f&l&m]==------'
+  - '&7&l&m------==[&6 %player% Stats &7&l&m]==------'

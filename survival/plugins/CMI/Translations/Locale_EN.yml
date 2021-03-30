@@ -534,6 +534,8 @@ info:
     - Punch
     loyalty:
     - Loyalty
+    glow:
+    - Glow
     poisoned_arrows:
     - POISONEDARROWS
     durability:
@@ -584,8 +586,6 @@ info:
     - QUICKCHARGE
     double_strike:
     - DOUBLESTRIKE
-    wildstackerglow:
-    - WildStackerGlow
     protection_projectile:
     - ProjectileProtection
     sonic:
@@ -2908,8 +2908,8 @@ command:
     info:
       newBalance: '&b[playerDisplayName] &fnew balance: &b[money]'
       paid: '&fYou have sent &b[amount] &fto &b[playerDisplayName]'
-      gotMoney: '&fYou got &b[amount] &ffrom &b[senderDisplayName]&f. Balance: &b[money]'
-      gotMoneyGive: '&fYou received &b[amount]&f. Balance: &b[money]'
+      gotMoney: '&fPaid &b[amount] &ffrom &b[senderDisplayName]&f. Balance: &b[money]'
+      gotMoneyGive: '&b&lPaycheck &8> &fYou received &b[amount]&f. Balance: &b[money]'
       noMoney: '&cYou don''t have enough money'
       worldGroups: '&cYou can''t send money between different world groups'
       self: '&cYou can''t send money to yourself!'
@@ -4188,14 +4188,14 @@ command:
         relog.'
       targetTimedEnabled: '&fYour flight was enabled by &3[senderDisplayName]&f for
         the next [time].'
-      targetTimedEnabledAdd: '&fYour flight time was increased by [addTime] ([time]).'
+      targetTimedEnabledAdd: '&fYour fly time has increased by [addTime]'
       targetUntilRelogEnabled: '&fYour flight was enabled by &3[senderDisplayName]&f
         until you relog.'
       setFor: '&fTemporary fly mode enabled for next [time]'
       setForRelog: '&fTemporary fly mode enabled until relog'
       notSet: '&fTemporary fly mode is not enabled for player'
       willBeDisabled: '&fFly mode will be disabled in [time]'
-      disabled: '&fTemporarly fly mode is disabled!'
+      disabled: '&cTemporary fly disabled!'
   tgod:
     help:
       info: '&fSet players temporarily god mode until relog or time end'

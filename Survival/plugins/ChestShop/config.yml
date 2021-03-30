@@ -20,9 +20,27 @@ USE_CLIENT_LOCALE: true
 SHOP_CONTAINERS: 
 - "CHEST"
 - "TRAPPED_CHEST"
+- "SHULKER_BOX"
+- "WHITE_SHULKER_BOX"
+- "LIGHT_GRAY_SHULKER_BOX"
+- "GRAY_SHULKER_BOX"
+- "BLACK_SHULKER_BOX"
+- "RED_SHULKER_BOX"
+- "ORANGE_SHULKER_BOX"
+- "YELLOW_SHULKER_BOX"
+- "LIME_SHULKER_BOX"
+- "GREEN_SHULKER_BOX"
+- "LIGHT_BLUE_SHULKER_BOX"
+- "CYAN_SHULKER_BOX"
+- "BLUE_SHULKER_BOX"
+- "PURPLE_SHULKER_BOX"
+- "MAGENTA_SHULKER_BOX"
+- "PINK_SHULKER_BOX"
+- "BROWN_SHULKER_BOX"
+- "BARREL"
 
 # (In 1/1000th of a second) How often can a player use the shop sign?
-SHOP_INTERACTION_INTERVAL: 250
+SHOP_INTERACTION_INTERVAL: 100
 # Do you want to allow using shops to people in creative mode?
 IGNORE_CREATIVE_MODE: true
 # Do you want to allow using shops to people who have access to it due to their permissions? (owners are always ignored)
@@ -30,7 +48,7 @@ IGNORE_ACCESS_PERMS: true
 # If true, people will buy with left-click and sell with right-click.
 REVERSE_BUTTONS: false
 # If true, people will be able to buy/sell in 64 stacks while holding the crouch button.
-SHIFT_SELLS_IN_STACKS: false
+SHIFT_SELLS_IN_STACKS: true
 # If true, people will be able to sell/buy everything available of the same type.
 SHIFT_SELLS_EVERYTHING: false
 # What can you do by clicking shift with SHIFT_SELLS_IN_STACKS turned on? (ALL/BUY/SELL)

@@ -5,7 +5,7 @@
 config_version: 10
 
 #Plugin Prefix
-prefix: '&8[&bEpic&fRename&8] &f'
+prefix: '&b&lRename &8> &f'
 
 #Economy Features
 #You must restart the server after changing the economy settings.
@@ -83,7 +83,7 @@ enabled_worlds:
   - 'world_the_end'
 
 #Disables bypass messages from being sent to all players.  
-disable_bypass_messages: false 
+disable_bypass_messages: true
 
 #Exploit Prevention
 disable_grindstone_for_glowing_items: true

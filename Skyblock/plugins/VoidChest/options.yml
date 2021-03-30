@@ -152,22 +152,22 @@ Mechanics:
     # Should players be prevented from interacting with voidchests while in creative mode?
     creative-mode-interaction:
       enabled: true
-      message: "&c&l(!) &cYou can't interact with this voidchest while in creative mode!"    
+      message: "&cYou can't interact with this voidchest while in creative mode!"    
 
     # Should players be prevented from placing voidchests in the same chunk?
     placing-voidchests-in-same-chunk: 
       enabled: false
-      deny-message: '&c&l(!) &cYou are not allowed to place more than 1 voidchest per chunk!'
+      deny-message: '&cYou are not allowed to place more than 1 voidchest per chunk!'
 
     # Should players be prevented from placing normal chests near any voidchest?
     chests-near-voidchests: 
       enabled: false
-      deny-message: "&c&l(!) &cYou can't place any chest near this voidchest!"
+      deny-message: "&cYou can't place any chest near this voidchest!"
 
     # Should players be prevented from placing voidchests near any chests?
     voidchests-near-chests: 
       enabled: false
-      deny-message: "&c&l(!) &cYou can't place this voidchest near a chest!"
+      deny-message: "&cYou can't place this voidchest near a chest!"
 
   # Should the console print out how much money a player has made from a voidchest and it's location?
   money-logging:
