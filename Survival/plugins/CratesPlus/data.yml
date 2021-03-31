@@ -1,10 +1,11 @@
 Data Version: 2
 Crate Locations:
   vote:
-  - world|-302|139|198
-  - world|-300|138|198
+  - world|0|73|28
   donator:
-  - world|-304|138|198
+  - world|4|73|28
+  aystralia:
+  - world|4|73|28
 Claims:
   5e9388ba-0573-444c-a761-b6d9174042af:
   - Vote|8
@@ -14,14 +15,14 @@ Claims:
   - Vote|32
   - vote|27
   69dfdab1-aa5a-42d2-b909-02e95d96f136:
-  - vote|5
+  - vote|4
   6690875e-c600-4151-adb0-ab773454713c: []
   2f3467d7-112e-45ce-aa33-fcb5dd4a5478: []
   e79fc165-83d6-4139-9a8f-d42bf1c23f87:
   - vote|8
   1132a3f9-cf23-42e1-8595-79d07b07844e:
   - Vote|40
-  - vote|28
+  - vote|35
   91fb8d7e-fc20-4404-8220-881b8cafceed:
   - Vote|29
   - vote|8
@@ -35,7 +36,7 @@ Claims:
   - Vote|3
   aed14379-c0c9-4b85-b6d0-031d46f30b67:
   - Vote|12
-  - vote|15
+  - vote|22
   7dae338c-90fc-4209-a971-d3b37fcfc92d:
   - Vote|3
   - vote|6
@@ -51,7 +52,6 @@ Claims:
   b7ce396a-aabf-4bf6-bffc-d222f80d5c70:
   - vote|17
   91e75155-abb6-4994-b50a-4cb5765f3e8f:
-  - vote|42
+  - vote|49
   f4d5e1b8-43e7-47eb-9b3b-21d66b202af7: []
-  ef7e3574-30f6-40e4-9130-1595fceac4db:
-  - vote|5
+  ef7e3574-30f6-40e4-9130-1595fceac4db: []

@@ -19,7 +19,7 @@ Broadcast: '&b%displayname% &fopened a &b%crate% &fcrate'
 Cant Place: '&cYou can not place crate keys'
 Cant Drop: '&cYou can not drop crate keys'
 Chance Message: '&b%percentage%% Chance'
-Inventory Full Claim: '&aYour inventory is full, you can claim your keys later using
-  /crate'
+Inventory Full Claim: '&fYour inventory is full, you can claim your keys later using
+  &b/crate'
 Claim Join: '&aYou currently have keys waiting to be claimed, use /crate to claim'
-Possible Wins Title: 'Possible Wins:'
+Possible Wins Title: ''

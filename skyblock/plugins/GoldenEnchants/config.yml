@@ -18,6 +18,8 @@ general:
     - silk_chest
     - village_defender
     - saturation
+    - ghast
+    - blast_mining
     max-item-golden-enchants: 10
     sword-enchants-applies-to-axes: true
     bow-enchants-applies-to-crossbows: true

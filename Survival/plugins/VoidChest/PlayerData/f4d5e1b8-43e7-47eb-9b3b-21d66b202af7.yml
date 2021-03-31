@@ -12,14 +12,14 @@ chests:
       z: -6876
     money: 783670.0
     items-sold: 18505
-    items-purged: 9182
+    items-purged: 9279
     autosell: true
     purge-items: true
     hologram: true
     chunk-collector: true
     bank: true
     charge:
-      time: 1617075716196
+      time: 1617208915161
   '1':
     name: default
     location:
@@ -27,13 +27,13 @@ chests:
       x: 3332
       y: 46
       z: -6889
-    money: 46310.2
-    items-sold: 4633
-    items-purged: 1355
+    money: 251940.0
+    items-sold: 25194
+    items-purged: 5949
     autosell: true
     purge-items: true
     hologram: true
     chunk-collector: true
     bank: true
     charge:
-      time: 1617075716196
+      time: 1617208915161

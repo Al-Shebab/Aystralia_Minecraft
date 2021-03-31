@@ -10,16 +10,16 @@ chests:
       x: 6
       y: 125
       z: -1967
-    money: 870874.0
-    items-sold: 279647
-    items-purged: 16048
+    money: 883868.5
+    items-sold: 285477
+    items-purged: 16067
     autosell: true
     purge-items: true
     hologram: true
     chunk-collector: true
     bank: true
     charge:
-      time: 1617087611042
+      time: 1617207128163
   '1':
     name: default
     location:
@@ -27,8 +27,8 @@ chests:
       x: -6
       y: 125
       z: -1965
-    money: 219968.15
-    items-sold: 45391
+    money: 220658.15
+    items-sold: 45529
     items-purged: 4
     autosell: true
     purge-items: false
@@ -36,7 +36,7 @@ chests:
     chunk-collector: true
     bank: true
     charge:
-      time: 1617087611042
+      time: 1617207128163
   '2':
     name: default
     location:
@@ -44,16 +44,16 @@ chests:
       x: 6
       y: 125
       z: -1953
-    money: 4825616.2
-    items-sold: 232102
-    items-purged: 0
+    money: 6077519.7
+    items-sold: 293876
+    items-purged: 2
     autosell: true
-    purge-items: false
+    purge-items: true
     hologram: true
     chunk-collector: true
     bank: true
     charge:
-      time: 1617087611042
+      time: 1617207128163
   '3':
     name: default
     location:
@@ -61,8 +61,8 @@ chests:
       x: -16
       y: 134
       z: -1967
-    money: 63864.39999999998
-    items-sold: 13117
+    money: 314807.60000000027
+    items-sold: 51576
     items-purged: 0
     autosell: true
     purge-items: false
@@ -70,7 +70,7 @@ chests:
     chunk-collector: true
     bank: true
     charge:
-      time: 1617087611042
+      time: 1617207128163
   '4':
     name: default
     location:
@@ -78,8 +78,8 @@ chests:
       x: -27
       y: 125
       z: -1975
-    money: 242276.80000000025
-    items-sold: 32380
+    money: 1068531.2
+    items-sold: 143897
     items-purged: 0
     autosell: true
     purge-items: false
@@ -87,4 +87,4 @@ chests:
     chunk-collector: true
     bank: true
     charge:
-      time: 1617087611042
+      time: 1617207128163

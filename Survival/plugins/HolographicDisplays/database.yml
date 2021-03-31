@@ -1,38 +1,5 @@
-spawn1:
-  location: world, -301.521, 140.000, 260.476
-  lines:
-  - '&b&lWelcome to &f&lAystralia Network'
-  - '&b&lUseful Commands'
-  - '&f/shop'
-  - '&f/ah'
-  - '&f/warp'
-  - '&f/perks'
-  - '&f/kit Claim'
-  - '&f/discord'
-  - '&f/signshop'
-  - '&f/backpack'
-  - '&f/jobs'
-  - '&f/mcmmo help'
-  - '&f/sethome'
-  - '&b&lIf you are ready'
-  - '&b&lUse &f/rtp &b&lto start'
-command:
-  location: world, -301.481, 139.200, 248.510
-  lines:
-  - '&b&lCommands'
-  - '&f/pets spawn wolf'
-  - '&f/vote'
-  - /warp
-  - '&f/warps'
-  - '&f/perks'
-  - '&f/kit Claim'
-  - '&f/discord'
-  - '&f/signshop'
-  - '&f/backpack'
-  - '&f/kit claim'
-  - '&f/buyclaimblocks'
 vote:
-  location: world, -301.467, 141.075, 198.542
+  location: world, 0.500, 74.500, 28.500
   lines:
   - '&b&ki&f&ki&b Vote &fCrate &f&ki&b&ki'
   - '&bGet keys by voting via &f/vote'
@@ -42,3 +9,14 @@ cactus:
   - '&b&l/warp cactus'
   - '&fBuy some cactus for free'
   - '&fand use /sell all. Easy money.'
+construction:
+  location: world, 0.460, 77.200, 4.500
+  lines:
+  - '&e&lConstuction Site'
+  - '&fSpawn is currently being constucted'
+  - '&fBare with us'
+donator:
+  location: world, 4.500, 74.500, 28.500
+  lines:
+  - '&c&ki&f&ki &c&lAystralia &f&lCrate &f&ki&c&ki'
+  - '&fGet keys from &cComing Soon...'

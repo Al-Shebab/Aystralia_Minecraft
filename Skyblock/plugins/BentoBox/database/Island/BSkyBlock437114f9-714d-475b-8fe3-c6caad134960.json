@@ -10,7 +10,7 @@
     0.0
   ],
   "range": 1000,
-  "protectionRange": 400,
+  "protectionRange": 500,
   "maxEverProtectionRange": 500,
   "world": "skyblock",
   "gameMode": "BSkyBlock",
@@ -39,7 +39,7 @@
     "BREEDING": 400,
     "PLACE_BLOCKS": 400,
     "BEACON": 400,
-    "LOCK": 500,
+    "LOCK": 0,
     "FURNACE": 400,
     "FLINT_AND_STEEL": 500,
     "HIVE": 500,
@@ -103,7 +103,7 @@
     "LEAF_DECAY": 500,
     "PVP_NETHER": -1,
     "PVP_END": -1,
-    "MONSTER_NATURAL_SPAWN": 500,
+    "MONSTER_NATURAL_SPAWN": -1,
     "NETHER_PORTAL": 400,
     "FIRE_IGNITE": 500,
     "PVP_OVERWORLD": -1,
@@ -134,7 +134,9 @@
     ]
   },
   "doNotLoad": false,
-  "cooldowns": {},
+  "cooldowns": {
+    "MONSTER_NATURAL_SPAWN": 1617206266017
+  },
   "metaData": {
     "Visit_Payment": {
       "doubleValue": 10.0
@@ -146,11 +148,11 @@
   "homes": {
     "": [
       "skyblock",
-      6008.092239855156,
+      5954.486752349439,
       122.0,
-      1995.6008588752984,
-      179.1829376220703,
-      -0.5290437340736389
+      1986.396614935305,
+      315.99560546875,
+      -0.9465965628623962
     ]
   }
 }

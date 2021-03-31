@@ -32,7 +32,7 @@
     "SHEARING": 400,
     "CHALLENGES_ISLAND_PROTECTION": 0,
     "BUCKET": 1000,
-    "TNT_DAMAGE": 500,
+    "TNT_DAMAGE": -1,
     "BED": 500,
     "NETHER_PORTAL": 400,
     "ISLAND_FLY_PROTECTION": 500,
@@ -53,7 +53,7 @@
     "BEACON": 400,
     "CHORUS_FRUIT": 400,
     "BOAT": 1000,
-    "LOCK": 500,
+    "LOCK": 0,
     "HOPPER": 400,
     "ANIMAL_SPAWNERS_SPAWN": 500,
     "SPAWN_EGGS": 400,
@@ -128,7 +128,9 @@
     ]
   },
   "doNotLoad": false,
-  "cooldowns": {},
+  "cooldowns": {
+    "TNT_DAMAGE": 1617090504499
+  },
   "homes": {
     "": [
       "skyblock",

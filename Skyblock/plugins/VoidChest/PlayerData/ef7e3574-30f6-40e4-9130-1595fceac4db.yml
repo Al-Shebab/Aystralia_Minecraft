@@ -1,1 +1,22 @@
 name: KaoticLive
+booster:
+  multiplier: 1.0
+  time: 0
+chests:
+  '0':
+    name: default
+    location:
+      world: skyblock
+      x: 2000
+      y: 115
+      z: 9985
+    money: 3583012.0
+    items-sold: 178125
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1617209049047

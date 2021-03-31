@@ -39,7 +39,7 @@ Crates:
       '1':
         Type: COMMAND
         Item Type: STICK
-        Percentage: 5
+        Percentage: 8
         Commands:
         - sellstick give %name% 1 i
         Name: '&bSell &fStick'
@@ -57,16 +57,16 @@ Crates:
       '3':
         Type: COMMAND
         Item Type: GOLDEN_SHOVEL
-        Percentage: 5
+        Percentage: 15
         Commands:
-        - /griefprevention:adjustbonusclaimblocks %name% 1500
+        - griefprevention:adjustbonusclaimblocks %name% 1500
         Name: '&b&l1500 &fClaim Blocks'
         Item Data: 0
         Amount: 1
       '4':
         Type: COMMAND
         Item Type: HOPPER
-        Percentage: 5
+        Percentage: 10
         Commands:
         - jetshoppers give %name% I 1
         Name: '&b&lHopper &fUpgrade'
@@ -93,7 +93,7 @@ Crates:
       '7':
         Type: COMMAND
         Item Type: SPAWNER
-        Percentage: 10
+        Percentage: 5
         Commands:
         - wildstacker:stacker give %name% spawner PIG 1
         Name: '&bCow &fSpawner &bx1'
@@ -102,7 +102,7 @@ Crates:
       '8':
         Type: COMMAND
         Item Type: SPAWNER
-        Percentage: 10
+        Percentage: 5
         Commands:
         - wildstacker:stacker give %name% spawner COW 1
         Name: '&bCow &fSpawner &bx1'
@@ -111,7 +111,7 @@ Crates:
       '9':
         Type: COMMAND
         Item Type: SPAWNER
-        Percentage: 10
+        Percentage: 2
         Commands:
         - wildstacker:stacker give %name% spawner IRON_GOLEM 1
         Name: '&6Iron Golem &fSpawner &bx1'
@@ -136,10 +136,10 @@ Crates:
         - dig_speed-10
         - loot_bonus_blocks-5
         Amount: 1
-  donator:
+  aystralia:
     Key:
       Item: TRIPWIRE_HOOK
-      Name: Donator Crate Key
+      Name: Aystralia Crate Key
       Enchanted: true
     Knockback: 0.0
     Broadcast: false
