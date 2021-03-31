@@ -70,10 +70,8 @@ items:
           permission: 'rank.yes'
     lore:
     - ''
-    - '&8* &fRank: %vault_prefix%'
-    - ''
-    - '&8* &fExp Level: &b%player_level%'
-    - '&8* &fPurse: &b%vault_eco_balance_fixed% ⛁'
+    - '&fExp Level: &b%player_level%'
+    - '&fBalance: &b$%vault_eco_balance_fixed%'
     - ''
   'Profile2':
     material: head;%player_name%
