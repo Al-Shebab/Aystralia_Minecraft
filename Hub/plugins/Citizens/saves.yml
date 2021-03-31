@@ -82,13 +82,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: -24.77301
+        bodyYaw: -9.797325
         world: world
         x: '-19.5'
         y: '43.0'
         z: '-432.5'
-        yaw: '-9.7973'
-        pitch: '16.0849'
+        yaw: '30.2027'
+        pitch: '11.5825'
       spawned: true
       type: PLAYER
       skintrait:

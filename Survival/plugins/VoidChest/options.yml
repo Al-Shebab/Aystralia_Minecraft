@@ -298,7 +298,7 @@ Sell:
   # Currently available: VoidChest, ShopGuiPlus, Essentials, CMI, Custom.
   #
   # Use "Custom" only if you know what you're doing, otherwise consult Shin1gamiX.
-  plugin-mode: ShopGuiPlus
+  plugin-mode: Custom
   
   # ignore-item-meta explanation: should the item meta be ignored? If this is set to
   # false, if an item has any item meta (lore, enchant, etc), it will not be considered

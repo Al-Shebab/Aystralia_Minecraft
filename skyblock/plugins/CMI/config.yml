@@ -1865,14 +1865,12 @@ Enchanting:
       hardened: 3
       rage: 2
       bunny_hop: 3
-      ghast: 1
       sweeping_edge: 3
       oxygen: 3
       riptide: 3
       protection_fall: 4
       haste: 3
       thunder: 3
-      blast_mining: 3
   # When set to true, players will be required to have cmi.enchantments.[enchantname] permission node
   RequireSpecificPermission: false
   # When set to true, players will be required to have cmi.enchantments.[enchantname].[maxlevel] permission node to be abble to enchant item to defined max level

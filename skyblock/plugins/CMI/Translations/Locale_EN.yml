@@ -660,8 +660,6 @@ info:
     - RAGE
     bunny_hop:
     - BUNNYHOP
-    ghast:
-    - GHAST
     sweeping_edge:
     - SweepingEdge
     oxygen:
@@ -675,8 +673,6 @@ info:
     - HASTE
     thunder:
     - THUNDER
-    blast_mining:
-    - BLASTMINING
   PotionEffectAliases:
     speed:
     - Speed
