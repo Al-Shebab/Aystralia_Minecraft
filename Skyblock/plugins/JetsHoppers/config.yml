@@ -14,7 +14,7 @@ UseUUIDs: true
 
 #Save Interval In Seconds
 #This variable will dictate how often hopper data is saved to disk. Set this to -1 to disable interval saving (Meaning it will only save when the server is stopped, very risky unless you can guarantee your server does not crash)
-DiskSaveInterval: 600 #600 = 10 mins
+DiskSaveInterval: 15 #600 = 10 mins
 
 #Should the hoppers continue to work if the owner of the hopper is offline (Chunk has to be loaded)
 #This can affect performance

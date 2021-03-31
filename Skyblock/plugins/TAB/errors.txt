@@ -36,3 +36,21 @@
 03.03.2021 - 05:55:24 - [TAB v2.8.10] Group "trusted" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "trusted" into group-sorting-priority-list in config.yml.
 03.03.2021 - 06:24:25 - [TAB v2.8.10] Group "trial-developer" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "trial-developer" into group-sorting-priority-list in config.yml.
 15.03.2021 - 14:32:01 - [TAB v2.8.10] Group "administator" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "administator" into group-sorting-priority-list in config.yml.
+31.03.2021 - 14:03:22 - [TAB v2.8.10] An error occurred when processing PlayerJoinEvent
+31.03.2021 - 14:03:22 - java.lang.NullPointerException: null
+31.03.2021 - 14:03:22 -        at com.Zrips.CMI.Containers.CMIUser.addForDelayedSave(CMIUser.java:316)
+31.03.2021 - 14:03:22 -        at com.Zrips.CMI.PlayerManager.getUser(PlayerManager.java:515)
+31.03.2021 - 14:03:22 -        at com.Zrips.CMI.PlayerManager.getUser(PlayerManager.java:488)
+31.03.2021 - 14:03:22 -        at com.Zrips.CMI.Modules.Economy.Economy.getBalance(Economy.java:80)
+31.03.2021 - 14:03:22 -        at net.milkbowl.vault.economy.plugins.Economy_CMI.getBalance(Economy_CMI.java:115)
+31.03.2021 - 14:03:22 -        at me.neznamy.tab.platforms.bukkit.placeholders.BukkitPlaceholderRegistry$1.get(BukkitPlaceholderRegistry.java:61)
+31.03.2021 - 14:03:22 -        at me.neznamy.tab.shared.placeholders.PlayerPlaceholder.update(PlayerPlaceholder.java:22)
+31.03.2021 - 14:03:22 -        at me.neznamy.tab.shared.features.PlaceholderManager.onJoin(PlaceholderManager.java:208)
+31.03.2021 - 14:03:22 -        at me.neznamy.tab.shared.FeatureManager.onJoin(FeatureManager.java:175)
+31.03.2021 - 14:03:22 -        at me.neznamy.tab.platforms.bukkit.BukkitEventListener.lambda$onJoin$1(BukkitEventListener.java:36)
+31.03.2021 - 14:03:22 -        at me.neznamy.tab.shared.cpu.CPUManager$3.run(CPUManager.java:96)
+31.03.2021 - 14:03:22 -        at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+31.03.2021 - 14:03:22 -        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+31.03.2021 - 14:03:22 -        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+31.03.2021 - 14:03:22 -        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+31.03.2021 - 14:03:22 -        at java.base/java.lang.Thread.run(Thread.java:834)

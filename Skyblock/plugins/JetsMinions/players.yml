@@ -1,4 +1,4 @@
 # 
 #  PlayerUUID
 #    Minion,world,xpos,ypos,zpos,yaw,health/maxhealth,worldforchest,xpos,ypos,zpos,stats,level,base64-encoded-additional-data
-ConfigVersion: 7.1.0
+ConfigVersion: 7.1.2

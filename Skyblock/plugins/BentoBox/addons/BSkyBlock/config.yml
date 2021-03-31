@@ -180,8 +180,8 @@ world:
     FROST_WALKER: 400
     COLLECT_LAVA: 400
     LEVER: 200
-    HURT_MONSTERS: 0
     RIDING: 400
+    HURT_MONSTERS: 0
     ARMOR_STAND: 400
     NAME_TAG: 400
     TRADING: 0
@@ -189,10 +189,10 @@ world:
     ITEM_DROP: 0
     NOTE_BLOCK: 0
     NETHER_PORTAL: 400
-    ITEM_PICKUP: 0
     CROP_TRAMPLE: 400
-    DROPPER: 400
+    ITEM_PICKUP: 0
     BREWING: 400
+    DROPPER: 400
     COLLECT_WATER: 400
     BUTTON: 200
     FIRE_EXTINGUISH: 400
@@ -204,8 +204,8 @@ world:
     CRAFTING: 0
     ENCHANTING: 0
     SHEARING: 400
-    SPAWN_EGGS: 400
     BED: 500
+    SPAWN_EGGS: 400
     MILKING: 400
     DISPENSER: 400
     GATE: 0
@@ -216,8 +216,8 @@ world:
     BREAK_BLOCKS: 400
     CHORUS_FRUIT: 400
     CONTAINER: 500
-    JUKEBOX: 400
     POTION_THROWING: 400
+    JUKEBOX: 400
   # These are the default settings for new islands
   default-island-settings:
     PVP_END: false
