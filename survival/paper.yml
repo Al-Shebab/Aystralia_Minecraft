@@ -201,7 +201,7 @@ world-settings:
       no-tick-view-distance: -1
     anti-xray:
       use-permission: false
-      enabled: true
+      enabled: false
       engine-mode: 1
       max-chunk-section-index: 3
       update-radius: 2
@@ -221,7 +221,6 @@ world-settings:
       - ender_chest
       replacement-blocks:
       - stone
-      - oak_planks
     despawn-ranges:
       soft: 32
       hard: 128
