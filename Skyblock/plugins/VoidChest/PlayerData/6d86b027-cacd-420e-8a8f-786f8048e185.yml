@@ -10,16 +10,16 @@ chests:
       x: 6
       y: 125
       z: -1967
-    money: 903976.0
-    items-sold: 293106
-    items-purged: 16183
+    money: 949697.1
+    items-sold: 312802
+    items-purged: 16241
     autosell: true
     purge-items: true
     hologram: true
     chunk-collector: true
     bank: true
     charge:
-      time: 1617264363116
+      time: 1617372889722
   '1':
     name: default
     location:
@@ -27,8 +27,8 @@ chests:
       x: -6
       y: 125
       z: -1965
-    money: 220658.15
-    items-sold: 45529
+    money: 220658.55
+    items-sold: 45531
     items-purged: 4
     autosell: true
     purge-items: false
@@ -36,7 +36,7 @@ chests:
     chunk-collector: true
     bank: true
     charge:
-      time: 1617264363116
+      time: 1617372889722
   '2':
     name: default
     location:
@@ -44,16 +44,16 @@ chests:
       x: 6
       y: 125
       z: -1953
-    money: 7187944.7
-    items-sold: 344977
-    items-purged: 2
+    money: 4.16727237E7
+    items-sold: 2029867
+    items-purged: 3
     autosell: true
     purge-items: true
     hologram: true
     chunk-collector: true
     bank: true
     charge:
-      time: 1617264363116
+      time: 1617372889722
   '3':
     name: default
     location:
@@ -61,8 +61,8 @@ chests:
       x: -16
       y: 134
       z: -1967
-    money: 559877.0000000009
-    items-sold: 90757
+    money: 1294722.399999998
+    items-sold: 207467
     items-purged: 0
     autosell: true
     purge-items: false
@@ -70,7 +70,7 @@ chests:
     chunk-collector: true
     bank: true
     charge:
-      time: 1617264363116
+      time: 1617372889722
   '4':
     name: default
     location:
@@ -78,8 +78,8 @@ chests:
       x: -27
       y: 125
       z: -1975
-    money: 1905029.3999999987
-    items-sold: 255497
+    money: 4356588.199999988
+    items-sold: 587662
     items-purged: 0
     autosell: true
     purge-items: false
@@ -87,4 +87,4 @@ chests:
     chunk-collector: true
     bank: true
     charge:
-      time: 1617264363116
+      time: 1617372889722

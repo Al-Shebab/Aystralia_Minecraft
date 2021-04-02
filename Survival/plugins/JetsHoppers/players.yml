@@ -3,5 +3,9 @@
 #    hopperconfig,world,xpos,ypos,zpos,worldforchest/hopper,xpos,ypos,zpos,level,itemstransfered,dateplaced,hoppertpenabled,blockeswhitelisted,blocksblacklisted
 Players:
   fda1973c-f476-4fa8-9ca0-805ec201377d:
-  - II,world,3833,66,4036,null,null,null,null,II,2,1617078411468,false,null,null,BLACKLIST,true
-  - I,world,3833,64,4036,world,3833,63,4036,I,16,1617078418574,false,null,null,BLACKLIST,true
+  - II,world,3833,66,4036,null,null,null,null,II,35,1617078411468,false,null,null,BLACKLIST,true
+  - I,world,3833,64,4036,world,3833,63,4036,I,48,1617078418574,false,null,null,BLACKLIST,true
+  f4d5e1b8-43e7-47eb-9b3b-21d66b202af7:
+  - IV,world,3332,46,-6890,null,null,null,null,IV,166,1617283547945,false,null,null,BLACKLIST,true
+  b4dc8143-084b-4ae0-85ba-b5aa2e81ea17:
+  - I,world,-4865,78,-4245,world,-4860,79,-4242,I,35,1617360414711,false,null,null,BLACKLIST,true

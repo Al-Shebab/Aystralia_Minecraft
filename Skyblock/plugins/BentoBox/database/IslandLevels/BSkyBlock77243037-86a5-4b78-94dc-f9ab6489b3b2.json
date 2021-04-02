@@ -2,7 +2,7 @@
   "uniqueId": "BSkyBlock77243037-86a5-4b78-94dc-f9ab6489b3b2",
   "level": 354,
   "initialLevel": 0,
-  "pointsToNextLevel": 94,
+  "pointsToNextLevel": 93,
   "uwCount": {},
   "mdCount": {
     "STONE_SLAB": 9,
@@ -38,12 +38,12 @@
     "SPAWNER": 6,
     "OAK_FENCE": 31,
     "BEDROCK": 1,
-    "COBBLESTONE": 2022,
+    "COBBLESTONE": 2023,
     "LAVA": 191,
     "CACTUS": 36,
     "CHEST": 35,
     "TORCH": 53,
     "STONE_PRESSURE_PLATE": 6,
-    "AIR": 23034924
+    "AIR": 23034923
   }
 }

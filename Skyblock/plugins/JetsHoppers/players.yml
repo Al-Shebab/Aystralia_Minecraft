@@ -3,21 +3,26 @@
 #    hopperconfig,world,xpos,ypos,zpos,worldforchest/hopper,xpos,ypos,zpos,level,itemstransfered,dateplaced,hoppertpenabled,blockeswhitelisted,blocksblacklisted
 Players:
   1132a3f9-cf23-42e1-8595-79d07b07844e:
-  - V,skyblock,5974,118,2006,skyblock,5975,118,2007,V,1031747,1617226307274,false,null,null,BLACKLIST,true
-  - V,skyblock,5973,118,2005,skyblock,5976,118,2007,V,1063900,1617226337774,false,null,null,BLACKLIST,true
-  - V,skyblock,5973,118,2006,skyblock,5975,119,2007,V,1034228,1617226333874,false,null,null,BLACKLIST,true
-  - V,skyblock,5977,118,2008,skyblock,5975,118,2007,V,1003296,1617226345626,false,null,null,BLACKLIST,true
-  - V,skyblock,5977,118,2006,skyblock,5976,118,2007,V,976181,1617226346078,false,null,null,BLACKLIST,true
-  - V,skyblock,5977,118,2007,skyblock,5976,118,2007,V,952068,1617226345878,false,null,null,BLACKLIST,true
-  - V,skyblock,5974,118,2005,skyblock,5975,118,2007,V,1005489,1617226307677,false,null,null,BLACKLIST,true
-  - V,skyblock,5974,118,2009,skyblock,5975,119,2007,V,938159,1617226309279,false,null,null,BLACKLIST,true
-  - V,skyblock,5973,118,2008,skyblock,5975,119,2007,V,980563,1617226327225,false,null,null,BLACKLIST,true
-  - V,skyblock,5973,118,2009,skyblock,5975,119,2007,V,1049090,1617226324177,false,null,null,BLACKLIST,true
-  - V,skyblock,5977,118,2005,skyblock,5976,118,2007,V,1020903,1617226344178,false,null,null,BLACKLIST,true
-  - V,skyblock,5973,118,2007,skyblock,5975,119,2007,V,1000425,1617226330578,false,null,null,BLACKLIST,true
-  - V,skyblock,5977,118,2009,skyblock,5976,118,2007,V,916100,1617226345327,false,null,null,BLACKLIST,true
-  - V,skyblock,5974,118,2007,skyblock,5975,119,2007,V,979299,1617226306224,false,null,null,BLACKLIST,true
-  - V,skyblock,5978,118,2009,skyblock,5975,118,2007,V,946178,1617226346926,false,null,null,BLACKLIST,false
-  - V,skyblock,5974,118,2008,skyblock,5975,119,2007,V,996309,1617226308875,false,null,null,BLACKLIST,true
+  - V,skyblock,5974,118,2006,skyblock,5975,119,2007,V,3116253,1617226307274,false,null,null,BLACKLIST,true
+  - V,skyblock,5978,118,2008,skyblock,5976,118,2007,V,2041771,1617267934691,false,null,null,BLACKLIST,false
+  - V,skyblock,5973,118,2006,skyblock,5975,119,2007,V,3079575,1617226333874,false,null,null,BLACKLIST,true
+  - V,skyblock,5977,118,2008,skyblock,5976,118,2007,V,3005523,1617226345626,false,null,null,BLACKLIST,true
+  - V,skyblock,5977,118,2006,skyblock,5976,118,2007,V,2922650,1617226346078,false,null,null,BLACKLIST,true
+  - V,skyblock,5977,118,2007,skyblock,5976,118,2007,V,2863728,1617226345878,false,null,null,BLACKLIST,true
+  - V,skyblock,5974,118,2005,skyblock,5975,119,2007,V,3043240,1617226307677,false,null,null,BLACKLIST,true
+  - V,skyblock,5978,118,2007,skyblock,5976,118,2007,V,1919814,1617268481346,false,null,null,BLACKLIST,false
+  - V,skyblock,5974,118,2009,skyblock,5975,119,2007,V,2813399,1617226309279,false,null,null,BLACKLIST,true
+  - V,skyblock,5973,118,2008,skyblock,5975,119,2007,V,2931355,1617226327225,false,null,null,BLACKLIST,true
+  - V,skyblock,5978,118,2006,skyblock,5976,118,2007,V,1980246,1617268481947,false,null,null,BLACKLIST,false
+  - V,skyblock,5973,118,2009,skyblock,5975,119,2007,V,3062398,1617226324177,false,null,null,BLACKLIST,true
+  - V,skyblock,5977,118,2005,skyblock,5976,118,2007,V,2979214,1617226344178,false,null,null,BLACKLIST,true
+  - V,skyblock,5973,118,2007,skyblock,5975,119,2007,V,3015552,1617226330578,false,null,null,BLACKLIST,true
+  - V,skyblock,5977,118,2009,skyblock,5976,118,2007,V,2759918,1617226345327,false,null,null,BLACKLIST,true
+  - V,skyblock,5974,118,2007,skyblock,5975,119,2007,V,2947258,1617226306224,false,null,null,BLACKLIST,true
+  - V,skyblock,5978,118,2009,skyblock,5976,118,2007,V,2864033,1617226346926,false,null,null,BLACKLIST,false
+  - V,skyblock,5974,118,2008,skyblock,5975,119,2007,V,2921308,1617226308875,false,null,null,BLACKLIST,true
   ef7e3574-30f6-40e4-9130-1595fceac4db:
-  - V,skyblock,2000,115,9982,skyblock,2001,116,9985,V,469817,1617227538119,false,null,null,BLACKLIST,false
+  - V,skyblock,2000,115,9982,skyblock,2001,116,9985,V,822665,1617227538119,false,null,null,BLACKLIST,false
+  6d86b027-cacd-420e-8a8f-786f8048e185:
+  - V,skyblock,6,125,-1952,skyblock,6,125,-1953,V,494329,1617267167559,false,SVJPTl9JTkdPVHxudWxs:,SVJPTl9JTkdPVHxudWxs:,WHITELIST,true
+  - V,skyblock,6,125,-1955,skyblock,6,125,-1954,V,933541,1617267171610,false,UE9QUFl8bnVsbA==:SVJPTl9JTkdPVHxudWxs:,UE9QUFl8bnVsbA==:SVJPTl9JTkdPVHxudWxs:,WHITELIST,true

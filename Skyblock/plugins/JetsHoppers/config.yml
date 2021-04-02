@@ -121,7 +121,7 @@ Hoppers:
         - "&fto start pulling in items!"
     Upgradeable: NONE 
     UpgradeCost: 1000000
-    SuctionRange: 32x32x32
+    SuctionRange: 16x16x16
     MaxConnectionRange: 400
     SecondsPerPickup: 4
     Teleportation: true

@@ -1,4 +1,4 @@
-name: KaoticOCE
+name: bigbulkcat
 booster:
   multiplier: 1.0
   time: 0
@@ -7,16 +7,16 @@ chests:
     name: default
     location:
       world: world
-      x: -6288
-      y: 53
-      z: -5181
-    money: 44609.0
-    items-sold: 5123
-    items-purged: 7
+      x: -4860
+      y: 79
+      z: -4242
+    money: 224.3
+    items-sold: 449
+    items-purged: 0
     autosell: true
     purge-items: false
     hologram: true
     chunk-collector: true
     bank: true
     charge:
-      time: 1617264112716
+      time: 1617360797493
