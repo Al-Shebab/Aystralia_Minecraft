@@ -1,5 +1,7 @@
-menu_title: '&b&lIsland Size Upgrades'
-open_command: island-upgrades
+menu_title: '&b&lPerks'
+open_command:
+- perk
+- perks
 size: 36
 items:
   'Decoration':
@@ -50,308 +52,150 @@ items:
     - '[sound] ENTITY_ARROW_HIT_PLAYER'  
     - '[close]'
     - '[openguimenu] upgrades'
-  'Homes1':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
-    priority: 1
+  'HasteBuy':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjZlYTIxMzU4Mzg0NjE1MzQzNzJmMmRhNmM4NjJkMjFjZDVmM2QyYzcxMTlmMmJiNjc0YmJkNDI3OTEifX19
+    priority: 3
     slot: 11
-    display_name: '&b[*] &bIsland Size &f[100x100]'
-    lore:
-    - ''
-    - '&bAlready Purchased'
-    - '&8» &bDefault Island Size'
-  'Homes2':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
-    priority: 1
-    slot: 12
-    display_name: '&b[*] &bIsland Size &f[100x100]'
+    display_name: '&b[*] &bHaste Perk'
     view_requirement:
       requirements:
         Permission:
-          type: has permission
-          permission: 'island.upgrade2view'
+          type: "!has permission"
+          permission: 'MCPerks.Haste'
     lore:
     - ''
-    - '&bAlready Purchased'
-    - '&8» &a$175,000'
-  'Homes22':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
-    priority: 2
-    slot: 12
-    display_name: '&b[*] &bIsland Size &f[150x150]'
-    view_requirement:
-      requirements:
-        Permission:
-          type: has permission
-          permission: 'island.upgrade1'
-    lore:
-    - ''
-    - '&bCurrent Island Size: &fDefault [100x100]'
-    - '&bUpgrade: &f150x150'
+    - '&bPerk: &fPermanant Haste'
     - ''
     - '&bPrice: &f$175,000'
     - ''
     - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lUpgrades &8> &fYou have bought &bIsland Size Upgrade &f[150x150]'
+    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Haste'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] money take %player_name% 175000'
-    - '[console] lp user %player_name% permission set island.upgrade2 true'
-    - '[console] lp user %player_name% permission set island.upgrade2view true'
-    - '[console] lp user %player_name% permission set island.upgrade1 false'
-    - '[console] bsb range set %player_name% 150'
+    - '[console] lp user %player_name% permission set MCPerks.Haste true'
+    - '[console] lp user %player_name% permission set MCPerks.Hasteon true'
+    - '[console] effect %player_name% fast_digging 99999999 2'
     left_click_requirement:
       requirements:
         Economy:
           type: has money
           amount: 175000
         Permission:
-          type: has permission
-          permission: 'island.upgrade1'
+          type: "!has permission"
+          permission: 'MCPerks.Haste'
       deny_commands:
-      - '[message] &b&lUpgrades &8> &fYou need &b$175,000 &fto buy this'
+      - '[message] &b&lPerks &8> &fYou need &b$175,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lUpgrades &8> &fYou have bought &bIsland Size Upgrade &f[150x150]'
+    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Haste'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] money take %player_name% 175000'
-    - '[console] lp user %player_name% permission set island.upgrade2 true'
-    - '[console] lp user %player_name% permission set island.upgrade2view true'
-    - '[console] lp user %player_name% permission set island.upgrade1 false'
-    - '[console] bsb range set %player_name% 150'
+    - '[console] lp user %player_name% permission set MCPerks.Haste true'
+    - '[console] lp user %player_name% permission set MCPerks.Hasteon true'
+    - '[console] effect %player_name% fast_digging 99999999 2'
     right_click_requirement:
       requirements:
         Economy:
           type: has money
           amount: 175000
         Permission:
-          type: has permission
-          permission: 'island.upgrade1'
+          type: "!has permission"
+          permission: 'MCPerks.Haste'
       deny_commands:
-      - '[message] &b&lUpgrades &8> &fYou need &b$175,000 &fto buy this'
+      - '[message] &b&lPerks &8> &fYou need &b$175,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'Homes3':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
-    priority: 1
-    slot: 13
-    display_name: '&b[*] &bIsland Size &f[275x275]'
-    view_requirement:
-      requirements:
-        Permission:
-          type: has permission
-          permission: 'island.upgrade3view'
-    lore:
-    - ''
-    - '&bAlready Purchased'
-    - '&8» &a$550,000'
-  'Homes33':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+  'HasteOn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2U4N2IxZGY2YmYyMzg3ZTEwZTg3NTVkZTM3ZDdiY2I5NGNmNjFhNWZhMThlMjA0YjM4ZDZjMWZmOTIyMzE3YyJ9fX0=
     priority: 2
-    slot: 13
-    display_name: '&b[*] &bIsland Size &f[275x275]'
+    slot: 11
+    display_name: '&b[*] &fHaste Perk'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'island.upgrade2'
+          permission: 'MCPerks.Hasteon'
     lore:
     - ''
-    - '&bCurrent Island Size: &f150x150'
-    - '&bUpgrade: &f275x275'
-    - ''
-    - '&bPrice: &f$550,000'
-    - ''
-    - '&8» &bClick to buy'
+    - '&aActivated'
     left_click_commands:
-    - '[message] &b&lUpgrades &8> &fYou have bought &bIsland Size Upgrade &f[275x275]'
+    - '[message] &b&lPerks &8> &fPerk disabled &c&lHaste'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] money take %player_name% 550000'
-    - '[console] lp user %player_name% permission set island.upgrade3 true'
-    - '[console] lp user %player_name% permission set island.upgrade3view true'
-    - '[console] lp user %player_name% permission set island.upgrade2 false'
-    - '[console] bsb range set %player_name% 275'
+    - '[console] lp user %player_name% permission set MCPerks.Hasteon false'
+    - '[console] lp user %player_name% permission set MCPerks.Hasteoff true'
+    - '[console] effect %player_name% fast_digging 0 1'
     left_click_requirement:
       requirements:
-        Economy:
-          type: has money
-          amount: 550000
         Permission:
           type: has permission
-          permission: 'island.upgrade2'
+          permission: 'MCPerks.Hasteon'
       deny_commands:
-      - '[message] &b&lUpgrades &8> &fYou need &b$550,000 &fto buy this'
+      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lUpgrades &8> &fYou have bought &bIsland Size Upgrade &f[275x275]'
+    - '[message] &b&lPerks &8> &fPerk disabled &c&lHaste'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] money take %player_name% 550000'
-    - '[console] lp user %player_name% permission set island.upgrade3 true'
-    - '[console] lp user %player_name% permission set island.upgrade3view true'
-    - '[console] lp user %player_name% permission set island.upgrade2 false'
-    - '[console] bsb range set %player_name% 275'
+    - '[console] lp user %player_name% permission set MCPerks.Hasteon false'
+    - '[console] lp user %player_name% permission set MCPerks.Hasteoff true'
+    - '[console] effect %player_name% fast_digging 0 1'
     right_click_requirement:
       requirements:
-        Economy:
-          type: has money
-          amount: 550000
         Permission:
           type: has permission
-          permission: 'island.upgrade2'
+          permission: 'MCPerks.Hasteon'
       deny_commands:
-      - '[message] &b&lUpgrades &8> &fYou need &b$550,000 &fto buy this'
+      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'Homes4':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+  'HasteOff':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWE4YzY4NTE0ZDhjODE5ZTY4ZWI3NWI1OTY0NDVkODhiMzY3YWUzNTFiYWE5OTgzYmM2OWNmNmI1MjBmMzk4NSJ9fX0=
     priority: 1
-    slot: 14
-    display_name: '&b[*] &bIsland Size &f[400x400]'
+    slot: 11
+    display_name: '&b[*] &fHaste Perk'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'island.upgrade4view'
+          permission: 'MCPerks.Hasteoff'
     lore:
     - ''
-    - '&bAlready Purchased'
-    - '&8» &a$1,350,000'
-  'Homes44':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
-    priority: 2
-    slot: 14
-    display_name: '&b[*] &bIsland Size &f[400x400]'
-    view_requirement:
-      requirements:
-        Permission:
-          type: has permission
-          permission: 'island.upgrade3'
-    lore:
-    - ''
-    - '&bCurrent Island Size: &f275x275'
-    - '&bUpgrade: &f400x400'
-    - ''
-    - '&bPrice: &f$1,350,000'
-    - ''
-    - '&8» &bClick to buy'
+    - '&cDeactivated'
     left_click_commands:
-    - '[message] &b&lUpgrades &8> &fYou have bought &bIsland Size Upgrade &f[400x400]'
+    - '[message] &b&lPerks &8> &fPerk enabled &a&lHaste'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] money take %player_name% 1350000'
-    - '[console] lp user %player_name% permission set island.upgrade4 true'
-    - '[console] lp user %player_name% permission set island.upgrade4view true'
-    - '[console] lp user %player_name% permission set island.upgrade3 false'
-    - '[console] bsb range set %player_name% 400'
+    - '[console] lp user %player_name% permission set MCPerks.Hasteon true'
+    - '[console] lp user %player_name% permission set MCPerks.Hasteoff false'
+    - '[console] effect %player_name% fast_digging 99999999 2'
     left_click_requirement:
       requirements:
-        Economy:
-          type: has money
-          amount: 1350000
         Permission:
           type: has permission
-          permission: 'island.upgrade3'
+          permission: 'MCPerks.Hasteoff'
       deny_commands:
-      - '[message] &b&lUpgrades &8> &fYou need &b$1,350,000 &fto buy this'
+      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lUpgrades &8> &fYou have bought &bIsland Size Upgrade &f[400x400]'
+    - '[message] &b&lPerks &8> &fPerk enabled &a&lHaste'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] money take %player_name% 1350000'
-    - '[console] lp user %player_name% permission set island.upgrade4 true'
-    - '[console] lp user %player_name% permission set island.upgrade4view true'
-    - '[console] lp user %player_name% permission set island.upgrade3 false'
-    - '[console] bsb range set %player_name% 400'
+    - '[console] lp user %player_name% permission set MCPerks.Hasteon true'
+    - '[console] lp user %player_name% permission set MCPerks.Hasteoff false'
+    - '[console] effect %player_name% fast_digging 99999999 2'
     right_click_requirement:
       requirements:
-        Economy:
-          type: has money
-          amount: 1350000
         Permission:
           type: has permission
-          permission: 'island.upgrade3'
+          permission: 'MCPerks.Hasteoff'
       deny_commands:
-      - '[message] &b&lUpgrades &8> &fYou need &b$1,350,000 &fto buy this'
-      - '[sound] BLOCK_ANVIL_LAND' 
-      - '[close]'
-  'Homes5':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
-    priority: 1
-    slot: 15
-    display_name: '&b[*] &bIsland Size &f[500x500]'
-    view_requirement:
-      requirements:
-        Permission:
-          type: has permission
-          permission: 'island.upgrade5view'
-    lore:
-    - ''
-    - '&bAlready Purchased'
-    - '&8» &a$2,700,000'
-  'Homes55':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
-    priority: 2
-    slot: 15
-    display_name: '&b[*] &bIsland Size &f[500x500]'
-    view_requirement:
-      requirements:
-        Permission:
-          type: has permission
-          permission: 'island.upgrade4'
-    lore:
-    - ''
-    - '&bCurrent Island Size: &f400x400'
-    - '&bUpgrade: &f500x500'
-    - ''
-    - '&bPrice: &f$2,700,000'
-    - ''
-    - '&8» &bClick to buy'
-    left_click_commands:
-    - '[message] &b&lUpgrades &8> &fYou have bought &bIsland Size Upgrade &f[500x500]'
-    - '[sound] ENTITY_PLAYER_LEVELUP' 
-    - '[close]'
-    - '[console] money take %player_name% 2700000'
-    - '[console] lp user %player_name% permission set island.upgrade5 true'
-    - '[console] lp user %player_name% permission set island.upgrade5view true'
-    - '[console] lp user %player_name% permission set island.upgrade4 false'
-    - '[console] bsb range set %player_name% 500'
-    left_click_requirement:
-      requirements:
-        Economy:
-          type: has money
-          amount: 2700000
-        Permission:
-          type: has permission
-          permission: 'island.upgrade4'
-      deny_commands:
-      - '[message] &b&lUpgrades &8> &fYou need &b$2,700,000 &fto buy this'
-      - '[sound] BLOCK_ANVIL_LAND' 
-      - '[close]'
-    right_click_commands:
-    - '[message] &b&lUpgrades &8> &fYou have bought &bIsland Size Upgrade &f[500x500]'
-    - '[sound] ENTITY_PLAYER_LEVELUP' 
-    - '[close]'
-    - '[console] money take %player_name% 2700000'
-    - '[console] lp user %player_name% permission set island.upgrade5 true'
-    - '[console] lp user %player_name% permission set island.upgrade5view true'
-    - '[console] lp user %player_name% permission set island.upgrade4 false'
-    - '[console] bsb range set %player_name% 500'
-    right_click_requirement:
-      requirements:
-        Economy:
-          type: has money
-          amount: 2700000
-        Permission:
-          type: has permission
-          permission: 'island.upgrade4'
-      deny_commands:
-      - '[message] &b&lUpgrades &8> &fYou need &b$2,700,000 &fto buy this'
+      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
