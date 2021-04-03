@@ -121,7 +121,7 @@ Crates:
         Type: ITEM
         Item Type: COOKED_CHICKEN
         Name: '&c&lKFC'
-        Percentage: 35
+        Percentage: 34.9
         Item Data: 0`
         Amount: 16
       '11':
@@ -135,6 +135,15 @@ Crates:
         - MENDING-1
         - dig_speed-10
         - loot_bonus_blocks-5
+        Amount: 1
+      '12':
+        Type: COMMAND
+        Item Type: TRIPWIRE_HOOK
+        Percentage: 0.1
+        Commands:
+        - crate key %name% aystralia 1
+        Name: '&c&ki&f&ki &cAystralia &fCrate Key &f&ki&c&ki'
+        Item Data: 0
         Amount: 1
   aystralia:
     Key:

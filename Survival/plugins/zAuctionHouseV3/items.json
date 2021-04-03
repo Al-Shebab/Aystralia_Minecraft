@@ -1,5 +1,7 @@
 {
-  "items": [],
+  "items": [
+    "{\n  \"seller\": \"fa37c6f0-b8a7-4abe-a4ee-1c7fd3158d0a\",\n  \"item\": \"H4sIAAAAAAAAAONiYOBgYMpMYZDKzcxLTS5KTCuxSslMzM3PS4nPSU1Pz8xLL+ZiYC5JTGdmYHNJzE1MT2UAAUYGVuf80rwSRgYAvaO1p0IAAAA=\",\n  \"price\": 100,\n  \"expire\": 1617556944629,\n  \"id\": \"f15109db-ab35-4c76-b34d-e5fc5680d3d3\",\n  \"economy\": \"VAULT\",\n  \"type\": \"DEFAULT\",\n  \"buyer\": null\n}"
+  ],
   "buyingItems": [],
   "expiredItems": [],
   "transactions": [

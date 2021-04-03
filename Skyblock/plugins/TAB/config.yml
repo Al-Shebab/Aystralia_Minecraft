@@ -17,7 +17,7 @@ header:
 footer:
   - ""
   - "&fPing: &b%ping%"
-  - "&fTPS: &b%server_tps_1%"
+  - "&fTPS: &b%tps%"
   - "&b%time%"
   - "%animation:NAME%"
 
@@ -129,7 +129,7 @@ classic-vanilla-belowname:
   enabled: true
   
   #number or numeric placeholder, supports per-player placeholders
-  number: "%player_ping%"
+  number: "%ping%"
   
   #text after number, must be same on all players
   text: "ms"

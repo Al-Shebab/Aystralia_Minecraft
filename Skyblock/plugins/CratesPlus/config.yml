@@ -121,7 +121,7 @@ Crates:
         Type: ITEM
         Item Type: COOKED_CHICKEN
         Name: '&c&lKFC'
-        Percentage: 24
+        Percentage: 23.9
         Item Data: 0`
         Amount: 16
       '11':
@@ -150,10 +150,19 @@ Crates:
         Percentage: 5
         Item Data: 0`
         Amount: 1
-  donator:
+      '14':
+        Type: COMMAND
+        Item Type: TRIPWIRE_HOOK
+        Percentage: 0.1
+        Commands:
+        - crate key %name% aystralia 1
+        Name: '&c&ki&f&ki &cAystralia &fCrate Key &f&ki&c&ki'
+        Item Data: 0
+        Amount: 1
+  aystralia:
     Key:
       Item: TRIPWIRE_HOOK
-      Name: Donator Crate Key
+      Name: Aystralia Crate Key
       Enchanted: true
     Knockback: 0.0
     Broadcast: false
