@@ -52,5 +52,6 @@ Claims:
   91e75155-abb6-4994-b50a-4cb5765f3e8f:
   - vote|70
   f4d5e1b8-43e7-47eb-9b3b-21d66b202af7: []
-  ef7e3574-30f6-40e4-9130-1595fceac4db: []
+  ef7e3574-30f6-40e4-9130-1595fceac4db:
+  - vote|4
   3368f471-c1d5-4f9f-8b0e-2245724bf905: []

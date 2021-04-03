@@ -113,7 +113,40 @@
     "CONTAINER": 500,
     "HURT_VILLAGERS": 400
   },
-  "history": [],
+  "history": [
+    {
+      "timestamp": 1617448739991,
+      "type": "BAN",
+      "data": {
+        "player": "ef7e3574-30f6-40e4-9130-1595fceac4db",
+        "issuer": "1132a3f9-cf23-42e1-8595-79d07b07844e"
+      }
+    },
+    {
+      "timestamp": 1617448742327,
+      "type": "BAN",
+      "data": {
+        "player": "3368f471-c1d5-4f9f-8b0e-2245724bf905",
+        "issuer": "1132a3f9-cf23-42e1-8595-79d07b07844e"
+      }
+    },
+    {
+      "timestamp": 1617448781439,
+      "type": "UNBAN",
+      "data": {
+        "player": "ef7e3574-30f6-40e4-9130-1595fceac4db",
+        "issuer": "1132a3f9-cf23-42e1-8595-79d07b07844e"
+      }
+    },
+    {
+      "timestamp": 1617448783180,
+      "type": "UNBAN",
+      "data": {
+        "player": "3368f471-c1d5-4f9f-8b0e-2245724bf905",
+        "issuer": "1132a3f9-cf23-42e1-8595-79d07b07844e"
+      }
+    }
+  ],
   "levelHandicap": 0,
   "spawnPoint": {
     "NORMAL": [

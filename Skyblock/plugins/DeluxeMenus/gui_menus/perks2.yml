@@ -646,3 +646,150 @@ items:
       - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
+  'WaterBreathingBuy':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTQ2M2QzNjY1MzRkNDE3NmY0ZWMxNTkzODVkNjM0OTFkODJmMjlmOWYwNzMyM2I4Nzc2MjdiZWEzZGM3NWQifX19
+    priority: 3
+    slot: 15
+    display_name: '&b[*] &bWater Breathing Perk'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'MCPerks.Water Breathing'
+    lore:
+    - ''
+    - '&bPerk: &fPermanant Water Breathing'
+    - ''
+    - '&bPrice: &f$450,000'
+    - ''
+    - '&8» &bClick to buy'
+    left_click_commands:
+    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Water Breathing'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] money take %player_name% 450000'
+    - '[console] lp user %player_name% permission set MCPerks.Water Breathing true'
+    - '[console] lp user %player_name% permission set MCPerks.WaterBreathingon true'
+    - '[console] effect %player_name% conduit_power 99999999 1'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 450000
+        Permission:
+          type: "!has permission"
+          permission: 'MCPerks.Water Breathing'
+      deny_commands:
+      - '[message] &b&lPerks &8> &fYou need &b$450,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Water Breathing'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] money take %player_name% 450000'
+    - '[console] lp user %player_name% permission set MCPerks.Water Breathing true'
+    - '[console] lp user %player_name% permission set MCPerks.WaterBreathingon true'
+    - '[console] effect %player_name% conduit_power 99999999 1'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 450000
+        Permission:
+          type: "!has permission"
+          permission: 'MCPerks.Water Breathing'
+      deny_commands:
+      - '[message] &b&lPerks &8> &fYou need &b$450,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'WaterBreathingon':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE0ODE4NjZlNmE4NGYyMTYxMmVmZjI5MDI5NzllOWRkODg1ZjgwMThkOWUwYzQ5MDRiNGRiNzNkMmVhNjQ3In19fQ==
+    priority: 2
+    slot: 15
+    display_name: '&b[*] &fWater Breathing Perk'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'MCPerks.WaterBreathingon'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[message] &b&lPerks &8> &fPerk disabled &c&lWater Breathing'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] lp user %player_name% permission set MCPerks.WaterBreathingon false'
+    - '[console] lp user %player_name% permission set MCPerks.WaterBreathingoff true'
+    - '[console] effect %player_name% conduit_power 0 1'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'MCPerks.WaterBreathingon'
+      deny_commands:
+      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPerks &8> &fPerk disabled &c&lWater Breathing'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] lp user %player_name% permission set MCPerks.WaterBreathingon false'
+    - '[console] lp user %player_name% permission set MCPerks.WaterBreathingoff true'
+    - '[console] effect %player_name% conduit_power 0 1'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'MCPerks.WaterBreathingon'
+      deny_commands:
+      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'WaterBreathingoff':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjgzN2YzZGIxM2E0MGQ0OTc5ZGU3NzE3OWUxOGFmNmUwYmMzY2MzOWVhNmFiYTUxOGJiMDgwYTZmMDFhNDAifX19
+    priority: 1
+    slot: 15
+    display_name: '&b[*] &fWater Breathing Perk'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'MCPerks.WaterBreathingoff'
+    lore:
+    - ''
+    - '&cDeactivated'
+    left_click_commands:
+    - '[message] &b&lPerks &8> &fPerk enabled &a&lWater Breathing'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] lp user %player_name% permission set MCPerks.WaterBreathingon true'
+    - '[console] lp user %player_name% permission set MCPerks.WaterBreathingoff false'
+    - '[console] effect %player_name% conduit_power 99999999 1'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'MCPerks.WaterBreathingoff'
+      deny_commands:
+      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPerks &8> &fPerk enabled &a&lWater Breathing'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] lp user %player_name% permission set MCPerks.WaterBreathingon true'
+    - '[console] lp user %player_name% permission set MCPerks.WaterBreathingoff false'
+    - '[console] effect %player_name% conduit_power 99999999 1'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'MCPerks.WaterBreathingoff'
+      deny_commands:
+      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'

@@ -50,13 +50,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 117.78677
+        bodyYaw: -45.33168
         world: world
         x: '4.3261'
         y: '73.0'
         z: '10.4108'
-        yaw: '157.7868'
-        pitch: '0.0'
+        yaw: '-79.7574'
+        pitch: '-4.8375'
       type: PLAYER
       spawned: true
       owner:
