@@ -28,7 +28,7 @@ General:
                 Restricted_Radius: 100
         # Whether or not you want power level milestones to be broadcast
         Broadcast_Powerlevels:
-            Enabled: true
+            Enabled: false
             # How often to broadcast, you can change this to 1 to always broadcast a level up event, a setting of 100 will limit it to every 100 levels (for example level 100, level 200, etc)
             Milestone_Interval: 100
             Broadcast_Targets:

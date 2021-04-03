@@ -754,3 +754,7 @@ b4dc8143-084b-4ae0-85ba-b5aa2e81ea17:
   username: Brazi
   messages-enabled: true
   is-blacklisted: false
+4273ded6-c443-4e80-931b-a06bb2aaa002:
+  username: BankRoll_BCH
+  messages-enabled: true
+  is-blacklisted: false

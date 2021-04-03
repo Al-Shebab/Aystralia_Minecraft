@@ -12,7 +12,7 @@ Claims:
   6d86b027-cacd-420e-8a8f-786f8048e185: []
   69dfdab1-aa5a-42d2-b909-02e95d96f136:
   - Vote|4
-  - vote|73
+  - vote|76
   6690875e-c600-4151-adb0-ab773454713c:
   - Vote|1
   - vote|17
@@ -34,7 +34,6 @@ Claims:
   f4d5e1b8-43e7-47eb-9b3b-21d66b202af7: []
   a8aa1edf-82de-4542-a4c6-cf80e31144fe:
   - vote|4
-  b4dc8143-084b-4ae0-85ba-b5aa2e81ea17:
-  - vote|9
+  b4dc8143-084b-4ae0-85ba-b5aa2e81ea17: []
   9fe712c8-e226-49fb-92ed-c7edf5660b4b:
-  - vote|2
+  - vote|6
