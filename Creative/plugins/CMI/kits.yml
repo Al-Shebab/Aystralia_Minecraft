@@ -7,6 +7,9 @@ claim:
   Description:
   - '&fClaim Tools'
   CommandName: claim
+  Commands:
+  - gmc [playerName]
+  - god [playerName] true
   Items:
     '28':
       v: 2586

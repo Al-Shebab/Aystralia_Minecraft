@@ -24,13 +24,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 167.29097
+        bodyYaw: 154.07776
         world: world
         x: '-19.5'
         y: '43.0'
         z: '-414.5'
-        yaw: '-152.709'
-        pitch: '-13.7228'
+        yaw: '-165.9222'
+        pitch: '11.6807'
       spawned: true
       type: PLAYER
       skintrait:
@@ -128,13 +128,13 @@ npc:
             delay: 0
       spawned: true
       location:
-        bodyYaw: 127.72577
+        bodyYaw: 101.941315
         world: world
         x: '-15.5'
         y: '43.0'
         z: '-418.5'
-        yaw: '167.7258'
-        pitch: '-14.0149'
+        yaw: '136.7483'
+        pitch: '12.0065'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -186,13 +186,13 @@ npc:
             delay: 0
       spawned: true
       location:
-        bodyYaw: 99.98494
+        bodyYaw: 104.4754
         world: world
         x: '-14.5'
         y: '43.0'
         z: '-423.5'
-        yaw: '96.3671'
-        pitch: '0.0'
+        yaw: '144.4754'
+        pitch: '11.7235'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -231,13 +231,13 @@ npc:
     traits:
       spawned: true
       location:
-        bodyYaw: 42.785416
+        bodyYaw: 24.97194
         world: world
         x: '-15.5'
         y: '43.0'
         z: '-428.5'
-        yaw: '2.7854'
-        pitch: '0.0'
+        yaw: '64.9719'
+        pitch: '26.7202'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -258,10 +258,9 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-      owner:
-        owner: Al_Shebab
-        uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
       commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
         commands:
           '0':
             command: server Creative
@@ -272,8 +271,9 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
-        cost: -1.0
-        executionMode: LINEAR
+      owner:
+        owner: Al_Shebab
+        uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
     traitnames: owner,lookclose,skintrait,inventory,scoreboardtrait,commandtrait,type,location,equipment,mounttrait,spawned
     navigator:
       speedmodifier: '1.0'

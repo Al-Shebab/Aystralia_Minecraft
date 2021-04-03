@@ -1325,17 +1325,17 @@ WorldLimits:
   # If player will have cmi.worldlimit.gamemode.bypass permission node, game mode wont be changed
   # Possible modes: creative, survival, adventure, spectator, 
   Gamemode:
-  - world:survival
-  - world_nether:survival
-  - world_the_end:survival
+  - world:creative
+  - world_nether:creative
+  - world_the_end:creative
   # If player will have cmi.worldlimit.fly.bypass permission node, fly mode wont be changed
   Fly:
-  - world_nether:False
-  - world_the_end:False
+  - world_nether:true
+  - world_the_end:true
   # If player will have cmi.worldlimit.elytra.bypass permission node, elytra flight will not be prevented
   # Players joining worlds with disable elytra flight will get their elytra dismounted if posible
   ElytraFlight:
-  - worldName:False
+  - worldName:true
   # When set to false, only players with cmi.worldlimit.fly.aboveroof can fly above world build limit
   FlyAboveRoof: true
   # When set to false, only players with cmi.worldlimit.fly.aboveroof can fly above world build limit
@@ -1345,8 +1345,9 @@ WorldLimits:
   - world_the_end-256
   # If player will have cmi.worldlimit.god.bypass permission node, fly mode wont be changed
   GodMode:
-  - world_nether:False
-  - world_the_end:False
+  - world:true
+  - world_nether:true
+  - world_the_end:true
   # Prevents particular entity spawn reasons in defined worlds. All possible reasons: NATURAL, JOCKEY, CHUNK_GEN, SPAWNER, EGG, SPAWNER_EGG, LIGHTNING, BUILD_SNOWMAN, BUILD_IRONGOLEM, BUILD_WITHER, VILLAGE_DEFENSE, VILLAGE_INVASION, BREEDING, SLIME_SPLIT, REINFORCEMENTS, NETHER_PORTAL, DISPENSE_EGG, INFECTION, CURED, OCELOT_BABY, SILVERFISH_BLOCK, MOUNT, TRAP, ENDER_PEARL, SHOULDER_ENTITY, DROWNED, SHEARED, EXPLOSION, RAID, PATROL, BEEHIVE, PIGLIN_ZOMBIFIED, CUSTOM, DEFAULT
   SpawnReasons:
     world:
