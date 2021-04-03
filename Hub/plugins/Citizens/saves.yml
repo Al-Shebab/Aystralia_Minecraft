@@ -24,13 +24,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 149.49225
+        bodyYaw: 167.29097
         world: world
         x: '-19.5'
         y: '43.0'
         z: '-414.5'
-        yaw: '-170.5078'
-        pitch: '-0.2801'
+        yaw: '-152.709'
+        pitch: '-13.7228'
       spawned: true
       type: PLAYER
       skintrait:
@@ -87,8 +87,8 @@ npc:
         x: '-19.5'
         y: '43.0'
         z: '-432.5'
-        yaw: '-1.6638'
-        pitch: '11.6076'
+        yaw: '-28.5575'
+        pitch: '0.0'
       spawned: true
       type: PLAYER
       skintrait:
@@ -128,13 +128,13 @@ npc:
             delay: 0
       spawned: true
       location:
-        bodyYaw: 99.62915
+        bodyYaw: 127.72577
         world: world
         x: '-15.5'
         y: '43.0'
         z: '-418.5'
-        yaw: '138.1129'
-        pitch: '0.0'
+        yaw: '167.7258'
+        pitch: '-14.0149'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -186,12 +186,12 @@ npc:
             delay: 0
       spawned: true
       location:
-        bodyYaw: 33.117058
+        bodyYaw: 99.98494
         world: world
         x: '-14.5'
         y: '43.0'
         z: '-423.5'
-        yaw: '25.9628'
+        yaw: '96.3671'
         pitch: '0.0'
       type: PLAYER
       skintrait:
@@ -223,27 +223,27 @@ npc:
       usedefaultstuckaction: true
   '17':
     metadata:
-      cached-skin-uuid-name: purestsaalty
-      cached-skin-uuid: 91fb8d7e-fc20-4404-8220-881b8cafceed
+      cached-skin-uuid-name: kaoticoce
+      cached-skin-uuid: 3368f471-c1d5-4f9f-8b0e-2245724bf905
       nameplate-visible: 'false'
     name: creative
     uuid: 875f6f87-d168-4f8d-b5a1-69fd86b93331
     traits:
       spawned: true
       location:
-        bodyYaw: 44.56314
+        bodyYaw: 42.785416
         world: world
         x: '-15.5'
         y: '43.0'
         z: '-428.5'
-        yaw: '48.2132'
-        pitch: '11.9441'
+        yaw: '2.7854'
+        pitch: '0.0'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
-        signature: pDJdwm2ZypS+x5rctXGtU7/NraLUkMXk2oe06XJ3Pwhw7fKGIk5nQoCaTKEiYp4dkuY8Y+QMSndC9AK/pXP2BL0YcFqQZj/yl6BRD73ez/xuaRXwDW3eSJ/PEue7i6WB9A3VjNs9cpwYHnFg+zEowBeI1jekSEWMtSJLMcWPu8bSwcZybTwxY5iUmjNgR+sQ14B3IzLMcNxHyWreiAZ1NglhIw31JOXnEHihiPfuGhiLs5PmbWATuQL4JXlF1vEtnakrmHm4C0c1WW024jf5Oetf5Y1VP9kW4O/bPuaBMKbre4NeGtqmqHwC77OTIZCiBOzSTUGqdJwJk+72G96MaW+KfskKg+n56h8/Zk8t3Q/eWLGRxJ9ZHMqNlw7gPCyzN02k4I4D7FtvQcmPizp/GrZASXE8/RMBBnKQsZuxJOjMmkJACKNveZYYKRPpHMDMvKfSgIXgbKy66LeV2nh+SLI1xQmHgeD0Ra7jEtsLKQ1NREIsSjKT9R+XVMuc85unN6e4zEMsmTBqLt4SW9oOtkzTrymCEAVsHI/6Uam/wK4WTf9H+S3co+8M0FIxz1BqBF7ICNlqUH1IPJ43K8R2Qz39s9YsSdQb6y4HUyiibj4XAJOJrsai7YvjA7GXpB5bNyVH3zAkpI+awORU/JzLu5jc4hWmFKivG9wHkRn8y+I=
-        skinName: purestsaalty
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNzA0MjYzMjIxMiwKICAicHJvZmlsZUlkIiA6ICI5MWZiOGQ3ZWZjMjA0NDA0ODIyMDg4MWI4Y2FmY2VlZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJQdXJlc3RTYWFsdHkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWJiNjE2NDdiZTk5NzcyYzJjODNjYzFlNDdlOWFmZGU5N2Y0OGUwNzdmYTg2NzQxOTc3Nzg4MzEyMGE4ZTZiIgogICAgfQogIH0KfQ==
+        signature: vWyQMrgp/do/zBBvgkasc4HnP1WK5rzOaRIN8DkPpcZDpCoC0wmlRpoC3QrzpT+PFXab/rrgvMKo2cqT5PV2PLlUg4dfsXrXy3FPB5BNqrWALsiSdL/ARXu3K1fxvyU900TcOLsB2yqLc9jxqXGmq58BxZvBjBcmsyfe9ktqBwwbmruAIVywtHP7/reckxi0OeplNy9BqSG+2KG5yP5LZWiU/oo1LgqKCHGPnqaTpQ8iHbdBQtcPn65X6qKR+JNeCNcDvqwc4532BPPB1SP0eekUP/iHGD69/6zwSzViQ0otMnhHnFmIYbpm8MLcgmaK3TvNCV1yTBAQvvytmN6vX36E1nUcT+fAwSkaCnoXIPIuskFWrzYG7Efh/w6xz3sxhZQ8ulGYoE/StXRZ1Hpl1YD6PjSrFCPhsBstaej9KrfD2ejxfnMo6wjitSfuPTqc1sBc/iRk1AUGZ5nG8f5d/s3Akn3b1dzEz4ywMu6Odey2LxuOMS3xVUsHnMAXThD+f3Q2cqV+Y9zLGonwAtQOktfSBSX2YEC74wCmMV1OTdS8HHx94DiBIsOh0jju85hP5BGoGeJwvnr5EuF4JsyUQ3SRQli31+NTA79ipujPFF73KgBk1Ptqv5H6heQsy29xk9rmmEzXknSMAx2lZS65glXOM0IN0k6f8V4oPBPTqRI=
+        skinName: kaoticoce
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNzQ4Mjg1Nzg0NSwKICAicHJvZmlsZUlkIiA6ICIzMzY4ZjQ3MWMxZDU0ZjlmOGIwZTIyNDU3MjRiZjkwNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLYW90aWNPQ0UiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTlhMTg2NzZlMzg1YTFmYzczMGQ1MWRjMTc2NjM0Yjc4YTM1ZDlmZjQ4NGQ1OTc4MzYxYjg0NjMzNWIxYzJjNiIKICAgIH0KICB9Cn0=
         updateSkins: false
       lookclose:
         range: '5.0'
@@ -261,7 +261,20 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: owner,lookclose,skintrait,inventory,scoreboardtrait,type,location,equipment,mounttrait,spawned
+      commandtrait:
+        commands:
+          '0':
+            command: server Creative
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+        cost: -1.0
+        executionMode: LINEAR
+    traitnames: owner,lookclose,skintrait,inventory,scoreboardtrait,commandtrait,type,location,equipment,mounttrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

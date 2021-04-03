@@ -73,7 +73,7 @@ items:
       - '&fClick to join!'
       - ' '
       - '&fStatus &2In Beta'
-      - '&aPlayers Online&f: &a%bungee_Skyblock%'
+      - '&aPlayers Online&f: &9%bungee_Skyblock%'
     actions:
       - '[CLOSE]'
       - '[MESSAGE] &fSending you to: &9Skyblock'
@@ -87,8 +87,8 @@ items:
     lore:
       - '&fClick to join!'
       - ' '
-      - '&fStatus &cIn Development'
-      - '&cPlayers Online&f: &c%bungee_Creative%'
+      - '&fStatus &aOnline'
+      - '&fPlayers Online&f: &e%bungee_Creative%'
     actions:
       - '[CLOSE]'
       - '[MESSAGE] &fSending you to: &eCreative'

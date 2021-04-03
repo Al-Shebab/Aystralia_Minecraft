@@ -78,7 +78,7 @@ anti_wdl:
 
 scoreboard:
   # Should the scoreboard feature be enabled?
-  enabled: true
+  enabled: false
 
   # Should we delay showing the scoreboard?
   # Value in ticks (20 ticks = 1 second), 0 to disable
@@ -97,10 +97,10 @@ scoreboard:
     - ""
     - "&f&lTotal Players Online: &b&l%online%"
     - ""
-    - "&f&lSurvival: &b%bungee_Survival%"
+    - "&f&lSurvival: &a%bungee_Survival%"
     - "&f&lSkyblock: &b%bungee_Skyblock%"
-    - "&f&lAnarchy: &b%bungee_Anarchy%"
-    - "&f&lCreative: &c&lOffline"
+    - "&f&lAnarchy: &0%bungee_Anarchy%"
+    - "&f&lCreative: &e%bungee_Creative%"
     - "&f&lPrison: &c&lOffline"
     - ""
     - "&f----------------------"
@@ -128,7 +128,6 @@ tablist:
   footer:
     - ""
     - "&6&lWebsite &fComing Soon"
-    - "&e&lStore https://aystralia-network-garrys-mo.tebex.io&f"
     - ""
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#

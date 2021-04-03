@@ -28,5 +28,4 @@ creative:
   lines:
   - '&e&lCreative'
   - '&f&lPlayers Online: &b&l{online: Creative}'
-  - '&f&lStatus: &c&lOffline'
-  - '&c&lIn Development'
+  - '&f&lStatus: &a&lOnline'

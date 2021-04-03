@@ -29,3 +29,22 @@ expansions:
       quadrillions: Q
       billions: B
       millions: M
+  player:
+    ping_color:
+      medium: '&e'
+      high: '&a'
+      low: '&c'
+  server:
+    tps_color:
+      high: '&a'
+      low: '&c'
+      medium: '&e'
+    server_name: A Minecraft Server
+  bungee:
+    check_interval: 30
+  math:
+    Precision: 3
+    Rounding: half_up
+    Debug: false
+  localtime:
+    date_format: dd/MM/yyyy hh:mma

@@ -17,6 +17,7 @@ header:
 footer:
   - ""
   - "&fPing: &b%ping%"
+  - "&fTPS: &b%tps%"
   - "&b%time%"
   - "%animation:NAME%"
 
@@ -26,11 +27,12 @@ yellow-number-in-tablist: ""
 #literally what it says
 group-sorting-priority-list:
   - owner
-  - developer
   - community-manager
   - staff-manager
+  - developer
+  - trial-developer
   - senior-administrator
-  - administrator
+  - administator
   - senior-moderator
   - moderator
   - trial-moderator
@@ -43,73 +45,80 @@ group-sorting-priority-list:
   - melbourne
   - brisbane
   - perth
+  - trusted
   - member
   - default
 
 Groups:
   owner:
-    tabprefix: "&#ff0000&lOwner&r "
-    tagprefix: "&#ff0000&lOwner&r "
-  developer:
-    tabprefix: "&#ff2b2b&lDeveloper&r "
-    tagprefix: "&#ff2b2b&lDeveloper&r "
+    tabprefix: "{#ff0000}Owner&r "
+    tagprefix: "{#ff0000}Owner&r "
   community-manager:
-    tabprefix: "&#ff4848&lCommunity Manager&r "
-    tagprefix: "&#ff4848&lCommunity Manager&r "
+    tabprefix: "{#ff4848}Community Manager&r "
+    tagprefix: "{#ff4848}Community Manager&r "
   staff-manager:
-    tabprefix: "&#ff6565&lStaff Manager&r "
-    tagprefix: "&#ff6565&lStaff Manager&r "
+    tabprefix: "{#ff6565}Staff Manager&r "
+    tagprefix: "{#ff6565}Staff Manager&r "
+  developer:
+    tabprefix: "{#ff2b2b}Developer&r "
+    tagprefix: "{#ff2b2b}Developer&r "
+  trial-developer:
+    tabprefix: "{#ff2b2b}Trial Developer&r "
+    tagprefix: "{#ff2b2b}Trial Developer&r "
   senior-administrator:
-    tabprefix: "&#ff9800&lSenior Administrator&r "
-    tagprefix: "&#ff9800&lSenior Administrator&r "
+    tabprefix: "{#ff9800}Senior Administrator&r "
+    tagprefix: "{#ff9800}Senior Administrator&r "
   administrator:
-    tabprefix: "&#ffc26d&lAdministrator&r "
-    tagprefix: "&#ffc26d&lAdministrator&r "
+    tabprefix: "{#ffc26d}Administrator&r "
+    tagprefix: "{#ffc26d}Administrator&r "
   senior-moderator:
-    tabprefix: "&#efff00&lSenior Moderator&r "
-    tagprefix: "&#efff00&lSenior Moderator&r "
+    tabprefix: "{#efff00}Senior Moderator&r "
+    tagprefix: "{#efff00}Senior Moderator&r "
   moderator:
-    tabprefix: "&#cdff3d&lModerator&r "
-    tagprefix: "&#cdff3d&lModerator&r "
+    tabprefix: "{#cdff3d}Moderator&r "
+    tagprefix: "{#cdff3d}Moderator&r "
   trial-moderator:
-    tabprefix: "&#a3ff3d&lTrial Moderator&r "
-    tagprefix: "&#a3ff3d&lTrial Moderator&r "
+    tabprefix: "{#a3ff3d}Trial Moderator&r "
+    tagprefix: "{#a3ff3d}Trial Moderator&r "
   event-manager:
-    tabprefix: "&#b600c2&lEvent Manager&r "
-    tagprefix: "&#b600c2&lEvent Manager&r "
+    tabprefix: "{#b600c2}Event Manager&r "
+    tagprefix: "{#b600c2}Event Manager&r "
   event-team:
-    tabprefix: "&#d700e4&lEvent Team&r "
-    tagprefix: "&#d700e4&lEvent Team&r "
+    tabprefix: "{#d700e4}Event Team&r "
+    tagprefix: "{#d700e4}Event Team&r "
   builder:
-    tabprefix: "&#f21dff&lBuilder&r "
-    tagprefix: "&#f21dff&lBuilder&r "
+    tabprefix: "{#f21dff}Builder&r "
+    tagprefix: "{#f21dff}Builder&r "
   sydney:
-    tabprefix: "&#3dff9a&lSydney&r "
-    tagprefix: "&#3dff9a&lSydney&r "
+    tabprefix: "{#3dff9a}Sydney&r "
+    tagprefix: "{#3dff9a}Sydney&r "
   melbourne:
-    tabprefix: "&#3dffd5&lMelbourne&r "
-    tagprefix: "&#3dffd5&lMelbourne&r "
+    tabprefix: "{#3dffd5}Melbourne&r "
+    tagprefix: "{#3dffd5}Melbourne&r "
   brisbane:
-    tabprefix: "&#3dffd5&lBrisbane&r "
-    tagprefix: "&#3dffd5&lBrisbane&r "
+    tabprefix: "{#3dffd5}Brisbane&r "
+    tagprefix: "{#3dffd5}Brisbane&r "
   perth:
-    tabprefix: "&#3de5ff&lPerth&r "
-    tagprefix: "&#3de5ff&lPerth&r "
+    tabprefix: "{#3de5ff}Perth&r "
+    tagprefix: "{#3de5ff}Perth&r "
+  trusted:
+    tabprefix: "{#773dff}Trusted&r "
+    tagprefix: "{#773dff}Trusted&r "
   member:
-    tabprefix: "&#763bff&lMember&r "
-    tagprefix: "&#763bff&lMember&r "
+    tabprefix: "{#763bff}Member&r "
+    tagprefix: "{#763bff}Member&r "
   default:
-    tabprefix: "&#5d18ff&lGuest&r "
-    tagprefix: "&#5d18ff&lGuest&r "
+    tabprefix: "{#5d18ff}Guest&r "
+    tagprefix: "{#5d18ff}Guest&r "
       
   #default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
   _OTHER_:
-    tabprefix: "%luckperms_prefix%&r"
-    tagprefix: "%luckperms_prefix%&r"
+    tabprefix: "%luckperms_prefix%"
+    tagprefix: "%luckperms_prefix%"
     tabsuffix: ""
     tagsuffix: ""
-    customtabname: "&r%player%"
-    customtagname: "&r%player%"
+    customtabname: "%cmi_user_display_name%"
+    customtagname: "%cmi_user_display_name%"
 
 #additional very limited line of text below nametag
 #don't forget this enables on all player entities, which includes NPCs
@@ -117,13 +126,13 @@ Groups:
 classic-vanilla-belowname:
 
   #enabling the feature
-  enabled: false
+  enabled: true
   
   #number or numeric placeholder, supports per-player placeholders
-  number: "%health%"
+  number: "%ping%"
   
   #text after number, must be same on all players
-  text: "Health"
+  text: "ms"
 
 #controlling the collision rule
 enable-collision: true
