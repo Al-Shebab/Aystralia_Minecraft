@@ -71,7 +71,7 @@ DisabledItems: []
 
 #The maximum distance the player can place a minions chest from the minion itself
 #Set to -1 to disable (Allow minions to link to chests cross world, and whatever distance)
-MaximumChestDistanceFromMinion: 30
+MaximumChestDistanceFromMinion: -1
 
 MaxMinionsAllowed:
   - minions.place.default:1 #Specifiy the permission : number of minions allowed, then give players/groups the permission part ingame. The permission minions.admin.bypasslimit can also be used for no limit

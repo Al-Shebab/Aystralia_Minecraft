@@ -16,15 +16,15 @@ scheduler:
   externalIpBans: 120
   saveLastChecked: 60
 lastChecked:
-  externalPlayerNotes: 1617411878
-  playerMutes: 1617411887
-  ipRangeBans: 1617411887
-  expiresCheck: 1617411887
-  nameBans: 1617411887
-  externalPlayerMutes: 1617411878
-  rollbacks: 1617411887
-  playerBans: 1617411887
-  externalPlayerBans: 1617411878
-  externalIpBans: 1617411878
-  playerWarnings: 1617411887
-  ipBans: 1617411887
+  externalPlayerNotes: 1617413935
+  playerMutes: 1617413933
+  ipRangeBans: 1617413933
+  expiresCheck: 1617413933
+  nameBans: 1617413933
+  externalPlayerMutes: 1617413935
+  rollbacks: 1617413933
+  playerBans: 1617413933
+  externalPlayerBans: 1617413935
+  externalIpBans: 1617413935
+  playerWarnings: 1617413933
+  ipBans: 1617413933
