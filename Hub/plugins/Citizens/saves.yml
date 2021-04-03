@@ -128,13 +128,13 @@ npc:
             delay: 0
       spawned: true
       location:
-        bodyYaw: 134.30753
+        bodyYaw: 99.62915
         world: world
         x: '-15.5'
         y: '43.0'
         z: '-418.5'
-        yaw: '174.3075'
-        pitch: '-1.9803'
+        yaw: '138.1129'
+        pitch: '0.0'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -186,13 +186,13 @@ npc:
             delay: 0
       spawned: true
       location:
-        bodyYaw: 69.79712
+        bodyYaw: 33.117058
         world: world
         x: '-14.5'
         y: '43.0'
         z: '-423.5'
-        yaw: '81.5461'
-        pitch: '-6.3495'
+        yaw: '25.9628'
+        pitch: '0.0'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true

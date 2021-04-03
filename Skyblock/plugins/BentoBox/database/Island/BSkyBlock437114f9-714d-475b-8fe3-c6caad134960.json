@@ -106,7 +106,7 @@
     "MONSTER_NATURAL_SPAWN": -1,
     "NETHER_PORTAL": 400,
     "FIRE_IGNITE": 500,
-    "PVP_OVERWORLD": -1,
+    "PVP_OVERWORLD": 1,
     "EXPERIENCE_BOTTLE_THROWING": 500,
     "DYE": 500,
     "ITEM_PICKUP": 0,
@@ -169,9 +169,7 @@
   "doNotLoad": false,
   "cooldowns": {
     "MONSTER_NATURAL_SPAWN": 1617206266017,
-    "PVP_NETHER": 1617414717161,
-    "PVP_OVERWORLD": 1617414718778,
-    "PVP_END": 1617414722325
+    "PVP_OVERWORLD": 1617478662506
   },
   "metaData": {
     "Visit_Payment": {
