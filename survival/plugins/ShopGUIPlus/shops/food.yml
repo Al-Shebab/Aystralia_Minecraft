@@ -1,0 +1,83 @@
+food:
+  name: "&e&lFood"
+  fillItem:
+    material: BLACK_STAINED_GLASS_PANE
+    name: " "
+  items:
+    1:
+      type: item
+      item:
+        material: apple
+        quantity: 1
+      buyPrice: 10
+      slot: 10
+    2:
+      type: item
+      item:
+        material: bread
+        quantity: 1
+      buyPrice: 20
+      slot: 11
+    3:
+      type: item
+      item:
+        material: mushroom_stew
+        quantity: 1
+      buyPrice: 30
+      slot: 12
+    4:
+      type: item
+      item:
+        material: cooked_porkchop
+        quantity: 1
+      buyPrice: 50
+      slot: 13
+    5:
+      type: item
+      item:
+        material: cooked_mutton
+        quantity: 1
+      buyPrice: 50
+      slot: 14
+    6:
+      type: item
+      item:
+        material: cooked_rabbit
+        quantity: 1
+      buyPrice: 50
+      slot: 15
+    7:
+      type: item
+      item:
+        material: cooked_chicken
+        quantity: 1
+      buyPrice: 50
+      slot: 16
+    8:
+      type: item
+      item:
+        material: cooked_beef
+        quantity: 1
+      buyPrice: 50
+      slot: 19
+    10:
+      type: item
+      item:
+        material: cake
+        quantity: 1
+      buyPrice: 100
+      slot: 20
+    11:
+      type: item
+      item:
+        material: pumpkin_pie
+        quantity: 1
+      buyPrice: 100
+      slot: 21
+    12:
+      type: item
+      item:
+        material: golden_carrot
+        quantity: 1
+      buyPrice: 100
+      slot: 22

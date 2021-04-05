@@ -1,0 +1,81 @@
+perks:
+  name: "&b&lPerks"
+  fillItem:
+    material: BLACK_STAINED_GLASS_PANE
+    name: " "
+  items:
+    1:
+      type: command
+      item:
+        material: DIAMOND_PICKAXE
+        name: "&b&lHaste Perk"
+        quantity: 1
+        lore: 
+          - "&fPermanant Haste II"
+          - ""
+          - "&fPurchase a perk, use &b/perks &fto open the menu"
+          - "&bAll perk purchases are permanant"
+      commands: 
+        - "lp user %PLAYER% permission set MCPerks.Haste"
+      buyPrice: 150000
+      slot: 10
+    2:
+      type: command
+      item:
+        material: DIAMOND_BOOTS
+        name: "&a&lSpeed Perk"
+        quantity: 1
+        lore: 
+          - "&fPermanant Speed II"
+          - ""
+          - "&fPurchase a perk, use &a/perks &fto open the menu"
+          - "&bAll perk purchases are permanant"
+      commands: 
+        - "lp user %PLAYER% permission set MCPerks.IncreaseMoveSpeed"
+      buyPrice: 150000
+      slot: 11
+    3:
+      type: command
+      item:
+        material: TORCH
+        name: "&F&lGlow Perk"
+        quantity: 1
+        lore: 
+          - "&fGlow in the dark."
+          - ""
+          - "&fPurchase a perk, use &f/perks &fto open the menu"
+          - "&bAll perk purchases are permanant"
+      commands: 
+        - "lp user %PLAYER% permission set MCPerks.Invisibility"
+      buyPrice: 10000
+      slot: 12
+    4:
+      type: command
+      item:
+        material: LANTERN
+        name: "&2&lNight Vision"
+        quantity: 1
+        lore: 
+          - "&fSee in the dark."
+          - ""
+          - "&fPurchase a perk, use &2/perks &fto open the menu"
+          - "&bAll perk purchases are permanant"
+      commands: 
+        - "lp user %PLAYER% permission set MCPerks.NightVision"
+      buyPrice: 25000
+      slot: 13
+    5:
+      type: command
+      item:
+        material: ROTTEN_FLESH
+        name: "&c&lDouble Drops"
+        quantity: 1
+        lore: 
+          - "&fIncrease all mob drops by &c2x"
+          - ""
+          - "&fPurchase a perk, use &c/perks &fto open the menu"
+          - "&bAll perk purchases are permanant"
+      commands: 
+        - "lp user %PLAYER% permission set MCPerks.IncreaseMobDrops"
+      buyPrice: 50000
+      slot: 14

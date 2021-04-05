@@ -1,0 +1,25 @@
+{
+  "homeLocations": [
+    [
+      [
+        "skyblock",
+        5994.566748623978,
+        122.0,
+        1996.7246846089809,
+        271.4999084472656,
+        10.650042533874512
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "aed14379-c0c9-4b85-b6d0-031d46f30b67",
+  "playerName": "Feeyne_Huge_Dong",
+  "resets": {},
+  "locale": "",
+  "deaths": {
+    "skyblock": 2
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC",
+  "metaData": {}
+}

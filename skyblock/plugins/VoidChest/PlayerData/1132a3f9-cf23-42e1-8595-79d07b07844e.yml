@@ -1,0 +1,56 @@
+name: Aystralia
+booster:
+  multiplier: 1.0
+  time: 0
+chests:
+  '0':
+    name: default
+    location:
+      world: skyblock
+      x: 5975
+      y: 119
+      z: 2007
+    money: 2.68911683315E9
+    items-sold: 139494775
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: false
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1617488165959
+  '1':
+    name: default
+    location:
+      world: skyblock
+      x: 5957
+      y: 122
+      z: 2007
+    money: 3.7662247E7
+    items-sold: 3234379
+    items-purged: 0
+    autosell: false
+    purge-items: false
+    hologram: false
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1617488165959
+  '2':
+    name: default
+    location:
+      world: skyblock
+      x: 5975
+      y: 118
+      z: 2007
+    money: 1.015664318E9
+    items-sold: 53950725
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: false
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1617488165959

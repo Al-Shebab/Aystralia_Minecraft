@@ -1,0 +1,24 @@
+{
+  "uniqueId": "BSkyBlock10b1e82b-6179-4d4f-852d-dd7b73ebb003",
+  "level": 225,
+  "initialLevel": 0,
+  "pointsToNextLevel": 21,
+  "uwCount": {},
+  "mdCount": {
+    "CRAFTING_TABLE": 1,
+    "SAND": 11,
+    "COAL_ORE": 11,
+    "GOLD_ORE": 4,
+    "DIAMOND_ORE": 2,
+    "IRON_ORE": 12,
+    "BEDROCK": 1,
+    "OAK_LOG": 6,
+    "DIRT": 117,
+    "STONE": 197,
+    "BLAST_FURNACE": 1,
+    "AIR": 10239518,
+    "CHEST": 1,
+    "OAK_LEAVES": 52,
+    "GRASS_BLOCK": 66
+  }
+}

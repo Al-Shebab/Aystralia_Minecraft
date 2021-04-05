@@ -1,0 +1,27 @@
+{
+  "homeLocations": [
+    [
+      [
+        "skyblock",
+        -3999.354798721413,
+        121.0,
+        -1999.2409317411891,
+        0.8998518586158752,
+        10.499980926513672
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "91fb8d7e-fc20-4404-8220-881b8cafceed",
+  "playerName": "PurestSaalty",
+  "resets": {
+    "skyblock": 4
+  },
+  "locale": "",
+  "deaths": {
+    "skyblock": 0
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC",
+  "metaData": {}
+}

@@ -1,0 +1,32 @@
+{
+  "uniqueId": "BSkyBlockfa0c125c-ac52-404f-8165-4c996fb2021d",
+  "level": 1246,
+  "initialLevel": 0,
+  "pointsToNextLevel": 54,
+  "uwCount": {},
+  "mdCount": {
+    "IRON_ORE": 56,
+    "GOLD_ORE": 18,
+    "DIRT": 684,
+    "OBSIDIAN": 1,
+    "WATER": 281,
+    "COBBLESTONE": 733,
+    "GRAVEL": 21,
+    "WHEAT": 41,
+    "COBBLESTONE_SLAB": 27,
+    "SEA_PICKLE": 6,
+    "AIR": 10236210,
+    "GRASS_BLOCK": 199,
+    "STONE": 1299,
+    "COAL_ORE": 45,
+    "LAVA": 1,
+    "ANDESITE": 151,
+    "TORCH": 6,
+    "SEAGRASS": 12,
+    "DIAMOND_ORE": 7,
+    "FARMLAND": 41,
+    "BEDROCK": 1,
+    "COARSE_DIRT": 163,
+    "CHEST": 1
+  }
+}

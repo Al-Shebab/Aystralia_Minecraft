@@ -1,0 +1,22 @@
+name: back_from_hell32
+booster:
+  multiplier: 1.0
+  time: 0
+chests:
+  '0':
+    name: default
+    location:
+      world: world
+      x: -1789
+      y: 58
+      z: -4256
+    money: 491.0
+    items-sold: 240
+    items-purged: 6
+    autosell: true
+    purge-items: true
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1617264112716

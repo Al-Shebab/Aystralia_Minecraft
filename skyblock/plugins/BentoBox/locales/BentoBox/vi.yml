@@ -1,0 +1,1515 @@
+# 
+# Đây là 1 file YML, hãy cẩn thận khi chỉnh sửa, nên dùng trang web dể kiểm tra n         #
+# cái này http://yaml-online-parser.appspot.com                                           #
+meta:
+  authors:
+  - Banbeucmas
+  banner: RED_BANNER:1:CREEPER:YELLOW:RHOMBUS_MIDDLE:YELLOW:TRIANGLES_BOTTOM:RED:SQUARE_BOTTOM_LEFT:RED:SQUARE_BOTTOM_RIGHT:RED
+general:
+  deaths: Chết
+  unlimited: Vô hạn
+  success: '&aThành công!'
+  errors:
+    command-cancelled: '&cĐã hủy lệnh'
+    no-permission: '&cBạn không có quyền thực thi lệnh này.'
+    use-in-game: '&cLệnh này chỉ dùng được trong game.'
+    no-team: '&cBạn không ở trong 1 đội nào cả!'
+    no-island: '&cBạn không có đảo!'
+    player-has-no-island: '&cNgười chơi đó không có đảo!'
+    already-have-island: '&cBạn đã có đảo!'
+    no-safe-location-found: '&cKhông có địa điểm an toàn nào trên đảo!'
+    not-owner: '&cBạn không phải đội trưởng!'
+    not-in-team: '&cNgười chơi không có trong đội!'
+    offline-player: '&cNgười chơi đang offline hoặc không tồn tại.'
+    unknown-player: '&cNgười chơi không tìm thấy!'
+    general: '&cLệnh chưa sẵn sàng - hãy liên hệ admin'
+    wrong-world: '&cBạn đang không ở trong thế giới có thể làm được việc này!'
+    insufficient-rank: '&c Rank cá»§a báº¡n chÆ°a Ä‘á»§ cao! (&7 [rank]&c )'
+    player-has-island: '&c NgÆ°á»�i chÆ¡i Ä‘Ã£ cÃ³ Ä‘áº£o!'
+    player-is-not-owner: '&b [name] &c khÃ´ng pháº£i chá»§ Ä‘áº£o!'
+    unknown-command: '&c Lá»‡nh khÃ´ng xÃ¡c Ä‘á»‹nh. DÃ¹ng &b /[label] help &c Ä‘á»ƒ
+      xem hÆ°á»›ng dáº«n.'
+    you-must-wait: '&c Báº¡n pháº£i chá»� [number] giÃ¢y trÆ°á»›c khi dÃ¹ng láº¡i
+      lá»‡nh Ä‘Ã³.'
+    must-be-positive-number: '&c [number] khÃ´ng pháº£i lÃ  sá»‘ dÆ°Æ¡ng há»£p lá»‡.'
+  tips:
+    changing-ob-to-lava: Đang chuyển Hắc Diện Thạch về Dung Nham, hãy cẩn thận
+  invalid: KhÃ´ng há»£p lá»‡
+  worlds:
+    overworld: Tháº¿ Giá»›i ThÆ°á»�ng
+    nether: Ä�á»‹a Ngá»¥c
+    the-end: Tháº¿ Giá»›i Káº¿t ThÃºc
+commands:
+  help:
+    header: '&7=========== &cBentoBox &7==========='
+    syntax: '&b[usage] &a[parameters]&7: &e[description]'
+    end: '&7================================='
+    parameters: '[command]'
+    description: help command
+    syntax-no-parameters: '&b [usage]&7 : &e [description]'
+    console: Báº£ng Ä‘iá»�u khiá»ƒn
+  admin:
+    help:
+      description: xem lệnh dành cho admin
+      parameters: ''
+    version:
+      description: Hiện phiên bản BentoBox và các bổ sung
+    setrange:
+      parameters: '[player] [range]'
+      description: Đặt giới hạn đảo người chơi
+      range-updated: Giới hạn đảo đã chuyển sang [number]
+    reload:
+      description: Nạp lại plugin
+    tp:
+      parameters: '[player]'
+      description: Dịch chuyển đến đảo người chơi
+      manual: '&cKhông tìm thấy cổng dịch chuyển an toàn! Hãy tp tới địa điểm &b[location]
+        &cvà kiểm tra'
+    delete:
+      parameters: <player>
+      description: deletes a player's island
+      cannot-delete-owner: '&cAll island members have to be kicked from the island
+        before deleting it.'
+      deleted-island: '&aIsland at &e[xyz] &ahas been successfully deleted.'
+    resets:
+      description: chá»‰nh sá»‘ láº§n lÃ m láº¡i Ä‘áº£o cho ngÆ°á»�i chÆ¡i
+      set:
+        description: chá»‰nh sá»‘ láº§n lÃ m láº¡i Ä‘áº£o cá»§a ngÆ°á»�i chÆ¡i
+        parameters: <ngÆ°á»�i chÆ¡i> <sá»‘ láº§n>
+        success: '&a Ä�Ã£ chá»‰nh sá»‘ láº§n lÃ m láº¡i Ä‘áº£o cá»§a &b [name]&a thÃ nh
+          &b [number]&a .'
+      reset:
+        description: chá»‰nh sá»‘ láº§n lÃ m láº¡i Ä‘áº£o cá»§a ngÆ°á»�i chÆ¡i vá»�
+          0
+        parameters: <ngÆ°á»�i chÆ¡i>
+        success-everyone: '&a Ä�Ã£ chá»‰nh sá»‘ láº§n lÃ m láº¡i Ä‘áº£o cá»§a &b má»�i
+          ngÆ°á»�i&a ''s vá»� &b 0&a .'
+        success: '&a Ä�Ã£ chá»‰nh sá»‘ láº§n lÃ m láº¡i Ä‘áº£o cá»§a &b [name]&a ''s
+          vá»� &b 0&a .'
+      add:
+        description: tÄƒng sá»‘ láº§n lÃ m láº¡i Ä‘áº£o cho ngÆ°á»�i chÆ¡i
+        parameters: <ngÆ°á»�i chÆ¡i> <sá»‘ láº§n>
+        success: '&a Ä�Ã£ thÃªm &b [number] &a láº§n lÃ m láº¡i Ä‘áº£o cho &b [name],
+          tÄƒng tá»•ng sá»‘ lÃªn &b [total]&a láº§n lÃ m láº¡i Ä‘áº£o.'
+      remove:
+        description: tÄƒng sá»‘ láº§n lÃ m láº¡i Ä‘áº£o cho ngÆ°á»�i chÆ¡i
+        parameters: <ngÆ°á»�i chÆ¡i> <sá»‘ láº§n>
+        success: '&a Ä�Ã£ trá»« &b [number] &a láº§n lÃ m láº¡i Ä‘áº£o cho &b [name],
+          giáº£m tá»•ng sá»‘ xuá»‘ng &b [total]&a láº§n lÃ m láº¡i Ä‘áº£o.'
+    purge:
+      parameters: '[ngÃ y]'
+      description: xÃ³a Ä‘áº£o Ä‘Ã£ bá»‹ bá»� hoang quÃ¡ [ngÃ y]
+      days-or-more: Pháº£i Ã­t nháº¥t 1 ngÃ y hoáº·c hÆ¡n
+      purgable-islands: '&a Ä�Ã£ tÃ¬m tháº¥y &b [number] &a Ä‘áº£o cÃ³ thá»ƒ xÃ³a.'
+      purge-in-progress: '&c QuÃ¡ trÃ¬nh xÃ³a Ä‘ang Ä‘Æ°á»£c thá»±c thi. DÃ¹ng &b
+        /[label] purge stop &c Ä‘á»ƒ há»§y.'
+      number-error: '&c Tham sá»‘ pháº£i lÃ  sá»‘ ngÃ y'
+      confirm: '&d Nháº­p &b /[label] purge confirm &d Ä‘á»ƒ báº¯t Ä‘áº§u xÃ³a'
+      completed: '&a QuÃ¡ trÃ¬nh xÃ³a Ä‘Ã£ ngá»«ng.'
+      see-console-for-status: '&a QuÃ¡ trÃ¬nh xÃ³a Ä‘Ã£ báº¯t Ä‘áº§u. Xem báº£ng Ä‘iá»�u
+        khiá»ƒn cho tráº¡ng thÃ¡i hoáº·c dÃ¹ng &b /[label] purge status&a.'
+      no-purge-in-progress: '&c KhÃ´ng cÃ³ quÃ¡ trÃ¬nh xÃ³a Ä‘ang thá»±c thi.'
+      protect:
+        description: báº­t báº£o vá»‡ Ä‘áº£o khá»�i bá»‹ xÃ³a
+        move-to-island: '&c Di chuyá»ƒn vá»� Ä‘áº£o trÆ°á»›c!'
+        protecting: '&a Ä�ang báº£o vá»‡ Ä‘áº£o khá»�i bá»‹ xÃ³a.'
+        unprotecting: '&a Ä�ang táº¯t báº£o vá»‡.'
+      stop:
+        description: dá»«ng má»™t quÃ¡ trÃ¬nh xÃ³a Ä‘ang thá»±c thi
+        stopping: Ä�ang dá»«ng quÃ¡ trÃ¬nh xÃ³a
+      unowned:
+        description: xÃ³a Ä‘áº£o khÃ´ng chá»§
+        unowned-islands: '&a Ä�Ã£ tÃ¬m tháº¥y &b [number] &a Ä‘áº£o khÃ´ng chá»§.'
+      status:
+        description: xem tráº¡ng thÃ¡i cá»§a quÃ¡ trÃ¬nh xÃ³a
+        status: '&b [purged] &a Ä‘áº£o Ä‘Ã£ xÃ³a trong &b [purgeable] &7(&b[percentage]%&7)&a.'
+    team:
+      add:
+        parameters: <chá»§> <ngÆ°á»�i chÆ¡i>
+        description: thÃªm ngÆ°á»�i chÆ¡i vÃ o Ä‘á»™i cá»§a chá»§
+        name-not-owner: '&c [name] khÃ´ng pháº£i chá»§.'
+        name-has-island: '&c [name] cÃ³ Ä‘áº£o. XÃ³a hoáº·c há»§y Ä‘Äƒng kÃ­ trÆ°á»›c!'
+        success: '&b [name]&a  Ä‘Ã£ Ä‘Æ°á»£c thÃªm vÃ o Ä‘áº£o cá»§a &b [owner]&a
+          .'
+      disband:
+        parameters: <chá»§>
+        description: giáº£i tÃ¡n Ä‘á»™i cá»§a chá»§
+        use-disband-owner: '&c KhÃ´ng pháº£i chá»§! DÃ¹ng disband [owner].'
+        disbanded: '&c Quáº£n trá»‹ viÃªn Ä‘Ã£ giáº£i tÃ¡n Ä‘á»™i cá»§a báº¡n!'
+        success: '&a Ä�á»™i cá»§a&b [name]&a Ä‘Ã£ bá»‹ giáº£i tÃ¡n.'
+      fix:
+        description: QuÃ©t vÃ  sá»­a thÃ nh viÃªn chÃ©o Ä‘áº£o trong cÆ¡ sá»Ÿ dá»¯
+          liá»‡u
+        scanning: Ä�ang quÃ©t cÆ¡ sá»Ÿ dá»¯ liá»‡u...
+        duplicate-owner: '&c NgÆ°á»�i chÆ¡i cÃ³ nhiá»�u hÆ¡n má»™t Ä‘áº£o trong cÆ¡
+          sá»Ÿ dá»¯ liá»‡u: [name]'
+        player-has: '&c NgÆ°á»�i chÆ¡i [name] cÃ³ [number] Ä‘áº£o'
+        duplicate-member: '&c NgÆ°á»�i chÆ¡i [name] lÃ  thÃ nh viÃªn cá»§a nhiá»�u
+          hÆ¡n má»™t Ä‘áº£o trong cÆ¡ sá»Ÿ dá»¯ liá»‡u'
+        rank-on-island: '&c [rank] trÃªn Ä‘áº£o táº¡i [xyz]'
+        fixed: '&a Ä�Ã£ sá»­a'
+        done: '&a QuÃ©t'
+      kick:
+        parameters: <ngÆ°á»�i chÆ¡i>
+        description: Ä‘uá»•i ngÆ°á»�i chÆ¡i khá»�i Ä‘á»™i
+        cannot-kick-owner: '&c Báº¡n khÃ´ng thá»ƒ Ä‘uá»•i chá»§. HÃ£y Ä‘uá»•i thÃ nh
+          viÃªn trÆ°á»›c.'
+        not-in-team: '&c NgÆ°á»�i chÆ¡i nÃ y khÃ´ng cÃ³ trong Ä‘á»™i.'
+        admin-kicked: '&c Quáº£n trá»‹ viÃªn Ä‘Ã£ Ä‘uá»•i báº¡n khá»�i Ä‘á»™i.'
+        success: '&b [name] &a Ä‘Ã£ bá»‹ Ä‘uá»•i khá»�i Ä‘á»™i cá»§a &b [owner]&a
+          .'
+      setowner:
+        parameters: <ngÆ°á»�i chÆ¡i>
+        description: Chuyá»ƒn quyá»�n chá»§ Ä‘áº£o cho ngÆ°á»�i chÆ¡i
+        already-owner: '&c [name] Ä‘Ã£ lÃ  chá»§ Ä‘áº£o nÃ y!'
+        success: '&b [name]&a  thÃ nh chá»§ Ä‘áº£o nÃ y.'
+    range:
+      description: lá»‡nh Ä‘á»™ dÃ i cho quáº£n trá»‹ viÃªn
+      invalid-value:
+        too-low: '&c Khu vá»±c báº£o vá»‡ pháº£i lá»›n hÆ¡n &b 1&c !'
+        too-high: '&c Khu vá»±c báº£o vá»‡ pháº£i báº±ng hoáº·c nhá»� hÆ¡n &b [number]&c
+          !'
+        same-as-before: '&c Khu vá»±c báº£o vá»‡ Ä‘Ã£ Ä‘Æ°á»£c chá»‰nh lÃ  &b [number]&c
+          !'
+      display:
+        already-off: '&c CÃ¡c dáº¥u Ä‘Ã£ táº¯t'
+        already-on: '&c CÃ¡c dáº¥u Ä‘Ã£ báº­t'
+        description: Xem/áº©n cÃ¡c dáº¥u chá»‰ dáº«n khu vá»±c Ä‘áº£o
+        hiding: '&2 Ä�ang áº©n chá»‰ dáº«n khu vá»±c'
+        hint: |-
+          &c Barrier &f cho tháº¥y khu vá»±c giá»›i háº¡n báº£o vá»‡ Ä‘áº£o.
+          &7 Háº¡t XÃ¡m &f cho tháº¥y giá»›i háº¡n tá»‘i Ä‘a cá»§a Ä‘áº£o.
+          &a Háº¡t Xanh &f cho tháº¥y khu vá»±c báº£o vá»‡ máº·c Ä‘á»‹nh náº¿u khu vá»±c cá»§a Ä‘áº£o khÃ¡c so vá»›i máº·c Ä‘á»‹nh.
+        showing: '&2 Ä�ang hiá»‡n cÃ¡c chá»‰ dáº«n khu vá»±c'
+      set:
+        parameters: <ngÆ°á»�i chÆ¡i> <Ä‘á»™ dÃ i>
+        description: chá»‰nh Ä‘á»™ dÃ i báº£o vá»‡ Ä‘áº£o
+        success: '&a Ä�Ã£ chá»‰nh Ä‘á»™ dÃ i báº£o vá»‡ Ä‘áº£o thÃ nh &b [number]&a
+          .'
+      reset:
+        parameters: <ngÆ°á»�i chÆ¡i>
+        description: chá»‰nh Ä‘á»™ dÃ i báº£o vá»‡ Ä‘áº£o vá»� máº·c Ä‘á»‹nh
+        success: '&a Ä�Ã£ chá»‰nh Ä‘á»™ dÃ i báº£o vá»‡ Ä‘áº£o thÃ nh &b [number]&a
+          .'
+      add:
+        description: tÄƒng Ä‘á»™ dÃ i báº£o vá»‡ Ä‘áº£o
+        parameters: <ngÆ°á»�i chÆ¡i> <Ä‘á»™ dÃ i>
+        success: '&a Ä�Ã£ tÄƒng khu vá»±c báº£o vá»‡ Ä‘áº£o cá»§a &b [name]&a lÃªn
+          &b [total] &7 (&b +[number]&7 )&a .'
+      remove:
+        description: giáº£m Ä‘á»™ dÃ i báº£o vá»‡ Ä‘áº£o
+        parameters: <ngÆ°á»�i chÆ¡i> <Ä‘á»™ dÃ i>
+        success: '&a Ä�Ã£ giáº£m khu vá»±c báº£o vá»‡ Ä‘áº£o cá»§a &b [name]&a xuá»‘ng
+          &b [total] &7 (&b -[number]&7 )&a .'
+    register:
+      parameters: <ngÆ°á»�i chÆ¡i>
+      description: Ä‘Äƒng kÃ­ ngÆ°á»�i chÆ¡i vÃ o Ä‘áº£o khÃ´ng chá»§ nÃ y
+      registered-island: '&a Ä�Ã£ Ä‘Äƒng kÃ­ [name] vÃ o Ä‘áº£o táº¡i [xyz].'
+      reserved-island: '&a Ä�á»ƒ dÃ nh Ä‘áº£o á»Ÿ [xyz] cho [name].'
+      already-owned: '&c Ä�áº£o Ä‘Ã£ cÃ³ chá»§!'
+      no-island-here: '&c KhÃ´ng cÃ³ Ä‘áº£o á»Ÿ Ä‘Ã¢y. XÃ¡c nháº­n Ä‘á»ƒ táº¡o.'
+      in-deletion: '&c KhÃ´ng gian Ä‘áº£o nÃ y Ä‘ang Ä‘Æ°á»£c xÃ³a. Thá»­ láº¡i.'
+      cannot-make-island: '&c Ä�áº£o khÃ´ng thá»ƒ Ä‘áº·t á»Ÿ Ä‘Ã¢y. Xem báº£ng Ä‘iá»�u
+        khiá»ƒn Ä‘á»ƒ xem lá»—i tiá»�m áº©n.'
+      island-is-spawn: '&6 Ä�áº£o lÃ  Ä‘iá»ƒm triá»‡u há»“i. Báº¡n cháº¯c chá»©? Nháº­p
+        láº§n ná»¯a Ä‘á»ƒ xÃ¡c nháº­n.'
+    unregister:
+      parameters: <chá»§>
+      description: há»§y Ä‘Äƒng kÃ­ chá»§ Ä‘áº£o khá»�i Ä‘áº£o nÃ y. nhÆ°ng giá»¯
+        láº¡i tÃ i nguyÃªn Ä‘áº£o
+      unregistered-island: '&a Ä�Ã£ há»§y Ä‘Äƒng kÃ­ [name] khá»�i Ä‘áº£o táº¡i [xyz].'
+    info:
+      parameters: <ngÆ°á»�i chÆ¡i>
+      description: xem thÃ´ng tin Ä‘áº£o báº¡n Ä‘ang Ä‘á»©ng
+      no-island: '&c Báº¡n khÃ´ng cÃ³ á»Ÿ Ä‘áº£o nÃ o...'
+      title: ========== ThÃ´ng Tin Ä�áº£o ============
+      island-uuid: 'UUID: [uuid]'
+      owner: 'Chá»§: [owner] ([uuid])'
+      last-login: 'Láº§n Ä‘Äƒng nháº­p cuá»‘i: [date]'
+      deaths: 'Cháº¿t: [number]'
+      resets-left: 'Láº§n lÃ m láº¡i: [number] (Tá»‘i Ä‘a: [total])'
+      team-members-title: 'ThÃ nh viÃªn Ä‘áº£o:'
+      team-owner-format: '&a [name] [rank]'
+      team-member-format: '&b [name] [rank]'
+      island-location: 'Vá»‹ trÃ­ Ä‘áº£o: [xyz]'
+      island-coords: 'Tá»�a Ä‘á»™ Ä‘áº£o: [xz1] Ä‘áº¿n [xz2]'
+      islands-in-trash: '&d NgÆ°á»�i chÆ¡i cÃ³ Ä‘áº£o rÃ¡c.'
+      protection-range: 'Ä�á»™ dÃ i báº£o vá»‡: [range]'
+      purge-protected: Ä�áº£o Ä‘ang Ä‘Æ°á»£c báº£o vá»‡ khá»�i bá»‹ xÃ³a
+      max-protection-range: 'Ä�á»™ dÃ i báº£o vá»‡ lá»›n nháº¥t: [range]'
+      protection-coords: 'Tá»�a Ä‘á»™ báº£o vá»‡: [xz1] to [xz2]'
+      is-spawn: Ä�áº£o lÃ  Ä‘iá»ƒm triá»‡u há»“i
+      banned-players: 'NgÆ°á»�i chÆ¡i bá»‹ cáº¥m:'
+      banned-format: '&c [name]'
+      unowned: '&c KhÃ´ng cÃ³ chá»§'
+    switch:
+      description: switch on/off protection bypass
+      op: '&c Ops can always bypass protection. Deop to use command.'
+      removing: Removing protection bypass...
+      adding: Adding protection bypass...
+    switchto:
+      parameters: <player> <number>
+      description: switch player's island to the numbered one in trash
+      out-of-range: '&c Number must be between 1 and [number]. Use &l [label] trash
+        [player] &r &c to see island numbers'
+      cannot-switch: '&c Switch failed. See console log for error.'
+      success: '&a Successfully switched the player''s island to the specified one.'
+    trash:
+      no-unowned-in-trash: '&c No unowned islands in trash'
+      no-islands-in-trash: '&c Player has no islands in trash'
+      parameters: '[player]'
+      description: show unowned islands or player's islands in trash
+      title: '&d =========== Islands in Trash ==========='
+      count: '&l &d Island [number]:'
+      use-switch: '&a Use &l [label] switchto <player> <number>&r &a  to switch player
+        to island in trash'
+      use-emptytrash: '&a Use &l [label] emptytrash [player]&r &a  to permanently
+        remove trash items'
+    emptytrash:
+      parameters: '[player]'
+      description: Clear trash for player, or all unowned islands in trash
+      success: '&a Trash successfully emptied.'
+    getrank:
+      parameters: <player> [island owner]
+      description: get a player's rank on their island or the island of the owner
+      rank-is: '&a Rank is &b [rank] &a on &b [name]&a ''s island.'
+    setrank:
+      parameters: <player> <rank> [island owner]
+      description: set a player's rank on their island or the island of the owner
+      unknown-rank: '&c Unknown rank!'
+      not-possible: '&c Rank must be higher than visitor.'
+      rank-set: '&a Rank set from &b [from] &a to &b [to] &a on &b [name]&a ''s island.'
+    setspawn:
+      description: set an island as spawn for this gamemode
+      already-spawn: '&c This island is already a spawn!'
+      no-island-here: '&c There is no island here.'
+      confirmation: '&c Are you sure you want to set this island as the spawn for
+        this world?'
+      success: '&a Successfully set this island as the spawn for this world.'
+    setspawnpoint:
+      description: set current location as spawn point for this island
+      no-island-here: '&c There is no island here.'
+      confirmation: '&c Are you sure you want to set this location as the spawn point
+        for this island?'
+      success: '&a Successfully set this location as the spawn point for this island.'
+      island-spawnpoint-changed: '&a [user] changed this island spawn point.'
+    settings:
+      parameters: '[player]'
+      description: open system settings or island settings for player
+    blueprint:
+      parameters: <load/copy/paste/pos1/pos2/save>
+      description: manipulate blueprints
+      bedrock-required: '&c At least one bedrock block must be in a blueprint!'
+      copy-first: '&c Copy first!'
+      file-exists: '&c File already exists, overwrite?'
+      no-such-file: '&c No such file!'
+      could-not-load: '&c Could not load that file!'
+      could-not-save: '&c Hmm, something went wrong saving that file: [message]'
+      set-pos1: '&a Position 1 set at [vector]'
+      set-pos2: '&a Position 2 set at [vector]'
+      set-different-pos: '&c Set a different location - this pos is already set!'
+      need-pos1-pos2: '&c Set pos1 and pos2 first!'
+      copying: '&b Copying blocks...'
+      copied-blocks: '&b Copied [number] blocks to clipboard'
+      look-at-a-block: '&c Look at block within 20 blocks to set'
+      mid-copy: '&c You are mid-copy. Wait until the copy is done.'
+      copied-percent: '&6 Copied [number]%'
+      copy:
+        parameters: '[air]'
+        description: copy the clipboard set by pos1 and pos2 and optionally the air
+          blocks
+      delete:
+        parameters: <name>
+        description: delete the blueprint
+        no-blueprint: '&b [name] &c does not exist.'
+        confirmation: |
+          &c Are you sure you want to delete this blueprint?
+          &c Once deleted, there is no way to recover it.
+        success: '&a Successfully deleted blueprint &b [name]&a .'
+      load:
+        parameters: <name>
+        description: load blueprint into the clipboard
+      list:
+        description: list available blueprints
+        no-blueprints: '&c No blueprints in blueprints folder!'
+        available-blueprints: '&a These blueprints are available for loading:'
+      origin:
+        description: set the blueprint's origin to your position
+      paste:
+        description: paste the clipboard to your location
+        pasting: '&a Pasting...'
+      pos1:
+        description: set 1st corner of cuboid clipboard
+      pos2:
+        description: set 2nd corner of cuboid clipboard
+      save:
+        parameters: <blueprint name>
+        description: save the copied clipboard
+      rename:
+        parameters: <blueprint name> <new name>
+        description: rename a blueprint
+        success: '&a Blueprint &b [old] &a has been successfully renamed to &b [name]&a.'
+        pick-different-name: '&c Please specify a name that is different from the
+          blueprint''s current name.'
+      management:
+        back: Back
+        instruction: Click on blueprint then click here
+        title: Blueprint Bundle Manager
+        edit: Click to edit
+        rename: Right-click to rename
+        edit-description: Click to edit description
+        world-name-syntax: '[name] world'
+        world-instructions: |
+          Place blueprint
+          to right to set
+        trash: Trash
+        no-trash: Cannot Trash
+        trash-instructions: Right click here to delete
+        no-trash-instructions: Cannot trash default bundle
+        permission: Permission
+        no-permission: No Permission
+        perm-required: Required
+        no-perm-required: Cannot set perm for default bundle
+        perm-not-required: Not Required
+        perm-format: '&e '
+        remove: Right click to remove
+        blueprint-instruction: |
+          Click to select,
+          then add to bundle.
+          Right-click to rename.
+        select-first: Select Blueprint first
+        new-bundle: New Bundle
+        new-bundle-instructions: Click to make a new bundle
+        name:
+          quit: quit
+          prompt: Enter a name, or 'quit' to quit
+          too-long: '&c Too long'
+          pick-a-unique-name: Please pick a more unique name
+          success: Success!
+          conversation-prefix: '>'
+        description:
+          quit: quit
+          instructions: |
+            Enter a multi line description for [name]
+            and 'quit' on a line by itself to finish.
+          default-color: ''
+          success: Success!
+          cancelling: Cancelling
+        slot: '&f Preferred Slot [number]'
+        slot-instructions: |
+          &a Left click to increment
+          &a Right click to decrement
+    resetflags:
+      parameters: '[flag]'
+      description: Reset all islands to default flag settings in config.yml
+      confirm: '&4 This will reset the flag(s) to default for all islands!'
+      success: '&a Successfully reset all islands'' flags to the default settings.'
+      success-one: '&a [name] flag set to default for all islands.'
+    world:
+      description: Manage world settings
+    why:
+      parameters: <player>
+      description: toggle console protection debug reporting
+      turning-on: Turning on console debug for [name].
+      turning-off: Turning off console debug for [name].
+    deaths:
+      description: edit deaths of players
+      reset:
+        description: resets deaths of the player
+        parameters: <player>
+        success: '&a Successfully reset &b [name]&a ''s deaths to &b 0&a .'
+      set:
+        description: sets deaths of the player
+        parameters: <player> <deaths>
+        success: '&a Successfully set &b [name]&a ''s deaths to &b [number]&a .'
+      add:
+        description: adds deaths to the player
+        parameters: <player> <deaths>
+        success: '&a Successfully added &b [number] &a deaths to &b [name], increasing
+          the total to &b [total]&a  deaths.'
+      remove:
+        description: removes deaths to the player
+        parameters: <player> <deaths>
+        success: '&a Successfully removed &b [number] &a deaths to &b [name], decreasing
+          the total to &b [total]&a  deaths.'
+  island:
+    about:
+      description: hiện thông tin về BentoBox
+    go:
+      parameters: <home number>
+      description: dịch chuyển tới đảo
+      teleport: '&aĐang dịch chuyển. &b/[label] help &ađể được giúp đỡ.'
+      teleported: '&aĐã dịch chuyển bạn tới khu vực nhà số &e#[number].'
+    help:
+      description: Các lệnh chính
+    spawn:
+      description: dịch chuyển ra spawn
+      teleporting: '&a Ä�ang dá»‹ch chuyá»ƒn vá»� Ä‘iá»ƒm há»“i sinh.'
+      no-spawn: '&c KhÃ´ng cÃ³ Ä‘iá»ƒm há»“i sinh á»Ÿ cháº¿ Ä‘á»™ nÃ y.'
+    create:
+      description: tạo đảo
+      unable-create-island: Không thể khởi tạo đảo, hãy liên hệ admin.
+      creating-island: Đang tạo đảo...
+      parameters: <báº£n váº½>
+      too-many-islands: '&c QuÃ¡ nhiá»�u Ä‘áº£o trong tháº¿ giá»›i nÃ y. KhÃ´ng cÃ³
+        Ä‘á»§ chá»— cho báº¡n.'
+      cannot-create-island: '&c ChÆ°a tÃ¬m tháº¥y vá»‹ trÃ­. Thá»­ láº¡i...'
+      pasting:
+        estimated-time: '&a Thá»�i gian dá»± kiáº¿n: &b [number] &a giÃ¢y.'
+        blocks: '&a Ä�ang xÃ¢y dá»±ng: &b [number] &a khá»‘i toÃ n bá»™...'
+        entities: '&a Ä�ang thÃªm thá»±c thá»ƒ: &b [number] &a thá»±c thá»ƒ toÃ n
+          bá»™...'
+        done: '&a Xong! Ä�áº£o cá»§a báº¡n Ä‘Ã£ sáºµn sÃ ng!'
+      pick: '&2 Chá»�n má»™t Ä‘áº£o'
+      unknown-blueprint: '&c Báº£n váº½ chÆ°a Ä‘Æ°á»£c náº¡p.'
+      on-first-login: '&a Xin chÃ o! ChÃºng tÃ´i sáº½ táº¡o Ä‘áº£o cá»§a báº¡n trong
+        vÃ i giÃ¢y ná»¯a.'
+      you-can-teleport-to-your-island: '&a Báº¡n cÃ³ thá»ƒ dá»‹ch chuyá»ƒn vá»� Ä‘áº£o
+        náº¿u báº¡n muá»‘n.'
+    info:
+      description: hiện thông tin đảo của bạn
+      parameters: <ngÆ°á»�i chÆ¡i>
+    reset:
+      description: làm lại đảo của bạn
+      must-remove-members: Hãy đuổi toàn bộ thành viên trước khi khởi tạo lại đảo
+        (/island kick <người chơi>).
+      parameters: <báº£n váº½>
+      none-left: '&c Báº¡n Ä‘Ã£ háº¿t láº§n táº¡o láº¡i!'
+      resets-left: '&c Báº¡n cÃ²n &b [number] &c láº§n táº¡o láº¡i'
+      confirmation: |-
+        &c Báº¡n cháº¯c lÃ  báº¡n muá»‘n chá»©?
+        &c CÃ¡c thÃ nh viÃªn trong Ä‘áº£o sáº½ bá»‹ Ä‘uá»•i. Báº¡n pháº£i má»�i bá»�n há»� láº¡i
+        &c Sáº½ khÃ´ng cÃ³ Ä‘Æ°á»�ng lui. Náº¿u báº¡n Ä‘Ã£ táº¡o láº¡i Ä‘áº£o, sáº½ &l khÃ´ng cÃ³ &r &c cÃ¡ch Ä‘á»ƒ láº¥y láº¡i.
+      kicked-from-island: '&c Báº¡n Ä‘Ã£ bá»‹ Ä‘uá»•i khá»�i Ä‘áº£o trong [gamemode]
+        vÃ¬ chá»§ Ä‘áº£o Ä‘ang táº¡o láº¡i Ä‘áº£o.'
+    sethome:
+      description: đặt bị trí dịch chuyển cho /island
+      must-be-on-your-island: Bạn phải ở trên đảo của bạn!
+      num-homes: Số nhà có thể đặt từ 1 đến [max].
+      home-set: Đã đặt vị trí nhà tại địa điểm hiện tại của bạn.
+      parameters: <home number>
+      nether:
+        not-allowed: '&c Báº¡n khÃ´ng Ä‘Æ°á»£c phÃ©p chá»�n Ä‘iá»ƒm nhÃ  á»Ÿ Ä�á»‹a
+          Ngá»¥c.'
+        confirmation: '&c Báº¡n cÃ³ cháº¯c muá»‘n chá»�n Ä‘iá»ƒm nhÃ  á»Ÿ Ä�á»‹a Ngá»¥c?'
+      the-end:
+        not-allowed: '&c Báº¡n khÃ´ng Ä‘Æ°á»£c phÃ©p chá»�n Ä‘iá»ƒm nhÃ  á»Ÿ Tháº¿
+          Giá»›i Ä�á»‹a Ngá»¥c.'
+        confirmation: '&c Báº¡n cÃ³ cháº¯c muá»‘n chá»�n Ä‘iá»ƒm nhÃ  á»Ÿ Tháº¿ Giá»›i
+          Ä�á»‹a Ngá»¥c?'
+    setname:
+      description: đặt tên đảo
+      name-too-short: '&cQuá ngắn. Giới hạn thấp nhất là [length] kí tự.'
+      name-too-long: '&cQuá dài. Giới hạn tối đa là [length] kí tự.'
+      parameters: <name>
+      name-already-exists: '&c Ä�Ã£ cÃ³ Ä‘áº£o vá»›i tÃªn nÃ y á»Ÿ cháº¿ Ä‘á»™ nÃ y.'
+      success: '&a Ä�Ã£ Ä‘áº·t tÃªn Ä‘áº£o thÃ nh &b [name]&a .'
+    resetname:
+      description: làm lại tên đảo
+      success: '&a Ä�Ã£ Ä‘áº·t láº¡i tÃªn Ä‘áº£o.'
+    team:
+      description: quản lý đội
+      info:
+        description: hiện thông tin chi tiết về đội
+        member-layout:
+          online: '&a &l  o &r &f [name]'
+          offline: '&c &l  o &r &f [name] &7 ([last_seen])'
+          offline-not-last-seen: '&c &l  o &r &f [name]'
+        last-seen:
+          layout: '&b [number] &7 [unit] trÆ°á»›c'
+          days: ngÃ y
+          hours: giá»�
+          minutes: phÃºt
+        header: |
+          &f --- &a ThÃ´ng tin Ä‘á»™i &f ---
+          &a ThÃ nh viÃªn: &b [total]&7 /&b [max]
+          &a Trá»±c tuyáº¿n: &b [online]
+        rank-layout:
+          owner: '&6 [rank]:'
+          generic: '&6 [rank] &7 (&b [number]&7 )&6 :'
+      invite:
+        description: mới người chơi đến đảo
+        invitation-sent: Đã gửi lời mời tới [name]
+        removing-invite: Đang bỏ lời bời
+        name-has-invited-you: '[name] đã mời bạn vào đảo.'
+        to-accept-or-reject: Ghi /island team accept để chấp nhận, hay /island team
+          reject để từ chối
+        you-will-lose-your-island: '&cCẢNH BÁO! Bạn sẽ mất đảo nếu chấp nhận'
+        errors:
+          cannot-invite-self: '&cBạn không thể mới chính mình'
+          cooldown: '&cBạn không thế mời người khác trong [time] giây'
+          island-is-full: '&cĐảo đã đầy, không thể mời thêm'
+          none-invited-you: '&cKhông ai mời bạn :c.'
+          you-already-are-in-team: '&cBạn đã ở trong 1 đội!'
+          already-on-team: '&cNgười chơi đó đã ở trong 1 đội!'
+          invalid-invite: '&cLời mời vô hiệu, xin lỗi.'
+          you-have-already-invited: '&c Báº¡n Ä‘Ã£ má»�i ngÆ°á»�i Ä‘Ã³ rá»“i!'
+        parameters: <player>
+        you-can-invite: Bạn có thể mời thêm [number] người.
+        accept:
+          description: chấp nhận lời mời
+          you-joined-island: '&aBạn đã tham gia đảo! Sử dụng /[label] team info để
+            biết thêm thông tin.'
+          name-joined-your-island: '&a[name] đã vào đảo của bạn!'
+          confirmation: |-
+            &c Báº¡n cÃ³ cháº¯c Ä‘á»“ng Ã½ lá»�i má»�i nÃ y chá»©?
+            &c&l Báº¡n sáº½ &n Máº¤T &r&c&l Ä‘áº£o hiá»‡n táº¡i cá»§a báº¡n!
+        reject:
+          description: từ chối lời mời
+          you-rejected-invite: '&aBạn đã từ chối lời mời vào đảo.'
+          name-rejected-your-invite: '&c[name] đã từ chối lời mời của bạn!'
+        cancel:
+          description: hủy lời mời hiện tại
+      leave:
+        description: rời đảo
+        type-again: '&cGõ lệnh rời đảo 1 lần nữa để xác nhận'
+        left-your-island: '&c[player] đã rời đảo'
+        cannot-leave: '&c Chá»§ khÃ´ng thá»ƒ rá»�i. Trá»Ÿ thÃ nh thÃ nh viÃªn hoáº·c
+          Ä‘uá»•i táº¥t cáº£ thÃ nh viÃªn.'
+        success: '&a Báº¡n Ä‘Ã£ rá»�i Ä‘áº£o nÃ y.'
+      kick:
+        description: loại bỏ 1 người chơi khỏi đảo
+        parameters: <player>
+        type-again: '&cHãy đánh lệnh loại bỏ 1 lần nữa để xác nhận'
+        owner-kicked: '&cĐội trưởng đã đuổi bạn ra khỏi đội!'
+        cannot-kick: '&c Báº¡n khÃ´ng thá»ƒ Ä‘uá»•i chÃ­nh báº¡n!'
+        success: '&b [name] &a Ä‘Ã£ bá»‹ Ä‘uá»•i khá»�i Ä‘áº£o báº¡n.'
+      demote:
+        description: hạ cấp bậc người chơi
+        parameters: <player>
+        failure: '&cNgười chơi không thể hạ cấp thêm nữa'
+        success: Đã hạ cấp [name] đến bậc [rank]
+        errors:
+          cant-demote-yourself: '&c Báº¡n khÃ´ng thá»ƒ giÃ¡ng cáº¥p chÃ­nh báº¡n!'
+      promote:
+        description: thăng chức người chơi
+        parameters: <player>
+        failure: '&cKhông thể thăng chức nữa!'
+        success: Đã thăng chức [name] lên bậc [rank]
+      setowner:
+        description: chuyển quyền sở hữu đảo
+        errors:
+          cant-transfer-to-yourself: '&cBạn không thể chuyển quyền sở hữu cho chính
+            mình'
+          target-is-not-member: '&cNgười chơi đó không phải là người trong đội!'
+        name-is-the-owner: '&a[name] giờ là chủ đảo!'
+        parameters: <player>
+        you-are-the-owner: '&aBạn giờ là chủ đảo!'
+      coop:
+        description: cho ngÆ°á»�i chÆ¡i rank chÆ¡i cÃ¹ng vá»›i Ä‘áº£o báº¡n
+        parameters: <ngÆ°á»�i chÆ¡i>
+        cannot-coop-yourself: '&c Báº¡n khÃ´ng thá»ƒ chÆ¡i cÃ¹ng vá»›i chÃ­nh báº¡n!'
+        already-has-rank: '&c NgÆ°á»�i chÆ¡i Ä‘Ã£ cÃ³ rank!'
+        you-are-a-coop-member: '&2 Báº¡n Ä‘Æ°á»£c chÆ¡i cÃ¹ng bá»Ÿi &b[name]&a.'
+        success: '&a Báº¡n Ä‘Ã£ chÆ¡i cÃ¹ng vá»›i &b [name]&a.'
+        name-has-invited-you: '&a [name] Ä‘Ã£ má»�i báº¡n chÆ¡i cÃ¹ng vá»›i Ä‘áº£o
+          há»�.'
+      uncoop:
+        description: xÃ³a ngÆ°á»�i chÆ¡i cÃ¹ng
+        parameters: <ngÆ°á»�i chÆ¡i>
+        cannot-uncoop-yourself: '&c Báº¡n khÃ´ng thá»ƒ xÃ³a chÃ­nh báº¡n!'
+        cannot-uncoop-member: '&c Báº¡n khÃ´ng thá»ƒ xÃ³a thÃ nh viÃªn Ä‘á»™i!'
+        player-not-cooped: '&c NgÆ°á»�i chÆ¡i Ä‘Ã³ khÃ´ng chÆ¡i cÃ¹ng!'
+        you-are-no-longer-a-coop-member: '&c Báº¡n khÃ´ng cÃ²n chÆ¡i cÃ¹ng vá»›i Ä‘áº£o
+          cá»§a [name].'
+        all-members-logged-off: '&c NgÆ°á»�i chÆ¡i trÃªn Ä‘áº£o Ä‘Ã£ thoÃ¡t háº¿t
+          nÃªn báº¡n khÃ´ng cÃ²n chÆ¡i cÃ¹ng trÃªn Ä‘áº£o cá»§a [name].'
+        success: '&b [name] &a khÃ´ng cÃ²n chÆ¡i cÃ¹ng vá»›i Ä‘áº£o cá»§a báº¡n.'
+        is-full: '&c Báº¡n khÃ´ng thá»ƒ chÆ¡i cÃ¹ng ai ná»¯a.'
+      trust:
+        description: cho ngÆ°á»�i chÆ¡i rank tin tÆ°á»Ÿng vá»›i Ä‘áº£o báº¡n
+        parameters: <ngÆ°á»�i chÆ¡i>
+        trust-in-yourself: '&c Tin tÆ°á»Ÿng vÃ o báº£n thÃ¢n báº¡n!'
+        name-has-invited-you: '&a [name] má»�i báº¡n lÃ m ngÆ°á»�i Ä‘Æ°á»£c tin tÆ°á»Ÿng
+          cho Ä‘áº£o cá»§a há»�.'
+        player-already-trusted: '&c NgÆ°á»�i chÆ¡i Ä‘Ã£ Ä‘Æ°á»£c tin tÆ°á»Ÿng!'
+        you-are-trusted: '&2 Báº¡n Ä‘Æ°á»£c tin tÆ°á»Ÿng bá»Ÿi &b [name]&a !'
+        success: '&a Báº¡n tin tÆ°á»Ÿng &b [name]&a .'
+        is-full: '&c Báº¡n khÃ´ng thá»ƒ tin tÆ°á»Ÿng ai ná»¯a.'
+      untrust:
+        description: xÃ³a rank tin tÆ°á»Ÿng tá»« ngÆ°á»�i chÆ¡i
+        parameters: <ngÆ°á»�i chÆ¡i>
+        cannot-untrust-yourself: '&c Báº¡n khÃ´ng thá»ƒ xÃ³a tin tÆ°á»Ÿng chÃ­nh báº¡n!'
+        cannot-untrust-member: '&c Báº¡n khÃ´ng thá»ƒ xÃ³a tin tÆ°á»Ÿng thÃ nh viÃªn
+          Ä‘á»™i!'
+        player-not-trusted: '&c NgÆ°á»�i chÆ¡i Ä‘ang khÃ´ng Ä‘Æ°á»£c tin tÆ°á»Ÿng!'
+        you-are-no-longer-trusted: '&c Báº¡n Ä‘Ã£ máº¥t tin tÆ°á»Ÿng tá»« &b [name]&a
+          !'
+        success: '&b [name] &a khÃ´ng cÃ²n Ä‘Æ°á»£c tin tÆ°á»Ÿng vá»›i Ä‘áº£o báº¡n.'
+    ban:
+      description: cấm 1 người chơi khỏi đảo
+      parameters: <player>
+      cannot-ban-yourself: '&c Báº¡n khÃ´ng thá»ƒ cáº¥m chÃ­nh báº¡n!'
+      cannot-ban: '&c NgÆ°á»�i chÆ¡i Ä‘Ã³ khÃ´ng thá»ƒ bá»‹ cáº¥m.'
+      cannot-ban-member: '&c Ä�uá»•i nÃ³ trÆ°á»›c, rá»“i cáº¥m.'
+      cannot-ban-more-players: '&c Báº¡n Ä‘Ã£ Ä‘áº¡t lÆ°á»£t cáº¥m tá»‘i Ä‘a, báº¡n
+        khÃ´ng thá»ƒ cáº¥m ai ná»¯a.'
+      player-already-banned: '&c NgÆ°á»�i chÆ¡i Ä‘Ã£ bá»‹ cáº¥m.'
+      player-banned: '&b [name]&c  giá»� bá»‹ cáº¥m á»Ÿ Ä‘áº£o báº¡n.'
+      owner-banned-you: '&b [name]&c  cáº¥m báº¡n á»Ÿ Ä‘áº£o há»�!'
+      you-are-banned: '&b Báº¡n bá»‹ cáº¥m á»Ÿ Ä‘áº£o nÃ y!'
+    unban:
+      description: bỏ cấm 1 người chơi khỏi đảo
+      parameters: <player>
+      cannot-unban-yourself: '&c Báº¡n khÃ´ng thá»ƒ gá»¡ cáº¥m chÃ­nh báº¡n!'
+      player-not-banned: '&c NgÆ°á»�i chÆ¡i khÃ´ng bá»‹ cáº¥m.'
+      player-unbanned: '&b [name]&a  Ä‘Ã£ Ä‘Æ°á»£c gá»¡ cáº¥m á»Ÿ Ä‘áº£o báº¡n.'
+      you-are-unbanned: '&b [name]&a  Ä‘Ã£ gá»¡ cáº¥m báº¡n á»Ÿ Ä‘áº£o há»�!'
+    banlist:
+      description: những người chơi bị cấm
+      noone: '&a KhÃ´ng ai bá»‹ cáº¥m á»Ÿ Ä‘áº£o nÃ y.'
+      the-following: '&b NgÆ°á»�i chÆ¡i bá»‹ cáº¥m:'
+      names: '&c [line]'
+      you-can-ban: '&b Báº¡n cÃ³ thá»ƒ cáº¥m &e [number] &b ngÆ°á»�i ná»¯a.'
+    lock:
+      description: khóa/bỏ khóa khả năng truy cập đảo của bạn
+    settings:
+      description: hiện cài đặt đảo
+    language:
+      description: chọn ngôn ngữ
+      parameters: <language>
+      not-available: '&c NgÃ´n ngá»¯ nÃ y khÃ´ng tá»“n táº¡i.'
+      already-selected: '&c Báº¡n Ä‘ang dÃ¹ng ngÃ´n ngá»¯ nÃ y.'
+    near:
+      description: liá»‡t kÃª cÃ¡c Ä‘áº£o gáº§n báº¡n
+      parameters: ''
+      the-following-islands: '&a CÃ¡c Ä‘áº£o gáº§n báº¡n:'
+      syntax: '&6 [direction]: &a [name]'
+      north: Báº¯c
+      south: Nam
+      east: Ä�Ã´ng
+      west: TÃ¢y
+      no-neighbors: '&c KhÃ´ng cÃ³ Ä‘áº£o gáº§n báº¡n!'
+    expel:
+      description: trá»¥c xuáº¥t ngÆ°á»�i chÆ¡i khá»�i Ä‘áº£o báº¡n
+      parameters: <ngÆ°á»�i chÆ¡i>
+      cannot-expel-yourself: '&c Báº¡n khÃ´ng thá»ƒ trá»¥c xuáº¥t chÃ­nh báº¡n!'
+      cannot-expel: '&c NgÆ°á»�i chÆ¡i Ä‘Ã³ khÃ´ng thá»ƒ bá»‹ trá»¥c xuáº¥t.'
+      cannot-expel-member: '&c Báº¡n khÃ´ng thá»ƒ trá»¥c xuáº¥t thÃ nh viÃªn Ä‘á»™i!'
+      not-on-island: '&c NgÆ°á»�i chÆ¡i Ä‘Ã³ khÃ´ng cÃ³ á»Ÿ Ä‘áº£o báº¡n!'
+      player-expelled-you: '&b [name]&c  Ä‘Ã£ trá»¥c xuáº¥t báº¡n khá»�i Ä‘áº£o cá»§a
+        há»�!'
+      success: '&a Báº¡n Ä‘Ã£ trá»¥c xuáº¥t &b [name] &a khá»�i Ä‘áº£o báº¡n.'
+  bentobox:
+    description: Lá»‡nh cho BentoBox
+    about:
+      description: xem thÃ´ng tin vá»� giáº¥y phÃ©p vÃ  báº£n quyá»�n
+    reload:
+      description: Náº¡p láº¡i BentoBox vÃ  táº¥t cáº£ tiá»‡n Ã­ch, tÃ¹y chá»‰nh vÃ 
+        ngÃ´n ngá»¯
+      locales-reloaded: '[prefix_bentobox]&2 Ä�Ã£ náº¡p láº¡i ngÃ´n ngá»¯.'
+      addons-reloaded: '[prefix_bentobox]&2 Ä�Ã£ náº¡p láº¡i tiá»‡n Ã­ch.'
+      settings-reloaded: '[prefix_bentobox]&2 Ä�Ã£ náº¡p láº¡i tÃ¹y chá»‰nh.'
+      addon: '[prefix_bentobox]&6 Ä�ang náº¡p láº¡i &b [name]&2 .'
+      addon-reloaded: '[prefix_bentobox]&2 Ä�Ã£ náº¡p láº¡i &b [name].'
+      warning: '[prefix_bentobox]&c Cáº£nh bÃ¡o: QuÃ¡ trÃ¬nh náº¡p láº¡i cÃ³ thá»ƒ
+        gÃ¢y máº¥t á»•n Ä‘á»‹nh, náº¿u cÃ³ lá»—i sau quÃ¡ trÃ¬nh nÃ y, vui lÃ²ng khá»Ÿi
+        Ä‘á»™ng láº¡i mÃ¡y chá»§.'
+      unknown-addon: '[prefix_bentobox]&c Tiá»‡n Ã­ch khÃ´ng tá»“n táº¡i!'
+      locales:
+        description: náº¡p láº¡i ngÃ´n ngá»¯
+    version:
+      plugin-version: '&2 PhiÃªn báº£n BentoBox: &3 [version]'
+      description: Xem phiÃªn báº£n BentoBox vÃ  cÃ¡c tiá»‡n Ã­ch
+      loaded-addons: 'Tiá»‡n Ã­ch:'
+      loaded-game-worlds: 'Tháº¿ giá»›i chÆ¡i:'
+      addon-syntax: '&2 [name] &3 [version] &7 (&3 [state]&7 )'
+      game-world: '&2 [name] &7 (&3 [addon]&7 ): &3 [worlds]'
+      server: '&2 Ä�ang cháº¡y &3 [name] [version]&2 .'
+      database: '&2 CÆ¡ sá»Ÿ dá»¯ liá»‡u: &3 [database]'
+    manage:
+      description: Xem báº£ng quáº£n lÃ­
+    catalog:
+      description: Xem má»¥c lá»¥c
+    locale:
+      description: Thá»±c hiá»‡n phÃ¢n tÃ­ch tá»‡p ngÃ´n ngá»¯
+      see-console: |-
+        [prefix_bentobox]&a Xem thÃ´ng bÃ¡o báº£ng Ä‘iá»�u khiá»ƒn.
+        [prefix_bentobox]&a ThÃ´ng bÃ¡o tá»« lá»‡nh nÃ y quÃ¡ dÃ i nÃªn khÃ´ng thá»ƒ xem á»Ÿ chat...
+    migrate:
+      description: Chuyá»ƒn dá»¯ liá»‡u tá»« cÆ¡ sá»Ÿ dá»¯ liá»‡u nÃ y sang cÃ¡i khÃ¡c
+      players: '[prefix_bentobox]&6 Ä�ang chuyá»ƒn ngÆ°á»�i chÆ¡i'
+      names: '[prefix_bentobox]&6 Ä�ang chuyá»ƒn tÃªn'
+      addons: '[prefix_bentobox]&6 Ä�ang chuyá»ƒn tiá»‡n Ã­ch'
+      class: '[prefix_bentobox]&6 Ä�ang chuyá»ƒn [description]'
+      migrated: '[prefix_bentobox]&a Ä�Ã£ chuyá»ƒn'
+  confirmation:
+    confirm: '&c Nháº­p lá»‡nh Ä‘Ã³ láº¡i trong &b [seconds] giÃ¢y&c  Ä‘á»ƒ xÃ¡c nháº­n.'
+    previous-request-cancelled: '&6 Láº§n xÃ¡c nháº­n trÆ°á»›c Ä‘Ã£ bá»‹ há»§y.'
+    request-cancelled: '&c Háº¿t thá»�i gian xÃ¡c nháº­n - &b yÃªu cáº§u Ä‘Ã£ bá»‹
+      há»§y.'
+  delay:
+    previous-command-cancelled: '&c Lá»‡nh trÆ°á»›c Ä‘Ã£ bá»‹ há»§y'
+    stand-still: '&6 Ä�á»«ng di chuyá»ƒn! Dá»‹ch chuyá»ƒn trong [seconds] giÃ¢y'
+    moved-so-command-cancelled: '&c Báº¡n Ä‘Ã£ di chuyá»ƒn. Ä�Ã£ há»§y dá»‹ch chuyá»ƒn!'
+ranks:
+  owner: Chủ
+  member: Thành Viên
+  coop: Đối tác
+  visitor: Khách
+  banned: Bị cấm
+  sub-owner: Ä�á»“ng Chá»§ Ä�áº£o
+  trusted: Tin TÆ°á»Ÿng
+  admin: Quáº£n trá»‹ viÃªn
+  mod: Kiá»ƒm duyá»‡t viÃªn
+protection:
+  protected: '&cĐã bảo vệ đảo!'
+  flags:
+    ANVIL:
+      name: Đe
+      description: Tắt/bật tương tác với Đe
+      hint: Ä�Ã£ táº¯t dÃ¹ng Ä‘e
+    ARMOR_STAND:
+      name: Giá để giáp
+      description: Tắt/bật tương tác với giá để giáp
+      hint: Ä�Ã£ táº¯t dÃ¹ng giÃ¡ treo giÃ¡p
+    BEACON:
+      name: Beacons
+      description: Tắt/bật tương tác với beacons
+      hint: Ä�Ã£ táº¯t dÃ¹ng Ä‘Ã¨n hiá»‡u
+    BED:
+      name: Giường
+      description: Tắt/bật tương tác với giường
+      hint: Ä�Ã£ táº¯t dÃ¹ng giÆ°á»�ng
+    BREAK_BLOCKS:
+      name: Phá khối
+      description: Tắt/bật khả năng phá khối
+      hint: Ä�Ã£ táº¯t Ä‘áº­p khá»‘i
+    BREEDING:
+      name: Giao phối
+      description: Tắt/bật khả năng giao phối của dộng vật
+      hint: Ä�Ã£ báº£o vá»‡ thuáº§n hÃ³a Ä‘á»™ng váº­t
+    BREWING:
+      name: Brewing stands
+      description: Tắt/bật tương tác với brewing stands
+      hint: Ä�Ã£ táº¯t giÃ n pha thuá»‘c
+    BUCKET:
+      name: Xô
+      description: Tắt/bật tương tác với xô
+      hint: Ä�Ã£ táº¯t dÃ¹ng xÃ´
+    COLLECT_WATER:
+      name: Lấy nước
+      description: Tắt/bật khả năng lấy nước bằng xô
+      hint: Ä�Ã£ táº¯t dÃ¹ng xÃ´ nÆ°á»›c
+    COLLECT_LAVA:
+      name: Lấy dung nham
+      description: Tắt/bật khả năng lấy nước bằng xô
+      hint: KhÃ´ng thu tháº­p nham tháº¡ch
+    CHORUS_FRUIT:
+      name: Chorus fruits
+      description: Toggle teleportation using Chorus fruits
+      hint: Ä�Ã£ táº¯t dá»‹ch chuyá»ƒn báº±ng quáº£ Chorus
+    CRAFTING:
+      description: Báº­t/Táº¯t sá»­ dá»¥ng
+      name: BÃ n cháº¿ táº¡o
+      hint: Ä�Ã£ táº¯t tÆ°Æ¡ng tÃ¡c vá»›i bÃ n cháº¿ táº¡o
+    CROP_TRAMPLE:
+      description: Báº­t/Táº¯t giáº«m lÃªn cÃ¢y trá»“ng
+      name: Giáº«m lÃªn cÃ¢y trá»“ng
+      hint: Ä�Ã£ táº¯t giáº«m lÃªn cÃ¢y trá»“ng
+    DOOR:
+      description: Báº­t/Táº¯t dÃ¹ng cá»­a
+      name: DÃ¹ng cá»­a
+      hint: Ä�Ã£ táº¯t dÃ¹ng cá»­a
+    ELYTRA:
+      name: CÃ¡nh cá»©ng
+      description: Báº­t/Táº¯t sá»­ dá»¥ng cÃ¡nh cá»©ng
+      hint: '&c Cáº¢NH BÃ�O: KhÃ´ng thá»ƒ sá»­ dá»¥ng cÃ¡nh cá»©ng á»Ÿ Ä‘Ã¢y!'
+    ENCHANTING:
+      description: Báº­t/Táº¯t sá»­ dá»¥ng
+      name: BÃ n phÃ¹ phÃ©p
+      hint: Ä�Ã£ táº¯t sá»­ dá»¥ng bÃ n phÃ¹ phÃ©p
+    ENTER_EXIT_MESSAGES:
+      description: Xem thÃ´ng bÃ¡o vÃ o/ra
+      island: Ä‘áº£o cá»§a [name]
+      name: ThÃ´ng bÃ¡o VÃ o/Ra
+      now-entering: '&a Ä�ang vÃ o &b [name]&a .'
+      now-entering-your-island: '&a Ä�ang vÃ o Ä‘áº£o cá»§a báº¡n.'
+      now-leaving: '&a Ä�ang rá»�i &b [name]&a .'
+      now-leaving-your-island: '&a Ä�ang rá»�i Ä‘áº£o cá»§a báº¡n.'
+    FIRE: FIRE
+    FIRE_EXTINGUISH:
+      description: Báº­t/Táº¯t dáº­p lá»­a
+      name: Dáº­p lá»­a
+      hint: Ä�Ã£ táº¯t dáº­p lá»­a
+    FIRE_SPREAD:
+      name: Lá»­a lan tá»�a
+      description: |-
+        &a Báº­t/Táº¯t viá»‡c lá»­a cÃ³ thá»ƒ
+        &a lan ra cÃ¡c khá»‘i bÃªn cáº¡nh.
+    FURNACE:
+      description: Báº­t/Táº¯t sá»­ dá»¥ng
+      name: LÃ² nung
+      hint: Ä�Ã£ táº¯t sá»­ dá»¥ng lÃ² nung
+    GATE:
+      description: Báº­t/Táº¯t sá»­ dá»¥ng
+      name: Cá»•ng rÃ o
+      hint: Ä�Ã£ táº¯t sá»­ dá»¥ng cá»•ng rÃ o
+    HURT_ANIMALS:
+      description: Báº­t/Táº¯t lÃ m Ä‘au
+      name: LÃ m Ä‘au Ä‘á»™ng váº­t
+      hint: Ä�Ã£ táº¯t lÃ m Ä‘au Ä‘á»™ng váº­t
+    HURT_MONSTERS:
+      description: Báº­t/Táº¯t lÃ m Ä‘au
+      name: LÃ m Ä‘au quÃ¡i váº­t
+      hint: Ä�Ã£ táº¯t lÃ m Ä‘au quÃ¡i váº­t
+    HURT_VILLAGERS:
+      description: Báº­t/Táº¯t lÃ m Ä‘au
+      name: LÃ m Ä‘au dÃ¢n lÃ ng
+      hint: Ä�Ã£ táº¯t lÃ m Ä‘au dÃ¢n lÃ ng
+    ITEM_DROP:
+      description: Báº­t/Táº¯t rá»›t Ä‘á»“
+      name: Rá»›t váº­t pháº©m
+      hint: Ä�Ã£ táº¯t rá»›t váº­t pháº©m
+    ITEM_PICKUP:
+      description: Báº­t/Táº¯t nháº·t Ä‘á»“
+      name: Nháº·t váº­t pháº©m
+      hint: Ä�Ã£ táº¯t nháº·t váº­t pháº©m
+    LEASH:
+      description: Báº­t/Táº¯t sá»­ dá»¥ng
+      name: Sá»­ dá»¥ng dÃ¢y buá»™c
+    MILKING:
+      description: Báº­t/Táº¯t váº¯t sá»¯a bÃ²
+      name: Váº¯t sá»¯a
+      hint: Ä�Ã£ táº¯t váº¯t sá»¯a bÃ²
+    MOB_SPAWN: MOB_SPAWN
+    MONSTER_SPAWN: MONSTER_SPAWN
+    MOUNT_INVENTORY:
+      description: |-
+        &a Báº­t/Táº¯t cho phÃ©p
+        &a káº¿t ná»‘i kho Ä‘á»“
+      name: Káº¿t ná»‘i kho Ä‘á»“
+      hint: Ä�Ã£ táº¯t káº¿t ná»‘i kho Ä‘á»“
+    RIDING:
+      description: Báº­t/Táº¯t cÆ°á»¡i thÃº
+      name: CÆ°á»¡i thÃº
+      hint: Ä�Ã£ táº¯t cÆ°á»¡i thÃº
+    MUSIC: MUSIC
+    CHEST: CHEST
+    PLACE_BLOCKS:
+      description: Báº­t/Táº¯t Ä‘áº·t khá»‘i
+      name: Ä�áº·t khá»‘i
+      hint: Ä�Ã£ táº¯t Ä‘áº·t khá»‘i
+    PORTAL: PORTAL
+    PRESSURE_PLATE:
+      description: Báº­t/Táº¯t sá»­ dá»¥ng
+      name: Ä�Ä©a cáº£m biáº¿n Ã¡m lá»±c
+      hint: Ä�Ã£ táº¯t sá»­ dá»¥ng Ä‘Ä©a cáº£m biáº¿n Ã¡m lá»±c
+    PVP_OVERWORLD:
+      description: |-
+        &c Báº­t/Táº¯t PVP
+        &c á»Ÿ Tháº¿ giá»›i thÆ°á»�ng.
+      name: PVP á»Ÿ Tháº¿ giá»›i thÆ°á»�ng
+      hint: PVP Ä‘Ã£ táº¯t á»Ÿ Tháº¿ giá»›i thÆ°á»�ng
+      enabled: '&c Ä�Ã£ báº­t PVP á»Ÿ Tháº¿ giá»›i thÆ°á»�ng.'
+      disabled: '&a Ä�Ã£ táº¯t PVP á»Ÿ Tháº¿ giá»›i thÆ°á»�ng.'
+    PVP_NETHER:
+      description: |-
+        &c Báº­t/Táº¯t PVP
+        &c á»Ÿ Ä�á»‹a ngá»¥c.
+      name: PVP á»Ÿ Ä�á»‹a ngá»¥c
+      hint: PVP Ä‘Ã£ táº¯t á»Ÿ Ä�á»‹a ngá»¥c
+      enabled: '&c Ä�Ã£ báº­t PVP á»Ÿ Ä�á»‹a ngá»¥c.'
+      disabled: '&a Ä�Ã£ táº¯t PVP á»Ÿ Ä�á»‹a ngá»¥c.'
+    PVP_END:
+      description: |-
+        &c Báº­t/Táº¯t PVP
+        &c á»Ÿ Tháº¿ giá»›i káº¿t thÃºc.
+      name: PVP á»Ÿ Tháº¿ giá»›i káº¿t thÃºc
+      hint: PVP Ä‘Ã£ táº¯t á»Ÿ Tháº¿ giá»›i káº¿t thÃºc
+      enabled: '&c Ä�Ã£ báº­t PVP á»Ÿ Tháº¿ giá»›i káº¿t thÃºc.'
+      disabled: '&a Ä�Ã£ táº¯t PVP á»Ÿ Tháº¿ giá»›i káº¿t thÃºc.'
+    REDSTONE:
+      description: Báº­t/Táº¯t sá»­ dá»¥ng
+      name: Váº­t pháº©m Ä‘Ã¡ Ä‘á»�
+      hint: Ä�Ã£ táº¯t sá»­ dá»¥ng váº­t pháº©m Ä‘Ã¡ Ä‘á»�
+    SPAWN_EGGS:
+      description: Báº­t/Táº¯t sá»­ dá»¥ng
+      name: Trá»©ng triá»‡u há»“i
+      hint: Ä�Ã£ táº¯t trá»©ng triá»‡u há»“i
+    SHEARING:
+      description: Báº­t/Táº¯t kÃ©o tá»‰a
+      name: KÃ©o tá»‰a
+      hint: Ä�Ã£ táº¯t kÃ©o tá»‰a
+    EGGS:
+      description: Báº­t/Táº¯t chá»�i trá»©ng
+      name: Chá»�i trá»©ng
+      hint: Ä�Ã£ táº¯t chá»�i trá»©ng
+    TRADING:
+      description: Báº­t/Táº¯t trao Ä‘á»•i
+      name: Trao Ä‘á»•i vá»›i dÃ¢n lÃ ng
+      hint: Ä�Ã£ táº¯t trao Ä‘á»•i vá»›i dÃ¢n lÃ ng
+    ANIMAL_NATURAL_SPAWN:
+      description: Báº­t/Táº¯t sinh thÃº tá»± nhiÃªn
+      name: Sinh thÃº tá»± nhiÃªn
+    ANIMAL_SPAWNERS_SPAWN:
+      description: Báº­t/Táº¯t sinh thÃº tá»« lá»“ng sinh thÃº
+      name: Lá»“ng sinh thÃº
+    BOAT:
+      name: Thuyá»�n
+      description: |-
+        &a Báº­t/Táº¯t Ä‘áº·t, Ä‘áº­p
+        &a vÃ  vÃ o thuyá»�n.
+      hint: KhÃ´ng cho phÃ©p tÆ°Æ¡ng tÃ¡c vá»›i thuyá»�n
+    BREAK_SPAWNERS:
+      description: |-
+        &a Báº­t/Táº¯t Ä‘áº­p lá»“ng sinh quÃ¡i.
+        &7 Gia Ä‘Ã¨ lÃªn cá»� Ä�áº­p Khá»‘i.
+      name: Ä�áº­p lá»“ng sinh quÃ¡i
+      hint: Ä�Ã£ táº¯t Ä‘áº­p lá»“ng sinh quÃ¡i
+    BREAK_HOPPERS:
+      description: |-
+        &a Báº­t/Táº¯t Ä‘áº­p phá»…u.
+        &7 Gia Ä‘Ã¨ lÃªn cá»� Ä�áº­p Khá»‘i.
+      name: Ä�áº­p phá»…u
+      hint: Ä�Ã£ táº¯t Ä‘áº­p phá»…u
+    BUTTON:
+      description: Báº­t/Táº¯t dÃ¹ng nÃºt
+      name: NÃºt
+      hint: Ä�Ã£ táº¯t dÃ¹ng nÃºt
+    CAKE:
+      description: Báº­t/Táº¯t tÆ°Æ¡ng tÃ¡c vá»›i bÃ¡nh kem
+      name: BÃ¡nh kem
+      hint: Ä�Ã£ táº¯t tÆ°Æ¡ng tÃ¡c vá»›i bÃ¡nh kem
+    CONTAINER:
+      name: Kho chá»©a
+      description: |-
+        &a Báº­t/Táº¯t tÆ°Æ¡ng tÃ¡c vá»›i rÆ°Æ¡ng,
+        &a há»™p shulker vÃ  binh hoa,
+        &a thÃ¹ng á»§ phÃ¢n vÃ  thÃ¹ng.
+
+        &7 CÃ¡c kho chá»©a khÃ¡c Ä‘Æ°á»£c quáº£n lÃ­
+        &7 bá»Ÿi cÃ¡c cá»� tÆ°Æ¡ng Ä‘Æ°Æ¡ng.
+      hint: Ä�Ã£ táº¯t tÆ°Æ¡ng tÃ¡c vá»›i kho chá»©a
+    DISPENSER:
+      name: MÃ¡y phÃ¢n phÃ¡t
+      description: Báº­t/Táº¯t tÆ°Æ¡ng tÃ¡c vá»›i mÃ¡y phÃ¢n phÃ¡t
+      hint: Ä�Ã£ táº¯t tÆ°Æ¡ng tÃ¡c vá»›i mÃ¡y phÃ¢n phÃ¡t
+    DROPPER:
+      name: MÃ¡y tháº£
+      description: Báº­t/Táº¯t tÆ°Æ¡ng tÃ¡c vá»›i mÃ¡y tháº£
+      hint: Ä�Ã£ táº¯t tÆ°Æ¡ng tÃ¡c vá»›i mÃ¡y tháº£
+    HOPPER:
+      name: CÃ¡i phá»…u
+      description: Báº­t/Táº¯t tÆ°Æ¡ng tÃ¡c vá»›i cÃ¡i phá»…u
+      hint: Ä�Ã£ táº¯t tÆ°Æ¡ng tÃ¡c vá»›i cÃ¡i phá»…u
+    CHEST_DAMAGE:
+      description: Báº­t/Táº¯t gÃ¢y sÃ¡t thÆ°Æ¡ng ná»• lÃªn rÆ°Æ¡ng
+      name: SÃ¡t thÆ°Æ¡ng lÃªn rÆ°Æ¡ng
+    CLEAN_SUPER_FLAT:
+      description: |-
+        &a Báº­t Ä‘á»ƒ dá»�n báº¥t kÃ¬
+        &a vÃ¹ng siÃªu pháº³ng
+        &a trong tháº¿ giá»›i Ä‘áº£o
+      name: Dá»�n vÃ¹ng siÃªu pháº³ng
+    COARSE_DIRT_TILLING:
+      description: |-
+        &a Báº­t/Táº¯t xá»›i Ä‘áº¥t thÃ´
+        &a vÃ  Ä‘áº­p Ä‘áº¥t podzol
+        &a Ä‘á»ƒ láº¥y Ä‘áº¥t
+      name: Xá»›i Ä‘áº¥t thÃ´
+      hint: KhÃ´ng xá»›i Ä‘áº¥t thÃ´
+    COMMAND_RANKS:
+      name: '&e Cáº¥p Ä‘á»™ lá»‡nh'
+      description: '&a Chá»‰nh cáº¥p Ä‘á»™ lá»‡nh'
+    CREEPER_DAMAGE:
+      description: |
+        &a Báº­t/Táº¯t báº£o vá»‡ khá»�i
+        &a sÃ¡t thÆ°Æ¡ng tá»« Creeper
+      name: Báº£o vá»‡ khá»�i sÃ¡t thÆ°Æ¡ng tá»« Creeper
+    CREEPER_GRIEFING:
+      description: |
+        &a Báº­t/Táº¯t báº£o vá»‡ khá»�i viá»‡c
+        &a cÃ¡c khá»‘i bá»‹ phÃ¡ bá»Ÿi Creeper
+        &a khi bá»‹ Ä‘á»‘t bá»Ÿi NgÆ°á»�i tham quan.
+      name: Báº£o vá»‡ khá»‘i tá»« Creeper
+      hint: Ä�Ã£ cháº·n khá»‘i bá»‹ phÃ¡ bá»Ÿi Creeper
+    DRAGON_EGG:
+      name: Trá»©ng rá»“ng
+      description: |-
+        &a Cháº·n tÆ°Æ¡ng tÃ¡c vá»›i trá»©ng rá»“ng.
+
+        &c Ä�Ã¢y khÃ´ng thá»ƒ báº£o vá»‡ nÃ³ khá»�i viá»‡c
+        &c Ä‘Æ°á»£c Ä‘áº·t hay bá»‹ phÃ¡.
+      hint: Ä�Ã£ táº¯t tÆ°Æ¡ng tÃ¡c vá»›i trá»©ng rá»“ng
+    DYE:
+      description: Cháº·n sá»­ dá»¥ng bá»™t nhá»™m
+      name: Sá»­ dá»¥ng bá»™t nhá»™m
+      hint: Ä�Ã£ táº¯t sá»­ dá»¥ng bá»™t nhá»™m
+    ENDER_CHEST:
+      description: Báº­t/Táº¯t sá»­ dá»¥ng/cháº¿ táº¡o rÆ°Æ¡ng Ender
+      name: RÆ°Æ¡ng Ender
+      hint: Ä�Ã£ táº¯t rÆ°Æ¡ng Ender khá»�i tháº¿ giá»›i nÃ y
+    ENDERMAN_DEATH_DROP:
+      description: |-
+        &a NgÆ°á»�i Ender sáº½ rá»›t
+        &a khá»‘i báº¥t kÃ¬ mÃ  nÃ³
+        &a mang theo khi cháº¿t.
+      name: Rá»›t khá»‘i bá»Ÿi NgÆ°á»�i Ender
+    ENDERMAN_GRIEFING:
+      description: |-
+        &a NgÆ°á»�i Ender cÃ³ thá»ƒ cÆ°á»›p
+        &a khá»‘i báº¥t kÃ¬ tá»« Ä‘áº£o
+      name: Trá»™m bá»Ÿi NgÆ°á»�i Ender
+    ENDER_PEARL:
+      description: Báº­t/Táº¯t sá»­ dá»¥ng
+      name: Ngá»�c Ender
+      hint: Ä�Ã£ táº¯t sá»­ dá»¥ng ngá»�c Ender
+    EXPERIENCE_BOTTLE_THROWING:
+      name: QuÄƒng bÃ¬nh kinh nghiá»‡m
+      description: Báº­t/Táº¯t quÄƒng bÃ¬nh kinh nghiá»‡m.
+      hint: Ä�Ã£ táº¯t bÃ¬nh kinh nghiá»‡m
+    FIRE_BURNING:
+      name: ChÃ¡y lá»­a
+      description: |-
+        &a Báº­t/Táº¯t viá»‡c lá»­a cÃ³ thá»ƒ
+        &a chÃ¡y trÃªn khá»‘i.
+    FIRE_IGNITE:
+      name: Ä�á»‘t lá»­a
+      description: |-
+        &a Báº­t/Táº¯t viá»‡c lá»­a cÃ³ thá»ƒ
+        &a chÃ¡y bá»Ÿi váº­t thá»ƒ khÃ´ng pháº£i ngÆ°á»�i chÆ¡i.
+    FISH_SCOOPING:
+      name: Báº¯t cÃ¡
+      description: Cho phÃ©p báº¯t cÃ¡ báº±ng xÃ´
+      hint: Ä�Ã£ táº¯t báº¯t cÃ¡
+    FLINT_AND_STEEL:
+      name: Dá»¥ng cá»¥ Ä‘Ã¡nh lá»­a
+      description: |-
+        &a Cho phÃ©p ngÆ°á»�i chÆ¡i Ä‘á»‘t lá»­a hoáº·c
+        &a lá»­a tráº¡i báº±ng dá»¥ng cá»¥ Ä‘Ã¡nh cá»­a
+        &a hoáº·c cáº§u lá»­a.
+      hint: Ä�Ã£ táº¯t dá»¥ng cá»¥ Ä‘Ã¡nh lá»­a vÃ  cáº§u lá»­a
+    GEO_LIMIT_MOBS:
+      description: |-
+        &a XÃ³a cÃ¡c quÃ¡i Ä‘Ã£ rá»�i khá»�i
+        &a khu vá»±c báº£o vá»‡ trong Ä‘áº£o
+      name: '&e Giá»›i háº¡n quÃ¡i trong Ä‘áº£o'
+    HIVE:
+      description: '&a Báº­t/Táº¯t thu hoáº¡ch tá»• ong.'
+      name: Thu hoáº¡ch tá»§ ong
+      hint: Ä�Ã£ táº¯t thu hoáº¡ch tá»• ong
+    ITEM_FRAME:
+      name: Khung váº­t pháº©m
+      description: |-
+        &a Báº­t/Táº¯t tÆ°Æ¡ng tÃ¡c.
+        &a Ghi Ä‘Ã¨ lÃªn cá»� Ä�áº·t vÃ  Ä�áº­p Khá»‘i
+      hint: Ä�Ã£ táº¯t sá»­ dá»¥ng khung váº­t pháº©m
+    ITEM_FRAME_DAMAGE:
+      description: |-
+        &a QuÃ¡i cÃ³ thá»ƒ gÃ¢y sÃ¡t thÆ°Æ¡ng
+        &a lÃªn khung váº­t pháº©m
+      name: SÃ¡t thÆ°Æ¡ng lÃªn khung váº­t pháº©m
+    INVINCIBLE_VISITORS:
+      description: |-
+        &a Chá»‰nh cÃ¡c tÃ¹y chá»‰nh
+        &a báº¥t tá»­ cho NgÆ°á»�i Tham Quan.
+      name: '&e NgÆ°á»�i Tham Quan Báº¥t Tá»­'
+      hint: '&c Ä�Ã£ báº£o vá»‡ NgÆ°á»�i Tham Quan'
+    ISLAND_RESPAWN:
+      description: |-
+        &a NgÆ°á»�i chÆ¡i há»“i sinh
+        &a táº¡i Ä‘áº£o
+      name: Há»“i sinh táº¡i Ä‘áº£o
+    JUKEBOX:
+      description: Báº­t/Táº¯t sá»­ dá»¥ng
+      name: Sá»­ dá»¥ng há»™p chÆ¡i nháº¡c
+      hint: Ä�Ã£ táº¯t sá»­ dá»¥ng há»™p chÆ¡i nháº¡c
+    LEAF_DECAY:
+      name: Rá»¥ng lÃ¡
+      description: Cho phÃ©p rá»¥ng lÃ¡ tá»± nhiÃªn
+    LECTERN:
+      name: Bá»¥c Ä‘á»ƒ sÃ¡ch
+      description: |-
+        &a Cho phÃ©p Ä‘áº·t sÃ¡ch lÃªn bá»¥c
+        &a hoáº·c láº¥y sÃ¡ch tá»« nÃ³.
+
+        &c NÃ³ khÃ´ng cháº·n ngÆ°á»�i chÆ¡i khá»�i
+        &c viá»‡c Ä‘á»�c sÃ¡ch.
+      hint: KhÃ´ng thá»ƒ Ä‘áº·t sÃ¡ch lÃªn bá»¥c hay láº¥y sÃ¡ch tá»« bá»¥c.
+    LEVER:
+      description: Báº­t/Táº¯t sá»­ dá»¥ng
+      name: Sá»­ dá»¥ng cáº§n gáº¡t
+      hint: Ä�Ã£ táº¯t sá»­ dá»¥ng cáº§n gáº¡t
+    LIMIT_MOBS:
+      description: |-
+        &a Giá»›i háº¡n thá»±c thá»ƒ khá»�i
+        &a viá»‡c sinh ra á»Ÿ cháº¿ Ä‘á»™ nÃ y
+      name: '&e Giá»›i háº¡n loáº¡i thá»±c thá»ƒ sinh ra'
+      can: '&a CÃ³ thá»ƒ sinh ra'
+      cannot: '&c KhÃ´ng thá»ƒ sinh ra'
+    LIQUIDS_FLOWING_OUT:
+      name: Cháº¥t lá»�ng trÃ n ra khá»�i Ä‘áº£o
+      description: |-
+        &a Báº­t/Táº¯t viá»‡c cháº¥t lá»�ng cÃ³ thá»ƒ
+        &a trÃ n ra khá»�i khu vá»±c báº£o vá»‡ cá»§a Ä‘áº£o.
+        &a Táº¯t nÃ³ sáº½ giÃºp cháº·n viá»‡c nÆ°á»›c vÃ  nham tháº¡ch
+        &a táº¡o Ä‘Ã¡ cuá»™i á»Ÿ khÃ´ng gian giá»¯a hai Ä‘áº£o.
+
+        &c LÆ°u Ã½ lÃ  cháº¥t lá»�ng váº«n trÃ n xuá»‘ng dÆ°á»›i.
+        &c NÃ³ cÅ©ng sáº½ khÃ´ng trÃ n ra náº¿u Ä‘Æ°á»£c Ä‘áº·t
+        &c á»Ÿ ngoÃ i khu vá»±c báº£o vá»‡ cá»§a má»™t Ä‘áº£o.
+    LOCK:
+      description: Báº­t/Táº¯t khÃ³a
+      name: KhÃ³a Ä‘áº£o
+    MINECART:
+      name: Xe má»�
+      description: |-
+        Báº­t/Táº¯t Ä‘áº·t, Ä‘áº­p vÃ 
+        vÃ o xe má»�.
+      hint: Ä�Ã£ táº¯t tÆ°Æ¡ng tÃ¡c vá»›i xe má»�
+    MONSTER_NATURAL_SPAWN:
+      description: Báº­t/Táº¯t sinh quÃ¡i tá»± nhiÃªn
+      name: Sinh quÃ¡i tá»± nhiÃªn
+    MONSTER_SPAWNERS_SPAWN:
+      description: Báº­t/Táº¯t Sinh quÃ¡i báº±ng lá»“ng triá»‡u há»“i
+      name: Lá»“ng triá»‡u há»“i quÃ¡i
+    NAME_TAG:
+      name: NhÃ£n ghi tÃªn
+      description: Báº­t/Táº¯t sá»­ dá»¥ng
+      hint: Ä�Ã£ táº¯t tÆ°Æ¡ng tÃ¡c vá»›i nhÃ£n ghi tÃªn
+    NATURAL_SPAWNING_OUTSIDE_RANGE:
+      name: Sinh quÃ¡i tá»± nhiÃªn ngoÃ i Ä‘áº£o
+      description: |-
+        &a Báº­t/Táº¯t cho phÃ©p con váº­t (Ä‘á»™ng váº­t vÃ 
+        &a quÃ¡i váº­t) cÃ³ thá»ƒ sinh tá»± nhiÃªn ngoÃ i
+        &a khu vá»±c báº£o vá»‡ cá»§a Ä‘áº£o.
+
+        &c LÆ°u Ã½ lÃ  nÃ³ khÃ´ng cháº·n viá»‡c sinh quÃ¡i
+        &c báº±ng lá»“ng triá»‡u há»“i hoáº·c trá»©ng.
+    NOTE_BLOCK:
+      description: Báº­t/Táº¯t sá»­ dá»¥ng
+      name: Khá»‘i ná»‘t nháº¡c
+      hint: Ä�Ã£ táº¯t tÆ°Æ¡ng táº¯t vá»›i khá»‘i ná»‘t nháº¡c
+    OBSIDIAN_SCOOPING:
+      name: XÃºc háº¯c diá»‡m tháº¡ch
+      description: |-
+        &a Cho phÃ©p ngÆ°á»�i chÆ¡i xÃºc háº¯c diá»‡m tháº¡ch
+        &a vá»›i má»™t cÃ¡i xÃ´ Ä‘á»ƒ thÃ nh nham tháº¡ch.
+
+        &a NÃ³ giÃºp nhá»¯ng ngÆ°á»�i chÆ¡i má»›i mÃ  tháº¥t báº¡i
+        &a trong viá»‡c xÃ¢y mÃ¡y sinh Ä‘Ã¡.
+
+        &a LÆ°u Ã½: háº¯c diá»‡m tháº¡ch khÃ´ng thá»ƒ bá»‹ xÃºc
+        &a náº¿u xung quanh cÃ³ khá»‘i háº¯c diá»‡m tháº¡ch
+        &a trong bÃ¡n kÃ­nh 2 khá»‘i.
+      scooping: '&a Ä�ang chuyá»ƒn háº¯c diá»‡m tháº¡ch thÃ nh nham tháº¡ch. Láº§n
+        sau hÃ£y cáº©n tháº­n!'
+      obsidian-nearby: '&c CÃ³ háº¯c diá»‡m tháº¡ch xung quanh. Báº¡n khÃ´ng thá»ƒ
+        xÃºc thÃ nh nham tháº¡ch.'
+    OFFLINE_GROWTH:
+      description: |-
+        &a Khi táº¯t, cÃ¢y trá»“ng
+        &a sáº½ khÃ´ng má»�c lá»›n trong Ä‘áº£o
+        &a náº¿u táº¥t cáº£ thÃ nh viÃªn Ä‘á»�u ngoáº¡i tuyáº¿n.
+        &a CÃ³ thá»ƒ giÃºp giáº£m lag.
+      name: Má»�c cÃ¢y khi ngoáº¡i tuyáº¿n
+    OFFLINE_REDSTONE:
+      description: |-
+        &a Khi táº¯t, Ä‘Ã¡ Ä‘á»�
+        &a sáº½ khÃ´ng hoáº¡t Ä‘á»™ng trong Ä‘áº£o
+        &a náº¿u táº¥t cáº£ thÃ nh viÃªn Ä‘á»�u ngoáº¡i tuyáº¿n.
+        &a CÃ³ thá»ƒ giÃºp giáº£m lag.
+        &a KhÃ´ng áº£nh hÆ°á»Ÿng Ä‘áº£o triá»‡u há»“i.
+      name: Ä�Ã¡ Ä‘á»� khi ngoáº¡i tuyáº¿n
+    PISTON_PUSH:
+      description: |-
+        &a Báº­t Ä‘á»ƒ báº£o vá»‡ khá»‘i
+        &a khá»�i bá»‹ Ä‘áº©y ra ngoÃ i Ä‘áº£o
+        &a bá»Ÿi pÃ­t tÃ´ng
+      name: Báº£o vá»‡ khá»�i bá»‹ Ä‘áº©y bá»Ÿi pÃ­t tÃ´ng
+    POTION_THROWING:
+      name: QuÄƒng bÃ¬nh thuá»‘c
+      description: |-
+        &a Báº­t/Táº¯t quÄƒng bÃ¬nh thuá»‘c.
+        &a Bao gá»“m thuá»‘c nÃ©m Ä‘Æ°á»£c vÃ  thuá»‘c kÃ©o dÃ i.
+      hint: Ä�Ã£ táº¯t quÄƒng bÃ¬nh thuá»‘c
+    NETHER_PORTAL:
+      description: Báº­t/Táº¯t sá»­ dá»¥ng
+      name: Cá»•ng Ä‘á»‹a ngá»¥c
+      hint: Ä�Ã£ táº¯t sá»­ dá»¥ng cá»•ng Ä‘á»‹a ngá»¥c
+    END_PORTAL:
+      description: Báº­t/Táº¯t sá»­ dá»¥ng
+      name: Cá»•ng káº¿t thÃºc
+      hint: Ä�Ã£ táº¯t sá»­ dá»¥ng cá»•ng káº¿t thÃºc
+    REMOVE_END_EXIT_ISLAND:
+      description: |-
+        &a Cháº·n viá»‡c Ä‘áº£o rá»�i tháº¿ giá»›i káº¿t thÃºc
+        &a Ä‘Æ°á»£c táº¡o á»Ÿ vá»‹ trÃ­ 0,0
+      name: XÃ³a Ä‘áº£o rá»�i tháº¿ giá»›i káº¿t thÃºc
+    REMOVE_MOBS:
+      description: |-
+        &a XÃ³a quÃ¡i khi dá»‹ch chuyá»ƒn
+        &a vÃ o Ä‘áº£o
+      name: XÃ³a quÃ¡i
+    SPAWNER_SPAWN_EGGS:
+      description: |-
+        &a Cho phÃ©p thay tháº¿ loáº¡i quÃ¡i á»Ÿ lá»“ng triá»‡u há»“i
+        &a sá»­ dá»¥ng trá»©ng triá»‡u há»“i.
+      name: Trá»©ng á»Ÿ lá»“ng triá»‡u há»“i
+      hint: KhÃ´ng cho phÃ©p thay tháº¿ loáº¡i quÃ¡i á»Ÿ lá»“ng triá»‡u há»“i sá»­
+        dá»¥ng trá»©ng triá»‡u há»“i.
+    TNT_DAMAGE:
+      description: |-
+        &a Cho phÃ©p TNT vÃ  xe má»� cÃ³ TNT
+        &a phÃ¡ khá»‘i gÃ¢y sÃ¡t thÆ°Æ¡ng lÃªn thá»±c thá»ƒ.
+      name: SÃ¡t thÆ°Æ¡ng tá»« TNT
+    TNT_PRIMING:
+      description: |-
+        &a Cháº·n ngÃ²i ná»• TNT.
+        &a NÃ³ khÃ´ng ghi Ä‘Ã¨ lÃªn cá»�
+        &a Dá»¥ng cá»¥ Ä‘Ã¡nh lá»­a.
+      name: NgÃ²i ná»• TNT
+      hint: Ä�Ã£ táº¯t ngÃ²i ná»• TNT
+    TRAPDOOR:
+      description: Báº­t/Táº¯t sá»­ dá»¥ng
+      name: Cá»­a sáº­p
+      hint: Ä�Ã£ táº¯t sá»­ dá»¥ng cá»­a sáº­p
+    TREES_GROWING_OUTSIDE_RANGE:
+      name: CÃ¢y má»�c ngoÃ i Ä‘áº£o
+      description: |-
+        &a Báº­t/Táº¯t viá»‡c cÃ¢y cÃ³ thá»ƒ má»�c ngoÃ i
+        &a khu vá»±c báº£o vá»‡ trong Ä‘áº£o.
+        &a NÃ³ khÃ´ng chá»‰ cháº·n viá»‡c má»�c chá»“i cÃ¢y
+        &a ngoÃ i khu vá»±c báº£o vá»‡, mÃ  nÃ³ cÅ©ng cháº·n
+        &a viá»‡c táº¡o khá»‘i lÃ¡ vÃ  gá»— á»Ÿ ngoÃ i khu vá»±c,
+        &a dáº«n Ä‘áº¿n viá»‡c cÃ¡i cÃ¢y bá»‹ máº¥t má»™t pháº§n.
+    TURTLE_EGGS:
+      description: Báº­t/Táº¯t lÃ m vá»¡
+      name: Trá»©ng rÃ¹a
+      hint: Ä�Ã£ táº¯t lÃ m vá»¡ trá»©ng rÃ¹a
+    FROST_WALKER:
+      description: Báº­t/Táº¯t phÃ¹ phÃ©p ChÃ¢n Láº¡nh
+      name: ChÃ¢n Láº¡nh
+      hint: Ä�Ã£ táº¯t ChÃ¢n Láº¡nh
+    EXPERIENCE_PICKUP:
+      name: Nháº·t kinh nghiá»‡m
+      description: Báº­t/Táº¯t nháº·t cá»¥c kinh nghiá»‡m
+      hint: Ä�Ã£ táº¯t nháº·t kinh nghiá»‡m
+    PREVENT_TELEPORT_WHEN_FALLING:
+      name: Cháº·n dá»‹ch chuyá»ƒn khi Ä‘ang rá»�i
+      description: |-
+        &a Cháº·n ngÆ°á»�i chÆ¡i khá»�i viá»‡c dá»‹ch chuyá»ƒn
+        &a vá»� Ä‘áº£o cá»§a há»� báº±ng lá»‡nh khi Ä‘ang rÆ¡i.
+      hint: '&c Báº¡n khÃ´ng thá»ƒ lÃ m Ä‘iá»�u Ä‘Ã³ khi Ä‘ang rÆ¡i.'
+    WITHER_DAMAGE:
+      name: Báº­t/Táº¯t sÃ¡t thÆ°Æ¡ng khÃ´ hÃ©o
+      description: |-
+        &a Khi báº­t, KhÃ´ HÃ©o cÃ³ thá»ƒ
+        &a gÃ¢y sÃ¡t thÆ°Æ¡ng lÃªn khá»‘i vÃ  ngÆ°á»�i chÆ¡i
+    WORLD_TNT_DAMAGE:
+      description: |-
+        &a Cho phÃ©p TNT vÃ  xe má»� cÃ³ TNT
+        &a phÃ¡ khá»‘i gÃ¢y sÃ¡t thÆ°Æ¡ng lÃªn khá»‘i vÃ  thá»±c thá»ƒ
+        &a á»Ÿ ngoÃ i Ä‘áº£o.
+      name: SÃ¡t thÆ°á»�ng tá»« TNT ngoÃ i Ä‘áº£o
+  panel:
+    title: Island flags
+    flag-item:
+      name-layout: '&a[name]'
+      description-layout: |
+        &a[description]
+
+        &7Allowed for: &f[rank]
+      allowed-rank: '&3 - &a '
+      blocked-rank: '&3 - &c '
+      minimal-rank: '&3 - &2 '
+      menu-layout: |
+        &a [description]
+
+        &e Nháº¥p &7 Ä‘á»ƒ má»Ÿ.
+      setting-cooldown: '&c TÃ¹y chá»‰nh Ä‘ang trong thá»�i gian chá»�'
+      setting-layout: |
+        &a [description]
+
+        &e Nháº¥p &7 Ä‘á»ƒ chá»‰nh.
+
+        &7 TÃ¹y chá»‰nh hiá»‡n táº¡i: [setting]
+      setting-active: '&a Ä�Ã£ kÃ­ch hoáº¡t'
+      setting-disabled: '&c Ä�Ã£ táº¯t'
+    help-item:
+      name: '&aNeed some help?'
+    next: '&f Trang káº¿'
+    previous: '&f Trang trÆ°á»›c'
+    mode:
+      advanced:
+        name: '&6 TÃ¹y chá»‰nh nÃ¢ng cao'
+        description: '&a Xem khÃ¡ nhiá»�u tÃ¹y chá»‰nh.'
+      basic:
+        name: '&a TÃ¹y chá»‰nh cÆ¡ báº£n'
+        description: '&a Xem cÃ¡c tÃ¹y chá»‰nh cÃ³ Ã­ch nháº¥t.'
+      expert:
+        name: '&c TÃ¹y chá»‰nh chuyÃªn mÃ´n'
+        description: '&a Xem táº¥t cáº£ tÃ¹y chá»‰nh.'
+      click-to-switch: '&e Nháº¥p &7 Ä‘á»ƒ chuyá»ƒn sang &r [next]&r &7 .'
+    reset-to-default:
+      name: '&c Trá»Ÿ vá»� máº·c Ä‘á»‹nh'
+      description: |
+        &a Chá»‰nh &c &l TOÃ€N Bá»˜ &r &a tÃ¹y chá»‰nh vá»�
+        &a giÃ¡ trá»‹ máº·c Ä‘á»‹nh.
+    PROTECTION:
+      title: '&6 Báº£o vá»‡'
+      description: |-
+        &a TÃ¹y chá»‰nh báº£o vá»‡
+        &a cho Ä‘áº£o nÃ y
+    SETTING:
+      title: '&6 TÃ¹y chá»‰nh'
+      description: |-
+        &a TÃ¹y chá»‰nh cÆ¡ báº£n
+        &a cho Ä‘áº£o nÃ y
+    WORLD_SETTING:
+      title: '&6 TÃ¹y chá»‰nh &b [world_name]'
+      description: '&a TÃ¹y chá»‰nh cho tháº¿ giá»›i nÃ y'
+    WORLD_DEFAULTS:
+      title: '&6 Báº£o vá»‡ &b [world_name]'
+      description: |
+        &a TÃ¹y chá»‰nh báº£o vá»‡ khi
+        &a ngÆ°á»�i chÆ¡i á»Ÿ ngoÃ i Ä‘áº£o
+  island:
+    locked: '&cThis island is locked!'
+  command-is-banned: Lá»‡nh nÃ y bá»‹ cáº¥m cho ngÆ°á»�i tham quan
+  locked: '&c Ä�áº£o Ä‘Ã£ khÃ³a!'
+  world-protected: '&c Tháº¿ giá»›i Ä‘Ã£ báº£o vá»‡: [description].'
+  spawn-protected: '&c Ä�iá»ƒm triá»‡u há»“i Ä‘Ã£ báº£o vá»‡: [description].'
+prefixes:
+  bentobox: '&6 BentoBox &7 &l > &r '
+language:
+  panel-title: Chá»�n ngÃ´n ngá»¯
+  description:
+    selected: '&a Ä�ang Ä‘Æ°á»£c chá»�n.'
+    click-to-select: '&e Nháº¥p &a Ä‘á»ƒ chá»�n.'
+    authors: '&a TÃ¡c giáº£:'
+    author: '&3 - &b [name]'
+  edited: '&a Ä�Ã£ chuyá»ƒn ngÃ´n ngá»¯ thÃ nh &e [lang]&a .'
+management:
+  panel:
+    title: Quáº£n lÃ­ BentoBox
+    views:
+      gamemodes:
+        name: '&6 Cháº¿ Ä‘á»™'
+        description: '&e Nháº¥p &a Ä‘á»ƒ xem cÃ¡c cháº¿ Ä‘á»™ Ä‘Ã£ Ä‘Æ°á»£c náº¡p'
+        blueprints:
+          name: '&6 Báº£n váº½'
+          description: '&a Má»Ÿ menu báº£n váº½.'
+        gamemode:
+          name: '&f [name]'
+          description: |
+            &a Sá»‘ Ä‘áº£o: &b [islands]
+      addons:
+        name: '&6 Tiá»‡n Ã­ch'
+        description: '&e Nháº¥p &a Ä‘á»ƒ xem cÃ¡c tiá»‡n Ã­ch Ä‘Ã£ Ä‘Æ°á»£c náº¡p'
+      hooks:
+        name: '&6 Káº¿t ná»‘i'
+        description: '&e Nháº¥p &a Ä‘á»ƒ xem cÃ¡c káº¿t ná»‘i Ä‘Ã£ Ä‘Æ°á»£c náº¡p'
+    actions:
+      reload:
+        name: '&c Náº¡p láº¡i'
+        description: '&e Nháº¥p &c &l hai láº§n &r &a Ä‘á»ƒ náº¡p láº¡i BentoBox'
+    buttons:
+      catalog:
+        name: '&6 Má»¥c lá»¥c tiá»‡n Ã­ch'
+        description: '&a Má»Ÿ má»¥c lá»¥c tiá»‡n Ã­ch'
+      credits:
+        name: '&6 Ä�á»‘ng gÃ³p'
+        description: '&a Má»Ÿ menu Ä‘Ã³ng gÃ³p cho BentoBox'
+      empty-here:
+        name: '&b HÆ¡i trá»‘ng á»Ÿ Ä‘Ã¢y...'
+        description: '&a What if you take a look at our catalog?'
+    information:
+      state:
+        name: '&6 TÆ°Æ¡ng thÃ­ch'
+        description:
+          COMPATIBLE: |
+            &a Ä�ang cháº¡y &e [name] [version]&a .
+
+            &a BentoBox Ä‘ang cháº¡y trÃªn má»™t mÃ¡y chá»§ cÃ³
+            &a pháº§n má»�m vÃ  phiÃªn báº£n &l TÆ¯Æ NG THÃ�CH &r.
+
+            &a Táº¥t cáº£ tÃ­nh nÄƒng Ä‘Æ°á»£c táº¡o
+            &a Ä‘á»‡ cháº¡y trÃªn mÃ´i trÆ°á»�ng nÃ y.
+          SUPPORTED: |
+            &a Ä�ang cháº¡y &e [name] [version]&a .
+
+            &a BentoBox Ä‘ang cháº¡y trÃªn má»™t mÃ¡y chá»§ cÃ³
+            &a pháº§n má»�m vÃ  phiÃªn báº£n &l Há»– TRá»¢ &r.
+
+            &a Pháº§n lá»›n tÃ­nh nÄƒng váº«n cháº¡y mÆ°á»£t
+            &a trÃªn mÃ´i trÆ°á»�ng nÃ y.
+          NOT_SUPPORTED: |
+            &a Ä�ang cháº¡y &e [name] [version]&a .
+
+            &a BentoBox Ä‘ang cháº¡y trÃªn má»™t mÃ¡y chá»§ cÃ³
+            &a pháº§n má»�m vÃ  phiÃªn báº£n &6 &l KHÃ”NG Há»– TRá»¢ &r.
+
+            &a Pháº§n lá»›n tÃ­nh nÄƒng váº«n sáº½ cháº¡y
+            &a bÃ¬nh thÆ°á»�ng, nhÆ°ng &6 lá»—i ná»�n táº£ng
+            &6 cÃ³ thá»ƒ xáº£y ra&a .
+          INCOMPATIBLE: |+
+            &a Ä�ang cháº¡y &e [name] [version]&a .
+
+            &a BentoBox Ä‘ang cháº¡y trÃªn má»™t mÃ¡y chá»§ cÃ³
+            &a pháº§n má»�m vÃ  phiÃªn báº£n &c &l KHÃ”NG TÆ¯Æ NG THÃ�CH &r.
+
+            &c HÃ nh vi ká»³ láº¡ vÃ  lá»—i cÃ³ thá»ƒ xáº£y ra
+            &c vÃ  pháº§n lá»›n tÃ­nh nÄƒng sáº½ khÃ´ng á»•n Ä‘á»‹nh.
+
+catalog:
+  panel:
+    GAMEMODES:
+      title: Má»¥c lá»¥c cháº¿ Ä‘á»™
+    ADDONS:
+      title: Má»¥c lá»¥c tiá»‡n Ã­ch
+    views:
+      gamemodes:
+        name: '&6 Cháº¿ Ä‘á»™'
+        description: |
+          &e Nháº¥p &a Ä‘á»ƒ xem cÃ¡c
+          &a cháº¿ Ä‘á»™ cÃ³ sáºµn.
+      addons:
+        name: '&6 Tiá»‡n Ã­ch'
+        description: |
+          &e Nháº¥p &a Ä‘á»ƒ xem cÃ¡c
+          &a tiá»‡n Ã­ch cÃ³ sáºµn.
+    icon:
+      description-template: |
+        &8 [topic]
+        &a [install]
+
+        &7 &o [description]
+
+        &e Nháº¥p &a Ä‘á»ƒ láº¥y Ä‘Æ°á»�ng dáº«n
+        &a Ä‘áº¿n phiÃªn báº£n má»›i nháº¥t.
+      already-installed: Ä�Ã£ cÃ i Ä‘áº·t!
+      install-now: CÃ i Ä‘áº·t ngay!
+    empty-here:
+      name: '&c HÆ¡i trá»‘ng á»Ÿ Ä‘Ã¢y...'
+      description: |+
+        &c Bentobox khÃ´ng thá»ƒ káº¿t ná»‘i Github.
+
+        &a Cho phÃ©p BentoBox káº¿t ná»‘i GitHub trong
+        &a tá»‡p tÃ¹y chá»‰nh vÃ  thá»­ láº¡i sau.
+
+panel:
+  credits:
+    title: '&8 [name] &2 Ä�á»‘ng gÃ³p'
+    contributor:
+      name: '&a [name]'
+      description: |
+        &a Commits: &b [commits]
+    empty-here:
+      name: '&c HÆ¡i trá»‘ng á»Ÿ Ä‘Ã¢y...'
+      description: |+
+        &c BentoBox khÃ´ng thá»ƒ láº¥y ngÆ°á»�i Ä‘á»‘ng gÃ³p
+        &c cho tiá»‡n Ã­ch nÃ y.
+
+        &a Cho phÃ©p BentoBox káº¿t ná»‘i GitHub trong
+        &a tá»‡p tÃ¹y chá»‰nh vÃ  thá»­ láº¡i sau.
+
+successfully-loaded: |2
+
+  &6   ____             _        ____
+  &6  |  _ \           | |      |  _ \             &7 by &a tastybento &7 and &a Poslovitch
+  &6  | |_) | ___ _ __ | |_ ___ | |_) | _____  __  &7 2017 - 2020
+  &6  |  _ < / _ \ '_ \| __/ _ \|  _ < / _ \ \/ /
+  &6  | |_) |  __/ | | | || (_) | |_) | (_) >  <   &b v&e [version]
+  &6  |____/ \___|_| |_|\__\___/|____/ \___/_/\_\  &8 Loaded in &e [time]&8 ms.

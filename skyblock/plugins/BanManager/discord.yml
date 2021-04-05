@@ -1,0 +1,36 @@
+# Requires DiscordSRV for Bukkit and MagiBridge for Sponge
+enabled: true
+punishments:
+  ban:
+    channel: minecraft-bans
+    message: '[player] has been permanently banned by [actor] for [reason]'
+  tempban:
+    channel: minecraft-bans
+    message: '[player] has been temporarily banned for [expires] by [actor] for [reason]'
+  unban:
+    channel: minecraft-bans
+    message: '[player] has been unbanned by [actor] for [reason]'
+  banip:
+    channel: minecraft-bans
+    message: '[ip] has been permanently banned by [actor] for [reason]'
+  tempbanip:
+    channel: minecraft-bans
+    message: '[ip] has been temporarily banned for [expires] by [actor] for [reason]'
+  unbanip:
+    channel: minecraft-bans
+    message: '[ip] has been unbanned by [actor] for [reason]'
+  kick:
+    channel: minecraft-bans
+    message: '[player] has been kicked by [actor] for [reason]'
+  mute:
+    channel: minecraft-bans
+    message: '[player] has been permanently muted by [actor] for [reason]'
+  tempmute:
+    channel: minecraft-bans
+    message: '[player] has been temporarily muted for [expires] by [actor] for [reason]'
+  unmute:
+    channel: minecraft-bans
+    message: '[player] has been unmuted by [actor] for [reason]'
+  warning:
+    channel: minecraft-bans
+    message: '[player] has been warned by [actor] for [reason]'

@@ -1,0 +1,36 @@
+Al_Shebab:
+  Leader: 1132a3f9-cf23-42e1-8595-79d07b07844e|Aystralia
+  Locked: true
+  Level: 10
+  Xp: 5400
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - 1132a3f9-cf23-42e1-8595-79d07b07844e|Aystralia
+  - 5e9388ba-0573-444c-a761-b6d9174042af|Feeyne
+  - e79fc165-83d6-4139-9a8f-d42bf1c23f87|Al_Shebab
+M4TT4N:
+  Leader: 4f32faf2-cd26-467e-893e-6bd1fd3596e1|M4TT4N
+  Password: '123'
+  Locked: true
+  Level: 10
+  Xp: 3885
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - 4f32faf2-cd26-467e-893e-6bd1fd3596e1|M4TT4N
+  - 0dab10eb-732d-4dfb-b85a-aabb76f2f82a|wiredraw

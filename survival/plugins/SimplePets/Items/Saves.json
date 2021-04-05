@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "item": {
+    "material": "COMMAND_BLOCK",
+    "lore": [
+      "&7",
+      "&7View the pets you have saved"
+    ],
+    "meta": {
+      
+    },
+    "name": "&e&lPet Saves"
+  }
+}

@@ -1,0 +1,22 @@
+name: bigbulkcat
+booster:
+  multiplier: 1.0
+  time: 0
+chests:
+  '0':
+    name: default
+    location:
+      world: world
+      x: -4860
+      y: 79
+      z: -4242
+    money: 744.7999999999998
+    items-sold: 1773
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1617425198628

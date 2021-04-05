@@ -1,0 +1,69 @@
+# Citizens NPC Storage
+
+
+
+
+
+
+
+
+last-created-npc-id: 0
+npc:
+  '0':
+    metadata:
+      cached-skin-uuid-name: feeyne
+      cached-skin-uuid: 5e9388ba-0573-444c-a761-b6d9174042af
+      nameplate-visible: 'false'
+    name: spawn
+    uuid: debffb2a-88e8-4f14-b405-c7e9fe988edb
+    traits:
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: rtp
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: V4GxzGlDOI0mJD2yOP+D3N5xDOeWEZokEjLYgxLz+cXuvdVtDG/uJbptEN4mm+fnNcWWquUPNF/iId2cUo+1nIVadFpHO068CTrWcEHMp2QyPGHX5ZK23LNw7pL87Bt1euMiucd5QHnRUhpT0HOpfiS2K8c/fZsuMoRB8VBfxEgD3zfPjMR9WtzUE+5ARUYYDb8k9UUrUHCn8kyJ7a7fNzPJoMIRQY6Y6Qu6AQtyZM2k+CADh1mqr1NCYbUlBAN3okA7NiVUZpMWpLpJ+cqf/WNtIwz3ixjd04wPi0zywazr7XNbLAlGQZPcexEXBp4CdNSYRRG4sPw5/mLkuLcoHH6FJlbvxLW5OrJr/UgnJd9IVB5kEiH9vqgk6OhemFkqBzTTeZ1KjluqBVZRk3TG/yNfyL6R/RJ5X7P0eEiwR3TI/7qtmyF9Xwuv4grxRdNiiA0f8YH8jsDPwuL6yEkCzcriRKEwU+20wx4yQTBfJSgan3BU2ah93tQu6ABNbSUcIhU94Chh+5LlgckCyLrCce7W91ce8OfYTIVMBoX8gx0aQzBqxgbEo8cXnh3UhsxNxjsxmzTNS+0J2iuys2/C7GEBRmm+O1zfLJA9dj0MJZz3O9/UpeVWDulTW8iUcM59WQnGE9Kj4hFVKwqg/MKPV4Y4oud5yagPtLpOsLZbdVQ=
+        skinName: feeyne
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNzI2NDk2MzAzMywKICAicHJvZmlsZUlkIiA6ICI1ZTkzODhiYTA1NzM0NDRjYTc2MWI2ZDkxNzQwNDJhZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJGZWV5bmUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjFmNzljZjNmODMwOGQ0OGRlZDVjMmUxZDVmYTU0NDZhNWM2ZDA4ZDc5NTc4ZTMxN2VlY2MyNGYwYWQwOGMzZSIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        bodyYaw: -45.33168
+        world: world
+        x: '4.3261'
+        y: '73.0'
+        z: '10.4108'
+        yaw: '-79.7574'
+        pitch: '-4.8375'
+      type: PLAYER
+      spawned: true
+      owner:
+        owner: Al_Shebab
+        uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+    traitnames: inventory,commandtrait,skintrait,owner,lookclose,location,mounttrait,scoreboardtrait,type,spawned,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

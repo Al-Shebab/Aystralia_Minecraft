@@ -1,0 +1,22 @@
+name: Ivid_Lanx
+booster:
+  multiplier: 1.0
+  time: 0
+chests:
+  '0':
+    name: default
+    location:
+      world: skyblock
+      x: -3981
+      y: 128
+      z: -6006
+    money: 6.0808801E7
+    items-sold: 2986702
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1617480135827

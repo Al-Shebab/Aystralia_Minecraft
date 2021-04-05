@@ -1,0 +1,36 @@
+# Player should have appropriate permission node to use particular kit: cmi.kit.[kitName]
+# cmi.kit.newbie will allow to use newbie kit
+# Possible custom variables: {USERNAME} {DISPLAYNAME} {WORLDNAME} {KITNAME} {RANDOMPLAYER}
+# Edit kits ingame with /cmi kiteditor to avoid formating issues
+# Commands support specialized command format
+claim:
+  Description:
+  - '&fClaim Tools'
+  CommandName: claim
+  Commands:
+  - gmc [playerName]
+  - god [playerName] true
+  Items:
+    '28':
+      v: 2586
+      type: GOLDEN_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Claim
+          "},{"bold":true,"italic":false,"color":"white","text":"Shovel"}],"text":""}'
+    '29':
+      v: 2586
+      type: WRITTEN_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: BOOK_SIGNED
+        title: How to Claim Land
+        author: BigScary
+        pages:
+        - '{"extra":[{"text":"Click: "},{"bold":false,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"http://bit.ly/mcgpuser"},"text":"bit.ly/mcgpuser"},{"italic":false,"underlined":false,"text":"\n\nClaim
+          land to protect your stuff!  Click the link above to learn land claims in
+          3 minutes or less.  :)\n\nOur claim tools are golden shovel and stick.  On
+          this server, placing a chest will NOT claim land for you."}],"text":""}'
+        - '{"extra":[{"text":"Useful Commands:\n\n/Trust /UnTrust /TrustList\n/ClaimsList\n/AbandonClaim\n\n/Claim
+          /ExtendClaim\n/IgnorePlayer\n\n/SubdivideClaims\n/AccessTrust\n/ContainerTrust\n/PermissionTrust"}],"text":""}'

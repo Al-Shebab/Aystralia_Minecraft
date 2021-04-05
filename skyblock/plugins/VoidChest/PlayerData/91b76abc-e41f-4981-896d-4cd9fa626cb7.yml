@@ -1,0 +1,22 @@
+name: PermX
+booster:
+  multiplier: 1.0
+  time: 0
+chests:
+  '0':
+    name: default
+    location:
+      world: skyblock
+      x: 8004
+      y: 131
+      z: -2005
+    money: 12709.099999999991
+    items-sold: 3690
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: false
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1617386400451

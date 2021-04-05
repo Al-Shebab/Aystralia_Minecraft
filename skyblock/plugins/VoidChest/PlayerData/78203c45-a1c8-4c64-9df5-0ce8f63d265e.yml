@@ -1,0 +1,39 @@
+name: ZomboMancer
+booster:
+  multiplier: 1.0
+  time: 0
+chests:
+  '0':
+    name: default
+    location:
+      world: skyblock
+      x: 13
+      y: 5
+      z: 4017
+    money: 244085.4000000002
+    items-sold: 125289
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1617386400452
+  '1':
+    name: default
+    location:
+      world: skyblock
+      x: 23
+      y: 1
+      z: 4005
+    money: 48147.0
+    items-sold: 38826
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1617386400452

@@ -1,0 +1,14 @@
+Enabled: true
+TimeLasts: -1
+CoolDown: 0
+Name: '&2Night Vision'
+Description: 'See in the dark.'
+Effects:
+- Potions
+Potions:
+  NIGHT_VISION:
+    Duration: 10000000
+    Amplifier: 0
+Item:
+  Material: 'LANTERN'
+  Data: 0

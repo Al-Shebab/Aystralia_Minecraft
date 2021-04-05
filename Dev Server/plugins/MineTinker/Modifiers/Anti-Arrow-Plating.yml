@@ -1,0 +1,15 @@
+Allowed: true
+Color: '%WHITE%'
+MaxLevel: 4
+SlotCost: 1
+EnchantCost: 10
+Enchantable: false
+Recipe:
+  Enabled: true
+  Top: IAI
+  Middle: ADA
+  Bottom: IAI
+  Materials:
+    A: ARROW
+    D: DIAMOND
+    I: IRON_BLOCK

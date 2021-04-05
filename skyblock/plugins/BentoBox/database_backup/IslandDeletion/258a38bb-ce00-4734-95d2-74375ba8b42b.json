@@ -1,0 +1,28 @@
+{
+  "uniqueId": "258a38bb-ce00-4734-95d2-74375ba8b42b",
+  "location": [
+    "skyblock",
+    2000.0,
+    120.0,
+    -2000.0,
+    0.0,
+    0.0
+  ],
+  "minXChunk": 93,
+  "maxXChunk": 156,
+  "minZChunk": -157,
+  "maxZChunk": -94,
+  "minX": 1500,
+  "minZ": -2500,
+  "maxX": 2500,
+  "maxZ": -1500,
+  "box": {
+    "==": "BoundingBox",
+    "minY": 0.0,
+    "minX": 1500.0,
+    "maxZ": -1500.0,
+    "maxY": 255.0,
+    "maxX": 2500.0,
+    "minZ": -2500.0
+  }
+}

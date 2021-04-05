@@ -1,0 +1,133 @@
+#############################################
+#                                           #
+#                JetsHoppers                #
+#             Created by Jet315             #
+#                                           #
+#############################################
+
+#The prefix that is shown before the plugin
+PluginsPrefix: "&b&lHoppers &8> &f"
+
+#Would NOT suggest setting this to false
+#By setting to false, it is assumed your server is cracked
+UseUUIDs: true
+
+#Save Interval In Seconds
+#This variable will dictate how often hopper data is saved to disk. Set this to -1 to disable interval saving (Meaning it will only save when the server is stopped, very risky unless you can guarantee your server does not crash)
+DiskSaveInterval: 15 #600 = 10 mins
+
+#Should the hoppers continue to work if the owner of the hopper is offline (Chunk has to be loaded)
+#This can affect performance
+#Default set to false (The hopper will stop working if the owner is offline)
+HopperFunctionOwnerOffline: true
+
+#Particles to spawn on the entities when they are sucked in by the hopper (1.9 + Only)
+#NONE for no particles
+ParticleType: Flame
+ParticleTypeTeleport: VILLAGER_HAPPY
+
+#Whether holograms should be enabled by default when a hopper is placed?
+hologram_enabled_on_place: true
+
+#Do you want all hoppers to be converted into a JetsHopper? (If so, you need to specify the identity of the hopper a normal hopper will turn into, example TurnAllHoppersIntoJetsHoppers: I)
+TurnAllHoppersIntoJetsHoppers: no
+
+#Hopper permission limits
+MaxHoppersAllowed:
+  - hoppers.place.default:3 #Specifiy the permission : number of hoppers allowed. Depending on what permission the user has will depend on how many the user can place. the permission hoppers.admin.bypasslimit can also be used for no limit
+  - hoppers.place.vip:5
+  - hoppers.place.god:10
+
+#Juicy Bit
+#NOTE Changing the Identifier of a hopper will break all hoppers that use those settings
+Hoppers:
+  I: #the Identifier of the hopper - Used in the give command or to upgrade to CASE SENSITIVE
+    Item:
+      Name: "&bHopper &f[&7Level I&f]"
+      Lore:
+        - "&fPlace this hopper down"
+        - "&fto start pulling in items!"
+    Upgradeable: II #So either put NONE to disallow upgrading for this hopper, or put an identifier of a hopper that it should upgrade to.
+    UpgradeCost: 50000 #The cost to upgrade if the above is true, must be an integer
+    SuctionRange: 4x4x4 #Needs VALUExVALUExVALUE (X, Y and Z) of around where the hopper can pickup items to
+    MaxConnectionRange: 25 #The amount of blocks away a container can be connected to (can either be a chest, or another hopper) Set this to -1 if you don't want items to be able to teleport to other containers
+    SecondsPerPickup: 8 #The amount of seconds that the hopper will scan to pickup items (this can make large difference to performance)
+    Teleportation: true #If this is enabled, players can jump into the hopper to teleport to the linked hopper (if it has a linked hopper)
+    Glow: true #Whether the item should have a glow effect
+    Hologram: #If you do not want a hologram to be used, ' set Hologram: [] ' - Possibly a good idea on big servers.. PLACEHOLDERS: %PICKUPTIME% (Pickup Time of hopper), %ITEMSTRANSFERRED% (Total items transferred)
+      - "&b%PLAYER%'s Hopper &f[&7Level I&f]"
+      - "&fPickup Rate:&b %PICKUPTIME%s"
+      - "&fSuction Range:&b %SUCTIONRANGE%"
+      - "&fTotal items Transfered:&b %ITEMSTRANSFERRED%"
+  II:
+    Item:
+      Name: "&bHopper &f[&2Level II&f]"
+      Lore:
+        - "&fPlace this hopper down"
+        - "&fto start pulling in items!"
+    Upgradeable: III #Upgrades to 'LevelIII' hopper
+    UpgradeCost: 150000
+    SuctionRange: 6x6x6
+    MaxConnectionRange: 50
+    SecondsPerPickup: 7
+    Teleportation: true
+    Glow: true
+    Hologram:
+      - "&b%PLAYER%'s Hopper &f[&2Level II&f]"
+      - "&fPickup Rate:&b %PICKUPTIME%s"
+      - "&fSuction Range:&b %SUCTIONRANGE%"
+      - "&fTotal items Transfered:&b %ITEMSTRANSFERRED%"
+  III:
+    Item:
+      Name: "&bHopper &f[&aLevel III&f]"
+      Lore:
+        - "&fPlace this hopper down"
+        - "&fto start pulling in items!"
+    Upgradeable: IV
+    UpgradeCost: 400000 #Wont be used if its not upgradeable
+    SuctionRange: 8x8x8
+    MaxConnectionRange: 100
+    SecondsPerPickup: 6
+    Teleportation: true
+    Glow: true
+    Hologram:
+      - "&b%PLAYER%'s Hopper &f[&aLevel III&f]"
+      - "&fPickup Rate:&b %PICKUPTIME%s"
+      - "&fSuction Range:&b %SUCTIONRANGE%"
+      - "&fTotal items Transfered:&b %ITEMSTRANSFERRED%"
+  IV:
+    Item:
+      Name: "&bHopper &f[&9Level IV&f]"
+      Lore:
+        - "&fPlace this hopper down"
+        - "&fto start pulling in items!"
+    Upgradeable: NONE #You could specify a different hopper it upgrades to, just create it underneath :)
+    UpgradeCost: 600000
+    SuctionRange: 16x16x16
+    MaxConnectionRange: 200
+    SecondsPerPickup: 5
+    Teleportation: true
+    Glow: true
+    Hologram:
+      - "&b%PLAYER%'s Hopper &f[&9Level IV&f]"
+      - "&fPickup Rate:&b %PICKUPTIME%s"
+      - "&fSuction Range:&b %SUCTIONRANGE%"
+      - "&fTotal items Transfered:&b %ITEMSTRANSFERRED%"
+  V:
+    Item:
+      Name: "&bHopper &f[&bLevel V&f]"
+      Lore:
+        - "&fPlace this hopper down"
+        - "&fto start pulling in items!"
+    Upgradeable: NONE 
+    UpgradeCost: 1000000
+    SuctionRange: 16x16x16
+    MaxConnectionRange: 400
+    SecondsPerPickup: 4
+    Teleportation: true
+    Glow: true
+    Hologram:
+      - "&b%PLAYER%'s Hopper &f[&bLevel V&f]"
+      - "&fPickup Rate:&b %PICKUPTIME%s"
+      - "&fSuction Range:&b %SUCTIONRANGE%"
+      - "&fTotal items Transfered:&b %ITEMSTRANSFERRED%"

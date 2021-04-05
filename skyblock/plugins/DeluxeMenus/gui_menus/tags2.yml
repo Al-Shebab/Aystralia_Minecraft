@@ -1,0 +1,513 @@
+menu_title: '&b&lTags 2/2'
+open_command:
+- tags2
+size: 45
+items:
+  'Decoration':
+    display_name: '&f'
+    material: 160
+    data: 7
+    slots:
+    - 2
+    - 4
+    - 6
+    - 10
+    - 16
+    - 18
+    - 19
+    - 25
+    - 26
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+  'Decoration-1':
+    display_name: '&f'
+    material: 160
+    data: 7
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 6
+    - 5
+    - 7
+    - 8
+    - 9
+    - 17
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 36
+    - 37
+    - 39
+    - 41
+    - 43
+    - 44
+  'Back':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQzNzM0NmQ4YmRhNzhkNTI1ZDE5ZjU0MGE5NWU0ZTc5ZGFlZGE3OTVjYmM1YTEzMjU2MjM2MzEyY2YifX19
+    slot: 40
+    display_name: '&b[*] &bBack'
+    lore: ''
+    left_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[openguimenu] cosmetics'
+    right_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[openguimenu] cosmetics'
+  'Back-Page':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+    slot: 38
+    display_name: '&b[*] &bBack Page'
+    lore: ''
+    left_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[openguimenu] Tags'
+    right_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[openguimenu] Tags'
+  'Next-Page':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM5ZWM3MWMxMDY4ZWM2ZTAzZDJjOTI4N2Y5ZGE5MTkzNjM5ZjNhNjM1ZTJmYmQ1ZDg3YzJmYWJlNjQ5OSJ9fX0=
+    slot: 42
+    display_name: '&4[*] &cNext Page'
+    lore: ''
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+  'Scissors-Permission':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTgyNTQxOWU0MjlhZmMwNDBjOWU2OGIxMDUyM2I5MTdkN2I4MDg3ZDYzZTc2NDhiMTA4MDdkYThiNzY4ZWUifX19
+    slot: 11
+    priority: 1
+    display_name: '&b[*] &bScissors Tag'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'mvp.tags' 
+    lore:
+    - '&f'
+    - '&8* &fTag Preview: &c✂' 
+    - '&f'
+    - '&8» &bClick to select'
+    left_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[console] tags set %player_name% Scissors'
+    right_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[console] tags set %player_name% Scissors'
+  'Scissors-No-Permission':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19
+    slot: 11
+    priority: 2
+    display_name: '&b[*] &bScissors Tag'
+    lore:
+    - '&f'
+    - '&8* &fRequired Rank: &b&lMVP'
+    - '&8* &fTag Preview: &c✂' 
+    - '&f'
+    - '&8» &cBuy rank to select'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[close]'
+    - '[message] &b&lTAGS &8&l» &fTo select buy rank in &bshop.server.org&f.'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[close]'
+    - '[message] &b&lTAGS &8&l» &fTo select buy rank in &bshop.server.org&f.'
+  'Flower1-Permission':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQzYTU3NmE0MjdjMjE0MTYyOThmZGQ1M2Y3NTgxNDIyYjJmZWQzNzc1MzQ2ZWUzNzk4YzNmN2Q5ZmM3MyJ9fX0=
+    slot: 12
+    priority: 1
+    display_name: '&b[*] &bFlower #1 Tag'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'mvp.tags' 
+    lore:
+    - '&f'
+    - '&8* &fTag Preview: &d✿' 
+    - '&f'
+    - '&8» &bClick to select'
+    left_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[console] tags set %player_name% Flower1'
+    right_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[console] tags set %player_name% Flower1'
+  'Flower1-No-Permission':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19
+    slot: 12
+    priority: 2
+    display_name: '&b[*] &bFlower #1 Tag'
+    lore:
+    - '&f'
+    - '&8* &fRequired Rank: &b&lMVP'
+    - '&8* &fTag Preview: &d✿' 
+    - '&f'
+    - '&8» &cBuy rank to select'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[close]'
+    - '[message] &b&lTAGS &8&l» &fTo select buy rank in &bshop.server.org&f.'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[close]'
+    - '[message] &b&lTAGS &8&l» &fTo select buy rank in &bshop.server.org&f.'
+  'Flower2-Permission':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmRlMmNjNDVkYzIzMTU5ZTkyZGZiMjM0ZmRjMmNmNGIzZmUxMzc5MjRlNzIxMzhkNzhmNTE1YTY0OTUifX19
+    slot: 13
+    priority: 1
+    display_name: '&b[*] &bFlower #2 Tag'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'mvp.tags' 
+    lore:
+    - '&f'
+    - '&8* &fTag Preview: &5✼' 
+    - '&f'
+    - '&8» &bClick to select'
+    left_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[console] tags set %player_name% Flower2'
+    right_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[console] tags set %player_name% Flower2'
+  'Flower2-No-Permission':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19
+    slot: 13
+    priority: 2
+    display_name: '&b[*] &bFlower #2 Tag'
+    lore:
+    - '&f'
+    - '&8* &fRequired Rank: &b&lMVP'
+    - '&8* &fTag Preview: &5✼' 
+    - '&f'
+    - '&8» &cBuy rank to select'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[close]'
+    - '[message] &b&lTAGS &8&l» &fTo select buy rank in &bshop.server.org&f.'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[close]'
+    - '[message] &b&lTAGS &8&l» &fTo select buy rank in &bshop.server.org&f.'
+  'Clover-Permission':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzY3ZmU1ZTNlMmY3YmY5MmVhYTZmMjAyNzYxYzEwZWMzMmRhZjNhMmEyYWRlYzFkYmJhY2E4M2M1ZjcxNmRhNSJ9fX0=
+    slot: 14
+    priority: 1
+    display_name: '&b[*] &bClover Tag'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'mvp.tags' 
+    lore:
+    - '&f'
+    - '&8* &fTag Preview: &b☘' 
+    - '&f'
+    - '&8» &bClick to select'
+    left_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[console] tags set %player_name% Clover'
+    right_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[console] tags set %player_name% Clover'
+  'Clover-No-Permission':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19
+    slot: 14
+    priority: 2
+    display_name: '&b[*] &bClover Tag'
+    lore:
+    - '&f'
+    - '&8* &fRequired Rank: &b&lMVP'
+    - '&8* &fTag Preview: &b☘' 
+    - '&f'
+    - '&8» &cBuy rank to select'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[close]'
+    - '[message] &b&lTAGS &8&l» &fTo select buy rank in &bshop.server.org&f.'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[close]'
+    - '[message] &b&lTAGS &8&l» &fTo select buy rank in &bshop.server.org&f.'
+  'Snowflake-Permission':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjJlYTQ1YWNhNDUwMjRkNDczMGM3YTA0ZmQ0N2ZlNGUzMTlmNWQzYjdlOWNlODBiMzFmZGM2NzE1MzllMWEzIn19fQ==
+    slot: 15
+    priority: 1
+    display_name: '&b[*] &bSnowflake Tag'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'mvp.tags' 
+    lore:
+    - '&f'
+    - '&8* &fTag Preview: &b❆' 
+    - '&f'
+    - '&8» &bClick to select'
+    left_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[console] tags set %player_name% Snowflake'
+    right_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[console] tags set %player_name% Snowflake'
+  'Snowflake-No-Permission':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19
+    slot: 15
+    priority: 2
+    display_name: '&b[*] &bSnowflake Tag'
+    lore:
+    - '&f'
+    - '&8* &fRequired Rank: &b&lMVP'
+    - '&8* &fTag Preview: &b❆' 
+    - '&f'
+    - '&8» &cBuy rank to select'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[close]'
+    - '[message] &b&lTAGS &8&l» &fTo select buy rank in &bshop.server.org&f.'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[close]'
+    - '[message] &b&lTAGS &8&l» &fTo select buy rank in &bshop.server.org&f.'
+  'Snowman-Permission':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjY4MTI5NjIzZmZkZTIyY2JjNTM0OTE1YWUzOGE1ZDYwZjMyZGFlZGJjNGZkNWQyYzMxMGZlYTUzN2VkIn19fQ==
+    slot: 20
+    priority: 1
+    display_name: '&b[*] &bSnowman Tag'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'mvp+.tags' 
+    lore:
+    - '&f'
+    - '&8* &fTag Preview: &f☃' 
+    - '&f'
+    - '&8» &bClick to select'
+    left_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[console] tags set %player_name% Snowman'
+    right_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[console] tags set %player_name% Snowman'
+  'Snowman-No-Permission':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19
+    slot: 20
+    priority: 2
+    display_name: '&b[*] &bSnowman Tag'
+    lore:
+    - '&f'
+    - '&8* &fRequired Rank: &b&lMVP&b+'
+    - '&8* &fTag Preview: &f☃' 
+    - '&f'
+    - '&8» &cBuy rank to select'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[close]'
+    - '[message] &b&lTAGS &8&l» &fTo select buy rank in &bshop.server.org&f.'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[close]'
+    - '[message] &b&lTAGS &8&l» &fTo select buy rank in &bshop.server.org&f.'
+  'Hot-Permission':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA4MGJiZWZjYTg3ZGMwZjM2NTM2YjY1MDg0MjVjZmM0Yjk1YmE2ZThmNWU2YTQ2ZmY5ZTljYjQ4OGE5ZWQifX19
+    slot: 21
+    priority: 1
+    display_name: '&b[*] &bHot Tag'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'mvp+.tags' 
+    lore:
+    - '&f'
+    - '&8* &fTag Preview: &c♨' 
+    - '&f'
+    - '&8» &bClick to select'
+    left_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[console] tags set %player_name% Hot'
+    right_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[console] tags set %player_name% Hot'
+  'Hot-No-Permission':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19
+    slot: 21
+    priority: 2
+    display_name: '&b[*] &bHot Tag'
+    lore:
+    - '&f'
+    - '&8* &fRequired Rank: &b&lMVP&b+'
+    - '&8* &fTag Preview: &c♨' 
+    - '&f'
+    - '&8» &cBuy rank to select'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[close]'
+    - '[message] &b&lTAGS &8&l» &fTo select buy rank in &bshop.server.org&f.'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[close]'
+    - '[message] &b&lTAGS &8&l» &fTo select buy rank in &bshop.server.org&f.'
+  'Music1-Permission':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNlZWI3N2Q0ZDI1NzI0YTljYWYyYzdjZGYyZDg4Mzk5YjE0MTdjNmI5ZmY1MjEzNjU5YjY1M2JlNDM3NmUzIn19fQ==
+    slot: 22
+    priority: 1
+    display_name: '&b[*] &bMusic #1 Tag'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'mvp+.tags' 
+    lore:
+    - '&f'
+    - '&8* &fTag Preview: &d♬' 
+    - '&f'
+    - '&8» &bClick to select'
+    left_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[console] tags set %player_name% Music1'
+    right_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[console] tags set %player_name% Music1'
+  'Music1-No-Permission':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19
+    slot: 22
+    priority: 2
+    display_name: '&b[*] &bMusic #1 Tag'
+    lore:
+    - '&f'
+    - '&8* &fRequired Rank: &b&lMVP&b+'
+    - '&8* &fTag Preview: &d♬' 
+    - '&f'
+    - '&8» &cBuy rank to select'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[close]'
+    - '[message] &b&lTAGS &8&l» &fTo select buy rank in &bshop.server.org&f.'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[close]'
+    - '[message] &b&lTAGS &8&l» &fTo select buy rank in &bshop.server.org&f.'
+  'Music2-Permission':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQxZDhjNTA0ODY3OTMzNzAzZGEzNmVjMTFmNTM4ZjYyNjVmOTg0NDFkODgxZWFjNDhlZjJjNDkzNGMxYiJ9fX0=
+    slot: 23
+    priority: 1
+    display_name: '&b[*] &bMusic #2 Tag'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'mvp+.tags' 
+    lore:
+    - '&f'
+    - '&8* &fTag Preview: &d♮' 
+    - '&f'
+    - '&8» &bClick to select'
+    left_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[console] tags set %player_name% Music2'
+    right_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[console] tags set %player_name% Music2'
+  'Music2-No-Permission':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19
+    slot: 23
+    priority: 2
+    display_name: '&b[*] &bMusic #2 Tag'
+    lore:
+    - '&f'
+    - '&8* &fRequired Rank: &b&lMVP&b+'
+    - '&8* &fTag Preview: &d♮' 
+    - '&f'
+    - '&8» &cBuy rank to select'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[close]'
+    - '[message] &b&lTAGS &8&l» &fTo select buy rank in &bshop.server.org&f.'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[close]'
+    - '[message] &b&lTAGS &8&l» &fTo select buy rank in &bshop.server.org&f.'
+  'Music3-Permission':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjIyNzkxZTg4NzcyNmJiMGY3YmRlYTY4NmI2N2I1NDk5Y2NiMmIyM2Q1YWNmZjY2Yzg3MGZhOTk5Nzk3MyJ9fX0=
+    slot: 24
+    priority: 1
+    display_name: '&b[*] &bMusic #3 Tag'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'mvp+.tags' 
+    lore:
+    - '&f'
+    - '&8* &fTag Preview: &d&l♪' 
+    - '&f'
+    - '&8» &bClick to select'
+    left_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[console] tags set %player_name% Music3'
+    right_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+    - '[close]' 
+    - '[console] tags set %player_name% Music3'
+  'Music3-No-Permission':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19
+    slot: 24
+    priority: 2
+    display_name: '&b[*] &bMusic #3 Tag'
+    lore:
+    - '&f'
+    - '&8* &fRequired Rank: &b&lMVP&b+'
+    - '&8* &fTag Preview: &d&l♪' 
+    - '&f'
+    - '&8» &cBuy rank to select'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[close]'
+    - '[message] &b&lTAGS &8&l» &fTo select buy rank in &bshop.server.org&f.'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND' 
+    - '[close]'
+    - '[message] &b&lTAGS &8&l» &fTo select buy rank in &bshop.server.org&f.'
