@@ -1,8 +1,0 @@
-Allowed: true
-Color: '%GRAY%'
-MaxLevel: 2
-SlotCost: 1
-EnchantCost: 10
-Enchantable: true
-Recipe:
-  Enabled: false
