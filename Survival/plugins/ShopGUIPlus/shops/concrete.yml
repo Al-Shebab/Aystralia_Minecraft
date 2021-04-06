@@ -1,0 +1,230 @@
+concrete:
+  name: "&f&lConcrete"
+  fillItem:
+    material: BLACK_STAINED_GLASS_PANE
+    name: " "
+  items:
+    1:
+      type: item
+      item:
+        material: WHITE_CONCRETE
+        quantity: 1
+      buyPrice: 100
+      slot: 0
+    1121:
+      type: item
+      item:
+        material: WHITE_CONCRETE_POWDER
+        quantity: 1
+      buyPrice: 100
+      slot: 1
+    2:
+      type: item
+      item:
+        material: LIGHT_GRAY_CONCRETE
+        quantity: 1
+      buyPrice: 100
+      slot: 2
+    21:
+      type: item
+      item:
+        material: LIGHT_GRAY_CONCRETE_POWDER
+        quantity: 1
+      buyPrice: 100
+      slot: 3
+    3:
+      type: item
+      item:
+        material: GRAY_CONCRETE
+        quantity: 1
+      buyPrice: 100
+      slot: 4
+    31:
+      type: item
+      item:
+        material: GRAY_CONCRETE_POWDER
+        quantity: 1
+      buyPrice: 100
+      slot: 5
+    41:
+      type: item
+      item:
+        material: BLACK_CONCRETE
+        quantity: 1
+      buyPrice: 100
+      slot: 6
+    4:
+      type: item
+      item:
+        material: BLACK_CONCRETE_POWDER
+        quantity: 1
+      buyPrice: 100
+      slot: 7
+    51:
+      type: item
+      item:
+        material: RED_CONCRETE
+        quantity: 1
+      buyPrice: 100
+      slot: 8
+    5:
+      type: item
+      item:
+        material: RED_CONCRETE_POWDER
+        quantity: 1
+      buyPrice: 100
+      slot: 9
+    61:
+      type: item
+      item:
+        material: ORANGE_CONCRETE
+        quantity: 1
+      buyPrice: 100
+      slot: 10
+    6:
+      type: item
+      item:
+        material: ORANGE_CONCRETE_POWDER
+        quantity: 1
+      buyPrice: 100
+      slot: 11
+    71:
+      type: item
+      item:
+        material: YELLOW_CONCRETE
+        quantity: 1
+      buyPrice: 100
+      slot: 12
+    7:
+      type: item
+      item:
+        material: YELLOW_CONCRETE_POWDER
+        quantity: 1
+      buyPrice: 100
+      slot: 13
+    81:
+      type: item
+      item:
+        material: LIME_CONCRETE
+        quantity: 1
+      buyPrice: 100
+      slot: 14
+    8:
+      type: item
+      item:
+        material: LIME_CONCRETE_POWDER
+        quantity: 1
+      buyPrice: 100
+      slot: 15
+    91:
+      type: item
+      item:
+        material: GREEN_CONCRETE
+        quantity: 1
+      buyPrice: 100
+      slot: 16
+    9:
+      type: item
+      item:
+        material: GREEN_CONCRETE_POWDER
+        quantity: 1
+      buyPrice: 100
+      slot: 17
+    101:
+      type: item
+      item:
+        material: LIGHT_BLUE_CONCRETE
+        quantity: 1
+      buyPrice: 100
+      slot: 18
+    10:
+      type: item
+      item:
+        material: LIGHT_BLUE_CONCRETE_POWDER
+        quantity: 1
+      buyPrice: 100
+      slot: 19
+    111:
+      type: item
+      item:
+        material: CYAN_CONCRETE
+        quantity: 1
+      buyPrice: 100
+      slot: 20
+    11:
+      type: item
+      item:
+        material: CYAN_CONCRETE_POWDER
+        quantity: 1
+      buyPrice: 100
+      slot: 21
+    121:
+      type: item
+      item:
+        material: BLUE_CONCRETE
+        quantity: 1
+      buyPrice: 100
+      slot: 22
+    12:
+      type: item
+      item:
+        material: BLUE_CONCRETE_POWDER
+        quantity: 1
+      buyPrice: 100
+      slot: 23
+    131:
+      type: item
+      item:
+        material: PURPLE_CONCRETE
+        quantity: 1
+      buyPrice: 100
+      slot: 24
+    13:
+      type: item
+      item:
+        material: PURPLE_CONCRETE_POWDER
+        quantity: 1
+      buyPrice: 100
+      slot: 25
+    141:
+      type: item
+      item:
+        material: MAGENTA_CONCRETE
+        quantity: 1
+      buyPrice: 100
+      slot: 26
+    14:
+      type: item
+      item:
+        material: MAGENTA_CONCRETE_POWDER
+        quantity: 1
+      buyPrice: 100
+      slot: 27
+    151:
+      type: item
+      item:
+        material: PINK_CONCRETE
+        quantity: 1
+      buyPrice: 100
+      slot: 28
+    15:
+      type: item
+      item:
+        material: PINK_CONCRETE_POWDER
+        quantity: 1
+      buyPrice: 100
+      slot: 29
+    161:
+      type: item
+      item:
+        material: BROWN_CONCRETE
+        quantity: 1
+      buyPrice: 100
+      slot: 30
+    16:
+      type: item
+      item:
+        material: BROWN_CONCRETE_POWDER
+        quantity: 1
+      buyPrice: 100
+      slot: 31

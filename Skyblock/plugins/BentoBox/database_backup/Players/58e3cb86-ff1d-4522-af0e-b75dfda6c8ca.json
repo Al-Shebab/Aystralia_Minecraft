@@ -1,0 +1,26 @@
+{
+  "homeLocations": [
+    [
+      [
+        "skyblock",
+        4003.5,
+        131.0,
+        1.5,
+        270.0,
+        30.0
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "58e3cb86-ff1d-4522-af0e-b75dfda6c8ca",
+  "playerName": "Melasxd",
+  "resets": {},
+  "locale": "",
+  "deaths": {
+    "skyblock": 0,
+    "skyblock_nether": 1
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC",
+  "metaData": {}
+}

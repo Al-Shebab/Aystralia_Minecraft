@@ -1,0 +1,221 @@
+# 
+# Protection flags that are used in current addon.
+visit:
+  commands:
+    admin:
+      main:
+        description: opens GUI that allows to edit default or targeted island settings.
+        parameters: <player>
+    player:
+      main:
+        description: opens GUI or visits targeted player island.
+        parameters: <player>
+      configure:
+        description: opens GUI that allows to manage visiting settings.
+        parameters: ''
+      set-location:
+        description: allows to change visitors spawn location.
+        parameters: ''
+  gui:
+    titles:
+      choose: '&b&l Choose Island'
+      configure: '&b&l Configure Access'
+      main: '&b&l Admin Panel'
+      select-island: '&b&l Select an Island'
+      select-block: '&b&l Select Block'
+    buttons:
+      previous:
+        name: '&f&l Previous Page'
+        description: '&f Switch to [number] page'
+      next:
+        name: '&f&l Next Page'
+        description: '&f Switch to [number] page'
+      search:
+        name: '&f&l Search'
+        description: |-
+          &f Search for a specific
+          &f island.
+        search: '&b Value: [value]'
+      filter:
+        name: '&f&l Filter'
+        description: |-
+          &f Allows to show only
+          &f filtered islands.
+        value: '&f Active filter: [value]'
+        all_islands: '&b none'
+        online_islands: '&b online'
+        can_visit: '&b visitable'
+      island:
+        name: '&b[name]'
+        description: |-
+          [owner]
+          [members]
+          [noone-online]
+          [payment]
+          [no-visit]
+        owner: '&f Owner: &b [player]'
+        members-title: '&f&l Members:'
+        member: '&b - [player]'
+        unknown: unknown
+        noone-online: |-
+          &f None of island members
+          &f are online.
+        payment: |-
+          &f It costs [number] to visit
+          &f this island.
+        no-visit: '&c You cannot visit the island.'
+      payment:
+        name: '&f&l Payment Value'
+        description: |-
+          &f Allows to change payment
+          &f for visiting your island.
+          &f Current value: &b [number]
+      offline:
+        name: '&f&l Offline Visits'
+        description: |-
+          &f Allows to change if players
+          &f can visit island while all
+          &f members are offline.
+        enabled: '&f Offline visits &a enabled'
+        disabled: '&f Offline visits &c disabled'
+      enabled:
+        name: '&f&l Allow Visits'
+        description: |-
+          &f Allows to change if
+          &f visits are enabled.
+        enabled: '&f Visits are &a allowed'
+        disabled: '&f Visits are &c disallowed'
+      manage:
+        name: '&f&l Manage Island Settings'
+        description: |-
+          &f Allows to edit island
+          &f visit settings for
+          &f selected island.
+      reset:
+        name: '&f&l Reset to Default'
+        description: |-
+          &f Resets all island visit
+          &f settings to default values.
+      tax:
+        name: '&f&l Manage Tax'
+        description: |-
+          &f Allows to set tax amount
+          &f for visiting island.
+        value: '&f Current tax: &b [number]'
+      default_payment:
+        name: '&f&l Default Payment'
+        description: |-
+          &f Allows to change payment
+          &f value.
+        value: '&f Current payment: &b [number]'
+      default_offline:
+        name: '&f&l Default Offline'
+        description: |-
+          &f Allows to change if players
+          &f can visit island while all
+          &f members are offline.
+        enabled: |-
+          &f By default offline visits
+          &f are &a enabled
+        disabled: |-
+          &f By default offline visits
+          &f are &c disabled
+      default_enabled:
+        name: '&f&l Default Visiting'
+        description: |-
+          &f Allows to change if visits
+          &f by default are enabled.
+        enabled: |-
+          &f By default visits
+          &f are &a enabled
+        disabled: |-
+          &f By default visits
+          &f are &c disabled
+      at_top:
+        name: '&f&l Filter Row At Top'
+        description: |-
+          &f Allows to change if filter
+          &f row is located at the top
+          &f or bottom.
+        enabled: '&f Filter row is at the &a top.'
+        disabled: '&f Filter row is at the &a bottom.'
+      toggle_filters:
+        name: '&f&l Toggle Filters'
+        description: |-
+          &f Allows to toggle filter
+          &f row in User GUI.
+        enabled: '&f Filter row is &a enabled.'
+        disabled: '&f Filter row is &c disabled.'
+      toggle_search:
+        name: '&f&l Toggle Search'
+        description: |-
+          &f Allows to toggle search
+          &f button in User GUI.
+        enabled: '&f Search button is &a enabled.'
+        disabled: '&f Search button is &c disabled.'
+      enable_economy:
+        name: '&f&l Enable Economy'
+        description: |-
+          &f Allows to toggle economy part
+          &f addon if Vault plugin is
+          &f is present.
+        enabled: '&f Economy is &a enabled.'
+        disabled: '&f Economy is &c disabled.'
+    tips:
+      click-to-switch: '&b Click &f to switch.'
+      click-to-previous: '&b Click &f to view previous page.'
+      click-to-next: '&b Click &f to view next page.'
+      click-to-visit: '&b Click &f to visit.'
+      click-to-toggle: '&b Click &f to toggle.'
+      click-to-change: '&b Click &f to change.'
+      click-to-edit: '&b Click &f to edit.'
+      click-to-choose: '&b Click &f to choose.'
+      click-to-reset: '&b Click &f to reset.'
+      left-click-to-edit: '&b Left Click &f to edit.'
+      right-click-to-clear: '&b Right Click &f to clear.'
+      click-to-select: '&b Click &f to select.'
+      click-to-deselect: '&b Click &f to deselect.'
+  errors:
+    noone-is-online: '&r Noone from this island is online!'
+    not-enough-credits: '&r You do not have enough credits to visit this island. Necessary
+      [number] credits.'
+    cannot-withdraw-credits: '&r Cannot withdraw [number] from your account! Operation
+      is cancelled.'
+    cannot-deposit-credits: '&r Cannot deposit [number] into island owner account!
+      Operation is cancelled.'
+    not-in-overworld: '&r You must be in overworld to change visitor spawn location!
+      Operation is cancelled.'
+    not-in-protected-area: '&r You must be in your island protected area! Operation
+      is cancelled.'
+    not-safe-location: '&r Cannot set this location, it is not safe for teleportation!
+      Operation is cancelled.'
+  conversations:
+    confirm-string: true, on, yes, confirm, y, valid, correct
+    deny-string: false, off, no, deny, n, invalid, incorrect
+    cancel-string: cancel
+    exit-string: cancel, exit, quit
+    cancelled: '&c Conversation cancelled!'
+    prefix: '&l&6 [BentoBox]: &r'
+    numeric-only: '&c The given [value] is not a number!'
+    not-valid-value: '&c The given number [value] is not valid. It must be larger
+      than [min] and smaller than [max]!'
+    write-search: '&b Please write a search value. (write ''cancel'' to exit)'
+    search-updated: '&a Search value updated.'
+    input-number: '&b Please enter a number in chat.'
+    confirm-island-data-deletion: '&b Confirm that you want to delete all user data
+      from the database for [gamemode].'
+    user-data-removed: '&a Success, all user data for [gamemode] was removed!'
+protection:
+  flags:
+    ALLOW_VISITS_FLAG:
+      name: Visit protection
+      description: |-
+        &a Toggle if island can be
+        &a visited by anyone.
+      hint: '&c Visits are disabled in this island'
+    VISIT_CONFIG_PERMISSION:
+      name: Manage visitor config
+      description: |-
+        &a Allows to switch who
+        &a can edit island visitor
+        &a configuration.

@@ -1,0 +1,14 @@
+Enabled: true
+TimeLasts: -1
+CoolDown: 0
+Name: '&fGlow'
+Description: 'Glow in the dark'
+Effects:
+- Potions
+Potions:
+  GLOWING:
+    Duration: 10000000
+    Amplifier: 1
+Item:
+  Material: 'TORCH'
+  Data: 0

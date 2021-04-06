@@ -1,0 +1,41 @@
+market:
+  owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  location: world,36.249610958416795,64.0,-4.45119278523117,89.0979,-0.09155266
+  flags:
+    PRIVATE: false
+    SIGNPRIVATE: true
+  invited: []
+  timeswarpedto: 1161
+vote:
+  owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  location: world,55.5,66.0,-8.5,89.037056,1.0354717
+  flags:
+    PRIVATE: false
+    SIGNPRIVATE: true
+  invited: []
+  timeswarpedto: 10
+sell:
+  owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  location: world,26.556987403088872,64.0,-5.587129608023262,178.0615,0.63853455
+  flags:
+    PRIVATE: false
+    SIGNPRIVATE: true
+  invited: []
+  timeswarpedto: 414
+end:
+  owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  location: world_the_end,0.5993876576879121,65.0,-6.067894441075233,1.8773324,-4.2836843
+  flags:
+    PRIVATE: false
+    SIGNPRIVATE: true
+  invited: []
+  timeswarpedto: 41
+total: 7
+ah:
+  owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  location: world,-17.5,64.0625,-34.5,269.05737,-0.40441433
+  flags:
+    PRIVATE: false
+    SIGNPRIVATE: true
+  invited: []
+  timeswarpedto: 104

@@ -1,0 +1,202 @@
+organics:
+  name: "&a&lOrganics"
+  fillItem:
+    material: BLACK_STAINED_GLASS_PANE
+    name: " "
+  items:
+    1:
+      type: item
+      item:
+        material: OAK_SAPLING
+        quantity: 1
+      buyPrice: 10
+      slot: 10
+    2:
+      type: item
+      item:
+        material: SPRUCE_SAPLING
+        quantity: 1
+      buyPrice: 10
+      slot: 11
+    3:
+      type: item
+      item:
+        material: birch_sapling
+        quantity: 1
+      buyPrice: 10
+      slot: 12
+    4:
+      type: item
+      item:
+        material: jungle_sapling
+        quantity: 1
+      buyPrice: 10
+      slot: 13
+    5:
+      type: item
+      item:
+        material: acacia_sapling
+        quantity: 1
+      buyPrice: 10
+      slot: 14
+    6:
+      type: item
+      item:
+        material: dark_oak_sapling
+        quantity: 1
+      buyPrice: 10
+      slot: 15
+    7:
+      type: item
+      item:
+        material: grass
+        quantity: 1
+      buyPrice: 10
+      slot: 16
+    8:
+      type: item
+      item:
+        material: fern
+        quantity: 1
+      buyPrice: 10
+      slot: 19
+    9:
+      type: item
+      item:
+        material: dead_bush
+        quantity: 1
+      buyPrice: 10
+      slot: 20
+    10:
+      type: item
+      item:
+        material: large_fern
+        quantity: 1
+      buyPrice: 10
+      slot: 21
+    11:
+      type: item
+      item:
+        material: dandelion
+        quantity: 1
+      buyPrice: 10
+      slot: 22
+    12:
+      type: item
+      item:
+        material: poppy
+        quantity: 1
+      buyPrice: 10
+      slot: 23
+    13:
+      type: item
+      item:
+        material: blue_orchid
+        quantity: 1
+      buyPrice: 10
+      slot: 24
+    14:
+      type: item
+      item:
+        material: allium
+        quantity: 1
+      buyPrice: 10
+      slot: 25
+    15:
+      type: item
+      item:
+        material: red_tulip
+        quantity: 1
+      buyPrice: 10
+      slot: 28
+    16:
+      type: item
+      item:
+        material: orange_tulip
+        quantity: 1
+      buyPrice: 10
+      slot: 29
+    17:
+      type: item
+      item:
+        material: azure_bluet
+        quantity: 1
+      buyPrice: 10
+      slot: 30
+    18:
+      type: item
+      item:
+        material: white_tulip
+        quantity: 1
+      buyPrice: 10
+      slot: 31
+    19:
+      type: item
+      item:
+        material: pink_tulip
+        quantity: 1
+      buyPrice: 10
+      slot: 32
+    20:
+      type: item
+      item:
+        material: oxeye_daisy
+        quantity: 1
+      buyPrice: 10
+      slot: 33
+    21:
+      type: item
+      item:
+        material: lily_of_the_valley
+        quantity: 1
+      buyPrice: 10
+      slot: 34
+    22:
+      type: item
+      item:
+        material: cornflower
+        quantity: 1
+      buyPrice: 10
+      slot: 39
+    23:
+      type: item
+      item:
+        material: brown_mushroom
+        quantity: 1
+      buyPrice: 10
+      slot: 40
+    24:
+      type: item
+      item:
+        material: red_mushroom
+        quantity: 1
+      buyPrice: 10
+      slot: 41
+    25:
+      type: item
+      item:
+        material: vine
+        quantity: 1
+      buyPrice: 10
+      slot: 42
+    26:
+      type: item
+      item:
+        material: lily_pad
+        quantity: 1
+      buyPrice: 10
+      slot: 43
+    27:
+      type: item
+      item:
+        material: lilac
+        quantity: 1
+      buyPrice: 10
+      slot: 38
+    28:
+      type: item
+      item:
+        material: rose_bush
+        quantity: 1
+      buyPrice: 10
+      slot: 37

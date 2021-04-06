@@ -1,0 +1,42 @@
+Woodcutter:
+  fullname: Woodcutter
+  shortname: W
+  description: Earns money felling and planting trees
+  ChatColour: GREEN
+  chat-display: full
+  max-level: 200
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 0
+  Quests:
+    '1':
+      Name: Woodpecker
+      Objectives:
+      - Break;oak_log;50
+      - Break;birch_log;50
+      - Break;jungle_log;50
+      RewardCommands:
+      - eco give [playerName] 100
+      - msg [playerName] Completed quest!
+      RewardDesc:
+      - Break logs and get money
+      - Get 100 for this!
+  Gui:
+    Item: diamond_axe
+  Break:
+    materials:
+    - oak_log;3.0;0;3.0
+    - spruce_log;3.0;0;3.0
+    - birch_log;3.0;0;3.0
+    - jungle_log;3.0;0;3.0
+    - acacia_log;3.0;0;3.0
+    - dark_oak_log;3.0;0;3.0
+    - stripped_oak_log;3.0;0;3.0
+    - stripped_spruce_log;3.0;0;3.0
+    - stripped_birch_log;3.0;0;3.0
+    - stripped_jungle_log;3.0;0;3.0
+    - stripped_acacia_log;3.0;0;3.0
+    - stripped_dark_oak_log;3.0;0;3.0

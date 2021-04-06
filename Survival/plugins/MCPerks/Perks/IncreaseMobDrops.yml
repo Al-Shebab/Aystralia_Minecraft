@@ -1,0 +1,10 @@
+Enabled: true
+TimeLasts: -1
+CoolDown: 0
+Name: '&cDouble Drop'
+Description: '&fIncrease all mob drops by &c2x'
+Effects:
+- 'IncreaseMobDrops:100' # 10 percent
+Item:
+  Material: 'ROTTEN_FLESH'
+  Data: 0

@@ -1,0 +1,16 @@
+# 
+#  PlayerUUID
+#    hopperconfig,world,xpos,ypos,zpos,worldforchest/hopper,xpos,ypos,zpos,level,itemstransfered,dateplaced,hoppertpenabled,blockeswhitelisted,blocksblacklisted
+Players:
+  fda1973c-f476-4fa8-9ca0-805ec201377d:
+  - II,world,3833,66,4036,null,null,null,null,II,40,1617078411468,false,null,null,BLACKLIST,true
+  - I,world,3833,64,4036,world,3833,63,4036,I,81,1617078418574,false,null,null,BLACKLIST,true
+  f4d5e1b8-43e7-47eb-9b3b-21d66b202af7:
+  - IV,world,3332,46,-6890,null,null,null,null,IV,166,1617283547945,false,null,null,BLACKLIST,true
+  b4dc8143-084b-4ae0-85ba-b5aa2e81ea17:
+  - I,world,-4862,67,-4188,world,-4862,71,-4182,I,223,1617528960048,false,null,null,BLACKLIST,true
+  - I,world,-4858,25,-4241,world,-4858,25,-4237,I,1269,1617402374787,true,null,null,BLACKLIST,true
+  9fe712c8-e226-49fb-92ed-c7edf5660b4b:
+  - II,world,-4842,52,-4228,world,-4840,76,-4234,II,48383,1617603855094,false,null,null,BLACKLIST,false
+  48694fa9-fd64-416c-bb1d-38fad623c081:
+  - I,world,-4833,70,-4013,null,null,null,null,I,21,1617516778466,false,null,null,BLACKLIST,true

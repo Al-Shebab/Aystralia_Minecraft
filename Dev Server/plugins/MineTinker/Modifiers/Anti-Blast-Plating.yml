@@ -1,0 +1,15 @@
+Allowed: true
+MaxLevel: 4
+SlotCost: 1
+Color: '%WHITE%'
+EnchantCost: 10
+Enchantable: false
+Recipe:
+  Enabled: true
+  Top: IMI
+  Middle: MDM
+  Bottom: IMI
+  Materials:
+    D: DIAMOND
+    I: IRON_BLOCK
+    M: TNT

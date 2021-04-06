@@ -1,0 +1,56 @@
+name: Jacktank
+booster:
+  multiplier: 1.0
+  time: 0
+chests:
+  '0':
+    name: default
+    location:
+      world: world_the_end
+      x: 17
+      y: 57
+      z: -728
+    money: 191250.2
+    items-sold: 95627
+    items-purged: 5
+    autosell: true
+    purge-items: false
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1617540763948
+  '1':
+    name: default
+    location:
+      world: world
+      x: -2760
+      y: 6
+      z: 1541
+    money: 2850.0
+    items-sold: 285
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1617540763948
+  '2':
+    name: default
+    location:
+      world: world_the_end
+      x: -5
+      y: 60
+      z: -724
+    money: 13320.0
+    items-sold: 1332
+    items-purged: 333
+    autosell: true
+    purge-items: true
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1617540763948

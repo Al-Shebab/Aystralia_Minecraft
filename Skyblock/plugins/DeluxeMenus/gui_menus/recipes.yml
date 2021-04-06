@@ -1,0 +1,222 @@
+menu_title: '&b&lRecipes'
+open_command: recipes
+size: 45
+items:
+      'Decoration':
+        display_name: '&f'
+        material: 160
+        data: 7
+        slots:
+        - 2
+        - 4
+        - 6
+        - 10
+        - 16
+        - 18
+        - 19
+        - 25
+        - 26
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 38
+        - 42
+      'Decoration-1':
+        display_name: '&f'
+        material: 160
+        data: 7
+        slots: 
+        - 0
+        - 1
+        - 3
+        - 5
+        - 7
+        - 8
+        - 9
+        - 17
+        - 27
+        - 36
+        - 37
+        - 39
+        - 41
+        - 43
+        - 44
+      'Back':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+        slot: 40
+        display_name: '&b[*] &bBack'
+        lore: ''
+        left_click_commands:
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+        - '[openguimenu] menu'
+        right_click_commands:
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+        - '[openguimenu] menu'
+      'ZombieHelmet':
+        material: 310
+        slot: 11
+        display_name: '&9Zombie Helmet'
+        enchantments:
+        - 'PROTECTION_ENVIRONMENTAL;5'
+        - 'THORNS;6'
+        lore:
+        - '&f'
+        - '&fItem tier: &9&lRARE'
+        - '&f'
+        - '&8» &bClick to view recipe'
+        left_click_commands:
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+        - '[openguimenu] zombiehelmet'
+        right_click_commands:
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+        - '[openguimenu] zombiehelmet' 
+      'ZombieChestplate':
+        material: 311
+        slot: 12
+        display_name: '&9Zombie Chestplate'
+        enchantments:
+        - 'PROTECTION_ENVIRONMENTAL;5'
+        - 'THORNS;6'
+        lore:
+        - '&f'
+        - '&fItem tier: &9&lRARE'
+        - '&f'
+        - '&8» &bClick to view recipe'
+        left_click_commands:
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+        - '[openguimenu] zombiechestplate'
+        right_click_commands:
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+        - '[openguimenu] zombiechestplate' 
+      'ZombieLeggings':
+        material: 312
+        slot: 13
+        display_name: '&9Zombie Leggings'
+        enchantments:
+        - 'PROTECTION_ENVIRONMENTAL;5'
+        - 'THORNS;6'
+        lore:
+        - '&f'
+        - '&fItem tier: &9&lRARE'
+        - '&f'
+        - '&8» &bClick to view recipe'
+        left_click_commands:
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+        - '[openguimenu] zombieleggings'
+        right_click_commands:
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+        - '[openguimenu] zombieleggings' 
+      'ZombieBoots':
+        material: 313
+        slot: 14
+        display_name: '&9Zombie Boots'
+        enchantments:
+        - 'PROTECTION_ENVIRONMENTAL;5'
+        - 'THORNS;6'
+        lore:
+        - '&f'
+        - '&fItem tier: &9&lRARE'
+        - '&f'
+        - '&8» &bClick to view recipe'
+        left_click_commands:
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+        - '[openguimenu] zombieboots'
+        right_click_commands:
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+        - '[openguimenu] zombieboots'
+      'ZombieLeather':
+        material: 367
+        slot: 15
+        display_name: '&bZombie Leather'
+        enchantments:
+        - 'PROTECTION_ENVIRONMENTAL;5'
+        hide_enchantments: true
+        lore:
+        - '&f'
+        - '&fItem tier: &b&lUNCOMMON'
+        - '&f'
+        - '&8» &bClick to view recipe'
+        left_click_commands:
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+        - '[openguimenu] zombieleather'
+        right_click_commands:
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+        - '[openguimenu] zombieleather'
+      'UltimateDiamond':
+        material: 264
+        slot: 20
+        display_name: '&b[*] &bUltimate Diamond'
+        enchantments:
+        - 'PROTECTION_ENVIRONMENTAL;5'
+        hide_enchantments: true
+        lore:
+        - '&f'
+        - '&fItem tier: &b&lCOMMON'
+        - '&f'
+        - '&8» &bClick to view recipe'
+        left_click_commands:
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+        - '[openguimenu] ultimatediamond'
+        right_click_commands:
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+        - '[openguimenu] ultimatediamond'
+      'SlimeBow':
+        material: 261
+        slot: 21
+        display_name: '&9Slime Bow'
+        enchantments:
+        - 'ARROW_DAMAGE;6'
+        - 'ARROW_KNOCKBACK;4'
+        - 'ARROW_FIRE;1'
+        lore:
+        - '&f'
+        - '&fItem tier: &9&lRARE'
+        - '&f'
+        - '&8» &bClick to view recipe'
+        left_click_commands:
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+        - '[openguimenu] slimebow'
+        right_click_commands:
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+        - '[openguimenu] slimebow'
+      'CompactSlime':
+        material: 165
+        slot: 22
+        display_name: '&bCompact Slime'
+        enchantments:
+        - 'ARROW_DAMAGE;6'
+        hide_enchantments: true
+        lore:
+        - '&f'
+        - '&fItem tier: &b&lUNCOMMON'
+        - '&f'
+        - '&8» &bClick to view recipe'
+        left_click_commands:
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+        - '[openguimenu] compactslime'
+        right_click_commands:
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+        - '[openguimenu] compactslime'

@@ -1,0 +1,111 @@
+eggs:
+  name: "&a&lSpawn Eggs"
+  fillItem:
+    material: BLACK_STAINED_GLASS_PANE
+    name: " "
+  items:
+    1:
+      type: item
+      item:
+        material: ocelot_spawn_egg
+        quantity: 1
+      buyPrice: 2500
+      slot: 10
+    2:
+      type: item
+      item:
+        material: wolf_spawn_egg
+        quantity: 1
+      buyPrice: 2500
+      slot: 11
+    3:
+      type: item
+      item:
+        material: fox_spawn_egg
+        quantity: 1
+      buyPrice: 2500
+      slot: 12
+    4:
+      type: item
+      item:
+        material: pig_spawn_egg
+        quantity: 1
+      buyPrice: 1000
+      slot: 19
+    5:
+      type: item
+      item:
+        material: cow_spawn_egg
+        quantity: 1
+      buyPrice: 1000
+      slot: 20
+    6:
+      type: item
+      item:
+        material: sheep_spawn_egg
+        quantity: 1
+      buyPrice: 1000
+      slot: 21
+    7:
+      type: item
+      item:
+        material: chicken_spawn_egg
+        quantity: 1
+      buyPrice: 1000
+      slot: 22
+    8:
+      type: item
+      item:
+        material: dolphin_spawn_egg
+        quantity: 1
+      buyPrice: 1000
+      slot: 28
+    9:
+      type: item
+      item:
+        material: llama_spawn_egg
+        quantity: 1
+      buyPrice: 1000
+      slot: 29
+    10:
+      type: item
+      item:
+        material: bee_spawn_egg
+        quantity: 1
+      buyPrice: 1000
+      slot: 30
+    11:
+      type: item
+      item:
+        material: rabbit_spawn_egg
+        quantity: 1
+      buyPrice: 1000
+      slot: 31
+    12:
+      type: item
+      item:
+        material: polar_bear_spawn_egg
+        quantity: 1
+      buyPrice: 1000
+      slot: 32
+    13:
+      type: item
+      item:
+        material: parrot_spawn_egg
+        quantity: 1
+      buyPrice: 1000
+      slot: 33
+    14:
+      type: item
+      item:
+        material: panda_spawn_egg
+        quantity: 1
+      buyPrice: 1000
+      slot: 34
+    15:
+      type: item
+      item:
+        material: villager_spawn_egg
+        quantity: 1
+      buyPrice: 25000
+      slot: 37

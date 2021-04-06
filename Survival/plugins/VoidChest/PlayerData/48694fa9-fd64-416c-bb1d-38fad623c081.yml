@@ -1,0 +1,22 @@
+name: NotGroot
+booster:
+  multiplier: 1.0
+  time: 0
+chests:
+  '0':
+    name: default
+    location:
+      world: world_the_end
+      x: 276
+      y: 1
+      z: 2
+    money: 2464.5
+    items-sold: 1265
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1617669828506

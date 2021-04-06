@@ -1,0 +1,480 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 9
+npc:
+  '1':
+    metadata:
+      cached-skin-uuid-name: dobruy_yoda
+      cached-skin-uuid: 9bb04684-9947-4cae-bdf2-7849a16c706d
+      nameplate-visible: 'false'
+    name: b
+    uuid: 659717a0-04fe-41c5-9929-59433575a038
+    traits:
+      type: PLAYER
+      location:
+        bodyYaw: -17.25637
+        world: world
+        x: '32.5'
+        y: '64.0'
+        z: '-7.5'
+        yaw: '-33.7478'
+        pitch: '0.0'
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: eAsGBsO5pgBG4oZaBZRmJJS6dSgPr57Tjdn+vipfSAcLeh1xSK6xCf15lI3E5zaGnVAMfHs/MIOrIFx3MoQwr5QEHQ/gTxi+8jsh7DunNrFqPXY/tVIAc3ygaUYzQtjmjxfDbFA2FdsjYzJNT1531T7+NxRtW1TssxgiYuHANDyQJ+LPS7JSbPbkimG1riWbzFyCQsSvZ2Lfgh28umpza6GggnHT5WbjsMlBrPDsoR1RihcPdW38gx/8hZN3N1/PMRSPaL/bdfHEsgm+s/l1G8OS8U4fT+4baHSB+OTZxCrXGPfzVtHBCeHWTeIZdU5J5TuRcBc3by9NMZSuhuE3/JCDUOjKoMoUE6lidj8ho/ozpURt/I9W6aJv94m+ZicS3lQlOQbw8u8Gn6wjVUi/6KvAohYVNCCwh249GokmDVTxNWfa+oxHFXaRI0DeEbknjNzpj9+fuP79oQ1WdViEUkluqb8J6UTRNM+Uw2IUWlhgL5U3weJq/YfNfjG89c+yNIwpTs4GO4mD4s20Gdt2wuRJAhOIHzZbS+vZA+zH6uXhSApzwFjy6+ZOFXeBNWLGTOUlrYckPpCIO+DF+C2LPgnr92TD2Gn5WP0olM062NRXCYOvkpjMSW8iwmQepabCcJwo4ZK2eFSqe2E3XRKL/UPhGgoRFj33+KlYGD6RQ8s=
+        skinName: dobruy_yoda
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNTE4MTc3ODMzNywKICAicHJvZmlsZUlkIiA6ICI5YmIwNDY4NDk5NDc0Y2FlYmRmMjc4NDlhMTZjNzA2ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkb2JydXlfeW9kYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ZDEwMzdiNjhlOWE0ZDQyYmRkMjA2N2UwYjkzYmQ0MmE2ZjkyYmU0NmU1Y2RlYTg1MzVkM2FhMTUwMGY5OTJjIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: shop basics
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+          '1':
+            command: shopgui basics
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        owner: Al_Shebab
+        uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+    traitnames: inventory,scoreboardtrait,skintrait,mounttrait,lookclose,location,type,spawned,commandtrait,equipment,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    metadata:
+      cached-skin-uuid-name: blackjoey
+      cached-skin-uuid: 6e1b371a-e92e-4479-9f0c-d6aef8d9c851
+      nameplate-visible: 'false'
+    name: e
+    uuid: 8f0361db-bdec-47d3-87b5-5577dc4acbe4
+    traits:
+      type: PLAYER
+      location:
+        bodyYaw: -99.19174
+        world: world
+        x: '17.5'
+        y: '64.0'
+        z: '1.5'
+        yaw: '-137.0699'
+        pitch: '0.0'
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: u8nDxd9oevuRrR2EF05lyex/C4MGFOBln4ao7hu2keJh2WVCs12KkxV+TOjYWHdljiXEgreykJxHlSsLqCwNGYW8SWx1jvhyJS5TZQLNTzrij4mFgpiTub9hVe7jvlGShiDvN56ppJ5WbS1XudhriQVMEmimuzk1VMXJanIJDJavqHcJ17to+YZbpksp9TZs5/mhieFRATEGnCtX5sKrDVxjAJOU22u1QsA7ZL7bWUbKouQ87xvr/IJzGQcjpk/MXYgFDTD9S4WqfIKdTTplv0tJ32HUFq4SdWpGfnETliWpSIvi4kOyaEOv5Kgd6DLRtEbpQWub5mNeuUjqFUZwMs986nktfne/fgKOwasfevcYLxWyeR3r41wVmn2EAdqR/rZBDRtqvfRxo/JDRWX8KoRrnENNQsoOfTLsQ6V1oaKZhm107zr3cnUFFTtF2+8fgJzkxga0g1IIUWSWiVx0alNtTqee6ptDE8nZTIEmrmWr4eyKQUuh/1jQdFR9wsbTm2C3pzqJ3+zZxsLnSwCY/5E8NsNqeb7HzIOArDhmpytw5Ly214ORH14pepyso6RqUpd6b4/wTFeuhKqy+wB+733MjH6GsQnMlD1a+NzsR6eVCoBKaDR1hZ+zJdg/GDaXMVjNunQX0pjZsgnIGtGTO+8YY3eGiXX28FVH1U4w420=
+        skinName: blackjoey
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNTIxMTEzMjQ2MCwKICAicHJvZmlsZUlkIiA6ICI2ZTFiMzcxYWU5MmU0NDc5OWYwY2Q2YWVmOGQ5Yzg1MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJCbGFja0pvZXkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E4YWIyMjY3YWU0NDNlODNiMDVlM2E4ZDY3YjhiNzYwYWRmYWFkMzM1YzkwNDczMzhjMGUxNzc0YTY1YzM3MiIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: shop spawners
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        owner: Al_Shebab
+        uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+    traitnames: inventory,skintrait,scoreboardtrait,mounttrait,location,lookclose,type,spawned,commandtrait,equipment,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    metadata:
+      cached-skin-uuid-name: redmaggot
+      cached-skin-uuid: 054f9f1a-8ecf-425c-92ab-e7905dea8efb
+      nameplate-visible: 'false'
+    name: d
+    uuid: 842e93d9-5519-414c-9b1e-84ceab58e6ac
+    traits:
+      type: PLAYER
+      location:
+        bodyYaw: 130.69661
+        world: world
+        x: '34.5'
+        y: '64.0'
+        z: '-1.5'
+        yaw: '170.6966'
+        pitch: '0.0'
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: tGKt5X9r95b14Ilufv0V8NbFf/6tZicmqW/BcGTZnRNMQ1w8aBWf88NetJFtQzZlX2M8qnGt67fEeChqNSGEtXu3Nq0S/InakOSCayLaC5dT82gkjiVRa10I42o/FFWlOWHBLbnmyMqlc8HIxi8tgSM6n2At4stpdEIBib2zBGWCo7E3GZCjKsObIE3Pjg+a0SE4nPDDb0aigUf2Zp3zI646K6KEjaKaNgQcKw5oTvMSxsSCJpacnbWWHVufYGmvpUP5X4z77zuIDxjiN8I2JSwsDqY3vQClfAtY6LOR0JPSFwetBkEStLc6rgeCrIY+1A6BfkTuJ7KBbj2Fba7yNaZcksAB4P1xxb7cMXCQ89pYbpHbRn477Wkh5FZSvXiw/Eb2eU/avw7E+8V2/iXbY9rZWhkzwtHEM2l7V6CE+xibyHT1mvwq5go089233F0xTQD0YMkSYLDgmhJNgoBq6SygBPOzpeXcLqtMiuaSDq036zfT3UsMALc3NtOeIy4+6av499IxJw/bfN+AiiXiiacrheKPQKhVlR508MUExBhi9DEtTx7PUJZr572tvQaFx9pp8L2cGHo3fDBKjB/4ardJeH0HQK0MFr9KA43ixXN8ZRso3sU/UwX7SnWMZ0JIkS336lCgSESwUKFnrgfWAJHS3I5N6hdufid2WAkieZo=
+        skinName: redmaggot
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNTIxMTIyNTg0MiwKICAicHJvZmlsZUlkIiA6ICIwNTRmOWYxYThlY2Y0MjVjOTJhYmU3OTA1ZGVhOGVmYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWRtYWdnb3QiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWE2MGM5YTg1Zjc1NzQ5YTY5M2NmMDljMGUyNzI4NDJjMmZlOTY2MDUwYzU3NzIzNmI3YWZlZmY0NTRlYzEyMCIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: shop farming
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        owner: Al_Shebab
+        uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+    traitnames: inventory,scoreboardtrait,skintrait,mounttrait,location,lookclose,type,spawned,commandtrait,equipment,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      cached-skin-uuid-name: islandmanager
+      cached-skin-uuid: 0f180129-a5c6-4c38-bf24-301bc9c1209e
+      nameplate-visible: 'false'
+    name: c
+    uuid: 4925b930-b8e7-4c69-984a-b41ceaed8ebc
+    traits:
+      type: PLAYER
+      location:
+        bodyYaw: -9.114334
+        world: world
+        x: '18.5'
+        y: '64.0'
+        z: '-6.5'
+        yaw: '-23.7174'
+        pitch: '0.0'
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: vTatvJis7NiJO9G0VNM2FBqT2SZ0hJMuFc01doiaqfbgEcB4ewA+EZqo/f7e9wFuShVj2tjIsVigkJnsDD2CcVMNA7N1mmXpBv434V8IBcY826ZZFes48bJajZalAnOModH3CKeVmYJTWbJFrj+RkBsosFcbrAbff30uWdkaPjoz7V7Z9pHSk2fDGVvgMQ+4xGhqg32lhBqyTznHeAEJEL+JLGWYZPmzlfiRuRkHn5mjCirhEKhlfw9W+3uS8yEFX8uZV7+ALxSMdqWrKZsqJq07DPpuxtndnfvulw9RIm2uvDYuVaU9lPQjhh+BOVoLDwjiOkvRQjOXcD3kTXVy2OIek3eDLs6bGcrRv8i7f1SYrc3ngZiGGKIsdZ1XbFfmv1jbwn0AQZwgz7J29zvlSlBH/Uy7XaL5SPWMveTomqhTGbG3Lp14csiKbYfaytZ/L+GPQ0QTwq3VNaLOysGTl82ALqf6iaMdChoCW/yGjM6jLWpO0+ymoprwAsA/qiev0tVLqdvMIUpy/OgH/zEz/FFi5vuZuAsFogMym29BafWsZKffMYZvpDAXsGP/Bk94F9PTrSrbtlv8f5M4qLDc4HnL2yCXHgrWTrzelcmIlhgEA7y/5MepGS38y9rVsK5c7VnWy2Cr5BBNmxdc8LLayWQJU6q2QVasY593ImUyur0=
+        skinName: islandmanager
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNTIxMDY0NTIzOCwKICAicHJvZmlsZUlkIiA6ICIwZjE4MDEyOWE1YzY0YzM4YmYyNDMwMWJjOWMxMjA5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJJc2xhbmRNYW5hZ2VyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzlmNWIyODk3MWQxMjhiMmE5MzI0ZGM1YjM4OGE3NDdhNTFlYTBiNTZlZWQ5ZmUwMjM5NTUzOTJmZWQ3ZGMzZDQiCiAgICB9CiAgfQp9
+        updateSkins: false
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: shop blacksmith
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        owner: Al_Shebab
+        uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+    traitnames: inventory,skintrait,scoreboardtrait,mounttrait,lookclose,location,type,spawned,commandtrait,equipment,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '6':
+    metadata:
+      cached-skin-uuid-name: feeyne
+      cached-skin-uuid: 5e9388ba-0573-444c-a761-b6d9174042af
+      nameplate-visible: 'false'
+    name: g
+    uuid: 57232d15-85bb-4134-b72b-86229ecbe712
+    traits:
+      followtrait:
+        active: false
+        followingUUID: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+        protect: false
+      skintrait:
+        fetchDefaultSkin: true
+        signature: u4/vqhmyVmyaFstG8IlJDiwRY9i8EBeHM+JY21s077V2O8/omXtz86MJnWCejXTDyXkBiktmwze1cqBwh6vRlcSyXuR1VCAZ9hJdy43D+JPdjNwFC7F+cQrychXcGYRpcg8YLJpX3S3vvR8yxKbeNJaASgKylIsziICmMfPet9KGFnUkbsFuHZTdf2BabSigPA1WuAxjq7urMIoX9im3eU43u+TihKIb0YkkZ7OiDhTXwJFPkgiDNZ6n+fzbHQhrhZj+WPs40CLC4KeQQkfU1XNL5EjJwcuOYmoDpS0bN4gMCTJR+qeKNLyPeTEZmEWQQIgoibjTu6Mx4tPb4zDLayGLb61LET9G2Vudw0cRQMMyQGRMpG7BHKMyW6xIH3b3S5l0r7XiV+eGteBu2J+tf7sBFN2iZnGMNpXahzhLUzTT5y05ruWEPX9FQGvhJKlQ7ucmpGLmWT2zq+pWsPVdUACVFFrul6qGzR9arXBbtYUrEhKA1g+ZA66MDjJul3aMv/TBBYNsVzDtrOayKfdY24EQY3IlrmtcriI0N+sMf/gX2UmRz3hxSbmdzWcfn1v3KGaHUx2Ag9p1k6V5pdC1YcJ58qJtNQ861f3cpL+kR1kAgA4kGOq3U76Ot3KZlSw9HN5Seuk2Dunq5zPtvVo3xak/1Gh+4O64iu1Z6qL6Vg0=
+        skinName: feeyne
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNTIxOTYwMjExMywKICAicHJvZmlsZUlkIiA6ICI1ZTkzODhiYTA1NzM0NDRjYTc2MWI2ZDkxNzQwNDJhZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJGZWV5bmUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjFmNzljZjNmODMwOGQ0OGRlZDVjMmUxZDVmYTU0NDZhNWM2ZDA4ZDc5NTc4ZTMxN2VlY2MyNGYwYWQwOGMzZSIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      type: PLAYER
+      location:
+        bodyYaw: 7.4900055
+        world: world
+        x: '48.5'
+        y: '65.0'
+        z: '-15.5'
+        yaw: '47.49'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '1':
+            command: is
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        owner: Al_Shebab
+        uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+    traitnames: inventory,skintrait,scoreboardtrait,mounttrait,location,lookclose,type,spawned,commandtrait,equipment,followtrait,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '7':
+    metadata:
+      cached-skin-uuid-name: obama
+      cached-skin-uuid: 873e2766-9254-49bc-89d7-5d4d585ad29d
+      nameplate-visible: 'false'
+    name: z
+    uuid: c5a79a3c-9036-49ae-aed6-3b8a756047c0
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        signature: fpodnawyD2S2vxACANIwWMH/UIOT7kUbFG4Xu7mC63Ay2DzJ1XkbrQwy9b+pqcaxno/FD5NUd0qJZsKqsM/lq/HndIBb2294LETU4BEy2bU7Nk0KsegcONhD2wU1/b0SCpTitS9XGJIUWKGpY/r5pfr6hcDK8AY8uESLVAqbQLxHe5WjJeTnqCuWbm33gtuyAYE3lMRNtE/2jpj9RII22uZi9hI/E6gvBf2UJLy+45aW+q2NfszirQKW1gh9f32iGHXcqWEDfAoIa/9bYavxAOB2EpEX1YHXB7ePTNgsUT/VbNqMcJ3/SQTbguJofh7w7MJ29+PlH4+yu9sjjCW5HpFn9nKK1MiM3j7hA8WVvIZLvLmkTGFC64BKIOtBf1Agu4DF+sq/bRqAFMRVKQCcPB4HGdOVi6dUkuM5J6Hm+P0WFCDBh2bgY3WIVEZCsOU95Tu3TvcyhIAPVSUEqUzAw2wsmAZ5rv2bNkblzw96zfy3gWgU4ddDs23wJw4detAfa0n8Mmv8yo8kmdUgS43/5RuzMKVTeoc+KbOSm/OwI+jyHTEH3fJSJvxHqpbcz3noJLHOTKaa3eV2Uzvd1L64hPdkqYcFf8lUaN7+IkcnLJLCDCHJbNMfrRY4jd3ZZsqCCSRBzDpefWwOAqBpL6nvn7yc9eaPGom/OZL5J2tjxhc=
+        skinName: obama
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNTY1NTcwNjU2OCwKICAicHJvZmlsZUlkIiA6ICI4NzNlMjc2NjkyNTQ0OWJjODlkNzVkNGQ1ODVhZDI5ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJPYmFtYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xZGMwMDMwODlkODY2NjczNGQwMmUxM2Q0YjAxNTRjODU1MzM0OWMwYmEzZjBhOTU1YWM3ODRlYWExMjU1MWQzIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      type: PLAYER
+      location:
+        bodyYaw: -17.656883
+        world: world
+        x: '26.5'
+        y: '64.0'
+        z: '-7.5'
+        yaw: '-4.4012'
+        pitch: '0.0'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: sellgui
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        owner: Al_Shebab
+        uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+    traitnames: inventory,scoreboardtrait,skintrait,mounttrait,lookclose,location,type,spawned,commandtrait,equipment,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '8':
+    metadata:
+      cached-skin-uuid-name: xxxtent
+      cached-skin-uuid: 23503795-ff8f-4bd2-818c-0ad058fdbcf4
+      nameplate-visible: 'false'
+    name: zz
+    uuid: b725ae28-6841-4374-8dc2-93ed33a72aff
+    traits:
+      type: PLAYER
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: perks
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: ccMNGSeaYky+P+Yk5+xIo94jqDgA6/4A+MQfVqNlO0G5yAFiwpqyUfBvkjCfNOYUpu6wd6QlXH7LNLJ5lnAhb9LTeMMaoszTBwdPgeqJlg+4619BeGDAVUtY0XLBCaVftRbbZzSAZYC3ivnCPcxs3xm42oBnz25wMdQvrda/uDldYxXV2Qz1pVRI4gd21ILur8DpiD3pNsdBjtIDofYvHM6/CxHKp5DT+eKvEtyAVXDYX4n6eGI3PNkBIAhG2BHHG/hFRXMLflnyS7jeO+g255V6e3x6VyS1lcRVSaHKaJ67oXSbSIOuDosmzPHrN/lQP6S2bp4YPB5UfOChGG4/R+EVtt0dQC+NW9omPSq7xJGWupAOHSqaEvfpwPl8mmTvlyBoDgu9BMerHcxGnpB2ptfJiGJgM5Slh0mHRi9q4qD6RB41cnqn/sd1A8PHVK65D1jpzzDclrRLogtxlPajMC3sunozIY7qjCJulHYfdg5oqr6dVKiNuw2uo5DADgRE38J+sgGks44kff8myWo1XwLIadWVU9p4f5+uuWUgh0PD3hOaOH3m75tn6Hnh7SNYBk3bP/LPAzGSZbSBWoVLQAnFL1lxYAchKKiz6UlY985V+spCuvGaw3TQFl6j7VhlwSjidoad2ziLwFjj1PtX1TkM8ddQNpKUVfXTohipDy0=
+        skinName: xxxtent
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNjE3MjE5NTQyNSwKICAicHJvZmlsZUlkIiA6ICIyMzUwMzc5NWZmOGY0YmQyODE4YzBhZDA1OGZkYmNmNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4eHh0ZW50IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q5NGEwMjY4ZWUyZWYyZDY4MjkwNGQxMGRmZDI4YmQ0YWNkNTJhZDQ3ZWNjMmUxZGFmODcyYmIzOGM1N2UzZGUiCiAgICB9CiAgfQp9
+        updateSkins: false
+      location:
+        bodyYaw: 131.47105
+        world: world
+        x: '42.5164'
+        y: '64.0'
+        z: '-5.5243'
+        yaw: '171.4711'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        owner: Al_Shebab
+        uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+    traitnames: inventory,skintrait,scoreboardtrait,mounttrait,location,lookclose,type,spawned,commandtrait,equipment,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '9':
+    metadata:
+      cached-skin-uuid-name: auction
+      cached-skin-uuid: a47df667-8be9-4755-bf2c-985a1fda964b
+      nameplate-visible: 'false'
+    name: auction
+    uuid: 10040249-390c-4a2b-8303-c51b52b41f35
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        signature: lqSCAtydmlTi1nSSubyVSa9PKpMatE6nunjXhPZRRJ4sn4613ru/Pt3CoCsRcsjo82ZeooHaGz1I71ikzmzVChfA5eTWJaT2fOVB7ZwmkaeIDaiezYTrjnXMRgfRNVz56cKjKaP/I2YEFD/SgbB/7Yr4GG+BtzCYAOGx019pjcBmywwglpSBy7rdz9LUvdr2f21LhlFQLYJCyOtusjpAsZsWO1HmoKBFN/Eyiu6fe085NV4J9pgcNmPTXuDQU1nk6tEVJQ9eJCwOT7yxxrpLOoo64hYqgV1OUCtOC03cJ/mxY9650LQWL1IvPVfKCc7VUuG7Bfyey7TKXhFRYRyqYWiNAQQg5Gzsnn+PcQZHEDRFaniG4j/K+4MhYq7wEgucHyv3K1CqGfLbeVrP6rA2Ghn4/vX6IJyCPBbO5ezMtCZs+YIj00IS2V940jhKPfjjcQqaYTVhNTy4ELntnF88lnQIvv563CwIhyuP3nE9SG3Sk9arAAxejehx+7ZqqQxHP5BvWvecQqFYSlj9f5m63El0TgbRxp/3NrW4XyrEG3S7tvQE62MM91Rpo3fkSPtlxQNEU/3M6KJUnkVuQSvWMhWCkF0H25wohosFhZ3JGqBY/+E6BxrAjOZBpLE5aCEogGbcgZcazxv0UEa84YRnZXM72FrsbaPTATB4qZBu638=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNjUxNjU5MTExOSwKICAicHJvZmlsZUlkIiA6ICJhNDdkZjY2NzhiZTk0NzU1YmYyYzk4NWExZmRhOTY0YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJBdWN0aW9uIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M5NTA0N2ExMjI1ZGRhYmQxYjgxMGFhZjIzNjY5NTY3OGQ0MmIxZmY4NDQ3MWM4ODMxOGMyMDRhNTU3YzdjZCIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      spawned: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        bodyYaw: 61.421036
+        world: world
+        x: '-14.5'
+        y: '64.0'
+        z: '-34.5'
+        yaw: '21.421'
+        pitch: '0.0'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '1':
+            command: zauctionhouse
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      type: PLAYER
+      owner:
+        owner: Al_Shebab
+        uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+    traitnames: inventory,skintrait,scoreboardtrait,mounttrait,lookclose,location,type,spawned,commandtrait,equipment,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

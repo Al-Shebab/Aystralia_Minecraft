@@ -1,0 +1,39 @@
+name: Feeyne_Huge_Dong
+booster:
+  multiplier: 1.0
+  time: 0
+chests:
+  '0':
+    name: default
+    location:
+      world: skyblock
+      x: 5974
+      y: 122
+      z: 1988
+    money: 1.792644053E8
+    items-sold: 9859810
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1617732706188
+  '1':
+    name: default
+    location:
+      world: skyblock
+      x: 5978
+      y: 122
+      z: 1988
+    money: 4.15402588E8
+    items-sold: 22386011
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1617732706188

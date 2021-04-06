@@ -1,0 +1,25 @@
+{
+  "homeLocations": [
+    [
+      [
+        "skyblock",
+        2000.5,
+        162.0,
+        -1999.5,
+        0.0,
+        0.0
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "362b5125-f865-4358-b10f-04e3e8beed65",
+  "playerName": "RudgieFudgie",
+  "resets": {},
+  "locale": "",
+  "deaths": {
+    "skyblock": 3
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC",
+  "metaData": {}
+}

@@ -1,0 +1,10 @@
+Enabled: true
+TimeLasts: -1
+CoolDown: 0
+Name: 'Fire Walking Effect'
+Description: 'Give yourself fire immunity for %TimeLasts% seconds.'
+Effects:
+- FireWalker
+Item:
+  Material: 'FIRE_CHARGE'
+  Data: 0

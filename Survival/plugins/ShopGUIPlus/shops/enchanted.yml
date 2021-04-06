@@ -1,0 +1,116 @@
+enchanted:
+  name: "&9&lEnchanted Books"
+  fillItem:
+    material: BLACK_STAINED_GLASS_PANE
+    name: " "
+  items:
+    1:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: "&9Efficiency V"
+        enchantments:
+          - EFFICIENCY:5
+      buyPrice: 50000
+      slot: 10
+    2:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: "&9Unbreaking III"
+        enchantments:
+          - UNBREAKING:3
+      buyPrice: 15000
+      slot: 11
+    3:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: "&9Silk Touch"
+        enchantments:
+          - SILK_TOUCH:1
+      buyPrice: 25000
+      slot: 12
+    4:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: "&9Fortune III"
+        enchantments:
+          - FORTUNE:3
+      buyPrice: 40000
+      slot: 13
+    5:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: "&9Sharpness V"
+        enchantments:
+          - SHARPNESS:5
+      buyPrice: 40000
+      slot: 14
+    6:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: "&9Protection IV"
+        enchantments:
+          - PROTECTION:4
+      buyPrice: 40000
+      slot: 15
+    7:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: "&9Knockback II"
+        enchantments:
+          - KNOCKBACK:2
+      buyPrice: 15000
+      slot: 16
+    8:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: "&9Fire Aspect II"
+        enchantments:
+          - FIRE_ASPECT:2
+      buyPrice: 25000
+      slot: 19
+    9:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: "&9Mending"
+        enchantments:
+          - MENDING:1
+      buyPrice: 50000
+      slot: 20
+    10:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: "&9Infinity"
+        enchantments:
+          - INFINITY:1
+      buyPrice: 40000
+      slot: 21
+    11:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: "&9Flame"
+        enchantments:
+          - FLAME:1
+      buyPrice: 25000
+      slot: 22

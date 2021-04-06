@@ -1,0 +1,133 @@
+# How many enchants can be on 1 item
+MaxCustomEnchants: 5
+ShardMaterial: NETHER_STAR
+
+###############################################
+# 	                Roller                    #
+###############################################
+
+# Exp cost of the roller depending on tier
+T1RollerEnchantCost: 20
+T2RollerEnchantCost: 35
+T3RollerEnchantCost: 60
+
+###############################################
+# 	               Leveler                    #
+###############################################
+
+# Exp cost of the leveler depending on tier
+T1-T2LevelerCost: 30
+T2-T3LevelerCost: 45
+
+###############################################
+# 	              Recycler                    #
+###############################################
+
+# The amount of exp the recycler gives depending on tier
+T1RecyclerGive: 10
+T2RecyclerGive: 25
+T3RecyclerGive: 35
+
+# The color of all enchants !Keep in mind of you change this you will have to reenchant all of your items!
+EnchantChatColorCode: '&3'
+
+###############################################
+#  			      ShardFinder    		      #
+###############################################
+
+#This is where you can set the chances for the shardfinder enchant.
+#There is a 1 out of whatever number chance. The lower the number you put the higher the chance.
+#EX: If you put 100 it will be a 1/100 chance.
+
+#ShardFinder Tier 1
+ShardFinder1ChanceTier1Shard: 155
+ShardFinder1ChanceTier2Shard: 200
+ShardFinder1ChanceTier3Shard: 390
+
+#ShardFinder Tier 2
+ShardFinder2ChanceTier1Shard: 120
+ShardFinder2ChanceTier2Shard: 250
+ShardFinder2ChanceTier3Shard: 350
+
+#ShardFinder Tier 3
+ShardFinder3ChanceTier1Shard: 65
+ShardFinder3ChanceTier2Shard: 190
+ShardFinder3ChanceTier3Shard: 250
+
+
+###############################################
+#  			       Expedition   		      #
+###############################################
+
+#This is where you can set exp amount given by stone from the expedition encant. low is the lowest number it can be. High is the highest I.E 1-10
+ExpeditionT1StoneExpAmountLow: 1
+ExpeditionT1StoneExpAmountHigh: 2
+
+ExpeditionT2StoneExpAmountLow: 2
+ExpeditionT2StoneExpAmountHigh: 3
+
+ExpeditionT3StoneExpAmountLow: 3
+ExpeditionT3StoneExpAmountHigh: 4
+
+
+# For the ores keep in mind this in a random number in ADDITION to how much they would have already gotten from the ore
+ExpeditionT1OresExpAmountLow: 1
+ExpeditionT1OresExpAmountHigh: 2
+
+ExpeditionT2OresExpAmountLow: 1
+ExpeditionT2OresExpAmountHigh: 4
+
+ExpeditionT3OresExpAmountLow: 1
+ExpeditionT3OresExpAmountHigh: 6
+
+###############################################
+#  			     Enchant Shards     	      #
+###############################################
+
+#Chances for a player killing a mob to drop a shard without the enchant
+ShardTier1Kill: 200
+ShardTier2Kill: 350
+ShardTier3Kill: 475
+
+#Chances for a mob to drop a shard from natural deaths/grinders
+ShardTier1Death: 350
+ShardTier2Death: 675
+ShardTier3Death: 1050
+
+###############################################
+#  	            Protection Scroll     	      #
+###############################################
+
+#Chances for a protection scroll to drop when killing a mob
+ProtectionScrollChance: 200
+
+###############################################
+#  			     Plugin Messages		      #
+###############################################
+
+PluginTag: "&6&l[&bCustomEnchants&6&l]"
+NoPerm: "&cYou do not have permission to use this feature!"
+ConsoleUse: "&cYou must be a player to use this command!"
+Unstack: "&cYou need to unstack these!"
+TooManyEnchants: "&cYou have too many enchants on this weapon!"
+EnchantAlreadyApplied: "&cThis enchant has already been applied"
+NotValidEnchant: "&cThat is not a valid enchant!"
+NotValidOrDoesNotGoUp: "&cThat is not a valid enchant or that enchant does not go to that tier!"
+
+###############################################
+#  			        Cooldowns    		      #
+###############################################
+
+#These are how long these cooldowns last in seconds.
+
+EnderShotCD: 20
+EggShooterCD: 10
+
+###############################################
+#  			         Toggles    		      #
+###############################################
+
+#Enchants obtainable through enchant table
+vaultsupport: false
+enchanttablesupport: true
+enchantshard: true

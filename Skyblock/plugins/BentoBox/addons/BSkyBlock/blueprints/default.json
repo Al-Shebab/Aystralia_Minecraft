@@ -1,0 +1,15 @@
+{
+  "uniqueId": "default",
+  "icon": "YELLOW_CONCRETE",
+  "displayName": "§eExperienced Island",
+  "description": [
+    "§eThe O.G skyblock island."
+  ],
+  "requirePermission": false,
+  "blueprints": {
+    "NORMAL": "island",
+    "NETHER": "nether-island",
+    "THE_END": "end-island"
+  },
+  "slot": 2
+}

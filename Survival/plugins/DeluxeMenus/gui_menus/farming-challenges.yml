@@ -1,0 +1,2825 @@
+    menu_title: '&b&lFarming Challenges'
+    open_command: 84&5#@53ps3#
+    size: 45
+    items:
+      'Decoration':
+        display_name: '&f'
+        material: 160
+        data: 7
+        slots:
+        - 2
+        - 4
+        - 6
+        - 10
+        - 16
+        - 18
+        - 19
+        - 25
+        - 26
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 38
+        - 42
+      'Decoration-1':
+        display_name: '&f'
+        material: 160
+        data: 7
+        slots: 
+        - 0
+        - 1
+        - 3
+        - 5
+        - 7
+        - 8
+        - 9
+        - 17
+        - 27
+        - 36
+        - 37
+        - 39
+        - 41
+        - 43
+        - 44
+      'No-A':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZjNWVjYWM5NDJjNzdiOTVhYjQ2MjBkZjViODVlMzgwNjRjOTc0ZjljNWM1NzZiODQzNjIyODA2YTQ1NTcifX19
+        display_name: '&4[*] &cNot available'
+        slots:
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24    
+      'Back':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+        slot: 40
+        display_name: '&b[*] &bBack'
+        lore: ''
+        left_click_commands:
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+        - '[openguimenu] challenges'
+        right_click_commands:
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+        - '[openguimenu] challenges'
+      'nomoreWheatlev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
+        priority: 1
+        slot: 11
+        display_name: '&b[*] &bWheat Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_59:7%'
+              output: 40000
+            Pex:
+              type: has permission
+              permission: 'challenge.Wheat.9' 
+        lore:
+        - '&8Lv 9 Wheat Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_59:7%&f/&b40000'
+        - '&8* &fLevel: &b9&f/&39' 
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &cNo more challenges availables'   
+      'completedWheatlev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
+        priority: 2
+        slot: 11
+        display_name: '&b[*] &bWheat Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_59:7%'
+              output: 40000
+            Pex:
+              type: has permission
+              permission: 'challenge.Wheat.8' 
+        lore:
+        - '&8Lv 9 Wheat Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_59:7%&f/&b40000'
+        - '&8* &fLevel: &b9&f/&39' 
+        - ''
+        - '&8* &fReward: &d80000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b80000 ⛁&f.'
+        - '[console] eco give %player_name% 80000'
+        - '[console] pex user %player_name% add challenge.Wheat.9'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b80000 ⛁&f.'
+        - '[console] eco give %player_name% 80000'
+        - '[console] pex user %player_name% add challenge.Wheat.9'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressWheatlev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
+        priority: 3
+        slot: 11
+        display_name: '&b[*] &bWheat Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_59:7%'
+              output: 20000
+            Pex:
+              type: has permission
+              permission: 'challenge.Wheat.8' 
+        lore:
+        - '&8Lv 9 Wheat Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_59:7%&f/&b40000'
+        - '&8* &fLevel: &b9&f/&39'
+        - ''
+        - '&8* &fReward: &d80000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedWheatlev8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
+        priority: 4
+        slot: 11
+        display_name: '&b[*] &bWheat Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_59:7%'
+              output: 20000
+            Pex:
+              type: has permission
+              permission: 'challenge.Wheat.8' 
+        lore:
+        - '&8Lv 8 Wheat Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_59:7%&f/&b20000'
+        - '&8* &fLevel: &b8&f/&39' 
+        - ''
+        - '&8* &fReward: &d40000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b40000 ⛁&f.'
+        - '[console] eco give %player_name% 40000'
+        - '[console] pex user %player_name% add challenge.Wheat.9'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b40000 ⛁&f.'
+        - '[console] eco give %player_name% 40000'
+        - '[console] pex user %player_name% add challenge.Wheat.9'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressWheatlev8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
+        priority: 5
+        slot: 11
+        display_name: '&b[*] &bWheat Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_59:7%'
+              output: 10000
+            Pex:
+              type: has permission
+              permission: 'challenge.Wheat.8' 
+        lore:
+        - '&8Lv 8 Wheat Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_59:7%&f/&b20000'
+        - '&8* &fLevel: &b8&f/&39'
+        - ''
+        - '&8* &fReward: &d40000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedWheatlev7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
+        priority: 6
+        slot: 11
+        display_name: '&b[*] &bWheat Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_59:7%'
+              output: 10000
+            Pex:
+              type: has permission
+              permission: 'challenge.Wheat.7' 
+        lore:
+        - '&8Lv 7 Wheat Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_59:7%&f/&b10000'
+        - '&8* &fLevel: &b7&f/&39' 
+        - ''
+        - '&8* &fReward: &d20000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b20000 ⛁&f.'
+        - '[console] eco give %player_name% 20000'
+        - '[console] pex user %player_name% add challenge.Wheat.8'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b20000 ⛁&f.'
+        - '[console] eco give %player_name% 20000'
+        - '[console] pex user %player_name% add challenge.Wheat.8'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressWheatlev7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
+        priority: 7
+        slot: 11
+        display_name: '&b[*] &bWheat Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_59:7%'
+              output: 5000
+            Pex:
+              type: has permission
+              permission: 'challenge.Wheat.7' 
+        lore:
+        - '&8Lv 7 Wheat Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_59:7%&f/&b10000'
+        - '&8* &fLevel: &b7&f/&39'
+        - ''
+        - '&8* &fReward: &d20000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedWheatlev6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
+        priority: 8
+        slot: 11
+        display_name: '&b[*] &bWheat Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_59:7%'
+              output: 5000
+            Pex:
+              type: has permission
+              permission: 'challenge.Wheat.6' 
+        lore:
+        - '&8Lv 6 Wheat Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_59:7%&f/&b5000'
+        - '&8* &fLevel: &b6&f/&39' 
+        - ''
+        - '&8* &fReward: &d10000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b10000 ⛁&f.'
+        - '[console] eco give %player_name% 10000'
+        - '[console] pex user %player_name% add challenge.Wheat.7'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b10000 ⛁&f.'
+        - '[console] eco give %player_name% 10000'
+        - '[console] pex user %player_name% add challenge.Wheat.7'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressWheatlev6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
+        priority: 9
+        slot: 11
+        display_name: '&b[*] &bWheat Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_59:7%'
+              output: 2000
+            Pex:
+              type: has permission
+              permission: 'challenge.Wheat.6' 
+        lore:
+        - '&8Lv 6 Wheat Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_59:7%&f/&b5000'
+        - '&8* &fLevel: &b6&f/&39'
+        - ''
+        - '&8* &fReward: &d10000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedWheatlev5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
+        priority: 10
+        slot: 11
+        display_name: '&b[*] &bWheat Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_59:7%'
+              output: 2000
+            Pex:
+              type: has permission
+              permission: 'challenge.Wheat.5' 
+        lore:
+        - '&8Lv 5 Wheat Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_59:7%&f/&b2000'
+        - '&8* &fLevel: &b5&f/&39' 
+        - ''
+        - '&8* &fReward: &d4000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b4000 ⛁&f.'
+        - '[console] eco give %player_name% 4000'
+        - '[console] pex user %player_name% add challenge.Wheat.6'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b4000 ⛁&f.'
+        - '[console] eco give %player_name% 4000'
+        - '[console] pex user %player_name% add challenge.Wheat.6'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressWheatlev5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
+        priority: 11
+        slot: 11
+        display_name: '&b[*] &bWheat Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_59:7%'
+              output: 1000
+            Pex:
+              type: has permission
+              permission: 'challenge.Wheat.5' 
+        lore:
+        - '&8Lv 5 Wheat Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_59:7%&f/&b2000'
+        - '&8* &fLevel: &b5&f/&39'
+        - ''
+        - '&8* &fReward: &d4000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedWheatlev4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
+        priority: 12
+        slot: 11
+        display_name: '&b[*] &bWheat Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_59:7%'
+              output: 1000
+            Pex:
+              type: has permission
+              permission: 'challenge.Wheat.4' 
+        lore:
+        - '&8Lv 4 Wheat Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_59:7%&f/&b1000'
+        - '&8* &fLevel: &b4&f/&39' 
+        - ''
+        - '&8* &fReward: &d2500 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b2500 ⛁&f.'
+        - '[console] eco give %player_name% 2500'
+        - '[console] pex user %player_name% add challenge.Wheat.5'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b2500 ⛁&f.'
+        - '[console] eco give %player_name% 2500'
+        - '[console] pex user %player_name% add challenge.Wheat.5'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressWheatlev4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
+        priority: 13
+        slot: 11
+        display_name: '&b[*] &bWheat Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_59:7%'
+              output: 500
+            Pex:
+              type: has permission
+              permission: 'challenge.Wheat.4' 
+        lore:
+        - '&8Lv 4 Wheat Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_59:7%&f/&b1000'
+        - '&8* &fLevel: &b4&f/&39'
+        - ''
+        - '&8* &fReward: &d2500 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedWheatlev3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
+        priority: 14
+        slot: 11
+        display_name: '&b[*] &bWheat Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_59:7%'
+              output: 500
+            Pex:
+              type: has permission
+              permission: 'challenge.Wheat.3' 
+        lore:
+        - '&8Lv 3 Wheat Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_59:7%&f/&b500'
+        - '&8* &fLevel: &b3&f/&39' 
+        - ''
+        - '&8* &fReward: &d1500 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b1500 ⛁&f.'
+        - '[console] eco give %player_name% 1500'
+        - '[console] pex user %player_name% add challenge.Wheat.4'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b1500 ⛁&f.'
+        - '[console] eco give %player_name% 1500'
+        - '[console] pex user %player_name% add challenge.Wheat.4'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressWheatlev3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
+        priority: 15
+        slot: 11
+        display_name: '&b[*] &bWheat Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_59:7%'
+              output: 250
+            Pex:
+              type: has permission
+              permission: 'challenge.Wheat.3' 
+        lore:
+        - '&8Lv 3 Wheat Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_59:7%&f/&b500'
+        - '&8* &fLevel: &b3&f/&39'
+        - ''
+        - '&8* &fReward: &d1500 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedWheatlev2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
+        priority: 16
+        slot: 11
+        display_name: '&b[*] &bWheat Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_59:7%'
+              output: 250
+            Pex:
+              type: has permission
+              permission: 'challenge.Wheat.2' 
+        lore:
+        - '&8Lv 2 Wheat Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_59:7%&f/&b250'
+        - '&8* &fLevel: &b2&f/&39' 
+        - ''
+        - '&8* &fReward: &d800 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b800 ⛁&f.'
+        - '[console] eco give %player_name% 800'
+        - '[console] pex user %player_name% add challenge.Wheat.3'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b800 ⛁&f.'
+        - '[console] eco give %player_name% 800'
+        - '[console] pex user %player_name% add challenge.Wheat.3'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressWheatlev2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
+        priority: 17
+        slot: 11
+        display_name: '&b[*] &bWheat Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_59:7%'
+              output: 100
+            Pex:
+              type: has permission
+              permission: 'challenge.Wheat.2' 
+        lore:
+        - '&8Lv 2 Wheat Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_59:7%&f/&b250'
+        - '&8* &fLevel: &b2&f/&39'
+        - ''
+        - '&8* &fReward: &d800 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedWheatlev1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
+        priority: 18
+        slot: 11
+        display_name: '&b[*] &bWheat Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_59:7%'
+              output: 100
+        lore:
+        - '&8Lv 1 Wheat Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_59:7%&f/&b100'
+        - '&8* &fLevel: &b1&f/&39' 
+        - ''
+        - '&8* &fReward: &d300 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b300 ⛁&f.'
+        - '[console] eco give %player_name% 300'
+        - '[console] pex user %player_name% add challenge.Wheat.2'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b300 ⛁&f.'
+        - '[console] eco give %player_name% 300'
+        - '[console] pex user %player_name% add challenge.Wheat.2'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressWheatlev1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4ZmZkNGMzZDczZjMyZDM5ZWFkZTMxMDU1NjE1MGJhNDkwZTBkOTM0ZWM0YTY5MjNjOWViYmFiYmI5YzI0NiJ9fX0=
+        priority: 19
+        slot: 11
+        display_name: '&b[*] &bWheat Challenge'
+        lore:
+        - '&8Lv 1 Wheat Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_59:7%&f/&b100'
+        - '&8* &fLevel: &b1&f/&39'
+        - ''
+        - '&8* &fReward: &d300 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''  
+      'nomoreCarrotslev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
+        priority: 1
+        slot: 12
+        display_name: '&b[*] &bCarrots Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_141:7%'
+              output: 40000
+            Pex:
+              type: has permission
+              permission: 'challenge.Carrot.9' 
+        lore:
+        - '&8Lv 9 Carrots Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_141:7%&f/&b40000'
+        - '&8* &fLevel: &b9&f/&39' 
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &cNo more challenges availables'   
+      'completedCarrotslev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
+        priority: 2
+        slot: 12
+        display_name: '&b[*] &bCarrots Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_141:7%'
+              output: 40000
+            Pex:
+              type: has permission
+              permission: 'challenge.Carrot.8' 
+        lore:
+        - '&8Lv 9 Carrots Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_141:7%&f/&b40000'
+        - '&8* &fLevel: &b9&f/&39' 
+        - ''
+        - '&8* &fReward: &d80000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b80000 ⛁&f.'
+        - '[console] eco give %player_name% 80000'
+        - '[console] pex user %player_name% add challenge.Carrot.9'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b80000 ⛁&f.'
+        - '[console] eco give %player_name% 80000'
+        - '[console] pex user %player_name% add challenge.Carrot.9'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressCarrotslev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
+        priority: 3
+        slot: 12
+        display_name: '&b[*] &bCarrots Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_141:7%'
+              output: 20000
+            Pex:
+              type: has permission
+              permission: 'challenge.Carrot.8' 
+        lore:
+        - '&8Lv 9 Carrots Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_141:7%&f/&b40000'
+        - '&8* &fLevel: &b9&f/&39'
+        - ''
+        - '&8* &fReward: &d80000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedCarrotslev8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
+        priority: 4
+        slot: 12
+        display_name: '&b[*] &bCarrots Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_141:7%'
+              output: 20000
+            Pex:
+              type: has permission
+              permission: 'challenge.Carrot.8' 
+        lore:
+        - '&8Lv 8 Carrots Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_141:7%&f/&b20000'
+        - '&8* &fLevel: &b8&f/&39' 
+        - ''
+        - '&8* &fReward: &d40000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b40000 ⛁&f.'
+        - '[console] eco give %player_name% 40000'
+        - '[console] pex user %player_name% add challenge.Carrot.9'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b40000 ⛁&f.'
+        - '[console] eco give %player_name% 40000'
+        - '[console] pex user %player_name% add challenge.Carrot.9'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressCarrotslev8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
+        priority: 5
+        slot: 12
+        display_name: '&b[*] &bCarrots Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_141:7%'
+              output: 10000
+            Pex:
+              type: has permission
+              permission: 'challenge.Carrot.8' 
+        lore:
+        - '&8Lv 8 Carrots Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_141:7%&f/&b20000'
+        - '&8* &fLevel: &b8&f/&39'
+        - ''
+        - '&8* &fReward: &d40000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedCarrotslev7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
+        priority: 6
+        slot: 12
+        display_name: '&b[*] &bCarrots Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_141:7%'
+              output: 10000
+            Pex:
+              type: has permission
+              permission: 'challenge.Carrot.7' 
+        lore:
+        - '&8Lv 7 Carrots Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_141:7%&f/&b10000'
+        - '&8* &fLevel: &b7&f/&39' 
+        - ''
+        - '&8* &fReward: &d20000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b20000 ⛁&f.'
+        - '[console] eco give %player_name% 20000'
+        - '[console] pex user %player_name% add challenge.Carrot.8'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b20000 ⛁&f.'
+        - '[console] eco give %player_name% 20000'
+        - '[console] pex user %player_name% add challenge.Carrot.8'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressCarrotslev7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
+        priority: 7
+        slot: 12
+        display_name: '&b[*] &bCarrots Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_141:7%'
+              output: 5000
+            Pex:
+              type: has permission
+              permission: 'challenge.Carrot.7' 
+        lore:
+        - '&8Lv 7 Carrots Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_141:7%&f/&b10000'
+        - '&8* &fLevel: &b7&f/&39'
+        - ''
+        - '&8* &fReward: &d20000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedCarrotslev6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
+        priority: 8
+        slot: 12
+        display_name: '&b[*] &bCarrots Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_141:7%'
+              output: 5000
+            Pex:
+              type: has permission
+              permission: 'challenge.Carrot.6' 
+        lore:
+        - '&8Lv 6 Carrots Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_141:7%&f/&b5000'
+        - '&8* &fLevel: &b6&f/&39' 
+        - ''
+        - '&8* &fReward: &d10000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b10000 ⛁&f.'
+        - '[console] eco give %player_name% 10000'
+        - '[console] pex user %player_name% add challenge.Carrot.7'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b10000 ⛁&f.'
+        - '[console] eco give %player_name% 10000'
+        - '[console] pex user %player_name% add challenge.Carrot.7'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressCarrotslev6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
+        priority: 9
+        slot: 12
+        display_name: '&b[*] &bCarrots Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_141:7%'
+              output: 2000
+            Pex:
+              type: has permission
+              permission: 'challenge.Carrot.6' 
+        lore:
+        - '&8Lv 6 Carrots Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_141:7%&f/&b5000'
+        - '&8* &fLevel: &b6&f/&39'
+        - ''
+        - '&8* &fReward: &d10000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedCarrotslev5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
+        priority: 10
+        slot: 12
+        display_name: '&b[*] &bCarrots Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_141:7%'
+              output: 2000
+            Pex:
+              type: has permission
+              permission: 'challenge.Carrot.5' 
+        lore:
+        - '&8Lv 5 Carrots Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_141:7%&f/&b2000'
+        - '&8* &fLevel: &b5&f/&39' 
+        - ''
+        - '&8* &fReward: &d4000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b4000 ⛁&f.'
+        - '[console] eco give %player_name% 4000'
+        - '[console] pex user %player_name% add challenge.Carrot.6'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b4000 ⛁&f.'
+        - '[console] eco give %player_name% 4000'
+        - '[console] pex user %player_name% add challenge.Carrot.6'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressCarrotslev5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
+        priority: 11
+        slot: 12
+        display_name: '&b[*] &bCarrots Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_141:7%'
+              output: 1000
+            Pex:
+              type: has permission
+              permission: 'challenge.Carrot.5' 
+        lore:
+        - '&8Lv 5 Carrots Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_141:7%&f/&b2000'
+        - '&8* &fLevel: &b5&f/&39'
+        - ''
+        - '&8* &fReward: &d4000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedCarrotslev4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
+        priority: 12
+        slot: 12
+        display_name: '&b[*] &bCarrots Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_141:7%'
+              output: 1000
+            Pex:
+              type: has permission
+              permission: 'challenge.Carrot.4' 
+        lore:
+        - '&8Lv 4 Carrots Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_141:7%&f/&b1000'
+        - '&8* &fLevel: &b4&f/&39' 
+        - ''
+        - '&8* &fReward: &d2500 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b2500 ⛁&f.'
+        - '[console] eco give %player_name% 2500'
+        - '[console] pex user %player_name% add challenge.Carrot.5'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b2500 ⛁&f.'
+        - '[console] eco give %player_name% 2500'
+        - '[console] pex user %player_name% add challenge.Carrot.5'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressCarrotslev4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
+        priority: 13
+        slot: 12
+        display_name: '&b[*] &bCarrots Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_141:7%'
+              output: 500
+            Pex:
+              type: has permission
+              permission: 'challenge.Carrot.4' 
+        lore:
+        - '&8Lv 4 Carrots Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_141:7%&f/&b1000'
+        - '&8* &fLevel: &b4&f/&39'
+        - ''
+        - '&8* &fReward: &d2500 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedCarrotslev3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
+        priority: 14
+        slot: 12
+        display_name: '&b[*] &bCarrots Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_141:7%'
+              output: 500
+            Pex:
+              type: has permission
+              permission: 'challenge.Carrot.3' 
+        lore:
+        - '&8Lv 3 Carrots Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_141:7%&f/&b500'
+        - '&8* &fLevel: &b3&f/&39' 
+        - ''
+        - '&8* &fReward: &d1500 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b1500 ⛁&f.'
+        - '[console] eco give %player_name% 1500'
+        - '[console] pex user %player_name% add challenge.Carrot.4'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b1500 ⛁&f.'
+        - '[console] eco give %player_name% 1500'
+        - '[console] pex user %player_name% add challenge.Carrot.4'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressCarrotslev3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
+        priority: 15
+        slot: 12
+        display_name: '&b[*] &bCarrots Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_141:7%'
+              output: 250
+            Pex:
+              type: has permission
+              permission: 'challenge.Carrot.3' 
+        lore:
+        - '&8Lv 3 Carrots Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_141:7%&f/&b500'
+        - '&8* &fLevel: &b3&f/&39'
+        - ''
+        - '&8* &fReward: &d1500 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedCarrotslev2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
+        priority: 16
+        slot: 12
+        display_name: '&b[*] &bCarrots Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_141:7%'
+              output: 250
+            Pex:
+              type: has permission
+              permission: 'challenge.Carrot.2' 
+        lore:
+        - '&8Lv 2 Carrots Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_141:7%&f/&b250'
+        - '&8* &fLevel: &b2&f/&39' 
+        - ''
+        - '&8* &fReward: &d800 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b800 ⛁&f.'
+        - '[console] eco give %player_name% 800'
+        - '[console] pex user %player_name% add challenge.Carrot.3'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b800 ⛁&f.'
+        - '[console] eco give %player_name% 800'
+        - '[console] pex user %player_name% add challenge.Carrot.3'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressCarrotslev2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
+        priority: 17
+        slot: 12
+        display_name: '&b[*] &bCarrots Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_141:7%'
+              output: 100
+            Pex:
+              type: has permission
+              permission: 'challenge.Carrot.2' 
+        lore:
+        - '&8Lv 2 Carrots Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_141:7%&f/&b250'
+        - '&8* &fLevel: &b2&f/&39'
+        - ''
+        - '&8* &fReward: &d800 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedCarrotslev1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
+        priority: 18
+        slot: 12
+        display_name: '&b[*] &bCarrots Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_141:7%'
+              output: 100
+        lore:
+        - '&8Lv 1 Carrots Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_141:7%&f/&b100'
+        - '&8* &fLevel: &b1&f/&39' 
+        - ''
+        - '&8* &fReward: &d300 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b300 ⛁&f.'
+        - '[console] eco give %player_name% 300'
+        - '[console] pex user %player_name% add challenge.Carrot.2'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b300 ⛁&f.'
+        - '[console] eco give %player_name% 300'
+        - '[console] pex user %player_name% add challenge.Carrot.2'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressCarrotslev1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGEyMzM4OTEzZTYwOGEzOWUyMDA2ZjY0NmExZTdjODY3MTBhY2NiZTM4MWU2NGUyMjY3OGYzYmZhOTIzMWI5YiJ9fX0=
+        priority: 19
+        slot: 12
+        display_name: '&b[*] &bCarrots Challenge'
+        lore:
+        - '&8Lv 1 Carrots Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_141:7%&f/&b100'
+        - '&8* &fLevel: &b1&f/&39'
+        - ''
+        - '&8* &fReward: &d300 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''  
+      'nomorePotatoeslev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
+        priority: 1
+        slot: 13
+        display_name: '&b[*] &bPotatoes Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_142:7%'
+              output: 40000
+            Pex:
+              type: has permission
+              permission: 'challenge.Potatoes.9' 
+        lore:
+        - '&8Lv 9 Potatoes Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_142:7%&f/&b40000'
+        - '&8* &fLevel: &b9&f/&39' 
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &cNo more challenges availables'   
+      'completedPotatoeslev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
+        priority: 2
+        slot: 13
+        display_name: '&b[*] &bPotatoes Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_142:7%'
+              output: 40000
+            Pex:
+              type: has permission
+              permission: 'challenge.Potatoes.8' 
+        lore:
+        - '&8Lv 9 Potatoes Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_142:7%&f/&b40000'
+        - '&8* &fLevel: &b9&f/&39' 
+        - ''
+        - '&8* &fReward: &d80000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b80000 ⛁&f.'
+        - '[console] eco give %player_name% 80000'
+        - '[console] pex user %player_name% add challenge.Potatoes.9'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b80000 ⛁&f.'
+        - '[console] eco give %player_name% 80000'
+        - '[console] pex user %player_name% add challenge.Potatoes.9'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressPotatoeslev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
+        priority: 3
+        slot: 13
+        display_name: '&b[*] &bPotatoes Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_142:7%'
+              output: 20000
+            Pex:
+              type: has permission
+              permission: 'challenge.Potatoes.8' 
+        lore:
+        - '&8Lv 9 Potatoes Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_142:7%&f/&b40000'
+        - '&8* &fLevel: &b9&f/&39'
+        - ''
+        - '&8* &fReward: &d80000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedPotatoeslev8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
+        priority: 4
+        slot: 13
+        display_name: '&b[*] &bPotatoes Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_142:7%'
+              output: 20000
+            Pex:
+              type: has permission
+              permission: 'challenge.Potatoes.8' 
+        lore:
+        - '&8Lv 8 Potatoes Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_142:7%&f/&b20000'
+        - '&8* &fLevel: &b8&f/&39' 
+        - ''
+        - '&8* &fReward: &d40000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b40000 ⛁&f.'
+        - '[console] eco give %player_name% 40000'
+        - '[console] pex user %player_name% add challenge.Potatoes.9'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b40000 ⛁&f.'
+        - '[console] eco give %player_name% 40000'
+        - '[console] pex user %player_name% add challenge.Potatoes.9'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressPotatoeslev8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
+        priority: 5
+        slot: 13
+        display_name: '&b[*] &bPotatoes Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_142:7%'
+              output: 10000
+            Pex:
+              type: has permission
+              permission: 'challenge.Potatoes.8' 
+        lore:
+        - '&8Lv 8 Potatoes Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_142:7%&f/&b20000'
+        - '&8* &fLevel: &b8&f/&39'
+        - ''
+        - '&8* &fReward: &d40000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedPotatoeslev7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
+        priority: 6
+        slot: 13
+        display_name: '&b[*] &bPotatoes Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_142:7%'
+              output: 10000
+            Pex:
+              type: has permission
+              permission: 'challenge.Potatoes.7' 
+        lore:
+        - '&8Lv 7 Potatoes Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_142:7%&f/&b10000'
+        - '&8* &fLevel: &b7&f/&39' 
+        - ''
+        - '&8* &fReward: &d20000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b20000 ⛁&f.'
+        - '[console] eco give %player_name% 20000'
+        - '[console] pex user %player_name% add challenge.Potatoes.8'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b20000 ⛁&f.'
+        - '[console] eco give %player_name% 20000'
+        - '[console] pex user %player_name% add challenge.Potatoes.8'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressPotatoeslev7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
+        priority: 7
+        slot: 13
+        display_name: '&b[*] &bPotatoes Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_142:7%'
+              output: 5000
+            Pex:
+              type: has permission
+              permission: 'challenge.Potatoes.7' 
+        lore:
+        - '&8Lv 7 Potatoes Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_142:7%&f/&b10000'
+        - '&8* &fLevel: &b7&f/&39'
+        - ''
+        - '&8* &fReward: &d20000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedPotatoeslev6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
+        priority: 8
+        slot: 13
+        display_name: '&b[*] &bPotatoes Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_142:7%'
+              output: 5000
+            Pex:
+              type: has permission
+              permission: 'challenge.Potatoes.6' 
+        lore:
+        - '&8Lv 6 Potatoes Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_142:7%&f/&b5000'
+        - '&8* &fLevel: &b6&f/&39' 
+        - ''
+        - '&8* &fReward: &d10000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b10000 ⛁&f.'
+        - '[console] eco give %player_name% 10000'
+        - '[console] pex user %player_name% add challenge.Potatoes.7'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b10000 ⛁&f.'
+        - '[console] eco give %player_name% 10000'
+        - '[console] pex user %player_name% add challenge.Potatoes.7'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressPotatoeslev6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
+        priority: 9
+        slot: 13
+        display_name: '&b[*] &bPotatoes Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_142:7%'
+              output: 2000
+            Pex:
+              type: has permission
+              permission: 'challenge.Potatoes.6' 
+        lore:
+        - '&8Lv 6 Potatoes Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_142:7%&f/&b5000'
+        - '&8* &fLevel: &b6&f/&39'
+        - ''
+        - '&8* &fReward: &d10000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedPotatoeslev5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
+        priority: 10
+        slot: 13
+        display_name: '&b[*] &bPotatoes Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_142:7%'
+              output: 2000
+            Pex:
+              type: has permission
+              permission: 'challenge.Potatoes.5' 
+        lore:
+        - '&8Lv 5 Potatoes Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_142:7%&f/&b2000'
+        - '&8* &fLevel: &b5&f/&39' 
+        - ''
+        - '&8* &fReward: &d4000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b4000 ⛁&f.'
+        - '[console] eco give %player_name% 4000'
+        - '[console] pex user %player_name% add challenge.Potatoes.6'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b4000 ⛁&f.'
+        - '[console] eco give %player_name% 4000'
+        - '[console] pex user %player_name% add challenge.Potatoes.6'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressPotatoeslev5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
+        priority: 11
+        slot: 13
+        display_name: '&b[*] &bPotatoes Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_142:7%'
+              output: 1000
+            Pex:
+              type: has permission
+              permission: 'challenge.Potatoes.5' 
+        lore:
+        - '&8Lv 5 Potatoes Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_142:7%&f/&b2000'
+        - '&8* &fLevel: &b5&f/&39'
+        - ''
+        - '&8* &fReward: &d4000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedPotatoeslev4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
+        priority: 12
+        slot: 13
+        display_name: '&b[*] &bPotatoes Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_142:7%'
+              output: 1000
+            Pex:
+              type: has permission
+              permission: 'challenge.Potatoes.4' 
+        lore:
+        - '&8Lv 4 Potatoes Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_142:7%&f/&b1000'
+        - '&8* &fLevel: &b4&f/&39' 
+        - ''
+        - '&8* &fReward: &d2500 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b2500 ⛁&f.'
+        - '[console] eco give %player_name% 2500'
+        - '[console] pex user %player_name% add challenge.Potatoes.5'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b2500 ⛁&f.'
+        - '[console] eco give %player_name% 2500'
+        - '[console] pex user %player_name% add challenge.Potatoes.5'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressPotatoeslev4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
+        priority: 13
+        slot: 13
+        display_name: '&b[*] &bPotatoes Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_142:7%'
+              output: 500
+            Pex:
+              type: has permission
+              permission: 'challenge.Potatoes.4' 
+        lore:
+        - '&8Lv 4 Potatoes Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_142:7%&f/&b1000'
+        - '&8* &fLevel: &b4&f/&39'
+        - ''
+        - '&8* &fReward: &d2500 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedPotatoeslev3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
+        priority: 14
+        slot: 13
+        display_name: '&b[*] &bPotatoes Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_142:7%'
+              output: 500
+            Pex:
+              type: has permission
+              permission: 'challenge.Potatoes.3' 
+        lore:
+        - '&8Lv 3 Potatoes Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_142:7%&f/&b500'
+        - '&8* &fLevel: &b3&f/&39' 
+        - ''
+        - '&8* &fReward: &d1500 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b1500 ⛁&f.'
+        - '[console] eco give %player_name% 1500'
+        - '[console] pex user %player_name% add challenge.Potatoes.4'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b1500 ⛁&f.'
+        - '[console] eco give %player_name% 1500'
+        - '[console] pex user %player_name% add challenge.Potatoes.4'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressPotatoeslev3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
+        priority: 15
+        slot: 13
+        display_name: '&b[*] &bPotatoes Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_142:7%'
+              output: 250
+            Pex:
+              type: has permission
+              permission: 'challenge.Potatoes.3' 
+        lore:
+        - '&8Lv 3 Potatoes Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_142:7%&f/&b500'
+        - '&8* &fLevel: &b3&f/&39'
+        - ''
+        - '&8* &fReward: &d1500 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedPotatoeslev2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
+        priority: 16
+        slot: 13
+        display_name: '&b[*] &bPotatoes Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_142:7%'
+              output: 250
+            Pex:
+              type: has permission
+              permission: 'challenge.Potatoes.2' 
+        lore:
+        - '&8Lv 2 Potatoes Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_142:7%&f/&b250'
+        - '&8* &fLevel: &b2&f/&39' 
+        - ''
+        - '&8* &fReward: &d800 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b800 ⛁&f.'
+        - '[console] eco give %player_name% 800'
+        - '[console] pex user %player_name% add challenge.Potatoes.3'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b800 ⛁&f.'
+        - '[console] eco give %player_name% 800'
+        - '[console] pex user %player_name% add challenge.Potatoes.3'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressPotatoeslev2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
+        priority: 17
+        slot: 13
+        display_name: '&b[*] &bPotatoes Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_142:7%'
+              output: 100
+            Pex:
+              type: has permission
+              permission: 'challenge.Potatoes.2' 
+        lore:
+        - '&8Lv 2 Potatoes Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_142:7%&f/&b250'
+        - '&8* &fLevel: &b2&f/&39'
+        - ''
+        - '&8* &fReward: &d800 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedPotatoeslev1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
+        priority: 18
+        slot: 13
+        display_name: '&b[*] &bPotatoes Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statz_blocks_broken_142:7%'
+              output: 100
+        lore:
+        - '&8Lv 1 Potatoes Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_142:7%&f/&b100'
+        - '&8* &fLevel: &b1&f/&39' 
+        - ''
+        - '&8* &fReward: &d300 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b300 ⛁&f.'
+        - '[console] eco give %player_name% 300'
+        - '[console] pex user %player_name% add challenge.Potatoes.2'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b300 ⛁&f.'
+        - '[console] eco give %player_name% 300'
+        - '[console] pex user %player_name% add challenge.Potatoes.2'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressPotatoeslev1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZlYzI5M2RiNWZhODVlMjdiNjc1ZmJkYmE4OGY4NzFlZGVmMzk1NzM0YjVkOWUzMjdlYWRhNmJlMzgxNDM0MCJ9fX0=
+        priority: 19
+        slot: 13
+        display_name: '&b[*] &bPotatoes Challenge'
+        lore:
+        - '&8Lv 1 Potatoes Challenge'
+        - ''
+        - '&8* &fProgress: &b%statz_blocks_broken_142:7%&f/&b100'
+        - '&8* &fLevel: &b1&f/&39'
+        - ''
+        - '&8* &fReward: &d300 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''  
+      'nomoreMelonlev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
+        priority: 1
+        slot: 14
+        display_name: '&b[*] &bMelon Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:melon_block%'
+              output: 40000
+            Pex:
+              type: has permission
+              permission: 'challenge.Melon.9' 
+        lore:
+        - '&8Lv 9 Melon Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:melon_block%&f/&b40000'
+        - '&8* &fLevel: &b9&f/&39' 
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &cNo more challenges availables'   
+      'completedMelonlev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
+        priority: 2
+        slot: 14
+        display_name: '&b[*] &bMelon Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:melon_block%'
+              output: 40000
+            Pex:
+              type: has permission
+              permission: 'challenge.Melon.8' 
+        lore:
+        - '&8Lv 9 Melon Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:melon_block%&f/&b40000'
+        - '&8* &fLevel: &b9&f/&39' 
+        - ''
+        - '&8* &fReward: &d80000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b80000 ⛁&f.'
+        - '[console] eco give %player_name% 80000'
+        - '[console] pex user %player_name% add challenge.Melon.9'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b80000 ⛁&f.'
+        - '[console] eco give %player_name% 80000'
+        - '[console] pex user %player_name% add challenge.Melon.9'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressMelonlev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
+        priority: 3
+        slot: 14
+        display_name: '&b[*] &bMelon Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:melon_block%'
+              output: 20000
+            Pex:
+              type: has permission
+              permission: 'challenge.Melon.8' 
+        lore:
+        - '&8Lv 9 Melon Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:melon_block%&f/&b40000'
+        - '&8* &fLevel: &b9&f/&39'
+        - ''
+        - '&8* &fReward: &d80000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedMelonlev8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
+        priority: 4
+        slot: 14
+        display_name: '&b[*] &bMelon Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:melon_block%'
+              output: 20000
+            Pex:
+              type: has permission
+              permission: 'challenge.Melon.8' 
+        lore:
+        - '&8Lv 8 Melon Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:melon_block%&f/&b20000'
+        - '&8* &fLevel: &b8&f/&39' 
+        - ''
+        - '&8* &fReward: &d40000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b40000 ⛁&f.'
+        - '[console] eco give %player_name% 40000'
+        - '[console] pex user %player_name% add challenge.Melon.9'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b40000 ⛁&f.'
+        - '[console] eco give %player_name% 40000'
+        - '[console] pex user %player_name% add challenge.Melon.9'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressMelonlev8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
+        priority: 5
+        slot: 14
+        display_name: '&b[*] &bMelon Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:melon_block%'
+              output: 10000
+            Pex:
+              type: has permission
+              permission: 'challenge.Melon.8' 
+        lore:
+        - '&8Lv 8 Melon Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:melon_block%&f/&b20000'
+        - '&8* &fLevel: &b8&f/&39'
+        - ''
+        - '&8* &fReward: &d40000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedMelonlev7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
+        priority: 6
+        slot: 14
+        display_name: '&b[*] &bMelon Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:melon_block%'
+              output: 10000
+            Pex:
+              type: has permission
+              permission: 'challenge.Melon.7' 
+        lore:
+        - '&8Lv 7 Melon Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:melon_block%&f/&b10000'
+        - '&8* &fLevel: &b7&f/&39' 
+        - ''
+        - '&8* &fReward: &d20000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b20000 ⛁&f.'
+        - '[console] eco give %player_name% 20000'
+        - '[console] pex user %player_name% add challenge.Melon.8'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b20000 ⛁&f.'
+        - '[console] eco give %player_name% 20000'
+        - '[console] pex user %player_name% add challenge.Melon.8'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressMelonlev7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
+        priority: 7
+        slot: 14
+        display_name: '&b[*] &bMelon Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:melon_block%'
+              output: 5000
+            Pex:
+              type: has permission
+              permission: 'challenge.Melon.7' 
+        lore:
+        - '&8Lv 7 Melon Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:melon_block%&f/&b10000'
+        - '&8* &fLevel: &b7&f/&39'
+        - ''
+        - '&8* &fReward: &d20000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedMelonlev6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
+        priority: 8
+        slot: 14
+        display_name: '&b[*] &bMelon Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:melon_block%'
+              output: 5000
+            Pex:
+              type: has permission
+              permission: 'challenge.Melon.6' 
+        lore:
+        - '&8Lv 6 Melon Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:melon_block%&f/&b5000'
+        - '&8* &fLevel: &b6&f/&39' 
+        - ''
+        - '&8* &fReward: &d10000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b10000 ⛁&f.'
+        - '[console] eco give %player_name% 10000'
+        - '[console] pex user %player_name% add challenge.Melon.7'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b10000 ⛁&f.'
+        - '[console] eco give %player_name% 10000'
+        - '[console] pex user %player_name% add challenge.Melon.7'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressMelonlev6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
+        priority: 9
+        slot: 14
+        display_name: '&b[*] &bMelon Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:melon_block%'
+              output: 2000
+            Pex:
+              type: has permission
+              permission: 'challenge.Melon.6' 
+        lore:
+        - '&8Lv 6 Melon Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:melon_block%&f/&b5000'
+        - '&8* &fLevel: &b6&f/&39'
+        - ''
+        - '&8* &fReward: &d10000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedMelonlev5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
+        priority: 10
+        slot: 14
+        display_name: '&b[*] &bMelon Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:melon_block%'
+              output: 2000
+            Pex:
+              type: has permission
+              permission: 'challenge.Melon.5' 
+        lore:
+        - '&8Lv 5 Melon Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:melon_block%&f/&b2000'
+        - '&8* &fLevel: &b5&f/&39' 
+        - ''
+        - '&8* &fReward: &d4000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b4000 ⛁&f.'
+        - '[console] eco give %player_name% 4000'
+        - '[console] pex user %player_name% add challenge.Melon.6'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b4000 ⛁&f.'
+        - '[console] eco give %player_name% 4000'
+        - '[console] pex user %player_name% add challenge.Melon.6'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressMelonlev5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
+        priority: 11
+        slot: 14
+        display_name: '&b[*] &bMelon Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:melon_block%'
+              output: 1000
+            Pex:
+              type: has permission
+              permission: 'challenge.Melon.5' 
+        lore:
+        - '&8Lv 5 Melon Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:melon_block%&f/&b2000'
+        - '&8* &fLevel: &b5&f/&39'
+        - ''
+        - '&8* &fReward: &d4000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedMelonlev4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
+        priority: 12
+        slot: 14
+        display_name: '&b[*] &bMelon Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:melon_block%'
+              output: 1000
+            Pex:
+              type: has permission
+              permission: 'challenge.Melon.4' 
+        lore:
+        - '&8Lv 4 Melon Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:melon_block%&f/&b1000'
+        - '&8* &fLevel: &b4&f/&39' 
+        - ''
+        - '&8* &fReward: &d2500 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b2500 ⛁&f.'
+        - '[console] eco give %player_name% 2500'
+        - '[console] pex user %player_name% add challenge.Melon.5'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b2500 ⛁&f.'
+        - '[console] eco give %player_name% 2500'
+        - '[console] pex user %player_name% add challenge.Melon.5'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressMelonlev4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
+        priority: 13
+        slot: 14
+        display_name: '&b[*] &bMelon Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:melon_block%'
+              output: 500
+            Pex:
+              type: has permission
+              permission: 'challenge.Melon.4' 
+        lore:
+        - '&8Lv 4 Melon Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:melon_block%&f/&b1000'
+        - '&8* &fLevel: &b4&f/&39'
+        - ''
+        - '&8* &fReward: &d2500 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedMelonlev3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
+        priority: 14
+        slot: 14
+        display_name: '&b[*] &bMelon Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:melon_block%'
+              output: 500
+            Pex:
+              type: has permission
+              permission: 'challenge.Melon.3' 
+        lore:
+        - '&8Lv 3 Melon Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:melon_block%&f/&b500'
+        - '&8* &fLevel: &b3&f/&39' 
+        - ''
+        - '&8* &fReward: &d1500 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b1500 ⛁&f.'
+        - '[console] eco give %player_name% 1500'
+        - '[console] pex user %player_name% add challenge.Melon.4'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b1500 ⛁&f.'
+        - '[console] eco give %player_name% 1500'
+        - '[console] pex user %player_name% add challenge.Melon.4'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressMelonlev3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
+        priority: 15
+        slot: 14
+        display_name: '&b[*] &bMelon Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:melon_block%'
+              output: 250
+            Pex:
+              type: has permission
+              permission: 'challenge.Melon.3' 
+        lore:
+        - '&8Lv 3 Melon Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:melon_block%&f/&b500'
+        - '&8* &fLevel: &b3&f/&39'
+        - ''
+        - '&8* &fReward: &d1500 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedMelonlev2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
+        priority: 16
+        slot: 14
+        display_name: '&b[*] &bMelon Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:melon_block%'
+              output: 250
+            Pex:
+              type: has permission
+              permission: 'challenge.Melon.2' 
+        lore:
+        - '&8Lv 2 Melon Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:melon_block%&f/&b250'
+        - '&8* &fLevel: &b2&f/&39' 
+        - ''
+        - '&8* &fReward: &d800 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b800 ⛁&f.'
+        - '[console] eco give %player_name% 800'
+        - '[console] pex user %player_name% add challenge.Melon.3'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b800 ⛁&f.'
+        - '[console] eco give %player_name% 800'
+        - '[console] pex user %player_name% add challenge.Melon.3'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressMelonlev2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
+        priority: 17
+        slot: 14
+        display_name: '&b[*] &bMelon Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:melon_block%'
+              output: 100
+            Pex:
+              type: has permission
+              permission: 'challenge.Melon.2' 
+        lore:
+        - '&8Lv 2 Melon Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:melon_block%&f/&b250'
+        - '&8* &fLevel: &b2&f/&39'
+        - ''
+        - '&8* &fReward: &d800 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedMelonlev1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
+        priority: 18
+        slot: 14
+        display_name: '&b[*] &bMelon Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:melon_block%'
+              output: 100
+        lore:
+        - '&8Lv 1 Melon Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:melon_block%&f/&b100'
+        - '&8* &fLevel: &b1&f/&39' 
+        - ''
+        - '&8* &fReward: &d300 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b300 ⛁&f.'
+        - '[console] eco give %player_name% 300'
+        - '[console] pex user %player_name% add challenge.Melon.2'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b300 ⛁&f.'
+        - '[console] eco give %player_name% 300'
+        - '[console] pex user %player_name% add challenge.Melon.2'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressMelonlev1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzNmRlZTgwNmJhNDdhMmM0MGU5NWI1N2ExMmYzN2RlNmMyZTY3N2YyMTYwMTMyYTA3ZTI0ZWVmZmE2In19fQ==
+        priority: 19
+        slot: 14
+        display_name: '&b[*] &bMelon Challenge'
+        lore:
+        - '&8Lv 1 Melon Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:melon_block%&f/&b100'
+        - '&8* &fLevel: &b1&f/&39'
+        - ''
+        - '&8* &fReward: &d300 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''   
+      'nomorePumpkinlev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
+        priority: 1
+        slot: 15
+        display_name: '&b[*] &bPumpkin Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:pumpkin%'
+              output: 40000
+            Pex:
+              type: has permission
+              permission: 'challenge.Pumpkin.9' 
+        lore:
+        - '&8Lv 9 Pumpkin Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:pumpkin%&f/&b40000'
+        - '&8* &fLevel: &b9&f/&39' 
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &cNo more challenges availables'   
+      'completedPumpkinlev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
+        priority: 2
+        slot: 15
+        display_name: '&b[*] &bPumpkin Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:pumpkin%'
+              output: 40000
+            Pex:
+              type: has permission
+              permission: 'challenge.Pumpkin.8' 
+        lore:
+        - '&8Lv 9 Pumpkin Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:pumpkin%&f/&b40000'
+        - '&8* &fLevel: &b9&f/&39' 
+        - ''
+        - '&8* &fReward: &d80000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b80000 ⛁&f.'
+        - '[console] eco give %player_name% 80000'
+        - '[console] pex user %player_name% add challenge.Pumpkin.9'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b80000 ⛁&f.'
+        - '[console] eco give %player_name% 80000'
+        - '[console] pex user %player_name% add challenge.Pumpkin.9'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressPumpkinlev9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
+        priority: 3
+        slot: 15
+        display_name: '&b[*] &bPumpkin Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:pumpkin%'
+              output: 20000
+            Pex:
+              type: has permission
+              permission: 'challenge.Pumpkin.8' 
+        lore:
+        - '&8Lv 9 Pumpkin Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:pumpkin%&f/&b40000'
+        - '&8* &fLevel: &b9&f/&39'
+        - ''
+        - '&8* &fReward: &d80000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedPumpkinlev8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
+        priority: 4
+        slot: 15
+        display_name: '&b[*] &bPumpkin Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:pumpkin%'
+              output: 20000
+            Pex:
+              type: has permission
+              permission: 'challenge.Pumpkin.8' 
+        lore:
+        - '&8Lv 8 Pumpkin Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:pumpkin%&f/&b20000'
+        - '&8* &fLevel: &b8&f/&39' 
+        - ''
+        - '&8* &fReward: &d40000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b40000 ⛁&f.'
+        - '[console] eco give %player_name% 40000'
+        - '[console] pex user %player_name% add challenge.Pumpkin.9'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b40000 ⛁&f.'
+        - '[console] eco give %player_name% 40000'
+        - '[console] pex user %player_name% add challenge.Pumpkin.9'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressPumpkinlev8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
+        priority: 5
+        slot: 15
+        display_name: '&b[*] &bPumpkin Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:pumpkin%'
+              output: 10000
+            Pex:
+              type: has permission
+              permission: 'challenge.Pumpkin.8' 
+        lore:
+        - '&8Lv 8 Pumpkin Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:pumpkin%&f/&b20000'
+        - '&8* &fLevel: &b8&f/&39'
+        - ''
+        - '&8* &fReward: &d40000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedPumpkinlev7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
+        priority: 6
+        slot: 15
+        display_name: '&b[*] &bPumpkin Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:pumpkin%'
+              output: 10000
+            Pex:
+              type: has permission
+              permission: 'challenge.Pumpkin.7' 
+        lore:
+        - '&8Lv 7 Pumpkin Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:pumpkin%&f/&b10000'
+        - '&8* &fLevel: &b7&f/&39' 
+        - ''
+        - '&8* &fReward: &d20000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b20000 ⛁&f.'
+        - '[console] eco give %player_name% 20000'
+        - '[console] pex user %player_name% add challenge.Pumpkin.8'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b20000 ⛁&f.'
+        - '[console] eco give %player_name% 20000'
+        - '[console] pex user %player_name% add challenge.Pumpkin.8'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressPumpkinlev7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
+        priority: 7
+        slot: 15
+        display_name: '&b[*] &bPumpkin Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:pumpkin%'
+              output: 5000
+            Pex:
+              type: has permission
+              permission: 'challenge.Pumpkin.7' 
+        lore:
+        - '&8Lv 7 Pumpkin Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:pumpkin%&f/&b10000'
+        - '&8* &fLevel: &b7&f/&39'
+        - ''
+        - '&8* &fReward: &d20000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedPumpkinlev6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
+        priority: 8
+        slot: 15
+        display_name: '&b[*] &bPumpkin Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:pumpkin%'
+              output: 5000
+            Pex:
+              type: has permission
+              permission: 'challenge.Pumpkin.6' 
+        lore:
+        - '&8Lv 6 Pumpkin Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:pumpkin%&f/&b5000'
+        - '&8* &fLevel: &b6&f/&39' 
+        - ''
+        - '&8* &fReward: &d10000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b10000 ⛁&f.'
+        - '[console] eco give %player_name% 10000'
+        - '[console] pex user %player_name% add challenge.Pumpkin.7'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b10000 ⛁&f.'
+        - '[console] eco give %player_name% 10000'
+        - '[console] pex user %player_name% add challenge.Pumpkin.7'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressPumpkinlev6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
+        priority: 9
+        slot: 15
+        display_name: '&b[*] &bPumpkin Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:pumpkin%'
+              output: 2000
+            Pex:
+              type: has permission
+              permission: 'challenge.Pumpkin.6' 
+        lore:
+        - '&8Lv 6 Pumpkin Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:pumpkin%&f/&b5000'
+        - '&8* &fLevel: &b6&f/&39'
+        - ''
+        - '&8* &fReward: &d10000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedPumpkinlev5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
+        priority: 10
+        slot: 15
+        display_name: '&b[*] &bPumpkin Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:pumpkin%'
+              output: 2000
+            Pex:
+              type: has permission
+              permission: 'challenge.Pumpkin.5' 
+        lore:
+        - '&8Lv 5 Pumpkin Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:pumpkin%&f/&b2000'
+        - '&8* &fLevel: &b5&f/&39' 
+        - ''
+        - '&8* &fReward: &d4000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b4000 ⛁&f.'
+        - '[console] eco give %player_name% 4000'
+        - '[console] pex user %player_name% add challenge.Pumpkin.6'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b4000 ⛁&f.'
+        - '[console] eco give %player_name% 4000'
+        - '[console] pex user %player_name% add challenge.Pumpkin.6'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressPumpkinlev5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
+        priority: 11
+        slot: 15
+        display_name: '&b[*] &bPumpkin Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:pumpkin%'
+              output: 1000
+            Pex:
+              type: has permission
+              permission: 'challenge.Pumpkin.5' 
+        lore:
+        - '&8Lv 5 Pumpkin Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:pumpkin%&f/&b2000'
+        - '&8* &fLevel: &b5&f/&39'
+        - ''
+        - '&8* &fReward: &d4000 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedPumpkinlev4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
+        priority: 12
+        slot: 15
+        display_name: '&b[*] &bPumpkin Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:pumpkin%'
+              output: 1000
+            Pex:
+              type: has permission
+              permission: 'challenge.Pumpkin.4' 
+        lore:
+        - '&8Lv 4 Pumpkin Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:pumpkin%&f/&b1000'
+        - '&8* &fLevel: &b4&f/&39' 
+        - ''
+        - '&8* &fReward: &d2500 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b2500 ⛁&f.'
+        - '[console] eco give %player_name% 2500'
+        - '[console] pex user %player_name% add challenge.Pumpkin.5'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b2500 ⛁&f.'
+        - '[console] eco give %player_name% 2500'
+        - '[console] pex user %player_name% add challenge.Pumpkin.5'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressPumpkinlev4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
+        priority: 13
+        slot: 15
+        display_name: '&b[*] &bPumpkin Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:pumpkin%'
+              output: 500
+            Pex:
+              type: has permission
+              permission: 'challenge.Pumpkin.4' 
+        lore:
+        - '&8Lv 4 Pumpkin Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:pumpkin%&f/&b1000'
+        - '&8* &fLevel: &b4&f/&39'
+        - ''
+        - '&8* &fReward: &d2500 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedPumpkinlev3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
+        priority: 14
+        slot: 15
+        display_name: '&b[*] &bPumpkin Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:pumpkin%'
+              output: 500
+            Pex:
+              type: has permission
+              permission: 'challenge.Pumpkin.3' 
+        lore:
+        - '&8Lv 3 Pumpkin Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:pumpkin%&f/&b500'
+        - '&8* &fLevel: &b3&f/&39' 
+        - ''
+        - '&8* &fReward: &d1500 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b1500 ⛁&f.'
+        - '[console] eco give %player_name% 1500'
+        - '[console] pex user %player_name% add challenge.Pumpkin.4'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b1500 ⛁&f.'
+        - '[console] eco give %player_name% 1500'
+        - '[console] pex user %player_name% add challenge.Pumpkin.4'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressPumpkinlev3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
+        priority: 15
+        slot: 15
+        display_name: '&b[*] &bPumpkin Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:pumpkin%'
+              output: 250
+            Pex:
+              type: has permission
+              permission: 'challenge.Pumpkin.3' 
+        lore:
+        - '&8Lv 3 Pumpkin Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:pumpkin%&f/&b500'
+        - '&8* &fLevel: &b3&f/&39'
+        - ''
+        - '&8* &fReward: &d1500 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedPumpkinlev2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
+        priority: 16
+        slot: 15
+        display_name: '&b[*] &bPumpkin Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:pumpkin%'
+              output: 250
+            Pex:
+              type: has permission
+              permission: 'challenge.Pumpkin.2' 
+        lore:
+        - '&8Lv 2 Pumpkin Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:pumpkin%&f/&b250'
+        - '&8* &fLevel: &b2&f/&39' 
+        - ''
+        - '&8* &fReward: &d800 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b800 ⛁&f.'
+        - '[console] eco give %player_name% 800'
+        - '[console] pex user %player_name% add challenge.Pumpkin.3'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b800 ⛁&f.'
+        - '[console] eco give %player_name% 800'
+        - '[console] pex user %player_name% add challenge.Pumpkin.3'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressPumpkinlev2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
+        priority: 17
+        slot: 15
+        display_name: '&b[*] &bPumpkin Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:pumpkin%'
+              output: 100
+            Pex:
+              type: has permission
+              permission: 'challenge.Pumpkin.2' 
+        lore:
+        - '&8Lv 2 Pumpkin Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:pumpkin%&f/&b250'
+        - '&8* &fLevel: &b2&f/&39'
+        - ''
+        - '&8* &fReward: &d800 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''
+      'completedPumpkinlev1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
+        priority: 18
+        slot: 15
+        display_name: '&b[*] &bPumpkin Challenge'
+        view_requirement:
+          requirements:
+            HasMine:
+              type: '>='
+              input: '%statistic_mine_block:pumpkin%'
+              output: 100
+        lore:
+        - '&8Lv 1 Pumpkin Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:pumpkin%&f/&b100'
+        - '&8* &fLevel: &b1&f/&39' 
+        - ''
+        - '&8* &fReward: &d300 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &b&lCOMPLETED'
+        - ''
+        - '&8» &bClick to claim'
+        left_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b300 ⛁&f.'
+        - '[console] eco give %player_name% 300'
+        - '[console] pex user %player_name% add challenge.Pumpkin.2'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lCHALLENGES &8&l» &fYou have claimed the challenge and received &b300 ⛁&f.'
+        - '[console] eco give %player_name% 300'
+        - '[console] pex user %player_name% add challenge.Pumpkin.2'
+        - '[sound] ENTITY_ARROW_HIT_PLAYER' 
+        - '[close]'
+      'inprogressPumpkinlev1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQxYWQxNDhlMzNjODFkY2EzZjFhNmNlMTNhYTcwZTRmZTZiYzJjNzllODcxODVkOGQxNzZiZGRhMWM5OGEzIn19fQ==
+        priority: 19
+        slot: 15
+        display_name: '&b[*] &bPumpkin Challenge'
+        lore:
+        - '&8Lv 1 Pumpkin Challenge'
+        - ''
+        - '&8* &fProgress: &b%statistic_mine_block:pumpkin%&f/&b100'
+        - '&8* &fLevel: &b1&f/&39'
+        - ''
+        - '&8* &fReward: &d300 &5⛁'
+        - ''
+        - '&8&l▪ &fStatus: &c&lIN PROGRESS'
+        - ''   
