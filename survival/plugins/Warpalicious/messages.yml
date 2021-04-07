@@ -1,4 +1,4 @@
-prefix: "&bWarps &f|"
+prefix: "&b&lWarps &8> &f"
 warp-doesnt-exist: "%PREFIX% &cThat warp does not exists!"
 not-owner-of-warp: "%PREFIX% &cYou are not the owner of that warp!"
 warp-was-deleted: "%PREFIX% &cThe warp %WARPNAME% was deleted!"
