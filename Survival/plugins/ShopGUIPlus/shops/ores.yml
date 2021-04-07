@@ -65,7 +65,7 @@ ores:
       item:
         material: IRON_ORE
         quantity: 1
-      sellPrice: 15
+      sellPrice: 5
       buyPrice: 1500
       slot: 7
     9:
@@ -73,7 +73,7 @@ ores:
       item:
         material: IRON_INGOT
         quantity: 1
-      sellPrice: 15
+      sellPrice: 5
       buyPrice: 1500
       slot: 8
     10:

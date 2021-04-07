@@ -1,7 +1,7 @@
 Data Version: 2
 Crate Locations:
   vote:
-  - world|2|78|-8
+  - world|6|78|-8
   donator:
   - world|4|73|28
   aystralia:
@@ -14,8 +14,7 @@ Claims:
   6d86b027-cacd-420e-8a8f-786f8048e185:
   - Vote|32
   - vote|48
-  69dfdab1-aa5a-42d2-b909-02e95d96f136:
-  - vote|8
+  69dfdab1-aa5a-42d2-b909-02e95d96f136: []
   6690875e-c600-4151-adb0-ab773454713c: []
   2f3467d7-112e-45ce-aa33-fcb5dd4a5478: []
   e79fc165-83d6-4139-9a8f-d42bf1c23f87: []

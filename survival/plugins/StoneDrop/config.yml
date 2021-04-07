@@ -157,8 +157,7 @@ chest:
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #List of commands that could be executed (use @name for player name)
 #In this example: 1% chance of executing command give on player.
-executeCommands:
-  "give @player stick 2": 0.01
+executeCommands: []
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #List of blocks that the plugin should work on. The list of all possible blocks is listed here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
 dropBlocks:
@@ -195,10 +194,10 @@ display-update-message: true
 drop-exp-orb: false
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Should a message be broadcast when a player finds a chest
-treasure-broadcast: true
+treasure-broadcast: false
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Volume of all sounds used in the plugin
-volume: 0.3
+volume: 0.1
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Drop chest contents to inventory
 drop-chest-to-inventory: false

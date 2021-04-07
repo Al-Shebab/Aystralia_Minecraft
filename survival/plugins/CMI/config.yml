@@ -1264,22 +1264,22 @@ Spawn:
   # RespawnLocation will indicate if you want to use this location as possible respawn point for player after death
   Main:
     World: world
-    X: 0.5
+    X: 2.55302796872209
     Y: 77.0
-    Z: 0.5
-    Pitch: 0.2652735
-    Yaw: -179.79684
+    Z: 9.079805528592523
+    Pitch: 8.278763
+    Yaw: 180.39633
     RespawnLocation: false
     Rng: 0
   # Defines players first spawn point when he logs into server for the first time
   FirstSpawn:
     Use: true
     World: world
-    X: 0.5
+    X: 2.55302796872209
     Y: 77.0
-    Z: 0.5
-    Pitch: 0.2652735
-    Yaw: -179.79684
+    Z: 9.079805528592523
+    Pitch: 8.278763
+    Yaw: 180.39633
 Newbie:
   # Kit name to give for new players joining server
   Kit: Newbie
@@ -1834,6 +1834,7 @@ Enchanting:
       cutter: 5
       quick_charge: 3
       double_strike: 4
+      wildstackerglow: 1
       protection_projectile: 4
       sonic: 3
       impaling: 5

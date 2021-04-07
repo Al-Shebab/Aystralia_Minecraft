@@ -105,7 +105,7 @@ organics:
       item:
         material: POPPY
         quantity: 1
-      sellPrice: 10
+      sellPrice: 3
       buyPrice: 100
       slot: 12
     14:

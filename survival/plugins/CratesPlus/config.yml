@@ -59,11 +59,20 @@ Crates:
         Item Type: GOLDEN_SHOVEL
         Percentage: 15
         Commands:
-        - griefprevention:adjustbonusclaimblocks %name% 1500
-        Name: '&b&l1500 &fClaim Blocks'
+        - griefprevention:adjustbonusclaimblocks %name% 750
+        Name: '&b&l750 &fClaim Blocks'
         Item Data: 0
         Amount: 1
       '4':
+        Type: COMMAND
+        Item Type: GOLDEN_SHOVEL
+        Percentage: 5
+        Commands:
+        - griefprevention:adjustbonusclaimblocks %name% 2500
+        Name: '&b&l2500 &fClaim Blocks'
+        Item Data: 0
+        Amount: 1
+      '5':
         Type: COMMAND
         Item Type: HOPPER
         Percentage: 10
@@ -72,59 +81,59 @@ Crates:
         Name: '&b&lHopper &fUpgrade'
         Item Data: 0
         Amount: 1
-      '5':
+      '6':
         Type: COMMAND
         Item Type: SPAWNER
-        Percentage: 5
+        Percentage: 7
         Commands:
         - wildstacker:stacker give %name% spawner BLAZE 1
         Name: '&cBlaze &fSpawner &cx1'
         Item Data: 0
         Amount: 1
-      '6':
+      '7':
         Type: COMMAND
         Item Type: SPAWNER
-        Percentage: 9
+        Percentage: 3
         Commands:
         - wildstacker:stacker give %name% spawner ZOMBIE 1
         Name: '&cZombie &fSpawner &cx1'
         Item Data: 0
         Amount: 1
-      '7':
-        Type: COMMAND
-        Item Type: SPAWNER
-        Percentage: 5
-        Commands:
-        - wildstacker:stacker give %name% spawner PIG 1
-        Name: '&bCow &fSpawner &bx1'
-        Item Data: 0
-        Amount: 1
       '8':
         Type: COMMAND
         Item Type: SPAWNER
-        Percentage: 5
+        Percentage: 3
         Commands:
-        - wildstacker:stacker give %name% spawner COW 1
+        - wildstacker:stacker give %name% spawner PIG 1
         Name: '&bCow &fSpawner &bx1'
         Item Data: 0
         Amount: 1
       '9':
         Type: COMMAND
         Item Type: SPAWNER
-        Percentage: 2
+        Percentage: 3
+        Commands:
+        - wildstacker:stacker give %name% spawner COW 1
+        Name: '&bCow &fSpawner &bx1'
+        Item Data: 0
+        Amount: 1
+      '10':
+        Type: COMMAND
+        Item Type: SPAWNER
+        Percentage: 1
         Commands:
         - wildstacker:stacker give %name% spawner IRON_GOLEM 1
         Name: '&6Iron Golem &fSpawner &bx1'
         Item Data: 0
         Amount: 1
-      '10':
+      '11':
         Type: ITEM
         Item Type: COOKED_CHICKEN
         Name: '&c&lKFC'
         Percentage: 34.9
         Item Data: 0`
         Amount: 16
-      '11':
+      '12':
         Type: ITEM
         Item Type: NETHERITE_PICKAXE
         Name: '&b&lAystralia &f&lPickaxe'
@@ -136,7 +145,7 @@ Crates:
         - dig_speed-10
         - loot_bonus_blocks-5
         Amount: 1
-      '12':
+      '13':
         Type: COMMAND
         Item Type: TRIPWIRE_HOOK
         Percentage: 0.1

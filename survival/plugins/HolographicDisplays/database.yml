@@ -1,5 +1,5 @@
 vote:
-  location: world, 2.500, 79.500, -7.500
+  location: world, 6.500, 79.500, -7.500
   lines:
   - '&b&ki&f&ki&b Vote &fCrate &f&ki&b&ki'
   - '&bGet keys by voting via &f/vote'
