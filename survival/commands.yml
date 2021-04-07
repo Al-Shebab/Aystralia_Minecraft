@@ -23,13 +23,25 @@ aliases:
   - warplist $1-
   openinv:
   - invsee $1-
-  hub:
-  - server Hub
-  skyblock:
-  - server Skyblock
-  creative:
-  - server Creative
-  anarchy:
-  - server Anarchy
-  prison:
-  - server Prison
+  market:
+  - warp market
+  broadcastignore:
+  - sbignore
+  sell:
+  - sellgui
+  withdraw:
+  - cmi cheque
+  bin:
+  - cmi dispose
+  trash:
+  - cmi dispose
+  bp:
+  - pv 1
+  backpack:
+  - pv 1
+  rtp:
+  - cmi rt world
+  wild:
+  - cmi rt world
+  signshop:
+  - cmi ctext signshop

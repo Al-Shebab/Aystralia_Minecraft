@@ -325,7 +325,7 @@ Crates:
         Item Type: RED_DYE
         Percentage: 10
         Commands:
-        - cmdi give %name% colour
+        - cmdi give %name% colours
         Name: '&b&lColour &f&lPack'
         Item Data: 0
         Amount: 1

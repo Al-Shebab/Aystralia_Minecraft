@@ -27,7 +27,7 @@ database:
 economyTypes:
   - VAULT
 # Name of the main GUI
-shopMenuName: "&b&lAystralia Shop"
+shopMenuName: "&b&lShop"
 # Size of the main GUI, valid values are 9, 18, 27, 36, 45 and 54
 shopMenuSize: 45
 # Choose an item to fill the empty slots of menu with
@@ -39,9 +39,9 @@ enableSellAll: true
 # Define whether the buy GUI with option to select quantity is enabled
 enableBuyGUI: true
 # Define whether the sell GUI with option to select quantity is enabled
-enableSellGUI: false
+enableSellGUI: true
 # Define whether sell all button in SellGUI is enabled (enableSellGUI has to be enabled too)
-enableSellGUISellAll: false
+enableSellGUISellAll: true
 # Define whether after closing/buying/selling the shop GUI should be opened again
 returnToShop: true
 # Define whether the quick buy/sell option should be enabled (amount selection gui will stay open until player closes it)
@@ -53,7 +53,7 @@ hideSellPriceForUnsellable: true
 # Define whether buy and sell buttons should be inverted (false - LMB buy, RMB sell / true - LMB sell, RMB buy)
 invertBuySell: false
 # Maximum amount of enchantments players can add to an item, set to -1 for no limit
-maxEnchantments: 3
+maxEnchantments: -1
 # Choose whether players should be able to buy enchantments only 1 level higher than current (eg. player has sword with Sharpness 1, they could buy only Sharpness 2)
 limitEnchantmentLevelDiff: false
 # Define whether the amount selection double click bug fix should be enabled
@@ -63,7 +63,7 @@ allowAllSellAllStackSizes: false
 # Define whether all prices should be rounded up, down, to the nearest whole number or not rounded (valid values are UP, DOWN, NEAREST and NONE)
 roundPrices: none
 # Define whether main menu (/shop command) should be disabled. The only way to access shops will be to use /shop <id> when you disable it.
-disableMainMenu: false
+disableMainMenu: true
 # Choose if different messages should be sent when someone buy/sell items for $0 (MSG_ITEM_BOUGHTFREE, MSG_ITEM_SOLDFREE, MSG_ITEM_SOLDALLFREE)
 useDifferentMessagesForFreeItems: true
 # Choose if item names should have first letters of their names capitalized, for instance nether brick would become Nether Brick
@@ -89,16 +89,18 @@ itemStackSizeCappedAt:
   4:
     material: BUCKET
     size: 1
-  5:
-    material: MINECART
-    size: 1
 # Choose what gamemodes will prevent players from accessing shops. Valid values: ADVENTURE, CREATIVE, SPECTATOR, SURVIVAL
 disableShopsInGamemodes:
   - ADVENTURE
   - CREATIVE
   - SPECTATOR
 # Choose in which worlds players won't be able to access the shop. Same list format as disableShopsInGamemodes
-disableShopsInWorlds: []
+disableShopsInWorlds:
+  - skyblock_world
+  - skyblock_nether
+  - skyblock_the_end
+  - world_nether
+  - world_the_end
 
 # Choose whether price modifiers should be displayed in percents instead of decimals (eg. 10% instead of 0.10), remember you will still have to use the decimal way in commands
 displayPriceModifiersInPercents: true
@@ -176,7 +178,7 @@ log:
 # Sell hand command settings
 sellHand:
   # When set to true, players will be able to sell any quantity of the item (the price will be calculated from the base price)
-  allowAllQuantities: false
+  allowAllQuantities: true
   # When set to true, /sell hand will work same way as /sell handall does
   sellsAllItems: false
   # When set to true, free items (with sell price of $0) will be excluded from being sold using /sell hand and /sell handall
@@ -208,7 +210,7 @@ buttons:
         - "&fClick here to return"
         - "&fto the main menu"
     # Slot in each shop's GUI
-    slot: 49
+    slot: 600
   # "Previous page" button
   previousPage:
     item:
@@ -352,7 +354,7 @@ amountSelectionGUIBulkSell:
       item:
         material: CHEST
         quantity: 1
-        name: "&aSell 1 stack"
+        name: "&cSell 1 stack"
         lore:
           - "&fPrice: &c%sell%"
       # Value indicated the amount of stacks
@@ -363,7 +365,7 @@ amountSelectionGUIBulkSell:
       item:
         material: CHEST
         quantity: 2
-        name: "&aSell 2 stacks"
+        name: "&cSell 2 stacks"
         lore:
           - "&fPrice: &c%sell%"
       value: 2
@@ -373,7 +375,7 @@ amountSelectionGUIBulkSell:
       item:
         material: CHEST
         quantity: 3
-        name: "&aSell 3 stacks"
+        name: "&cSell 3 stacks"
         lore:
           - "&fPrice: &c%sell%"
       value: 3
@@ -383,7 +385,7 @@ amountSelectionGUIBulkSell:
       item:
         material: CHEST
         quantity: 4
-        name: "&aSell 4 stacks"
+        name: "&cSell 4 stacks"
         lore:
           - "&fPrice: &c%sell%"
       value: 4
@@ -393,7 +395,7 @@ amountSelectionGUIBulkSell:
       item:
         material: CHEST
         quantity: 5
-        name: "&aSell 5 stacks"
+        name: "&cSell 5 stacks"
         lore:
           - "&fPrice: &c%sell%"
       value: 5
@@ -403,7 +405,7 @@ amountSelectionGUIBulkSell:
       item:
         material: CHEST
         quantity: 6
-        name: "&aSell 6 stacks"
+        name: "&cSell 6 stacks"
         lore:
           - "&fPrice: &c%sell%"
       value: 6
@@ -413,7 +415,7 @@ amountSelectionGUIBulkSell:
       item:
         material: CHEST
         quantity: 7
-        name: "&aSell 7 stacks"
+        name: "&cSell 7 stacks"
         lore:
           - "&fPrice: &c%sell%"
       value: 7
@@ -423,7 +425,7 @@ amountSelectionGUIBulkSell:
       item:
         material: CHEST
         quantity: 8
-        name: "&aSell 8 stacks"
+        name: "&cSell 8 stacks"
         lore:
           - "&fPrice: &c%sell%"
       value: 8
@@ -433,7 +435,7 @@ amountSelectionGUIBulkSell:
       item:
         material: CHEST
         quantity: 9
-        name: "&aSell 9 stacks"
+        name: "&cSell 9 stacks"
         lore:
           - "&fPrice: &c%sell%"
       value: 9
@@ -550,7 +552,7 @@ shopMenuItems:
       # The same rules apply for material, amount, damage and lore as for goBackButton
       material: CRAFTING_TABLE
       quantity: 1
-      name: "&2&lBasics"
+      name: "&a&lBasics"
     # Shop ID from shops yaml
     shop: "basics"
     # Slot in shops menu, counting from 0 to 53
@@ -558,74 +560,24 @@ shopMenuItems:
   2:
     item:
       # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: OAK_SAPLING
+      material: ANVIL
       quantity: 1
-      name: "&a&lOrganics"
+      name: "&0&lBlacksmith"
     # Shop ID from shops yaml
-    shop: "organics"
+    shop: "blacksmith"
     # Slot in shops menu, counting from 0 to 53
     slot: 11
   3:
     item:
       # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: REDSTONE
+      material: WHEAT_SEEDS
       quantity: 1
-      name: "&c&lRedstone"
+      name: "&2&lFarming"
     # Shop ID from shops yaml
-    shop: "redstone"
+    shop: "farming"
     # Slot in shops menu, counting from 0 to 53
     slot: 12
   4:
-    item:
-      # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: WHITE_CONCRETE
-      quantity: 1
-      name: "&f&lConcrete"
-    # Shop ID from shops yaml
-    shop: "concrete"
-    # Slot in shops menu, counting from 0 to 53
-    slot: 13
-  5:
-    item:
-      # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: LAVA_BUCKET
-      quantity: 1
-      name: "&4&lNether Items"
-    # Shop ID from shops yaml
-    shop: "nether"
-    # Slot in shops menu, counting from 0 to 53
-    slot: 14
-  6:
-    item:
-      # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: WATER_BUCKET
-      quantity: 1
-      name: "&9&lAquatics"
-    # Shop ID from shops yaml
-    shop: "aquatics"
-    # Slot in shops menu, counting from 0 to 53
-    slot: 15
-  7:
-    item:
-      # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: RED_DYE
-      quantity: 1
-      name: "&c&lD&6&ly&e&le&a&ls"
-    # Shop ID from shops yaml
-    shop: "dyes"
-    # Slot in shops menu, counting from 0 to 53
-    slot: 16
-  #8:
-    #item:
-      # The same rules apply for material, amount, damage and lore as for goBackButton
-      #material: DIAMOND
-      #quantity: 1
-      #name: "&6&lSellable Items"
-    # Shop ID from shops yaml
-    #shop: "sellable"
-    # Slot in shops menu, counting from 0 to 53
-    #slot: 31
-  9:
     item:
       # The same rules apply for material, amount, damage and lore as for goBackButton
       material: SPAWNER
@@ -634,18 +586,8 @@ shopMenuItems:
     # Shop ID from shops yaml
     shop: "spawners"
     # Slot in shops menu, counting from 0 to 53
-    slot: 23
-  10:
-    item:
-      # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: PIG_SPAWN_EGG
-      quantity: 1
-      name: "&a&lSpawn Eggs"
-    # Shop ID from shops yaml
-    shop: "eggs"
-    # Slot in shops menu, counting from 0 to 53
-    slot: 21
-  11:
+    slot: 13
+  5:
     item:
       # The same rules apply for material, amount, damage and lore as for goBackButton
       material: BEACON
@@ -654,49 +596,17 @@ shopMenuItems:
     # Shop ID from shops yaml
     shop: "perks"
     # Slot in shops menu, counting from 0 to 53
-    slot: 22
-  12:
+    slot: 14
+  6:
     item:
       # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: OBSIDIAN
+      material: BARRIER
       quantity: 1
-      enchantments:
-         - UNBREAKING:1
-      name: "&b&lSpecial"
+      name: "&c&lSell"
     # Shop ID from shops yaml
-    shop: "special"
+    shop: "sell"
     # Slot in shops menu, counting from 0 to 53
-    slot: 24
-  13:
-    item:
-      # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: WHEAT_SEEDS
-      quantity: 1
-      name: "&a&lFarming"
-    # Shop ID from shops yaml
-    shop: "farming"
-    # Slot in shops menu, counting from 0 to 53
-    slot: 17
-  14:
-    item:
-      # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: COOKED_BEEF
-      quantity: 1
-      name: "&e&lFood"
-    # Shop ID from shops yaml
-    shop: "food"
-    # Slot in shops menu, counting from 0 to 53
-    slot: 9
-  15:
-    item:
-      # The same rules apply for material, amount, damage and lore as for goBackButton
-      material: ENCHANTED_BOOK
-      quantity: 1
-      name: "&9&lEnchanted Books"
-    # Shop ID from shops yaml
-    shop: "enchanted"
-    # Slot in shops menu, counting from 0 to 53
-    slot: 20
+    slot: 15
 
 
 specialElements:

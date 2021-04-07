@@ -14,13 +14,13 @@ Claims:
   6d86b027-cacd-420e-8a8f-786f8048e185:
   - Vote|32
   - vote|48
-  69dfdab1-aa5a-42d2-b909-02e95d96f136: []
+  69dfdab1-aa5a-42d2-b909-02e95d96f136:
+  - vote|8
   6690875e-c600-4151-adb0-ab773454713c: []
   2f3467d7-112e-45ce-aa33-fcb5dd4a5478: []
-  e79fc165-83d6-4139-9a8f-d42bf1c23f87:
-  - vote|8
+  e79fc165-83d6-4139-9a8f-d42bf1c23f87: []
   1132a3f9-cf23-42e1-8595-79d07b07844e:
-  - vote|16
+  - vote|26
   91fb8d7e-fc20-4404-8220-881b8cafceed:
   - Vote|29
   - vote|8
@@ -28,16 +28,14 @@ Claims:
   - Vote|13
   80d03676-0864-4b60-a40c-5729cb8c1c73:
   - Vote|3
-  - vote|20
+  - vote|28
   bf19ff83-4fc0-4f50-adcb-e95a09c3601f: []
   96f82b80-6fed-47b9-b879-53677faa1f4d:
   - Vote|3
   aed14379-c0c9-4b85-b6d0-031d46f30b67:
   - Vote|12
   - vote|22
-  7dae338c-90fc-4209-a971-d3b37fcfc92d:
-  - Vote|3
-  - vote|14
+  7dae338c-90fc-4209-a971-d3b37fcfc92d: []
   3a906378-4193-4549-a392-01387b2896b9:
   - Vote|8
   - vote|14
@@ -50,8 +48,11 @@ Claims:
   b7ce396a-aabf-4bf6-bffc-d222f80d5c70:
   - vote|17
   91e75155-abb6-4994-b50a-4cb5765f3e8f:
-  - vote|70
+  - vote|86
   f4d5e1b8-43e7-47eb-9b3b-21d66b202af7: []
   ef7e3574-30f6-40e4-9130-1595fceac4db:
   - vote|4
   3368f471-c1d5-4f9f-8b0e-2245724bf905: []
+  73388252-bb0a-4df3-9bdd-fb064be0a5bd:
+  - vote|8
+  b4dc8143-084b-4ae0-85ba-b5aa2e81ea17: []

@@ -1,5 +1,5 @@
 aquatics:
-  name: "&9&lAquatics"
+  name: "&b&lMarket"
   fillItem:
     material: BLACK_STAINED_GLASS_PANE
     name: " "
@@ -9,194 +9,262 @@ aquatics:
       item:
         material: water_bucket
         quantity: 1
-      buyPrice: 10
-      slot: 10
+      sellPrice: 1
+      buyPrice: 150
+      slot: 0
     2:
-      type: item
-      item:
-        material: sponge
-        quantity: 1
-      buyPrice: 300
-      slot: 11
-    3:
-      type: item
-      item:
-        material: seagrass
-        quantity: 1
-      buyPrice: 10
-      slot: 12
-    4:
-      type: item
-      item:
-        material: sea_pickle
-        quantity: 1
-      buyPrice: 10
-      slot: 13
-    5:
-      type: item
-      item:
-        material: kelp
-        quantity: 1
-      buyPrice: 10
-      slot: 14
-    6:
       type: item
       item:
         material: brain_coral_block
         quantity: 1
-      buyPrice: 25
-      slot: 15
-    7:
+      sellPrice: 5
+      buyPrice: 100
+      slot: 1
+    3:
       type: item
       item:
         material: bubble_coral_block
         quantity: 1
-      buyPrice: 25
-      slot: 16
-    8:
+      sellPrice: 5
+      buyPrice: 100
+      slot: 2
+    4:
       type: item
       item:
         material: fire_coral_block
         quantity: 1
-      buyPrice: 25
-      slot: 19
-    9:
+      sellPrice: 5
+      buyPrice: 100
+      slot: 3
+    5:
       type: item
       item:
         material: horn_coral_block
         quantity: 1
-      buyPrice: 25
-      slot: 20
-    10:
+      sellPrice: 5
+      buyPrice: 100
+      slot: 4
+    6:
       type: item
       item:
         material: tube_coral_block
         quantity: 1
-      buyPrice: 25
-      slot: 21
-    11:
-      type: item
-      item:
-        material: sea_lantern
-        quantity: 1
-      buyPrice: 75
-      slot: 22
-    12:
-      type: item
-      item:
-        material: dark_prismarine
-        quantity: 1
-      buyPrice: 50
-      slot: 23
-    13:
-      type: item
-      item:
-        material: prismarine_bricks
-        quantity: 1
-      buyPrice: 50
-      slot: 24
-    14:
-      type: item
-      item:
-        material: prismarine
-        quantity: 1
-      buyPrice: 50
-      slot: 25
-    15:
+      sellPrice: 5
+      buyPrice: 100
+      slot: 5
+    7:
       type: item
       item:
         material: tube_coral
         quantity: 1
-      buyPrice: 25
-      slot: 28
-    16:
+      sellPrice: 1
+      buyPrice: 100
+      slot: 6
+    8:
       type: item
       item:
         material: brain_coral
         quantity: 1
-      buyPrice: 25
-      slot: 29
-    17:
+      sellPrice: 1
+      buyPrice: 100
+      slot: 7
+    9:
       type: item
       item:
         material: bubble_coral
         quantity: 1
-      buyPrice: 25
-      slot: 30
-    18:
+      sellPrice: 1
+      buyPrice: 100
+      slot: 8
+    10:
       type: item
       item:
         material: fire_coral
         quantity: 1
-      buyPrice: 25
-      slot: 31
-    19:
+      sellPrice: 1
+      buyPrice: 100
+      slot: 9
+    11:
       type: item
       item:
         material: horn_coral
         quantity: 1
-      buyPrice: 25
-      slot: 32
-    20:
+      sellPrice: 1
+      buyPrice: 100
+      slot: 10
+    12:
       type: item
       item:
         material: tube_coral_fan
         quantity: 1
-      buyPrice: 25
-      slot: 33
-    21:
+      sellPrice: 1
+      buyPrice: 100
+      slot: 11
+    13:
       type: item
       item:
         material: brain_coral_fan
         quantity: 1
-      buyPrice: 25
-      slot: 34
-    22:
+      sellPrice: 1
+      buyPrice: 100
+      slot: 12
+    14:
       type: item
       item:
         material: bubble_coral_fan
         quantity: 1
-      buyPrice: 25
-      slot: 37
-    23:
+      sellPrice: 1
+      buyPrice: 100
+      slot: 13
+    15:
       type: item
       item:
         material: fire_coral_fan
         quantity: 1
-      buyPrice: 25
-      slot: 38
-    24:
+      sellPrice: 1
+      buyPrice: 100
+      slot: 14
+    16:
       type: item
       item:
         material: horn_coral_fan
         quantity: 1
-      buyPrice: 25
-      slot: 39
+      sellPrice: 1
+      buyPrice: 100
+      slot: 15
+    17:
+      type: item
+      item:
+        material: sponge
+        quantity: 1
+      sellPrice: 30
+      buyPrice: 300
+      slot: 16
+    18:
+      type: item
+      item:
+        material: ICE
+        quantity: 1
+      sellPrice: 0.5
+      buyPrice: 10
+      slot: 17
+    19:
+      type: item
+      item:
+        material: PACKED_ICE
+        quantity: 1
+      sellPrice: 1
+      buyPrice: 90
+      slot: 18
+    20:
+      type: item
+      item:
+        material: BLUE_ICE
+        quantity: 1
+      sellPrice: 25
+      buyPrice: 900
+      slot: 19
+    21:
+      type: item
+      item:
+        material: PRISMARINE
+        quantity: 1
+      sellPrice: 3
+      buyPrice: 100
+      slot: 20
+    22:
+      type: item
+      item:
+        material: prismarine_bricks
+        quantity: 1
+      sellPrice: 3
+      buyPrice: 100
+      slot: 21
+    23:
+      type: item
+      item:
+        material: dark_prismarine
+        quantity: 1
+      sellPrice: 3
+      buyPrice: 100
+      slot: 22
+    24:
+      type: item
+      item:
+        material: sea_lantern
+        quantity: 1
+      sellPrice: 5
+      buyPrice: 250
+      slot: 23
     25:
       type: item
       item:
         material: fishing_rod
         quantity: 1
+      sellPrice: 1
       buyPrice: 300
-      slot: 40
+      slot: 24
     26:
       type: item
       item:
-        material: scute
+        material: conduit
         quantity: 1
-      buyPrice: 50
-      slot: 41
+      sellPrice: 100
+      buyPrice: 30000
+      slot: 25
     27:
       type: item
       item:
-        material: turtle_egg
+        material: pufferfish_bucket
         quantity: 1
-      buyPrice: 100
-      slot: 42
+      sellPrice: 5
+      buyPrice: 1000
+      slot: 26
     28:
       type: item
       item:
         material: tropical_fish_bucket
         quantity: 1
+      sellPrice: 5
+      buyPrice: 1000
+      slot: 27
+    29:
+      type: item
+      item:
+        material: salmon_bucket
+        quantity: 1
+      sellPrice: 5
+      buyPrice: 1000
+      slot: 28
+    30:
+      type: item
+      item:
+        material: cod_bucket
+        quantity: 1
+      sellPrice: 5
+      buyPrice: 1000
+      slot: 29
+    31:
+      type: item
+      item:
+        material: nautilus_shell
+        quantity: 1
+      sellPrice: 25
+      buyPrice: 2500
+      slot: 30
+    32:
+      type: item
+      item:
+        material: heart_of_the_sea
+        quantity: 1
+      sellPrice: 50
+      buyPrice: 5000
+      slot: 31
+    33:
+      type: item
+      item:
+        material: turtle_egg
+        quantity: 1
+      sellPrice: 1
       buyPrice: 100
-      slot: 43
+      slot: 32

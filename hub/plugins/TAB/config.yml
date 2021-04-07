@@ -27,9 +27,11 @@ yellow-number-in-tablist: ""
 #literally what it says
 group-sorting-priority-list:
   - owner
-  - developer
   - community-manager
+  - server-manager
   - staff-manager
+  - developer
+  - trial-developer
   - senior-administrator
   - administrator
   - senior-moderator
@@ -44,6 +46,7 @@ group-sorting-priority-list:
   - melbourne
   - brisbane
   - perth
+  - trusted
   - member
   - default
 
@@ -51,15 +54,18 @@ Groups:
   owner:
     tabprefix: "{#ff0000}Owner&r "
     tagprefix: "{#ff0000}Owner&r "
-  developer:
-    tabprefix: "{#ff2b2b}Developer&r "
-    tagprefix: "{#ff2b2b}Developer&r "
   community-manager:
     tabprefix: "{#ff4848}Community Manager&r "
     tagprefix: "{#ff4848}Community Manager&r "
   staff-manager:
     tabprefix: "{#ff6565}Staff Manager&r "
     tagprefix: "{#ff6565}Staff Manager&r "
+  developer:
+    tabprefix: "{#ff2b2b}Developer&r "
+    tagprefix: "{#ff2b2b}Developer&r "
+  trial-developer:
+    tabprefix: "{#ff2b2b}Trial Developer&r "
+    tagprefix: "{#ff2b2b}Trial Developer&r "
   senior-administrator:
     tabprefix: "{#ff9800}Senior Administrator&r "
     tagprefix: "{#ff9800}Senior Administrator&r "
@@ -96,6 +102,9 @@ Groups:
   perth:
     tabprefix: "{#3de5ff}Perth&r "
     tagprefix: "{#3de5ff}Perth&r "
+  trusted:
+    tabprefix: "{#773dff}Trusted&r "
+    tagprefix: "{#773dff}Trusted&r "
   member:
     tabprefix: "{#763bff}Member&r "
     tagprefix: "{#763bff}Member&r "

@@ -28,6 +28,7 @@ yellow-number-in-tablist: ""
 group-sorting-priority-list:
   - owner
   - community-manager
+  - server-manager
   - staff-manager
   - developer
   - trial-developer

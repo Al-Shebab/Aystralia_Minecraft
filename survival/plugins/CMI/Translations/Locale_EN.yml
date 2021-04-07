@@ -260,7 +260,7 @@ info:
   sec: '&f[secs] &bsec '
   vanishSymbolOn: '&8[&bH&8]&r'
   vanishSymbolOff: ''
-  afkSymbolOn: '&8[&bAfk&8]&r'
+  afkSymbolOn: '&c&lAFK&r'
   afkSymbolOff: ''
   nextPageConsole: '&fFor next page perform &f[command]'
   prevPage: '&9----<< &bPrev '
@@ -586,6 +586,8 @@ info:
     - QUICKCHARGE
     double_strike:
     - DOUBLESTRIKE
+    wildstackerglow:
+    - WildStackerGlow
     protection_projectile:
     - ProjectileProtection
     sonic:
@@ -660,8 +662,6 @@ info:
     - RAGE
     bunny_hop:
     - BUNNYHOP
-    ghast:
-    - GHAST
     sweeping_edge:
     - SweepingEdge
     oxygen:
@@ -675,8 +675,6 @@ info:
     - HASTE
     thunder:
     - THUNDER
-    blast_mining:
-    - BLASTMINING
   PotionEffectAliases:
     speed:
     - Speed
@@ -803,10 +801,10 @@ teleportation:
   relocation: '!actionbar!&cYour teleport location was obstructed. You have been teleported
     to a safe location.'
 afk:
-  'on': '&bAFK'
+  'on': '&cAFK'
   'off': '&bPlaying'
   left: '&b[playerDisplayName] &fis no longer AFK'
-  MayNotRespond: '&fPlayer is AFK and may not respond'
+  MayNotRespond: '&bPlayer is AFK and may not respond'
   MayNotRespondStaff: '&fStaff member is AFK and may not respond. Try contacting us
     through discord'
 BossBar:

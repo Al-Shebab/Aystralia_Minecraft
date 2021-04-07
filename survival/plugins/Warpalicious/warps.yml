@@ -1,19 +1,3 @@
-crate:
-  owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-  location: world,-301.52,138.0,201.17,-179.16,3.84
-  flags:
-    PRIVATE: false
-    SIGNPRIVATE: true
-  invited: []
-  timeswarpedto: 7
-crates:
-  owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-  location: world,-301.52,138.0,201.17,-179.16,3.84
-  flags:
-    PRIVATE: false
-    SIGNPRIVATE: true
-  invited: []
-  timeswarpedto: 12
 end:
   owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
   location: world,-4457.57,27.0,1749.3746028429928,180.4,0.0
@@ -21,31 +5,7 @@ end:
     PRIVATE: false
     SIGNPRIVATE: true
   invited: []
-  timeswarpedto: 30
-jail:
-  owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-  location: world,-301.54,138.0,209.81,180.2,-2.28
-  flags:
-    PRIVATE: false
-    SIGNPRIVATE: true
-  invited: []
-  timeswarpedto: 5
-spawn:
-  owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-  location: world,-301.56,136.0,267.3,180.2,-2.28
-  flags:
-    PRIVATE: false
-    SIGNPRIVATE: true
-  invited: []
-  timeswarpedto: 2
-vote:
-  owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-  location: world,-301.52,138.0,201.17,-179.16,3.84
-  flags:
-    PRIVATE: false
-    SIGNPRIVATE: true
-  invited: []
-  timeswarpedto: 0
+  timeswarpedto: 43
 al_shebab:
   owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
   location: world,-2796.557969183859,72.0,1463.6866072562086,-90.51245,-15.019583
@@ -53,8 +13,8 @@ al_shebab:
     PRIVATE: false
     SIGNPRIVATE: true
   invited: []
-  timeswarpedto: 20
-total: 42
+  timeswarpedto: 40
+total: 85
 cactus:
   owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
   location: world,-1031.8730484289074,1.0,3445.4878586337186,0.7126465,1.0356176
@@ -62,4 +22,20 @@ cactus:
     PRIVATE: false
     SIGNPRIVATE: true
   invited: []
-  timeswarpedto: 41
+  timeswarpedto: 46
+vote:
+  owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  location: world,2.5077686572023503,73.0,24.957072480110163,-0.49296445,-0.8199056
+  flags:
+    PRIVATE: false
+    SIGNPRIVATE: true
+  invited: []
+  timeswarpedto: 0
+market:
+  owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  location: world,33.29549089532978,73.0,39.9740633718194,-90.9379,-2.072359
+  flags:
+    PRIVATE: false
+    SIGNPRIVATE: true
+  invited: []
+  timeswarpedto: 60

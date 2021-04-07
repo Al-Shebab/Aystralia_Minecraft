@@ -20,7 +20,7 @@ Mobs:
     Max Stack Size: -1
     Kill Whole Stack: false
   ZOMBIE_VILLAGER:
-    Enabled: true
+    Enabled: false
     Display Name: Zombie villager
     Max Stack Size: -1
     Kill Whole Stack: false
@@ -240,7 +240,7 @@ Mobs:
     Max Stack Size: -1
     Kill Whole Stack: false
   VILLAGER:
-    Enabled: true
+    Enabled: false
     Display Name: Villager
     Max Stack Size: -1
     Kill Whole Stack: false

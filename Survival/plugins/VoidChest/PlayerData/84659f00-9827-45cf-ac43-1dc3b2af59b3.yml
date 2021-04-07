@@ -1,0 +1,22 @@
+name: PMJP
+booster:
+  multiplier: 1.0
+  time: 0
+chests:
+  '0':
+    name: default
+    location:
+      world: world
+      x: -4622
+      y: 77
+      z: 6151
+    money: 108.0
+    items-sold: 54
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1617791950112

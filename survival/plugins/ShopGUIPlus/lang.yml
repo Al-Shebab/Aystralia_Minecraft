@@ -75,7 +75,7 @@ MSG:
   INVALIDITEM: Item with ID &c%item%&f not found in &c%shop%&f.
   NOACCESSTOSHOP: You don't have access to &c%shop%&f shop.
   NODIRECTACCESSTOSHOP: You can't access the &c%shop%&f shop.
-  MAINMENUDISABLED: You can't use this command. Please use /shop <id> instead.
+  MAINMENUDISABLED: You must be at the market! /warp market.
   WORLDBLACKLISTED: You can't access %shop% in this world.
   WORLDBANNED: You can't access the shop in this world.
   WORLDBANNEDTARGET: '%player% can''t access the shop in that world.'

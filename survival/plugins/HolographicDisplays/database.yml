@@ -25,3 +25,51 @@ spawn:
   lines:
   - '&b&lSpawn Manager'
   - '&fUse me to start playing!'
+basics:
+  location: world, 45.500, 78.000, 50.500
+  lines:
+  - '&b&lBasics'
+nether:
+  location: world, 45.500, 78.000, 46.500
+  lines:
+  - '&b&lNether Items'
+brewing:
+  location: world, 45.500, 78.000, 42.500
+  lines:
+  - '&b&lBrewing'
+mob-drops:
+  location: world, 45.500, 78.000, 38.500
+  lines:
+  - '&b&lMob Drops'
+organics:
+  location: world, 45.500, 78.000, 34.500
+  lines:
+  - '&b&lOrganics'
+redstone:
+  location: world, 45.500, 78.000, 30.500
+  lines:
+  - '&b&lRedstone'
+aquatics:
+  location: world, 49.500, 78.000, 30.500
+  lines:
+  - '&b&lAquatics'
+food:
+  location: world, 49.500, 78.000, 34.500
+  lines:
+  - '&b&lFood'
+dyes:
+  location: world, 49.500, 78.000, 38.500
+  lines:
+  - '&c&lD&6&ly&e&le&a&ls'
+spawners:
+  location: world, 49.500, 78.000, 42.500
+  lines:
+  - '&b&lSpawners'
+ores:
+  location: world, 49.500, 78.000, 46.500
+  lines:
+  - '&b&lOres'
+concrete:
+  location: world, 49.500, 78.000, 50.500
+  lines:
+  - '&b&lConcrete'

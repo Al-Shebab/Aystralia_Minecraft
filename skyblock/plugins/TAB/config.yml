@@ -17,7 +17,7 @@ header:
 footer:
   - ""
   - "&fPing: &b%ping%"
-  - "&fTPS: &b%tps%"
+  - "&fTPS: &b%server_tps_1%"
   - "&b%time%"
   - "%animation:NAME%"
 
@@ -28,11 +28,12 @@ yellow-number-in-tablist: ""
 group-sorting-priority-list:
   - owner
   - community-manager
+  - server-manager
   - staff-manager
   - developer
   - trial-developer
   - senior-administrator
-  - administator
+  - administrator
   - senior-moderator
   - moderator
   - trial-moderator
@@ -129,7 +130,7 @@ classic-vanilla-belowname:
   enabled: true
   
   #number or numeric placeholder, supports per-player placeholders
-  number: "%ping%"
+  number: "%player_ping%"
   
   #text after number, must be same on all players
   text: "ms"

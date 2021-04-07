@@ -1,5 +1,5 @@
 basics:
-  name: "&2&lBasics"
+  name: "&b&lMarket"
   fillItem:
     material: BLACK_STAINED_GLASS_PANE
     name: " "
@@ -7,196 +7,432 @@ basics:
     1:
       type: item
       item:
-        material: CRAFTING_TABLE
+        material: OAK_SAPLING
         quantity: 1
-      buyPrice: 150
-      slot: 10
+      sellPrice: 5
+      buyPrice: 50
+      slot: 0
     2:
       type: item
       item:
-        material: FURNACE
+        material: SPRUCE_SAPLING
         quantity: 1
-      buyPrice: 150
-      slot: 11
+      sellPrice: 5
+      buyPrice: 50
+      slot: 1
     3:
       type: item
       item:
-        material: CHEST
+        material: BIRCH_SAPLING
         quantity: 1
-      buyPrice: 300
-      slot: 12
+      sellPrice: 5
+      buyPrice: 50
+      slot: 2
     4:
       type: item
       item:
-        material: ENDER_CHEST
+        material: ACACIA_SAPLING
         quantity: 1
-      buyPrice: 800
-      slot: 13
+      sellPrice: 5
+      buyPrice: 50
+      slot: 3
     5:
       type: item
       item:
-        material: ENCHANTING_TABLE
+        material: JUNGLE_SAPLING
         quantity: 1
-      buyPrice: 500
-      slot: 14
+      sellPrice: 5
+      buyPrice: 12.5
+      slot: 4
     6:
       type: item
       item:
-        material: ANVIL
+        material: DARK_OAK_SAPLING
         quantity: 1
-      buyPrice: 500
-      slot: 15
+      sellPrice: 5
+      buyPrice: 12.5
+      slot: 5
     7:
       type: item
       item:
-        material: BREWING_STAND
+        material: OAK_LOG
         quantity: 1
-      buyPrice: 150
-      slot: 16
+      sellPrice: 5
+      buyPrice: 50
+      slot: 6
     8:
+      type: item
+      item:
+        material: SPRUCE_LOG
+        quantity: 1
+      sellPrice: 5
+      buyPrice: 50
+      slot: 7
+    9:
+      type: item
+      item:
+        material: BIRCH_LOG
+        quantity: 1
+      sellPrice: 5
+      buyPrice: 50
+      slot: 8
+    10:
+      type: item
+      item:
+        material: ACACIA_LOG
+        quantity: 1
+      sellPrice: 5
+      buyPrice: 50
+      slot: 9
+    11:
+      type: item
+      item:
+        material: JUNGLE_LOG
+        quantity: 1
+      sellPrice: 5
+      buyPrice: 50
+      slot: 10
+    12:
+      type: item
+      item:
+        material: DARK_OAK_LOG
+        quantity: 1
+      sellPrice: 5
+      buyPrice: 50
+      slot: 11
+    13:
+      type: item
+      item:
+        material: GRASS_BLOCK
+        quantity: 1
+      sellPrice: 5
+      buyPrice: 50
+      slot: 12
+    14:
+      type: item
+      item:
+        material: DIRT
+        quantity: 1
+      sellPrice: 5
+      buyPrice: 50
+      slot: 13
+    15:
+      type: item
+      item:
+        material: GRAVEL
+        quantity: 1
+      sellPrice: 2.5
+      buyPrice: 25
+      slot: 14
+    16:
+      type: item
+      item:
+        material: COBBLESTONE
+        quantity: 1
+      sellPrice: 0.5
+      buyPrice: 5
+      slot: 15
+    17:
+      type: item
+      item:
+        material: COARSE_DIRT
+        quantity: 1
+      sellPrice: 10
+      buyPrice: 100
+      slot: 16
+    18:
+      type: item
+      item:
+        material: SAND
+        quantity: 1
+      sellPrice: 5
+      buyPrice: 50
+      slot: 17
+    19:
       type: item
       item:
         material: GLASS
         quantity: 1
+      sellPrice: 0.5
+      buyPrice: 5
+      slot: 18
+    20:
+      type: item
+      item:
+        material: CHEST
+        quantity: 1
+      sellPrice: 10
       buyPrice: 100
       slot: 19
-    9:
+    21:
+      type: item
+      item:
+        material: CRAFTING_TABLE
+        quantity: 1
+      sellPrice: 5
+      buyPrice: 50
+      slot: 20
+    22:
+      type: item
+      item:
+        material: FURNACE
+        quantity: 1
+      sellPrice: 5
+      buyPrice: 50
+      slot: 21
+    23:
       type: item
       item:
         material: JUKEBOX
         quantity: 1
-      buyPrice: 500
-      slot: 20
-    10:
-      type: item
-      item:
-        material: HOPPER
-        quantity: 1
-      buyPrice: 200
-      slot: 21
-    11:
-      type: item
-      item:
-        material: TORCH
-        quantity: 1
-      buyPrice: 10
+      sellPrice: 25
+      buyPrice: 250
       slot: 22
-    12:
-      type: item
-      item:
-        material: OAK_SAPLING
-        quantity: 1
-      buyPrice: 10
-      slot: 23
-    13:
-      type: item
-      item:
-        material: SCAFFOLDING
-        quantity: 1
-      buyPrice: 30
-      slot: 24
-    14:
-      type: item
-      item:
-        material: BARREL
-        quantity: 1
-      buyPrice: 120
-      slot: 25
-    15:
-      type: item
-      item:
-        material: COMPOSTER
-        quantity: 1
-      buyPrice: 360
-      slot: 28
-    16:
-      type: item
-      item:
-        material: SMOKER
-        quantity: 1
-      buyPrice: 360
-      slot: 29
-    17:
-      type: item
-      item:
-        material: BLAST_FURNACE
-        quantity: 1
-      buyPrice: 360
-      slot: 30
-    18:
-      type: item
-      item:
-        material: LOOM
-        quantity: 1
-      buyPrice: 360
-      slot: 31
-    19:
-      type: item
-      item:
-        material: GRINDSTONE
-        quantity: 1
-      buyPrice: 360
-      slot: 32
-    20:
-      type: item
-      item:
-        material: BELL
-        quantity: 1
-      buyPrice: 360
-      slot: 33
-    21:
-      type: item
-      item:
-        material: STONECUTTER
-        quantity: 1
-      buyPrice: 360
-      slot: 34
-    22:
-      type: item
-      item:
-        material: FLETCHING_TABLE
-        quantity: 1
-      buyPrice: 360
-      slot: 39
-    26:
-      type: item
-      item:
-        material: SMITHING_TABLE
-        quantity: 1
-      buyPrice: 360
-      slot: 42
-    23:
-      type: item
-      item:
-        material: CAMPFIRE
-        quantity: 1
-      buyPrice: 360
-      slot: 40
     24:
-      type: item
-      item:
-        material: LANTERN
-        quantity: 1
-      buyPrice: 360
-      slot: 41
-    25:
-      type: item
-      item:
-        material: TNT
-        quantity: 1
-      buyPrice: 100
-      slot: 38
-    27:
       type: item
       item:
         material: BOOKSHELF
         quantity: 1
+      sellPrice: 10
+      buyPrice: 100
+      slot: 23
+    25:
+      type: item
+      item:
+        material: ENCHANTING_TABLE
+        quantity: 1
+      sellPrice: 50
+      buyPrice: 500
+      slot: 24
+    26:
+      type: item
+      item:
+        material: SCAFFOLDING
+        quantity: 1
+      sellPrice: 2.5
+      buyPrice: 25
+      slot: 25
+    27:
+      type: item
+      item:
+        material: ENDER_CHEST
+        quantity: 1
+      sellPrice: 100
       buyPrice: 1000
-      slot: 37
+      slot: 26
     28:
+      type: item
+      item:
+        material: CAULDRON
+        quantity: 1
+      sellPrice: 50
+      buyPrice: 500
+      slot: 27
+    29:
+      type: item
+      item:
+        material: BREWING_STAND
+        quantity: 1
+      sellPrice: 50
+      buyPrice: 500
+      slot: 28
+    30:
+      type: item
+      item:
+        material: COMPOSTER
+        quantity: 1
+      sellPrice: 15
+      buyPrice: 150
+      slot: 29
+    31:
+      type: item
+      item:
+        material: BLAST_FURNACE
+        quantity: 1
+      sellPrice: 35
+      buyPrice: 350
+      slot: 30
+    32:
+      type: item
+      item:
+        material: SMOKER
+        quantity: 1
+      sellPrice: 35
+      buyPrice: 350
+      slot: 31
+    33:
+      type: item
+      item:
+        material: BARREL
+        quantity: 1
+      sellPrice: 15
+      buyPrice: 150
+      slot: 32
+    34:
+      type: item
+      item:
+        material: FLETCHING_TABLE
+        quantity: 1
+      sellPrice: 15
+      buyPrice: 150
+      slot: 33
+    35:
+      type: item
+      item:
+        material: CARTOGRAPHY_TABLE
+        quantity: 1
+      sellPrice: 15
+      buyPrice: 150
+      slot: 34
+    36:
+      type: item
+      item:
+        material: GRINDSTONE
+        quantity: 1
+      sellPrice: 25
+      buyPrice: 250
+      slot: 35
+    37:
+      type: item
+      item:
+        material: LECTERN
+        quantity: 1
+      sellPrice: 25
+      buyPrice: 250
+      slot: 36
+    38:
+      type: item
+      item:
+        material: SMITHING_TABLE
+        quantity: 1
+      sellPrice: 25
+      buyPrice: 250
+      slot: 37
+    39:
+      type: item
+      item:
+        material: LOOM
+        quantity: 1
+      sellPrice: 15
+      buyPrice: 150
+      slot: 38
+    40:
+      type: item
+      item:
+        material: STONECUTTER
+        quantity: 1
+      sellPrice: 15
+      buyPrice: 150
+      slot: 39
+    41:
+      type: item
+      item:
+        material: BELL
+        quantity: 1
+      sellPrice: 75
+      buyPrice: 750
+      slot: 40
+    42:
+      type: item
+      item:
+        material: BEE_NEST
+        quantity: 1
+      sellPrice: 25
+      buyPrice: 250
+      slot: 41
+    43:
+      type: item
+      item:
+        material: BEEHIVE
+        quantity: 1
+      sellPrice: 25
+      buyPrice: 250
+      slot: 42
+    44:
+      type: item
+      item:
+        material: CLAY
+        quantity: 1
+      sellPrice: 10
+      buyPrice: 100
+      slot: 43
+    45:
+      type: item
+      item:
+        material: BOOK
+        quantity: 1
+      sellPrice: 15
+      buyPrice: 150
+      slot: 44
+    46:
       type: item
       item:
         material: ITEM_FRAME
         quantity: 1
-      buyPrice: 100
-      slot:  43
+      sellPrice: 15
+      buyPrice: 150
+      slot: 45
+    47:
+      type: item
+      item:
+        material: FLOWER_POT
+        quantity: 1
+      sellPrice: 5
+      buyPrice: 50
+      slot: 46
+    48:
+      type: item
+      item:
+        material: PAINTING
+        quantity: 1
+      sellPrice: 5
+      buyPrice: 50
+      slot: 47
+    49:
+      type: item
+      item:
+        material: CAMPFIRE
+        quantity: 1
+      sellPrice: 5
+      buyPrice: 50
+      slot: 48
+    50:
+      type: item
+      item:
+        material: LANTERN
+        quantity: 1
+      sellPrice: 15
+      buyPrice: 150
+      slot: 49
+    51:
+      type: item
+      item:
+        material: ANVIL
+        quantity: 1
+      sellPrice: 50
+      buyPrice: 500
+      slot: 50
+    52:
+      type: item
+      item:
+        material: WHITE_BED
+        quantity: 1
+      sellPrice: 25
+      buyPrice: 250
+      slot: 51
+    53:
+      type: item
+      item:
+        material: LADDER
+        quantity: 1
+      sellPrice: 5
+      buyPrice: 50
+      slot: 52
+    54:
+      type: item
+      item:
+        material: RAIL
+        quantity: 16
+      sellPrice: 0
+      buyPrice: 150
+      slot: 53

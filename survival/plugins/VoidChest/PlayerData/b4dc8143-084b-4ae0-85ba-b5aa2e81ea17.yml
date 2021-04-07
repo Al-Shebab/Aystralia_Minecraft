@@ -7,16 +7,16 @@ chests:
     name: default
     location:
       world: world
-      x: -4860
-      y: 79
-      z: -4242
-    money: 744.7999999999998
-    items-sold: 1773
+      x: -4840
+      y: 75
+      z: -4233
+    money: 453701.0
+    items-sold: 52101
     items-purged: 0
     autosell: true
     purge-items: false
-    hologram: true
+    hologram: false
     chunk-collector: true
     bank: true
     charge:
-      time: 1617425198628
+      time: 1617792250133

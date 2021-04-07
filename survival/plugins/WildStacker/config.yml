@@ -211,7 +211,7 @@ entities:
   # You can use 'all' as a global limit (all: 20 will set all entities to be limited to 20 per stack)
   # If you don't want any limits, you can set a random type.
   limits:
-    all: 100
+    aasccasll: 100
 
   # Set a minimum required entities to stack for specific entities.
   # Make sure you follow the "ENTITY-TYPE" format.
@@ -447,7 +447,7 @@ entities:
 
   # Should damage be spread to the next stack?
   # If you deal more damage than the health of the entity, the rest of the damage will be dealt to the next stack.
-  spread-damage: false
+  spread-damage: true
 
 # Here you can configurable all features related to stacked spawners.
 spawners:
@@ -483,7 +483,7 @@ spawners:
   # You can use 'all' as a global limit (all: 20 will set all spawners to be limited to 20 per stack)
   # If you don't want any limits, you can set a random type.
   limits:
-    all: 100
+    alsdavasl: 100
 
   # A list of worlds spawners won't get stacked inside them (case-sensitive)
   disabled-worlds:
@@ -620,7 +620,7 @@ spawners:
       multiply-stack-amount: false
 
   # When enabled, players will be able to change spawners by clicking them with spawn eggs.
-  change-using-eggs: true
+  change-using-eggs: false
 
   # When enabled and change-using-eggs is enabled, the amount of eggs that will be required to change
   # a spawner would be the same as the stack size of the spawner.

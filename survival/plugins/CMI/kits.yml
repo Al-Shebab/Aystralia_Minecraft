@@ -231,3 +231,8 @@ oi:
   CommandName: oi
   Enabled: false
   Delay: 10
+Head:
+  CommandName: Head
+  Delay: 604800
+  Commands:
+  - cmi head [playerName]

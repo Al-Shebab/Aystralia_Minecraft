@@ -1,10 +1,11 @@
-BlatantlyHacking:
-  Leader: 0eb5bf90-9ee5-4094-9bc4-811526ad9b84|Proximity__
+Morning_Woods:
+  Leader: b4dc8143-084b-4ae0-85ba-b5aa2e81ea17|bigbulkcat
+  Password: DaBaby69
   Locked: true
   Level: 10
-  Xp: 3930
+  Xp: 4410
   Ally: ''
-  ExpShareMode: NONE
+  ExpShareMode: EQUAL
   ItemShareMode: NONE
   ItemShareType:
     LOOT: true
@@ -13,7 +14,7 @@ BlatantlyHacking:
     WOODCUTTING: true
     MISC: true
   Members:
-  - 0eb5bf90-9ee5-4094-9bc4-811526ad9b84|Proximity__
-  - c872d6d8-2a9e-4c73-b992-552d648f87ce|Hijinks_
-  - fd1ec135-d459-4b66-9190-6ea90b2d9753|radroan
-  - a8aa1edf-82de-4542-a4c6-cf80e31144fe|Katsora
+  - b4dc8143-084b-4ae0-85ba-b5aa2e81ea17|bigbulkcat
+  - 48694fa9-fd64-416c-bb1d-38fad623c081|NotGroot
+  - 16ebbcfd-4681-4e74-a44d-5662cfb13c09|MrTaco76
+  - 9fe712c8-e226-49fb-92ed-c7edf5660b4b|Brazi

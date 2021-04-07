@@ -13,7 +13,7 @@ LootMobBonus:
 useDefaultHeadLore: true
 # Default lore used when head doesnt have defined head lore set
 defaultHeadLore:
-- '&7Killed by &6[playerName]'
+- '&fKilled by &b[playerName]'
 # Custom heads of every entity
 # You can have as many custom heads as you want
 # Format is [dropChance]:[texture]

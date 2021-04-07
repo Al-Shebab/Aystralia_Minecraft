@@ -11,7 +11,7 @@ spawners:
           mob: PIG
           name: "&bPig Spawner"
           quantity: 1
-        buyPrice: 100000
+        buyPrice: 300000
         slot: 10
     2:
         type: item
@@ -20,7 +20,7 @@ spawners:
           mob: SHEEP
           name: "&bSheep Spawner"
           quantity: 1
-        buyPrice: 100000
+        buyPrice: 300000
         slot: 11
     3:
         type: item
@@ -29,7 +29,7 @@ spawners:
           mob: COW
           name: "&bCow Spawner"
           quantity: 1
-        buyPrice: 100000
+        buyPrice: 300000
         slot: 12
     4:
         type: item
@@ -38,7 +38,7 @@ spawners:
           mob: CHICKEN
           name: "&bChicken Spawner"
           quantity: 1
-        buyPrice: 100000
+        buyPrice: 300000
         slot: 13
     5:
         type: item
@@ -47,7 +47,7 @@ spawners:
           mob: ZOMBIE
           name: "&cZombie Spawner"
           quantity: 1
-        buyPrice: 250000
+        buyPrice: 750000
         slot: 19
     6:
         type: item
@@ -56,7 +56,7 @@ spawners:
           mob: SKELETON
           name: "&cSkeleton Spawner"
           quantity: 1
-        buyPrice: 250000
+        buyPrice: 750000
         slot: 20
     7:
         type: item
@@ -65,7 +65,7 @@ spawners:
           mob: CREEPER
           name: "&cCreeper Spawner"
           quantity: 1
-        buyPrice: 250000
+        buyPrice: 750000
         slot: 21
     8:
         type: item
@@ -74,7 +74,7 @@ spawners:
           mob: BLAZE
           name: "&cBlaze Spawner"
           quantity: 1
-        buyPrice: 250000
+        buyPrice: 750000
         slot: 22
     9:
         type: item
@@ -83,7 +83,7 @@ spawners:
           mob: ENDERMAN
           name: "&cEnderman Spawner"
           quantity: 1
-        buyPrice: 250000
+        buyPrice: 750000
         slot: 23
     10:
         type: item
@@ -92,7 +92,7 @@ spawners:
           mob: SQUID
           name: "&bSquid Spawner"
           quantity: 1
-        buyPrice: 100000
+        buyPrice: 300000
         slot: 14
     11:
         type: item
@@ -101,7 +101,7 @@ spawners:
           mob: SPIDER
           name: "&cSpider Spawner"
           quantity: 1
-        buyPrice: 250000
+        buyPrice: 750000
         slot: 24
     12:
         type: item
@@ -110,7 +110,7 @@ spawners:
           mob: SLIME
           name: "&cSlime Spawner"
           quantity: 1
-        buyPrice: 250000
+        buyPrice: 750000
         slot: 25
     13:
         type: item
@@ -119,7 +119,7 @@ spawners:
           mob: IRON_GOLEM
           name: "&6Iron Golem Spawner"
           quantity: 1
-        buyPrice: 1000000
+        buyPrice: 3000000
         slot: 28
     14:
         type: item
@@ -128,5 +128,5 @@ spawners:
           mob: ZOMBIFIED_PIGLIN
           name: "&6Zombie Pigman Spawner"
           quantity: 1
-        buyPrice: 250000
+        buyPrice: 750000
         slot: 29

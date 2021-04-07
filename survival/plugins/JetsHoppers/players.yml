@@ -3,12 +3,26 @@
 #    hopperconfig,world,xpos,ypos,zpos,worldforchest/hopper,xpos,ypos,zpos,level,itemstransfered,dateplaced,hoppertpenabled,blockeswhitelisted,blocksblacklisted
 Players:
   fda1973c-f476-4fa8-9ca0-805ec201377d:
-  - II,world,3833,66,4036,null,null,null,null,II,36,1617078411468,false,null,null,BLACKLIST,true
-  - I,world,3833,64,4036,world,3833,63,4036,I,81,1617078418574,false,null,null,BLACKLIST,true
+  - I,world,3839,66,4019,null,null,null,null,I,0,1617756956938,false,null,null,BLACKLIST,true
+  - I,world,3838,64,4019,null,null,null,null,I,0,1617756931741,false,null,null,BLACKLIST,true
+  - II,world,3833,66,4036,null,null,null,null,II,49,1617078411468,false,null,null,BLACKLIST,true
+  - I,world,3839,67,4019,null,null,null,null,I,1,1617756960741,false,null,null,BLACKLIST,true
+  - I,world,3839,63,4019,null,null,null,null,I,0,1617756925803,false,null,null,BLACKLIST,true
+  - I,world,3841,66,4019,null,null,null,null,I,0,1617756957750,false,null,null,BLACKLIST,true
+  - I,world,3833,64,4036,world,3833,63,4036,I,91,1617078418574,false,null,null,BLACKLIST,true
+  - I,world,3840,63,4019,null,null,null,null,I,0,1617756926089,false,null,null,BLACKLIST,true
+  - I,world,3841,63,4019,null,null,null,null,I,0,1617756926744,false,null,null,BLACKLIST,true
+  - I,world,3841,67,4019,null,null,null,null,I,0,1617756963041,false,null,null,BLACKLIST,true
+  - I,world,3840,65,4019,null,null,null,null,I,0,1617756972139,false,null,null,BLACKLIST,true
+  - I,world,3842,64,4019,null,null,null,null,I,0,1617756930790,false,null,null,BLACKLIST,true
   f4d5e1b8-43e7-47eb-9b3b-21d66b202af7:
   - IV,world,3332,46,-6890,null,null,null,null,IV,166,1617283547945,false,null,null,BLACKLIST,true
   b4dc8143-084b-4ae0-85ba-b5aa2e81ea17:
-  - I,world,-4858,25,-4241,world,-4858,25,-4237,I,268,1617402374787,true,null,null,BLACKLIST,true
-  - I,world,-4865,78,-4245,world,-4860,79,-4242,I,169,1617360414711,false,null,null,BLACKLIST,true
+  - I,world,-4862,67,-4188,world,-4862,71,-4182,I,223,1617528960048,false,null,null,BLACKLIST,true
+  - I,world,-4858,25,-4241,world,-4858,25,-4237,I,1710,1617402374787,true,null,null,BLACKLIST,true
   9fe712c8-e226-49fb-92ed-c7edf5660b4b:
-  - I,world,-4842,66,-4228,world,-4842,75,-4228,I,3683,1617413231885,false,null,null,BLACKLIST,true
+  - II,world,-4842,52,-4228,world,-4840,76,-4234,II,109466,1617603855094,false,null,null,BLACKLIST,false
+  48694fa9-fd64-416c-bb1d-38fad623c081:
+  - I,world,-4833,70,-4013,null,null,null,null,I,21,1617516778466,false,null,null,BLACKLIST,true
+  - I,world_the_end,276,1,0,null,null,null,null,I,147,1617734932138,false,null,null,BLACKLIST,true
+  - I,world_nether,-675,128,-633,world_nether,-673,128,-641,I,3362,1617771516811,false,null,null,BLACKLIST,true
