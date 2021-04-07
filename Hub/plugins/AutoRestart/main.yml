@@ -26,7 +26,7 @@ main:
         ## Set the timestamp in 24 hour time format HH:MM
         ## Multiple timestamps allowed
         timestamp:
-            - '03:30'
+            - '12:00'
     ## Server wide prefix for all chat broadcasts
     prefix: '&B&lRestart &8>&f '
     ## Client restart message in game chat

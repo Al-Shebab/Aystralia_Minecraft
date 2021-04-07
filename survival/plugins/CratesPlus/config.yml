@@ -142,6 +142,7 @@ Crates:
         Percentage: 0.1
         Commands:
         - crate key %name% aystralia 1
+        - cmi broadcast !&b&l%name% &f&ljust won an &b&lAystralia Crate Key
         Name: '&c&ki&f&ki &cAystralia &fCrate Key &f&ki&c&ki'
         Item Data: 0
         Amount: 1

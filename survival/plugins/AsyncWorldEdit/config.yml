@@ -193,7 +193,7 @@ awe:
       #that do not have any other permission groups assigned to them.
       isDefault: true
       #Maximum number of jobs a player can have. -1 = no job limit
-      maxJobs: 1
+      maxJobs: -1
       #Enable or disable auto job cancellation on player quit
       cleanOnLogout: true
       #Default AWE status for logging in players 
@@ -203,21 +203,21 @@ awe:
       renderer:
         #blocks to place (per-interval), this determines the max speed of block placing
         #if you experience lag lower this and the next number (time), use -1 for no limit
-        blocks: 10000
+        blocks: -1
         #Maximum number of milliseconds spend on placing blocks, use -1 for no limit
         time: 75
       queue:
         #maximum size of the player block queue
-        limit-hard: 500000
+        limit-hard: 500000000
         #number of blocks on the player queue when to stop placing blocks
-        limit-soft: 250000
+        limit-soft: 250000000
       messages:
         #Whether or not to show progress using BarAPI
         progress-bar: true
         #minimum number of blocks to display the progress bar
         progress-bar-min: 100
         #Whether or not to show progress using the chat messages
-        progress-chat: true
+        progress-chat: false
         #is async world edit talkative 
         talkative: true
       #The WorldEdit config override
@@ -227,67 +227,7 @@ awe:
         #Maximum number of changed blocks
         maxBlockChanged: -1
         #List of disallowed block ID
-        disallowed-blocks:
-        - "minecraft:oak_sapling"
-        - "minecraft:jungle_sapling"
-        - "minecraft:dark_oak_sapling"
-        - "minecraft:spruce_sapling"
-        - "minecraft:birch_sapling"
-        - "minecraft:acacia_sapling"
-        - "minecraft:black_bed"
-        - "minecraft:blue_bed"
-        - "minecraft:brown_bed"
-        - "minecraft:cyan_bed"
-        - "minecraft:gray_bed"
-        - "minecraft:green_bed"
-        - "minecraft:light_blue_bed"
-        - "minecraft:light_gray_bed"
-        - "minecraft:lime_bed"
-        - "minecraft:magenta_bed"
-        - "minecraft:orange_bed"
-        - "minecraft:pink_bed"
-        - "minecraft:purple_bed"
-        - "minecraft:red_bed"
-        - "minecraft:white_bed"
-        - "minecraft:yellow_bed"
-        - "minecraft:powered_rail"
-        - "minecraft:detector_rail"
-        - "minecraft:grass"
-        - "minecraft:dead_bush"
-        - "minecraft:moving_piston"
-        - "minecraft:piston_head"
-        - "minecraft:sunflower"
-        - "minecraft:rose_bush"
-        - "minecraft:dandelion"
-        - "minecraft:poppy"
-        - "minecraft:brown_mushroom"
-        - "minecraft:red_mushroom"
-        - "minecraft:tnt"
-        - "minecraft:torch"
-        - "minecraft:fire"
-        - "minecraft:redstone_wire"
-        - "minecraft:wheat"
-        - "minecraft:potatoes"
-        - "minecraft:carrots"
-        - "minecraft:melon_stem"
-        - "minecraft:pumpkin_stem"
-        - "minecraft:beetroots"
-        - "minecraft:rail"
-        - "minecraft:lever"
-        - "minecraft:redstone_torch"
-        - "minecraft:redstone_wall_torch"
-        - "minecraft:repeater"
-        - "minecraft:comparator"
-        - "minecraft:stone_button"
-        - "minecraft:birch_button"
-        - "minecraft:acacia_button"
-        - "minecraft:dark_oak_button"
-        - "minecraft:jungle_button"
-        - "minecraft:oak_button"
-        - "minecraft:spruce_button"
-        - "minecraft:cactus"
-        - "minecraft:sugar_cane"
-        - "minecraft:bedrock"
+        disallowed-blocks: {}
         #The disallowed black list handling
         disallowedBlocksUsage:
           #Use black list in patterns

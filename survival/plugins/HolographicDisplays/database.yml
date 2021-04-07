@@ -1,5 +1,5 @@
 vote:
-  location: world, 0.500, 74.500, 28.500
+  location: world, 2.500, 79.500, -7.500
   lines:
   - '&b&ki&f&ki&b Vote &fCrate &f&ki&b&ki'
   - '&bGet keys by voting via &f/vote'
@@ -9,67 +9,61 @@ cactus:
   - '&b&l/warp cactus'
   - '&fBuy some cactus for free'
   - '&fand use /sell all. Easy money.'
-construction:
-  location: world, 0.460, 77.200, 4.500
-  lines:
-  - '&e&lConstuction Site'
-  - '&fSpawn is currently being constucted'
-  - '&fBare with us'
 donator:
-  location: world, 4.500, 74.500, 28.500
+  location: world, -1.500, 79.500, -7.500
   lines:
   - '&c&ki&f&ki &c&lAystralia &f&lCrate &f&ki&c&ki'
   - '&fGet keys from &cComing Soon...'
 spawn:
-  location: world, 4.500, 76.000, 10.500
+  location: world, -6.500, 79.500, -4.500
   lines:
   - '&b&lSpawn Manager'
   - '&fUse me to start playing!'
 basics:
-  location: world, 45.500, 78.000, 50.500
+  location: world, 32.500, 69.000, -24.500
   lines:
   - '&b&lBasics'
 nether:
-  location: world, 45.500, 78.000, 46.500
+  location: world, 21.500, 69.000, -30.500
   lines:
   - '&b&lNether Items'
 brewing:
-  location: world, 45.500, 78.000, 42.500
+  location: world, 17.500, 69.000, -23.500
   lines:
   - '&b&lBrewing'
 mob-drops:
-  location: world, 45.500, 78.000, 38.500
+  location: world, 22.500, 69.000, -8.500
   lines:
   - '&b&lMob Drops'
 organics:
-  location: world, 45.500, 78.000, 34.500
+  location: world, 32.500, 69.000, -12.500
   lines:
   - '&b&lOrganics'
 redstone:
-  location: world, 45.500, 78.000, 30.500
+  location: world, 16.500, 69.000, -8.500
   lines:
   - '&b&lRedstone'
 aquatics:
-  location: world, 49.500, 78.000, 30.500
+  location: world, 15.500, 69.000, -30.500
   lines:
   - '&b&lAquatics'
 food:
-  location: world, 49.500, 78.000, 34.500
+  location: world, 17.500, 69.000, -14.500
   lines:
   - '&b&lFood'
 dyes:
-  location: world, 49.500, 78.000, 38.500
+  location: world, 28.500, 69.000, -8.500
   lines:
   - '&c&lD&6&ly&e&le&a&ls'
 spawners:
-  location: world, 49.500, 78.000, 42.500
+  location: world, 26.500, 69.000, -14.500
   lines:
   - '&b&lSpawners'
 ores:
-  location: world, 49.500, 78.000, 46.500
+  location: world, 32.500, 69.000, -18.500
   lines:
   - '&b&lOres'
 concrete:
-  location: world, 49.500, 78.000, 50.500
+  location: world, 26.500, 69.000, -23.500
   lines:
   - '&b&lConcrete'

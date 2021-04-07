@@ -50,7 +50,7 @@ ores:
         material: COAL_ORE
         quantity: 1
       sellPrice: 3
-      buyPrice: 150
+      buyPrice: 1500
       slot: 5
     7:
       type: item
@@ -58,7 +58,7 @@ ores:
         material: COAL
         quantity: 1
       sellPrice: 1
-      buyPrice: 50
+      buyPrice: 500
       slot: 6
     8:
       type: item
@@ -66,7 +66,7 @@ ores:
         material: IRON_ORE
         quantity: 1
       sellPrice: 15
-      buyPrice: 150
+      buyPrice: 1500
       slot: 7
     9:
       type: item
@@ -74,7 +74,7 @@ ores:
         material: IRON_INGOT
         quantity: 1
       sellPrice: 15
-      buyPrice: 150
+      buyPrice: 1500
       slot: 8
     10:
       type: item
@@ -82,7 +82,7 @@ ores:
         material: GOLD_ORE
         quantity: 1
       sellPrice: 20
-      buyPrice: 200
+      buyPrice: 500
       slot: 9
     11:
       type: item
@@ -90,7 +90,7 @@ ores:
         material: GOLD_INGOT
         quantity: 1
       sellPrice: 20
-      buyPrice: 200
+      buyPrice: 500
       slot: 10
     12:
       type: item
@@ -114,7 +114,7 @@ ores:
         material: EMERALD_ORE
         quantity: 1
       sellPrice: 50
-      buyPrice: 500
+      buyPrice: 5000
       slot: 13
     15:
       type: item
@@ -122,7 +122,7 @@ ores:
         material: EMERALD
         quantity: 1
       sellPrice: 3
-      buyPrice: 100
+      buyPrice: 1000
       slot: 14
     16:
       type: item
@@ -130,7 +130,7 @@ ores:
         material: LAPIS_ORE
         quantity: 1
       sellPrice: 50
-      buyPrice: 1000
+      buyPrice: 10000
       slot: 15
     17:
       type: item
@@ -138,7 +138,7 @@ ores:
         material: LAPIS_LAZULI
         quantity: 1
       sellPrice: 3
-      buyPrice: 500
+      buyPrice: 5000
       slot: 16
     18:
       type: item
@@ -146,7 +146,7 @@ ores:
         material: DIAMOND_ORE
         quantity: 1
       sellPrice: 150
-      buyPrice: 2500
+      buyPrice: 25000
       slot: 17
     19:
       type: item
@@ -154,7 +154,7 @@ ores:
         material: DIAMOND
         quantity: 1
       sellPrice: 100
-      buyPrice: 1000
+      buyPrice: 10000
       slot: 18
     20:
       type: item
@@ -162,7 +162,7 @@ ores:
         material: NETHER_QUARTZ_ORE
         quantity: 1
       sellPrice: 10
-      buyPrice: 300
+      buyPrice: 3000
       slot: 19
     21:
       type: item
@@ -170,7 +170,7 @@ ores:
         material: QUARTZ
         quantity: 1
       sellPrice: 1
-      buyPrice: 100
+      buyPrice: 1000
       slot: 20
     22:
       type: item
@@ -178,7 +178,7 @@ ores:
         material: NETHER_GOLD_ORE
         quantity: 1
       sellPrice: 10
-      buyPrice: 150
+      buyPrice: 1500
       slot: 21
     23:
       type: item
@@ -186,7 +186,7 @@ ores:
         material: ANCIENT_DEBRIS
         quantity: 1
       sellPrice: 150
-      buyPrice: 5000
+      buyPrice: 15000
       slot: 22
     24:
       type: item
@@ -194,5 +194,5 @@ ores:
         material: NETHERITE_INGOT
         quantity: 1
       sellPrice: 1000
-      buyPrice: 5000
+      buyPrice: 15000
       slot: 23

@@ -53,7 +53,7 @@ rewards:
     - money give %player% 2500
     - cratesplus key %player% vote 1
     - cmi tfly %player% +300
-    - cmi tppos 2.5 73.0 24.5 world 11.5 0 %player%
+    - cmi spawn %player%
     player-message: "&bThanks for voting. &fTo use your key go to &b/warp crates"
     broadcast-message: "&9&l%player% &fhas voted for us on &b&l%service%. &fThank you!"
 

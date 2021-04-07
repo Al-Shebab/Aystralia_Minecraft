@@ -9,7 +9,7 @@ redstone:
       item:
         material: REDSTONE_BLOCK
         quantity: 1
-      buyPrice: 1000
+      buyPrice: 900
       slot: 0
     2:
       type: item

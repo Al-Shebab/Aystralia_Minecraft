@@ -651,7 +651,7 @@ Alias:
   /select: false
   #  
   # /cmi sell $1-
-  /sell: true
+  /sell: false
   #  
   # /cmi sendall $1-
   /sendall: false

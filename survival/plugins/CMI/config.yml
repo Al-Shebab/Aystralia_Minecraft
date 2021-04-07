@@ -1265,10 +1265,10 @@ Spawn:
   Main:
     World: world
     X: 0.5
-    Y: 75.0
+    Y: 77.0
     Z: 0.5
-    Pitch: -0.8199056
-    Yaw: -0.49296445
+    Pitch: 0.2652735
+    Yaw: -179.79684
     RespawnLocation: false
     Rng: 0
   # Defines players first spawn point when he logs into server for the first time
@@ -1276,10 +1276,10 @@ Spawn:
     Use: true
     World: world
     X: 0.5
-    Y: 75.0
+    Y: 77.0
     Z: 0.5
-    Pitch: -0.8199056
-    Yaw: -0.49296445
+    Pitch: 0.2652735
+    Yaw: -179.79684
 Newbie:
   # Kit name to give for new players joining server
   Kit: Newbie
@@ -1786,7 +1786,7 @@ RandomTeleportation:
       minY: 62
       maxY: 256
   # How long force player to wait before using command again.
-  Cooldown: 600
+  Cooldown: 30
   # How many times to try find correct location for teleportation.
   # Keep it at low number, as player always can try again after delay
   MaxTries: 20
@@ -1834,7 +1834,6 @@ Enchanting:
       cutter: 5
       quick_charge: 3
       double_strike: 4
-      wildstackerglow: 1
       protection_projectile: 4
       sonic: 3
       impaling: 5
