@@ -89,8 +89,8 @@ food:
       item:
         material: golden_carrot
         quantity: 1
-      sellPrice: 5
-      buyPrice: 100
+      sellPrice: 1.5
+      buyPrice: 150
       slot: 10
     12:
       type: item

@@ -32,8 +32,7 @@ Economy:
   BalTop:
     # List of players to exclude from baltop list
     Exclude:
-    - Al_Shebab
-    - Callum22122
+    - Al_Shebabaaaa
     # When enabled baltop list will show short money values, like 12.5M instead of 12501234
     DisplayWithShorts: false
     # List of names to exclude from baltop

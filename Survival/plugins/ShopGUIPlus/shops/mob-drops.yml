@@ -129,16 +129,16 @@ mob-drops:
       item:
         material: rabbit_hide
         quantity: 1
-      sellPrice: 10
-      buyPrice: 100
+      sellPrice: 15
+      buyPrice: 150
       slot: 15
     17:
       type: item
       item:
         material: rabbit_foot
         quantity: 1
-      sellPrice: 10
-      buyPrice: 100
+      sellPrice: 15
+      buyPrice: 150
       slot: 16
     18:
       type: item
@@ -250,7 +250,7 @@ mob-drops:
         material: totem_of_undying
         quantity: 1
       sellPrice: 100
-      buyPrice: 10000
+      buyPrice: 100000
       slot: 30
     32:
       type: item
@@ -258,7 +258,7 @@ mob-drops:
         material: trident
         quantity: 1
       sellPrice: 100
-      buyPrice: 10000
+      buyPrice: 100000
       slot: 31
     33:
       type: item
@@ -266,7 +266,7 @@ mob-drops:
         material: shulker_shell
         quantity: 1
       sellPrice: 50
-      buyPrice: 5000
+      buyPrice: 50000
       slot: 32
     34:
       type: item
@@ -274,7 +274,7 @@ mob-drops:
         material: wither_skeleton_skull
         quantity: 1
       sellPrice: 25
-      buyPrice: 10000
+      buyPrice: 150000
       slot: 33
     35:
       type: item
@@ -282,7 +282,7 @@ mob-drops:
         material: nether_star
         quantity: 1
       sellPrice: 500
-      buyPrice: 50000
+      buyPrice: 500000
       slot: 34
     36:
       type: item
@@ -290,7 +290,7 @@ mob-drops:
         material: elytra
         quantity: 1
       sellPrice: 500
-      buyPrice: 50000
+      buyPrice: 150000
       slot: 35
     37:
       type: item

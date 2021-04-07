@@ -1,6 +1,6 @@
 # 
 # how often (in server ticks, 20 ticks = 1 second) should a new message be shown
-interval: 72000
+interval: 36000
 messages:
 - '&b&lInformation &8> &fThe server auto restarts at &b3am'
 - '&b&lInformation &8> &fJoin our discord! &b/discord'
@@ -8,7 +8,8 @@ messages:
 - '&b&lInformation &8> &fYou can disable these messages by using &b/broadcastignore'
 - '&b&lInformation &8> &fPlaying with friends? Create a party! &b/party'
 - '&b&lInformation &8> &fLooking to PVP? Fight at the arena &b/warp pvp'
-- '&b&lInformation &8> &fNeed more space? use your backpack &b/bp'
+- '&b&lInformation &8> &fNeed more space? Use your backpack &b/bp'
+- '&b&lInformation &8> &fGet some perks! &b/perks'
 - '&b&lInformation &8> &fSick of throwing stuff out? Throw it in the bin &b/bin'
 - '&b&lInformation &8> &fNeed help setting up a market stall? &b/signshop'
 - '&b&lInformation &8> &fVisit the auction house! &b/ah'
