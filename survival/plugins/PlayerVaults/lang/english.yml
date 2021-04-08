@@ -7,7 +7,7 @@
 # %m will be replaced by the blacklisted material (where applicable)
 # Made with love :)
 
-title-name: "&f[&bPlayerVaultsX&f]:"
+title-name: "&b&lVaults &8> &f"
 open-vault: "&fOpening vault &a%v"
 open-other-vault: "&fOpening vault &a%v &fof &a%p"
 delete-vault: "&fDeleted vault &a%v"
@@ -21,7 +21,7 @@ insufficient-funds: "&cYou don''t have enough money for that!"
 refund-amount: "&fYou were refunded &a%price &ffor deleting that vault."
 cost-to-create: "&fYou were charged &c%price &ffor creating a vault."
 cost-to-open: "&fYou were charged &c%price &ffor opening that vault."
-vault-title: "&4Vault #%number"
+vault-title: "&b&lVault &f#%number"
 existing-vaults: "&f%p has vaults: &a%v"
 no-owner-found: "&cCannot find vault owner: &a%p"
 plugin-not-found: "&cNo converter found for that plugin."
