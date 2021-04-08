@@ -1,1 +1,39 @@
 name: gunhunter1998
+booster:
+  multiplier: 1.0
+  time: 0
+chests:
+  '0':
+    name: default
+    location:
+      world: skyblock
+      x: -7988
+      y: 129
+      z: -10001
+    money: 22859.0
+    items-sold: 4943
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1617920171914
+  '1':
+    name: default
+    location:
+      world: skyblock
+      x: -7999
+      y: 126
+      z: -9997
+    money: 6328.599999999999
+    items-sold: 2642
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: false
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1617920171914

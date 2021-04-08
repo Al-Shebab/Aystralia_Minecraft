@@ -2,7 +2,7 @@ Main:
 
   # The speed in which a new stacks will be created.
   # It is advised to keep this number low.
-  Stack Search Tick Speed: 20
+  Stack Search Tick Speed: 100
 
   # Worlds that stacking doesn't happen in.
   Disabled Worlds:
@@ -27,7 +27,7 @@ Entities:
 
   # The minimum amount required before a stack can be formed.
   # Do not set this to lower than 2.
-  Min Stack Amount: 10
+  Min Stack Amount: 5
 
   # The maximum amount of each entity type stack allowed in a chunk.
   Max Per Type Stacks Per Chunk: -1

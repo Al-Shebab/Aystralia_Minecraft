@@ -1,1 +1,22 @@
 name: zDark_Cloudz
+booster:
+  multiplier: 1.0
+  time: 0
+chests:
+  '0':
+    name: default
+    location:
+      world: skyblock
+      x: -10006
+      y: 159
+      z: -9974
+    money: 13505.9
+    items-sold: 1016
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1617916511664

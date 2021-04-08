@@ -10,8 +10,8 @@ chests:
       x: 276
       y: 1
       z: 2
-    money: 10626.1
-    items-sold: 4362
+    money: 13957.1
+    items-sold: 4674
     items-purged: 0
     autosell: true
     purge-items: false
@@ -19,33 +19,16 @@ chests:
     chunk-collector: true
     bank: true
     charge:
-      time: 1617843380705
+      time: 1617920347059
   '1':
-    name: default
-    location:
-      world: world_nether
-      x: -694
-      y: 128
-      z: -639
-    money: 38883.5
-    items-sold: 5779
-    items-purged: 0
-    autosell: true
-    purge-items: false
-    hologram: true
-    chunk-collector: true
-    bank: true
-    charge:
-      time: 1617843380705
-  '2':
     name: default
     location:
       world: world_nether
       x: -679
       y: 128
       z: -650
-    money: 5296.0
-    items-sold: 1924
+    money: 59021.0
+    items-sold: 19029
     items-purged: 0
     autosell: true
     purge-items: false
@@ -53,4 +36,38 @@ chests:
     chunk-collector: true
     bank: true
     charge:
-      time: 1617843380705
+      time: 1617920347059
+  '2':
+    name: default
+    location:
+      world: world
+      x: -4847
+      y: 68
+      z: -4252
+    money: 5715.5
+    items-sold: 580
+    items-purged: 3
+    autosell: true
+    purge-items: false
+    hologram: false
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1617920347059
+  '3':
+    name: default
+    location:
+      world: world_nether
+      x: -693
+      y: 129
+      z: -637
+    money: 2911.0
+    items-sold: 639
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1617920347059

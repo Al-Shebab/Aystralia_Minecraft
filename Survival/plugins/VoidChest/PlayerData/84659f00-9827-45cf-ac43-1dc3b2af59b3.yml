@@ -15,8 +15,8 @@ chests:
     items-purged: 2
     autosell: true
     purge-items: true
-    hologram: true
+    hologram: false
     chunk-collector: true
     bank: true
     charge:
-      time: 1617814100954
+      time: 1617876015645

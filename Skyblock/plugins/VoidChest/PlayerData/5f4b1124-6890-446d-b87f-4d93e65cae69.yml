@@ -1,1 +1,22 @@
 name: Slastro__
+booster:
+  multiplier: 1.0
+  time: 0
+chests:
+  '0':
+    name: default
+    location:
+      world: skyblock
+      x: -3998
+      y: 126
+      z: -10004
+    money: 0.0
+    items-sold: 0
+    items-purged: 0
+    autosell: true
+    purge-items: false
+    hologram: true
+    chunk-collector: true
+    bank: true
+    charge:
+      time: 1617916858364

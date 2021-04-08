@@ -3,29 +3,33 @@
 #    hopperconfig,world,xpos,ypos,zpos,worldforchest/hopper,xpos,ypos,zpos,level,itemstransfered,dateplaced,hoppertpenabled,blockeswhitelisted,blocksblacklisted
 Players:
   fda1973c-f476-4fa8-9ca0-805ec201377d:
-  - I,world,3842,63,4019,null,null,null,null,I,0,1617832042144,false,null,null,BLACKLIST,true
-  - I,world,3839,66,4019,null,null,null,null,I,0,1617756956938,false,null,null,BLACKLIST,true
-  - I,world,3838,64,4019,null,null,null,null,I,0,1617756931741,false,null,null,BLACKLIST,true
-  - II,world,3833,66,4036,null,null,null,null,II,49,1617078411468,false,null,null,BLACKLIST,true
-  - I,world,3839,67,4019,null,null,null,null,I,1,1617756960741,false,null,null,BLACKLIST,true
-  - I,world,3832,64,4036,null,null,null,null,I,94,1617840184584,false,null,null,BLACKLIST,true
-  - I,world,3839,63,4019,null,null,null,null,I,0,1617756925803,false,null,null,BLACKLIST,true
-  - I,world,3841,66,4019,null,null,null,null,I,0,1617756957750,false,null,null,BLACKLIST,true
-  - I,world,3840,63,4019,null,null,null,null,I,0,1617756926089,false,null,null,BLACKLIST,true
-  - I,world,3841,63,4019,null,null,null,null,I,0,1617756926744,false,null,null,BLACKLIST,true
-  - I,world,3841,67,4019,null,null,null,null,I,0,1617756963041,false,null,null,BLACKLIST,true
-  - I,world,3840,65,4019,null,null,null,null,I,0,1617756972139,false,null,null,BLACKLIST,true
-  - I,world,3842,64,4019,null,null,null,null,I,0,1617756930790,false,null,null,BLACKLIST,true
+  - I,world,3812,61,4017,null,null,null,null,I,14,1617912012722,false,null,null,BLACKLIST,true
+  - I,world,3812,61,4016,null,null,null,null,I,0,1617912028469,false,null,null,BLACKLIST,true
+  - I,world,3812,61,4015,null,null,null,null,I,2,1617912036575,false,null,null,BLACKLIST,true
+  - II,world,3833,66,4036,null,null,null,null,II,52,1617078411468,false,null,null,BLACKLIST,true
+  - I,world,3812,61,4018,null,null,null,null,I,13,1617912010824,false,null,null,BLACKLIST,true
+  - I,world,3812,61,4019,null,null,null,null,I,76,1617911982920,false,null,null,BLACKLIST,true
+  - I,world,3812,60,4019,null,null,null,null,I,0,1617912007725,false,null,null,BLACKLIST,true
+  - I,world,3812,60,4017,null,null,null,null,I,13,1617912004621,false,null,null,BLACKLIST,true
+  - I,world,3812,60,4018,null,null,null,null,I,3,1617912006721,false,null,null,BLACKLIST,true
+  - I,world,3812,60,4016,null,null,null,null,I,0,1617912021975,false,null,null,BLACKLIST,true
+  - I,world,3812,60,4015,null,null,null,null,I,0,1617912030421,false,null,null,BLACKLIST,true
+  - I,world,3832,64,4036,null,null,null,null,I,158,1617840184584,false,null,null,BLACKLIST,true
   f4d5e1b8-43e7-47eb-9b3b-21d66b202af7:
   - IV,world,3332,46,-6890,null,null,null,null,IV,166,1617283547945,false,null,null,BLACKLIST,true
   b4dc8143-084b-4ae0-85ba-b5aa2e81ea17:
+  - II,world,-4846,69,-4253,world,-4831,79,-4245,II,429,1617859310378,true,null,null,BLACKLIST,false
   - I,world,-4862,67,-4188,world,-4862,71,-4182,I,223,1617528960048,false,null,null,BLACKLIST,true
-  - I,world,-4858,25,-4241,world,-4858,25,-4237,I,1744,1617402374787,true,null,null,BLACKLIST,true
-  - II,world,-4796,82,-4240,world,-4799,86,-4241,II,254,1617828145197,false,null,null,BLACKLIST,true
+  - I,world,-4831,79,-4245,world,-4840,75,-4233,I,1762,1617859445978,false,null,null,BLACKLIST,false
   9fe712c8-e226-49fb-92ed-c7edf5660b4b:
-  - II,world,-4842,52,-4228,world,-4840,76,-4234,II,134116,1617603855094,false,null,null,BLACKLIST,false
+  - II,world,-4842,52,-4228,world,-4840,76,-4234,II,155510,1617603855094,false,null,null,BLACKLIST,false
+  - I,world,-4840,75,-4236,world,-4842,80,-4222,I,14151,1617858582655,false,null,null,BLACKLIST,false
+  - I,world,-4846,69,-4251,world,-4840,75,-4236,I,2,1617859080591,false,null,null,BLACKLIST,true
   48694fa9-fd64-416c-bb1d-38fad623c081:
+  - I,world_nether,-675,128,-633,world_nether,-679,128,-650,I,20230,1617771516811,false,null,null,BLACKLIST,true
+  - I,world_nether,-694,128,-633,world_nether,-694,130,-637,I,13831,1617818114736,false,null,null,BLACKLIST,true
   - I,world,-4833,70,-4013,null,null,null,null,I,21,1617516778466,false,null,null,BLACKLIST,true
-  - I,world_the_end,276,1,0,null,null,null,null,I,382,1617734932138,false,null,null,BLACKLIST,true
-  - I,world_nether,-675,128,-633,world_nether,-679,128,-650,I,11412,1617771516811,false,null,null,BLACKLIST,true
-  - I,world_nether,-694,128,-633,world_nether,-694,128,-639,I,5455,1617818114736,false,null,null,BLACKLIST,true
+  - I,world_the_end,276,1,0,null,null,null,null,I,446,1617734932138,false,null,null,BLACKLIST,true
+  - I,world,-4843,49,-4255,world,-4842,72,-4253,I,60,1617858128034,false,Uk9UVEVOX0ZMRVNIfG51bGw=:,Uk9UVEVOX0ZMRVNIfG51bGw=:,WHITELIST,false
+  c346832f-c959-40ea-8a8d-da42aecc40bb:
+  - I,world,-4477,106,-4776,null,null,null,null,I,0,1617850770801,false,null,null,BLACKLIST,false

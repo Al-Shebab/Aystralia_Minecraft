@@ -6,12 +6,12 @@ chests:
   '0':
     name: default
     location:
-      world: world
-      x: -4439
-      y: 84
-      z: -4748
-    money: 7419.5
-    items-sold: 751
+      world: world_nether
+      x: -696
+      y: 129
+      z: -637
+    money: 2693.0
+    items-sold: 581
     items-purged: 0
     autosell: true
     purge-items: false
@@ -19,4 +19,4 @@ chests:
     chunk-collector: true
     bank: true
     charge:
-      time: 1617844591554
+      time: 1617920339454

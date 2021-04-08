@@ -182,8 +182,8 @@ world:
     LEVER: 200
     RIDING: 400
     HURT_MONSTERS: 0
-    ARMOR_STAND: 400
     NAME_TAG: 400
+    ARMOR_STAND: 400
     TRADING: 0
     EGGS: 400
     ITEM_DROP: 0
@@ -199,11 +199,11 @@ world:
     BEACON: 400
     TRAPDOOR: 400
     PRESSURE_PLATE: 200
-    ITEM_FRAME: 400
     PLACE_BLOCKS: 400
+    ITEM_FRAME: 400
     CRAFTING: 0
-    SHEARING: 400
     ENCHANTING: 0
+    SHEARING: 400
     SPAWN_EGGS: 400
     BED: 500
     MILKING: 400
@@ -216,8 +216,8 @@ world:
     MOUNT_INVENTORY: 400
     CHORUS_FRUIT: 400
     CONTAINER: 500
-    JUKEBOX: 400
     POTION_THROWING: 400
+    JUKEBOX: 400
   # These are the default settings for new islands
   default-island-settings:
     PVP_END: false
