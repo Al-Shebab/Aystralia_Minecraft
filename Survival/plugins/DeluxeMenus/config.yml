@@ -317,3 +317,5 @@ gui_menus:
     file: perks2.yml
   jobs:
     file: jobs.yml
+  worldsmenu:
+    file: worldsmenu.yml
