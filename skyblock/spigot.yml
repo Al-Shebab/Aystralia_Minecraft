@@ -104,12 +104,12 @@ world-settings:
       item: 2.5
       exp: 3.0
     entity-activation-range:
-      animals: 32
-      monsters: 32
+      animals: 16
+      monsters: 16
       raiders: 48
-      misc: 16
-      water: 16
-      villagers: 32
+      misc: 12
+      water: 12
+      villagers: 16
       flying-monsters: 32
       villagers-work-immunity-after: 100
       villagers-work-immunity-for: 20
@@ -119,13 +119,13 @@ world-settings:
         animals-max-per-tick: 4
         animals-every: 1200
         animals-for: 100
-        monsters-max-per-tick: 8
+        monsters-max-per-tick: 4
         monsters-every: 400
         monsters-for: 100
         villagers-max-per-tick: 4
         villagers-every: 600
         villagers-for: 100
-        flying-monsters-max-per-tick: 8
+        flying-monsters-max-per-tick: 1
         flying-monsters-every: 200
         flying-monsters-for: 100
     growth:
