@@ -1830,7 +1830,7 @@ RandomTeleportation:
       maxY: 256
     resource:
       Enabled: true
-      MaxRange: 3000
+      MaxRange: 1500
       MinRange: 1
       CenterX: 0
       CenterZ: 0

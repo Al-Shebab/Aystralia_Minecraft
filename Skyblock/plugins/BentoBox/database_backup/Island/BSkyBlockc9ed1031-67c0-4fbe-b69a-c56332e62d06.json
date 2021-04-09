@@ -25,7 +25,7 @@
   "spawn": false,
   "purgeProtected": false,
   "flags": {
-    "PVP_NETHER": -1,
+    "PVP_NETHER": 1,
     "BREAK_BLOCKS": 400,
     "MILKING": 400,
     "FIRE_EXTINGUISH": 400,
@@ -64,17 +64,17 @@
     "JUKEBOX": 400,
     "BOAT": 500,
     "LECTERN": 500,
-    "FIRE_IGNITE": 500,
+    "FIRE_IGNITE": -1,
     "BEACON": 400,
     "POTION_THROWING": 400,
-    "PVP_OVERWORLD": -1,
+    "PVP_OVERWORLD": 1,
     "LOCK": 0,
     "ITEM_FRAME": 400,
     "COLLECT_LAVA": 400,
     "ISLAND_FLY_PROTECTION": 500,
     "CHALLENGES_ISLAND_PROTECTION": 0,
     "CAKE": 500,
-    "TNT_DAMAGE": 500,
+    "TNT_DAMAGE": -1,
     "GATE": 0,
     "BREWING": 400,
     "TRAPDOOR": 400,
@@ -102,10 +102,10 @@
     "REDSTONE": 400,
     "EXPERIENCE_BOTTLE_THROWING": 500,
     "HURT_VILLAGERS": 400,
-    "FIRE_SPREAD": 0,
+    "FIRE_SPREAD": -1,
     "DYE": 500,
     "CONTAINER": 500,
-    "FIRE_BURNING": 500,
+    "FIRE_BURNING": -1,
     "HURT_MONSTERS": 0
   },
   "history": [],
@@ -129,7 +129,12 @@
     ]
   },
   "doNotLoad": false,
-  "cooldowns": {},
+  "cooldowns": {
+    "TNT_DAMAGE": 1618007023579,
+    "FIRE_SPREAD": 1618007026977,
+    "FIRE_IGNITE": 1618007029332,
+    "FIRE_BURNING": 1618007033785
+  },
   "homes": {
     "": [
       "skyblock",

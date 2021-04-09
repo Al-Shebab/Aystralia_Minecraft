@@ -14,11 +14,6 @@ donator:
   lines:
   - '&c&ki&f&ki &c&lAystralia &f&lCrate &f&ki&c&ki'
   - '&fGet keys from &cComing Soon...'
-spawn:
-  location: world, -6.500, 79.500, -4.500
-  lines:
-  - '&b&lSpawn Manager'
-  - '&fUse me to start playing!'
 basics:
   location: world, 32.500, 69.000, -24.500
   lines:
