@@ -1727,9 +1727,12 @@ RandomTeleportation:
       IgnoreLava: true
       minY: 0
       maxY: 256
+    # World name to use this feature. Add annother one with appropriate name to enable random teleportation
     world_the_end:
       Enabled: false
+      # Max coordinate to teleport, setting to 1000, player can be teleported between -1000 and 1000 coordinates
       MaxRange: 1000
+      # If maxcord set to 1000 and mincord to 500, then player can be teleported between -1000 to -500 and 1000 to 500 coordinates
       MinRange: 500
       CenterX: 0
       CenterZ: 0

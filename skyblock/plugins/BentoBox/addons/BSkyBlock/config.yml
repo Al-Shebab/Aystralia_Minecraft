@@ -176,12 +176,12 @@ world:
     END_PORTAL: 400
     BREEDING: 400
     HURT_VILLAGERS: 400
-    TURTLE_EGGS: 400
     FROST_WALKER: 400
+    TURTLE_EGGS: 400
     COLLECT_LAVA: 400
     LEVER: 200
-    RIDING: 400
     HURT_MONSTERS: 0
+    RIDING: 400
     NAME_TAG: 400
     ARMOR_STAND: 400
     TRADING: 0
@@ -216,8 +216,8 @@ world:
     MOUNT_INVENTORY: 400
     CHORUS_FRUIT: 400
     CONTAINER: 500
-    POTION_THROWING: 400
     JUKEBOX: 400
+    POTION_THROWING: 400
   # These are the default settings for new islands
   default-island-settings:
     PVP_END: false
