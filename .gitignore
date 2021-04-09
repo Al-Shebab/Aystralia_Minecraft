@@ -27,3 +27,10 @@ Anarchy/*
 Survival/plugins/CMI/moneyLog/*
 *.mca
 *.db
+Survival/arctic
+Survival/realistic
+Survival/fantasy
+skyblock/plugins/VoidChest/PlayerData/*
+Skyblock/plugins/VoidChest/PlayerData/*
+Survival/plugins/VoidChest/PlayerData/*
+survival/plugins/VoidChest/PlayerData/*
