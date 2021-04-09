@@ -67,3 +67,8 @@ concrete:
   location: world, 26.500, 69.000, -23.500
   lines:
   - '&b&lConcrete'
+worlds:
+  location: world, -6.500, 79.500, 1.500
+  lines:
+  - '&b&lWorld Selector'
+  - '&fComing tonight...'

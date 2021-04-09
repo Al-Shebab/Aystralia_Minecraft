@@ -12,12 +12,12 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 5.8986664
+        bodyYaw: -46.383507
         world: world
         x: '32.5'
         y: '64.0'
         z: '-7.5'
-        yaw: '23.709'
+        yaw: '-86.3835'
         pitch: '0.0'
       spawned: true
       skintrait:
@@ -79,13 +79,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -99.09935
+        bodyYaw: 18.793396
         world: world
         x: '17.5'
         y: '64.0'
         z: '1.5'
-        yaw: '-100.69'
-        pitch: '0.0'
+        yaw: '-21.2066'
+        pitch: '-61.9462'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -137,12 +137,12 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 2.0747986
+        bodyYaw: 160.06049
         world: world
         x: '34.5'
         y: '64.0'
         z: '-1.5'
-        yaw: '-32.9199'
+        yaw: '-159.9395'
         pitch: '0.0'
       spawned: true
       skintrait:
@@ -195,12 +195,12 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -26.19886
+        bodyYaw: 18.875015
         world: world
         x: '18.5'
         y: '64.0'
         z: '-6.5'
-        yaw: '-28.1551'
+        yaw: '58.875'
         pitch: '0.0'
       spawned: true
       skintrait:
@@ -263,13 +263,13 @@ npc:
         updateSkins: false
       type: PLAYER
       location:
-        bodyYaw: -23.160408
+        bodyYaw: 0.81217957
         world: world
         x: '48.5'
         y: '65.0'
         z: '-15.5'
-        yaw: '-49.3487'
-        pitch: '-6.0832'
+        yaw: '40.8122'
+        pitch: '0.0'
       lookclose:
         range: '5.0'
         disablewhilenavigating: true
@@ -335,12 +335,12 @@ npc:
       spawned: true
       type: PLAYER
       location:
-        bodyYaw: -21.38026
+        bodyYaw: 95.58864
         world: world
         x: '26.5'
         y: '64.0'
         z: '-7.5'
-        yaw: '-39.8976'
+        yaw: '55.5886'
         pitch: '0.0'
       commandtrait:
         cost: -1.0
@@ -393,13 +393,13 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNjE3MjE5NTQyNSwKICAicHJvZmlsZUlkIiA6ICIyMzUwMzc5NWZmOGY0YmQyODE4YzBhZDA1OGZkYmNmNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4eHh0ZW50IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q5NGEwMjY4ZWUyZWYyZDY4MjkwNGQxMGRmZDI4YmQ0YWNkNTJhZDQ3ZWNjMmUxZGFmODcyYmIzOGM1N2UzZGUiCiAgICB9CiAgfQp9
         updateSkins: false
       location:
-        bodyYaw: 174.47046
+        bodyYaw: -179.62383
         world: world
         x: '42.5164'
         y: '64.0'
         z: '-5.5243'
-        yaw: '-145.5295'
-        pitch: '-64.8468'
+        yaw: '140.3762'
+        pitch: '0.0'
       lookclose:
         range: '5.0'
         disablewhilenavigating: true
@@ -454,8 +454,8 @@ npc:
         x: '-14.5'
         y: '64.0'
         z: '-34.5'
-        yaw: '27.5906'
-        pitch: '-0.7313'
+        yaw: '40.3768'
+        pitch: '-0.8457'
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
