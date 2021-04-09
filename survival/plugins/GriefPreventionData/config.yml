@@ -4,11 +4,17 @@ GriefPrevention:
     world: 256
     world_nether: 256
     world_the_end: 256
+    realistic: -1
+    fantasy: -1
+    resource: -1
   Claims:
     Mode:
       world: Survival
       world_nether: Disabled
+      resource: Survival
       world_the_end: Disabled
+      realistic: Survival
+      fantasy: Survival
     PreventGlobalMonsterEggs: true
     PreventTheft: true
     ProtectCreatures: true
@@ -74,6 +80,9 @@ GriefPrevention:
       world: true
       world_nether: true
       world_the_end: true
+      realistic: true
+      fantasy: true
+      resource: true
     ProtectFreshSpawns: false
     PunishLogout: false
     CombatTimeoutSeconds: 1

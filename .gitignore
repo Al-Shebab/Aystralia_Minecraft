@@ -4,6 +4,7 @@
 **/*.dat
 **/*.dat_old
 **/*.lock
+**/hs_err_pid
 
 **/world
 **/world_nether
@@ -34,3 +35,4 @@ skyblock/plugins/VoidChest/PlayerData/*
 Skyblock/plugins/VoidChest/PlayerData/*
 Survival/plugins/VoidChest/PlayerData/*
 survival/plugins/VoidChest/PlayerData/*
+*.mdmp

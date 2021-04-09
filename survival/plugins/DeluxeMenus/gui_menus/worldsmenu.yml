@@ -30,7 +30,6 @@ items:
     - 24
     - 25
     - 26
-    - 27
   'Fantasy':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjk2OTIzYWQyNDczMTAwMDdmNmFlNWQzMjZkODQ3YWQ1Mzg2NGNmMTZjMzU2NWExODFkYzhlNmIyMGJlMjM4NyJ9fX0=
     slot: 10
@@ -42,10 +41,12 @@ items:
     - '&8» &bClick to randomly teleport!'
     left_click_commands:
     - '[console] cmi rt %player_name% fantasy'
+    - '[message] &b&lRTP &8> &fTeleporting...'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[close]'
     right_click_commands:
     - '[console] cmi rt %player_name% fantasy'
+    - '[message] &b&lRTP &8> &fTeleporting...'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[close]'
   'Realistic':
@@ -59,10 +60,12 @@ items:
     - '&8» &bClick to randomly teleport!'
     left_click_commands:
     - '[console] cmi rt %player_name% realistic'
+    - '[message] &b&lRTP &8> &fTeleporting...'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[close]'
     right_click_commands:
     - '[console] cmi rt %player_name% realistic'
+    - '[message] &b&lRTP &8> &fTeleporting...'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[close]'
   'Arctic':
@@ -76,10 +79,12 @@ items:
     - '&8» &bClick to randomly teleport!'
     left_click_commands:
     - '[console] cmi rt %player_name% arctic'
+    - '[message] &b&lRTP &8> &fTeleporting...'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[close]'
     right_click_commands:
     - '[console] cmi rt %player_name% arctic'
+    - '[message] &b&lRTP &8> &fTeleporting...'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[close]'
   'Resource':
@@ -89,14 +94,16 @@ items:
     lore:
     - ''
     - '&f3,000x3,000 Size'
-    - '&fWipes monthly'
+    - '&6Wipes monthly'
     - ''
     - '&8» &bClick to randomly teleport!'
     left_click_commands:
     - '[console] cmi rt %player_name% arctic'
+    - '[message] &b&lRTP &8> &fTeleporting...'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[close]'
     right_click_commands:
     - '[console] cmi rt %player_name% arctic'
+    - '[message] &b&lRTP &8> &fTeleporting...'
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[close]'

@@ -27,3 +27,9 @@ CustomAlias:
   colourpicker:
     Cmds:
     - cmi colorpicker $1-
+  rtp:
+    Cmds:
+    - cmi rt world
+  wild:
+    Cmds:
+    - cmi rt world

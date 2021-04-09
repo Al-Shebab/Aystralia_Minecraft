@@ -1710,6 +1710,50 @@ Time:
       night: 420
       # Default value: 90 Starts from tick: 22200 Ends at tick: 24000
       sunrise: 90
+    # Time is defined in seconds. Vanilla 24 hour ingame duration is 1200 seconds of real time
+    realistic:
+      Enabled: false
+      # Default value: 600 Starts from tick: 0 Ends at tick: 12000
+      day: 600
+      # Default value: 90 Starts from tick: 12000 Ends at tick: 13800
+      sunset: 90
+      # Default value: 420 Starts from tick: 13800 Ends at tick: 22200
+      night: 420
+      # Default value: 90 Starts from tick: 22200 Ends at tick: 24000
+      sunrise: 90
+    # Time is defined in seconds. Vanilla 24 hour ingame duration is 1200 seconds of real time
+    fantasy:
+      Enabled: false
+      # Default value: 600 Starts from tick: 0 Ends at tick: 12000
+      day: 600
+      # Default value: 90 Starts from tick: 12000 Ends at tick: 13800
+      sunset: 90
+      # Default value: 420 Starts from tick: 13800 Ends at tick: 22200
+      night: 420
+      # Default value: 90 Starts from tick: 22200 Ends at tick: 24000
+      sunrise: 90
+    # Time is defined in seconds. Vanilla 24 hour ingame duration is 1200 seconds of real time
+    resource:
+      Enabled: false
+      # Default value: 600 Starts from tick: 0 Ends at tick: 12000
+      day: 600
+      # Default value: 90 Starts from tick: 12000 Ends at tick: 13800
+      sunset: 90
+      # Default value: 420 Starts from tick: 13800 Ends at tick: 22200
+      night: 420
+      # Default value: 90 Starts from tick: 22200 Ends at tick: 24000
+      sunrise: 90
+    # Time is defined in seconds. Vanilla 24 hour ingame duration is 1200 seconds of real time
+    arctic:
+      Enabled: false
+      # Default value: 600 Starts from tick: 0 Ends at tick: 12000
+      day: 600
+      # Default value: 90 Starts from tick: 12000 Ends at tick: 13800
+      sunset: 90
+      # Default value: 420 Starts from tick: 13800 Ends at tick: 22200
+      night: 420
+      # Default value: 90 Starts from tick: 22200 Ends at tick: 24000
+      sunrise: 90
 RandomTeleportation:
   # If this set to true we will generate random teleport default settings for all detected worlds
   # Setting to false will not longer generate world setups, but you can add them manually if needed
@@ -1749,50 +1793,59 @@ RandomTeleportation:
       Circle: false
       IgnoreWater: true
       IgnoreLava: true
-      minY: 62
+      minY: 0
       maxY: 256
-    skyblock:
-      Enabled: false
-      MaxRange: 7000
-      MinRange: 1000
+    fantasy:
+      Enabled: true
+      MaxRange: 4990
+      MinRange: 1
       CenterX: 0
       CenterZ: 0
       Circle: false
       IgnoreWater: true
       IgnoreLava: true
-      minY: 62
+      minY: 11
       maxY: 256
-    skyblock_nether:
-      Enabled: false
-      MaxRange: 7000
-      MinRange: 1000
+    arctic:
+      Enabled: true
+      MaxRange: 2000
+      MinRange: 1
+      CenterX: 0
+      CenterZ: 0
+      Circle: true
+      IgnoreWater: true
+      IgnoreLava: true
+      minY: 61
+      maxY: 256
+    realistic:
+      Enabled: true
+      MaxRange: 5000
+      MinRange: 1
+      CenterX: 5000
+      CenterZ: 5000
+      Circle: true
+      IgnoreWater: true
+      IgnoreLava: true
+      minY: 11
+      maxY: 256
+    resource:
+      Enabled: true
+      MaxRange: 3000
+      MinRange: 1
       CenterX: 0
       CenterZ: 0
       Circle: false
       IgnoreWater: true
       IgnoreLava: true
-      minY: 62
-      maxY: 256
-    skyblock_the_end:
-      Enabled: false
-      MaxRange: 7000
-      MinRange: 1000
-      CenterX: 0
-      CenterZ: 0
-      Circle: false
-      IgnoreWater: true
-      IgnoreLava: true
-      minY: 62
+      minY: 0
       maxY: 256
   # How long force player to wait before using command again.
   Cooldown: 30
   # How many times to try find correct location for teleportation.
   # Keep it at low number, as player always can try again after delay
-  MaxTries: 20
+  MaxTries: 200
   # List of biomes to exclude from random teleportation
-  ExcludedBiomes:
-  - Ocean
-  - Deep ocean
+  ExcludedBiomes: []
 Enchanting:
   enchantLimits:
     # By disabling this, no limitation to enchanting will be applied
@@ -1833,6 +1886,7 @@ Enchanting:
       cutter: 5
       quick_charge: 3
       double_strike: 4
+      wildstackerglow: 1
       protection_projectile: 4
       sonic: 3
       impaling: 5

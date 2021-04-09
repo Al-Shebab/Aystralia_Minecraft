@@ -39,9 +39,5 @@ aliases:
   - pv 1
   backpack:
   - pv 1
-  rtp:
-  - cmi rt world
-  wild:
-  - cmi rt world
   signshop:
   - cmi ctext signshop
