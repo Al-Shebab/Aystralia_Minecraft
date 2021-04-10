@@ -106,8 +106,8 @@ world-settings:
     duplicate-uuid-saferegen-delete-range: 32
     light-queue-size: 20
     auto-save-interval: -1
-    non-player-arrow-despawn-rate: -1
-    creative-arrow-despawn-rate: -1
+    non-player-arrow-despawn-rate: 60
+    creative-arrow-despawn-rate: 60
     entities-target-with-follow-range: false
     spawner-nerfed-mobs-should-jump: false
     zombies-target-turtle-eggs: true
@@ -116,7 +116,7 @@ world-settings:
     mob-spawner-tick-rate: 2
     disable-teleportation-suffocation-check: false
     armor-stands-tick: true
-    grass-spread-tick-rate: 1
+    grass-spread-tick-rate: 4
     water-over-lava-flow-speed: 5
     seed-based-feature-search: true
     use-faster-eigencraft-redstone: false
@@ -158,7 +158,7 @@ world-settings:
     game-mechanics:
       disable-mob-spawner-spawn-egg-transformation: false
       scan-for-legacy-ender-dragon: true
-      disable-chest-cat-detection: false
+      disable-chest-cat-detection: true
       nerf-pigmen-from-nether-portals: false
       disable-player-crits: false
       shield-blocking-delay: 5

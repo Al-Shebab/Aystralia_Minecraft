@@ -83,13 +83,13 @@ kill-task:
 # Here you can configurable all features related to stacked items.
 items:
   # Should items get stacked on the server?
-  enabled: false
+  enabled: true
 
   # How many blocks from the item should be checked for other items to stack into?
   # Material list: https://bg-software.com/materials/
   # Make sure you follow the "TYPE" and "TYPE:DATA" formats.
   merge-radius:
-    all: 5
+    all: 4
 
   # Custom display-name for the items on ground.
   # If you don't want a display-name, use "custom-name: ''"
@@ -175,7 +175,7 @@ items:
 # Here you can configurable all features related to stacked entities.
 entities:
   # Should entities get stacked on the server?
-  enabled: false
+  enabled: true
 
   # How many blocks from the entity should be checked for other entities to stack into?
   # EntityType list: https://bg-software.com/entities/
@@ -197,7 +197,10 @@ entities:
   # SpawnReason list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html
   # You can combine both filters using "ENTITY_TYPE:SPAWN_REASON"
   # If you wish to disable blacklisted entities, use "blacklist: []"
-  blacklist: []
+  blacklist:
+  - VILLAGER
+  - ZOMBIE_VILLAGER
+  - WOLF
 
   # Whitelisted entities are entities that will get stacked.
   # EntityType list: https://bg-software.com/entities/
