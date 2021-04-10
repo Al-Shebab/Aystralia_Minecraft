@@ -67,7 +67,7 @@ messages:
     connection-throttle: Connection throttled! Please wait before reconnecting.
     authentication-servers-down: ''
 timings:
-  enabled: true
+  enabled: false
   verbose: true
   server-name-privacy: false
   hidden-config-entries:
@@ -93,7 +93,7 @@ world-settings:
     optimize-explosions: true
     fixed-chunk-inhabited-time: -1
     use-vanilla-world-scoreboard-name-coloring: false
-    per-player-mob-spawns: false
+    per-player-mob-spawns: true
     max-auto-save-chunks-per-tick: 8
     delay-chunk-unloads-by: 10s
     prevent-moving-into-unloaded-chunks: true

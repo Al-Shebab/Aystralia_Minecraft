@@ -17,7 +17,7 @@
 #---------------------------#
 
 #The name of the item - displayname
-DisplayName: '&b&lSellsticks &8> &f'
+DisplayName: '&bSell &fStick'
 #
 # READ THE WARNING ABOVE! (line 10)
 #
@@ -51,7 +51,7 @@ ItemType: STICK #ONCE AGAIN, USE THE LINKS ABOVE FOR ITEM NAMES. Don't just gues
 #
 #
 StickLore:
-  - '&bRight click &fon a chest to sell items inside!' #line 1
+  - '&b&lRight click &fon a chest to sell items inside!' #line 1
 #
 # READ THE WARNING ABOVE! (line 10)
 #
@@ -65,7 +65,7 @@ Glow: true
 #If they have a Finite stick(non-infinite)
 #Please try not to include any other numbers
 #in this lore
-FiniteLore: '&b%remaining% &fremaining uses'
+FiniteLore: '&9%remaining% &fremaining uses'
 #
 #
 #If they have an infinite stick, the lore
@@ -85,7 +85,7 @@ DurabilityLine: 2
 # Again, if you change this, previous sellsticks may break!
 #
 #Messages sent to the player will be prefixed with this
-MessagePrefix: '&b&lSellsticks &8> &f'
+MessagePrefix: '&b&lSell Stick &8> &f'
 #
 #
 #When they sell the items what message should be displayed
@@ -97,7 +97,7 @@ SellMessage: '&fYou sold items for &b%price% &fand now have &b%balance%'
 #
 #
 #If they don't have permission to do something
-NoPermissionMessage: '&cNo permission'
+NoPermissionMessage: '&cSorry, you don''t have permission for this!'
 #
 #
 #If they try using the stick in an invalid territory.
@@ -106,15 +106,15 @@ InvalidTerritoryMessage: '&cYou can''t use sell stick here!'
 #
 #If the chest chest didnt have anything they could sell
 #Meaning, if the items in the chest didnt appear in the Price.yml
-NotWorthMessage: '&fNothing worth selling inside...'
+NotWorthMessage: '&cNothing worth selling inside'
 #
 #
 #What message is sent if they run out of uses?
-BrokenStick: '&cYour sellstick broke!'
+BrokenStick: '&cYour sellstick broke!(Ran out of uses)'
 #
 #
 #If they try to do something other than selling with the sellstick...
-NonSellingRelated: '&fNothing worth selling inside...'
+NonSellingRelated: '&cNothing worth selling inside'
 #
 #
 #Do you want to use shopgui+ for prices
@@ -133,13 +133,13 @@ UseEssentialsWorth: false
 # Placeholders:
 #   %player - person who will get the sellstick
 #   %amount - amount of sellsticks that %player% will receive
-GiveMessage: '&fYou gave &b%player% &fa sell stick!'
+GiveMessage: '&fYou gave &b%player% &b&l%amount% &bsell sticks!'
 #
 #
 #Message to send to the player who received the sticks
 # Placehlders:
 #   %amount% - money that the seller receives.
-ReceiveMessage: '&bYou''ve received a sell stick!'
+ReceiveMessage: '&fYou''ve received a &bsell stick!'
 #
 #Do you want a little noise to play when players sell something?
 UseSound: true

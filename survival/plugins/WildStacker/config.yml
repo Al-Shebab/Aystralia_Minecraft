@@ -89,7 +89,7 @@ items:
   # Material list: https://bg-software.com/materials/
   # Make sure you follow the "TYPE" and "TYPE:DATA" formats.
   merge-radius:
-    all: 4
+    all: 6
 
   # Custom display-name for the items on ground.
   # If you don't want a display-name, use "custom-name: ''"
@@ -110,7 +110,7 @@ items:
   # If you wish to disable whitelisted items, use "whitelist: []"
   whitelist: []
 
-  # Set a maximum stack for specific items.
+  # Set a maximum stack for speceific items.
   # Make sure you follow the "TYPE" and "TYPE:DATA" formats.
   # You can use 'all' as a global limit (all: 20 will set all items to be limited to 20 per stack)
   # If you don't want any limits, you can set a random type.
