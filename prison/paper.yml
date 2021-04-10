@@ -10,6 +10,7 @@
 # Website: https://papermc.io/ 
 # Docs: https://paper.readthedocs.org/ 
 
+use-display-name-in-quit-message: false
 verbose: false
 config-version: 20
 settings:
@@ -78,20 +79,24 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    allow-using-signs-inside-spawn-protection: false
+    fix-wither-targeting-bug: false
+    update-pathfinding-on-block-update: true
+    ender-dragons-death-always-places-dragon-egg: false
+    max-leash-distance: 10.0
     only-players-collide: false
     allow-vehicle-collisions: true
     portal-search-vanilla-dimension-scaling: true
-    max-leash-distance: 10.0
     enable-treasure-maps: true
     treasure-maps-return-already-discovered: false
     baby-zombie-movement-modifier: 0.5
-    optimize-explosions: false
+    optimize-explosions: true
     fixed-chunk-inhabited-time: -1
     use-vanilla-world-scoreboard-name-coloring: false
     per-player-mob-spawns: false
-    max-auto-save-chunks-per-tick: 24
+    max-auto-save-chunks-per-tick: 8
     delay-chunk-unloads-by: 10s
-    prevent-moving-into-unloaded-chunks: false
+    prevent-moving-into-unloaded-chunks: true
     should-remove-dragon: false
     count-all-mobs-for-spawning: false
     filter-nbt-data-from-spawn-eggs-and-related: true
@@ -108,7 +113,7 @@ world-settings:
     zombies-target-turtle-eggs: true
     zombie-villager-infection-chance: -1.0
     all-chunks-are-slime-chunks: false
-    mob-spawner-tick-rate: 1
+    mob-spawner-tick-rate: 2
     disable-teleportation-suffocation-check: false
     armor-stands-tick: true
     grass-spread-tick-rate: 1
@@ -122,7 +127,7 @@ world-settings:
     parrots-are-unaffected-by-player-movement: false
     disable-explosion-knockback: false
     fix-climbing-bypassing-cramming-rule: false
-    container-update-tick-rate: 1
+    container-update-tick-rate: 2
     armor-stands-do-collision-entity-lookups: true
     keep-spawn-loaded: true
     skeleton-horse-thunder-spawn-chance: 0.01
@@ -181,9 +186,10 @@ world-settings:
       spawn-chance-min: 25
       spawn-chance-max: 75
     alt-item-despawn-rate:
-      enabled: false
+      enabled: true
       items:
-        COBBLESTONE: 300
+        COBBLESTONE: 60
+        STONE: 60
     lightning-strike-distance-limit:
       sound: -1
       impact-sound: -1
@@ -218,8 +224,8 @@ world-settings:
       - stone
       - oak_planks
     despawn-ranges:
-      soft: 32
-      hard: 128
+      soft: 28
+      hard: 96
     frosted-ice:
       enabled: true
       delay:
@@ -233,12 +239,12 @@ world-settings:
       snowball: -1
       ender_pearl: -1
       arrow: -1
+    mobs-can-always-pick-up-loot:
+      zombies: false
+      skeletons: false
     door-breaking-difficulty:
       zombie:
       - HARD
       vindicator:
       - NORMAL
       - HARD
-    mobs-can-always-pick-up-loot:
-      zombies: false
-      skeletons: false
