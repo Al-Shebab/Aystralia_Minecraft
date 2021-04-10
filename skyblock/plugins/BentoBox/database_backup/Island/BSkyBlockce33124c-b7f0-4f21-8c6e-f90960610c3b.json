@@ -16,10 +16,7 @@
   "gameMode": "BSkyBlock",
   "createdDate": 1617433697495,
   "updatedDate": 1617433697495,
-  "owner": "3368f471-c1d5-4f9f-8b0e-2245724bf905",
-  "members": {
-    "3368f471-c1d5-4f9f-8b0e-2245724bf905": 1000
-  },
+  "members": {},
   "maxMembers": {},
   "spawn": false,
   "purgeProtected": false,
@@ -107,7 +104,13 @@
     "EXPERIENCE_PICKUP": 0,
     "HIVE": 500
   },
-  "history": [],
+  "history": [
+    {
+      "timestamp": 1618010650978,
+      "type": "UNOWNED",
+      "data": {}
+    }
+  ],
   "levelHandicap": 0,
   "spawnPoint": {
     "NORMAL": [
@@ -129,6 +132,7 @@
   },
   "doNotLoad": false,
   "cooldowns": {},
+  "metaData": {},
   "homes": {
     "": [
       "skyblock",

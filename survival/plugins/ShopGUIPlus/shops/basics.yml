@@ -209,8 +209,8 @@ basics:
       item:
         material: SCAFFOLDING
         quantity: 1
-      sellPrice: 2.5
-      buyPrice: 25
+      sellPrice: 0.01
+      buyPrice: 0.1
       slot: 25
     27:
       type: item

@@ -2,7 +2,9 @@
   "homeLocations": {},
   "uniqueId": "3368f471-c1d5-4f9f-8b0e-2245724bf905",
   "playerName": "KaoticOCE",
-  "resets": {},
+  "resets": {
+    "skyblock": 1
+  },
   "locale": "",
   "deaths": {
     "skyblock": 0
