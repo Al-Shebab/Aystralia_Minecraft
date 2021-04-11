@@ -95,10 +95,10 @@ Mechanics:
     offline:
       # In ticks, how long should the plugin wait before sending the message. (20 ticks = 1 second)
       # Any number <= 0 will make it instant.
-      message-delay: 50
+      message-delay: 0
 
   # Whether the plugin should check if the player has any voidchest or not before proceeding.
-  ignore-command-check: true
+  ignore-command-check: false
 
   # Should voidchests drop when exploded by any kind of explosion, such as tnt, creepers, etc?
   drop-voidchest-on-explosion: 
@@ -109,17 +109,17 @@ Mechanics:
   charge:
     
     # Should operators require not to pay money when adding charge to voidchests?
-    operators-pay-free: true
+    operators-pay-free: false
     
     break-persistent:
       # Should the voidchest store it's charge time when broken?
-      enabled: true
+      enabled: false
       # Should the charge time be running regardless of the voidchest not being placed?
       # False means the time will keep running even if the voidchest is not placed.
-      save-time: true
+      save-time: false
 
   # Should, once a voidchest is broken, store the statistics and then be recovered once placed again?
-  voidchest-break-store-stats: false
+  voidchest-break-store-stats: true
   
   # This is only supported in 1.16.X and newer.
   # This plugin allows you to use more colors in voidchest.
@@ -132,7 +132,7 @@ Mechanics:
       # How fast should the effect be repeated, in ticks.
       # the smaller the number, the more lag it MAY cause.
       # Minimum this can be is 1 tick.
-      interval: 20
+      interval: 200000000000
 
       # What effect type should be displayed?
       type: "VILLAGER_HAPPY"
@@ -151,7 +151,7 @@ Mechanics:
   
     # Should players be prevented from interacting with voidchests while in creative mode?
     creative-mode-interaction:
-      enabled: true
+      enabled: false
       message: "&cYou can't interact with this voidchest while in creative mode!"    
 
     # Should players be prevented from placing voidchests in the same chunk?
@@ -210,7 +210,7 @@ hologram-support:
   # Holograms are already updated when chests attempt to execute either way.
   # If you have a countdown timer in the hologram, this should be used as well.
   # The amount of ticks the update should happen. Default is 20 (1 second).
-  update-interval: 100
+  update-interval: 600
   
   # Set enabled to false if you'd like to disable this.
   enabled: true
@@ -235,7 +235,7 @@ Player:
   
     # Should voidchests operate when the owner of them is offline?
     # If false, voidchests will only operate when the owner is online.
-    enable-when-owner-offline: true
+    enable-when-owner-offline: false
     
     # Limit how many voidchests a player can place.
     # Permission for unlimited voidchest placement is: voidchest.limit.bypass
@@ -292,7 +292,7 @@ Purging:
 Sell:
 
   # The interval is being run in seconds. This will only be selected if the path can't be found in the voidchest's file itself.
-  interval: 10
+  interval: 30
 
   # From which plugin should items have their prices picked from?
   # Currently available: VoidChest, ShopGuiPlus, Essentials, CMI, Custom.
