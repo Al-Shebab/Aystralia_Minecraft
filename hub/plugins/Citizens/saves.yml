@@ -24,13 +24,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 97.17557
+        bodyYaw: -155.68315
         world: world
         x: '-19.5'
         y: '43.0'
         z: '-414.5'
-        yaw: '137.1756'
-        pitch: '-2.9063'
+        yaw: '164.3168'
+        pitch: '-25.608'
       spawned: true
       type: PLAYER
       skintrait:
@@ -82,13 +82,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 47.753075
+        bodyYaw: 41.150024
         world: world
         x: '-19.5'
         y: '43.0'
         z: '-432.5'
-        yaw: '24.1529'
-        pitch: '5.8749'
+        yaw: '67.6337'
+        pitch: '6.706'
       spawned: true
       type: PLAYER
       skintrait:
@@ -141,13 +141,13 @@ npc:
             delay: 0
       spawned: true
       location:
-        bodyYaw: 119.01413
+        bodyYaw: 131.88312
         world: world
         x: '-15.5'
         y: '43.0'
         z: '-418.5'
-        yaw: '159.0141'
-        pitch: '0.0'
+        yaw: '171.8831'
+        pitch: '-3.0036'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -199,13 +199,13 @@ npc:
             delay: 0
       spawned: true
       location:
-        bodyYaw: 47.899445
+        bodyYaw: 107.1526
         world: world
         x: '-14.5'
         y: '43.0'
         z: '-423.5'
-        yaw: '18.0032'
-        pitch: '0.0'
+        yaw: '81.8031'
+        pitch: '-8.4585'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -244,13 +244,13 @@ npc:
     traits:
       spawned: true
       location:
-        bodyYaw: 34.929245
+        bodyYaw: 15.101303
         world: world
         x: '-15.5'
         y: '43.0'
         z: '-428.5'
-        yaw: '50.4825'
-        pitch: '-0.2849'
+        yaw: '9.4784'
+        pitch: '11.6318'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true

@@ -94,7 +94,7 @@ world-settings:
     fixed-chunk-inhabited-time: -1
     use-vanilla-world-scoreboard-name-coloring: false
     per-player-mob-spawns: true
-    max-auto-save-chunks-per-tick: 8
+    max-auto-save-chunks-per-tick: 24
     delay-chunk-unloads-by: 10s
     prevent-moving-into-unloaded-chunks: true
     should-remove-dragon: false
@@ -136,7 +136,7 @@ world-settings:
     keep-spawn-loaded-range: 10
     prevent-tnt-from-moving-in-water: false
     iron-golems-can-spawn-in-air: false
-    remove-corrupt-tile-entities: false
+    remove-corrupt-tile-entities: true
     phantoms-do-not-spawn-on-creative-players: true
     phantoms-only-attack-insomniacs: true
     falling-block-height-nerf: 0

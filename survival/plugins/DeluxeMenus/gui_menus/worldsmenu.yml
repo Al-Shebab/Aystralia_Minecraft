@@ -35,7 +35,7 @@ items:
     display_name: '&4[*] &4F&ca&6n&et&ea&2s&ay &fWorld'
     lore:
     - ''
-    - '&f10,000x10,000 Size'
+    - '&f5,000x5,000 Size'
     - ''
     - '&8» &bClick to randomly teleport!'
     left_click_commands:
