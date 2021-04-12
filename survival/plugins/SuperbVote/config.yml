@@ -51,10 +51,9 @@ rewards:
       default: true
     commands:
     - money give %player% 2500
-    - cratesplus key %player% vote 1
+    - crate give %player% VoteCrate
     - cmi tfly %player% +300
-    - cmi spawn %player%
-    player-message: "&bThanks for voting. &fTo use your key go to &b/warp crates"
+    player-message: []
     broadcast-message: "&9&l%player% &fhas voted for us on &b&l%service%. &fThank you!"
 
 # Whether or not players need to be online to vote. If set, offline player votes are queued for when the player next logs in.
