@@ -2,7 +2,9 @@
   "homeLocations": {},
   "uniqueId": "8bc430e9-6e38-4dea-9501-49344c48446d",
   "playerName": "GoodGuyThomas",
-  "resets": {},
+  "resets": {
+    "skyblock": 1
+  },
   "locale": "",
   "deaths": {
     "skyblock": 0

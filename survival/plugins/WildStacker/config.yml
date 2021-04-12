@@ -110,7 +110,7 @@ items:
   # If you wish to disable whitelisted items, use "whitelist: []"
   whitelist: []
 
-  # Set a maximum stack for speceific items.
+  # Set a maximum stack for specific items.
   # Make sure you follow the "TYPE" and "TYPE:DATA" formats.
   # You can use 'all' as a global limit (all: 20 will set all items to be limited to 20 per stack)
   # If you don't want any limits, you can set a random type.

@@ -20,7 +20,8 @@
   "members": {
     "997ccd24-6106-4aff-b513-41bea7e88be7": 500,
     "0473cdbb-1524-4c99-812f-1969ad4f233b": 1000,
-    "5f4b1124-6890-446d-b87f-4d93e65cae69": 500
+    "5f4b1124-6890-446d-b87f-4d93e65cae69": 500,
+    "fda1973c-f476-4fa8-9ca0-805ec201377d": 500
   },
   "maxMembers": {},
   "spawn": false,
@@ -28,7 +29,7 @@
   "flags": {
     "BREAK_HOPPERS": 500,
     "HURT_VILLAGERS": 400,
-    "TRADING": 0,
+    "TRADING": 200,
     "EXPERIENCE_BOTTLE_THROWING": 500,
     "HOPPER": 400,
     "FIRE_IGNITE": 500,
@@ -39,7 +40,7 @@
     "LEAF_DECAY": 500,
     "JUKEBOX": 400,
     "EXPERIENCE_PICKUP": 0,
-    "ENCHANTING": 0,
+    "ENCHANTING": 200,
     "ARMOR_STAND": 400,
     "POTION_THROWING": 400,
     "TNT_PRIMING": 500,
@@ -60,9 +61,9 @@
     "DRAGON_EGG": 500,
     "CRAFTING": 0,
     "BUCKET": 400,
-    "FIRE_SPREAD": 0,
+    "FIRE_SPREAD": -1,
     "FISH_SCOOPING": 400,
-    "FIRE_BURNING": 500,
+    "FIRE_BURNING": -1,
     "HURT_ANIMALS": 400,
     "EGGS": 400,
     "FIRE_EXTINGUISH": 400,
@@ -72,8 +73,8 @@
     "TURTLE_EGGS": 400,
     "CHALLENGES_ISLAND_PROTECTION": 0,
     "CAKE": 500,
-    "ITEM_DROP": 0,
-    "GATE": 0,
+    "ITEM_DROP": 200,
+    "GATE": 200,
     "ANVIL": 400,
     "FURNACE": 400,
     "HURT_MONSTERS": 0,
@@ -85,7 +86,7 @@
     "END_PORTAL": 400,
     "MONSTER_NATURAL_SPAWN": 500,
     "DISPENSER": 400,
-    "LOCK": 500,
+    "LOCK": 0,
     "ANIMAL_SPAWNERS_SPAWN": 500,
     "REDSTONE": 400,
     "ITEM_FRAME": 400,
@@ -99,11 +100,11 @@
     "CHORUS_FRUIT": 400,
     "PLACE_BLOCKS": 400,
     "ISLAND_FLY_PROTECTION": 500,
-    "TNT_DAMAGE": 500,
+    "TNT_DAMAGE": -1,
     "BED": 500,
     "COLLECT_LAVA": 400,
     "SHEARING": 400,
-    "ITEM_PICKUP": 0,
+    "ITEM_PICKUP": 200,
     "PVP_NETHER": -1,
     "NETHER_PORTAL": 400,
     "CROP_TRAMPLE": 400,
@@ -130,7 +131,11 @@
     ]
   },
   "doNotLoad": false,
-  "cooldowns": {},
+  "cooldowns": {
+    "TNT_DAMAGE": 1618209963096,
+    "FIRE_SPREAD": 1618209993027,
+    "FIRE_BURNING": 1618210003334
+  },
   "homes": {
     "": [
       "skyblock",

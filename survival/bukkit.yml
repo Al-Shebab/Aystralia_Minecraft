@@ -24,8 +24,8 @@ settings:
   shutdown-message: Server closed
   minimum-api: none
 spawn-limits:
-  monsters: 15
-  animals: 5
+  monsters: 60
+  animals: 20
   water-animals: 5
   water-ambient: 5
   ambient: 1
