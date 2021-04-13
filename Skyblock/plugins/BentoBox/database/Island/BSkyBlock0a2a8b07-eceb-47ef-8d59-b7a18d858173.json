@@ -20,6 +20,7 @@
   "members": {
     "c346832f-c959-40ea-8a8d-da42aecc40bb": 1000
   },
+  "maxMembers": {},
   "spawn": false,
   "purgeProtected": false,
   "flags": {

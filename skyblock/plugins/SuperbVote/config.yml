@@ -53,7 +53,7 @@ rewards:
     - money give %player% 2500
     - crate give %player% VoteCrate
     - cmi tfly %player% +300
-    player-message: []
+    player-message: "&bThanks for voting!"
     broadcast-message: "&9&l%player% &fhas voted for us on &b&l%service%. &fThank you!"
 
 # Whether or not players need to be online to vote. If set, offline player votes are queued for when the player next logs in.

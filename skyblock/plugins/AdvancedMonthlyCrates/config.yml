@@ -147,7 +147,7 @@ Crates:
     #  - "-1052,60,510"
     #OnlyPlaceableAtLocations makes it so you can only place this specific crate at declared coordinates. You can find the coordinates by pressing F3 and looking at "Looking at block"
     #Currently there are 4 types of animations: Round ; Pyramid ; Display ; Round2
-    Item: "ENDER_CHEST"
+    Item: "NETHER_STAR"
     OnlyPlacable: false #Option is useful if you wish the crate be not a block, example: Item: "NETHER_STAR" (Player can open Nether Star crate by right clicking in the air)
     RewardsDontRepeat: false   #Can the user win a reward only once per opening? (If there aren"t enough prizes to fill the whole crate size there will be repeating items)
     #CustomModelData: 0
@@ -159,16 +159,15 @@ Crates:
       - "&b&lCrates &8> &fYou have opened a &b&lVote &f&lCrate"
     RewardHologram:
       - "&b&lVote &f&lCrate"
-      - ""
-      - "&fRight-click to use"
-      - "&fEarned by &b{player_name}"
     #Customisable hologram above the main prize
     Final_Message: []
     Size: 1
     #Amount of items that the person will get, ranges from 0-10
     #If set 0 there will be only the best prize in the animation
     Lores:
-      - "&fOpened by: &b{player_name}"
+      - ""
+      - "&fRight-click to use"
+      - "&fEarned by &b{player_name}"
     Prizes:
       BrewingStand:
         Item: STICK
@@ -259,7 +258,7 @@ Crates:
     #  - "-1052,60,510"
     #OnlyPlaceableAtLocations makes it so you can only place this specific crate at declared coordinates. You can find the coordinates by pressing F3 and looking at "Looking at block"
     #Currently there are 4 types of animations: Round ; Pyramid ; Display ; Round2
-    Item: "DRAGON_EGG"
+    Item: "NETHER_STAR"
     OnlyPlacable: false #Option is useful if you wish the crate be not a block, example: Item: "NETHER_STAR" (Player can open Nether Star crate by right clicking in the air)
     RewardsDontRepeat: false   #Can the user win a reward only once per opening? (If there aren"t enough prizes to fill the whole crate size there will be repeating items)
     #CustomModelData: 0
@@ -271,17 +270,15 @@ Crates:
       - "&b&lCrates &8> &fYou have opened a &c&lAystralia &f&lCrate"
     RewardHologram:
       - "&c&lAystralia &f&lCrate"
-      - ""
-      - "&cRight-click to use"
-      - "&fPurchased by &c{player_name}"
     #Customisable hologram above the main prize
     Final_Message: []
     Size: 1
     #Amount of items that the person will get, ranges from 0-10
     #If set 0 there will be only the best prize in the animation
     Lores:
-      - "&fOpened by: &c{player_name}"
-    Prizes:
+      - ""
+      - "&fRight-click to use"
+      - "&fEarned by &c{player_name}"
     Prizes:
       a:
         Enchanted: true

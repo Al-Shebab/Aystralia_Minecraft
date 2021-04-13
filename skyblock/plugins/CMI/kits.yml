@@ -111,3 +111,30 @@ oi:
   CommandName: oi
   Enabled: false
   Delay: 10
+kfc:
+  CommandName: kfc
+  Delay: 10
+  Items:
+    '28':
+      v: 2586
+      type: COOKED_CHICKEN
+      amount: 16
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"KFC"}],"text":""}'
+votepickaxe:
+  CommandName: votepickaxe
+  Delay: 10
+  Items:
+    '28':
+      v: 2586
+      type: NETHERITE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 10
+          LOOT_BONUS_BLOCKS: 5
+          MENDING: 1
+          DURABILITY: 10
