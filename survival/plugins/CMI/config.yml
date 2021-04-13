@@ -51,7 +51,7 @@ Economy:
     # Minimal amount, can go into negative if needed
     MinimalAmount: 0.0
     # Maximal amount of money player can have. Set to -1 to disable this limit
-    MaximumAmount: 1.0E9
+    MaximumAmount: -1
     # Defines amount until player can send to another player
     # This can prevent annoying spam some players would want to create by sending tiny amounts of money
     MinimalPay: 1
@@ -106,7 +106,7 @@ Optimizations:
     CheckBlockPlace: false
   AutoDownload:
     # In case you dont have GeoIP.dat it will be downloaded automatically on server start. Restart can be needed for it to take effect
-    GeoIp: true
+    GeoIp: false
     # In case you dont have GeoLiteCity.dat it will be downloaded automatically on server start. Restart can be needed for it to take effect
     GeoLiteCity: false
   # When enabled you will see skull owner name in action bar when right clicking it
@@ -1830,7 +1830,7 @@ RandomTeleportation:
       maxY: 256
     resource:
       Enabled: true
-      MaxRange: 1500
+      MaxRange: 1000
       MinRange: 1
       CenterX: 0
       CenterZ: 0
@@ -1886,6 +1886,7 @@ Enchanting:
       cutter: 5
       quick_charge: 3
       double_strike: 4
+      wildstackerglow: 1
       protection_projectile: 4
       sonic: 3
       impaling: 5

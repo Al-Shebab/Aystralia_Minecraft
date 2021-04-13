@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "uuid": "7b4be04b-8ce5-40e4-8858-07888a45c071",
+    "name": "Picklope",
+    "created": "2021-04-12 17:06:56 -0700",
+    "source": "Al_Shebab",
+    "expires": "forever",
+    "reason": "Cheating"
+  },
+  {
+    "uuid": "8cf27f60-8ef0-49e9-bde0-13a2c0f5efa0",
+    "name": "iAzqre",
+    "created": "2021-04-12 17:07:12 -0700",
+    "source": "Al_Shebab",
+    "expires": "forever",
+    "reason": "Cheating"
+  },
+  {
+    "uuid": "a2caaa58-670c-42f7-9858-46e87867b57b",
+    "name": "ISerpant",
+    "created": "2021-04-12 17:06:48 -0700",
+    "source": "Al_Shebab",
+    "expires": "forever",
+    "reason": "Cheating"
+  },
+  {
+    "uuid": "f6e55c41-2d9f-4586-af9f-9c5fe3107b86",
+    "name": "watersheep46",
+    "created": "2021-04-12 17:07:02 -0700",
+    "source": "Al_Shebab",
+    "expires": "forever",
+    "reason": "Cheating"
+  },
+  {
+    "uuid": "985f195a-80bc-4d0b-a8e0-de6c99e90d08",
+    "name": "zDark_Cloudz",
+    "created": "2021-04-12 17:07:27 -0700",
+    "source": "Al_Shebab",
+    "expires": "forever",
+    "reason": "Cheating"
+  },
+  {
+    "uuid": "5f2c2e26-42e9-326d-bef5-8e6e763fc2e3",
+    "name": "Emperor_Of_Goats",
+    "created": "2021-04-12 17:06:32 -0700",
+    "source": "Al_Shebab",
+    "expires": "forever",
+    "reason": "Cheating"
+  },
+  {
+    "uuid": "9267a1dd-1fc6-4e55-96aa-b2949d9fb5fc",
+    "name": "artie99",
+    "created": "2021-04-12 17:06:40 -0700",
+    "source": "Al_Shebab",
+    "expires": "forever",
+    "reason": "Cheating"
+  },
+  {
+    "uuid": "a4de17ad-abe0-4fe7-9f1c-f21c18607509",
+    "name": "Stoopid_Ugly",
+    "created": "2021-04-12 17:07:18 -0700",
+    "source": "Al_Shebab",
+    "expires": "forever",
+    "reason": "Cheating"
+  }
+]

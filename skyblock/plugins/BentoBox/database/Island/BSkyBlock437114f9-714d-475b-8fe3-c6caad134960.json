@@ -39,7 +39,7 @@
     "BREEDING": 400,
     "PLACE_BLOCKS": 400,
     "BEACON": 400,
-    "LOCK": 200,
+    "LOCK": 0,
     "FURNACE": 400,
     "FLINT_AND_STEEL": 500,
     "HIVE": 500,
@@ -101,12 +101,12 @@
     "NAME_TAG": 400,
     "ISLAND_FLY_PROTECTION": 500,
     "LEAF_DECAY": 500,
-    "PVP_NETHER": 1,
+    "PVP_NETHER": -1,
     "PVP_END": 1,
     "MONSTER_NATURAL_SPAWN": -1,
     "NETHER_PORTAL": 400,
     "FIRE_IGNITE": 500,
-    "PVP_OVERWORLD": 1,
+    "PVP_OVERWORLD": -1,
     "EXPERIENCE_BOTTLE_THROWING": 500,
     "DYE": 500,
     "ITEM_PICKUP": 0,
@@ -169,7 +169,8 @@
   "doNotLoad": false,
   "cooldowns": {
     "MONSTER_NATURAL_SPAWN": 1617206266017,
-    "PVP_OVERWORLD": 1617478662506
+    "PVP_OVERWORLD": 1618268744853,
+    "PVP_NETHER": 1618268745893
   },
   "metaData": {
     "Visit_Payment": {

@@ -586,6 +586,8 @@ info:
     - QUICKCHARGE
     double_strike:
     - DOUBLESTRIKE
+    wildstackerglow:
+    - WildStackerGlow
     protection_projectile:
     - ProjectileProtection
     sonic:
