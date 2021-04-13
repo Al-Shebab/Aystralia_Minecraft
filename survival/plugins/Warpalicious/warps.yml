@@ -14,7 +14,7 @@ al_shebab:
     SIGNPRIVATE: true
   invited: []
   timeswarpedto: 53
-total: 152
+total: 155
 cactus:
   owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
   location: world,-1031.8730484289074,1.0,3445.4878586337186,0.7126465,1.0356176
@@ -31,14 +31,6 @@ market:
     SIGNPRIVATE: true
   invited: []
   timeswarpedto: 427
-vote:
-  owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-  location: world,2.5350462766750708,77.0,-4.455989171828057,-180.04729,-0.068625234
-  flags:
-    PRIVATE: false
-    SIGNPRIVATE: true
-  invited: []
-  timeswarpedto: 3
 pvp:
   owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
   location: world,-232.6454408497035,78.0,232.38844669883412,-224.3418,4.7716184

@@ -148,7 +148,7 @@ Crates:
     #OnlyPlaceableAtLocations makes it so you can only place this specific crate at declared coordinates. You can find the coordinates by pressing F3 and looking at "Looking at block"
     #Currently there are 4 types of animations: Round ; Pyramid ; Display ; Round2
     Item: "ENDER_CHEST"
-    OnlyPlacable: true #Option is useful if you wish the crate be not a block, example: Item: "NETHER_STAR" (Player can open Nether Star crate by right clicking in the air)
+    OnlyPlacable: false #Option is useful if you wish the crate be not a block, example: Item: "NETHER_STAR" (Player can open Nether Star crate by right clicking in the air)
     RewardsDontRepeat: false   #Can the user win a reward only once per opening? (If there aren"t enough prizes to fill the whole crate size there will be repeating items)
     #CustomModelData: 0
     #Is the block that will be the monthly crate
@@ -160,7 +160,8 @@ Crates:
     RewardHologram:
       - "&b&lVote &f&lCrate"
       - ""
-      - "&fOpened by: &b{player_name}"
+      - "&bPlace to use"
+      - "&fEarned by &b{player_name}"
     #Customisable hologram above the main prize
     Final_Message: []
     Size: 1
@@ -267,7 +268,7 @@ Crates:
     #OnlyPlaceableAtLocations makes it so you can only place this specific crate at declared coordinates. You can find the coordinates by pressing F3 and looking at "Looking at block"
     #Currently there are 4 types of animations: Round ; Pyramid ; Display ; Round2
     Item: "DRAGON_EGG"
-    OnlyPlacable: true #Option is useful if you wish the crate be not a block, example: Item: "NETHER_STAR" (Player can open Nether Star crate by right clicking in the air)
+    OnlyPlacable: false #Option is useful if you wish the crate be not a block, example: Item: "NETHER_STAR" (Player can open Nether Star crate by right clicking in the air)
     RewardsDontRepeat: false   #Can the user win a reward only once per opening? (If there aren"t enough prizes to fill the whole crate size there will be repeating items)
     #CustomModelData: 0
     #Is the block that will be the monthly crate
@@ -279,7 +280,8 @@ Crates:
     RewardHologram:
       - "&c&lAystralia &f&lCrate"
       - ""
-      - "&fOpened by: &c{player_name}"
+      - "&cPlace to use"
+      - "&fPurchased by &c{player_name}"
     #Customisable hologram above the main prize
     Final_Message: []
     Size: 1
@@ -288,159 +290,159 @@ Crates:
     Lores:
       - "&fOpened by: &c{player_name}"
     Prizes:
-      1:
+      a:
         Enchanted: true
         Item: FEATHER
-        Percentage: 10
+        Chance: 10
         Commands:
-        - cmdi give %name% islandfly
+        - cmdi give {player_name} islandfly
         Name: "&b&lIsland &f&lFly"
-      2:
+      b:
         Enchanted: true
         Item: COAL
-        Percentage: 2
+        Chance: 2
         Commands:
-        - cmdi give %name% perth
+        - cmdi give {player_name} perth
         Name: "&b&lPerth &f&lRank"
-      3:
+      c:
         Enchanted: true
         Item: IRON_INGOT
-        Percentage: 2
+        Chance: 2
         Commands:
-        - cmdi give %name% brisbane
+        - cmdi give {player_name} brisbane
         Name: "&b&lBrisbane &f&lRank"
-      4:
+      d:
         Enchanted: true
         Item: GOLD_INGOT
-        Percentage: 1
+        Chance: 1
         Commands:
-        - cmdi give %name% melbourne
+        - cmdi give {player_name} melbourne
         Name: "&b&lMelborune &f&lRank"
-      5:
+      e:
         Enchanted: true
         Item: DIAMOND
-        Percentage: 0
+        Chance: 0
         Commands:
-        - cmdi give %name% sydney
+        - cmdi give {player_name} sydney
         Name: "&b&lSydney &f&lRank"
-      6:
+      f:
         Enchanted: true
         Item: NETHERITE_INGOT
-        Percentage: 0
+        Chance: 0
         Commands:
-        - cmdi give %name% ayssie
+        - cmdi give {player_name} ayssie
         Name: "&b&lAyssie &f&lRank"
-      7:
+      g:
         Enchanted: true
         Item: ELYTRA
-        Percentage: 3
+        Chance: 3
         Commands:
-        - cmdi give %name% fly
+        - cmdi give {player_name} fly
         Name: "&b&lGlobal &f&lFly"
-      8:
+      h:
         Enchanted: true
         Item: PAPER
-        Percentage: 8
+        Chance: 8
         Commands:
-        - cmdi give %name% nick
+        - cmdi give {player_name} nick
         Name: "&b&lNickname &f&lAccess"
-      9:
+      i:
         Enchanted: true
         Item: PAPER
-        Percentage: 5
+        Chance: 5
         Commands:
-        - cmdi give %name% jobsboost
+        - cmdi give {player_name} jobsboost
         Name: "&b&lJobs &f&lBoost"
-      10:
+      j:
         Enchanted: true
         Item: PAPER
-        Percentage: 5
+        Chance: 5
         Commands:
-        - cmdi give %name% jobs
+        - cmdi give {player_name} jobs
         Name: "&b&lUnlimited &f&lJobs"
-      11:
+      k:
         Enchanted: true
         Item: ANVIL
-        Percentage: 5
+        Chance: 5
         Commands:
-        - cmdi give %name% rename
+        - cmdi give {player_name} rename
         Name: "&b&lRename &f&lAccess"
-      12:
+      l:
         Enchanted: true
         Item: HOPPER
-        Percentage: 5
+        Chance: 5
         Commands:
-        - jetshoppers give %name% V 3
+        - jetshoppers give {player_name} V 3
         Name: "&b&lHopper &f&l[&b&lLevel V&f&l] x3"
-      13:
+      m:
         Enchanted: true
         Item: CHEST
-        Percentage: 10
+        Chance: 10
         Commands:
-        - voidchest give default %name% 3
+        - voidchest give default {player_name} 3
         Name: "&b&lVoid &f&lChest x3"
-      14:
+      n:
         Enchanted: true
         Item: TRIPWIRE_HOOK
-        Percentage: 5
+        Chance: 5
         Commands:
         - crate giveall vote
         Name: "&b&lVote Key &f&lAll"
-      15:
+      o:
         Enchanted: true
         Item: PLAYER_HEAD
-        Percentage: 5
+        Chance: 5
         Commands:
-        - cmdi give %name% hat
+        - cmdi give {player_name} hat
         Name: "&b&lHat &f&lAccess"
-      16:
+      p:
         Enchanted: true
         Item: RED_CONCRETE
-        Percentage: 3
+        Chance: 3
         Commands:
-        - cmdi give %name% concrete
+        - cmdi give {player_name} concrete
         Name: "&b&lConcrete &f&lKit"
-      17:
+      q:
         Enchanted: true
         Item: REDSTONE
-        Percentage: 3
+        Chance: 3
         Commands:
-        - cmdi give %name% redstone
+        - cmdi give {player_name} redstone
         Name: "&b&lRedstone &f&lKit"
-      18:
+      r:
         Enchanted: true
         Item: NETHERITE_SWORD
-        Percentage: 3
+        Chance: 3
         Commands:
-        - cmdi give %name% pvp
+        - cmdi give {player_name} pvp
         Name: "&b&lPvp &f&lKit"
-      19:
+      s:
         Enchanted: true
         Item: RED_DYE
-        Percentage: 10
+        Chance: 10
         Commands:
-        - cmdi give %name% colours
+        - cmdi give {player_name} colours
         Name: "&b&lColour &f&lPack"
-      20:
+      t:
         Enchanted: true
         Item: PAPER
-        Percentage: 5
+        Chance: 5
         Commands:
-        - cmdi give %name% market15
+        - cmdi give {player_name} market15
         Name: "&b&l1.15x Sale &f&lMultiplier"
-      21:
+      u:
         Enchanted: true
         Item: PAPER
-        Percentage: 5
+        Chance: 5
         Commands:
-        - cmdi give %name% market5
+        - cmdi give {player_name} market5
         Name: "&b&l5% Market &f&lDiscount"
         Item Data: 3
         Amount: 1
-      22:
+      v:
         Enchanted: true
         Item: PAPER
-        Percentage: 5
+        Chance: 5
         Commands:
-        - cmdi give %name% market25
+        - cmdi give {player_name} market25
         Name: "&b&l25% Market &f&lDiscount"

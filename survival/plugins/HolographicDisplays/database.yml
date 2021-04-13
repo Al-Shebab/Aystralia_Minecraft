@@ -1,19 +1,9 @@
-vote:
-  location: world, 6.500, 79.500, -7.500
-  lines:
-  - '&b&ki&f&ki&b Vote &fCrate &f&ki&b&ki'
-  - '&bGet keys by voting via &f/vote'
 cactus:
   location: world, -1031.974, 3.000, 3448.911
   lines:
   - '&b&l/warp cactus'
   - '&fBuy some cactus for free'
   - '&fand use /sell all. Easy money.'
-donator:
-  location: world, -1.500, 79.500, -7.500
-  lines:
-  - '&c&ki&f&ki &c&lAystralia &f&lCrate &f&ki&c&ki'
-  - '&fGet keys from &cComing Soon...'
 basics:
   location: world, 32.500, 69.000, -24.500
   lines:

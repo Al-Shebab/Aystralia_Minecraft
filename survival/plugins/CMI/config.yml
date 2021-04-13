@@ -1263,22 +1263,22 @@ Spawn:
   # RespawnLocation will indicate if you want to use this location as possible respawn point for player after death
   Main:
     World: world
-    X: 2.55302796872209
+    X: -1.5
     Y: 77.0
-    Z: 9.079805528592523
-    Pitch: 8.278763
-    Yaw: 180.39633
+    Z: -1.5
+    Pitch: -2.154282
+    Yaw: 89.025665
     RespawnLocation: false
     Rng: 0
   # Defines players first spawn point when he logs into server for the first time
   FirstSpawn:
     Use: true
     World: world
-    X: 2.55302796872209
+    X: -1.5
     Y: 77.0
-    Z: 9.079805528592523
-    Pitch: 8.278763
-    Yaw: 180.39633
+    Z: -1.5
+    Pitch: -2.154282
+    Yaw: 89.025665
 Newbie:
   # Kit name to give for new players joining server
   Kit: Newbie
@@ -1711,6 +1711,17 @@ Time:
       # Default value: 90 Starts from tick: 22200 Ends at tick: 24000
       sunrise: 90
     # Time is defined in seconds. Vanilla 24 hour ingame duration is 1200 seconds of real time
+    fantasy:
+      Enabled: false
+      # Default value: 600 Starts from tick: 0 Ends at tick: 12000
+      day: 600
+      # Default value: 90 Starts from tick: 12000 Ends at tick: 13800
+      sunset: 90
+      # Default value: 420 Starts from tick: 13800 Ends at tick: 22200
+      night: 420
+      # Default value: 90 Starts from tick: 22200 Ends at tick: 24000
+      sunrise: 90
+    # Time is defined in seconds. Vanilla 24 hour ingame duration is 1200 seconds of real time
     realistic:
       Enabled: false
       # Default value: 600 Starts from tick: 0 Ends at tick: 12000
@@ -1734,17 +1745,6 @@ Time:
       sunrise: 90
     # Time is defined in seconds. Vanilla 24 hour ingame duration is 1200 seconds of real time
     arctic:
-      Enabled: false
-      # Default value: 600 Starts from tick: 0 Ends at tick: 12000
-      day: 600
-      # Default value: 90 Starts from tick: 12000 Ends at tick: 13800
-      sunset: 90
-      # Default value: 420 Starts from tick: 13800 Ends at tick: 22200
-      night: 420
-      # Default value: 90 Starts from tick: 22200 Ends at tick: 24000
-      sunrise: 90
-    # Time is defined in seconds. Vanilla 24 hour ingame duration is 1200 seconds of real time
-    fantasy:
       Enabled: false
       # Default value: 600 Starts from tick: 0 Ends at tick: 12000
       day: 600
@@ -1886,7 +1886,6 @@ Enchanting:
       cutter: 5
       quick_charge: 3
       double_strike: 4
-      wildstackerglow: 1
       protection_projectile: 4
       sonic: 3
       impaling: 5
