@@ -45,13 +45,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 112.809906
+        bodyYaw: 167.77951
         world: world
         x: '19.5'
         y: '66.0'
         z: '-21.5'
-        yaw: '152.8099'
-        pitch: '0.0'
+        yaw: '-152.2205'
+        pitch: '-4.8543'
       skintrait:
         fetchDefaultSkin: true
         signature: GbwOqVlosSHAzttEixtzhpt/0NawIj04qCCTYFjlFYReVICMq57aD6p+34uYRcJT3utbe6eXtM6EY/89eS6EFnMyNIgCPZiMBWfJ9PX03pXmlaxoc2wHl8KLNz493W/i/3BluW6cnFLGEeaSLu2lJvRYZ0QW4nk4r12Bf8ISa7ZQ5Dgxbqgxt2z/u9F4V3CRd0qid61XEauc6PWsTzsEQdKs9YRIm4mggzj00dPHB9AAvW2d1tRMk9jRuMrfZ6QcAA3ymBnLGLRCBQlnJNpPnSZLgaf4MukYu6ravYysd1COYqknt/U3XBxBjk6cLKXrk6x76+BgPLuy+CZLoFYGVMATlR3DmaGsoQdlYhGbP2xAdQGRfU4KcZL3kx+VTrGBeRzCXVIwRHhRWbHpHmZb0hGaab9HLcKiQlBPYMckKQ1ocw3xrvqDE53FN5xZUbwpOSJkS1xPuCrmQGi8KHldwbLdy9xjmxV6VT7znww2H5mOVMiXGmw++xFd4yP9BOV4f8ei7iQdxelBErGuS61XRx6otwDiL7QSXHh9nrUZeiUrhoT8x20EK67BOvozXaVKhakgwB8c1yyNK6l3leuVRP2H7fnTg5NnMxya6aAXO8gn6gy+95H2Cc7fDf4ECYEbVsHsF1Tp3vPRWJkAlerjnm4etECiKIaskfqNJKNlrPs=
@@ -103,12 +103,12 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 118.544174
+        bodyYaw: -96.2715
         world: world
         x: '24.5'
         y: '66.0'
         z: '-21.5'
-        yaw: '158.5442'
+        yaw: '-115.1376'
         pitch: '0.0'
       skintrait:
         fetchDefaultSkin: true
@@ -217,13 +217,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 158.84998
+        bodyYaw: 126.089966
         world: world
         x: '22.5'
         y: '66.0'
         z: '-6.5'
-        yaw: '-161.15'
-        pitch: '-14.7579'
+        yaw: '166.09'
+        pitch: '0.0'
       skintrait:
         fetchDefaultSkin: true
         signature: kVvbmf0bdoENbsdwoA9ZjpT9cU156U8EbYZKxOzO+Lh6yWvgBI3t8fAPppDnnGUCR+xLRLneC6T+xSDAqPKag+jO3ptrNBXFjd9pOp/aUi/vvnEZfpeJw80aDEK/YBlGDPcyqtU3RzT+4NuqzKFdCCFk/YT1rgTR53D//xGMbF7iYoGsSo7/DWeCDQ6MMRZ8MdCbignUhInrokS9BHzQyplBCOtuyj1CSrdCL6smJ8d1HuFypbYd3DPTMCdWX+4K+DMCOA+lBOrreasYrHCzCGx6ZAV9a2016mE9fz6i+9zy3fiC1RwwhC4wxJN/jLRnW2h4IKgxGDojRqWwQw6H4/Ir2WKSIMDpX3uyDzcAXTD+Dsj1g1+rshHzuVhuGhogFBfVaHw0wDXVJhhB+JMQ7BEggmWe4oXGNlaD7aTU08jhNB5kby+MBpbSIannfvkeCzuLUUVmP1N+PJQkIOEaa0N+Noph1eY82GZLcI3cFR+H34+fGTX8yQp4yhPeivQ5zYpTnsWC9kky6q++zeauWHZ/kWJQGrNhYW2kV8h8PfhIrUmbYz8aRLyJz9/Dj0sDfELJSDNYENnTZuRV4g+NGPaeSq3qsqxr6dKZePfxc27ekGj8oqrxm9K48ho/rjYg/9FtlC6g34l4+aGtN1VplN3GKbWdmWS8AJNTlf0F3BA=
@@ -274,12 +274,12 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 157.10098
+        bodyYaw: 141.07149
         world: world
         x: '16.5'
         y: '66.0'
         z: '-6.5'
-        yaw: '-162.899'
+        yaw: '-178.9285'
         pitch: '0.0'
       skintrait:
         fetchDefaultSkin: true
@@ -331,12 +331,12 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 90.68039
+        bodyYaw: 21.472038
         world: world
         x: '19.5'
         y: '66.0'
         z: '-16.5'
-        yaw: '130.6804'
+        yaw: '21.3768'
         pitch: '0.0'
       skintrait:
         fetchDefaultSkin: true
@@ -388,12 +388,12 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 97.54175
+        bodyYaw: 93.005905
         world: world
         x: '34.5'
         y: '66.0'
         z: '-18.5'
-        yaw: '135.1653'
+        yaw: '106.0308'
         pitch: '0.0'
       skintrait:
         fetchDefaultSkin: true
@@ -445,13 +445,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 175.71204
+        bodyYaw: -91.215515
         world: world
         x: '24.5'
         y: '66.0'
         z: '-16.5'
-        yaw: '-144.288'
-        pitch: '-11.7739'
+        yaw: '-131.2155'
+        pitch: '0.0'
       skintrait:
         fetchDefaultSkin: true
         signature: COr26l2siQ/UpVdIPIV6VEv7e9Xalch8CMvKay8a4gY3zpSHgyIZDLXbr1hzFJPszX1I8/eKGm6r7EghE5tr1q3ClJ1yLgCvSzcOvMoMsxVJmWcdXMtd1S4ywI3wuFJ2onqXXqUtBH7A8tjcNLRK0braN3nhsl2Bv32zuMRBZFKvrbf9OzSMFAZP1Fc0hlyg48iboQgauVhhlArZAJLtHMV/07iMcKuGbhtFtwm1urOiV0u+arxz+A1IQlauS3kBoAus3V3D+jBbX3PPx1uJafsedS9jcqqXr0ZvOmlPhVe2qSVwoLmTE62e3s0By9eCr1v/ETJMtdUewkpf+/aBdo5ppXJDxghCAr2OtvagEG+4xVgiFNzOyZMcfam5Pcfk2+/7HNnSQ7ELGKRImzReuXkgBPd7eYQCPPNmRZMTxZOi0fIUzZN0cmsN3jCSd5jR7izCFRvpq4l3raouiuy4CxySUore8qOnfV4Tt8GuvrLzaf0F6vSRzK0/QNi5kRoxUUEybWhJSzCkwtormAGxchmuwsEACKNmXi0iA0jTQ77g1HsEehT+NRKmK5GtnGvK9mjcVo+lmceH3I9Ibn7+abLQCVYg8gGg1v4XpfXOGs4gWXB3sDyQhywgwcfSU3ZW/Ls6j0RGP26jJCncGK+1edHEzAAljjZpIjuM1O88acE=
@@ -502,13 +502,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 101.57904
+        bodyYaw: 97.58104
         world: world
         x: '28.5'
         y: '66.0'
         z: '-6.5'
-        yaw: '118.205'
-        pitch: '-11.7325'
+        yaw: '125.6755'
+        pitch: '-4.8395'
       skintrait:
         fetchDefaultSkin: true
         signature: DHyZo8CzBpPhcr57OYMtIUSw6ztiWbK1Mg7qtic3T7WvN1dIK5wS6wsXGJBaE1tttK+Ll73Y0zOKcC7IrXNCcup+AhcCju8zQmFsx6JLBzTHZhk/MT9IF2opksq/m/MDmSLon6rDFIIvbNTwM287Uie7t7Efh2qLsJ3MobKM6RyzoRIAIM0QBrEp9H3U5P+q6Ykq4808X//YrOXhK0leqBMAx3XmZ482XEx5ADGBUgaOijU8adGQtdW6UN6rdgHh3Bww7j1NLUfQLBaNNQWuVN78YXpiCqZZr5V1qTloUC98WVDvFtDux7zn1kFbkM3vG+JTjntx4zQmOdn7mydUK9xOH7r4+MW8wLy9OjotbqRxbKbgfPCKJa0mCJy97z94ZFqIP4HKSPHcvBqsu2gmDH504etE2BFlSlLIZ3ngwYyFaaCeH8yUIBqLrBMNT4SQBHqIJMgrI0+y4rTPEjVgivGmkkHglUdix6U69zLmurzoOnET1q4dsqhTfQQgjX4CESh5Lc3p7Hb/Ws6qP8sIKJTkYGrTC2a3R4WH/qxHp/MmY2EMcWecy5AmPp6XYR4kwuK6uyW+evNe463gFSW3YoZd5SmrlmUcwVx9BStHaKPApOBwxJ/Y2n/HEHXfYH8nqklnY7lIrCviE7+6F1A0FkgIIIIliCkzw1hk4tIi52c=
@@ -564,8 +564,8 @@ npc:
         x: '21.5'
         y: '66.0'
         z: '-32.5'
-        yaw: '-18.9014'
-        pitch: '-9.1966'
+        yaw: '1.3999'
+        pitch: '0.0'
       skintrait:
         fetchDefaultSkin: true
         signature: T9Dee6bluwQsEa8BJHXKLUaOshXzWCTJU2WaXdaNQsmEiOZIlPjIivzY9ciA6wBKAfCUbV38YMweA+7+6Z9g9K6DR5frEhkbwD7fHIGM9TRz3RZM9Hvw06I7f2adeGioe0ZE1oOxQuxqg5EcDNhz91Nc68TFIxVbuHTBn/PvhbnwrUpmWJI0IpXrS7fzGKi+O5A71KowsmLAQJB9Kl8i1u5a8nN76Pj8AzRHtth3b8JNjw7LSz65BSXHosN6FtK12v+G+ZPy8GqsxqP97g//jw3gR/wVqrO3rwHjoPEDcHGwoGVXz5dsN8nitpk9Se3qGbDyVriTE1ZPJnfRDmEZszFhSfq/vxkzanCQZgrP5V9Iqz2kkqN6LyLCmN7mKBV19r35+JlS3trz9VqrdIZtm999KzotkEGazOH+t2EKhKZiLHGIbsPrdYdXIG9TGHyU/b/tGs+HOEQ4rDHftuwvF08l2UHNzjOuzkO9p1SSr4UYciKCcWbDGCffwH9fqGAfr85aY2NIbWKTn/kx7IWmDH4nOa4tosh1Xayeava33yz4nNDnBRY4VyvhRmV1GOiZ7A9cNU/82+Oze/5tW/2C+2vhLdqLKJU7XZhBfx16PjAyy4mcAZBezANLBqM5v3aRwZcXsTsfBwgL97cTSnnccTqC+SXt5IYBd/vj6FmfpKc=
@@ -621,8 +621,8 @@ npc:
         x: '34.5'
         y: '66.0'
         z: '-24.5'
-        yaw: '111.4321'
-        pitch: '-5.1003'
+        yaw: '47.3625'
+        pitch: '0.0'
       skintrait:
         fetchDefaultSkin: true
         signature: NylylVHf2gFmTX8mSuHKkkQxMFiq/6wpMfWNz4IUbta3gqrXbVHDz4PW077L2T005DbhE7POivNJFTKRHuIVDjcjx3ZKBqbR3E9lSAru2rfCdZoftHxOgJ0o7utk53/VAgddqNT6ZgppgPWltW/HzbMAbEOi6tKPyRvYJcFCy/mHb61Zq7jS5ppl+T+OZq/+OWj8l9yr4CGcO7KVzYJIKr75HZCDUXwvs6LZf9DR+Xoq8i7+GubXPFlfzwUFT0rXECIZKA9DyTBzOZfxa6mXtQaMOCf5xL+cDXlvRimJvWQj5rhhMeftI73QjHAm+p6tBRvYodSfWd9jzicwvqPtJH4bs3/WmwtkMjof4JqY4nsR4YnsA7SL5golQqkcqGjVJI0WhQcJjXrgIim7eXOvg9iEgUF9l27TLPo4wn7efzB2WfZfH0xiyfpXRag5vWeXPqu7kIIUy5Iu44h+meSBhe82HjRj6QDh37pVxcxOl6Z64UrkUrCPQqH1xMsgYrF0ShtWDMKnF5m7q1HImZA4+BSQTr6lrqH8L279bPxaWh6iBw76WIL5BL2cOAGcTrVLoGkKiCe/XV+HWfXi517zf29BD3KisvEf5Zx37qkbrB+ncMHYPyJS7m7A6QX+9Cc16g2i+cM3X3qxQ9X9ebKujqIBJauRhuCJxJQBg+DAR5g=
@@ -673,12 +673,12 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 94.673645
+        bodyYaw: 93.88161
         world: world
         x: '34.5'
         y: '66.0'
         z: '-12.5'
-        yaw: '90.6934'
+        yaw: '83.9332'
         pitch: '0.0'
       skintrait:
         fetchDefaultSkin: true
@@ -703,12 +703,12 @@ npc:
     uuid: 6df17d1b-0551-43e8-80db-544fec826edf
     traits:
       location:
-        bodyYaw: -97.56595
+        bodyYaw: -94.468
         world: world
         x: '-6.5'
         y: '77.0'
         z: '1.5'
-        yaw: '-66.3808'
+        yaw: '-124.7366'
         pitch: '0.0'
       spawned: true
       lookclose:

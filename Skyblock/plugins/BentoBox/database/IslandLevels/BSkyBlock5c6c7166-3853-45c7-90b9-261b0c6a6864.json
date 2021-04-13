@@ -1,8 +1,8 @@
 {
   "uniqueId": "BSkyBlock5c6c7166-3853-45c7-90b9-261b0c6a6864",
-  "level": 1079,
+  "level": 1080,
   "initialLevel": 0,
-  "pointsToNextLevel": 73,
+  "pointsToNextLevel": 30,
   "uwCount": {},
   "mdCount": {
     "DIAMOND_ORE": 2,
@@ -11,7 +11,7 @@
     "OAK_LEAVES": 389,
     "GLASS": 54,
     "CRAFTING_TABLE": 1,
-    "DIRT": 135,
+    "DIRT": 132,
     "BEDROCK": 1,
     "TORCH": 9,
     "FURNACE": 1,
@@ -21,7 +21,7 @@
     "COAL_ORE": 10,
     "GOLD_ORE": 5,
     "CHIPPED_ANVIL": 1,
-    "COBBLESTONE": 10,
+    "COBBLESTONE": 9,
     "OAK_SLAB": 4,
     "IRON_ORE": 12,
     "SAND": 16,
@@ -29,13 +29,12 @@
     "OAK_LOG": 120,
     "OAK_PLANKS": 35,
     "SUGAR_CANE": 138,
-    "GRASS_BLOCK": 594,
-    "STONE": 131,
+    "GRASS_BLOCK": 597,
+    "STONE": 133,
     "WATER": 36,
     "CACTUS": 48,
     "AIR": 10238087,
     "OAK_FENCE": 39,
-    "EMERALD_ORE": 1,
     "OAK_STAIRS": 99
   }
 }

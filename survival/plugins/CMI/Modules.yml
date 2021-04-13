@@ -103,7 +103,7 @@ holograms: false
 #  
 # Handles portals
 # Applies for servers from 1.7.x and up
-portals: true
+portals: false
 #  
 # Handles home bed interactions and bed destroy events. Disabling this homes will still work
 # Applies for servers from 1.7.x and up

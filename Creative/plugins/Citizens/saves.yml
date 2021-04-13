@@ -25,13 +25,13 @@ npc:
             n: -1
             delay: 0
       location:
-        bodyYaw: -96.7162
+        bodyYaw: -98.67787
         world: world
         x: '3.5'
         y: '40.0'
         z: '9.5'
-        yaw: '-101.155'
-        pitch: '0.0'
+        yaw: '-114.4766'
+        pitch: '-11.8218'
       spawned: true
       lookclose:
         range: '5.0'
@@ -54,7 +54,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: type,location,mounttrait,equipment,skintrait,inventory,spawned,lookclose,owner,scoreboardtrait,commandtrait
+    traitnames: location,mounttrait,spawned,scoreboardtrait,inventory,lookclose,type,owner,equipment,skintrait,commandtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -82,13 +82,13 @@ npc:
             n: -1
             delay: 0
       location:
-        bodyYaw: 43.550735
+        bodyYaw: 35.543655
         world: world
         x: '9.5'
         y: '40.0'
         z: '3.5'
-        yaw: '22.4247'
-        pitch: '-9.961'
+        yaw: '46.8411'
+        pitch: '-2.9513'
       spawned: true
       lookclose:
         range: '5.0'
@@ -112,7 +112,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: type,location,mounttrait,equipment,skintrait,inventory,spawned,lookclose,owner,scoreboardtrait,commandtrait
+    traitnames: location,mounttrait,scoreboardtrait,spawned,lookclose,inventory,type,owner,equipment,skintrait,commandtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

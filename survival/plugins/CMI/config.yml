@@ -608,9 +608,7 @@ Votifier:
     '1000':
     - ccrate give v ISN 1 [playerName]
   # List of players to be excluded from top voter list
-  ExcludeList:
-  - Callum22122
-  - Al_Shebab
+  ExcludeList: []
 Ranks:
   AutoRankUp:
     # Defines how often in seconds plugin will check for possible player rankups
@@ -705,7 +703,9 @@ Chat:
   ItemRegex:
   - (\%item\%)
   - (\[item\])
+  - (\[ITEM\])
   - (\%i\%)
+  - (\%I\%)
   # Attention! This will require you to have CMI Bungee plugin which can be found at zrips.net
   # Or direct download https://www.zrips.net/cmi/
   # Do you want to enable private messaging over bungeecord
@@ -1045,9 +1045,9 @@ NetherPortal:
 Portals:
   # Defines in milliseconds how often to check if player entered portal or not
   # Bigger numbers can help slightly lower server load but small portals, 1 block depth without back wall can be passed through without teleportations if player moves fast enought
-  CheckInterval: 300
+  CheckInterval: 1000
   # Defines in milliseconds how often to check if player entered portal range for particles to apear
-  CheckParticleInterval: 500
+  CheckParticleInterval: 1000
   # Perform commands on teleport or not
   PerformCommands: false
   # Commands to be performed on teleport event
@@ -1058,7 +1058,7 @@ Animations:
   # Requires cmi.command.sit.stairs
   SitOnStairs: true
   StairsAsChairs: true
-  SlabsAsChairs: true
+  SlabsAsChairs: false
   CarpetsAsChairs: false
   RemoveFromChairOnDamage: true
   # Player will sit on chair only after rapid double click
@@ -1379,7 +1379,7 @@ inv:
   # If set to true then player should have cmi.saveinv permission node for inventory to be saved on death
   RequiresPermission: true
   # How many inventories, we will keep for each player
-  SavedInventories: 20
+  SavedInventories: 3
   restore:
     # Set to false if you don't want to restore hp state on inventory load with /cmi invload command
     HP: false
@@ -1422,7 +1422,7 @@ Mute:
   DenyPrivateMessages: true
 Dispose:
   # defines how big is dispose ui 1-6
-  UILines: 4
+  UILines: 6
 ItemRepair:
   RepairShare:
     # When neabling you will need to perform full server restart for it to take effect
@@ -1797,11 +1797,11 @@ RandomTeleportation:
       maxY: 256
     fantasy:
       Enabled: true
-      MaxRange: 4990
+      MaxRange: 2500
       MinRange: 1
       CenterX: 0
       CenterZ: 0
-      Circle: false
+      Circle: true
       IgnoreWater: true
       IgnoreLava: true
       minY: 11
