@@ -1722,17 +1722,6 @@ Time:
       # Default value: 90 Starts from tick: 22200 Ends at tick: 24000
       sunrise: 90
     # Time is defined in seconds. Vanilla 24 hour ingame duration is 1200 seconds of real time
-    fantasy:
-      Enabled: false
-      # Default value: 600 Starts from tick: 0 Ends at tick: 12000
-      day: 600
-      # Default value: 90 Starts from tick: 12000 Ends at tick: 13800
-      sunset: 90
-      # Default value: 420 Starts from tick: 13800 Ends at tick: 22200
-      night: 420
-      # Default value: 90 Starts from tick: 22200 Ends at tick: 24000
-      sunrise: 90
-    # Time is defined in seconds. Vanilla 24 hour ingame duration is 1200 seconds of real time
     resource:
       Enabled: false
       # Default value: 600 Starts from tick: 0 Ends at tick: 12000
@@ -1745,6 +1734,17 @@ Time:
       sunrise: 90
     # Time is defined in seconds. Vanilla 24 hour ingame duration is 1200 seconds of real time
     arctic:
+      Enabled: false
+      # Default value: 600 Starts from tick: 0 Ends at tick: 12000
+      day: 600
+      # Default value: 90 Starts from tick: 12000 Ends at tick: 13800
+      sunset: 90
+      # Default value: 420 Starts from tick: 13800 Ends at tick: 22200
+      night: 420
+      # Default value: 90 Starts from tick: 22200 Ends at tick: 24000
+      sunrise: 90
+    # Time is defined in seconds. Vanilla 24 hour ingame duration is 1200 seconds of real time
+    fantasy:
       Enabled: false
       # Default value: 600 Starts from tick: 0 Ends at tick: 12000
       day: 600

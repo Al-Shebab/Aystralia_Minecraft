@@ -16,11 +16,7 @@
   "gameMode": "BSkyBlock",
   "createdDate": 1617839165539,
   "updatedDate": 1617839165539,
-  "owner": "985f195a-80bc-4d0b-a8e0-de6c99e90d08",
-  "members": {
-    "7b4be04b-8ce5-40e4-8858-07888a45c071": 500,
-    "985f195a-80bc-4d0b-a8e0-de6c99e90d08": 1000
-  },
+  "members": {},
   "maxMembers": {},
   "spawn": false,
   "purgeProtected": false,
@@ -108,7 +104,13 @@
     "FIRE_BURNING": -1,
     "HURT_MONSTERS": 0
   },
-  "history": [],
+  "history": [
+    {
+      "timestamp": 1618274830313,
+      "type": "UNOWNED",
+      "data": {}
+    }
+  ],
   "levelHandicap": 0,
   "spawnPoint": {
     "NORMAL": [
@@ -135,6 +137,7 @@
     "FIRE_IGNITE": 1618007029332,
     "FIRE_BURNING": 1618007033785
   },
+  "metaData": {},
   "homes": {
     "": [
       "skyblock",

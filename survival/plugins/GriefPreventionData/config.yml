@@ -5,7 +5,6 @@ GriefPrevention:
     world_nether: 256
     world_the_end: 256
     realistic: 256
-    fantasy: 256
     resource: 256
     arctic: -1
   Claims:
@@ -16,7 +15,6 @@ GriefPrevention:
       resource: Survival
       world_the_end: Disabled
       realistic: Survival
-      fantasy: Survival
     PreventGlobalMonsterEggs: true
     PreventTheft: true
     ProtectCreatures: true
@@ -83,7 +81,6 @@ GriefPrevention:
       world_nether: true
       world_the_end: true
       realistic: true
-      fantasy: true
       resource: true
       arctic: true
     ProtectFreshSpawns: false
