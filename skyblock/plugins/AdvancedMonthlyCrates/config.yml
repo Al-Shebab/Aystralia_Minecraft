@@ -160,7 +160,7 @@ Crates:
     RewardHologram:
       - "&b&lVote &f&lCrate"
       - ""
-      - "&cPlace to use"
+      - "&fRight-click to use"
       - "&fEarned by &b{player_name}"
     #Customisable hologram above the main prize
     Final_Message: []
@@ -272,7 +272,7 @@ Crates:
     RewardHologram:
       - "&c&lAystralia &f&lCrate"
       - ""
-      - "&cPlace to use"
+      - "&cRight-click to use"
       - "&fPurchased by &c{player_name}"
     #Customisable hologram above the main prize
     Final_Message: []
