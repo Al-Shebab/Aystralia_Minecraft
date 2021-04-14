@@ -34,7 +34,7 @@ SpigotFork: true
 Spinning_Lightning: true
 
 # Should all of the lightning that is made by the plugin be silent (make no sound)?
-Lightning_silent: false
+Lightning_silent: true
 
 # What should be the main command in order to use AdvancedMonthlyCrates plugin, default is /amc
 main_command: "crate"
@@ -79,7 +79,7 @@ PouchEnding: "Lightning"
 Item_Change_Particle_Round: "Instant_Spell"
 
 # How high should the round animation be after being placed on the ground?
-Round_How_High: 3
+Round_How_High: 1
 
 # How long should the round2 animation last? (measured in seconds)
 Round2_Animation_Lenght: 12
@@ -88,10 +88,10 @@ Round2_Animation_Lenght: 12
 Round2_Animation_Lightning: true
 
 # How fast should be the Round2 animation spinning? (decimals can be used)
-Round2_Animation_Speed: 3
+Round2_Animation_Speed: 1
 
 # How fast should be the Round animation spinning? (decimals can be used)
-Round_Animation_Speed: 3
+Round_Animation_Speed: 1
 
 # How long should the round animation last? (measured in seconds)
 Round_Animation_Lenght: 8
@@ -147,9 +147,9 @@ Crates:
     #  - "-1052,60,510"
     #OnlyPlaceableAtLocations makes it so you can only place this specific crate at declared coordinates. You can find the coordinates by pressing F3 and looking at "Looking at block"
     #Currently there are 4 types of animations: Round ; Pyramid ; Display ; Round2
-    Item: "NETHER_STAR"
-    OnlyPlacable: false #Option is useful if you wish the crate be not a block, example: Item: "NETHER_STAR" (Player can open Nether Star crate by right clicking in the air)
-    RewardsDontRepeat: false   #Can the user win a reward only once per opening? (If there aren"t enough prizes to fill the whole crate size there will be repeating items)
+    Item: "ENDER_CHEST"
+    OnlyPlacable: true #Option is useful if you wish the crate be not a block, example: Item: "NETHER_STAR" (Player can open Nether Star crate by right clicking in the air)
+    RewardsDontRepeat: true   #Can the user win a reward only once per opening? (If there aren"t enough prizes to fill the whole crate size there will be repeating items)
     #CustomModelData: 0
     #Is the block that will be the monthly crate
     Enchanted: true #Not all items can be enchanted.
@@ -166,7 +166,7 @@ Crates:
     #If set 0 there will be only the best prize in the animation
     Lores:
       - ""
-      - "&fRight-click to use"
+      - "&fPlace to use"
       - "&fEarned by &b{player_name}"
     Prizes:
       BrewingStand:
@@ -266,9 +266,9 @@ Crates:
     #  - "-1052,60,510"
     #OnlyPlaceableAtLocations makes it so you can only place this specific crate at declared coordinates. You can find the coordinates by pressing F3 and looking at "Looking at block"
     #Currently there are 4 types of animations: Round ; Pyramid ; Display ; Round2
-    Item: "NETHER_STAR"
-    OnlyPlacable: false #Option is useful if you wish the crate be not a block, example: Item: "NETHER_STAR" (Player can open Nether Star crate by right clicking in the air)
-    RewardsDontRepeat: false   #Can the user win a reward only once per opening? (If there aren"t enough prizes to fill the whole crate size there will be repeating items)
+    Item: "ENDER_CHEST"
+    OnlyPlacable: true #Option is useful if you wish the crate be not a block, example: Item: "NETHER_STAR" (Player can open Nether Star crate by right clicking in the air)
+    RewardsDontRepeat: true   #Can the user win a reward only once per opening? (If there aren"t enough prizes to fill the whole crate size there will be repeating items)
     #CustomModelData: 0
     #Is the block that will be the monthly crate
     Enchanted: true #Not all items can be enchanted.

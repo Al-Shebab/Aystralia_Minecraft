@@ -1,6 +1,6 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 18
+last-created-npc-id: 19
 npc:
   '14':
     metadata:
@@ -24,13 +24,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: -80.80705
+        bodyYaw: 118.79901
         world: world
         x: '-19.5'
         y: '43.0'
         z: '-414.5'
-        yaw: '-116.796'
-        pitch: '-0.0155'
+        yaw: '158.799'
+        pitch: '12.0242'
       spawned: true
       type: PLAYER
       skintrait:
@@ -55,7 +55,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: owner,mounttrait,spawned,skintrait,commandtrait,scoreboardtrait,equipment,location,inventory,type,lookclose
+    traitnames: equipment,lookclose,scoreboardtrait,spawned,location,mounttrait,type,skintrait,inventory,commandtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -82,13 +82,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 142.28601
+        bodyYaw: -31.682884
         world: world
         x: '-19.5'
         y: '43.0'
         z: '-432.5'
-        yaw: '-177.714'
-        pitch: '-1.9607'
+        yaw: '-4.364'
+        pitch: '11.9654'
       spawned: true
       type: PLAYER
       skintrait:
@@ -113,7 +113,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: owner,mounttrait,spawned,skintrait,commandtrait,scoreboardtrait,equipment,location,inventory,type,lookclose
+    traitnames: equipment,lookclose,scoreboardtrait,location,spawned,mounttrait,type,skintrait,inventory,commandtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -141,13 +141,13 @@ npc:
             delay: 0
       spawned: true
       location:
-        bodyYaw: 139.92358
+        bodyYaw: 79.458496
         world: world
         x: '-15.5'
         y: '43.0'
         z: '-418.5'
-        yaw: '179.9236'
-        pitch: '-2.0424'
+        yaw: '87.1179'
+        pitch: '12.1086'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -171,7 +171,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: owner,mounttrait,spawned,skintrait,commandtrait,equipment,scoreboardtrait,location,inventory,type,lookclose
+    traitnames: equipment,lookclose,scoreboardtrait,spawned,location,mounttrait,type,skintrait,inventory,commandtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -199,13 +199,13 @@ npc:
             delay: 0
       spawned: true
       location:
-        bodyYaw: 106.68408
+        bodyYaw: 70.774155
         world: world
         x: '-14.5'
         y: '43.0'
         z: '-423.5'
-        yaw: '89.8681'
-        pitch: '-1.8132'
+        yaw: '92.6851'
+        pitch: '25.9953'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -229,7 +229,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: owner,mounttrait,spawned,skintrait,commandtrait,equipment,scoreboardtrait,location,inventory,type,lookclose
+    traitnames: equipment,lookclose,scoreboardtrait,location,spawned,mounttrait,type,skintrait,inventory,commandtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -244,13 +244,13 @@ npc:
     traits:
       spawned: true
       location:
-        bodyYaw: 62.6232
+        bodyYaw: 46.89418
         world: world
         x: '-15.5'
         y: '43.0'
         z: '-428.5'
-        yaw: '22.6232'
-        pitch: '-2.1629'
+        yaw: '9.3228'
+        pitch: '5.8366'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -287,7 +287,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: owner,mounttrait,spawned,skintrait,commandtrait,equipment,scoreboardtrait,location,inventory,type,lookclose
+    traitnames: equipment,lookclose,scoreboardtrait,spawned,location,mounttrait,type,skintrait,inventory,commandtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

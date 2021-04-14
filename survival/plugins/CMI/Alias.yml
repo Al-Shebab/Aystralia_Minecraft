@@ -52,10 +52,10 @@ Alias:
   /baltop: true
   #  
   # /cmi ban $1-
-  /ban: false
+  /ban: true
   #  
   # /cmi banlist $1-
-  /banlist: false
+  /banlist: true
   #  
   # /cmi bbroadcast $1-
   /bbroadcast: false
@@ -360,10 +360,10 @@ Alias:
   /invsave: true
   #  
   # /cmi ipban $1-
-  /ipban: false
+  /ipban: true
   #  
   # /cmi ipbanlist $1-
-  /ipbanlist: false
+  /ipbanlist: true
   #  
   # /cmi item $1-
   /item: true
@@ -769,10 +769,10 @@ Alias:
   /tagtoggle: true
   #  
   # /cmi tempban $1-
-  /tempban: false
+  /tempban: true
   #  
   # /cmi tempipban $1-
-  /tempipban: false
+  /tempipban: true
   #  
   # /cmi tfly $1-
   /tfly: true
@@ -861,7 +861,7 @@ Alias:
   /tree: true
   #  
   # /cmi unban $1-
-  /unban: false
+  /unban: true
   #  
   # /cmi unbreakable $1-
   /unbreakable: true

@@ -43,5 +43,5 @@ aliases:
   - cmi rt world
   wild:
   - cmi rt world
-  signshop:
-  - cmi ctext signshop
+  perks:
+  - dm open perks2

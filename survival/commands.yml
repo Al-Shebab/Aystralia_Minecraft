@@ -39,5 +39,5 @@ aliases:
   - pv 1
   backpack:
   - pv 1
-  signshop:
-  - cmi ctext signshop
+  perks:
+  - dm open perks2

@@ -4,7 +4,10 @@
   "playerName": "famly",
   "resets": {},
   "locale": "",
-  "deaths": {},
+  "deaths": {
+    "skyblock": 0
+  },
   "pendingKicks": [],
-  "flagsDisplayMode": "BASIC"
+  "flagsDisplayMode": "BASIC",
+  "metaData": {}
 }
