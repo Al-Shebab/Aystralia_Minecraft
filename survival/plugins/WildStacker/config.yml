@@ -135,7 +135,7 @@ items:
   # When fix-stack is disabled, items with a max-stack of 1 will be added to inventories
   # with a max-stack size of 64. If a player picks up 80 picks, he will get 64 + 16, instead
   # of 80 different items.
-  fix-stack: false
+  fix-stack: true
 
   # When item-display is enabled, the item's name will be displayed instead of it's type
   # This will take place on all items, and can only be overridden by custom-display section.
