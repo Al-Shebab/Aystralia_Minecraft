@@ -34,9 +34,9 @@
   {
     "uuid": "0dfa15df-237c-4590-93a0-66291bb8dba2",
     "name": "Ackroy",
-    "created": "2021-04-13 17:27:05 -0700",
+    "created": "2021-04-13 17:34:26 -0700",
     "source": "Al_Shebab",
-    "expires": "2021-04-20 17:27:05 -0700",
+    "expires": "forever",
     "reason": "Cheating"
   },
   {
@@ -70,6 +70,14 @@
     "source": "Al_Shebab",
     "expires": "forever",
     "reason": "Cheating"
+  },
+  {
+    "uuid": "4fb07a9e-cc12-49f3-9d41-34e4f8bb2a09",
+    "name": "Volpidash",
+    "created": "2021-04-13 17:34:43 -0700",
+    "source": "Al_Shebab",
+    "expires": "forever",
+    "reason": "§fViolated server rules"
   },
   {
     "uuid": "39266590-a062-4ad9-8d78-5131561c7848",
