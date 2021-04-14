@@ -115,7 +115,7 @@ items:
   # You can use 'all' as a global limit (all: 20 will set all items to be limited to 20 per stack)
   # If you don't want any limits, you can set a random type.
   limits:
-    all: 50000
+    infinity: 50000
 
   # A list of worlds items won't get stacked inside them (case-sensitive)
   disabled-worlds:
@@ -135,7 +135,7 @@ items:
   # When fix-stack is disabled, items with a max-stack of 1 will be added to inventories
   # with a max-stack size of 64. If a player picks up 80 picks, he will get 64 + 16, instead
   # of 80 different items.
-  fix-stack: false
+  fix-stack: true
 
   # When item-display is enabled, the item's name will be displayed instead of it's type
   # This will take place on all items, and can only be overridden by custom-display section.
