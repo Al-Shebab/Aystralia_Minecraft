@@ -115,7 +115,7 @@ items:
   # You can use 'all' as a global limit (all: 20 will set all items to be limited to 20 per stack)
   # If you don't want any limits, you can set a random type.
   limits:
-    all: 100000
+    all: 50000
 
   # A list of worlds items won't get stacked inside them (case-sensitive)
   disabled-worlds:

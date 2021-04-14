@@ -56,6 +56,14 @@
     "reason": "Cheating"
   },
   {
+    "uuid": "b12565a8-7eff-4d65-9239-1f88611466e5",
+    "name": "jemek51",
+    "created": "2021-04-13 19:53:00 -0700",
+    "source": "Al_Shebab",
+    "expires": "forever",
+    "reason": "Cheating"
+  },
+  {
     "uuid": "6f99075b-b2e0-32cb-90c8-cd42d8504b86",
     "name": "m",
     "created": "2021-01-24 12:13:34 -0800",
@@ -102,6 +110,22 @@
     "source": "AimJunkiesFeeyne",
     "expires": "forever",
     "reason": "spam 2hr"
+  },
+  {
+    "uuid": "77bd8dc2-780b-48ca-b687-5fca1e85db7a",
+    "name": "Gods_F00t",
+    "created": "2021-04-13 19:49:06 -0700",
+    "source": "Al_Shebab",
+    "expires": "forever",
+    "reason": "Racism, Cheating"
+  },
+  {
+    "uuid": "89acc79b-c76e-44e0-a1c9-7bd1a86fe446",
+    "name": "ysasjf",
+    "created": "2021-04-13 19:49:14 -0700",
+    "source": "Al_Shebab",
+    "expires": "forever",
+    "reason": "Racism, Cheating"
   },
   {
     "uuid": "a4de17ad-abe0-4fe7-9f1c-f21c18607509",
