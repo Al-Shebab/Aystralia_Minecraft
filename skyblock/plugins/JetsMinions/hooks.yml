@@ -30,3 +30,4 @@ Hooks:
   UseGUIShop: false
   UsezShop: false
   useDynamicShop: false
+  UseInventoryShop: false

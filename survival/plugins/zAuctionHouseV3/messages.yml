@@ -104,6 +104,19 @@ messages:
     lang:
       type: TCHAT
       message: See the list of translations.
+    sub:
+      items:
+        type: TCHAT
+        message: Opens the items inventory
+      categories:
+        type: TCHAT
+        message: Opens the categories inventory
+      buying:
+        type: TCHAT
+        message: Opens the buying inventory
+      expire:
+        type: TCHAT
+        message: Opens the expire inventory
   'no':
     holding:
       item:
@@ -378,3 +391,10 @@ messages:
     message:
       type: ACTION
       message: ' &cYou must wait &f%cooldown% &cbefore you can do this action.'
+  decreasing:
+    date:
+      type: TCHAT
+      message: Decreasing date
+    price:
+      type: TCHAT
+      message: Decreasing price

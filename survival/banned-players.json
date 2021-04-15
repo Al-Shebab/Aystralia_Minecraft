@@ -8,6 +8,14 @@
     "reason": "Cheating"
   },
   {
+    "uuid": "6f2524a1-0446-3a8a-818f-a05a46920f64",
+    "name": "septasmo72",
+    "created": "2021-04-15 01:47:22 -0700",
+    "source": "Feeyne",
+    "expires": "forever",
+    "reason": "Ban Evading"
+  },
+  {
     "uuid": "8cf27f60-8ef0-49e9-bde0-13a2c0f5efa0",
     "name": "iAzqre",
     "created": "2021-04-12 17:04:25 -0700",
@@ -40,12 +48,28 @@
     "reason": "Cheating"
   },
   {
+    "uuid": "f14b8cc1-63ff-48b5-8218-953ceba2196e",
+    "name": "budingika",
+    "created": "2021-04-15 09:53:03 -0700",
+    "source": "Al_Shebab",
+    "expires": "forever",
+    "reason": "Cheating, Griefing"
+  },
+  {
     "uuid": "82e8c306-fc1f-4cb5-bb53-62cfea5cec1f",
     "name": "2Tik",
     "created": "2021-01-24 14:05:34 -0800",
     "source": "AimJunkiesFeeyne",
     "expires": "forever",
     "reason": "advertising own server"
+  },
+  {
+    "uuid": "15fb0126-54b2-4fae-bec0-c6b39caffa9a",
+    "name": "mechetheleche",
+    "created": "2021-04-15 01:45:37 -0700",
+    "source": "Feeyne",
+    "expires": "forever",
+    "reason": "Ban Evading"
   },
   {
     "uuid": "f6e55c41-2d9f-4586-af9f-9c5fe3107b86",
@@ -80,6 +104,14 @@
     "reason": "Cheating"
   },
   {
+    "uuid": "b9f78c6e-b9f2-4af0-a2ee-4258b42b722e",
+    "name": "EAT_DA_POO_POO",
+    "created": "2021-04-15 01:45:02 -0700",
+    "source": "Feeyne",
+    "expires": "forever",
+    "reason": "Ban Avading"
+  },
+  {
     "uuid": "4fb07a9e-cc12-49f3-9d41-34e4f8bb2a09",
     "name": "Volpidash",
     "created": "2021-04-13 17:34:43 -0700",
@@ -102,6 +134,14 @@
     "source": "Al_Shebab",
     "expires": "forever",
     "reason": "Cheating"
+  },
+  {
+    "uuid": "1428f49f-bfbf-41fb-86c4-83ac70fed643",
+    "name": "DoorMeat",
+    "created": "2021-04-15 09:52:45 -0700",
+    "source": "Al_Shebab",
+    "expires": "forever",
+    "reason": "Cheating, Griefing"
   },
   {
     "uuid": "8467a7a3-f54f-46e1-97ba-7cc065c2d4fa",

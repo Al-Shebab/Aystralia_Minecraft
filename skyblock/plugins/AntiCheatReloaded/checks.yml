@@ -233,7 +233,7 @@ illegalinteract:
   # Debugs as 'tried to break a block which was out of view'
   break:
     # Should this part of the check be enabled?
-    enabled: true
+    enabled: false
   # Checks angle when placing a block
   # Debugs as 'tried to place a block which was out of view'
   place:

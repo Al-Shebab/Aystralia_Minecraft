@@ -31,6 +31,8 @@
   "enableCustomEconomy": false,
   "displayCooldownMessage": true,
   "giveItemAfterPurchase": false,
+  "enableInventoryPreRender": false,
+  "enableCommandInventories": false,
   "maxPrice": 999999999999999999,
   "minPrice": 0,
   "sellTime": 172800,
@@ -60,6 +62,13 @@
   "currencyItem1": "gold nuggets",
   "currencyItem2": "gold ingot",
   "currencyItem3": "gold block",
+  "subCommands": [
+    "zauction",
+    "ah",
+    "hdv",
+    "zah",
+    "zhdv"
+  ],
   "materialItem": "GOLD_NUGGET",
   "materialItem2": "GOLD_INGOT",
   "materialItem3": "GOLD_BLOCK",

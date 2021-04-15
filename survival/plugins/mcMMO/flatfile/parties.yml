@@ -3,7 +3,7 @@ Morning_Woods:
   Password: DaBaby69
   Locked: true
   Level: 10
-  Xp: 3264
+  Xp: 3924
   Ally: ''
   ExpShareMode: EQUAL
   ItemShareMode: NONE
@@ -38,3 +38,21 @@ Aystralia:
     MISC: true
   Members:
   - 1132a3f9-cf23-42e1-8595-79d07b07844e|Aystralia
+GREENTEAM:
+  Leader: 58821929-84e9-41f6-a23a-fe4b1edcb7fa|Greenyyy1
+  Locked: true
+  Level: 10
+  Xp: 2695
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - 58821929-84e9-41f6-a23a-fe4b1edcb7fa|Greenyyy1
+  - 7d257f9f-f261-4163-9b38-72d457ca790d|masterbladestorm
+  - e1ad6875-63b6-4a64-aeb8-d0ab50a11b2c|BooMBooM69

@@ -293,10 +293,10 @@ database:
   yaml:
     use: false
   sqlite:
-    use: false
-  mysql:
     use: true
-    host: "localhost"
+  mysql:
+    use: false
+    host: "127.0.0.1"
     user: "root"
     password: ""
     port: "3306"

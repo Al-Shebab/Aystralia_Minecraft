@@ -201,6 +201,8 @@ entities:
   - VILLAGER
   - ZOMBIE_VILLAGER
   - WOLF
+  - SHULKER
+  - SHULKER_BULLET
 
   # Whitelisted entities are entities that will get stacked.
   # EntityType list: https://bg-software.com/entities/
@@ -214,7 +216,7 @@ entities:
   # You can use 'all' as a global limit (all: 20 will set all entities to be limited to 20 per stack)
   # If you don't want any limits, you can set a random type.
   limits:
-    aasccasll: 100
+    infinity: 100
 
   # Set a minimum required entities to stack for specific entities.
   # Make sure you follow the "ENTITY-TYPE" format.
@@ -245,7 +247,7 @@ entities:
 
   # How much time should be passed between auto-stacking? (in ticks)
   # If you wish to disable the auto-stacking task, set the stack-interval to 0.
-  stack-interval: 0
+  stack-interval: 100
 
   # A list of all checks that the plugin does before trying to stack two entities together.
   stack-checks:
@@ -265,6 +267,7 @@ entities:
     HORSE_STYLE: true
     HORSE_TAME_PROGRESS: true
     HORSE_TYPE: true
+    IS_IN_LOVE: true
     IS_TAMED: true
     LLAMA_COLOR: true
     LLAMA_STRENGTH: true
@@ -426,6 +429,8 @@ entities:
     enabled: false
     # A list of tools that can one shot entities.
     tools:
+    - NETHERITE_SWORD
+    - NETHERITE_AXE
     - DIAMOND_SWORD
     - DIAMOND_AXE
     # A list of entities that will be one shot.
@@ -656,12 +661,17 @@ spawners:
     # Should the upgrades menu be enabled?
     upgrade-menu: true
 
-  # Configure spawn conditions for entities that are spawned by spawners
-  # You can find more information regarding this by visiting the official wiki:
-  # https://wiki.bg-software.com/#/wildstacker/spawn-conditions/
-  spawn-conditions:
-    ZOMBIE:
-    - NOT_PEACEFUL
+  # Settings related to overriding spawners.
+  spawners-override:
+    # Should spawners behavior be overridden by WildStacker?
+    # When enabled, you should see better performance from spawners.
+    enabled: true
+    # Configure spawn conditions for entities that are spawned by spawners
+    # You can find more information regarding this by visiting the official wiki:
+    # https://wiki.bg-software.com/#/wildstacker/spawn-conditions/
+    spawn-conditions:
+      ZOMBIE:
+      - NOT_PEACEFUL
 
   # All settings related to spawner upgrades.
   spawner-upgrades:
@@ -788,7 +798,6 @@ spawners:
             name: '&bDefault'
             lore:
             - '&cComing soon...'
-  break-menu: {}
 
 # Here you can configurable all features related to stacked barrels (aka stacked blocks).
 barrels:
