@@ -5,10 +5,10 @@
   "pointsToNextLevel": 75,
   "uwCount": {},
   "mdCount": {
-    "AIR": 10239974,
-    "NETHER_PORTAL": 6,
     "CHEST": 1,
-    "OBSIDIAN": 14,
-    "BEDROCK": 5
+    "AIR": 10239974,
+    "BEDROCK": 5,
+    "NETHER_PORTAL": 6,
+    "OBSIDIAN": 14
   }
 }

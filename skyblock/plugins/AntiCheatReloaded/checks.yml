@@ -36,7 +36,7 @@ flight:
   # Debugs as 'ignored gravity'
   gravity:
     # Should this part of the check be enabled?
-    enabled: true
+    enabled: false
     # Maximum offset between predicted and actual gravity
     maxOffset: 0.005
     # How many milliseconds to account for teleports
@@ -48,7 +48,7 @@ flight:
 # Checks for illegal upward elytra movement
 elytrafly:
   # Should this check be enabled?
-  enabled: true
+  enabled: false
 # Speed check settings
 # Checks if a player moves too fast
 speed:
