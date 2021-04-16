@@ -1,0 +1,2238 @@
+#Welcome to the Custom Pets yml.
+#Here you can create as many pets as your heart desires.
+#
+#Placeholders:
+# - {player}
+# - %min-max% (Example: %1-10%) This generates a random number from 1-10. Useful for many things.
+#
+#Global Conditions:
+# - Chance:{chance} (Example: Chance:10) Gives a 10 percent chance that the skill will run. All conditions go in the conditions section of the command.
+#
+#
+#What happens when the pet activates:
+#
+# Different activation events determine when the pet activates.
+# Here is the list:
+#
+# PlayerInteractEvent - Whenever a player right-clicks the pet.
+# PetTimerEvent - Every (timer-length) seconds, the skills for the pet's level runs.
+# EntityDamageEvent - When you take any form of damage.
+# EntityDamageByEntityEvent - When you deal damage to another entity.
+# EntityDeathEvent - When you kill another entity.
+# BlockBreakEvent - When you break blocks.
+#
+# There are conditions that you can specify AFTER the arguments for each command that must be met in order for it to be ran.
+# Each event has it's own set of conditions.
+# Each command can have unlimited conditions as long as they are availiable in the event.
+#
+# PlayerInteractEvent - No conditions.
+#
+# PetTimerEvent - No conditions.
+#
+# EntityDamageEvent:
+#
+# - DamageCause:(cause) - The victim's cause must be this cause.
+# Ex: DamageCause:FALL
+#
+# EntityDamageByEntityEvent - When you deal damage to another entity.
+#
+# - Material:(material) - The damager's item used must be this material.
+# Ex: Material:DIAMOND_SWORD
+#
+# - EntityType:(entityType) - The victim must be of this specific entity type for the skill to run.
+# Ex: EntityType:PIG
+#
+# EntityDeathEvent - When you kill another entity.
+#
+# - Material:(material) - The damager's item used must be this material.
+# Ex: Material:DIAMOND_SWORD
+#
+# - EntityType:(entityType) - The victim must be of this specific entity type for the skill to run.
+# Ex: EntityType:PIG
+#
+# BlockBreakEvent - When you break blocks.
+#
+# - Material:(material) - The breaker's item used must be this material.
+# Ex: Material:DIAMOND_PICKAXE
+#
+# - BlockType:(blockType) - The block that must be broken.
+# Ex: BlockType:STONE
+#
+#
+#To decide what a pet does, a pre determined list of commands has been made
+#To make the configuration easy enough for anyone to do.
+#The current list is:
+#"[command]" - Run a command through console - Example use: "[command] eco give {player} 100"
+#"[potion]" - Give the pet owner a potion - Example use: "[potion] POTION_NAME DURATION LEVEL" ("[potion] SPEED 1 3") = Speed potion for 1 second at level 3. For this one specifically, you can also do ("[potion] SPEED infinite 3") = The same effect, but with infinite duration as long as the pet remains in their inventory. Lastly, if you type for example ("[potion] POISON 10 3 5") = Poison for 10 seconds at level 3 for all players in a radius of 5.
+#"[remove-potion]" - Remove a potion from the pet owner - Example use "[remove-potion] POTION_NAME" ("[potion] SPEED") - Remove the SPEED potion.
+#"[cooldown]" - Cooldown of the pet - Example use: "[cooldown] 5" - Pet cannot be used for 5 seconds after activation.
+#"[gamemode]" - Change the gamemode of the player - Example use: "[gamemode] 1" - Sets the gamemode of the player to creative. (0 = Survival, 1 = Creative, 2 = SPEC, 3 = Adventure
+#"[replace-item] - Replace a certain amount of one item with a certain amount of another. - Example use: "[replace-item] BUCKET LAVA_BUCKET 32" - Replaces 32 buckets with lava ones. If you put 0 you can replace all items.
+#"[give-item]" - Give the player an item - Example use: "[give-item] ITEM_NAME AMOUNT" ("[item] DIRT 1") Gives the player one dirt.
+#"[particle]" - Players a particle effect around the player - Example use: "[particle] PARTICLE_NAME DURATION RADIUS AMOUNT" - "[particle] FLAME 20 10 100" - Plays Flame for 1 second (in ticks) at radius of 10 with amount of 100
+#"[sound]" - Plays sound around the player - Example use: "[sound] SOUND_NAME DURATION PITCH" ("[sound] ANVIL_BREAK 3 2") - Plays the sound anvil drop for 3 seconds at a pitch of 2
+#"[teleport]" - TP a player to a set location - Example use: "[teleport] 66 80 90"
+#"[max-health-change]") - Change the max health of the player - Example use: "[max-health-change] 30" - Player will have a max health of 15 hearts
+#"[heal]" - Health the player, will not exceed the max health - Example use "[heal] 10" - Heals the player by 5 hearts
+#"[break-blocks]" - Naturally break the blocks around the player - Example use "[break-blocks] 3" Breaks all the blocks within a range of 3
+#"[message]" - Message the player - Example use "[message] &aYour pet has found 100 tokens."
+#"[timed-command]" - Run a command that runs again when the time is up. - Example use "[timed-command] 5 fly {player}" - Runs the fly command for 5 seconds on the player.
+#"[damage-boost]" - Boosts the damage on a specified entity or for a certain weapon. Example use "[damage-boost] 10000.0 EntityType:PIG" or "[damage-boost] 1.0 Material:DIAMOND_AXE" The number is how much damage is added.
+#"[damage-near]" - Damages players in the specified radius. Example use "[damage-near] 1 5" - Damages the players in a radius of 5 by 1 damage.
+#"[explosion]" - Creates an explosion. Example use "[explosion] 1" - Creates an explosion of power 1.
+#"[fire]" - Sets players on fire in the specified radius. Example use "[fire] 3 5" - Sets the players in a radius of 5 on fire for 3 seconds.
+#"[freeze]" - Cauldron freeze players in the specified radius. Example use "[freeze] 3 5 CAULDRON" - Sets the players in a radius of 5 as frozen in a cauldron for 3 seconds.
+#"[inflict-potion-effect]" When damaging a player, inflict a potion effect as well. Example use "[inflict-potion-effect] POTION_NAME DURATION LEVEL" ("[inflict-potion-effect] POISON 1 3") = Poison potion for 1 second at level 3.
+#"[reduce-damage]" Reduce the damage of a certain damage cause by a divisor. Example use "[reduce-damage] 2 DamageCause:FALL" - Divides all fall damage by 2.
+#"[throw]" - Throws players in the specified radius. Example use "[throw] 3 5" - Damages the players in a radius of 5 with 3 power.
+#"[exp]" - Adds exp to a player's exp. Example use "[exp] 10" - Adds 10 exp to the player's exp.
+#"[exp-boost] - Adds an exp booster to a player of a certain multiplier for a certain amount of time. Example use "[exp-boost] 2 30" - Adds a 2x exp boost to the player for 30 seconds.
+#"[money-boost]" - Adds a money booster to a player of a certain multiplier for a certain amount of time on a certain action. Example use "[command] shop addmodifier global {player} 1.1 SELL"
+#"[message] &b&lPets &8> &fYou've been given a &b60 second sell multiplier." - Adds a 10% money boost to the player for 60 seconds on the /sell hand command in EssentialsX.
+#"[cage]" - Wraps yourself around in an unbreakable cage so that you can be safe or so you can trap enemy players. Example use "[cage] OBSIDIAN IRON_FENCE IRON_BLOCK 5 5 5 10 0" - Wraps yourself in a cage with the roof being obsidian, walls being iron fence, floor being iron block, dimensions (length, width, height), and for a time of 10 seconds before it despawns. After, there is the radius. To trap other players in a radius, simply set the radius to anything that is not 0.
+#"[multiply-drops]" - Multiplies drops of mobs when they die. Example use "[multiply-drops] 5" - Multiplies enemy drops by 5.
+
+cp:
+  Money-Pet:
+    values:
+      displayName: '&b&lMoney Pet &f[LVL %level%]'
+      skin: http://textures.minecraft.net/texture/e36e94f6c34a35465fce4a90f2e25976389eb9709a12273574ff70fd4daa6852
+      tier: 1
+      maxLevel: 100
+      enabled: true
+      lore:
+        1:
+        - '&fLevel up your market bargin power,'
+        - '&fScam the trader into a more profitable deal'
+        - '&fEach level is a 0.01x Increase'
+        - ' '
+        - '&b&lPASSIVE'
+        - ' '
+        - '&b&lInventory Pet'
+        - ' '
+        - '&f&lLevel:&b %level%'
+        - '&f&lEXP:&b %exp% / %maxexp%'
+        - '&9%progressmap%'
+      hotbarActivationOnly: false
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      timer-length: 300
+      onActivation:
+        PetTimerEvent:
+          1:
+          - "[command] shop addmodifier global {player} 1.01 SELL"
+          2:
+          - "[command] shop addmodifier global {player} 1.02 SELL"
+          3:
+          - "[command] shop addmodifier global {player} 1.03 SELL"
+          4:
+          - "[command] shop addmodifier global {player} 1.04 SELL"
+          5:
+          - "[command] shop addmodifier global {player} 1.05 SELL"
+          6:
+          - "[command] shop addmodifier global {player} 1.06 SELL"
+          7:
+          - "[command] shop addmodifier global {player} 1.07 SELL"
+          8:
+          - "[command] shop addmodifier global {player} 1.08 SELL"
+          9:
+          - "[command] shop addmodifier global {player} 1.09 SELL"
+          10:
+          - "[command] shop addmodifier global {player} 1.1 SELL"
+          11:
+          - "[command] shop addmodifier global {player} 1.11 SELL"
+          12:
+          - "[command] shop addmodifier global {player} 1.12 SELL"
+          13:
+          - "[command] shop addmodifier global {player} 1.13 SELL"
+          14:
+          - "[command] shop addmodifier global {player} 1.14 SELL"
+          15:
+          - "[command] shop addmodifier global {player} 1.15 SELL"
+          16:
+          - "[command] shop addmodifier global {player} 1.16 SELL"
+          17:
+          - "[command] shop addmodifier global {player} 1.17 SELL"
+          18:
+          - "[command] shop addmodifier global {player} 1.18 SELL"
+          19:
+          - "[command] shop addmodifier global {player} 1.19 SELL"
+          20:
+          - "[command] shop addmodifier global {player} 1.2 SELL"
+          21:
+          - "[command] shop addmodifier global {player} 1.21 SELL"
+          22:
+          - "[command] shop addmodifier global {player} 1.22 SELL"
+          23:
+          - "[command] shop addmodifier global {player} 1.23 SELL"
+          24:
+          - "[command] shop addmodifier global {player} 1.24 SELL"
+          25:
+          - "[command] shop addmodifier global {player} 1.25 SELL"
+          26:
+          - "[command] shop addmodifier global {player} 1.26 SELL"
+          27:
+          - "[command] shop addmodifier global {player} 1.27 SELL"
+          28:
+          - "[command] shop addmodifier global {player} 1.28 SELL"
+          29:
+          - "[command] shop addmodifier global {player} 1.29 SELL"
+          30:
+          - "[command] shop addmodifier global {player} 1.3 SELL"
+          31:
+          - "[command] shop addmodifier global {player} 1.31 SELL"
+          32:
+          - "[command] shop addmodifier global {player} 1.32 SELL"
+          33:
+          - "[command] shop addmodifier global {player} 1.33 SELL"
+          34:
+          - "[command] shop addmodifier global {player} 1.34 SELL"
+          35:
+          - "[command] shop addmodifier global {player} 1.35 SELL"
+          36:
+          - "[command] shop addmodifier global {player} 1.36 SELL"
+          37:
+          - "[command] shop addmodifier global {player} 1.37 SELL"
+          38:
+          - "[command] shop addmodifier global {player} 1.38 SELL"
+          39:
+          - "[command] shop addmodifier global {player} 1.39 SELL"
+          40:
+          - "[command] shop addmodifier global {player} 1.4 SELL"
+          41:
+          - "[command] shop addmodifier global {player} 1.41 SELL"
+          42:
+          - "[command] shop addmodifier global {player} 1.42 SELL"
+          43:
+          - "[command] shop addmodifier global {player} 1.43 SELL"
+          44:
+          - "[command] shop addmodifier global {player} 1.44 SELL"
+          45:
+          - "[command] shop addmodifier global {player} 1.45 SELL"
+          46:
+          - "[command] shop addmodifier global {player} 1.46 SELL"
+          47:
+          - "[command] shop addmodifier global {player} 1.47 SELL"
+          48:
+          - "[command] shop addmodifier global {player} 1.48 SELL"
+          49:
+          - "[command] shop addmodifier global {player} 1.49 SELL"
+          50:
+          - "[command] shop addmodifier global {player} 1.5 SELL"
+          51:
+          - "[command] shop addmodifier global {player} 1.51 SELL"
+          52:
+          - "[command] shop addmodifier global {player} 1.52 SELL"
+          53:
+          - "[command] shop addmodifier global {player} 1.53 SELL"
+          54:
+          - "[command] shop addmodifier global {player} 1.54 SELL"
+          55:
+          - "[command] shop addmodifier global {player} 1.55 SELL"
+          56:
+          - "[command] shop addmodifier global {player} 1.56 SELL"
+          57:
+          - "[command] shop addmodifier global {player} 1.57 SELL"
+          58:
+          - "[command] shop addmodifier global {player} 1.58 SELL"
+          59:
+          - "[command] shop addmodifier global {player} 1.59 SELL"
+          60:
+          - "[command] shop addmodifier global {player} 1.6 SELL"
+          61:
+          - "[command] shop addmodifier global {player} 1.61 SELL"
+          62:
+          - "[command] shop addmodifier global {player} 1.62 SELL"
+          63:
+          - "[command] shop addmodifier global {player} 1.63 SELL"
+          64:
+          - "[command] shop addmodifier global {player} 1.64 SELL"
+          65:
+          - "[command] shop addmodifier global {player} 1.65 SELL"
+          66:
+          - "[command] shop addmodifier global {player} 1.66 SELL"
+          67:
+          - "[command] shop addmodifier global {player} 1.67 SELL"
+          68:
+          - "[command] shop addmodifier global {player} 1.68 SELL"
+          69:
+          - "[command] shop addmodifier global {player} 1.69 SELL"
+          70:
+          - "[command] shop addmodifier global {player} 1.7 SELL"
+          71:
+          - "[command] shop addmodifier global {player} 1.71 SELL"
+          72:
+          - "[command] shop addmodifier global {player} 1.72 SELL"
+          73:
+          - "[command] shop addmodifier global {player} 1.73 SELL"
+          74:
+          - "[command] shop addmodifier global {player} 1.74 SELL"
+          75:
+          - "[command] shop addmodifier global {player} 1.75 SELL"
+          76:
+          - "[command] shop addmodifier global {player} 1.76 SELL"
+          77:
+          - "[command] shop addmodifier global {player} 1.77 SELL"
+          78:
+          - "[command] shop addmodifier global {player} 1.78 SELL"
+          79:
+          - "[command] shop addmodifier global {player} 1.79 SELL"
+          80:
+          - "[command] shop addmodifier global {player} 1.8 SELL"
+          81:
+          - "[command] shop addmodifier global {player} 1.81 SELL"
+          82:
+          - "[command] shop addmodifier global {player} 1.82 SELL"
+          83:
+          - "[command] shop addmodifier global {player} 1.83 SELL"
+          84:
+          - "[command] shop addmodifier global {player} 1.84 SELL"
+          85:
+          - "[command] shop addmodifier global {player} 1.85 SELL"
+          86:
+          - "[command] shop addmodifier global {player} 1.86 SELL"
+          87:
+          - "[command] shop addmodifier global {player} 1.87 SELL"
+          88:
+          - "[command] shop addmodifier global {player} 1.88 SELL"
+          89:
+          - "[command] shop addmodifier global {player} 1.89 SELL"
+          90:
+          - "[command] shop addmodifier global {player} 1.9 SELL"
+          91:
+          - "[command] shop addmodifier global {player} 1.91 SELL"
+          92:
+          - "[command] shop addmodifier global {player} 1.92 SELL"
+          93:
+          - "[command] shop addmodifier global {player} 1.93 SELL"
+          94:
+          - "[command] shop addmodifier global {player} 1.94 SELL"
+          95:
+          - "[command] shop addmodifier global {player} 1.95 SELL"
+          96:
+          - "[command] shop addmodifier global {player} 1.96 SELL"
+          97:
+          - "[command] shop addmodifier global {player} 1.97 SELL"
+          98:
+          - "[command] shop addmodifier global {player} 1.98 SELL"
+          99:
+          - "[command] shop addmodifier global {player} 1.99 SELL"
+          100:
+          - "[command] shop addmodifier global {player} 2 SELL"
+  Worker-Pet:
+    values:
+      displayName: '&b&lWorker Pet &f[LVL %level%]'
+      skin: http://textures.minecraft.net/texture/5e55f9a48acc42a01b881af726ffc1ac178789e3274cb2c1cdb12f57c
+      tier: 1
+      maxLevel: 100
+      enabled: true
+      lore:
+        1:
+        - '&fLevel up your hourly wage,'
+        - '&fEarn more money from jobs'
+        - '&fEach level is a 1% Increase'
+        - ' '
+        - '&b&lPASSIVE'
+        - ' '
+        - '&b&lInventory Pet'
+        - ' '
+        - '&f&lLevel:&b %level%'
+        - '&f&lEXP:&b %exp% / %maxexp%'
+        - '&9%progressmap%'
+      hotbarActivationOnly: false
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      timer-length: 300
+      onActivation:
+        PetTimerEvent:
+          1:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.01 TRUE"
+          2:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.02 TRUE"
+          3:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.03 TRUE"
+          4:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.04 TRUE"
+          5:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.05 TRUE"
+          6:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.06 TRUE"
+          7:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.07 TRUE"
+          8:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.08 TRUE"
+          9:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.09 TRUE"
+          10:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.1 TRUE"
+          11:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.11 TRUE"
+          12:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.12 TRUE"
+          13:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.13 TRUE"
+          14:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.14 TRUE"
+          15:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.15 TRUE"
+          16:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.16 TRUE"
+          17:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.17 TRUE"
+          18:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.18 TRUE"
+          19:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.19 TRUE"
+          20:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.2 TRUE"
+          21:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.21 TRUE"
+          22:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.22 TRUE"
+          23:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.23 TRUE"
+          24:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.24 TRUE"
+          25:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.25 TRUE"
+          26:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.26 TRUE"
+          27:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.27 TRUE"
+          28:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.28 TRUE"
+          29:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.29 TRUE"
+          30:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.3 TRUE"
+          31:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.31 TRUE"
+          32:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.32 TRUE"
+          33:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.33 TRUE"
+          34:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.34 TRUE"
+          35:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.35 TRUE"
+          36:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.36 TRUE"
+          37:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.37 TRUE"
+          38:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.38 TRUE"
+          39:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.39 TRUE"
+          40:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.4 TRUE"
+          41:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.41 TRUE"
+          42:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.42 TRUE"
+          43:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.43 TRUE"
+          44:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.44 TRUE"
+          45:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.45 TRUE"
+          46:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.46 TRUE"
+          47:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.47 TRUE"
+          48:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.48 TRUE"
+          49:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.49 TRUE"
+          50:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.5 TRUE"
+          51:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.51 TRUE"
+          52:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.52 TRUE"
+          53:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.53 TRUE"
+          54:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.54 TRUE"
+          55:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.55 TRUE"
+          56:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.56 TRUE"
+          57:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.57 TRUE"
+          58:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.58 TRUE"
+          59:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.59 TRUE"
+          60:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.6 TRUE"
+          61:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.61 TRUE"
+          62:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.62 TRUE"
+          63:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.63 TRUE"
+          64:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.64 TRUE"
+          65:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.65 TRUE"
+          66:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.66 TRUE"
+          67:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.67 TRUE"
+          68:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.68 TRUE"
+          69:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.69 TRUE"
+          70:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.7 TRUE"
+          71:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.71 TRUE"
+          72:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.72 TRUE"
+          73:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.73 TRUE"
+          74:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.74 TRUE"
+          75:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.75 TRUE"
+          76:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.76 TRUE"
+          77:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.77 TRUE"
+          78:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.78 TRUE"
+          79:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.79 TRUE"
+          80:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.8 TRUE"
+          81:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.81 TRUE"
+          82:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.82 TRUE"
+          83:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.83 TRUE"
+          84:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.84 TRUE"
+          85:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.85 TRUE"
+          86:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.86 TRUE"
+          87:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.87 TRUE"
+          88:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.88 TRUE"
+          89:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.89 TRUE"
+          90:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.9 TRUE"
+          91:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.91 TRUE"
+          92:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.92 TRUE"
+          93:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.93 TRUE"
+          94:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.94 TRUE"
+          95:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.95 TRUE"
+          96:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.96 TRUE"
+          97:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.97 TRUE"
+          98:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.98 TRUE"
+          99:
+          - "[command] lp user {player} permissionjobs.boost.all.money0.99 TRUE"
+          100:
+          - "[command] lp user {player} permissionjobs.boost.all.money1 TRUE"
+  Enderman-Pet:
+    values:
+      displayName: '&b&lEnderman Pet &f[LVL %level%]'
+      skin: http://textures.minecraft.net/texture/96c0b36d53fff69a49c7d6f3932f2b0fe948e032226d5e8045ec58408a36e951
+      tier: 4
+      maxLevel: 1
+      enabled: true
+      lore:
+        1:
+        - '&fRandomly teleport upon taking certain damage'
+        - ' '
+        - '&b&lPASSIVE'
+        - ' '
+        - '&b&lHotbar Pet'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      timer-length: 300
+      onActivation:
+        EntityDamageEvent:
+          1:
+          - "[command] cmi rt {player} DamageCause:BLOCK_EXPLOSION DamageCause:CONTACT DamageCause:CRAMMING DamageCause:CUSTOM DamageCause:DRAGON_BREATH DamageCause:DROWNING DamageCause:DRYOUT DamageCause:ENTITY_ATTACK DamageCause:ENTITY_EXPLOSION DamageCause:ENTITY_SWEEP_ATTACK DamageCause:FALL DamageCause:FALLING_BLOCK DamageCause:FIRE DamageCause:FIRE_TICK DamageCause:FLY_INTO_WALL DamageCause:HOT_FLOOR DamageCause:LAVA DamageCause:LIGHTNING DamageCause:MAGIC DamageCause:MELTING DamageCause:POISON DamageCause:PROJECTILE DamageCause:STARVATION DamageCause:SUFFOCATION DamageCause:SUICIDE DamageCause:THORNS DamageCause:VOID DamageCause:WITHER DamageCause:ANVIL DamageCause:ARROW DamageCause:CACTUS DamageCause:CRAMMING DamageCause:DROWN DamageCause:EXPLOSION DamageCause:FALL DamageCause:FALLINGBLOCK DamageCause:FIREBALL DamageCause:FLYINTOWALL DamageCause:GENERIC DamageCause:HOTFLOOR DamageCause:INDIRECTMAGIC DamageCause:INFIRE DamageCause:INWALL DamageCause:LAVA DamageCause:LIGHTNINGBOLT DamageCause:MAGIC DamageCause:MOB DamageCause:ONFIRE DamageCause:OUTOFWORLD DamageCause:PLAYER DamageCause:THORNS DamageCause:THROWN DamageCause:WITHER"
+          - "[message] &b&lEnderman Pet &8> &fFled..."
+  Blaze-Pet:
+    values:
+      displayName: '&b&lBlaze Pet &f[LVL %level%]'
+      skin: http://textures.minecraft.net/texture/b78ef2e4cf2c41a2d14bfde9caff10219f5b1bf5b35a49eb51c6467882cb5f0
+      tier: 4
+      maxLevel: 100
+      enabled: true
+      lore:
+        1:
+        - '&b%level% x &f5 &fseconds of fire resistance'
+        - '&fupon activation'
+        - ' '
+        - '&b&lACTIVE'
+        - ' '
+        - '&f&lLevel:&b %level%'
+        - '&f&lEXP:&b %exp% / %maxexp%'
+        - '&9%progressmap%'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      onActivation:
+        PlayerInteractEvent:
+          1:
+          - "[potion] FIRE_RESISTANCE 5 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          2:
+          - "[potion] FIRE_RESISTANCE 10 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          3:
+          - "[potion] FIRE_RESISTANCE 15 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          4:
+          - "[potion] FIRE_RESISTANCE 20 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          5:
+          - "[potion] FIRE_RESISTANCE 25 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          6:
+          - "[potion] FIRE_RESISTANCE 30 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          7:
+          - "[potion] FIRE_RESISTANCE 35 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          8:
+          - "[potion] FIRE_RESISTANCE 40 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          9:
+          - "[potion] FIRE_RESISTANCE 45 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          10:
+          - "[potion] FIRE_RESISTANCE 50 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          11:
+          - "[potion] FIRE_RESISTANCE 55 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          12:
+          - "[potion] FIRE_RESISTANCE 60 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          13:
+          - "[potion] FIRE_RESISTANCE 65 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          14:
+          - "[potion] FIRE_RESISTANCE 70 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          15:
+          - "[potion] FIRE_RESISTANCE 75 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          16:
+          - "[potion] FIRE_RESISTANCE 80 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          17:
+          - "[potion] FIRE_RESISTANCE 85 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          18:
+          - "[potion] FIRE_RESISTANCE 90 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          19:
+          - "[potion] FIRE_RESISTANCE 95 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          20:
+          - "[potion] FIRE_RESISTANCE 100 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          21:
+          - "[potion] FIRE_RESISTANCE 105 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          22:
+          - "[potion] FIRE_RESISTANCE 110 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          23:
+          - "[potion] FIRE_RESISTANCE 115 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          24:
+          - "[potion] FIRE_RESISTANCE 120 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          25:
+          - "[potion] FIRE_RESISTANCE 125 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          26:
+          - "[potion] FIRE_RESISTANCE 130 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          27:
+          - "[potion] FIRE_RESISTANCE 135 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          28:
+          - "[potion] FIRE_RESISTANCE 140 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          29:
+          - "[potion] FIRE_RESISTANCE 145 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          30:
+          - "[potion] FIRE_RESISTANCE 150 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          31:
+          - "[potion] FIRE_RESISTANCE 155 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          32:
+          - "[potion] FIRE_RESISTANCE 160 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          33:
+          - "[potion] FIRE_RESISTANCE 165 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          34:
+          - "[potion] FIRE_RESISTANCE 170 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          35:
+          - "[potion] FIRE_RESISTANCE 175 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          36:
+          - "[potion] FIRE_RESISTANCE 180 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          37:
+          - "[potion] FIRE_RESISTANCE 185 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          38:
+          - "[potion] FIRE_RESISTANCE 190 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          39:
+          - "[potion] FIRE_RESISTANCE 195 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          40:
+          - "[potion] FIRE_RESISTANCE 200 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          41:
+          - "[potion] FIRE_RESISTANCE 205 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          42:
+          - "[potion] FIRE_RESISTANCE 210 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          43:
+          - "[potion] FIRE_RESISTANCE 215 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          44:
+          - "[potion] FIRE_RESISTANCE 220 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          45:
+          - "[potion] FIRE_RESISTANCE 225 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          46:
+          - "[potion] FIRE_RESISTANCE 230 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          47:
+          - "[potion] FIRE_RESISTANCE 235 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          48:
+          - "[potion] FIRE_RESISTANCE 240 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          49:
+          - "[potion] FIRE_RESISTANCE 245 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          50:
+          - "[potion] FIRE_RESISTANCE 250 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          51:
+          - "[potion] FIRE_RESISTANCE 255 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          52:
+          - "[potion] FIRE_RESISTANCE 260 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          53:
+          - "[potion] FIRE_RESISTANCE 265 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          54:
+          - "[potion] FIRE_RESISTANCE 270 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          55:
+          - "[potion] FIRE_RESISTANCE 275 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          56:
+          - "[potion] FIRE_RESISTANCE 280 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          57:
+          - "[potion] FIRE_RESISTANCE 285 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          58:
+          - "[potion] FIRE_RESISTANCE 290 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          59:
+          - "[potion] FIRE_RESISTANCE 295 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          60:
+          - "[potion] FIRE_RESISTANCE 300 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          61:
+          - "[potion] FIRE_RESISTANCE 305 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          62:
+          - "[potion] FIRE_RESISTANCE 310 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          63:
+          - "[potion] FIRE_RESISTANCE 315 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          64:
+          - "[potion] FIRE_RESISTANCE 320 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          65:
+          - "[potion] FIRE_RESISTANCE 325 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          66:
+          - "[potion] FIRE_RESISTANCE 330 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          67:
+          - "[potion] FIRE_RESISTANCE 335 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          68:
+          - "[potion] FIRE_RESISTANCE 340 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          69:
+          - "[potion] FIRE_RESISTANCE 345 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          70:
+          - "[potion] FIRE_RESISTANCE 350 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          71:
+          - "[potion] FIRE_RESISTANCE 355 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          72:
+          - "[potion] FIRE_RESISTANCE 360 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          73:
+          - "[potion] FIRE_RESISTANCE 365 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          74:
+          - "[potion] FIRE_RESISTANCE 370 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          75:
+          - "[potion] FIRE_RESISTANCE 375 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          76:
+          - "[potion] FIRE_RESISTANCE 380 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          77:
+          - "[potion] FIRE_RESISTANCE 385 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          78:
+          - "[potion] FIRE_RESISTANCE 390 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          79:
+          - "[potion] FIRE_RESISTANCE 395 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          80:
+          - "[potion] FIRE_RESISTANCE 400 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          81:
+          - "[potion] FIRE_RESISTANCE 405 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          82:
+          - "[potion] FIRE_RESISTANCE 410 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          83:
+          - "[potion] FIRE_RESISTANCE 415 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          84:
+          - "[potion] FIRE_RESISTANCE 420 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          85:
+          - "[potion] FIRE_RESISTANCE 425 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          86:
+          - "[potion] FIRE_RESISTANCE 430 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          87:
+          - "[potion] FIRE_RESISTANCE 435 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          88:
+          - "[potion] FIRE_RESISTANCE 440 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          89:
+          - "[potion] FIRE_RESISTANCE 445 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          90:
+          - "[potion] FIRE_RESISTANCE 450 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          91:
+          - "[potion] FIRE_RESISTANCE 455 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          92:
+          - "[potion] FIRE_RESISTANCE 460 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          93:
+          - "[potion] FIRE_RESISTANCE 465 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          94:
+          - "[potion] FIRE_RESISTANCE 470 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          95:
+          - "[potion] FIRE_RESISTANCE 475 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          96:
+          - "[potion] FIRE_RESISTANCE 480 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          97:
+          - "[potion] FIRE_RESISTANCE 485 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          98:
+          - "[potion] FIRE_RESISTANCE 490 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          99:
+          - "[potion] FIRE_RESISTANCE 495 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+          100:
+          - "[potion] FIRE_RESISTANCE 500 1"
+          - "[message] &b&lBlaze Pet &8> &fFire Resistance &aActivated"
+          - "[cooldown] 30"
+  Goblin-Pet:
+    values:
+      displayName: '&b&lGoblin Pet &f[LVL %level%]'
+      skin: Goblin
+      tier: 4
+      maxLevel: 100
+      enabled: true
+      lore:
+        1:
+        - '&fEvery 10 minutes your pet will come across'
+        - '&ftreasure! Treasure gets better as level increases.'
+        - ' '
+        - '&b&lPASSIVE'
+        - ' '
+        - '&b&lHotbar Pet'
+        - ' '
+        - '&f&lLevel:&b %level%'
+        - '&f&lEXP:&b %exp% / %maxexp%'
+        - '&9%progressmap%'
+      hotbarActivationOnly: false
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      timer-length: 600
+      onActivation:
+        PetTimerEvent:
+          1:
+          - "[command] cmi money add {player} %5-25%"
+          2:
+          - "[command] cmi money add {player} %10-40%"
+          3:
+          - "[command] cmi money add {player} %15-55%"
+          4:
+          - "[command] cmi money add {player} %20-70%"
+          5:
+          - "[command] cmi money add {player} %25-85%"
+          6:
+          - "[command] cmi money add {player} %30-100%"
+          7:
+          - "[command] cmi money add {player} %35-115%"
+          8:
+          - "[command] cmi money add {player} %40-130%"
+          9:
+          - "[command] cmi money add {player} %45-145%"
+          10:
+          - "[command] cmi money add {player} %50-160%"
+          11:
+          - "[command] cmi money add {player} %55-175%"
+          12:
+          - "[command] cmi money add {player} %60-190%"
+          13:
+          - "[command] cmi money add {player} %65-205%"
+          14:
+          - "[command] cmi money add {player} %70-220%"
+          15:
+          - "[command] cmi money add {player} %75-235%"
+          16:
+          - "[command] cmi money add {player} %80-250%"
+          17:
+          - "[command] cmi money add {player} %85-265%"
+          18:
+          - "[command] cmi money add {player} %90-280%"
+          19:
+          - "[command] cmi money add {player} %95-295%"
+          20:
+          - "[command] cmi money add {player} %100-310%"
+          21:
+          - "[command] cmi money add {player} %105-325%"
+          22:
+          - "[command] cmi money add {player} %110-340%"
+          23:
+          - "[command] cmi money add {player} %115-355%"
+          24:
+          - "[command] cmi money add {player} %120-370%"
+          25:
+          - "[command] cmi money add {player} %125-385%"
+          26:
+          - "[command] cmi money add {player} %130-400%"
+          27:
+          - "[command] cmi money add {player} %135-415%"
+          28:
+          - "[command] cmi money add {player} %140-430%"
+          29:
+          - "[command] cmi money add {player} %145-445%"
+          30:
+          - "[command] cmi money add {player} %150-460%"
+          31:
+          - "[command] cmi money add {player} %155-475%"
+          32:
+          - "[command] cmi money add {player} %160-490%"
+          33:
+          - "[command] cmi money add {player} %165-505%"
+          34:
+          - "[command] cmi money add {player} %170-520%"
+          35:
+          - "[command] cmi money add {player} %175-535%"
+          36:
+          - "[command] cmi money add {player} %180-550%"
+          37:
+          - "[command] cmi money add {player} %185-565%"
+          38:
+          - "[command] cmi money add {player} %190-580%"
+          39:
+          - "[command] cmi money add {player} %195-595%"
+          40:
+          - "[command] cmi money add {player} %200-610%"
+          41:
+          - "[command] cmi money add {player} %205-625%"
+          42:
+          - "[command] cmi money add {player} %210-640%"
+          43:
+          - "[command] cmi money add {player} %215-655%"
+          44:
+          - "[command] cmi money add {player} %220-670%"
+          45:
+          - "[command] cmi money add {player} %225-685%"
+          46:
+          - "[command] cmi money add {player} %230-700%"
+          47:
+          - "[command] cmi money add {player} %235-715%"
+          48:
+          - "[command] cmi money add {player} %240-730%"
+          49:
+          - "[command] cmi money add {player} %245-745%"
+          50:
+          - "[command] cmi money add {player} %250-760%"
+          51:
+          - "[command] cmi money add {player} %255-775%"
+          52:
+          - "[command] cmi money add {player} %260-790%"
+          53:
+          - "[command] cmi money add {player} %265-805%"
+          54:
+          - "[command] cmi money add {player} %270-820%"
+          55:
+          - "[command] cmi money add {player} %275-835%"
+          56:
+          - "[command] cmi money add {player} %280-850%"
+          57:
+          - "[command] cmi money add {player} %285-865%"
+          58:
+          - "[command] cmi money add {player} %290-880%"
+          59:
+          - "[command] cmi money add {player} %295-895%"
+          60:
+          - "[command] cmi money add {player} %300-910%"
+          61:
+          - "[command] cmi money add {player} %305-925%"
+          62:
+          - "[command] cmi money add {player} %310-940%"
+          63:
+          - "[command] cmi money add {player} %315-955%"
+          64:
+          - "[command] cmi money add {player} %320-970%"
+          65:
+          - "[command] cmi money add {player} %325-985%"
+          66:
+          - "[command] cmi money add {player} %330-1000%"
+          67:
+          - "[command] cmi money add {player} %335-1015%"
+          68:
+          - "[command] cmi money add {player} %340-1030%"
+          69:
+          - "[command] cmi money add {player} %345-1045%"
+          70:
+          - "[command] cmi money add {player} %350-1060%"
+          71:
+          - "[command] cmi money add {player} %355-1075%"
+          72:
+          - "[command] cmi money add {player} %360-1090%"
+          73:
+          - "[command] cmi money add {player} %365-1105%"
+          74:
+          - "[command] cmi money add {player} %370-1120%"
+          75:
+          - "[command] cmi money add {player} %375-1135%"
+          76:
+          - "[command] cmi money add {player} %380-1150%"
+          77:
+          - "[command] cmi money add {player} %385-1165%"
+          78:
+          - "[command] cmi money add {player} %390-1180%"
+          79:
+          - "[command] cmi money add {player} %395-1195%"
+          80:
+          - "[command] cmi money add {player} %400-1210%"
+          81:
+          - "[command] cmi money add {player} %405-1225%"
+          82:
+          - "[command] cmi money add {player} %410-1240%"
+          83:
+          - "[command] cmi money add {player} %415-1255%"
+          84:
+          - "[command] cmi money add {player} %420-1270%"
+          85:
+          - "[command] cmi money add {player} %425-1285%"
+          86:
+          - "[command] cmi money add {player} %430-1300%"
+          87:
+          - "[command] cmi money add {player} %435-1315%"
+          88:
+          - "[command] cmi money add {player} %440-1330%"
+          89:
+          - "[command] cmi money add {player} %445-1345%"
+          90:
+          - "[command] cmi money add {player} %450-1360%"
+          91:
+          - "[command] cmi money add {player} %455-1375%"
+          92:
+          - "[command] cmi money add {player} %460-1390%"
+          93:
+          - "[command] cmi money add {player} %465-1405%"
+          94:
+          - "[command] cmi money add {player} %470-1420%"
+          95:
+          - "[command] cmi money add {player} %475-1435%"
+          96:
+          - "[command] cmi money add {player} %480-1450%"
+          97:
+          - "[command] cmi money add {player} %485-1465%"
+          98:
+          - "[command] cmi money add {player} %490-1480%"
+          99:
+          - "[command] cmi money add {player} %495-1495%"
+          100:
+          - "[command] cmi money add {player} %500-1510%"
+  Exp-Pet:
+    values:
+      displayName: '&b&lExperience Pet &f[LVL %level%]'
+      skin: http://textures.minecraft.net/texture/87d885b32b0dd2d6b7f1b582a34186f8a5373c46589a273423132b448b803462
+      tier: 4
+      maxLevel: 100
+      enabled: true
+      lore:
+        1:
+        - '&fProvides a %level% x 1.05 experience multiplier'
+        - ' '
+        - '&b&lPASSIVE'
+        - ' '
+        - '&b&lHotbar Pet'
+        - ' '
+        - '&f&lLevel:&b %level%'
+        - '&f&lEXP:&b %exp% / %maxexp%'
+        - '&9%progressmap%'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      timer-length: 300
+      onActivation:
+        PetTimerEvent:
+          1:
+          - "[exp-boost] 1.05 300"
+          2:
+          - "[exp-boost] 1.1 300"
+          3:
+          - "[exp-boost] 1.15 300"
+          4:
+          - "[exp-boost] 1.2 300"
+          5:
+          - "[exp-boost] 1.25 300"
+          6:
+          - "[exp-boost] 1.3 300"
+          7:
+          - "[exp-boost] 1.35 300"
+          8:
+          - "[exp-boost] 1.4 300"
+          9:
+          - "[exp-boost] 1.45 300"
+          10:
+          - "[exp-boost] 1.5 300"
+          11:
+          - "[exp-boost] 1.55 300"
+          12:
+          - "[exp-boost] 1.6 300"
+          13:
+          - "[exp-boost] 1.65 300"
+          14:
+          - "[exp-boost] 1.7 300"
+          15:
+          - "[exp-boost] 1.75 300"
+          16:
+          - "[exp-boost] 1.8 300"
+          17:
+          - "[exp-boost] 1.85 300"
+          18:
+          - "[exp-boost] 1.9 300"
+          19:
+          - "[exp-boost] 1.95 300"
+          20:
+          - "[exp-boost] 2 300"
+          21:
+          - "[exp-boost] 2.05 300"
+          22:
+          - "[exp-boost] 2.1 300"
+          23:
+          - "[exp-boost] 2.15 300"
+          24:
+          - "[exp-boost] 2.2 300"
+          25:
+          - "[exp-boost] 2.25 300"
+          26:
+          - "[exp-boost] 2.3 300"
+          27:
+          - "[exp-boost] 2.35 300"
+          28:
+          - "[exp-boost] 2.4 300"
+          29:
+          - "[exp-boost] 2.45 300"
+          30:
+          - "[exp-boost] 2.5 300"
+          31:
+          - "[exp-boost] 2.55 300"
+          32:
+          - "[exp-boost] 2.6 300"
+          33:
+          - "[exp-boost] 2.65 300"
+          34:
+          - "[exp-boost] 2.7 300"
+          35:
+          - "[exp-boost] 2.75 300"
+          36:
+          - "[exp-boost] 2.8 300"
+          37:
+          - "[exp-boost] 2.85 300"
+          38:
+          - "[exp-boost] 2.9 300"
+          39:
+          - "[exp-boost] 2.95 300"
+          40:
+          - "[exp-boost] 3 300"
+          41:
+          - "[exp-boost] 3.05 300"
+          42:
+          - "[exp-boost] 3.1 300"
+          43:
+          - "[exp-boost] 3.15 300"
+          44:
+          - "[exp-boost] 3.2 300"
+          45:
+          - "[exp-boost] 3.25 300"
+          46:
+          - "[exp-boost] 3.3 300"
+          47:
+          - "[exp-boost] 3.35 300"
+          48:
+          - "[exp-boost] 3.4 300"
+          49:
+          - "[exp-boost] 3.45 300"
+          50:
+          - "[exp-boost] 3.5 300"
+          51:
+          - "[exp-boost] 3.55 300"
+          52:
+          - "[exp-boost] 3.6 300"
+          53:
+          - "[exp-boost] 3.65 300"
+          54:
+          - "[exp-boost] 3.7 300"
+          55:
+          - "[exp-boost] 3.75 300"
+          56:
+          - "[exp-boost] 3.8 300"
+          57:
+          - "[exp-boost] 3.85 300"
+          58:
+          - "[exp-boost] 3.9 300"
+          59:
+          - "[exp-boost] 3.95 300"
+          60:
+          - "[exp-boost] 4 300"
+          61:
+          - "[exp-boost] 4.05 300"
+          62:
+          - "[exp-boost] 4.1 300"
+          63:
+          - "[exp-boost] 4.15 300"
+          64:
+          - "[exp-boost] 4.2 300"
+          65:
+          - "[exp-boost] 4.25 300"
+          66:
+          - "[exp-boost] 4.3 300"
+          67:
+          - "[exp-boost] 4.35 300"
+          68:
+          - "[exp-boost] 4.4 300"
+          69:
+          - "[exp-boost] 4.45 300"
+          70:
+          - "[exp-boost] 4.5 300"
+          71:
+          - "[exp-boost] 4.55 300"
+          72:
+          - "[exp-boost] 4.6 300"
+          73:
+          - "[exp-boost] 4.65 300"
+          74:
+          - "[exp-boost] 4.7 300"
+          75:
+          - "[exp-boost] 4.75 300"
+          76:
+          - "[exp-boost] 4.8 300"
+          77:
+          - "[exp-boost] 4.85 300"
+          78:
+          - "[exp-boost] 4.9 300"
+          79:
+          - "[exp-boost] 4.95 300"
+          80:
+          - "[exp-boost] 5 300"
+          81:
+          - "[exp-boost] 5.05 300"
+          82:
+          - "[exp-boost] 5.1 300"
+          83:
+          - "[exp-boost] 5.15 300"
+          84:
+          - "[exp-boost] 5.2 300"
+          85:
+          - "[exp-boost] 5.25 300"
+          86:
+          - "[exp-boost] 5.3 300"
+          87:
+          - "[exp-boost] 5.35 300"
+          88:
+          - "[exp-boost] 5.4 300"
+          89:
+          - "[exp-boost] 5.45 300"
+          90:
+          - "[exp-boost] 5.5 300"
+          91:
+          - "[exp-boost] 5.55 300"
+          92:
+          - "[exp-boost] 5.6 300"
+          93:
+          - "[exp-boost] 5.65 300"
+          94:
+          - "[exp-boost] 5.7 300"
+          95:
+          - "[exp-boost] 5.75 300"
+          96:
+          - "[exp-boost] 5.8 300"
+          97:
+          - "[exp-boost] 5.85 300"
+          98:
+          - "[exp-boost] 5.9 300"
+          99:
+          - "[exp-boost] 5.95 300"
+          100:
+          - "[exp-boost] 6 300"
+  Vindicator-Pet:
+    values:
+      displayName: '&b&lVindicator Pet &f[LVL %level%]'
+      skin: http://textures.minecraft.net/texture/f580d4e23f662f1c969cfba000664f8f82a286386ed8a33f9b425636589e8ea9
+      tier: 4
+      maxLevel: 100
+      enabled: true
+      lore:
+        1:
+        - '&fDeal more damage with weapons.'
+        - '&f%level% x 1.05 Damage multiplier'
+        - ' '
+        - '&b&lPASSIVE'
+        - ' '
+        - '&b&lHotbar Pet'
+        - ' '
+        - '&f&lLevel:&b %level%'
+        - '&f&lEXP:&b %exp% / %maxexp%'
+        - '&9%progressmap%'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      timer-length: 300
+      onActivation:
+        EntityDamageByEntityEvent:
+          1:
+          - "[damage-boost] 1.05 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          2:
+          - "[damage-boost] 1.1 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          3:
+          - "[damage-boost] 1.15 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          4:
+          - "[damage-boost] 1.2 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          5:
+          - "[damage-boost] 1.25 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          6:
+          - "[damage-boost] 1.3 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          7:
+          - "[damage-boost] 1.35 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          8:
+          - "[damage-boost] 1.4 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          9:
+          - "[damage-boost] 1.45 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          10:
+          - "[damage-boost] 1.5 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          11:
+          - "[damage-boost] 1.55 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          12:
+          - "[damage-boost] 1.6 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          13:
+          - "[damage-boost] 1.65 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          14:
+          - "[damage-boost] 1.7 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          15:
+          - "[damage-boost] 1.75 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          16:
+          - "[damage-boost] 1.8 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          17:
+          - "[damage-boost] 1.85 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          18:
+          - "[damage-boost] 1.9 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          19:
+          - "[damage-boost] 1.95 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          20:
+          - "[damage-boost] 2 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          21:
+          - "[damage-boost] 2.05 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          22:
+          - "[damage-boost] 2.1 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          23:
+          - "[damage-boost] 2.15 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          24:
+          - "[damage-boost] 2.2 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          25:
+          - "[damage-boost] 2.25 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          26:
+          - "[damage-boost] 2.3 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          27:
+          - "[damage-boost] 2.35 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          28:
+          - "[damage-boost] 2.4 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          29:
+          - "[damage-boost] 2.45 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          30:
+          - "[damage-boost] 2.5 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          31:
+          - "[damage-boost] 2.55 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          32:
+          - "[damage-boost] 2.6 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          33:
+          - "[damage-boost] 2.65 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          34:
+          - "[damage-boost] 2.7 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          35:
+          - "[damage-boost] 2.75 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          36:
+          - "[damage-boost] 2.8 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          37:
+          - "[damage-boost] 2.85 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          38:
+          - "[damage-boost] 2.9 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          39:
+          - "[damage-boost] 2.95 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          40:
+          - "[damage-boost] 3 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          41:
+          - "[damage-boost] 3.05 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          42:
+          - "[damage-boost] 3.1 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          43:
+          - "[damage-boost] 3.15 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          44:
+          - "[damage-boost] 3.2 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          45:
+          - "[damage-boost] 3.25 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          46:
+          - "[damage-boost] 3.3 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          47:
+          - "[damage-boost] 3.35 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          48:
+          - "[damage-boost] 3.4 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          49:
+          - "[damage-boost] 3.45 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          50:
+          - "[damage-boost] 3.5 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          51:
+          - "[damage-boost] 3.55 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          52:
+          - "[damage-boost] 3.6 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          53:
+          - "[damage-boost] 3.65 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          54:
+          - "[damage-boost] 3.7 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          55:
+          - "[damage-boost] 3.75 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          56:
+          - "[damage-boost] 3.8 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          57:
+          - "[damage-boost] 3.85 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          58:
+          - "[damage-boost] 3.9 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          59:
+          - "[damage-boost] 3.95 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          60:
+          - "[damage-boost] 4 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          61:
+          - "[damage-boost] 4.05 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          62:
+          - "[damage-boost] 4.1 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          63:
+          - "[damage-boost] 4.15 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          64:
+          - "[damage-boost] 4.2 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          65:
+          - "[damage-boost] 4.25 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          66:
+          - "[damage-boost] 4.3 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          67:
+          - "[damage-boost] 4.35 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          68:
+          - "[damage-boost] 4.4 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          69:
+          - "[damage-boost] 4.45 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          70:
+          - "[damage-boost] 4.5 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          71:
+          - "[damage-boost] 4.55 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          72:
+          - "[damage-boost] 4.6 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          73:
+          - "[damage-boost] 4.65 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          74:
+          - "[damage-boost] 4.7 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          75:
+          - "[damage-boost] 4.75 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          76:
+          - "[damage-boost] 4.8 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          77:
+          - "[damage-boost] 4.85 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          78:
+          - "[damage-boost] 4.9 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          79:
+          - "[damage-boost] 4.95 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          80:
+          - "[damage-boost] 5 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          81:
+          - "[damage-boost] 5.05 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          82:
+          - "[damage-boost] 5.1 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          83:
+          - "[damage-boost] 5.15 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          84:
+          - "[damage-boost] 5.2 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          85:
+          - "[damage-boost] 5.25 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          86:
+          - "[damage-boost] 5.3 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          87:
+          - "[damage-boost] 5.35 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          88:
+          - "[damage-boost] 5.4 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          89:
+          - "[damage-boost] 5.45 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          90:
+          - "[damage-boost] 5.5 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          91:
+          - "[damage-boost] 5.55 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          92:
+          - "[damage-boost] 5.6 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          93:
+          - "[damage-boost] 5.65 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          94:
+          - "[damage-boost] 5.7 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          95:
+          - "[damage-boost] 5.75 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          96:
+          - "[damage-boost] 5.8 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          97:
+          - "[damage-boost] 5.85 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          98:
+          - "[damage-boost] 5.9 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          99:
+          - "[damage-boost] 5.95 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+          100:
+          - "[damage-boost] 6 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
+  Chicken-Pet:
+    values:
+      displayName: '&b&lChicken Pet &f[LVL %level%]'
+      skin: MHF_Chicken
+      tier: 1
+      maxLevel: 3
+      enabled: true
+      lore:
+        1:
+        - '&fGrants the ability of speed to quickly flee,'
+        - '&fflee, like a chicken, in the face of danger.'
+        - ' '
+        - '&b&lPASSIVE'
+        - ' '
+        - '&fUnlimited speed when in your inventory.'
+        - ' '
+        - '&f&lLevel:&b %level%'
+        - '&f&lEXP:&b %exp% / %maxexp%'
+        - '&9%progressmap%'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      timer-length: 1
+      onActivation:
+        PetTimerEvent:
+          1:
+          - "[potion] SPEED infinite 1"
+          2:
+          - "[potion] SPEED infinite 2"
+          3:
+          - "[potion] SPEED infinite 3"
+  Witch-Pet:
+    values:
+      displayName: '&b&lWitch Pet &f[LVL %level%]'
+      skin: MHF_Cow
+      tier: 1
+      maxLevel: 3
+      enabled: true
+      lore:
+        1:
+        - '&fRemoves all negative potion effects'
+        - '&fwhilst on your hotbar'
+        - ' '
+        - '&b&lPASSIVE'
+        - ' '
+        - '&b&lHotbar Pet'
+        - ' '
+        - '&f&lLevel:&b %level%'
+        - '&f&lEXP:&b %exp% / %maxexp%'
+        - '&9%progressmap%'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      timer-length: 1
+      onActivation:
+        PetTimerEvent:
+          1:
+          - "[remove-potion] WITHER"
+          - "[remove-potion] BLINDNESS"
+          - "[remove-potion] CONFUSION"
+          - "[remove-potion] HUNGER"
+          - "[remove-potion] POISON"
+          - "[remove-potion] SLOW"
+          - "[remove-potion] SLOW_DIGGING"
+          - "[remove-potion] WEAKNESS"
+  Creeper-Pet:
+    values:
+      displayName: '&b&lCreeper Pet &f[LVL %level%]'
+      skin: MHF_Creeper
+      tier: 3
+      maxLevel: 3
+      enabled: true
+      lore:
+        1:
+        - '&fGain the explosive defense capabilities of a'
+        - '&fcreeper to ward off incoming attackers.'
+        - ' '
+        - '&c&lAGGRESSIVE'
+        - ' '
+        - '&fRight-Click to create an explosion.'
+        - ' '
+        - '&f&lLevel:&b %level%'
+        - '&f&lEXP:&b %exp% / %maxexp%'
+        - '&9%progressmap%'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      onActivation:
+        PlayerInteractEvent:
+          1:
+          - "[explosion] 1"
+          - "[cooldown] 120"
+          2:
+          - "[explosion] 2"
+          - "[cooldown] 120"
+          3:
+          - "[explosion] 3"
+          - "[cooldown] 120"
+  Firework-Pet:
+    values:
+      displayName: '&b&lFirework Pet &f[LVL %level%]'
+      skin: haohanklliu
+      tier: 4
+      maxLevel: 3
+      enabled: true
+      lore:
+        1:
+        - '&fRight-click to launch players around in the air'
+        - '&fand set them in fire in a 5 block radius.'
+        - ' '
+        - '&c&lAGGRESSIVE'
+        - ' '
+        - '&fRight-Click to activate.'
+        - ' '
+        - '&f&lLevel:&b %level%'
+        - '&f&lEXP:&b %exp% / %maxexp%'
+        - '&9%progressmap%'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      onActivation:
+        PlayerInteractEvent:
+          1:
+          - "[throw] 1 5"
+          - "[fire] 3 5"
+          - "[cooldown] 120"
+          2:
+          - "[throw] 2 5"
+          - "[fire] 6 5"
+          - "[cooldown] 120"
+          3:
+          - "[throw] 3 5"
+          - "[fire] 10 5"
+          - "[cooldown] 120"
+  Gorilla-Pet:
+    values:
+      displayName: '&b&lGorilla Pet &f[LVL %level%]'
+      skin: Harambe_
+      tier: 4
+      maxLevel: 3
+      enabled: true
+      lore:
+        1:
+        - '&fRight-Click to gain extra health, strength, and cause'
+        - '&fa block explosion, damage and knockback nearby players.'
+        - ' '
+        - '&c&lAGGRESSIVE'
+        - ' '
+        - '&fRight-Click to activate.'
+        - ' '
+        - '&f&lLevel:&b %level%'
+        - '&f&lEXP:&b %exp% / %maxexp%'
+        - '&9%progressmap%'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      onActivation:
+        PlayerInteractEvent:
+          1:
+          - "[potion] ABSORPTION 5 1"
+          - "[potion] INCREASE_DAMAGE 5 1"
+          - "[explosion] 1"
+          - "[throw] 1 5"
+          - "[cooldown] 120"
+          2:
+          - "[potion] ABSORPTION 5 2"
+          - "[potion] INCREASE_DAMAGE 5 2"
+          - "[explosion] 2"
+          - "[throw] 2 5"
+          - "[cooldown] 120"
+          3:
+          - "[potion] ABSORPTION 5 3"
+          - "[potion] INCREASE_DAMAGE 5 3"
+          - "[explosion] 3"
+          - "[throw] 3 5"
+          - "[cooldown] 120"
+  Iron-Golem-Pet:
+    values:
+      displayName: '&b&lIron Golem Pet &f[LVL %level%]'
+      skin: MHF_Golem
+      tier: 3
+      maxLevel: 3
+      enabled: true
+      lore:
+        1:
+        - '&fHold your ground and absorb incoming attack damage'
+        - '&fwith a temporary shield as strong as iron.'
+        - ' '
+        - '&b&lPASSIVE'
+        - ' '
+        - '&fRight-Click to obtain absorption.'
+        - ' '
+        - '&f&lLevel:&b %level%'
+        - '&f&lEXP:&b %exp% / %maxexp%'
+        - '&9%progressmap%'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      onActivation:
+       PlayerInteractEvent:
+          1:
+          - "[potion] ABSORPTION 10 1"
+          - "[cooldown] 120"
+          2:
+          - "[potion] ABSORPTION 10 2"
+          - "[cooldown] 120"
+          3:
+          - "[potion] ABSORPTION 10 3"
+          - "[cooldown] 120"
+  Leprechaun-Pet:
+    values:
+      displayName: '&b&lLeprechaun Pet &f[LVL %level%]'
+      skin: crunch2845
+      tier: 4
+      maxLevel: 3
+      enabled: true
+      lore:
+        1:
+        - '&fRight-Click to become a Leprechaun and trap enemies in a,'
+        - '&fradius of 5 blocks in a Pot o'' Gold for 3-12 seconds.'
+        - ' '
+        - '&c&lAGGRESSIVE'
+        - ' '
+        - '&fRight-Click to trap enemies in a radius of 5 blocks.'
+        - ' '
+        - '&f&lLevel:&b %level%'
+        - '&f&lEXP:&b %exp% / %maxexp%'
+        - '&9%progressmap%'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      onActivation:
+        PlayerInteractEvent:
+          1:
+          - "[freeze] 3 5 CAULDRON"
+          - "[cooldown] 120"
+          2:
+          - "[freeze] 7 5 CAULDRON"
+          - "[cooldown] 120"
+          3:
+          - "[freeze] 12 5 CAULDRON"
+          - "[cooldown] 120"
+  Pig-Pet:
+    values:
+      displayName: '&b&lPig Pet &f[LVL %level%]'
+      skin: MHF_Pig
+      tier: 1
+      maxLevel: 3
+      enabled: true
+      lore:
+        1:
+        - '&fEat your fill and maintain food saturation just'
+        - '&flike a plump, satisfied pig.'
+        - ' '
+        - '&b&lPASSIVE'
+        - ' '
+        - '&fUnlimited saturation while in your inventory.'
+        - ' '
+        - '&f&lLevel:&b %level%'
+        - '&f&lEXP:&b %exp% / %maxexp%'
+        - '&9%progressmap%'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      timer-length: 1
+      onActivation:
+        PetTimerEvent:
+          1:
+          - "[potion] SATURATION infinite 1"
+          2:
+          - "[potion] SATURATION infinite 2"
+          3:
+          - "[potion] SATURATION infinite 3"
+  R2d2-Pet:
+    values:
+      displayName: '&b&lR2D2 Pet &f[LVL %level%]'
+      skin: R2D2
+      tier: 4
+      maxLevel: 3
+      enabled: true
+      lore:
+        1:
+        - '&fRight-click to gain flight for a limited time.'
+        - '&fThe higher the level the longer the pet is active.'
+        - ' '
+        - '&b&lPASSIVE'
+        - ' '
+        - '&fRight-Click to activate.'
+        - ' '
+        - '&f&lLevel:&b %level%'
+        - '&f&lEXP:&b %exp% / %maxexp%'
+        - '&9%progressmap%'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      onActivation:
+        PlayerInteractEvent:
+          1:
+          - "[timed-command] 5 fly {player}"
+          - "[cooldown] 120"
+          2:
+          - "[timed-command] 10 fly {player}"
+          - "[cooldown] 120"
+          3:
+          - "[timed-command] 15 fly {player}"
+          - "[cooldown] 120"
+  Sheep-Pet:
+    values:
+      displayName: '&b&lSheep Pet &f[LVL %level%]'
+      skin: MHF_Sheep
+      tier: 1
+      maxLevel: 3
+      enabled: true
+      lore:
+        1:
+        - '&fReduce the damage of your fall'
+        - '&fwith a thick layer of fluffy wool.'
+        - ' '
+        - '&b&lPASSIVE'
+        - ' '
+        - '&fPlace in your hotbar to activate.'
+        - ' '
+        - '&f&lLevel:&b %level%'
+        - '&f&lEXP:&b %exp% / %maxexp%'
+        - '&9%progressmap%'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      onActivation:
+        EntityDamageEvent:
+          1:
+          - "[reduce-damage] 2 DamageCause:FALL"
+          2:
+          - "[reduce-damage] 3 DamageCause:FALL"
+          3:
+          - "[reduce-damage] 10 DamageCause:FALL"
+  Spider-Pet:
+    values:
+      displayName: '&b&lSpider Pet &f[LVL %level%]'
+      skin: MHF_Spider
+      tier: 1
+      maxLevel: 3
+      enabled: true
+      lore:
+        1:
+        - '&fSkulk around and pounce on a passer-by with'
+        - '&fyour new found jumping abilities.'
+        - ' '
+        - '&c&lAGGRESSIVE'
+        - ' '
+        - '&fGet jumpboost while in your inventory.'
+        - ' '
+        - '&f&lLevel:&b %level%'
+        - '&f&lEXP:&b %exp% / %maxexp%'
+        - '&9%progressmap%'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      timer-length: 1
+      onActivation:
+        PetTimerEvent:
+          1:
+          - "[potion] JUMP infinite 1"
+          2:
+          - "[potion] JUMP infinite 2"
+          3:
+          - "[potion] JUMP infinite 3"
+  Squid-Pet:
+    values:
+      displayName: '&b&lSquid Pet &f[LVL %level%]'
+      skin: MHF_Squid
+      tier: 1
+      maxLevel: 3
+      enabled: true
+      lore:
+        1:
+        - '&fLurk through the depths of the ocean with the'
+        - '&feyesight of a squid and no fear of drowning.'
+        - ' '
+        - '&b&lPASSIVE'
+        - ' '
+        - '&fPlace in your hotbar for water breathing.'
+        - ' '
+        - '&f&lLevel:&b %level%'
+        - '&f&lEXP:&b %exp% / %maxexp%'
+        - '&9%progressmap%'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      timer-length: 1
+      onActivation:
+        PetTimerEvent:
+          1:
+          - "[potion] WATER_BREATHING infinite 1"
+          2:
+          - "[potion] WATER_BREATHING infinite 2"
+          3:
+          - "[potion] WATER_BREATHING infinite 3"
+  Storm-Trooper-Pet:
+    values:
+      displayName: '&b&lStormTrooper Pet &f[LVL %level%]'
+      skin: Stormtrooper
+      tier: 4
+      maxLevel: 3
+      enabled: true
+      lore:
+        1:
+        - '&fInflict extra bow damage,'
+        - '&fthe higher the level, the higher the damage.'
+        - ' '
+        - '&c&lAGGRESSIVE'
+        - ' '
+        - '&fShoot players to activate.'
+        - ' '
+        - '&f&lLevel:&b %level%'
+        - '&f&lEXP:&b %exp% / %maxexp%'
+        - '&9%progressmap%'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      onActivation:
+        EntityDamageByEntityEvent:
+          1:
+          - "[damage-boost] 1.0 Material:BOW"
+          2:
+          - "[damage-boost] 2.0 Material:BOW"
+          3:
+          - "[damage-boost] 4.0 Material:BOW"
+  Wolf-Pet:
+    values:
+      displayName: '&b&lWolf Pet &f[LVL %level%]'
+      skin: MHF_Wolf
+      tier: 2
+      maxLevel: 3
+      enabled: true
+      lore:
+        1:
+        - '&fUse your killer instincts to slay'
+        - '&fpassive mobs in a single hit.'
+        - ' '
+        - '&c&lAGGRESSIVE'
+        - ' '
+        - '&f1 hit all passive mobs.'
+        - ' '
+        - '&f&lLevel:&b %level%'
+        - '&f&lEXP:&b %exp% / %maxexp%'
+        - '&9%progressmap%'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      onActivation:
+        EntityDamageByEntityEvent:
+          1:
+          - "[damage-boost] 10000.0 EntityType:PIG EntityType:COW EntityType:SHEEP EntityType:CHICKEN EntityType:SQUID EntityType:MUSHROOM_COW EntityType:VILLAGER"
+  Zombie-Pet:
+    values:
+      displayName: '&b&lZombie Pet &f[LVL %level%]'
+      skin: MHF_Zombie
+      tier: 2
+      maxLevel: 3
+      enabled: true
+      lore:
+        1:
+        - '&fSatisfy your appetite like the undead'
+        - '&fby attacking other players.'
+        - ' '
+        - '&c&lAGGRESSIVE'
+        - ' '
+        - '&fGet saturation by hitting others.'
+        - ' '
+        - '&f&lLevel:&b %level%'
+        - '&f&lEXP:&b %exp% / %maxexp%'
+        - '&9%progressmap%'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      onActivation:
+        EntityDamageByEntityEvent:
+          1:
+          - "[potion] SATURATION 5 1"
+          2:
+          - "[potion] SATURATION 5 2"
+          3:
+          - "[potion] SATURATION 5 3"
