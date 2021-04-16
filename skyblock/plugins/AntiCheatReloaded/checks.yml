@@ -12,13 +12,13 @@ flight:
     enabled: true
     # How many milliseconds to account for block placement
     # Increase this if you get false positives when building a tower
-    accountForBlockPlacement: 1200
+    accountForBlockPlacement: 1500
     # How many milliseconds to account for TPS drops
     # Increase this if you get false positives when building a tower during TPS drops
-    accountForTpsDrops: 250
+    accountForTpsDrops: 350
     # How many milliseconds to account for teleports
     # Increase this is you debug 'had too little Y dropoff' after teleports
-    accountForTeleports: 400
+    accountForTeleports: 500
   # Checks for climbing behaviour in air
   # Debugs as 'tried to climb air'
   airClimb:
@@ -58,39 +58,39 @@ speed:
     # Should this part of the check be enabled?
     enabled: true
     # Base unadjusted air speed limit
-    baseLimit: 0.03125
+    baseLimit: 0.05125
     # Prediction multiplier for custom walk speeds
-    walkSpeedMultiplier: 1.4
+    walkSpeedMultiplier: 2.0
   # Checks movement acceleration in the air
   # Debugs as 'exceeded acceleration limits'
   airAcceleration:
     # Should this part of the check be enabled?
     enabled: true
     # Base unadjusted air acceleration limit
-    baseLimit: 0.3725
+    baseLimit: 0.5725
     # Limit multiplier for custom walk speeds
-    walkSpeedMultiplier: 1.4
+    walkSpeedMultiplier: 2.0
   # Checks movement acceleration in the air
   # Debugs as 'had unexpected jumping behaviour'
   jumpBehaviour:
     # Should this part of the check be enabled?
     enabled: true
     # Minimum movement distance needed to flag
-    minimumDistXZ: 0.42
+    minimumDistXZ: 0.6
   # Checks movement speed on the ground
   # Debugs as 'moved too fast on ground'
   groundSpeed:
     # Should this part of the check be enabled?
     enabled: true
     # Initial speed limit value
-    initialLimit: 0.34
+    initialLimit: 0.6
   # Checks movement acceleration in the air
   # Debugs as 'exceeded vertical speed limit'
   verticalSpeed:
     # Should this part of the check be enabled?
     enabled: true
     # Extra compensation when moving off a ladder up a slab
-    climbableCompensation: 0.04
+    climbableCompensation: 0.08
 # Strafe check settings
 # Checks if a player switches movement angle in air
 strafe:
@@ -394,7 +394,7 @@ chatunicode:
 # Checks for a spam of chat messages
 chatspam:
   # Should this check be enabled?
-  enabled: true
+  enabled: false
   # Minimum time between chats
   timeMin: 500
   # Time in milliseconds after which repeating yourself in chat is ignored
@@ -407,7 +407,7 @@ chatspam:
 # Checks for a spam of commands
 commandspam:
   # Should this check be enabled?
-  enabled: true
+  enabled: false
   # Minimum time between commands
   timeMin: 250
   # Time in milliseconds after which repeating a command is ignored

@@ -3,6 +3,6 @@
 # To disable warnings or kicking, change WARN and/or KICK to NONE
 groups:
 - 'Low : 50 : GREEN : NONE'
-- 'Medium : 60 : YELLOW : WARN'
-- 'High : 75 : RED : KICK'
-- 'Custom : -1 : GREEN : COMMAND[ban %player%;]'
+- 'Medium : 60 : YELLOW : NONE'
+- 'High : 75 : RED : NONE'
+- 'Custom : -1 : GREEN : NONE'

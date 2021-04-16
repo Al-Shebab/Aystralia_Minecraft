@@ -2,18 +2,18 @@
 spam:
   chat:
     # Should AntiCheatReloaded block players spamming messages in chat?
-    block-speed: true
-    block-repetition: true
+    block-speed: false
+    block-repetition: false
     # Valid actions = NONE,KICK,BAN,COMMAND[command]
-    action-one: KICK
-    action-two: BAN
+    action-one: NONE
+    action-two: NONE
   # Should AntiCheatReloaded block players spamming commands in chat?
   command:
-    block-speed: true
-    block-repetition: true
+    block-speed: false
+    block-repetition: false
     # Valid actions = NONE,KICK,BAN,COMMAND[command]
-    action-one: KICK
-    action-two: BAN
+    action-one: NONE
+    action-two: NONE
 system:
   # Should AntiCheatReloaded log ALL failed checks to console?
   log-to-console: false
@@ -25,9 +25,9 @@ system:
   # However, alerts will still be sent to console and to admins online, and events will still take place.
   silent-mode: false
   # Disable broadcasts about why a player was kicked
-  disable-broadcast: false
+  disable-broadcast: true
   # Should ops be exempt from all checks?
-  exempt-op: false
+  exempt-op: true
   # Should AntiCheatReloaded track plugins in its own registered events?
   event-chains: true
   # Should Enterprise options be enabled? Only set this to true if you're an advanced user.
@@ -39,7 +39,7 @@ system:
   # To prevent spamming, staff and the console will only be notified every x violations
   # Minimum value is 1, default is 8
   # Example with 5: notifications after 5 vl, 10vl, 15vl, etc.
-  notify-every-vl: 8
+  notify-every-vl: 10
   # Maximum distance a player can be set back
   # If the last known valid location is further away than this,
   # the player will be rubberbanded at their current location
