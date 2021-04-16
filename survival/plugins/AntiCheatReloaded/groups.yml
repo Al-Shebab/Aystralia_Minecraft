@@ -4,5 +4,5 @@
 groups:
 - 'Low : 50 : GREEN : NONE'
 - 'Medium : 60 : YELLOW : NONE'
-- 'High : 75 : RED : NONE'
+- 'High : 75 : RED : COMMAND[cmi ban %player% Anti-Cheat Ban - Appeal via https://discord.gg/hWN7zXtbQP]'
 - 'Custom : -1 : GREEN : NONE'

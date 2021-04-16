@@ -267,7 +267,7 @@ badpackets:
 # Checks for an extra amount of packets and modified game timers
 morepackets:
   # Should this check be enabled?
-  enabled: true
+  enabled: false
   # Minimum server TPS needed for MorePackets to be active
   minimumTps: 17.5
   # Maximum amount of lag compensation a player can acquire (50ms = 1 tick)
@@ -314,7 +314,7 @@ spider:
 # Checks if the player tries to ignore fall damage
 nofall:
   # Should this check be enabled?
-  enabled: true
+  enabled: false
   # Amount of moves with a modified fall distance before flagging
   vlBeforeFlag: 6
 # Sprint check settings

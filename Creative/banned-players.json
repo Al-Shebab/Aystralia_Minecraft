@@ -64,6 +64,14 @@
     "reason": "Cheating"
   },
   {
+    "uuid": "9477f07c-e0b6-44d6-9fc9-9226a3bbb13e",
+    "name": "shinocheru",
+    "created": "2021-04-15 20:30:38 -0700",
+    "source": "Al_Shebab",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
     "uuid": "39266590-a062-4ad9-8d78-5131561c7848",
     "name": "Emperor_Of_Goats",
     "created": "2021-04-12 17:08:32 -0700",
@@ -86,6 +94,14 @@
     "source": "AimJunkiesFeeyne",
     "expires": "forever",
     "reason": "spam 2hr"
+  },
+  {
+    "uuid": "9782c536-93a1-4a41-9eef-18287f0812df",
+    "name": "QZJavs",
+    "created": "2021-04-15 20:30:35 -0700",
+    "source": "Al_Shebab",
+    "expires": "forever",
+    "reason": "Banned by an operator."
   },
   {
     "uuid": "a4de17ad-abe0-4fe7-9f1c-f21c18607509",
