@@ -2387,6 +2387,51 @@ users:
     REDSTONE: true
     COBBLE: false
     STACK: false
+  f31050a2-ad39-4c4d-b4e2-08244f02ae61:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
+  e59109f1-a7b6-4ff4-a06f-2e237a49e22f:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
+  0f2446fc-1ca5-4055-9500-be31ed8438c0:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
+  ddae2d9c-a526-4330-afbf-a14c362ebf2b:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
+  64748378-1605-4d66-9970-67c5772d297c:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
 userVersion:
   e79fc165-83d6-4139-9a8f-d42bf1c23f87: 1.9.9
   5e9388ba-0573-444c-a761-b6d9174042af: 1.9.8
@@ -2651,3 +2696,8 @@ userVersion:
   9477f07c-e0b6-44d6-9fc9-9226a3bbb13e: 1.9.9
   fc5188ba-2174-4d25-b241-8accb9ffb2cf: 1.9.9
   7d5c267c-0356-4c71-80ae-a55b9bc5b37e: 1.9.9
+  f31050a2-ad39-4c4d-b4e2-08244f02ae61: 1.9.9
+  ddae2d9c-a526-4330-afbf-a14c362ebf2b: 1.9.9
+  e59109f1-a7b6-4ff4-a06f-2e237a49e22f: 1.9.9
+  0f2446fc-1ca5-4055-9500-be31ed8438c0: 1.9.9
+  64748378-1605-4d66-9970-67c5772d297c: 1.9.9

@@ -256,7 +256,7 @@ illegalinteract:
 # Checks for illegal packets
 badpackets:
   # Should this check be enabled?
-  enabled: true
+  enabled: false
   # Minimum server TPS needed for BadPackets to be active
   minimumTps: 17.5
   # Maximum distance a player can move between packets

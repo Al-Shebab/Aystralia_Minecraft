@@ -1,0 +1,6000 @@
+  petaquatics1.01:
+    scope: SHOP
+    type: SELL
+    value: 1.01
+    shop: aquatics
+  petbasics1.01:
+    scope: SHOP
+    type: SELL
+    value: 1.01
+    shop: basics
+  petbrewing1.01:
+    scope: SHOP
+    type: SELL
+    value: 1.01
+    shop: brewing
+  petconcrete1.01:
+    scope: SHOP
+    type: SELL
+    value: 1.01
+    shop: concrete
+  petdyes1.01:
+    scope: SHOP
+    type: SELL
+    value: 1.01
+    shop: dyes
+  petfood1.01:
+    scope: SHOP
+    type: SELL
+    value: 1.01
+    shop: food
+  petmob-drops1.01:
+    scope: SHOP
+    type: SELL
+    value: 1.01
+    shop: mob-drops
+  petnether1.01:
+    scope: SHOP
+    type: SELL
+    value: 1.01
+    shop: nether
+  petores1.01:
+    scope: SHOP
+    type: SELL
+    value: 1.01
+    shop: ores
+  petorganics1.01:
+    scope: SHOP
+    type: SELL
+    value: 1.01
+    shop: organics
+  petredstone1.01:
+    scope: SHOP
+    type: SELL
+    value: 1.01
+    shop: redstone
+  petspawners1.01:
+    scope: SHOP
+    type: SELL
+    value: 1.01
+    shop: spawners
+  petaquatics1.02:
+    scope: SHOP
+    type: SELL
+    value: 1.02
+    shop: aquatics
+  petbasics1.02:
+    scope: SHOP
+    type: SELL
+    value: 1.02
+    shop: basics
+  petbrewing1.02:
+    scope: SHOP
+    type: SELL
+    value: 1.02
+    shop: brewing
+  petconcrete1.02:
+    scope: SHOP
+    type: SELL
+    value: 1.02
+    shop: concrete
+  petdyes1.02:
+    scope: SHOP
+    type: SELL
+    value: 1.02
+    shop: dyes
+  petfood1.02:
+    scope: SHOP
+    type: SELL
+    value: 1.02
+    shop: food
+  petmob-drops1.02:
+    scope: SHOP
+    type: SELL
+    value: 1.02
+    shop: mob-drops
+  petnether1.02:
+    scope: SHOP
+    type: SELL
+    value: 1.02
+    shop: nether
+  petores1.02:
+    scope: SHOP
+    type: SELL
+    value: 1.02
+    shop: ores
+  petorganics1.02:
+    scope: SHOP
+    type: SELL
+    value: 1.02
+    shop: organics
+  petredstone1.02:
+    scope: SHOP
+    type: SELL
+    value: 1.02
+    shop: redstone
+  petspawners1.02:
+    scope: SHOP
+    type: SELL
+    value: 1.02
+    shop: spawners
+  petaquatics1.03:
+    scope: SHOP
+    type: SELL
+    value: 1.03
+    shop: aquatics
+  petbasics1.03:
+    scope: SHOP
+    type: SELL
+    value: 1.03
+    shop: basics
+  petbrewing1.03:
+    scope: SHOP
+    type: SELL
+    value: 1.03
+    shop: brewing
+  petconcrete1.03:
+    scope: SHOP
+    type: SELL
+    value: 1.03
+    shop: concrete
+  petdyes1.03:
+    scope: SHOP
+    type: SELL
+    value: 1.03
+    shop: dyes
+  petfood1.03:
+    scope: SHOP
+    type: SELL
+    value: 1.03
+    shop: food
+  petmob-drops1.03:
+    scope: SHOP
+    type: SELL
+    value: 1.03
+    shop: mob-drops
+  petnether1.03:
+    scope: SHOP
+    type: SELL
+    value: 1.03
+    shop: nether
+  petores1.03:
+    scope: SHOP
+    type: SELL
+    value: 1.03
+    shop: ores
+  petorganics1.03:
+    scope: SHOP
+    type: SELL
+    value: 1.03
+    shop: organics
+  petredstone1.03:
+    scope: SHOP
+    type: SELL
+    value: 1.03
+    shop: redstone
+  petspawners1.03:
+    scope: SHOP
+    type: SELL
+    value: 1.03
+    shop: spawners
+  petaquatics1.04:
+    scope: SHOP
+    type: SELL
+    value: 1.04
+    shop: aquatics
+  petbasics1.04:
+    scope: SHOP
+    type: SELL
+    value: 1.04
+    shop: basics
+  petbrewing1.04:
+    scope: SHOP
+    type: SELL
+    value: 1.04
+    shop: brewing
+  petconcrete1.04:
+    scope: SHOP
+    type: SELL
+    value: 1.04
+    shop: concrete
+  petdyes1.04:
+    scope: SHOP
+    type: SELL
+    value: 1.04
+    shop: dyes
+  petfood1.04:
+    scope: SHOP
+    type: SELL
+    value: 1.04
+    shop: food
+  petmob-drops1.04:
+    scope: SHOP
+    type: SELL
+    value: 1.04
+    shop: mob-drops
+  petnether1.04:
+    scope: SHOP
+    type: SELL
+    value: 1.04
+    shop: nether
+  petores1.04:
+    scope: SHOP
+    type: SELL
+    value: 1.04
+    shop: ores
+  petorganics1.04:
+    scope: SHOP
+    type: SELL
+    value: 1.04
+    shop: organics
+  petredstone1.04:
+    scope: SHOP
+    type: SELL
+    value: 1.04
+    shop: redstone
+  petspawners1.04:
+    scope: SHOP
+    type: SELL
+    value: 1.04
+    shop: spawners
+  petaquatics1.05:
+    scope: SHOP
+    type: SELL
+    value: 1.05
+    shop: aquatics
+  petbasics1.05:
+    scope: SHOP
+    type: SELL
+    value: 1.05
+    shop: basics
+  petbrewing1.05:
+    scope: SHOP
+    type: SELL
+    value: 1.05
+    shop: brewing
+  petconcrete1.05:
+    scope: SHOP
+    type: SELL
+    value: 1.05
+    shop: concrete
+  petdyes1.05:
+    scope: SHOP
+    type: SELL
+    value: 1.05
+    shop: dyes
+  petfood1.05:
+    scope: SHOP
+    type: SELL
+    value: 1.05
+    shop: food
+  petmob-drops1.05:
+    scope: SHOP
+    type: SELL
+    value: 1.05
+    shop: mob-drops
+  petnether1.05:
+    scope: SHOP
+    type: SELL
+    value: 1.05
+    shop: nether
+  petores1.05:
+    scope: SHOP
+    type: SELL
+    value: 1.05
+    shop: ores
+  petorganics1.05:
+    scope: SHOP
+    type: SELL
+    value: 1.05
+    shop: organics
+  petredstone1.05:
+    scope: SHOP
+    type: SELL
+    value: 1.05
+    shop: redstone
+  petspawners1.05:
+    scope: SHOP
+    type: SELL
+    value: 1.05
+    shop: spawners
+  petaquatics1.06:
+    scope: SHOP
+    type: SELL
+    value: 1.06
+    shop: aquatics
+  petbasics1.06:
+    scope: SHOP
+    type: SELL
+    value: 1.06
+    shop: basics
+  petbrewing1.06:
+    scope: SHOP
+    type: SELL
+    value: 1.06
+    shop: brewing
+  petconcrete1.06:
+    scope: SHOP
+    type: SELL
+    value: 1.06
+    shop: concrete
+  petdyes1.06:
+    scope: SHOP
+    type: SELL
+    value: 1.06
+    shop: dyes
+  petfood1.06:
+    scope: SHOP
+    type: SELL
+    value: 1.06
+    shop: food
+  petmob-drops1.06:
+    scope: SHOP
+    type: SELL
+    value: 1.06
+    shop: mob-drops
+  petnether1.06:
+    scope: SHOP
+    type: SELL
+    value: 1.06
+    shop: nether
+  petores1.06:
+    scope: SHOP
+    type: SELL
+    value: 1.06
+    shop: ores
+  petorganics1.06:
+    scope: SHOP
+    type: SELL
+    value: 1.06
+    shop: organics
+  petredstone1.06:
+    scope: SHOP
+    type: SELL
+    value: 1.06
+    shop: redstone
+  petspawners1.06:
+    scope: SHOP
+    type: SELL
+    value: 1.06
+    shop: spawners
+  petaquatics1.07:
+    scope: SHOP
+    type: SELL
+    value: 1.07
+    shop: aquatics
+  petbasics1.07:
+    scope: SHOP
+    type: SELL
+    value: 1.07
+    shop: basics
+  petbrewing1.07:
+    scope: SHOP
+    type: SELL
+    value: 1.07
+    shop: brewing
+  petconcrete1.07:
+    scope: SHOP
+    type: SELL
+    value: 1.07
+    shop: concrete
+  petdyes1.07:
+    scope: SHOP
+    type: SELL
+    value: 1.07
+    shop: dyes
+  petfood1.07:
+    scope: SHOP
+    type: SELL
+    value: 1.07
+    shop: food
+  petmob-drops1.07:
+    scope: SHOP
+    type: SELL
+    value: 1.07
+    shop: mob-drops
+  petnether1.07:
+    scope: SHOP
+    type: SELL
+    value: 1.07
+    shop: nether
+  petores1.07:
+    scope: SHOP
+    type: SELL
+    value: 1.07
+    shop: ores
+  petorganics1.07:
+    scope: SHOP
+    type: SELL
+    value: 1.07
+    shop: organics
+  petredstone1.07:
+    scope: SHOP
+    type: SELL
+    value: 1.07
+    shop: redstone
+  petspawners1.07:
+    scope: SHOP
+    type: SELL
+    value: 1.07
+    shop: spawners
+  petaquatics1.08:
+    scope: SHOP
+    type: SELL
+    value: 1.08
+    shop: aquatics
+  petbasics1.08:
+    scope: SHOP
+    type: SELL
+    value: 1.08
+    shop: basics
+  petbrewing1.08:
+    scope: SHOP
+    type: SELL
+    value: 1.08
+    shop: brewing
+  petconcrete1.08:
+    scope: SHOP
+    type: SELL
+    value: 1.08
+    shop: concrete
+  petdyes1.08:
+    scope: SHOP
+    type: SELL
+    value: 1.08
+    shop: dyes
+  petfood1.08:
+    scope: SHOP
+    type: SELL
+    value: 1.08
+    shop: food
+  petmob-drops1.08:
+    scope: SHOP
+    type: SELL
+    value: 1.08
+    shop: mob-drops
+  petnether1.08:
+    scope: SHOP
+    type: SELL
+    value: 1.08
+    shop: nether
+  petores1.08:
+    scope: SHOP
+    type: SELL
+    value: 1.08
+    shop: ores
+  petorganics1.08:
+    scope: SHOP
+    type: SELL
+    value: 1.08
+    shop: organics
+  petredstone1.08:
+    scope: SHOP
+    type: SELL
+    value: 1.08
+    shop: redstone
+  petspawners1.08:
+    scope: SHOP
+    type: SELL
+    value: 1.08
+    shop: spawners
+  petaquatics1.09:
+    scope: SHOP
+    type: SELL
+    value: 1.09
+    shop: aquatics
+  petbasics1.09:
+    scope: SHOP
+    type: SELL
+    value: 1.09
+    shop: basics
+  petbrewing1.09:
+    scope: SHOP
+    type: SELL
+    value: 1.09
+    shop: brewing
+  petconcrete1.09:
+    scope: SHOP
+    type: SELL
+    value: 1.09
+    shop: concrete
+  petdyes1.09:
+    scope: SHOP
+    type: SELL
+    value: 1.09
+    shop: dyes
+  petfood1.09:
+    scope: SHOP
+    type: SELL
+    value: 1.09
+    shop: food
+  petmob-drops1.09:
+    scope: SHOP
+    type: SELL
+    value: 1.09
+    shop: mob-drops
+  petnether1.09:
+    scope: SHOP
+    type: SELL
+    value: 1.09
+    shop: nether
+  petores1.09:
+    scope: SHOP
+    type: SELL
+    value: 1.09
+    shop: ores
+  petorganics1.09:
+    scope: SHOP
+    type: SELL
+    value: 1.09
+    shop: organics
+  petredstone1.09:
+    scope: SHOP
+    type: SELL
+    value: 1.09
+    shop: redstone
+  petspawners1.09:
+    scope: SHOP
+    type: SELL
+    value: 1.09
+    shop: spawners
+  petaquatics1.1:
+    scope: SHOP
+    type: SELL
+    value: 1.1
+    shop: aquatics
+  petbasics1.1:
+    scope: SHOP
+    type: SELL
+    value: 1.1
+    shop: basics
+  petbrewing1.1:
+    scope: SHOP
+    type: SELL
+    value: 1.1
+    shop: brewing
+  petconcrete1.1:
+    scope: SHOP
+    type: SELL
+    value: 1.1
+    shop: concrete
+  petdyes1.1:
+    scope: SHOP
+    type: SELL
+    value: 1.1
+    shop: dyes
+  petfood1.1:
+    scope: SHOP
+    type: SELL
+    value: 1.1
+    shop: food
+  petmob-drops1.1:
+    scope: SHOP
+    type: SELL
+    value: 1.1
+    shop: mob-drops
+  petnether1.1:
+    scope: SHOP
+    type: SELL
+    value: 1.1
+    shop: nether
+  petores1.1:
+    scope: SHOP
+    type: SELL
+    value: 1.1
+    shop: ores
+  petorganics1.1:
+    scope: SHOP
+    type: SELL
+    value: 1.1
+    shop: organics
+  petredstone1.1:
+    scope: SHOP
+    type: SELL
+    value: 1.1
+    shop: redstone
+  petspawners1.1:
+    scope: SHOP
+    type: SELL
+    value: 1.1
+    shop: spawners
+  petaquatics1.11:
+    scope: SHOP
+    type: SELL
+    value: 1.11
+    shop: aquatics
+  petbasics1.11:
+    scope: SHOP
+    type: SELL
+    value: 1.11
+    shop: basics
+  petbrewing1.11:
+    scope: SHOP
+    type: SELL
+    value: 1.11
+    shop: brewing
+  petconcrete1.11:
+    scope: SHOP
+    type: SELL
+    value: 1.11
+    shop: concrete
+  petdyes1.11:
+    scope: SHOP
+    type: SELL
+    value: 1.11
+    shop: dyes
+  petfood1.11:
+    scope: SHOP
+    type: SELL
+    value: 1.11
+    shop: food
+  petmob-drops1.11:
+    scope: SHOP
+    type: SELL
+    value: 1.11
+    shop: mob-drops
+  petnether1.11:
+    scope: SHOP
+    type: SELL
+    value: 1.11
+    shop: nether
+  petores1.11:
+    scope: SHOP
+    type: SELL
+    value: 1.11
+    shop: ores
+  petorganics1.11:
+    scope: SHOP
+    type: SELL
+    value: 1.11
+    shop: organics
+  petredstone1.11:
+    scope: SHOP
+    type: SELL
+    value: 1.11
+    shop: redstone
+  petspawners1.11:
+    scope: SHOP
+    type: SELL
+    value: 1.11
+    shop: spawners
+  petaquatics1.12:
+    scope: SHOP
+    type: SELL
+    value: 1.12
+    shop: aquatics
+  petbasics1.12:
+    scope: SHOP
+    type: SELL
+    value: 1.12
+    shop: basics
+  petbrewing1.12:
+    scope: SHOP
+    type: SELL
+    value: 1.12
+    shop: brewing
+  petconcrete1.12:
+    scope: SHOP
+    type: SELL
+    value: 1.12
+    shop: concrete
+  petdyes1.12:
+    scope: SHOP
+    type: SELL
+    value: 1.12
+    shop: dyes
+  petfood1.12:
+    scope: SHOP
+    type: SELL
+    value: 1.12
+    shop: food
+  petmob-drops1.12:
+    scope: SHOP
+    type: SELL
+    value: 1.12
+    shop: mob-drops
+  petnether1.12:
+    scope: SHOP
+    type: SELL
+    value: 1.12
+    shop: nether
+  petores1.12:
+    scope: SHOP
+    type: SELL
+    value: 1.12
+    shop: ores
+  petorganics1.12:
+    scope: SHOP
+    type: SELL
+    value: 1.12
+    shop: organics
+  petredstone1.12:
+    scope: SHOP
+    type: SELL
+    value: 1.12
+    shop: redstone
+  petspawners1.12:
+    scope: SHOP
+    type: SELL
+    value: 1.12
+    shop: spawners
+  petaquatics1.13:
+    scope: SHOP
+    type: SELL
+    value: 1.13
+    shop: aquatics
+  petbasics1.13:
+    scope: SHOP
+    type: SELL
+    value: 1.13
+    shop: basics
+  petbrewing1.13:
+    scope: SHOP
+    type: SELL
+    value: 1.13
+    shop: brewing
+  petconcrete1.13:
+    scope: SHOP
+    type: SELL
+    value: 1.13
+    shop: concrete
+  petdyes1.13:
+    scope: SHOP
+    type: SELL
+    value: 1.13
+    shop: dyes
+  petfood1.13:
+    scope: SHOP
+    type: SELL
+    value: 1.13
+    shop: food
+  petmob-drops1.13:
+    scope: SHOP
+    type: SELL
+    value: 1.13
+    shop: mob-drops
+  petnether1.13:
+    scope: SHOP
+    type: SELL
+    value: 1.13
+    shop: nether
+  petores1.13:
+    scope: SHOP
+    type: SELL
+    value: 1.13
+    shop: ores
+  petorganics1.13:
+    scope: SHOP
+    type: SELL
+    value: 1.13
+    shop: organics
+  petredstone1.13:
+    scope: SHOP
+    type: SELL
+    value: 1.13
+    shop: redstone
+  petspawners1.13:
+    scope: SHOP
+    type: SELL
+    value: 1.13
+    shop: spawners
+  petaquatics1.14:
+    scope: SHOP
+    type: SELL
+    value: 1.14
+    shop: aquatics
+  petbasics1.14:
+    scope: SHOP
+    type: SELL
+    value: 1.14
+    shop: basics
+  petbrewing1.14:
+    scope: SHOP
+    type: SELL
+    value: 1.14
+    shop: brewing
+  petconcrete1.14:
+    scope: SHOP
+    type: SELL
+    value: 1.14
+    shop: concrete
+  petdyes1.14:
+    scope: SHOP
+    type: SELL
+    value: 1.14
+    shop: dyes
+  petfood1.14:
+    scope: SHOP
+    type: SELL
+    value: 1.14
+    shop: food
+  petmob-drops1.14:
+    scope: SHOP
+    type: SELL
+    value: 1.14
+    shop: mob-drops
+  petnether1.14:
+    scope: SHOP
+    type: SELL
+    value: 1.14
+    shop: nether
+  petores1.14:
+    scope: SHOP
+    type: SELL
+    value: 1.14
+    shop: ores
+  petorganics1.14:
+    scope: SHOP
+    type: SELL
+    value: 1.14
+    shop: organics
+  petredstone1.14:
+    scope: SHOP
+    type: SELL
+    value: 1.14
+    shop: redstone
+  petspawners1.14:
+    scope: SHOP
+    type: SELL
+    value: 1.14
+    shop: spawners
+  petaquatics1.15:
+    scope: SHOP
+    type: SELL
+    value: 1.15
+    shop: aquatics
+  petbasics1.15:
+    scope: SHOP
+    type: SELL
+    value: 1.15
+    shop: basics
+  petbrewing1.15:
+    scope: SHOP
+    type: SELL
+    value: 1.15
+    shop: brewing
+  petconcrete1.15:
+    scope: SHOP
+    type: SELL
+    value: 1.15
+    shop: concrete
+  petdyes1.15:
+    scope: SHOP
+    type: SELL
+    value: 1.15
+    shop: dyes
+  petfood1.15:
+    scope: SHOP
+    type: SELL
+    value: 1.15
+    shop: food
+  petmob-drops1.15:
+    scope: SHOP
+    type: SELL
+    value: 1.15
+    shop: mob-drops
+  petnether1.15:
+    scope: SHOP
+    type: SELL
+    value: 1.15
+    shop: nether
+  petores1.15:
+    scope: SHOP
+    type: SELL
+    value: 1.15
+    shop: ores
+  petorganics1.15:
+    scope: SHOP
+    type: SELL
+    value: 1.15
+    shop: organics
+  petredstone1.15:
+    scope: SHOP
+    type: SELL
+    value: 1.15
+    shop: redstone
+  petspawners1.15:
+    scope: SHOP
+    type: SELL
+    value: 1.15
+    shop: spawners
+  petaquatics1.16:
+    scope: SHOP
+    type: SELL
+    value: 1.16
+    shop: aquatics
+  petbasics1.16:
+    scope: SHOP
+    type: SELL
+    value: 1.16
+    shop: basics
+  petbrewing1.16:
+    scope: SHOP
+    type: SELL
+    value: 1.16
+    shop: brewing
+  petconcrete1.16:
+    scope: SHOP
+    type: SELL
+    value: 1.16
+    shop: concrete
+  petdyes1.16:
+    scope: SHOP
+    type: SELL
+    value: 1.16
+    shop: dyes
+  petfood1.16:
+    scope: SHOP
+    type: SELL
+    value: 1.16
+    shop: food
+  petmob-drops1.16:
+    scope: SHOP
+    type: SELL
+    value: 1.16
+    shop: mob-drops
+  petnether1.16:
+    scope: SHOP
+    type: SELL
+    value: 1.16
+    shop: nether
+  petores1.16:
+    scope: SHOP
+    type: SELL
+    value: 1.16
+    shop: ores
+  petorganics1.16:
+    scope: SHOP
+    type: SELL
+    value: 1.16
+    shop: organics
+  petredstone1.16:
+    scope: SHOP
+    type: SELL
+    value: 1.16
+    shop: redstone
+  petspawners1.16:
+    scope: SHOP
+    type: SELL
+    value: 1.16
+    shop: spawners
+  petaquatics1.17:
+    scope: SHOP
+    type: SELL
+    value: 1.17
+    shop: aquatics
+  petbasics1.17:
+    scope: SHOP
+    type: SELL
+    value: 1.17
+    shop: basics
+  petbrewing1.17:
+    scope: SHOP
+    type: SELL
+    value: 1.17
+    shop: brewing
+  petconcrete1.17:
+    scope: SHOP
+    type: SELL
+    value: 1.17
+    shop: concrete
+  petdyes1.17:
+    scope: SHOP
+    type: SELL
+    value: 1.17
+    shop: dyes
+  petfood1.17:
+    scope: SHOP
+    type: SELL
+    value: 1.17
+    shop: food
+  petmob-drops1.17:
+    scope: SHOP
+    type: SELL
+    value: 1.17
+    shop: mob-drops
+  petnether1.17:
+    scope: SHOP
+    type: SELL
+    value: 1.17
+    shop: nether
+  petores1.17:
+    scope: SHOP
+    type: SELL
+    value: 1.17
+    shop: ores
+  petorganics1.17:
+    scope: SHOP
+    type: SELL
+    value: 1.17
+    shop: organics
+  petredstone1.17:
+    scope: SHOP
+    type: SELL
+    value: 1.17
+    shop: redstone
+  petspawners1.17:
+    scope: SHOP
+    type: SELL
+    value: 1.17
+    shop: spawners
+  petaquatics1.18:
+    scope: SHOP
+    type: SELL
+    value: 1.18
+    shop: aquatics
+  petbasics1.18:
+    scope: SHOP
+    type: SELL
+    value: 1.18
+    shop: basics
+  petbrewing1.18:
+    scope: SHOP
+    type: SELL
+    value: 1.18
+    shop: brewing
+  petconcrete1.18:
+    scope: SHOP
+    type: SELL
+    value: 1.18
+    shop: concrete
+  petdyes1.18:
+    scope: SHOP
+    type: SELL
+    value: 1.18
+    shop: dyes
+  petfood1.18:
+    scope: SHOP
+    type: SELL
+    value: 1.18
+    shop: food
+  petmob-drops1.18:
+    scope: SHOP
+    type: SELL
+    value: 1.18
+    shop: mob-drops
+  petnether1.18:
+    scope: SHOP
+    type: SELL
+    value: 1.18
+    shop: nether
+  petores1.18:
+    scope: SHOP
+    type: SELL
+    value: 1.18
+    shop: ores
+  petorganics1.18:
+    scope: SHOP
+    type: SELL
+    value: 1.18
+    shop: organics
+  petredstone1.18:
+    scope: SHOP
+    type: SELL
+    value: 1.18
+    shop: redstone
+  petspawners1.18:
+    scope: SHOP
+    type: SELL
+    value: 1.18
+    shop: spawners
+  petaquatics1.19:
+    scope: SHOP
+    type: SELL
+    value: 1.19
+    shop: aquatics
+  petbasics1.19:
+    scope: SHOP
+    type: SELL
+    value: 1.19
+    shop: basics
+  petbrewing1.19:
+    scope: SHOP
+    type: SELL
+    value: 1.19
+    shop: brewing
+  petconcrete1.19:
+    scope: SHOP
+    type: SELL
+    value: 1.19
+    shop: concrete
+  petdyes1.19:
+    scope: SHOP
+    type: SELL
+    value: 1.19
+    shop: dyes
+  petfood1.19:
+    scope: SHOP
+    type: SELL
+    value: 1.19
+    shop: food
+  petmob-drops1.19:
+    scope: SHOP
+    type: SELL
+    value: 1.19
+    shop: mob-drops
+  petnether1.19:
+    scope: SHOP
+    type: SELL
+    value: 1.19
+    shop: nether
+  petores1.19:
+    scope: SHOP
+    type: SELL
+    value: 1.19
+    shop: ores
+  petorganics1.19:
+    scope: SHOP
+    type: SELL
+    value: 1.19
+    shop: organics
+  petredstone1.19:
+    scope: SHOP
+    type: SELL
+    value: 1.19
+    shop: redstone
+  petspawners1.19:
+    scope: SHOP
+    type: SELL
+    value: 1.19
+    shop: spawners
+  petaquatics1.2:
+    scope: SHOP
+    type: SELL
+    value: 1.2
+    shop: aquatics
+  petbasics1.2:
+    scope: SHOP
+    type: SELL
+    value: 1.2
+    shop: basics
+  petbrewing1.2:
+    scope: SHOP
+    type: SELL
+    value: 1.2
+    shop: brewing
+  petconcrete1.2:
+    scope: SHOP
+    type: SELL
+    value: 1.2
+    shop: concrete
+  petdyes1.2:
+    scope: SHOP
+    type: SELL
+    value: 1.2
+    shop: dyes
+  petfood1.2:
+    scope: SHOP
+    type: SELL
+    value: 1.2
+    shop: food
+  petmob-drops1.2:
+    scope: SHOP
+    type: SELL
+    value: 1.2
+    shop: mob-drops
+  petnether1.2:
+    scope: SHOP
+    type: SELL
+    value: 1.2
+    shop: nether
+  petores1.2:
+    scope: SHOP
+    type: SELL
+    value: 1.2
+    shop: ores
+  petorganics1.2:
+    scope: SHOP
+    type: SELL
+    value: 1.2
+    shop: organics
+  petredstone1.2:
+    scope: SHOP
+    type: SELL
+    value: 1.2
+    shop: redstone
+  petspawners1.2:
+    scope: SHOP
+    type: SELL
+    value: 1.2
+    shop: spawners
+  petaquatics1.21:
+    scope: SHOP
+    type: SELL
+    value: 1.21
+    shop: aquatics
+  petbasics1.21:
+    scope: SHOP
+    type: SELL
+    value: 1.21
+    shop: basics
+  petbrewing1.21:
+    scope: SHOP
+    type: SELL
+    value: 1.21
+    shop: brewing
+  petconcrete1.21:
+    scope: SHOP
+    type: SELL
+    value: 1.21
+    shop: concrete
+  petdyes1.21:
+    scope: SHOP
+    type: SELL
+    value: 1.21
+    shop: dyes
+  petfood1.21:
+    scope: SHOP
+    type: SELL
+    value: 1.21
+    shop: food
+  petmob-drops1.21:
+    scope: SHOP
+    type: SELL
+    value: 1.21
+    shop: mob-drops
+  petnether1.21:
+    scope: SHOP
+    type: SELL
+    value: 1.21
+    shop: nether
+  petores1.21:
+    scope: SHOP
+    type: SELL
+    value: 1.21
+    shop: ores
+  petorganics1.21:
+    scope: SHOP
+    type: SELL
+    value: 1.21
+    shop: organics
+  petredstone1.21:
+    scope: SHOP
+    type: SELL
+    value: 1.21
+    shop: redstone
+  petspawners1.21:
+    scope: SHOP
+    type: SELL
+    value: 1.21
+    shop: spawners
+  petaquatics1.22:
+    scope: SHOP
+    type: SELL
+    value: 1.22
+    shop: aquatics
+  petbasics1.22:
+    scope: SHOP
+    type: SELL
+    value: 1.22
+    shop: basics
+  petbrewing1.22:
+    scope: SHOP
+    type: SELL
+    value: 1.22
+    shop: brewing
+  petconcrete1.22:
+    scope: SHOP
+    type: SELL
+    value: 1.22
+    shop: concrete
+  petdyes1.22:
+    scope: SHOP
+    type: SELL
+    value: 1.22
+    shop: dyes
+  petfood1.22:
+    scope: SHOP
+    type: SELL
+    value: 1.22
+    shop: food
+  petmob-drops1.22:
+    scope: SHOP
+    type: SELL
+    value: 1.22
+    shop: mob-drops
+  petnether1.22:
+    scope: SHOP
+    type: SELL
+    value: 1.22
+    shop: nether
+  petores1.22:
+    scope: SHOP
+    type: SELL
+    value: 1.22
+    shop: ores
+  petorganics1.22:
+    scope: SHOP
+    type: SELL
+    value: 1.22
+    shop: organics
+  petredstone1.22:
+    scope: SHOP
+    type: SELL
+    value: 1.22
+    shop: redstone
+  petspawners1.22:
+    scope: SHOP
+    type: SELL
+    value: 1.22
+    shop: spawners
+  petaquatics1.23:
+    scope: SHOP
+    type: SELL
+    value: 1.23
+    shop: aquatics
+  petbasics1.23:
+    scope: SHOP
+    type: SELL
+    value: 1.23
+    shop: basics
+  petbrewing1.23:
+    scope: SHOP
+    type: SELL
+    value: 1.23
+    shop: brewing
+  petconcrete1.23:
+    scope: SHOP
+    type: SELL
+    value: 1.23
+    shop: concrete
+  petdyes1.23:
+    scope: SHOP
+    type: SELL
+    value: 1.23
+    shop: dyes
+  petfood1.23:
+    scope: SHOP
+    type: SELL
+    value: 1.23
+    shop: food
+  petmob-drops1.23:
+    scope: SHOP
+    type: SELL
+    value: 1.23
+    shop: mob-drops
+  petnether1.23:
+    scope: SHOP
+    type: SELL
+    value: 1.23
+    shop: nether
+  petores1.23:
+    scope: SHOP
+    type: SELL
+    value: 1.23
+    shop: ores
+  petorganics1.23:
+    scope: SHOP
+    type: SELL
+    value: 1.23
+    shop: organics
+  petredstone1.23:
+    scope: SHOP
+    type: SELL
+    value: 1.23
+    shop: redstone
+  petspawners1.23:
+    scope: SHOP
+    type: SELL
+    value: 1.23
+    shop: spawners
+  petaquatics1.24:
+    scope: SHOP
+    type: SELL
+    value: 1.24
+    shop: aquatics
+  petbasics1.24:
+    scope: SHOP
+    type: SELL
+    value: 1.24
+    shop: basics
+  petbrewing1.24:
+    scope: SHOP
+    type: SELL
+    value: 1.24
+    shop: brewing
+  petconcrete1.24:
+    scope: SHOP
+    type: SELL
+    value: 1.24
+    shop: concrete
+  petdyes1.24:
+    scope: SHOP
+    type: SELL
+    value: 1.24
+    shop: dyes
+  petfood1.24:
+    scope: SHOP
+    type: SELL
+    value: 1.24
+    shop: food
+  petmob-drops1.24:
+    scope: SHOP
+    type: SELL
+    value: 1.24
+    shop: mob-drops
+  petnether1.24:
+    scope: SHOP
+    type: SELL
+    value: 1.24
+    shop: nether
+  petores1.24:
+    scope: SHOP
+    type: SELL
+    value: 1.24
+    shop: ores
+  petorganics1.24:
+    scope: SHOP
+    type: SELL
+    value: 1.24
+    shop: organics
+  petredstone1.24:
+    scope: SHOP
+    type: SELL
+    value: 1.24
+    shop: redstone
+  petspawners1.24:
+    scope: SHOP
+    type: SELL
+    value: 1.24
+    shop: spawners
+  petaquatics1.25:
+    scope: SHOP
+    type: SELL
+    value: 1.25
+    shop: aquatics
+  petbasics1.25:
+    scope: SHOP
+    type: SELL
+    value: 1.25
+    shop: basics
+  petbrewing1.25:
+    scope: SHOP
+    type: SELL
+    value: 1.25
+    shop: brewing
+  petconcrete1.25:
+    scope: SHOP
+    type: SELL
+    value: 1.25
+    shop: concrete
+  petdyes1.25:
+    scope: SHOP
+    type: SELL
+    value: 1.25
+    shop: dyes
+  petfood1.25:
+    scope: SHOP
+    type: SELL
+    value: 1.25
+    shop: food
+  petmob-drops1.25:
+    scope: SHOP
+    type: SELL
+    value: 1.25
+    shop: mob-drops
+  petnether1.25:
+    scope: SHOP
+    type: SELL
+    value: 1.25
+    shop: nether
+  petores1.25:
+    scope: SHOP
+    type: SELL
+    value: 1.25
+    shop: ores
+  petorganics1.25:
+    scope: SHOP
+    type: SELL
+    value: 1.25
+    shop: organics
+  petredstone1.25:
+    scope: SHOP
+    type: SELL
+    value: 1.25
+    shop: redstone
+  petspawners1.25:
+    scope: SHOP
+    type: SELL
+    value: 1.25
+    shop: spawners
+  petaquatics1.26:
+    scope: SHOP
+    type: SELL
+    value: 1.26
+    shop: aquatics
+  petbasics1.26:
+    scope: SHOP
+    type: SELL
+    value: 1.26
+    shop: basics
+  petbrewing1.26:
+    scope: SHOP
+    type: SELL
+    value: 1.26
+    shop: brewing
+  petconcrete1.26:
+    scope: SHOP
+    type: SELL
+    value: 1.26
+    shop: concrete
+  petdyes1.26:
+    scope: SHOP
+    type: SELL
+    value: 1.26
+    shop: dyes
+  petfood1.26:
+    scope: SHOP
+    type: SELL
+    value: 1.26
+    shop: food
+  petmob-drops1.26:
+    scope: SHOP
+    type: SELL
+    value: 1.26
+    shop: mob-drops
+  petnether1.26:
+    scope: SHOP
+    type: SELL
+    value: 1.26
+    shop: nether
+  petores1.26:
+    scope: SHOP
+    type: SELL
+    value: 1.26
+    shop: ores
+  petorganics1.26:
+    scope: SHOP
+    type: SELL
+    value: 1.26
+    shop: organics
+  petredstone1.26:
+    scope: SHOP
+    type: SELL
+    value: 1.26
+    shop: redstone
+  petspawners1.26:
+    scope: SHOP
+    type: SELL
+    value: 1.26
+    shop: spawners
+  petaquatics1.27:
+    scope: SHOP
+    type: SELL
+    value: 1.27
+    shop: aquatics
+  petbasics1.27:
+    scope: SHOP
+    type: SELL
+    value: 1.27
+    shop: basics
+  petbrewing1.27:
+    scope: SHOP
+    type: SELL
+    value: 1.27
+    shop: brewing
+  petconcrete1.27:
+    scope: SHOP
+    type: SELL
+    value: 1.27
+    shop: concrete
+  petdyes1.27:
+    scope: SHOP
+    type: SELL
+    value: 1.27
+    shop: dyes
+  petfood1.27:
+    scope: SHOP
+    type: SELL
+    value: 1.27
+    shop: food
+  petmob-drops1.27:
+    scope: SHOP
+    type: SELL
+    value: 1.27
+    shop: mob-drops
+  petnether1.27:
+    scope: SHOP
+    type: SELL
+    value: 1.27
+    shop: nether
+  petores1.27:
+    scope: SHOP
+    type: SELL
+    value: 1.27
+    shop: ores
+  petorganics1.27:
+    scope: SHOP
+    type: SELL
+    value: 1.27
+    shop: organics
+  petredstone1.27:
+    scope: SHOP
+    type: SELL
+    value: 1.27
+    shop: redstone
+  petspawners1.27:
+    scope: SHOP
+    type: SELL
+    value: 1.27
+    shop: spawners
+  petaquatics1.28:
+    scope: SHOP
+    type: SELL
+    value: 1.28
+    shop: aquatics
+  petbasics1.28:
+    scope: SHOP
+    type: SELL
+    value: 1.28
+    shop: basics
+  petbrewing1.28:
+    scope: SHOP
+    type: SELL
+    value: 1.28
+    shop: brewing
+  petconcrete1.28:
+    scope: SHOP
+    type: SELL
+    value: 1.28
+    shop: concrete
+  petdyes1.28:
+    scope: SHOP
+    type: SELL
+    value: 1.28
+    shop: dyes
+  petfood1.28:
+    scope: SHOP
+    type: SELL
+    value: 1.28
+    shop: food
+  petmob-drops1.28:
+    scope: SHOP
+    type: SELL
+    value: 1.28
+    shop: mob-drops
+  petnether1.28:
+    scope: SHOP
+    type: SELL
+    value: 1.28
+    shop: nether
+  petores1.28:
+    scope: SHOP
+    type: SELL
+    value: 1.28
+    shop: ores
+  petorganics1.28:
+    scope: SHOP
+    type: SELL
+    value: 1.28
+    shop: organics
+  petredstone1.28:
+    scope: SHOP
+    type: SELL
+    value: 1.28
+    shop: redstone
+  petspawners1.28:
+    scope: SHOP
+    type: SELL
+    value: 1.28
+    shop: spawners
+  petaquatics1.29:
+    scope: SHOP
+    type: SELL
+    value: 1.29
+    shop: aquatics
+  petbasics1.29:
+    scope: SHOP
+    type: SELL
+    value: 1.29
+    shop: basics
+  petbrewing1.29:
+    scope: SHOP
+    type: SELL
+    value: 1.29
+    shop: brewing
+  petconcrete1.29:
+    scope: SHOP
+    type: SELL
+    value: 1.29
+    shop: concrete
+  petdyes1.29:
+    scope: SHOP
+    type: SELL
+    value: 1.29
+    shop: dyes
+  petfood1.29:
+    scope: SHOP
+    type: SELL
+    value: 1.29
+    shop: food
+  petmob-drops1.29:
+    scope: SHOP
+    type: SELL
+    value: 1.29
+    shop: mob-drops
+  petnether1.29:
+    scope: SHOP
+    type: SELL
+    value: 1.29
+    shop: nether
+  petores1.29:
+    scope: SHOP
+    type: SELL
+    value: 1.29
+    shop: ores
+  petorganics1.29:
+    scope: SHOP
+    type: SELL
+    value: 1.29
+    shop: organics
+  petredstone1.29:
+    scope: SHOP
+    type: SELL
+    value: 1.29
+    shop: redstone
+  petspawners1.29:
+    scope: SHOP
+    type: SELL
+    value: 1.29
+    shop: spawners
+  petaquatics1.3:
+    scope: SHOP
+    type: SELL
+    value: 1.3
+    shop: aquatics
+  petbasics1.3:
+    scope: SHOP
+    type: SELL
+    value: 1.3
+    shop: basics
+  petbrewing1.3:
+    scope: SHOP
+    type: SELL
+    value: 1.3
+    shop: brewing
+  petconcrete1.3:
+    scope: SHOP
+    type: SELL
+    value: 1.3
+    shop: concrete
+  petdyes1.3:
+    scope: SHOP
+    type: SELL
+    value: 1.3
+    shop: dyes
+  petfood1.3:
+    scope: SHOP
+    type: SELL
+    value: 1.3
+    shop: food
+  petmob-drops1.3:
+    scope: SHOP
+    type: SELL
+    value: 1.3
+    shop: mob-drops
+  petnether1.3:
+    scope: SHOP
+    type: SELL
+    value: 1.3
+    shop: nether
+  petores1.3:
+    scope: SHOP
+    type: SELL
+    value: 1.3
+    shop: ores
+  petorganics1.3:
+    scope: SHOP
+    type: SELL
+    value: 1.3
+    shop: organics
+  petredstone1.3:
+    scope: SHOP
+    type: SELL
+    value: 1.3
+    shop: redstone
+  petspawners1.3:
+    scope: SHOP
+    type: SELL
+    value: 1.3
+    shop: spawners
+  petaquatics1.31:
+    scope: SHOP
+    type: SELL
+    value: 1.31
+    shop: aquatics
+  petbasics1.31:
+    scope: SHOP
+    type: SELL
+    value: 1.31
+    shop: basics
+  petbrewing1.31:
+    scope: SHOP
+    type: SELL
+    value: 1.31
+    shop: brewing
+  petconcrete1.31:
+    scope: SHOP
+    type: SELL
+    value: 1.31
+    shop: concrete
+  petdyes1.31:
+    scope: SHOP
+    type: SELL
+    value: 1.31
+    shop: dyes
+  petfood1.31:
+    scope: SHOP
+    type: SELL
+    value: 1.31
+    shop: food
+  petmob-drops1.31:
+    scope: SHOP
+    type: SELL
+    value: 1.31
+    shop: mob-drops
+  petnether1.31:
+    scope: SHOP
+    type: SELL
+    value: 1.31
+    shop: nether
+  petores1.31:
+    scope: SHOP
+    type: SELL
+    value: 1.31
+    shop: ores
+  petorganics1.31:
+    scope: SHOP
+    type: SELL
+    value: 1.31
+    shop: organics
+  petredstone1.31:
+    scope: SHOP
+    type: SELL
+    value: 1.31
+    shop: redstone
+  petspawners1.31:
+    scope: SHOP
+    type: SELL
+    value: 1.31
+    shop: spawners
+  petaquatics1.32:
+    scope: SHOP
+    type: SELL
+    value: 1.32
+    shop: aquatics
+  petbasics1.32:
+    scope: SHOP
+    type: SELL
+    value: 1.32
+    shop: basics
+  petbrewing1.32:
+    scope: SHOP
+    type: SELL
+    value: 1.32
+    shop: brewing
+  petconcrete1.32:
+    scope: SHOP
+    type: SELL
+    value: 1.32
+    shop: concrete
+  petdyes1.32:
+    scope: SHOP
+    type: SELL
+    value: 1.32
+    shop: dyes
+  petfood1.32:
+    scope: SHOP
+    type: SELL
+    value: 1.32
+    shop: food
+  petmob-drops1.32:
+    scope: SHOP
+    type: SELL
+    value: 1.32
+    shop: mob-drops
+  petnether1.32:
+    scope: SHOP
+    type: SELL
+    value: 1.32
+    shop: nether
+  petores1.32:
+    scope: SHOP
+    type: SELL
+    value: 1.32
+    shop: ores
+  petorganics1.32:
+    scope: SHOP
+    type: SELL
+    value: 1.32
+    shop: organics
+  petredstone1.32:
+    scope: SHOP
+    type: SELL
+    value: 1.32
+    shop: redstone
+  petspawners1.32:
+    scope: SHOP
+    type: SELL
+    value: 1.32
+    shop: spawners
+  petaquatics1.33:
+    scope: SHOP
+    type: SELL
+    value: 1.33
+    shop: aquatics
+  petbasics1.33:
+    scope: SHOP
+    type: SELL
+    value: 1.33
+    shop: basics
+  petbrewing1.33:
+    scope: SHOP
+    type: SELL
+    value: 1.33
+    shop: brewing
+  petconcrete1.33:
+    scope: SHOP
+    type: SELL
+    value: 1.33
+    shop: concrete
+  petdyes1.33:
+    scope: SHOP
+    type: SELL
+    value: 1.33
+    shop: dyes
+  petfood1.33:
+    scope: SHOP
+    type: SELL
+    value: 1.33
+    shop: food
+  petmob-drops1.33:
+    scope: SHOP
+    type: SELL
+    value: 1.33
+    shop: mob-drops
+  petnether1.33:
+    scope: SHOP
+    type: SELL
+    value: 1.33
+    shop: nether
+  petores1.33:
+    scope: SHOP
+    type: SELL
+    value: 1.33
+    shop: ores
+  petorganics1.33:
+    scope: SHOP
+    type: SELL
+    value: 1.33
+    shop: organics
+  petredstone1.33:
+    scope: SHOP
+    type: SELL
+    value: 1.33
+    shop: redstone
+  petspawners1.33:
+    scope: SHOP
+    type: SELL
+    value: 1.33
+    shop: spawners
+  petaquatics1.34:
+    scope: SHOP
+    type: SELL
+    value: 1.34
+    shop: aquatics
+  petbasics1.34:
+    scope: SHOP
+    type: SELL
+    value: 1.34
+    shop: basics
+  petbrewing1.34:
+    scope: SHOP
+    type: SELL
+    value: 1.34
+    shop: brewing
+  petconcrete1.34:
+    scope: SHOP
+    type: SELL
+    value: 1.34
+    shop: concrete
+  petdyes1.34:
+    scope: SHOP
+    type: SELL
+    value: 1.34
+    shop: dyes
+  petfood1.34:
+    scope: SHOP
+    type: SELL
+    value: 1.34
+    shop: food
+  petmob-drops1.34:
+    scope: SHOP
+    type: SELL
+    value: 1.34
+    shop: mob-drops
+  petnether1.34:
+    scope: SHOP
+    type: SELL
+    value: 1.34
+    shop: nether
+  petores1.34:
+    scope: SHOP
+    type: SELL
+    value: 1.34
+    shop: ores
+  petorganics1.34:
+    scope: SHOP
+    type: SELL
+    value: 1.34
+    shop: organics
+  petredstone1.34:
+    scope: SHOP
+    type: SELL
+    value: 1.34
+    shop: redstone
+  petspawners1.34:
+    scope: SHOP
+    type: SELL
+    value: 1.34
+    shop: spawners
+  petaquatics1.35:
+    scope: SHOP
+    type: SELL
+    value: 1.35
+    shop: aquatics
+  petbasics1.35:
+    scope: SHOP
+    type: SELL
+    value: 1.35
+    shop: basics
+  petbrewing1.35:
+    scope: SHOP
+    type: SELL
+    value: 1.35
+    shop: brewing
+  petconcrete1.35:
+    scope: SHOP
+    type: SELL
+    value: 1.35
+    shop: concrete
+  petdyes1.35:
+    scope: SHOP
+    type: SELL
+    value: 1.35
+    shop: dyes
+  petfood1.35:
+    scope: SHOP
+    type: SELL
+    value: 1.35
+    shop: food
+  petmob-drops1.35:
+    scope: SHOP
+    type: SELL
+    value: 1.35
+    shop: mob-drops
+  petnether1.35:
+    scope: SHOP
+    type: SELL
+    value: 1.35
+    shop: nether
+  petores1.35:
+    scope: SHOP
+    type: SELL
+    value: 1.35
+    shop: ores
+  petorganics1.35:
+    scope: SHOP
+    type: SELL
+    value: 1.35
+    shop: organics
+  petredstone1.35:
+    scope: SHOP
+    type: SELL
+    value: 1.35
+    shop: redstone
+  petspawners1.35:
+    scope: SHOP
+    type: SELL
+    value: 1.35
+    shop: spawners
+  petaquatics1.36:
+    scope: SHOP
+    type: SELL
+    value: 1.36
+    shop: aquatics
+  petbasics1.36:
+    scope: SHOP
+    type: SELL
+    value: 1.36
+    shop: basics
+  petbrewing1.36:
+    scope: SHOP
+    type: SELL
+    value: 1.36
+    shop: brewing
+  petconcrete1.36:
+    scope: SHOP
+    type: SELL
+    value: 1.36
+    shop: concrete
+  petdyes1.36:
+    scope: SHOP
+    type: SELL
+    value: 1.36
+    shop: dyes
+  petfood1.36:
+    scope: SHOP
+    type: SELL
+    value: 1.36
+    shop: food
+  petmob-drops1.36:
+    scope: SHOP
+    type: SELL
+    value: 1.36
+    shop: mob-drops
+  petnether1.36:
+    scope: SHOP
+    type: SELL
+    value: 1.36
+    shop: nether
+  petores1.36:
+    scope: SHOP
+    type: SELL
+    value: 1.36
+    shop: ores
+  petorganics1.36:
+    scope: SHOP
+    type: SELL
+    value: 1.36
+    shop: organics
+  petredstone1.36:
+    scope: SHOP
+    type: SELL
+    value: 1.36
+    shop: redstone
+  petspawners1.36:
+    scope: SHOP
+    type: SELL
+    value: 1.36
+    shop: spawners
+  petaquatics1.37:
+    scope: SHOP
+    type: SELL
+    value: 1.37
+    shop: aquatics
+  petbasics1.37:
+    scope: SHOP
+    type: SELL
+    value: 1.37
+    shop: basics
+  petbrewing1.37:
+    scope: SHOP
+    type: SELL
+    value: 1.37
+    shop: brewing
+  petconcrete1.37:
+    scope: SHOP
+    type: SELL
+    value: 1.37
+    shop: concrete
+  petdyes1.37:
+    scope: SHOP
+    type: SELL
+    value: 1.37
+    shop: dyes
+  petfood1.37:
+    scope: SHOP
+    type: SELL
+    value: 1.37
+    shop: food
+  petmob-drops1.37:
+    scope: SHOP
+    type: SELL
+    value: 1.37
+    shop: mob-drops
+  petnether1.37:
+    scope: SHOP
+    type: SELL
+    value: 1.37
+    shop: nether
+  petores1.37:
+    scope: SHOP
+    type: SELL
+    value: 1.37
+    shop: ores
+  petorganics1.37:
+    scope: SHOP
+    type: SELL
+    value: 1.37
+    shop: organics
+  petredstone1.37:
+    scope: SHOP
+    type: SELL
+    value: 1.37
+    shop: redstone
+  petspawners1.37:
+    scope: SHOP
+    type: SELL
+    value: 1.37
+    shop: spawners
+  petaquatics1.38:
+    scope: SHOP
+    type: SELL
+    value: 1.38
+    shop: aquatics
+  petbasics1.38:
+    scope: SHOP
+    type: SELL
+    value: 1.38
+    shop: basics
+  petbrewing1.38:
+    scope: SHOP
+    type: SELL
+    value: 1.38
+    shop: brewing
+  petconcrete1.38:
+    scope: SHOP
+    type: SELL
+    value: 1.38
+    shop: concrete
+  petdyes1.38:
+    scope: SHOP
+    type: SELL
+    value: 1.38
+    shop: dyes
+  petfood1.38:
+    scope: SHOP
+    type: SELL
+    value: 1.38
+    shop: food
+  petmob-drops1.38:
+    scope: SHOP
+    type: SELL
+    value: 1.38
+    shop: mob-drops
+  petnether1.38:
+    scope: SHOP
+    type: SELL
+    value: 1.38
+    shop: nether
+  petores1.38:
+    scope: SHOP
+    type: SELL
+    value: 1.38
+    shop: ores
+  petorganics1.38:
+    scope: SHOP
+    type: SELL
+    value: 1.38
+    shop: organics
+  petredstone1.38:
+    scope: SHOP
+    type: SELL
+    value: 1.38
+    shop: redstone
+  petspawners1.38:
+    scope: SHOP
+    type: SELL
+    value: 1.38
+    shop: spawners
+  petaquatics1.39:
+    scope: SHOP
+    type: SELL
+    value: 1.39
+    shop: aquatics
+  petbasics1.39:
+    scope: SHOP
+    type: SELL
+    value: 1.39
+    shop: basics
+  petbrewing1.39:
+    scope: SHOP
+    type: SELL
+    value: 1.39
+    shop: brewing
+  petconcrete1.39:
+    scope: SHOP
+    type: SELL
+    value: 1.39
+    shop: concrete
+  petdyes1.39:
+    scope: SHOP
+    type: SELL
+    value: 1.39
+    shop: dyes
+  petfood1.39:
+    scope: SHOP
+    type: SELL
+    value: 1.39
+    shop: food
+  petmob-drops1.39:
+    scope: SHOP
+    type: SELL
+    value: 1.39
+    shop: mob-drops
+  petnether1.39:
+    scope: SHOP
+    type: SELL
+    value: 1.39
+    shop: nether
+  petores1.39:
+    scope: SHOP
+    type: SELL
+    value: 1.39
+    shop: ores
+  petorganics1.39:
+    scope: SHOP
+    type: SELL
+    value: 1.39
+    shop: organics
+  petredstone1.39:
+    scope: SHOP
+    type: SELL
+    value: 1.39
+    shop: redstone
+  petspawners1.39:
+    scope: SHOP
+    type: SELL
+    value: 1.39
+    shop: spawners
+  petaquatics1.4:
+    scope: SHOP
+    type: SELL
+    value: 1.4
+    shop: aquatics
+  petbasics1.4:
+    scope: SHOP
+    type: SELL
+    value: 1.4
+    shop: basics
+  petbrewing1.4:
+    scope: SHOP
+    type: SELL
+    value: 1.4
+    shop: brewing
+  petconcrete1.4:
+    scope: SHOP
+    type: SELL
+    value: 1.4
+    shop: concrete
+  petdyes1.4:
+    scope: SHOP
+    type: SELL
+    value: 1.4
+    shop: dyes
+  petfood1.4:
+    scope: SHOP
+    type: SELL
+    value: 1.4
+    shop: food
+  petmob-drops1.4:
+    scope: SHOP
+    type: SELL
+    value: 1.4
+    shop: mob-drops
+  petnether1.4:
+    scope: SHOP
+    type: SELL
+    value: 1.4
+    shop: nether
+  petores1.4:
+    scope: SHOP
+    type: SELL
+    value: 1.4
+    shop: ores
+  petorganics1.4:
+    scope: SHOP
+    type: SELL
+    value: 1.4
+    shop: organics
+  petredstone1.4:
+    scope: SHOP
+    type: SELL
+    value: 1.4
+    shop: redstone
+  petspawners1.4:
+    scope: SHOP
+    type: SELL
+    value: 1.4
+    shop: spawners
+  petaquatics1.41:
+    scope: SHOP
+    type: SELL
+    value: 1.41
+    shop: aquatics
+  petbasics1.41:
+    scope: SHOP
+    type: SELL
+    value: 1.41
+    shop: basics
+  petbrewing1.41:
+    scope: SHOP
+    type: SELL
+    value: 1.41
+    shop: brewing
+  petconcrete1.41:
+    scope: SHOP
+    type: SELL
+    value: 1.41
+    shop: concrete
+  petdyes1.41:
+    scope: SHOP
+    type: SELL
+    value: 1.41
+    shop: dyes
+  petfood1.41:
+    scope: SHOP
+    type: SELL
+    value: 1.41
+    shop: food
+  petmob-drops1.41:
+    scope: SHOP
+    type: SELL
+    value: 1.41
+    shop: mob-drops
+  petnether1.41:
+    scope: SHOP
+    type: SELL
+    value: 1.41
+    shop: nether
+  petores1.41:
+    scope: SHOP
+    type: SELL
+    value: 1.41
+    shop: ores
+  petorganics1.41:
+    scope: SHOP
+    type: SELL
+    value: 1.41
+    shop: organics
+  petredstone1.41:
+    scope: SHOP
+    type: SELL
+    value: 1.41
+    shop: redstone
+  petspawners1.41:
+    scope: SHOP
+    type: SELL
+    value: 1.41
+    shop: spawners
+  petaquatics1.42:
+    scope: SHOP
+    type: SELL
+    value: 1.42
+    shop: aquatics
+  petbasics1.42:
+    scope: SHOP
+    type: SELL
+    value: 1.42
+    shop: basics
+  petbrewing1.42:
+    scope: SHOP
+    type: SELL
+    value: 1.42
+    shop: brewing
+  petconcrete1.42:
+    scope: SHOP
+    type: SELL
+    value: 1.42
+    shop: concrete
+  petdyes1.42:
+    scope: SHOP
+    type: SELL
+    value: 1.42
+    shop: dyes
+  petfood1.42:
+    scope: SHOP
+    type: SELL
+    value: 1.42
+    shop: food
+  petmob-drops1.42:
+    scope: SHOP
+    type: SELL
+    value: 1.42
+    shop: mob-drops
+  petnether1.42:
+    scope: SHOP
+    type: SELL
+    value: 1.42
+    shop: nether
+  petores1.42:
+    scope: SHOP
+    type: SELL
+    value: 1.42
+    shop: ores
+  petorganics1.42:
+    scope: SHOP
+    type: SELL
+    value: 1.42
+    shop: organics
+  petredstone1.42:
+    scope: SHOP
+    type: SELL
+    value: 1.42
+    shop: redstone
+  petspawners1.42:
+    scope: SHOP
+    type: SELL
+    value: 1.42
+    shop: spawners
+  petaquatics1.43:
+    scope: SHOP
+    type: SELL
+    value: 1.43
+    shop: aquatics
+  petbasics1.43:
+    scope: SHOP
+    type: SELL
+    value: 1.43
+    shop: basics
+  petbrewing1.43:
+    scope: SHOP
+    type: SELL
+    value: 1.43
+    shop: brewing
+  petconcrete1.43:
+    scope: SHOP
+    type: SELL
+    value: 1.43
+    shop: concrete
+  petdyes1.43:
+    scope: SHOP
+    type: SELL
+    value: 1.43
+    shop: dyes
+  petfood1.43:
+    scope: SHOP
+    type: SELL
+    value: 1.43
+    shop: food
+  petmob-drops1.43:
+    scope: SHOP
+    type: SELL
+    value: 1.43
+    shop: mob-drops
+  petnether1.43:
+    scope: SHOP
+    type: SELL
+    value: 1.43
+    shop: nether
+  petores1.43:
+    scope: SHOP
+    type: SELL
+    value: 1.43
+    shop: ores
+  petorganics1.43:
+    scope: SHOP
+    type: SELL
+    value: 1.43
+    shop: organics
+  petredstone1.43:
+    scope: SHOP
+    type: SELL
+    value: 1.43
+    shop: redstone
+  petspawners1.43:
+    scope: SHOP
+    type: SELL
+    value: 1.43
+    shop: spawners
+  petaquatics1.44:
+    scope: SHOP
+    type: SELL
+    value: 1.44
+    shop: aquatics
+  petbasics1.44:
+    scope: SHOP
+    type: SELL
+    value: 1.44
+    shop: basics
+  petbrewing1.44:
+    scope: SHOP
+    type: SELL
+    value: 1.44
+    shop: brewing
+  petconcrete1.44:
+    scope: SHOP
+    type: SELL
+    value: 1.44
+    shop: concrete
+  petdyes1.44:
+    scope: SHOP
+    type: SELL
+    value: 1.44
+    shop: dyes
+  petfood1.44:
+    scope: SHOP
+    type: SELL
+    value: 1.44
+    shop: food
+  petmob-drops1.44:
+    scope: SHOP
+    type: SELL
+    value: 1.44
+    shop: mob-drops
+  petnether1.44:
+    scope: SHOP
+    type: SELL
+    value: 1.44
+    shop: nether
+  petores1.44:
+    scope: SHOP
+    type: SELL
+    value: 1.44
+    shop: ores
+  petorganics1.44:
+    scope: SHOP
+    type: SELL
+    value: 1.44
+    shop: organics
+  petredstone1.44:
+    scope: SHOP
+    type: SELL
+    value: 1.44
+    shop: redstone
+  petspawners1.44:
+    scope: SHOP
+    type: SELL
+    value: 1.44
+    shop: spawners
+  petaquatics1.45:
+    scope: SHOP
+    type: SELL
+    value: 1.45
+    shop: aquatics
+  petbasics1.45:
+    scope: SHOP
+    type: SELL
+    value: 1.45
+    shop: basics
+  petbrewing1.45:
+    scope: SHOP
+    type: SELL
+    value: 1.45
+    shop: brewing
+  petconcrete1.45:
+    scope: SHOP
+    type: SELL
+    value: 1.45
+    shop: concrete
+  petdyes1.45:
+    scope: SHOP
+    type: SELL
+    value: 1.45
+    shop: dyes
+  petfood1.45:
+    scope: SHOP
+    type: SELL
+    value: 1.45
+    shop: food
+  petmob-drops1.45:
+    scope: SHOP
+    type: SELL
+    value: 1.45
+    shop: mob-drops
+  petnether1.45:
+    scope: SHOP
+    type: SELL
+    value: 1.45
+    shop: nether
+  petores1.45:
+    scope: SHOP
+    type: SELL
+    value: 1.45
+    shop: ores
+  petorganics1.45:
+    scope: SHOP
+    type: SELL
+    value: 1.45
+    shop: organics
+  petredstone1.45:
+    scope: SHOP
+    type: SELL
+    value: 1.45
+    shop: redstone
+  petspawners1.45:
+    scope: SHOP
+    type: SELL
+    value: 1.45
+    shop: spawners
+  petaquatics1.46:
+    scope: SHOP
+    type: SELL
+    value: 1.46
+    shop: aquatics
+  petbasics1.46:
+    scope: SHOP
+    type: SELL
+    value: 1.46
+    shop: basics
+  petbrewing1.46:
+    scope: SHOP
+    type: SELL
+    value: 1.46
+    shop: brewing
+  petconcrete1.46:
+    scope: SHOP
+    type: SELL
+    value: 1.46
+    shop: concrete
+  petdyes1.46:
+    scope: SHOP
+    type: SELL
+    value: 1.46
+    shop: dyes
+  petfood1.46:
+    scope: SHOP
+    type: SELL
+    value: 1.46
+    shop: food
+  petmob-drops1.46:
+    scope: SHOP
+    type: SELL
+    value: 1.46
+    shop: mob-drops
+  petnether1.46:
+    scope: SHOP
+    type: SELL
+    value: 1.46
+    shop: nether
+  petores1.46:
+    scope: SHOP
+    type: SELL
+    value: 1.46
+    shop: ores
+  petorganics1.46:
+    scope: SHOP
+    type: SELL
+    value: 1.46
+    shop: organics
+  petredstone1.46:
+    scope: SHOP
+    type: SELL
+    value: 1.46
+    shop: redstone
+  petspawners1.46:
+    scope: SHOP
+    type: SELL
+    value: 1.46
+    shop: spawners
+  petaquatics1.47:
+    scope: SHOP
+    type: SELL
+    value: 1.47
+    shop: aquatics
+  petbasics1.47:
+    scope: SHOP
+    type: SELL
+    value: 1.47
+    shop: basics
+  petbrewing1.47:
+    scope: SHOP
+    type: SELL
+    value: 1.47
+    shop: brewing
+  petconcrete1.47:
+    scope: SHOP
+    type: SELL
+    value: 1.47
+    shop: concrete
+  petdyes1.47:
+    scope: SHOP
+    type: SELL
+    value: 1.47
+    shop: dyes
+  petfood1.47:
+    scope: SHOP
+    type: SELL
+    value: 1.47
+    shop: food
+  petmob-drops1.47:
+    scope: SHOP
+    type: SELL
+    value: 1.47
+    shop: mob-drops
+  petnether1.47:
+    scope: SHOP
+    type: SELL
+    value: 1.47
+    shop: nether
+  petores1.47:
+    scope: SHOP
+    type: SELL
+    value: 1.47
+    shop: ores
+  petorganics1.47:
+    scope: SHOP
+    type: SELL
+    value: 1.47
+    shop: organics
+  petredstone1.47:
+    scope: SHOP
+    type: SELL
+    value: 1.47
+    shop: redstone
+  petspawners1.47:
+    scope: SHOP
+    type: SELL
+    value: 1.47
+    shop: spawners
+  petaquatics1.48:
+    scope: SHOP
+    type: SELL
+    value: 1.48
+    shop: aquatics
+  petbasics1.48:
+    scope: SHOP
+    type: SELL
+    value: 1.48
+    shop: basics
+  petbrewing1.48:
+    scope: SHOP
+    type: SELL
+    value: 1.48
+    shop: brewing
+  petconcrete1.48:
+    scope: SHOP
+    type: SELL
+    value: 1.48
+    shop: concrete
+  petdyes1.48:
+    scope: SHOP
+    type: SELL
+    value: 1.48
+    shop: dyes
+  petfood1.48:
+    scope: SHOP
+    type: SELL
+    value: 1.48
+    shop: food
+  petmob-drops1.48:
+    scope: SHOP
+    type: SELL
+    value: 1.48
+    shop: mob-drops
+  petnether1.48:
+    scope: SHOP
+    type: SELL
+    value: 1.48
+    shop: nether
+  petores1.48:
+    scope: SHOP
+    type: SELL
+    value: 1.48
+    shop: ores
+  petorganics1.48:
+    scope: SHOP
+    type: SELL
+    value: 1.48
+    shop: organics
+  petredstone1.48:
+    scope: SHOP
+    type: SELL
+    value: 1.48
+    shop: redstone
+  petspawners1.48:
+    scope: SHOP
+    type: SELL
+    value: 1.48
+    shop: spawners
+  petaquatics1.49:
+    scope: SHOP
+    type: SELL
+    value: 1.49
+    shop: aquatics
+  petbasics1.49:
+    scope: SHOP
+    type: SELL
+    value: 1.49
+    shop: basics
+  petbrewing1.49:
+    scope: SHOP
+    type: SELL
+    value: 1.49
+    shop: brewing
+  petconcrete1.49:
+    scope: SHOP
+    type: SELL
+    value: 1.49
+    shop: concrete
+  petdyes1.49:
+    scope: SHOP
+    type: SELL
+    value: 1.49
+    shop: dyes
+  petfood1.49:
+    scope: SHOP
+    type: SELL
+    value: 1.49
+    shop: food
+  petmob-drops1.49:
+    scope: SHOP
+    type: SELL
+    value: 1.49
+    shop: mob-drops
+  petnether1.49:
+    scope: SHOP
+    type: SELL
+    value: 1.49
+    shop: nether
+  petores1.49:
+    scope: SHOP
+    type: SELL
+    value: 1.49
+    shop: ores
+  petorganics1.49:
+    scope: SHOP
+    type: SELL
+    value: 1.49
+    shop: organics
+  petredstone1.49:
+    scope: SHOP
+    type: SELL
+    value: 1.49
+    shop: redstone
+  petspawners1.49:
+    scope: SHOP
+    type: SELL
+    value: 1.49
+    shop: spawners
+  petaquatics1.5:
+    scope: SHOP
+    type: SELL
+    value: 1.5
+    shop: aquatics
+  petbasics1.5:
+    scope: SHOP
+    type: SELL
+    value: 1.5
+    shop: basics
+  petbrewing1.5:
+    scope: SHOP
+    type: SELL
+    value: 1.5
+    shop: brewing
+  petconcrete1.5:
+    scope: SHOP
+    type: SELL
+    value: 1.5
+    shop: concrete
+  petdyes1.5:
+    scope: SHOP
+    type: SELL
+    value: 1.5
+    shop: dyes
+  petfood1.5:
+    scope: SHOP
+    type: SELL
+    value: 1.5
+    shop: food
+  petmob-drops1.5:
+    scope: SHOP
+    type: SELL
+    value: 1.5
+    shop: mob-drops
+  petnether1.5:
+    scope: SHOP
+    type: SELL
+    value: 1.5
+    shop: nether
+  petores1.5:
+    scope: SHOP
+    type: SELL
+    value: 1.5
+    shop: ores
+  petorganics1.5:
+    scope: SHOP
+    type: SELL
+    value: 1.5
+    shop: organics
+  petredstone1.5:
+    scope: SHOP
+    type: SELL
+    value: 1.5
+    shop: redstone
+  petspawners1.5:
+    scope: SHOP
+    type: SELL
+    value: 1.5
+    shop: spawners
+  petaquatics1.51:
+    scope: SHOP
+    type: SELL
+    value: 1.51
+    shop: aquatics
+  petbasics1.51:
+    scope: SHOP
+    type: SELL
+    value: 1.51
+    shop: basics
+  petbrewing1.51:
+    scope: SHOP
+    type: SELL
+    value: 1.51
+    shop: brewing
+  petconcrete1.51:
+    scope: SHOP
+    type: SELL
+    value: 1.51
+    shop: concrete
+  petdyes1.51:
+    scope: SHOP
+    type: SELL
+    value: 1.51
+    shop: dyes
+  petfood1.51:
+    scope: SHOP
+    type: SELL
+    value: 1.51
+    shop: food
+  petmob-drops1.51:
+    scope: SHOP
+    type: SELL
+    value: 1.51
+    shop: mob-drops
+  petnether1.51:
+    scope: SHOP
+    type: SELL
+    value: 1.51
+    shop: nether
+  petores1.51:
+    scope: SHOP
+    type: SELL
+    value: 1.51
+    shop: ores
+  petorganics1.51:
+    scope: SHOP
+    type: SELL
+    value: 1.51
+    shop: organics
+  petredstone1.51:
+    scope: SHOP
+    type: SELL
+    value: 1.51
+    shop: redstone
+  petspawners1.51:
+    scope: SHOP
+    type: SELL
+    value: 1.51
+    shop: spawners
+  petaquatics1.52:
+    scope: SHOP
+    type: SELL
+    value: 1.52
+    shop: aquatics
+  petbasics1.52:
+    scope: SHOP
+    type: SELL
+    value: 1.52
+    shop: basics
+  petbrewing1.52:
+    scope: SHOP
+    type: SELL
+    value: 1.52
+    shop: brewing
+  petconcrete1.52:
+    scope: SHOP
+    type: SELL
+    value: 1.52
+    shop: concrete
+  petdyes1.52:
+    scope: SHOP
+    type: SELL
+    value: 1.52
+    shop: dyes
+  petfood1.52:
+    scope: SHOP
+    type: SELL
+    value: 1.52
+    shop: food
+  petmob-drops1.52:
+    scope: SHOP
+    type: SELL
+    value: 1.52
+    shop: mob-drops
+  petnether1.52:
+    scope: SHOP
+    type: SELL
+    value: 1.52
+    shop: nether
+  petores1.52:
+    scope: SHOP
+    type: SELL
+    value: 1.52
+    shop: ores
+  petorganics1.52:
+    scope: SHOP
+    type: SELL
+    value: 1.52
+    shop: organics
+  petredstone1.52:
+    scope: SHOP
+    type: SELL
+    value: 1.52
+    shop: redstone
+  petspawners1.52:
+    scope: SHOP
+    type: SELL
+    value: 1.52
+    shop: spawners
+  petaquatics1.53:
+    scope: SHOP
+    type: SELL
+    value: 1.53
+    shop: aquatics
+  petbasics1.53:
+    scope: SHOP
+    type: SELL
+    value: 1.53
+    shop: basics
+  petbrewing1.53:
+    scope: SHOP
+    type: SELL
+    value: 1.53
+    shop: brewing
+  petconcrete1.53:
+    scope: SHOP
+    type: SELL
+    value: 1.53
+    shop: concrete
+  petdyes1.53:
+    scope: SHOP
+    type: SELL
+    value: 1.53
+    shop: dyes
+  petfood1.53:
+    scope: SHOP
+    type: SELL
+    value: 1.53
+    shop: food
+  petmob-drops1.53:
+    scope: SHOP
+    type: SELL
+    value: 1.53
+    shop: mob-drops
+  petnether1.53:
+    scope: SHOP
+    type: SELL
+    value: 1.53
+    shop: nether
+  petores1.53:
+    scope: SHOP
+    type: SELL
+    value: 1.53
+    shop: ores
+  petorganics1.53:
+    scope: SHOP
+    type: SELL
+    value: 1.53
+    shop: organics
+  petredstone1.53:
+    scope: SHOP
+    type: SELL
+    value: 1.53
+    shop: redstone
+  petspawners1.53:
+    scope: SHOP
+    type: SELL
+    value: 1.53
+    shop: spawners
+  petaquatics1.54:
+    scope: SHOP
+    type: SELL
+    value: 1.54
+    shop: aquatics
+  petbasics1.54:
+    scope: SHOP
+    type: SELL
+    value: 1.54
+    shop: basics
+  petbrewing1.54:
+    scope: SHOP
+    type: SELL
+    value: 1.54
+    shop: brewing
+  petconcrete1.54:
+    scope: SHOP
+    type: SELL
+    value: 1.54
+    shop: concrete
+  petdyes1.54:
+    scope: SHOP
+    type: SELL
+    value: 1.54
+    shop: dyes
+  petfood1.54:
+    scope: SHOP
+    type: SELL
+    value: 1.54
+    shop: food
+  petmob-drops1.54:
+    scope: SHOP
+    type: SELL
+    value: 1.54
+    shop: mob-drops
+  petnether1.54:
+    scope: SHOP
+    type: SELL
+    value: 1.54
+    shop: nether
+  petores1.54:
+    scope: SHOP
+    type: SELL
+    value: 1.54
+    shop: ores
+  petorganics1.54:
+    scope: SHOP
+    type: SELL
+    value: 1.54
+    shop: organics
+  petredstone1.54:
+    scope: SHOP
+    type: SELL
+    value: 1.54
+    shop: redstone
+  petspawners1.54:
+    scope: SHOP
+    type: SELL
+    value: 1.54
+    shop: spawners
+  petaquatics1.55:
+    scope: SHOP
+    type: SELL
+    value: 1.55
+    shop: aquatics
+  petbasics1.55:
+    scope: SHOP
+    type: SELL
+    value: 1.55
+    shop: basics
+  petbrewing1.55:
+    scope: SHOP
+    type: SELL
+    value: 1.55
+    shop: brewing
+  petconcrete1.55:
+    scope: SHOP
+    type: SELL
+    value: 1.55
+    shop: concrete
+  petdyes1.55:
+    scope: SHOP
+    type: SELL
+    value: 1.55
+    shop: dyes
+  petfood1.55:
+    scope: SHOP
+    type: SELL
+    value: 1.55
+    shop: food
+  petmob-drops1.55:
+    scope: SHOP
+    type: SELL
+    value: 1.55
+    shop: mob-drops
+  petnether1.55:
+    scope: SHOP
+    type: SELL
+    value: 1.55
+    shop: nether
+  petores1.55:
+    scope: SHOP
+    type: SELL
+    value: 1.55
+    shop: ores
+  petorganics1.55:
+    scope: SHOP
+    type: SELL
+    value: 1.55
+    shop: organics
+  petredstone1.55:
+    scope: SHOP
+    type: SELL
+    value: 1.55
+    shop: redstone
+  petspawners1.55:
+    scope: SHOP
+    type: SELL
+    value: 1.55
+    shop: spawners
+  petaquatics1.56:
+    scope: SHOP
+    type: SELL
+    value: 1.56
+    shop: aquatics
+  petbasics1.56:
+    scope: SHOP
+    type: SELL
+    value: 1.56
+    shop: basics
+  petbrewing1.56:
+    scope: SHOP
+    type: SELL
+    value: 1.56
+    shop: brewing
+  petconcrete1.56:
+    scope: SHOP
+    type: SELL
+    value: 1.56
+    shop: concrete
+  petdyes1.56:
+    scope: SHOP
+    type: SELL
+    value: 1.56
+    shop: dyes
+  petfood1.56:
+    scope: SHOP
+    type: SELL
+    value: 1.56
+    shop: food
+  petmob-drops1.56:
+    scope: SHOP
+    type: SELL
+    value: 1.56
+    shop: mob-drops
+  petnether1.56:
+    scope: SHOP
+    type: SELL
+    value: 1.56
+    shop: nether
+  petores1.56:
+    scope: SHOP
+    type: SELL
+    value: 1.56
+    shop: ores
+  petorganics1.56:
+    scope: SHOP
+    type: SELL
+    value: 1.56
+    shop: organics
+  petredstone1.56:
+    scope: SHOP
+    type: SELL
+    value: 1.56
+    shop: redstone
+  petspawners1.56:
+    scope: SHOP
+    type: SELL
+    value: 1.56
+    shop: spawners
+  petaquatics1.57:
+    scope: SHOP
+    type: SELL
+    value: 1.57
+    shop: aquatics
+  petbasics1.57:
+    scope: SHOP
+    type: SELL
+    value: 1.57
+    shop: basics
+  petbrewing1.57:
+    scope: SHOP
+    type: SELL
+    value: 1.57
+    shop: brewing
+  petconcrete1.57:
+    scope: SHOP
+    type: SELL
+    value: 1.57
+    shop: concrete
+  petdyes1.57:
+    scope: SHOP
+    type: SELL
+    value: 1.57
+    shop: dyes
+  petfood1.57:
+    scope: SHOP
+    type: SELL
+    value: 1.57
+    shop: food
+  petmob-drops1.57:
+    scope: SHOP
+    type: SELL
+    value: 1.57
+    shop: mob-drops
+  petnether1.57:
+    scope: SHOP
+    type: SELL
+    value: 1.57
+    shop: nether
+  petores1.57:
+    scope: SHOP
+    type: SELL
+    value: 1.57
+    shop: ores
+  petorganics1.57:
+    scope: SHOP
+    type: SELL
+    value: 1.57
+    shop: organics
+  petredstone1.57:
+    scope: SHOP
+    type: SELL
+    value: 1.57
+    shop: redstone
+  petspawners1.57:
+    scope: SHOP
+    type: SELL
+    value: 1.57
+    shop: spawners
+  petaquatics1.58:
+    scope: SHOP
+    type: SELL
+    value: 1.58
+    shop: aquatics
+  petbasics1.58:
+    scope: SHOP
+    type: SELL
+    value: 1.58
+    shop: basics
+  petbrewing1.58:
+    scope: SHOP
+    type: SELL
+    value: 1.58
+    shop: brewing
+  petconcrete1.58:
+    scope: SHOP
+    type: SELL
+    value: 1.58
+    shop: concrete
+  petdyes1.58:
+    scope: SHOP
+    type: SELL
+    value: 1.58
+    shop: dyes
+  petfood1.58:
+    scope: SHOP
+    type: SELL
+    value: 1.58
+    shop: food
+  petmob-drops1.58:
+    scope: SHOP
+    type: SELL
+    value: 1.58
+    shop: mob-drops
+  petnether1.58:
+    scope: SHOP
+    type: SELL
+    value: 1.58
+    shop: nether
+  petores1.58:
+    scope: SHOP
+    type: SELL
+    value: 1.58
+    shop: ores
+  petorganics1.58:
+    scope: SHOP
+    type: SELL
+    value: 1.58
+    shop: organics
+  petredstone1.58:
+    scope: SHOP
+    type: SELL
+    value: 1.58
+    shop: redstone
+  petspawners1.58:
+    scope: SHOP
+    type: SELL
+    value: 1.58
+    shop: spawners
+  petaquatics1.59:
+    scope: SHOP
+    type: SELL
+    value: 1.59
+    shop: aquatics
+  petbasics1.59:
+    scope: SHOP
+    type: SELL
+    value: 1.59
+    shop: basics
+  petbrewing1.59:
+    scope: SHOP
+    type: SELL
+    value: 1.59
+    shop: brewing
+  petconcrete1.59:
+    scope: SHOP
+    type: SELL
+    value: 1.59
+    shop: concrete
+  petdyes1.59:
+    scope: SHOP
+    type: SELL
+    value: 1.59
+    shop: dyes
+  petfood1.59:
+    scope: SHOP
+    type: SELL
+    value: 1.59
+    shop: food
+  petmob-drops1.59:
+    scope: SHOP
+    type: SELL
+    value: 1.59
+    shop: mob-drops
+  petnether1.59:
+    scope: SHOP
+    type: SELL
+    value: 1.59
+    shop: nether
+  petores1.59:
+    scope: SHOP
+    type: SELL
+    value: 1.59
+    shop: ores
+  petorganics1.59:
+    scope: SHOP
+    type: SELL
+    value: 1.59
+    shop: organics
+  petredstone1.59:
+    scope: SHOP
+    type: SELL
+    value: 1.59
+    shop: redstone
+  petspawners1.59:
+    scope: SHOP
+    type: SELL
+    value: 1.59
+    shop: spawners
+  petaquatics1.6:
+    scope: SHOP
+    type: SELL
+    value: 1.6
+    shop: aquatics
+  petbasics1.6:
+    scope: SHOP
+    type: SELL
+    value: 1.6
+    shop: basics
+  petbrewing1.6:
+    scope: SHOP
+    type: SELL
+    value: 1.6
+    shop: brewing
+  petconcrete1.6:
+    scope: SHOP
+    type: SELL
+    value: 1.6
+    shop: concrete
+  petdyes1.6:
+    scope: SHOP
+    type: SELL
+    value: 1.6
+    shop: dyes
+  petfood1.6:
+    scope: SHOP
+    type: SELL
+    value: 1.6
+    shop: food
+  petmob-drops1.6:
+    scope: SHOP
+    type: SELL
+    value: 1.6
+    shop: mob-drops
+  petnether1.6:
+    scope: SHOP
+    type: SELL
+    value: 1.6
+    shop: nether
+  petores1.6:
+    scope: SHOP
+    type: SELL
+    value: 1.6
+    shop: ores
+  petorganics1.6:
+    scope: SHOP
+    type: SELL
+    value: 1.6
+    shop: organics
+  petredstone1.6:
+    scope: SHOP
+    type: SELL
+    value: 1.6
+    shop: redstone
+  petspawners1.6:
+    scope: SHOP
+    type: SELL
+    value: 1.6
+    shop: spawners
+  petaquatics1.61:
+    scope: SHOP
+    type: SELL
+    value: 1.61
+    shop: aquatics
+  petbasics1.61:
+    scope: SHOP
+    type: SELL
+    value: 1.61
+    shop: basics
+  petbrewing1.61:
+    scope: SHOP
+    type: SELL
+    value: 1.61
+    shop: brewing
+  petconcrete1.61:
+    scope: SHOP
+    type: SELL
+    value: 1.61
+    shop: concrete
+  petdyes1.61:
+    scope: SHOP
+    type: SELL
+    value: 1.61
+    shop: dyes
+  petfood1.61:
+    scope: SHOP
+    type: SELL
+    value: 1.61
+    shop: food
+  petmob-drops1.61:
+    scope: SHOP
+    type: SELL
+    value: 1.61
+    shop: mob-drops
+  petnether1.61:
+    scope: SHOP
+    type: SELL
+    value: 1.61
+    shop: nether
+  petores1.61:
+    scope: SHOP
+    type: SELL
+    value: 1.61
+    shop: ores
+  petorganics1.61:
+    scope: SHOP
+    type: SELL
+    value: 1.61
+    shop: organics
+  petredstone1.61:
+    scope: SHOP
+    type: SELL
+    value: 1.61
+    shop: redstone
+  petspawners1.61:
+    scope: SHOP
+    type: SELL
+    value: 1.61
+    shop: spawners
+  petaquatics1.62:
+    scope: SHOP
+    type: SELL
+    value: 1.62
+    shop: aquatics
+  petbasics1.62:
+    scope: SHOP
+    type: SELL
+    value: 1.62
+    shop: basics
+  petbrewing1.62:
+    scope: SHOP
+    type: SELL
+    value: 1.62
+    shop: brewing
+  petconcrete1.62:
+    scope: SHOP
+    type: SELL
+    value: 1.62
+    shop: concrete
+  petdyes1.62:
+    scope: SHOP
+    type: SELL
+    value: 1.62
+    shop: dyes
+  petfood1.62:
+    scope: SHOP
+    type: SELL
+    value: 1.62
+    shop: food
+  petmob-drops1.62:
+    scope: SHOP
+    type: SELL
+    value: 1.62
+    shop: mob-drops
+  petnether1.62:
+    scope: SHOP
+    type: SELL
+    value: 1.62
+    shop: nether
+  petores1.62:
+    scope: SHOP
+    type: SELL
+    value: 1.62
+    shop: ores
+  petorganics1.62:
+    scope: SHOP
+    type: SELL
+    value: 1.62
+    shop: organics
+  petredstone1.62:
+    scope: SHOP
+    type: SELL
+    value: 1.62
+    shop: redstone
+  petspawners1.62:
+    scope: SHOP
+    type: SELL
+    value: 1.62
+    shop: spawners
+  petaquatics1.63:
+    scope: SHOP
+    type: SELL
+    value: 1.63
+    shop: aquatics
+  petbasics1.63:
+    scope: SHOP
+    type: SELL
+    value: 1.63
+    shop: basics
+  petbrewing1.63:
+    scope: SHOP
+    type: SELL
+    value: 1.63
+    shop: brewing
+  petconcrete1.63:
+    scope: SHOP
+    type: SELL
+    value: 1.63
+    shop: concrete
+  petdyes1.63:
+    scope: SHOP
+    type: SELL
+    value: 1.63
+    shop: dyes
+  petfood1.63:
+    scope: SHOP
+    type: SELL
+    value: 1.63
+    shop: food
+  petmob-drops1.63:
+    scope: SHOP
+    type: SELL
+    value: 1.63
+    shop: mob-drops
+  petnether1.63:
+    scope: SHOP
+    type: SELL
+    value: 1.63
+    shop: nether
+  petores1.63:
+    scope: SHOP
+    type: SELL
+    value: 1.63
+    shop: ores
+  petorganics1.63:
+    scope: SHOP
+    type: SELL
+    value: 1.63
+    shop: organics
+  petredstone1.63:
+    scope: SHOP
+    type: SELL
+    value: 1.63
+    shop: redstone
+  petspawners1.63:
+    scope: SHOP
+    type: SELL
+    value: 1.63
+    shop: spawners
+  petaquatics1.64:
+    scope: SHOP
+    type: SELL
+    value: 1.64
+    shop: aquatics
+  petbasics1.64:
+    scope: SHOP
+    type: SELL
+    value: 1.64
+    shop: basics
+  petbrewing1.64:
+    scope: SHOP
+    type: SELL
+    value: 1.64
+    shop: brewing
+  petconcrete1.64:
+    scope: SHOP
+    type: SELL
+    value: 1.64
+    shop: concrete
+  petdyes1.64:
+    scope: SHOP
+    type: SELL
+    value: 1.64
+    shop: dyes
+  petfood1.64:
+    scope: SHOP
+    type: SELL
+    value: 1.64
+    shop: food
+  petmob-drops1.64:
+    scope: SHOP
+    type: SELL
+    value: 1.64
+    shop: mob-drops
+  petnether1.64:
+    scope: SHOP
+    type: SELL
+    value: 1.64
+    shop: nether
+  petores1.64:
+    scope: SHOP
+    type: SELL
+    value: 1.64
+    shop: ores
+  petorganics1.64:
+    scope: SHOP
+    type: SELL
+    value: 1.64
+    shop: organics
+  petredstone1.64:
+    scope: SHOP
+    type: SELL
+    value: 1.64
+    shop: redstone
+  petspawners1.64:
+    scope: SHOP
+    type: SELL
+    value: 1.64
+    shop: spawners
+  petaquatics1.65:
+    scope: SHOP
+    type: SELL
+    value: 1.65
+    shop: aquatics
+  petbasics1.65:
+    scope: SHOP
+    type: SELL
+    value: 1.65
+    shop: basics
+  petbrewing1.65:
+    scope: SHOP
+    type: SELL
+    value: 1.65
+    shop: brewing
+  petconcrete1.65:
+    scope: SHOP
+    type: SELL
+    value: 1.65
+    shop: concrete
+  petdyes1.65:
+    scope: SHOP
+    type: SELL
+    value: 1.65
+    shop: dyes
+  petfood1.65:
+    scope: SHOP
+    type: SELL
+    value: 1.65
+    shop: food
+  petmob-drops1.65:
+    scope: SHOP
+    type: SELL
+    value: 1.65
+    shop: mob-drops
+  petnether1.65:
+    scope: SHOP
+    type: SELL
+    value: 1.65
+    shop: nether
+  petores1.65:
+    scope: SHOP
+    type: SELL
+    value: 1.65
+    shop: ores
+  petorganics1.65:
+    scope: SHOP
+    type: SELL
+    value: 1.65
+    shop: organics
+  petredstone1.65:
+    scope: SHOP
+    type: SELL
+    value: 1.65
+    shop: redstone
+  petspawners1.65:
+    scope: SHOP
+    type: SELL
+    value: 1.65
+    shop: spawners
+  petaquatics1.66:
+    scope: SHOP
+    type: SELL
+    value: 1.66
+    shop: aquatics
+  petbasics1.66:
+    scope: SHOP
+    type: SELL
+    value: 1.66
+    shop: basics
+  petbrewing1.66:
+    scope: SHOP
+    type: SELL
+    value: 1.66
+    shop: brewing
+  petconcrete1.66:
+    scope: SHOP
+    type: SELL
+    value: 1.66
+    shop: concrete
+  petdyes1.66:
+    scope: SHOP
+    type: SELL
+    value: 1.66
+    shop: dyes
+  petfood1.66:
+    scope: SHOP
+    type: SELL
+    value: 1.66
+    shop: food
+  petmob-drops1.66:
+    scope: SHOP
+    type: SELL
+    value: 1.66
+    shop: mob-drops
+  petnether1.66:
+    scope: SHOP
+    type: SELL
+    value: 1.66
+    shop: nether
+  petores1.66:
+    scope: SHOP
+    type: SELL
+    value: 1.66
+    shop: ores
+  petorganics1.66:
+    scope: SHOP
+    type: SELL
+    value: 1.66
+    shop: organics
+  petredstone1.66:
+    scope: SHOP
+    type: SELL
+    value: 1.66
+    shop: redstone
+  petspawners1.66:
+    scope: SHOP
+    type: SELL
+    value: 1.66
+    shop: spawners
+  petaquatics1.67:
+    scope: SHOP
+    type: SELL
+    value: 1.67
+    shop: aquatics
+  petbasics1.67:
+    scope: SHOP
+    type: SELL
+    value: 1.67
+    shop: basics
+  petbrewing1.67:
+    scope: SHOP
+    type: SELL
+    value: 1.67
+    shop: brewing
+  petconcrete1.67:
+    scope: SHOP
+    type: SELL
+    value: 1.67
+    shop: concrete
+  petdyes1.67:
+    scope: SHOP
+    type: SELL
+    value: 1.67
+    shop: dyes
+  petfood1.67:
+    scope: SHOP
+    type: SELL
+    value: 1.67
+    shop: food
+  petmob-drops1.67:
+    scope: SHOP
+    type: SELL
+    value: 1.67
+    shop: mob-drops
+  petnether1.67:
+    scope: SHOP
+    type: SELL
+    value: 1.67
+    shop: nether
+  petores1.67:
+    scope: SHOP
+    type: SELL
+    value: 1.67
+    shop: ores
+  petorganics1.67:
+    scope: SHOP
+    type: SELL
+    value: 1.67
+    shop: organics
+  petredstone1.67:
+    scope: SHOP
+    type: SELL
+    value: 1.67
+    shop: redstone
+  petspawners1.67:
+    scope: SHOP
+    type: SELL
+    value: 1.67
+    shop: spawners
+  petaquatics1.68:
+    scope: SHOP
+    type: SELL
+    value: 1.68
+    shop: aquatics
+  petbasics1.68:
+    scope: SHOP
+    type: SELL
+    value: 1.68
+    shop: basics
+  petbrewing1.68:
+    scope: SHOP
+    type: SELL
+    value: 1.68
+    shop: brewing
+  petconcrete1.68:
+    scope: SHOP
+    type: SELL
+    value: 1.68
+    shop: concrete
+  petdyes1.68:
+    scope: SHOP
+    type: SELL
+    value: 1.68
+    shop: dyes
+  petfood1.68:
+    scope: SHOP
+    type: SELL
+    value: 1.68
+    shop: food
+  petmob-drops1.68:
+    scope: SHOP
+    type: SELL
+    value: 1.68
+    shop: mob-drops
+  petnether1.68:
+    scope: SHOP
+    type: SELL
+    value: 1.68
+    shop: nether
+  petores1.68:
+    scope: SHOP
+    type: SELL
+    value: 1.68
+    shop: ores
+  petorganics1.68:
+    scope: SHOP
+    type: SELL
+    value: 1.68
+    shop: organics
+  petredstone1.68:
+    scope: SHOP
+    type: SELL
+    value: 1.68
+    shop: redstone
+  petspawners1.68:
+    scope: SHOP
+    type: SELL
+    value: 1.68
+    shop: spawners
+  petaquatics1.69:
+    scope: SHOP
+    type: SELL
+    value: 1.69
+    shop: aquatics
+  petbasics1.69:
+    scope: SHOP
+    type: SELL
+    value: 1.69
+    shop: basics
+  petbrewing1.69:
+    scope: SHOP
+    type: SELL
+    value: 1.69
+    shop: brewing
+  petconcrete1.69:
+    scope: SHOP
+    type: SELL
+    value: 1.69
+    shop: concrete
+  petdyes1.69:
+    scope: SHOP
+    type: SELL
+    value: 1.69
+    shop: dyes
+  petfood1.69:
+    scope: SHOP
+    type: SELL
+    value: 1.69
+    shop: food
+  petmob-drops1.69:
+    scope: SHOP
+    type: SELL
+    value: 1.69
+    shop: mob-drops
+  petnether1.69:
+    scope: SHOP
+    type: SELL
+    value: 1.69
+    shop: nether
+  petores1.69:
+    scope: SHOP
+    type: SELL
+    value: 1.69
+    shop: ores
+  petorganics1.69:
+    scope: SHOP
+    type: SELL
+    value: 1.69
+    shop: organics
+  petredstone1.69:
+    scope: SHOP
+    type: SELL
+    value: 1.69
+    shop: redstone
+  petspawners1.69:
+    scope: SHOP
+    type: SELL
+    value: 1.69
+    shop: spawners
+  petaquatics1.7:
+    scope: SHOP
+    type: SELL
+    value: 1.7
+    shop: aquatics
+  petbasics1.7:
+    scope: SHOP
+    type: SELL
+    value: 1.7
+    shop: basics
+  petbrewing1.7:
+    scope: SHOP
+    type: SELL
+    value: 1.7
+    shop: brewing
+  petconcrete1.7:
+    scope: SHOP
+    type: SELL
+    value: 1.7
+    shop: concrete
+  petdyes1.7:
+    scope: SHOP
+    type: SELL
+    value: 1.7
+    shop: dyes
+  petfood1.7:
+    scope: SHOP
+    type: SELL
+    value: 1.7
+    shop: food
+  petmob-drops1.7:
+    scope: SHOP
+    type: SELL
+    value: 1.7
+    shop: mob-drops
+  petnether1.7:
+    scope: SHOP
+    type: SELL
+    value: 1.7
+    shop: nether
+  petores1.7:
+    scope: SHOP
+    type: SELL
+    value: 1.7
+    shop: ores
+  petorganics1.7:
+    scope: SHOP
+    type: SELL
+    value: 1.7
+    shop: organics
+  petredstone1.7:
+    scope: SHOP
+    type: SELL
+    value: 1.7
+    shop: redstone
+  petspawners1.7:
+    scope: SHOP
+    type: SELL
+    value: 1.7
+    shop: spawners
+  petaquatics1.71:
+    scope: SHOP
+    type: SELL
+    value: 1.71
+    shop: aquatics
+  petbasics1.71:
+    scope: SHOP
+    type: SELL
+    value: 1.71
+    shop: basics
+  petbrewing1.71:
+    scope: SHOP
+    type: SELL
+    value: 1.71
+    shop: brewing
+  petconcrete1.71:
+    scope: SHOP
+    type: SELL
+    value: 1.71
+    shop: concrete
+  petdyes1.71:
+    scope: SHOP
+    type: SELL
+    value: 1.71
+    shop: dyes
+  petfood1.71:
+    scope: SHOP
+    type: SELL
+    value: 1.71
+    shop: food
+  petmob-drops1.71:
+    scope: SHOP
+    type: SELL
+    value: 1.71
+    shop: mob-drops
+  petnether1.71:
+    scope: SHOP
+    type: SELL
+    value: 1.71
+    shop: nether
+  petores1.71:
+    scope: SHOP
+    type: SELL
+    value: 1.71
+    shop: ores
+  petorganics1.71:
+    scope: SHOP
+    type: SELL
+    value: 1.71
+    shop: organics
+  petredstone1.71:
+    scope: SHOP
+    type: SELL
+    value: 1.71
+    shop: redstone
+  petspawners1.71:
+    scope: SHOP
+    type: SELL
+    value: 1.71
+    shop: spawners
+  petaquatics1.72:
+    scope: SHOP
+    type: SELL
+    value: 1.72
+    shop: aquatics
+  petbasics1.72:
+    scope: SHOP
+    type: SELL
+    value: 1.72
+    shop: basics
+  petbrewing1.72:
+    scope: SHOP
+    type: SELL
+    value: 1.72
+    shop: brewing
+  petconcrete1.72:
+    scope: SHOP
+    type: SELL
+    value: 1.72
+    shop: concrete
+  petdyes1.72:
+    scope: SHOP
+    type: SELL
+    value: 1.72
+    shop: dyes
+  petfood1.72:
+    scope: SHOP
+    type: SELL
+    value: 1.72
+    shop: food
+  petmob-drops1.72:
+    scope: SHOP
+    type: SELL
+    value: 1.72
+    shop: mob-drops
+  petnether1.72:
+    scope: SHOP
+    type: SELL
+    value: 1.72
+    shop: nether
+  petores1.72:
+    scope: SHOP
+    type: SELL
+    value: 1.72
+    shop: ores
+  petorganics1.72:
+    scope: SHOP
+    type: SELL
+    value: 1.72
+    shop: organics
+  petredstone1.72:
+    scope: SHOP
+    type: SELL
+    value: 1.72
+    shop: redstone
+  petspawners1.72:
+    scope: SHOP
+    type: SELL
+    value: 1.72
+    shop: spawners
+  petaquatics1.73:
+    scope: SHOP
+    type: SELL
+    value: 1.73
+    shop: aquatics
+  petbasics1.73:
+    scope: SHOP
+    type: SELL
+    value: 1.73
+    shop: basics
+  petbrewing1.73:
+    scope: SHOP
+    type: SELL
+    value: 1.73
+    shop: brewing
+  petconcrete1.73:
+    scope: SHOP
+    type: SELL
+    value: 1.73
+    shop: concrete
+  petdyes1.73:
+    scope: SHOP
+    type: SELL
+    value: 1.73
+    shop: dyes
+  petfood1.73:
+    scope: SHOP
+    type: SELL
+    value: 1.73
+    shop: food
+  petmob-drops1.73:
+    scope: SHOP
+    type: SELL
+    value: 1.73
+    shop: mob-drops
+  petnether1.73:
+    scope: SHOP
+    type: SELL
+    value: 1.73
+    shop: nether
+  petores1.73:
+    scope: SHOP
+    type: SELL
+    value: 1.73
+    shop: ores
+  petorganics1.73:
+    scope: SHOP
+    type: SELL
+    value: 1.73
+    shop: organics
+  petredstone1.73:
+    scope: SHOP
+    type: SELL
+    value: 1.73
+    shop: redstone
+  petspawners1.73:
+    scope: SHOP
+    type: SELL
+    value: 1.73
+    shop: spawners
+  petaquatics1.74:
+    scope: SHOP
+    type: SELL
+    value: 1.74
+    shop: aquatics
+  petbasics1.74:
+    scope: SHOP
+    type: SELL
+    value: 1.74
+    shop: basics
+  petbrewing1.74:
+    scope: SHOP
+    type: SELL
+    value: 1.74
+    shop: brewing
+  petconcrete1.74:
+    scope: SHOP
+    type: SELL
+    value: 1.74
+    shop: concrete
+  petdyes1.74:
+    scope: SHOP
+    type: SELL
+    value: 1.74
+    shop: dyes
+  petfood1.74:
+    scope: SHOP
+    type: SELL
+    value: 1.74
+    shop: food
+  petmob-drops1.74:
+    scope: SHOP
+    type: SELL
+    value: 1.74
+    shop: mob-drops
+  petnether1.74:
+    scope: SHOP
+    type: SELL
+    value: 1.74
+    shop: nether
+  petores1.74:
+    scope: SHOP
+    type: SELL
+    value: 1.74
+    shop: ores
+  petorganics1.74:
+    scope: SHOP
+    type: SELL
+    value: 1.74
+    shop: organics
+  petredstone1.74:
+    scope: SHOP
+    type: SELL
+    value: 1.74
+    shop: redstone
+  petspawners1.74:
+    scope: SHOP
+    type: SELL
+    value: 1.74
+    shop: spawners
+  petaquatics1.75:
+    scope: SHOP
+    type: SELL
+    value: 1.75
+    shop: aquatics
+  petbasics1.75:
+    scope: SHOP
+    type: SELL
+    value: 1.75
+    shop: basics
+  petbrewing1.75:
+    scope: SHOP
+    type: SELL
+    value: 1.75
+    shop: brewing
+  petconcrete1.75:
+    scope: SHOP
+    type: SELL
+    value: 1.75
+    shop: concrete
+  petdyes1.75:
+    scope: SHOP
+    type: SELL
+    value: 1.75
+    shop: dyes
+  petfood1.75:
+    scope: SHOP
+    type: SELL
+    value: 1.75
+    shop: food
+  petmob-drops1.75:
+    scope: SHOP
+    type: SELL
+    value: 1.75
+    shop: mob-drops
+  petnether1.75:
+    scope: SHOP
+    type: SELL
+    value: 1.75
+    shop: nether
+  petores1.75:
+    scope: SHOP
+    type: SELL
+    value: 1.75
+    shop: ores
+  petorganics1.75:
+    scope: SHOP
+    type: SELL
+    value: 1.75
+    shop: organics
+  petredstone1.75:
+    scope: SHOP
+    type: SELL
+    value: 1.75
+    shop: redstone
+  petspawners1.75:
+    scope: SHOP
+    type: SELL
+    value: 1.75
+    shop: spawners
+  petaquatics1.76:
+    scope: SHOP
+    type: SELL
+    value: 1.76
+    shop: aquatics
+  petbasics1.76:
+    scope: SHOP
+    type: SELL
+    value: 1.76
+    shop: basics
+  petbrewing1.76:
+    scope: SHOP
+    type: SELL
+    value: 1.76
+    shop: brewing
+  petconcrete1.76:
+    scope: SHOP
+    type: SELL
+    value: 1.76
+    shop: concrete
+  petdyes1.76:
+    scope: SHOP
+    type: SELL
+    value: 1.76
+    shop: dyes
+  petfood1.76:
+    scope: SHOP
+    type: SELL
+    value: 1.76
+    shop: food
+  petmob-drops1.76:
+    scope: SHOP
+    type: SELL
+    value: 1.76
+    shop: mob-drops
+  petnether1.76:
+    scope: SHOP
+    type: SELL
+    value: 1.76
+    shop: nether
+  petores1.76:
+    scope: SHOP
+    type: SELL
+    value: 1.76
+    shop: ores
+  petorganics1.76:
+    scope: SHOP
+    type: SELL
+    value: 1.76
+    shop: organics
+  petredstone1.76:
+    scope: SHOP
+    type: SELL
+    value: 1.76
+    shop: redstone
+  petspawners1.76:
+    scope: SHOP
+    type: SELL
+    value: 1.76
+    shop: spawners
+  petaquatics1.77:
+    scope: SHOP
+    type: SELL
+    value: 1.77
+    shop: aquatics
+  petbasics1.77:
+    scope: SHOP
+    type: SELL
+    value: 1.77
+    shop: basics
+  petbrewing1.77:
+    scope: SHOP
+    type: SELL
+    value: 1.77
+    shop: brewing
+  petconcrete1.77:
+    scope: SHOP
+    type: SELL
+    value: 1.77
+    shop: concrete
+  petdyes1.77:
+    scope: SHOP
+    type: SELL
+    value: 1.77
+    shop: dyes
+  petfood1.77:
+    scope: SHOP
+    type: SELL
+    value: 1.77
+    shop: food
+  petmob-drops1.77:
+    scope: SHOP
+    type: SELL
+    value: 1.77
+    shop: mob-drops
+  petnether1.77:
+    scope: SHOP
+    type: SELL
+    value: 1.77
+    shop: nether
+  petores1.77:
+    scope: SHOP
+    type: SELL
+    value: 1.77
+    shop: ores
+  petorganics1.77:
+    scope: SHOP
+    type: SELL
+    value: 1.77
+    shop: organics
+  petredstone1.77:
+    scope: SHOP
+    type: SELL
+    value: 1.77
+    shop: redstone
+  petspawners1.77:
+    scope: SHOP
+    type: SELL
+    value: 1.77
+    shop: spawners
+  petaquatics1.78:
+    scope: SHOP
+    type: SELL
+    value: 1.78
+    shop: aquatics
+  petbasics1.78:
+    scope: SHOP
+    type: SELL
+    value: 1.78
+    shop: basics
+  petbrewing1.78:
+    scope: SHOP
+    type: SELL
+    value: 1.78
+    shop: brewing
+  petconcrete1.78:
+    scope: SHOP
+    type: SELL
+    value: 1.78
+    shop: concrete
+  petdyes1.78:
+    scope: SHOP
+    type: SELL
+    value: 1.78
+    shop: dyes
+  petfood1.78:
+    scope: SHOP
+    type: SELL
+    value: 1.78
+    shop: food
+  petmob-drops1.78:
+    scope: SHOP
+    type: SELL
+    value: 1.78
+    shop: mob-drops
+  petnether1.78:
+    scope: SHOP
+    type: SELL
+    value: 1.78
+    shop: nether
+  petores1.78:
+    scope: SHOP
+    type: SELL
+    value: 1.78
+    shop: ores
+  petorganics1.78:
+    scope: SHOP
+    type: SELL
+    value: 1.78
+    shop: organics
+  petredstone1.78:
+    scope: SHOP
+    type: SELL
+    value: 1.78
+    shop: redstone
+  petspawners1.78:
+    scope: SHOP
+    type: SELL
+    value: 1.78
+    shop: spawners
+  petaquatics1.79:
+    scope: SHOP
+    type: SELL
+    value: 1.79
+    shop: aquatics
+  petbasics1.79:
+    scope: SHOP
+    type: SELL
+    value: 1.79
+    shop: basics
+  petbrewing1.79:
+    scope: SHOP
+    type: SELL
+    value: 1.79
+    shop: brewing
+  petconcrete1.79:
+    scope: SHOP
+    type: SELL
+    value: 1.79
+    shop: concrete
+  petdyes1.79:
+    scope: SHOP
+    type: SELL
+    value: 1.79
+    shop: dyes
+  petfood1.79:
+    scope: SHOP
+    type: SELL
+    value: 1.79
+    shop: food
+  petmob-drops1.79:
+    scope: SHOP
+    type: SELL
+    value: 1.79
+    shop: mob-drops
+  petnether1.79:
+    scope: SHOP
+    type: SELL
+    value: 1.79
+    shop: nether
+  petores1.79:
+    scope: SHOP
+    type: SELL
+    value: 1.79
+    shop: ores
+  petorganics1.79:
+    scope: SHOP
+    type: SELL
+    value: 1.79
+    shop: organics
+  petredstone1.79:
+    scope: SHOP
+    type: SELL
+    value: 1.79
+    shop: redstone
+  petspawners1.79:
+    scope: SHOP
+    type: SELL
+    value: 1.79
+    shop: spawners
+  petaquatics1.8:
+    scope: SHOP
+    type: SELL
+    value: 1.8
+    shop: aquatics
+  petbasics1.8:
+    scope: SHOP
+    type: SELL
+    value: 1.8
+    shop: basics
+  petbrewing1.8:
+    scope: SHOP
+    type: SELL
+    value: 1.8
+    shop: brewing
+  petconcrete1.8:
+    scope: SHOP
+    type: SELL
+    value: 1.8
+    shop: concrete
+  petdyes1.8:
+    scope: SHOP
+    type: SELL
+    value: 1.8
+    shop: dyes
+  petfood1.8:
+    scope: SHOP
+    type: SELL
+    value: 1.8
+    shop: food
+  petmob-drops1.8:
+    scope: SHOP
+    type: SELL
+    value: 1.8
+    shop: mob-drops
+  petnether1.8:
+    scope: SHOP
+    type: SELL
+    value: 1.8
+    shop: nether
+  petores1.8:
+    scope: SHOP
+    type: SELL
+    value: 1.8
+    shop: ores
+  petorganics1.8:
+    scope: SHOP
+    type: SELL
+    value: 1.8
+    shop: organics
+  petredstone1.8:
+    scope: SHOP
+    type: SELL
+    value: 1.8
+    shop: redstone
+  petspawners1.8:
+    scope: SHOP
+    type: SELL
+    value: 1.8
+    shop: spawners
+  petaquatics1.81:
+    scope: SHOP
+    type: SELL
+    value: 1.81
+    shop: aquatics
+  petbasics1.81:
+    scope: SHOP
+    type: SELL
+    value: 1.81
+    shop: basics
+  petbrewing1.81:
+    scope: SHOP
+    type: SELL
+    value: 1.81
+    shop: brewing
+  petconcrete1.81:
+    scope: SHOP
+    type: SELL
+    value: 1.81
+    shop: concrete
+  petdyes1.81:
+    scope: SHOP
+    type: SELL
+    value: 1.81
+    shop: dyes
+  petfood1.81:
+    scope: SHOP
+    type: SELL
+    value: 1.81
+    shop: food
+  petmob-drops1.81:
+    scope: SHOP
+    type: SELL
+    value: 1.81
+    shop: mob-drops
+  petnether1.81:
+    scope: SHOP
+    type: SELL
+    value: 1.81
+    shop: nether
+  petores1.81:
+    scope: SHOP
+    type: SELL
+    value: 1.81
+    shop: ores
+  petorganics1.81:
+    scope: SHOP
+    type: SELL
+    value: 1.81
+    shop: organics
+  petredstone1.81:
+    scope: SHOP
+    type: SELL
+    value: 1.81
+    shop: redstone
+  petspawners1.81:
+    scope: SHOP
+    type: SELL
+    value: 1.81
+    shop: spawners
+  petaquatics1.82:
+    scope: SHOP
+    type: SELL
+    value: 1.82
+    shop: aquatics
+  petbasics1.82:
+    scope: SHOP
+    type: SELL
+    value: 1.82
+    shop: basics
+  petbrewing1.82:
+    scope: SHOP
+    type: SELL
+    value: 1.82
+    shop: brewing
+  petconcrete1.82:
+    scope: SHOP
+    type: SELL
+    value: 1.82
+    shop: concrete
+  petdyes1.82:
+    scope: SHOP
+    type: SELL
+    value: 1.82
+    shop: dyes
+  petfood1.82:
+    scope: SHOP
+    type: SELL
+    value: 1.82
+    shop: food
+  petmob-drops1.82:
+    scope: SHOP
+    type: SELL
+    value: 1.82
+    shop: mob-drops
+  petnether1.82:
+    scope: SHOP
+    type: SELL
+    value: 1.82
+    shop: nether
+  petores1.82:
+    scope: SHOP
+    type: SELL
+    value: 1.82
+    shop: ores
+  petorganics1.82:
+    scope: SHOP
+    type: SELL
+    value: 1.82
+    shop: organics
+  petredstone1.82:
+    scope: SHOP
+    type: SELL
+    value: 1.82
+    shop: redstone
+  petspawners1.82:
+    scope: SHOP
+    type: SELL
+    value: 1.82
+    shop: spawners
+  petaquatics1.83:
+    scope: SHOP
+    type: SELL
+    value: 1.83
+    shop: aquatics
+  petbasics1.83:
+    scope: SHOP
+    type: SELL
+    value: 1.83
+    shop: basics
+  petbrewing1.83:
+    scope: SHOP
+    type: SELL
+    value: 1.83
+    shop: brewing
+  petconcrete1.83:
+    scope: SHOP
+    type: SELL
+    value: 1.83
+    shop: concrete
+  petdyes1.83:
+    scope: SHOP
+    type: SELL
+    value: 1.83
+    shop: dyes
+  petfood1.83:
+    scope: SHOP
+    type: SELL
+    value: 1.83
+    shop: food
+  petmob-drops1.83:
+    scope: SHOP
+    type: SELL
+    value: 1.83
+    shop: mob-drops
+  petnether1.83:
+    scope: SHOP
+    type: SELL
+    value: 1.83
+    shop: nether
+  petores1.83:
+    scope: SHOP
+    type: SELL
+    value: 1.83
+    shop: ores
+  petorganics1.83:
+    scope: SHOP
+    type: SELL
+    value: 1.83
+    shop: organics
+  petredstone1.83:
+    scope: SHOP
+    type: SELL
+    value: 1.83
+    shop: redstone
+  petspawners1.83:
+    scope: SHOP
+    type: SELL
+    value: 1.83
+    shop: spawners
+  petaquatics1.84:
+    scope: SHOP
+    type: SELL
+    value: 1.84
+    shop: aquatics
+  petbasics1.84:
+    scope: SHOP
+    type: SELL
+    value: 1.84
+    shop: basics
+  petbrewing1.84:
+    scope: SHOP
+    type: SELL
+    value: 1.84
+    shop: brewing
+  petconcrete1.84:
+    scope: SHOP
+    type: SELL
+    value: 1.84
+    shop: concrete
+  petdyes1.84:
+    scope: SHOP
+    type: SELL
+    value: 1.84
+    shop: dyes
+  petfood1.84:
+    scope: SHOP
+    type: SELL
+    value: 1.84
+    shop: food
+  petmob-drops1.84:
+    scope: SHOP
+    type: SELL
+    value: 1.84
+    shop: mob-drops
+  petnether1.84:
+    scope: SHOP
+    type: SELL
+    value: 1.84
+    shop: nether
+  petores1.84:
+    scope: SHOP
+    type: SELL
+    value: 1.84
+    shop: ores
+  petorganics1.84:
+    scope: SHOP
+    type: SELL
+    value: 1.84
+    shop: organics
+  petredstone1.84:
+    scope: SHOP
+    type: SELL
+    value: 1.84
+    shop: redstone
+  petspawners1.84:
+    scope: SHOP
+    type: SELL
+    value: 1.84
+    shop: spawners
+  petaquatics1.85:
+    scope: SHOP
+    type: SELL
+    value: 1.85
+    shop: aquatics
+  petbasics1.85:
+    scope: SHOP
+    type: SELL
+    value: 1.85
+    shop: basics
+  petbrewing1.85:
+    scope: SHOP
+    type: SELL
+    value: 1.85
+    shop: brewing
+  petconcrete1.85:
+    scope: SHOP
+    type: SELL
+    value: 1.85
+    shop: concrete
+  petdyes1.85:
+    scope: SHOP
+    type: SELL
+    value: 1.85
+    shop: dyes
+  petfood1.85:
+    scope: SHOP
+    type: SELL
+    value: 1.85
+    shop: food
+  petmob-drops1.85:
+    scope: SHOP
+    type: SELL
+    value: 1.85
+    shop: mob-drops
+  petnether1.85:
+    scope: SHOP
+    type: SELL
+    value: 1.85
+    shop: nether
+  petores1.85:
+    scope: SHOP
+    type: SELL
+    value: 1.85
+    shop: ores
+  petorganics1.85:
+    scope: SHOP
+    type: SELL
+    value: 1.85
+    shop: organics
+  petredstone1.85:
+    scope: SHOP
+    type: SELL
+    value: 1.85
+    shop: redstone
+  petspawners1.85:
+    scope: SHOP
+    type: SELL
+    value: 1.85
+    shop: spawners
+  petaquatics1.86:
+    scope: SHOP
+    type: SELL
+    value: 1.86
+    shop: aquatics
+  petbasics1.86:
+    scope: SHOP
+    type: SELL
+    value: 1.86
+    shop: basics
+  petbrewing1.86:
+    scope: SHOP
+    type: SELL
+    value: 1.86
+    shop: brewing
+  petconcrete1.86:
+    scope: SHOP
+    type: SELL
+    value: 1.86
+    shop: concrete
+  petdyes1.86:
+    scope: SHOP
+    type: SELL
+    value: 1.86
+    shop: dyes
+  petfood1.86:
+    scope: SHOP
+    type: SELL
+    value: 1.86
+    shop: food
+  petmob-drops1.86:
+    scope: SHOP
+    type: SELL
+    value: 1.86
+    shop: mob-drops
+  petnether1.86:
+    scope: SHOP
+    type: SELL
+    value: 1.86
+    shop: nether
+  petores1.86:
+    scope: SHOP
+    type: SELL
+    value: 1.86
+    shop: ores
+  petorganics1.86:
+    scope: SHOP
+    type: SELL
+    value: 1.86
+    shop: organics
+  petredstone1.86:
+    scope: SHOP
+    type: SELL
+    value: 1.86
+    shop: redstone
+  petspawners1.86:
+    scope: SHOP
+    type: SELL
+    value: 1.86
+    shop: spawners
+  petaquatics1.87:
+    scope: SHOP
+    type: SELL
+    value: 1.87
+    shop: aquatics
+  petbasics1.87:
+    scope: SHOP
+    type: SELL
+    value: 1.87
+    shop: basics
+  petbrewing1.87:
+    scope: SHOP
+    type: SELL
+    value: 1.87
+    shop: brewing
+  petconcrete1.87:
+    scope: SHOP
+    type: SELL
+    value: 1.87
+    shop: concrete
+  petdyes1.87:
+    scope: SHOP
+    type: SELL
+    value: 1.87
+    shop: dyes
+  petfood1.87:
+    scope: SHOP
+    type: SELL
+    value: 1.87
+    shop: food
+  petmob-drops1.87:
+    scope: SHOP
+    type: SELL
+    value: 1.87
+    shop: mob-drops
+  petnether1.87:
+    scope: SHOP
+    type: SELL
+    value: 1.87
+    shop: nether
+  petores1.87:
+    scope: SHOP
+    type: SELL
+    value: 1.87
+    shop: ores
+  petorganics1.87:
+    scope: SHOP
+    type: SELL
+    value: 1.87
+    shop: organics
+  petredstone1.87:
+    scope: SHOP
+    type: SELL
+    value: 1.87
+    shop: redstone
+  petspawners1.87:
+    scope: SHOP
+    type: SELL
+    value: 1.87
+    shop: spawners
+  petaquatics1.88:
+    scope: SHOP
+    type: SELL
+    value: 1.88
+    shop: aquatics
+  petbasics1.88:
+    scope: SHOP
+    type: SELL
+    value: 1.88
+    shop: basics
+  petbrewing1.88:
+    scope: SHOP
+    type: SELL
+    value: 1.88
+    shop: brewing
+  petconcrete1.88:
+    scope: SHOP
+    type: SELL
+    value: 1.88
+    shop: concrete
+  petdyes1.88:
+    scope: SHOP
+    type: SELL
+    value: 1.88
+    shop: dyes
+  petfood1.88:
+    scope: SHOP
+    type: SELL
+    value: 1.88
+    shop: food
+  petmob-drops1.88:
+    scope: SHOP
+    type: SELL
+    value: 1.88
+    shop: mob-drops
+  petnether1.88:
+    scope: SHOP
+    type: SELL
+    value: 1.88
+    shop: nether
+  petores1.88:
+    scope: SHOP
+    type: SELL
+    value: 1.88
+    shop: ores
+  petorganics1.88:
+    scope: SHOP
+    type: SELL
+    value: 1.88
+    shop: organics
+  petredstone1.88:
+    scope: SHOP
+    type: SELL
+    value: 1.88
+    shop: redstone
+  petspawners1.88:
+    scope: SHOP
+    type: SELL
+    value: 1.88
+    shop: spawners
+  petaquatics1.89:
+    scope: SHOP
+    type: SELL
+    value: 1.89
+    shop: aquatics
+  petbasics1.89:
+    scope: SHOP
+    type: SELL
+    value: 1.89
+    shop: basics
+  petbrewing1.89:
+    scope: SHOP
+    type: SELL
+    value: 1.89
+    shop: brewing
+  petconcrete1.89:
+    scope: SHOP
+    type: SELL
+    value: 1.89
+    shop: concrete
+  petdyes1.89:
+    scope: SHOP
+    type: SELL
+    value: 1.89
+    shop: dyes
+  petfood1.89:
+    scope: SHOP
+    type: SELL
+    value: 1.89
+    shop: food
+  petmob-drops1.89:
+    scope: SHOP
+    type: SELL
+    value: 1.89
+    shop: mob-drops
+  petnether1.89:
+    scope: SHOP
+    type: SELL
+    value: 1.89
+    shop: nether
+  petores1.89:
+    scope: SHOP
+    type: SELL
+    value: 1.89
+    shop: ores
+  petorganics1.89:
+    scope: SHOP
+    type: SELL
+    value: 1.89
+    shop: organics
+  petredstone1.89:
+    scope: SHOP
+    type: SELL
+    value: 1.89
+    shop: redstone
+  petspawners1.89:
+    scope: SHOP
+    type: SELL
+    value: 1.89
+    shop: spawners
+  petaquatics1.9:
+    scope: SHOP
+    type: SELL
+    value: 1.9
+    shop: aquatics
+  petbasics1.9:
+    scope: SHOP
+    type: SELL
+    value: 1.9
+    shop: basics
+  petbrewing1.9:
+    scope: SHOP
+    type: SELL
+    value: 1.9
+    shop: brewing
+  petconcrete1.9:
+    scope: SHOP
+    type: SELL
+    value: 1.9
+    shop: concrete
+  petdyes1.9:
+    scope: SHOP
+    type: SELL
+    value: 1.9
+    shop: dyes
+  petfood1.9:
+    scope: SHOP
+    type: SELL
+    value: 1.9
+    shop: food
+  petmob-drops1.9:
+    scope: SHOP
+    type: SELL
+    value: 1.9
+    shop: mob-drops
+  petnether1.9:
+    scope: SHOP
+    type: SELL
+    value: 1.9
+    shop: nether
+  petores1.9:
+    scope: SHOP
+    type: SELL
+    value: 1.9
+    shop: ores
+  petorganics1.9:
+    scope: SHOP
+    type: SELL
+    value: 1.9
+    shop: organics
+  petredstone1.9:
+    scope: SHOP
+    type: SELL
+    value: 1.9
+    shop: redstone
+  petspawners1.9:
+    scope: SHOP
+    type: SELL
+    value: 1.9
+    shop: spawners
+  petaquatics1.91:
+    scope: SHOP
+    type: SELL
+    value: 1.91
+    shop: aquatics
+  petbasics1.91:
+    scope: SHOP
+    type: SELL
+    value: 1.91
+    shop: basics
+  petbrewing1.91:
+    scope: SHOP
+    type: SELL
+    value: 1.91
+    shop: brewing
+  petconcrete1.91:
+    scope: SHOP
+    type: SELL
+    value: 1.91
+    shop: concrete
+  petdyes1.91:
+    scope: SHOP
+    type: SELL
+    value: 1.91
+    shop: dyes
+  petfood1.91:
+    scope: SHOP
+    type: SELL
+    value: 1.91
+    shop: food
+  petmob-drops1.91:
+    scope: SHOP
+    type: SELL
+    value: 1.91
+    shop: mob-drops
+  petnether1.91:
+    scope: SHOP
+    type: SELL
+    value: 1.91
+    shop: nether
+  petores1.91:
+    scope: SHOP
+    type: SELL
+    value: 1.91
+    shop: ores
+  petorganics1.91:
+    scope: SHOP
+    type: SELL
+    value: 1.91
+    shop: organics
+  petredstone1.91:
+    scope: SHOP
+    type: SELL
+    value: 1.91
+    shop: redstone
+  petspawners1.91:
+    scope: SHOP
+    type: SELL
+    value: 1.91
+    shop: spawners
+  petaquatics1.92:
+    scope: SHOP
+    type: SELL
+    value: 1.92
+    shop: aquatics
+  petbasics1.92:
+    scope: SHOP
+    type: SELL
+    value: 1.92
+    shop: basics
+  petbrewing1.92:
+    scope: SHOP
+    type: SELL
+    value: 1.92
+    shop: brewing
+  petconcrete1.92:
+    scope: SHOP
+    type: SELL
+    value: 1.92
+    shop: concrete
+  petdyes1.92:
+    scope: SHOP
+    type: SELL
+    value: 1.92
+    shop: dyes
+  petfood1.92:
+    scope: SHOP
+    type: SELL
+    value: 1.92
+    shop: food
+  petmob-drops1.92:
+    scope: SHOP
+    type: SELL
+    value: 1.92
+    shop: mob-drops
+  petnether1.92:
+    scope: SHOP
+    type: SELL
+    value: 1.92
+    shop: nether
+  petores1.92:
+    scope: SHOP
+    type: SELL
+    value: 1.92
+    shop: ores
+  petorganics1.92:
+    scope: SHOP
+    type: SELL
+    value: 1.92
+    shop: organics
+  petredstone1.92:
+    scope: SHOP
+    type: SELL
+    value: 1.92
+    shop: redstone
+  petspawners1.92:
+    scope: SHOP
+    type: SELL
+    value: 1.92
+    shop: spawners
+  petaquatics1.93:
+    scope: SHOP
+    type: SELL
+    value: 1.93
+    shop: aquatics
+  petbasics1.93:
+    scope: SHOP
+    type: SELL
+    value: 1.93
+    shop: basics
+  petbrewing1.93:
+    scope: SHOP
+    type: SELL
+    value: 1.93
+    shop: brewing
+  petconcrete1.93:
+    scope: SHOP
+    type: SELL
+    value: 1.93
+    shop: concrete
+  petdyes1.93:
+    scope: SHOP
+    type: SELL
+    value: 1.93
+    shop: dyes
+  petfood1.93:
+    scope: SHOP
+    type: SELL
+    value: 1.93
+    shop: food
+  petmob-drops1.93:
+    scope: SHOP
+    type: SELL
+    value: 1.93
+    shop: mob-drops
+  petnether1.93:
+    scope: SHOP
+    type: SELL
+    value: 1.93
+    shop: nether
+  petores1.93:
+    scope: SHOP
+    type: SELL
+    value: 1.93
+    shop: ores
+  petorganics1.93:
+    scope: SHOP
+    type: SELL
+    value: 1.93
+    shop: organics
+  petredstone1.93:
+    scope: SHOP
+    type: SELL
+    value: 1.93
+    shop: redstone
+  petspawners1.93:
+    scope: SHOP
+    type: SELL
+    value: 1.93
+    shop: spawners
+  petaquatics1.94:
+    scope: SHOP
+    type: SELL
+    value: 1.94
+    shop: aquatics
+  petbasics1.94:
+    scope: SHOP
+    type: SELL
+    value: 1.94
+    shop: basics
+  petbrewing1.94:
+    scope: SHOP
+    type: SELL
+    value: 1.94
+    shop: brewing
+  petconcrete1.94:
+    scope: SHOP
+    type: SELL
+    value: 1.94
+    shop: concrete
+  petdyes1.94:
+    scope: SHOP
+    type: SELL
+    value: 1.94
+    shop: dyes
+  petfood1.94:
+    scope: SHOP
+    type: SELL
+    value: 1.94
+    shop: food
+  petmob-drops1.94:
+    scope: SHOP
+    type: SELL
+    value: 1.94
+    shop: mob-drops
+  petnether1.94:
+    scope: SHOP
+    type: SELL
+    value: 1.94
+    shop: nether
+  petores1.94:
+    scope: SHOP
+    type: SELL
+    value: 1.94
+    shop: ores
+  petorganics1.94:
+    scope: SHOP
+    type: SELL
+    value: 1.94
+    shop: organics
+  petredstone1.94:
+    scope: SHOP
+    type: SELL
+    value: 1.94
+    shop: redstone
+  petspawners1.94:
+    scope: SHOP
+    type: SELL
+    value: 1.94
+    shop: spawners
+  petaquatics1.95:
+    scope: SHOP
+    type: SELL
+    value: 1.95
+    shop: aquatics
+  petbasics1.95:
+    scope: SHOP
+    type: SELL
+    value: 1.95
+    shop: basics
+  petbrewing1.95:
+    scope: SHOP
+    type: SELL
+    value: 1.95
+    shop: brewing
+  petconcrete1.95:
+    scope: SHOP
+    type: SELL
+    value: 1.95
+    shop: concrete
+  petdyes1.95:
+    scope: SHOP
+    type: SELL
+    value: 1.95
+    shop: dyes
+  petfood1.95:
+    scope: SHOP
+    type: SELL
+    value: 1.95
+    shop: food
+  petmob-drops1.95:
+    scope: SHOP
+    type: SELL
+    value: 1.95
+    shop: mob-drops
+  petnether1.95:
+    scope: SHOP
+    type: SELL
+    value: 1.95
+    shop: nether
+  petores1.95:
+    scope: SHOP
+    type: SELL
+    value: 1.95
+    shop: ores
+  petorganics1.95:
+    scope: SHOP
+    type: SELL
+    value: 1.95
+    shop: organics
+  petredstone1.95:
+    scope: SHOP
+    type: SELL
+    value: 1.95
+    shop: redstone
+  petspawners1.95:
+    scope: SHOP
+    type: SELL
+    value: 1.95
+    shop: spawners
+  petaquatics1.96:
+    scope: SHOP
+    type: SELL
+    value: 1.96
+    shop: aquatics
+  petbasics1.96:
+    scope: SHOP
+    type: SELL
+    value: 1.96
+    shop: basics
+  petbrewing1.96:
+    scope: SHOP
+    type: SELL
+    value: 1.96
+    shop: brewing
+  petconcrete1.96:
+    scope: SHOP
+    type: SELL
+    value: 1.96
+    shop: concrete
+  petdyes1.96:
+    scope: SHOP
+    type: SELL
+    value: 1.96
+    shop: dyes
+  petfood1.96:
+    scope: SHOP
+    type: SELL
+    value: 1.96
+    shop: food
+  petmob-drops1.96:
+    scope: SHOP
+    type: SELL
+    value: 1.96
+    shop: mob-drops
+  petnether1.96:
+    scope: SHOP
+    type: SELL
+    value: 1.96
+    shop: nether
+  petores1.96:
+    scope: SHOP
+    type: SELL
+    value: 1.96
+    shop: ores
+  petorganics1.96:
+    scope: SHOP
+    type: SELL
+    value: 1.96
+    shop: organics
+  petredstone1.96:
+    scope: SHOP
+    type: SELL
+    value: 1.96
+    shop: redstone
+  petspawners1.96:
+    scope: SHOP
+    type: SELL
+    value: 1.96
+    shop: spawners
+  petaquatics1.97:
+    scope: SHOP
+    type: SELL
+    value: 1.97
+    shop: aquatics
+  petbasics1.97:
+    scope: SHOP
+    type: SELL
+    value: 1.97
+    shop: basics
+  petbrewing1.97:
+    scope: SHOP
+    type: SELL
+    value: 1.97
+    shop: brewing
+  petconcrete1.97:
+    scope: SHOP
+    type: SELL
+    value: 1.97
+    shop: concrete
+  petdyes1.97:
+    scope: SHOP
+    type: SELL
+    value: 1.97
+    shop: dyes
+  petfood1.97:
+    scope: SHOP
+    type: SELL
+    value: 1.97
+    shop: food
+  petmob-drops1.97:
+    scope: SHOP
+    type: SELL
+    value: 1.97
+    shop: mob-drops
+  petnether1.97:
+    scope: SHOP
+    type: SELL
+    value: 1.97
+    shop: nether
+  petores1.97:
+    scope: SHOP
+    type: SELL
+    value: 1.97
+    shop: ores
+  petorganics1.97:
+    scope: SHOP
+    type: SELL
+    value: 1.97
+    shop: organics
+  petredstone1.97:
+    scope: SHOP
+    type: SELL
+    value: 1.97
+    shop: redstone
+  petspawners1.97:
+    scope: SHOP
+    type: SELL
+    value: 1.97
+    shop: spawners
+  petaquatics1.98:
+    scope: SHOP
+    type: SELL
+    value: 1.98
+    shop: aquatics
+  petbasics1.98:
+    scope: SHOP
+    type: SELL
+    value: 1.98
+    shop: basics
+  petbrewing1.98:
+    scope: SHOP
+    type: SELL
+    value: 1.98
+    shop: brewing
+  petconcrete1.98:
+    scope: SHOP
+    type: SELL
+    value: 1.98
+    shop: concrete
+  petdyes1.98:
+    scope: SHOP
+    type: SELL
+    value: 1.98
+    shop: dyes
+  petfood1.98:
+    scope: SHOP
+    type: SELL
+    value: 1.98
+    shop: food
+  petmob-drops1.98:
+    scope: SHOP
+    type: SELL
+    value: 1.98
+    shop: mob-drops
+  petnether1.98:
+    scope: SHOP
+    type: SELL
+    value: 1.98
+    shop: nether
+  petores1.98:
+    scope: SHOP
+    type: SELL
+    value: 1.98
+    shop: ores
+  petorganics1.98:
+    scope: SHOP
+    type: SELL
+    value: 1.98
+    shop: organics
+  petredstone1.98:
+    scope: SHOP
+    type: SELL
+    value: 1.98
+    shop: redstone
+  petspawners1.98:
+    scope: SHOP
+    type: SELL
+    value: 1.98
+    shop: spawners
+  petaquatics1.99:
+    scope: SHOP
+    type: SELL
+    value: 1.99
+    shop: aquatics
+  petbasics1.99:
+    scope: SHOP
+    type: SELL
+    value: 1.99
+    shop: basics
+  petbrewing1.99:
+    scope: SHOP
+    type: SELL
+    value: 1.99
+    shop: brewing
+  petconcrete1.99:
+    scope: SHOP
+    type: SELL
+    value: 1.99
+    shop: concrete
+  petdyes1.99:
+    scope: SHOP
+    type: SELL
+    value: 1.99
+    shop: dyes
+  petfood1.99:
+    scope: SHOP
+    type: SELL
+    value: 1.99
+    shop: food
+  petmob-drops1.99:
+    scope: SHOP
+    type: SELL
+    value: 1.99
+    shop: mob-drops
+  petnether1.99:
+    scope: SHOP
+    type: SELL
+    value: 1.99
+    shop: nether
+  petores1.99:
+    scope: SHOP
+    type: SELL
+    value: 1.99
+    shop: ores
+  petorganics1.99:
+    scope: SHOP
+    type: SELL
+    value: 1.99
+    shop: organics
+  petredstone1.99:
+    scope: SHOP
+    type: SELL
+    value: 1.99
+    shop: redstone
+  petspawners1.99:
+    scope: SHOP
+    type: SELL
+    value: 1.99
+    shop: spawners
+  petaquatics2:
+    scope: SHOP
+    type: SELL
+    value: 2
+    shop: aquatics
+  petbasics2:
+    scope: SHOP
+    type: SELL
+    value: 2
+    shop: basics
+  petbrewing2:
+    scope: SHOP
+    type: SELL
+    value: 2
+    shop: brewing
+  petconcrete2:
+    scope: SHOP
+    type: SELL
+    value: 2
+    shop: concrete
+  petdyes2:
+    scope: SHOP
+    type: SELL
+    value: 2
+    shop: dyes
+  petfood2:
+    scope: SHOP
+    type: SELL
+    value: 2
+    shop: food
+  petmob-drops2:
+    scope: SHOP
+    type: SELL
+    value: 2
+    shop: mob-drops
+  petnether2:
+    scope: SHOP
+    type: SELL
+    value: 2
+    shop: nether
+  petores2:
+    scope: SHOP
+    type: SELL
+    value: 2
+    shop: ores
+  petorganics2:
+    scope: SHOP
+    type: SELL
+    value: 2
+    shop: organics
+  petredstone2:
+    scope: SHOP
+    type: SELL
+    value: 2
+    shop: redstone
+  petspawners2:
+    scope: SHOP
+    type: SELL
+    value: 2
+    shop: spawners
