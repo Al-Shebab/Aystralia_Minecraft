@@ -10,7 +10,7 @@ Pouches:
     CrouchInstaOpen: false
     Height: 1.2
     Speed: 2
-    Name: "&2&lTier I &fMoney Pouch"
+    Name: "&2&lTier I &f&lMoney Pouch"
     ConvertBigNumbers: true
     EndHologram:
       - "&fYou have won &2${random_number} &ffrom this pouch!"
@@ -39,7 +39,7 @@ Pouches:
     CrouchInstaOpen: false
     Height: 1.2
     Speed: 2
-    Name: "&a&lTier II &fMoney Pouch"
+    Name: "&a&lTier II &f&lMoney Pouch"
     ConvertBigNumbers: true
     EndHologram:
       - "&fYou have won &a${random_number} &ffrom this pouch!"
@@ -68,7 +68,7 @@ Pouches:
     CrouchInstaOpen: false
     Height: 1.2
     Speed: 2
-    Name: "&9&lTier III &fMoney Pouch"
+    Name: "&9&lTier III &f&lMoney Pouch"
     ConvertBigNumbers: true
     EndHologram:
       - "&fYou have won &9${random_number} &ffrom this pouch!"
@@ -97,7 +97,7 @@ Pouches:
     CrouchInstaOpen: false
     Height: 1.2
     Speed: 2
-    Name: "&3&lTier IV &fMoney Pouch"
+    Name: "&3&lTier IV &f&lMoney Pouch"
     ConvertBigNumbers: true
     EndHologram:
       - "&fYou have won &3${random_number} &ffrom this pouch!"
@@ -126,7 +126,7 @@ Pouches:
     CrouchInstaOpen: false
     Height: 1.2
     Speed: 2
-    Name: "&b&lTier V &fMoney Pouch"
+    Name: "&b&lTier V &f&lMoney Pouch"
     ConvertBigNumbers: true
     EndHologram:
       - "&fYou have won &b${random_number} &ffrom this pouch!"

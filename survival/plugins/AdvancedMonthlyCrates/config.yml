@@ -444,3 +444,74 @@ Crates:
         Commands:
         - "cmdi give {player_name} market25"
         Name: "&b&l25% Market &f&lDiscount"
+  MoneyPouchCrate:
+    Animation: "Display"
+    #OnlyPlaceableAtWorld: "world, 502, 65, -152" #Works same as OnlyPlaceableAtLocations but has a specified world -> "worldName, x, y, z"
+    #OnlyPlaceableAtLocations:
+    #  - "405,71,-1006"
+    #  - "-1052,60,510"
+    #OnlyPlaceableAtLocations makes it so you can only place this specific crate at declared coordinates. You can find the coordinates by pressing F3 and looking at "Looking at block"
+    #Currently there are 4 types of animations: Round ; Pyramid ; Display ; Round2
+    Item: "ENDER_CHEST"
+    OnlyPlacable: true #Option is useful if you wish the crate be not a block, example: Item: "NETHER_STAR" (Player can open Nether Star crate by right clicking in the air)
+    RewardsDontRepeat: true   #Can the user win a reward only once per opening? (If there aren"t enough prizes to fill the whole crate size there will be repeating items)
+    #CustomModelData: 0
+    #Is the block that will be the monthly crate
+    Enchanted: true #Not all items can be enchanted.
+    Name: "&b&lMoney Pouch &f&lCrate"
+    CommandOnCratePlace: []
+    MessagesToPlayer:
+      - "&b&lCrates &8> &fYou have opened a &b&lMoney Pouch &f&lCrate"
+    RewardHologram:
+      - "&&b&lMoney Pouch &f&lCrate"
+    #Customisable hologram above the main prize
+    Final_Message: []
+    Size: 1
+    #Amount of items that the person will get, ranges from 0-10
+    #If set 0 there will be only the best prize in the animation
+    Lores:
+      - ""
+      - "&fPlace to use"
+      - "&fEarned by &b{player_name}"
+    Prizes:
+      TierI:
+        Item: ENDER_CHEST
+        Enchanted: true
+        Chance: 35
+        Commands:
+        - "crate pouch sgive {player_name} MoneyPouchI"
+        Name: "&2&lTier I &f&lMoney Pouch"
+      TierII:
+        Item: ENDER_CHEST
+        Enchanted: true
+        Chance: 30
+        Commands:
+        - "crate pouch sgive {player_name} MoneyPouchII"
+        Name: "&a&lTier II &f&lMoney Pouch"
+      TierIII:
+        Item: ENDER_CHEST
+        Enchanted: true
+        Chance: 20
+        Commands:
+        - "crate pouch sgive {player_name} MoneyPouchIII"
+        Name: "&9&lTier III &f&lMoney Pouch"
+        BroadcastMessagesToPlayers:
+          - "&9&l{player_name} &f&ljust won a &9&lTier III &f&lMoney Pouch"
+      TierIV:
+        Item: ENDER_CHEST
+        Enchanted: true
+        Chance: 10
+        Commands:
+        - "crate pouch sgive {player_name} MoneyPouchIV"
+        Name: "&3&lTier IV &f&lMoney Pouch"
+        BroadcastMessagesToPlayers:
+          - "&3&l{player_name} &f&ljust won a &3&lTier IV &f&lMoney Pouch"
+      TierV:
+        Item: ENDER_CHEST
+        Enchanted: true
+        Chance: 5
+        Commands:
+        - "crate pouch sgive {player_name} MoneyPouchV"
+        Name: "&b&lTier V &f&lMoney Pouch"
+        BroadcastMessagesToPlayers:
+          - "&b&l{player_name} &f&ljust won a &b&lTier V &f&lMoney Pouch"
