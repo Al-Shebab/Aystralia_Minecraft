@@ -1,109 +1,148 @@
 # Pouches
 
 Pouches:
-  MoneyPouch:
+  MoneyPouchI:
     Item: ENDER_CHEST
     Enchanted: true
-    OnlyPlacable: true #Option is useful if you wish the crate be not a block, example: Item: "NETHER_STAR" (Player can open Nether Star crate by right clicking in the air)
-    #CustomModelData: 0
-    #CustomModelData: 0
-    #OnlyPlaceableAtLocations:
-    #  - "405,71,-1006"
-    #  - "-1052,60,510"
-    #OnlyPlaceableAtLocations makes it so you can only place this specific pouch at declared coordinates. You can find the coordinates by pressing F3 and looking at "Looking at block"
+    OnlyPlacable: true
     PouchStand: ENDER_CHEST
     PouchStandEnchanted: false
     CrouchInstaOpen: false
-    #PouchStandDamage: 0
-    #PouchBase64Texture:
-    Height: 1.8 
+    Height: 1.2
     Speed: 2
-    Name: "&e&lTier I Money Pouch &r&7(Right Click)"
-    ConvertBigNumbers: true #makes it so prizes from thousands to quintillions are changed to letters such as K, Mil, Bil, etc.
-#    BroadcastMessagesToAll:
-#      - "&f&l[&c&lBroadcast&f&l] &4&l{player_name} &eis opening a Money Pouch Tier I!"
-#    MessagesToOpener:
-#      - "&fYou have opened a Money Pouch Tier I"
-#    CommandOnCratePlace:
-#      - ""
+    Name: "&2&lTier I &fMoney Pouch"
+    ConvertBigNumbers: true
     EndHologram:
-      - "&e&lMONEY POUCH"
-      - "&7You have won ${random_number} from this pouch!"
-    TitleMessage: "&a&l+{random_number}"
+      - "&fYou have won &2${random_number} &ffrom this pouch!"
+    TitleMessage: "&2&l+${random_number}"
     Lores:
       - ''
-      - '&7Place the Money Pouch to receive a'
-      - '&7Mystery reward of money!'
+      - '&fPlace the Money Pouch to receive a'
+      - '&frandom amount of money!'
       - ''
-      - '&6&l* &eTier &f1'
+      - '&2&l* Tier I'
       - ''
-      - '&6&l* &eReward'
-      - '&8- &f$10,000 - $50,000'
+      - '&2&l* Reward'
+      - '&f- &f$10,000 - $50,000'
       - ''
-      - '&7&o(( Place down to open! ))'
+      - '&f[Place down to open!]'
     RandomNumberMin: 10000
     RandomNumberMax: 50000
     Rewards:
-      - "eco give {player_name} {random_number}"
-  DiamondPouch:
-    Item: DIAMOND_BLOCK
+      - "cmi money give {player_name} {random_number} -s"
+  MoneyPouchII:
+    Item: ENDER_CHEST
     Enchanted: true
     OnlyPlacable: true
-    #CustomModelData: 0
-    PouchStand: DIAMOND_BLOCK
-    PouchStandEnchanted: true
-    Height: 1.8 
-    Speed: 2
-    Name: "&b&lTier I Diamond Pouch &r&7(Right Click)"
-    EndHologram:
-      - "&e&lDIAMOND POUCH"
-      - "&7You have found {random_number} Diamond Blocks from this pouch!"
-    Lores:
-      - ''
-      - '&7Place the Diamond Pouch to receive a'
-      - '&7Mystery reward of Diamond Blocks!'
-      - ''
-      - '&6&l* &bTier &f1'
-      - ''
-      - '&6&l* &bReward'
-      - '&8- &f1 - 128 Diamond Blocks'
-      - ''
-      - '&7&o(( Place down to open! ))'
-    ConvertBigNumbers: true #makes it so prizes from thousands to quintillions are changed to letters such as K, Mil, Bil, etc.
-    RandomNumberMin: 1
-    RandomNumberMax: 128
-    Rewards:
-      - "give {player_name} DIAMOND_BLOCK {random_number}"
-  ExpPouch:
-    Item: PLAYER_HEAD
-    Enchanted: true
-    OnlyPlacable: true
-    #CustomModelData: 0
-    Base64Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNlZjlhYTE0ZTg4NDc3M2VhYzEzNGE0ZWU4OTcyMDYzZjQ2NmRlNjc4MzYzY2Y3YjFhMjFhODViNyJ9fX0=
-    PouchBase64Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNlZjlhYTE0ZTg4NDc3M2VhYzEzNGE0ZWU4OTcyMDYzZjQ2NmRlNjc4MzYzY2Y3YjFhMjFhODViNyJ9fX0
-    PouchStand: PLAYER_HEAD
+    PouchStand: ENDER_CHEST
     PouchStandEnchanted: false
-    Height: 1.8 
+    CrouchInstaOpen: false
+    Height: 1.2
     Speed: 2
-    Name: "&a&lTier I EXP Pouch &r&7(Right Click)"
+    Name: "&a&lTier II &fMoney Pouch"
+    ConvertBigNumbers: true
     EndHologram:
-      - "&e&lEXP POUCH"
-      - "&7You have found {random_number} EXP from this pouch!"
+      - "&fYou have won &a${random_number} &ffrom this pouch!"
+    TitleMessage: "&a&l+${random_number}"
     Lores:
       - ''
-      - '&7Place the EXP Pouch to receive a'
-      - '&7Mystery reward of Experience!'
+      - '&fPlace the Money Pouch to receive a'
+      - '&frandom amount of money!'
       - ''
-      - '&6&l* &aTier &f1'
+      - '&a&l* Tier II'
       - ''
-      - '&6&l* &aReward'
-      - '&8- &f100 - 1000 EXP'
+      - '&a&l* Reward'
+      - '&f- &f$50,000 - $100,000'
       - ''
-      - '&7&o(( Place down to open! ))'
-    ConvertBigNumbers: true #makes it so prizes from thousands to quintillions are changed to letters such as K, Mil, Bil, etc.
-    RandomNumberMin: 100
-    RandomNumberMax: 1000
+      - '&f[Place down to open!]'
+    RandomNumberMin: 50000
+    RandomNumberMax: 100000
     Rewards:
-      - "minecraft:xp {random_number} {player_name}"
-
-
+      - "cmi money give {player_name} {random_number} -s"
+  MoneyPouchIII:
+    Item: ENDER_CHEST
+    Enchanted: true
+    OnlyPlacable: true
+    PouchStand: ENDER_CHEST
+    PouchStandEnchanted: false
+    CrouchInstaOpen: false
+    Height: 1.2
+    Speed: 2
+    Name: "&9&lTier III &fMoney Pouch"
+    ConvertBigNumbers: true
+    EndHologram:
+      - "&fYou have won &9${random_number} &ffrom this pouch!"
+    TitleMessage: "&9&l+${random_number}"
+    Lores:
+      - ''
+      - '&fPlace the Money Pouch to receive a'
+      - '&frandom amount of money!'
+      - ''
+      - '&9&l* Tier III'
+      - ''
+      - '&9&l* Reward'
+      - '&f- &f$100,000 - $200,000'
+      - ''
+      - '&f[Place down to open!]'
+    RandomNumberMin: 100000
+    RandomNumberMax: 200000
+    Rewards:
+      - "cmi money give {player_name} {random_number} -s"
+  MoneyPouchIV:
+    Item: ENDER_CHEST
+    Enchanted: true
+    OnlyPlacable: true
+    PouchStand: ENDER_CHEST
+    PouchStandEnchanted: false
+    CrouchInstaOpen: false
+    Height: 1.2
+    Speed: 2
+    Name: "&3&lTier IV &fMoney Pouch"
+    ConvertBigNumbers: true
+    EndHologram:
+      - "&fYou have won &3${random_number} &ffrom this pouch!"
+    TitleMessage: "&3&l+${random_number}"
+    Lores:
+      - ''
+      - '&fPlace the Money Pouch to receive a'
+      - '&frandom amount of money!'
+      - ''
+      - '&3&l* Tier IV'
+      - ''
+      - '&3&l* Reward'
+      - '&f- &f$200,000 - $500,000'
+      - ''
+      - '&f[Place down to open!]'
+    RandomNumberMin: 200000
+    RandomNumberMax: 500000
+    Rewards:
+      - "cmi money give {player_name} {random_number} -s"
+  MoneyPouchV:
+    Item: ENDER_CHEST
+    Enchanted: true
+    OnlyPlacable: true
+    PouchStand: ENDER_CHEST
+    PouchStandEnchanted: false
+    CrouchInstaOpen: false
+    Height: 1.2
+    Speed: 2
+    Name: "&b&lTier V &fMoney Pouch"
+    ConvertBigNumbers: true
+    EndHologram:
+      - "&fYou have won &b${random_number} &ffrom this pouch!"
+    TitleMessage: "&b&l+${random_number}"
+    Lores:
+      - ''
+      - '&fPlace the Money Pouch to receive a'
+      - '&frandom amount of money!'
+      - ''
+      - '&b&l* Tier V'
+      - ''
+      - '&b&l* Reward'
+      - '&f- &f$500,000 - $1,000,000'
+      - ''
+      - '&f[Place down to open!]'
+    RandomNumberMin: 500000
+    RandomNumberMax: 1000000
+    Rewards:
+      - "cmi money give {player_name} {random_number} -s"
