@@ -557,7 +557,7 @@ cp:
     values:
       displayName: '&b&lEnderman Pet &f[LVL %level%]'
       skin: http://textures.minecraft.net/texture/96c0b36d53fff69a49c7d6f3932f2b0fe948e032226d5e8045ec58408a36e951
-      tier: 4
+      tier: 1
       maxLevel: 1
       enabled: true
       lore:
@@ -584,12 +584,12 @@ cp:
     values:
       displayName: '&b&lBlaze Pet &f[LVL %level%]'
       skin: http://textures.minecraft.net/texture/b78ef2e4cf2c41a2d14bfde9caff10219f5b1bf5b35a49eb51c6467882cb5f0
-      tier: 4
+      tier: 1
       maxLevel: 100
       enabled: true
       lore:
         1:
-        - '&b%level% x &f5 &fseconds of fire resistance'
+        - '&f%level% x &f5 &fseconds of fire resistance'
         - '&fupon activation'
         - ' '
         - '&b&lACTIVE'
@@ -1010,12 +1010,12 @@ cp:
     values:
       displayName: '&b&lGoblin Pet &f[LVL %level%]'
       skin: Goblin
-      tier: 4
+      tier: 1
       maxLevel: 100
       enabled: true
       lore:
         1:
-        - '&fEvery 10 minutes your pet will come across'
+        - '&fEvery 5 minutes your pet will come across'
         - '&ftreasure! Treasure gets better as level increases.'
         - ' '
         - '&b&lPASSIVE'
@@ -1032,7 +1032,7 @@ cp:
       - ''
       disabledRegions:
       - ''
-      timer-length: 600
+      timer-length: 300
       onActivation:
         PetTimerEvent:
           1:
@@ -1239,7 +1239,7 @@ cp:
     values:
       displayName: '&b&lExperience Pet &f[LVL %level%]'
       skin: http://textures.minecraft.net/texture/87d885b32b0dd2d6b7f1b582a34186f8a5373c46589a273423132b448b803462
-      tier: 4
+      tier: 1
       maxLevel: 100
       enabled: true
       lore:
@@ -1467,7 +1467,7 @@ cp:
     values:
       displayName: '&b&lVindicator Pet &f[LVL %level%]'
       skin: http://textures.minecraft.net/texture/f580d4e23f662f1c969cfba000664f8f82a286386ed8a33f9b425636589e8ea9
-      tier: 4
+      tier: 1
       maxLevel: 100
       enabled: true
       lore:
@@ -1692,47 +1692,12 @@ cp:
           - "[damage-boost] 5.95 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
           100:
           - "[damage-boost] 6 Material:WOODEN_AXE Material:STONE_AXE Material:IRON_AXE Material:GOLDEN_AXE Material:DIAMOND_AXE Material:NETHERITE_AXE Material:WOODEN_SWORD Material:STONE_SWORD Material:IRON_SWORD Material:GOLDEN_SWORD Material:DIAMOND_SWORD Material:NETHERITE_SWORD"
-  Chicken-Pet:
-    values:
-      displayName: '&b&lChicken Pet &f[LVL %level%]'
-      skin: MHF_Chicken
-      tier: 1
-      maxLevel: 3
-      enabled: true
-      lore:
-        1:
-        - '&fGrants the ability of speed to quickly flee,'
-        - '&fflee, like a chicken, in the face of danger.'
-        - ' '
-        - '&b&lPASSIVE'
-        - ' '
-        - '&fUnlimited speed when in your inventory.'
-        - ' '
-        - '&f&lLevel:&b %level%'
-        - '&f&lEXP:&b %exp% / %maxexp%'
-        - '&9%progressmap%'
-      hotbarActivationOnly: true
-      disabledInOtherFactionLand: false
-      addedExpMessage: false
-      disabledWorlds:
-      - ''
-      disabledRegions:
-      - ''
-      timer-length: 1
-      onActivation:
-        PetTimerEvent:
-          1:
-          - "[potion] SPEED infinite 1"
-          2:
-          - "[potion] SPEED infinite 2"
-          3:
-          - "[potion] SPEED infinite 3"
   Witch-Pet:
     values:
       displayName: '&b&lWitch Pet &f[LVL %level%]'
-      skin: MHF_Cow
+      skin: http://textures.minecraft.net/texture/c08194c76827cdbbba6ef7e97f042c03d2135bb165b2fecfe5ee0397e81f8afc
       tier: 1
-      maxLevel: 3
+      maxLevel: 1
       enabled: true
       lore:
         1:
@@ -1742,10 +1707,6 @@ cp:
         - '&b&lPASSIVE'
         - ' '
         - '&b&lHotbar Pet'
-        - ' '
-        - '&f&lLevel:&b %level%'
-        - '&f&lEXP:&b %exp% / %maxexp%'
-        - '&9%progressmap%'
       hotbarActivationOnly: true
       disabledInOtherFactionLand: false
       addedExpMessage: false
@@ -1765,223 +1726,21 @@ cp:
           - "[remove-potion] SLOW"
           - "[remove-potion] SLOW_DIGGING"
           - "[remove-potion] WEAKNESS"
-  Creeper-Pet:
-    values:
-      displayName: '&b&lCreeper Pet &f[LVL %level%]'
-      skin: MHF_Creeper
-      tier: 3
-      maxLevel: 3
-      enabled: true
-      lore:
-        1:
-        - '&fGain the explosive defense capabilities of a'
-        - '&fcreeper to ward off incoming attackers.'
-        - ' '
-        - '&c&lAGGRESSIVE'
-        - ' '
-        - '&fRight-Click to create an explosion.'
-        - ' '
-        - '&f&lLevel:&b %level%'
-        - '&f&lEXP:&b %exp% / %maxexp%'
-        - '&9%progressmap%'
-      hotbarActivationOnly: true
-      disabledInOtherFactionLand: false
-      addedExpMessage: false
-      disabledWorlds:
-      - ''
-      disabledRegions:
-      - ''
-      onActivation:
-        PlayerInteractEvent:
-          1:
-          - "[explosion] 1"
-          - "[cooldown] 120"
-          2:
-          - "[explosion] 2"
-          - "[cooldown] 120"
-          3:
-          - "[explosion] 3"
-          - "[cooldown] 120"
-  Firework-Pet:
-    values:
-      displayName: '&b&lFirework Pet &f[LVL %level%]'
-      skin: haohanklliu
-      tier: 4
-      maxLevel: 3
-      enabled: true
-      lore:
-        1:
-        - '&fRight-click to launch players around in the air'
-        - '&fand set them in fire in a 5 block radius.'
-        - ' '
-        - '&c&lAGGRESSIVE'
-        - ' '
-        - '&fRight-Click to activate.'
-        - ' '
-        - '&f&lLevel:&b %level%'
-        - '&f&lEXP:&b %exp% / %maxexp%'
-        - '&9%progressmap%'
-      hotbarActivationOnly: true
-      disabledInOtherFactionLand: false
-      addedExpMessage: false
-      disabledWorlds:
-      - ''
-      disabledRegions:
-      - ''
-      onActivation:
-        PlayerInteractEvent:
-          1:
-          - "[throw] 1 5"
-          - "[fire] 3 5"
-          - "[cooldown] 120"
-          2:
-          - "[throw] 2 5"
-          - "[fire] 6 5"
-          - "[cooldown] 120"
-          3:
-          - "[throw] 3 5"
-          - "[fire] 10 5"
-          - "[cooldown] 120"
-  Gorilla-Pet:
-    values:
-      displayName: '&b&lGorilla Pet &f[LVL %level%]'
-      skin: Harambe_
-      tier: 4
-      maxLevel: 3
-      enabled: true
-      lore:
-        1:
-        - '&fRight-Click to gain extra health, strength, and cause'
-        - '&fa block explosion, damage and knockback nearby players.'
-        - ' '
-        - '&c&lAGGRESSIVE'
-        - ' '
-        - '&fRight-Click to activate.'
-        - ' '
-        - '&f&lLevel:&b %level%'
-        - '&f&lEXP:&b %exp% / %maxexp%'
-        - '&9%progressmap%'
-      hotbarActivationOnly: true
-      disabledInOtherFactionLand: false
-      addedExpMessage: false
-      disabledWorlds:
-      - ''
-      disabledRegions:
-      - ''
-      onActivation:
-        PlayerInteractEvent:
-          1:
-          - "[potion] ABSORPTION 5 1"
-          - "[potion] INCREASE_DAMAGE 5 1"
-          - "[explosion] 1"
-          - "[throw] 1 5"
-          - "[cooldown] 120"
-          2:
-          - "[potion] ABSORPTION 5 2"
-          - "[potion] INCREASE_DAMAGE 5 2"
-          - "[explosion] 2"
-          - "[throw] 2 5"
-          - "[cooldown] 120"
-          3:
-          - "[potion] ABSORPTION 5 3"
-          - "[potion] INCREASE_DAMAGE 5 3"
-          - "[explosion] 3"
-          - "[throw] 3 5"
-          - "[cooldown] 120"
-  Iron-Golem-Pet:
-    values:
-      displayName: '&b&lIron Golem Pet &f[LVL %level%]'
-      skin: MHF_Golem
-      tier: 3
-      maxLevel: 3
-      enabled: true
-      lore:
-        1:
-        - '&fHold your ground and absorb incoming attack damage'
-        - '&fwith a temporary shield as strong as iron.'
-        - ' '
-        - '&b&lPASSIVE'
-        - ' '
-        - '&fRight-Click to obtain absorption.'
-        - ' '
-        - '&f&lLevel:&b %level%'
-        - '&f&lEXP:&b %exp% / %maxexp%'
-        - '&9%progressmap%'
-      hotbarActivationOnly: true
-      disabledInOtherFactionLand: false
-      addedExpMessage: false
-      disabledWorlds:
-      - ''
-      disabledRegions:
-      - ''
-      onActivation:
-       PlayerInteractEvent:
-          1:
-          - "[potion] ABSORPTION 10 1"
-          - "[cooldown] 120"
-          2:
-          - "[potion] ABSORPTION 10 2"
-          - "[cooldown] 120"
-          3:
-          - "[potion] ABSORPTION 10 3"
-          - "[cooldown] 120"
-  Leprechaun-Pet:
-    values:
-      displayName: '&b&lLeprechaun Pet &f[LVL %level%]'
-      skin: crunch2845
-      tier: 4
-      maxLevel: 3
-      enabled: true
-      lore:
-        1:
-        - '&fRight-Click to become a Leprechaun and trap enemies in a,'
-        - '&fradius of 5 blocks in a Pot o'' Gold for 3-12 seconds.'
-        - ' '
-        - '&c&lAGGRESSIVE'
-        - ' '
-        - '&fRight-Click to trap enemies in a radius of 5 blocks.'
-        - ' '
-        - '&f&lLevel:&b %level%'
-        - '&f&lEXP:&b %exp% / %maxexp%'
-        - '&9%progressmap%'
-      hotbarActivationOnly: true
-      disabledInOtherFactionLand: false
-      addedExpMessage: false
-      disabledWorlds:
-      - ''
-      disabledRegions:
-      - ''
-      onActivation:
-        PlayerInteractEvent:
-          1:
-          - "[freeze] 3 5 CAULDRON"
-          - "[cooldown] 120"
-          2:
-          - "[freeze] 7 5 CAULDRON"
-          - "[cooldown] 120"
-          3:
-          - "[freeze] 12 5 CAULDRON"
-          - "[cooldown] 120"
   Pig-Pet:
     values:
       displayName: '&b&lPig Pet &f[LVL %level%]'
       skin: MHF_Pig
       tier: 1
-      maxLevel: 3
+      maxLevel: 1
       enabled: true
       lore:
         1:
-        - '&fEat your fill and maintain food saturation just'
-        - '&flike a plump, satisfied pig.'
+        - '&fProvides full saturation'
         - ' '
         - '&b&lPASSIVE'
         - ' '
-        - '&fUnlimited saturation while in your inventory.'
-        - ' '
-        - '&f&lLevel:&b %level%'
-        - '&f&lEXP:&b %exp% / %maxexp%'
-        - '&9%progressmap%'
-      hotbarActivationOnly: true
+        - '&b&lInventory Pet'
+      hotbarActivationOnly: false
       disabledInOtherFactionLand: false
       addedExpMessage: false
       disabledWorlds:
@@ -1993,66 +1752,21 @@ cp:
         PetTimerEvent:
           1:
           - "[potion] SATURATION infinite 1"
-          2:
-          - "[potion] SATURATION infinite 2"
-          3:
-          - "[potion] SATURATION infinite 3"
-  R2d2-Pet:
+  Feather-Pet:
     values:
-      displayName: '&b&lR2D2 Pet &f[LVL %level%]'
-      skin: R2D2
-      tier: 4
-      maxLevel: 3
-      enabled: true
-      lore:
-        1:
-        - '&fRight-click to gain flight for a limited time.'
-        - '&fThe higher the level the longer the pet is active.'
-        - ' '
-        - '&b&lPASSIVE'
-        - ' '
-        - '&fRight-Click to activate.'
-        - ' '
-        - '&f&lLevel:&b %level%'
-        - '&f&lEXP:&b %exp% / %maxexp%'
-        - '&9%progressmap%'
-      hotbarActivationOnly: true
-      disabledInOtherFactionLand: false
-      addedExpMessage: false
-      disabledWorlds:
-      - ''
-      disabledRegions:
-      - ''
-      onActivation:
-        PlayerInteractEvent:
-          1:
-          - "[timed-command] 5 fly {player}"
-          - "[cooldown] 120"
-          2:
-          - "[timed-command] 10 fly {player}"
-          - "[cooldown] 120"
-          3:
-          - "[timed-command] 15 fly {player}"
-          - "[cooldown] 120"
-  Sheep-Pet:
-    values:
-      displayName: '&b&lSheep Pet &f[LVL %level%]'
-      skin: MHF_Sheep
+      displayName: '&b&lFeather Pet &f[LVL %level%]'
+      skin: http://textures.minecraft.net/texture/76f33b297a981b527bec393168401d8a2ecadeb9f1603ba5e276f42d64475116
       tier: 1
-      maxLevel: 3
+      maxLevel: 1
       enabled: true
       lore:
         1:
-        - '&fReduce the damage of your fall'
-        - '&fwith a thick layer of fluffy wool.'
+        - '&fPrevents any kind of fall damage'
+        - '&fwhilst on your hotbar'
         - ' '
         - '&b&lPASSIVE'
         - ' '
-        - '&fPlace in your hotbar to activate.'
-        - ' '
-        - '&f&lLevel:&b %level%'
-        - '&f&lEXP:&b %exp% / %maxexp%'
-        - '&9%progressmap%'
+        - '&b&lHotbar Pet'
       hotbarActivationOnly: true
       disabledInOtherFactionLand: false
       addedExpMessage: false
@@ -2063,65 +1777,22 @@ cp:
       onActivation:
         EntityDamageEvent:
           1:
-          - "[reduce-damage] 2 DamageCause:FALL"
-          2:
-          - "[reduce-damage] 3 DamageCause:FALL"
-          3:
-          - "[reduce-damage] 10 DamageCause:FALL"
-  Spider-Pet:
+          - "[reduce-damage] 10000 DamageCause:FALL"
+  Dolphin-Pet:
     values:
-      displayName: '&b&lSpider Pet &f[LVL %level%]'
-      skin: MHF_Spider
+      displayName: '&b&lDolphin Pet &f[LVL %level%]'
+      skin: http://textures.minecraft.net/texture/8e9688b950d880b55b7aa2cfcd76e5a0fa94aac6d16f78e833f7443ea29fed3
       tier: 1
-      maxLevel: 3
+      maxLevel: 1
       enabled: true
       lore:
         1:
-        - '&fSkulk around and pounce on a passer-by with'
-        - '&fyour new found jumping abilities.'
-        - ' '
-        - '&c&lAGGRESSIVE'
-        - ' '
-        - '&fGet jumpboost while in your inventory.'
-        - ' '
-        - '&f&lLevel:&b %level%'
-        - '&f&lEXP:&b %exp% / %maxexp%'
-        - '&9%progressmap%'
-      hotbarActivationOnly: true
-      disabledInOtherFactionLand: false
-      addedExpMessage: false
-      disabledWorlds:
-      - ''
-      disabledRegions:
-      - ''
-      timer-length: 1
-      onActivation:
-        PetTimerEvent:
-          1:
-          - "[potion] JUMP infinite 1"
-          2:
-          - "[potion] JUMP infinite 2"
-          3:
-          - "[potion] JUMP infinite 3"
-  Squid-Pet:
-    values:
-      displayName: '&b&lSquid Pet &f[LVL %level%]'
-      skin: MHF_Squid
-      tier: 1
-      maxLevel: 3
-      enabled: true
-      lore:
-        1:
-        - '&fLurk through the depths of the ocean with the'
-        - '&feyesight of a squid and no fear of drowning.'
+        - '&fProvides water breathing and makes you swim faster'
+        - '&fwhilst on your hotbar'
         - ' '
         - '&b&lPASSIVE'
         - ' '
-        - '&fPlace in your hotbar for water breathing.'
-        - ' '
-        - '&f&lLevel:&b %level%'
-        - '&f&lEXP:&b %exp% / %maxexp%'
-        - '&9%progressmap%'
+        - '&b&lHotbar Pet'
       hotbarActivationOnly: true
       disabledInOtherFactionLand: false
       addedExpMessage: false
@@ -2134,29 +1805,50 @@ cp:
         PetTimerEvent:
           1:
           - "[potion] WATER_BREATHING infinite 1"
-          2:
-          - "[potion] WATER_BREATHING infinite 2"
-          3:
-          - "[potion] WATER_BREATHING infinite 3"
-  Storm-Trooper-Pet:
+          - "[potion] DOLPHINS_GRACE infinite 1"
+  Frog-Pet:
     values:
-      displayName: '&b&lStormTrooper Pet &f[LVL %level%]'
-      skin: Stormtrooper
-      tier: 4
-      maxLevel: 3
+      displayName: '&b&lFrog Pet &f[LVL %level%]'
+      skin: http://textures.minecraft.net/texture/fa6e700c2c57de0a249d40acc1332aeef532c1e4096b8c26883659666bd36809
+      tier: 1
+      maxLevel: 1
       enabled: true
       lore:
         1:
-        - '&fInflict extra bow damage,'
-        - '&fthe higher the level, the higher the damage.'
+        - '&fProvides water breathing and makes you jump higher'
+        - '&fwhilst on your hotbar'
         - ' '
-        - '&c&lAGGRESSIVE'
+        - '&b&lPASSIVE'
         - ' '
-        - '&fShoot players to activate.'
+        - '&b&lHotbar Pet'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      timer-length: 1
+      onActivation:
+        PetTimerEvent:
+          1:
+          - "[potion] WATER_BREATHING infinite 1"
+          - "[potion] JUMP infinite 2"
+  Farmer-Pet:
+    values:
+      displayName: '&b&lFarmer Pet &f[LVL %level%]'
+      skin: http://textures.minecraft.net/texture/68c986799bafe7184a8ae233db6d9ab8e9b844fa9d4da68fa3dc94ac8fe820
+      tier: 1
+      maxLevel: 1
+      enabled: true
+      lore:
+        1:
+        - '&fInstantly kill any kind of farm animal'
+        - '&fwhilst on your hotbar'
         - ' '
-        - '&f&lLevel:&b %level%'
-        - '&f&lEXP:&b %exp% / %maxexp%'
-        - '&9%progressmap%'
+        - '&b&lPASSIVE'
+        - ' '
+        - '&b&lHotbar Pet'
       hotbarActivationOnly: true
       disabledInOtherFactionLand: false
       addedExpMessage: false
@@ -2167,31 +1859,48 @@ cp:
       onActivation:
         EntityDamageByEntityEvent:
           1:
-          - "[damage-boost] 1.0 Material:BOW"
-          2:
-          - "[damage-boost] 2.0 Material:BOW"
-          3:
-          - "[damage-boost] 4.0 Material:BOW"
-  Wolf-Pet:
+          - "[damage-boost] 10000.0 EntityType:PIG EntityType:COW EntityType:SHEEP EntityType:CHICKEN EntityType:HORSE"
+  Bat-Pet:
     values:
-      displayName: '&b&lWolf Pet &f[LVL %level%]'
-      skin: MHF_Wolf
-      tier: 2
-      maxLevel: 3
+      displayName: '&b&lBat Pet &f[LVL %level%]'
+      skin: http://textures.minecraft.net/texture/f76619652fafec90ce98df5013c63dc6a77776ab27873b73dafb2b6bdeb185
+      tier: 1
+      maxLevel: 1
       enabled: true
       lore:
         1:
-        - '&fUse your killer instincts to slay'
-        - '&fpassive mobs in a single hit.'
+        - '&fProvides infinite night vision'
         - ' '
-        - '&c&lAGGRESSIVE'
+        - '&b&lPASSIVE'
         - ' '
-        - '&f1 hit all passive mobs.'
+        - '&b&lInventory Pet'
+      hotbarActivationOnly: false
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      timer-length: 1
+      onActivation:
+        PetTimerEvent:
+          1:
+          - "[potion] NIGHT_VISION infinite 1"
+  Iron-Golem-Pet:
+    values:
+      displayName: '&b&lIron Golem Pet &f[LVL %level%]'
+      skin: http://textures.minecraft.net/texture/89091d79ea0f59ef7ef94d7bba6e5f17f2f7d4572c44f90f76c4819a714
+      tier: 1
+      maxLevel: 1
+      enabled: true
+      lore:
+        1:
+        - '&fDeal 3x damage to any hostile mob'
         - ' '
-        - '&f&lLevel:&b %level%'
-        - '&f&lEXP:&b %exp% / %maxexp%'
-        - '&9%progressmap%'
-      hotbarActivationOnly: true
+        - '&b&lPASSIVE'
+        - ' '
+        - '&b&lInventory Pet'
+      hotbarActivationOnly: false
       disabledInOtherFactionLand: false
       addedExpMessage: false
       disabledWorlds:
@@ -2201,38 +1910,4 @@ cp:
       onActivation:
         EntityDamageByEntityEvent:
           1:
-          - "[damage-boost] 10000.0 EntityType:PIG EntityType:COW EntityType:SHEEP EntityType:CHICKEN EntityType:SQUID EntityType:MUSHROOM_COW EntityType:VILLAGER"
-  Zombie-Pet:
-    values:
-      displayName: '&b&lZombie Pet &f[LVL %level%]'
-      skin: MHF_Zombie
-      tier: 2
-      maxLevel: 3
-      enabled: true
-      lore:
-        1:
-        - '&fSatisfy your appetite like the undead'
-        - '&fby attacking other players.'
-        - ' '
-        - '&c&lAGGRESSIVE'
-        - ' '
-        - '&fGet saturation by hitting others.'
-        - ' '
-        - '&f&lLevel:&b %level%'
-        - '&f&lEXP:&b %exp% / %maxexp%'
-        - '&9%progressmap%'
-      hotbarActivationOnly: true
-      disabledInOtherFactionLand: false
-      addedExpMessage: false
-      disabledWorlds:
-      - ''
-      disabledRegions:
-      - ''
-      onActivation:
-        EntityDamageByEntityEvent:
-          1:
-          - "[potion] SATURATION 5 1"
-          2:
-          - "[potion] SATURATION 5 2"
-          3:
-          - "[potion] SATURATION 5 3"
+          - "[damage-boost] 3.0 EntityType:BLAZE EntityType:CAVE_SPIDER EntityType:CREEPER EntityType:DROWNED EntityType:ELDER_GUARDIAN EntityType:ENDERMAN EntityType:ENDERMITE EntityType:EVOKER EntityType:GHAST EntityType:GUARDIAN EntityType:HOGLIN EntityType:HUSK EntityType:ILLUSIONER EntityType:MAGMA_CUBE EntityType:PHANTOM EntityType:PIGLIN EntityType:PIGLIN_BRUTE EntityType:PILLAGER EntityType:RAVAGER EntityType:SHULKER EntityType:SILVERFISH EntityType:SKELETON EntityType:SKELETON_HORSE EntityType:SLIME EntityType:SPIDER EntityType:STRAY EntityType:STRIDER EntityType:VEX EntityType:VINDICATOR EntityType:WITCH EntityType:WITHER_SKELETON EntityType:ZOGLIN EntityType:ZOMBIE EntityType:ZOMBIE_HORSE EntityType:ZOMBIE_VILLAGER EntityType:ZOMBIFIED_PIGLIN"
