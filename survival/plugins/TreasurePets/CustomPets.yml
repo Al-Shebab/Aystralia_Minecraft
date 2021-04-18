@@ -2867,7 +2867,7 @@ cp:
         - ' '
         - '&b&lPASSIVE'
         - ' '
-        - '&b&lnventory Pet'
+        - '&b&lInventory Pet'
       hotbarActivationOnly: false
       disabledInOtherFactionLand: false
       addedExpMessage: false
@@ -2893,7 +2893,7 @@ cp:
         - ' '
         - '&b&lPASSIVE'
         - ' '
-        - '&b&lnventory Pet'
+        - '&b&lInventory Pet'
       hotbarActivationOnly: false
       disabledInOtherFactionLand: false
       addedExpMessage: false
@@ -2921,7 +2921,7 @@ cp:
         - ' '
         - '&b&lPASSIVE'
         - ' '
-        - '&b&lnventory Pet'
+        - '&b&lInventory Pet'
       hotbarActivationOnly: false
       disabledInOtherFactionLand: false
       addedExpMessage: false

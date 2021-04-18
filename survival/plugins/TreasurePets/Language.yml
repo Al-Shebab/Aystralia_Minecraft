@@ -1,4 +1,4 @@
-ReceivedPet: "&e&l(!) &eRecieved Pet &a%pet_name%"
+ReceivedPet: "&b&lPets &8> &fRecieved Pet &b&l%pet_name%"
 NoPermission: "&cYou do not have the permission to run this command."
 PetNotFound: "&cCould not find pet, please make sure it is active in the CustomPets.yml file"
 FeatureDisabled: "&cSorry, this feature has been disabled."

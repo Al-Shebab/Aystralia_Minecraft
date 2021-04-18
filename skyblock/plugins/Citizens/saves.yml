@@ -12,13 +12,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 7.6734924
+        bodyYaw: -10.885635
         world: world
         x: '32.5'
         y: '64.0'
         z: '-7.5'
-        yaw: '47.6735'
-        pitch: '-8.9478'
+        yaw: '-33.0595'
+        pitch: '0.0'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -79,12 +79,12 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -151.48671
+        bodyYaw: 145.78125
         world: world
         x: '17.5'
         y: '64.0'
         z: '1.5'
-        yaw: '168.5133'
+        yaw: '-174.2187'
         pitch: '0.0'
       spawned: true
       skintrait:
@@ -137,13 +137,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 101.40465
+        bodyYaw: 132.80386
         world: world
         x: '34.5'
         y: '64.0'
         z: '-1.5'
-        yaw: '126.7357'
-        pitch: '-9.1704'
+        yaw: '172.8039'
+        pitch: '0.0'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -195,13 +195,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 7.7868958
+        bodyYaw: -10.103592
         world: world
         x: '18.5'
         y: '64.0'
         z: '-6.5'
-        yaw: '47.7869'
-        pitch: '-14.5465'
+        yaw: '-50.1036'
+        pitch: '0.0'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -335,13 +335,13 @@ npc:
       spawned: true
       type: PLAYER
       location:
-        bodyYaw: -7.1916885
+        bodyYaw: -8.676601
         world: world
         x: '26.5'
         y: '64.0'
         z: '-7.5'
-        yaw: '32.8083'
-        pitch: '-13.6915'
+        yaw: '-48.6766'
+        pitch: '0.0'
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
@@ -454,8 +454,8 @@ npc:
         x: '-14.5'
         y: '64.0'
         z: '-34.5'
-        yaw: '21.8914'
-        pitch: '-2.1232'
+        yaw: '26.1916'
+        pitch: '0.0'
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
