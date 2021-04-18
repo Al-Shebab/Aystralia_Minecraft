@@ -136,12 +136,28 @@
     "reason": "Cheating"
   },
   {
+    "uuid": "9943bf37-13a6-3ded-b979-1ac1d658efa9",
+    "name": "Feeyne_Hugh_Dong",
+    "created": "2021-04-17 23:12:38 -0700",
+    "source": "bigbulkcat",
+    "expires": "forever",
+    "reason": "§fViolated server rules"
+  },
+  {
     "uuid": "6f99075b-b2e0-32cb-90c8-cd42d8504b86",
     "name": "m",
     "created": "2021-01-24 12:13:34 -0800",
     "source": "AimJunkiesFeeyne",
     "expires": "forever",
     "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "cefa847f-1b4f-4e15-b9b6-59a7e4e6f5f4",
+    "name": "CallMeCarson",
+    "created": "2021-04-18 01:00:55 -0700",
+    "source": "Al_Shebab",
+    "expires": "forever",
+    "reason": "Grooming"
   },
   {
     "uuid": "b9f78c6e-b9f2-4af0-a2ee-4258b42b722e",

@@ -1,0 +1,687 @@
+# AdvancedMonthlyCrates
+# Made by PM2
+
+# ** Commands and permissions
+# /amc list - Shows a list of all correctly made monthly crates. ; AMC.List
+# /amc give <player> <crate> <amount> - Gives a specified player the specified monthly crate. ; AMC.Give
+# /amc sgive <player> <crate> <amount> - Silent Give (Doesn"t send a message of receiving a crate) ; AMC.Give
+# /amc giveall <crate> <amount> - Gives everyone on the server a specified monthly crate. ; AMC.GiveAll
+# /amc reload - Reloads all plugins configurations. ; AMC.Reload
+# /amc errors - Sends out why and where MCrates are not configured properly. ; AMC.Errors
+# /amc pouch list - Lists all Available Pouches. ; AMC.PouchList
+# /amc pouch give <player> <pouch> <amount> - Gives a Player the Specified Pouch. ; AMC.PouchGive
+# /amc pouch sgive <player> <pouch> <amount> - Silent Pouch Give (Doesn"t send a message of receiving a pouch) ; AMC.PouchGive
+# Users with "AMC.CantOpen" permission won"t be able to open a crate. This can be used for multiple world settings (when entering one world user gets this permission and is not able to open the crate)
+
+  
+# What commands should be blocked for the player while he is opening a Monthly Crate? AMC.CommandBypass to bypass this restriction. Doesn"t effect OPs!
+BlockedCommands:
+#  - "warp"
+#  - "home"
+
+# ** Variables **
+# {player_name} / %player_name% - replaces with the users nickname.
+# {random_number} - requires additional conditions: RandomNumberMin (number) ; RandomNumberMax (number)
+# %player_displayname% - replaces with the users display name (used for crate lores)
+
+# ** Configurations **
+
+# Very important that you change this if your server is running on a spigot fork (Spigot fork examples: PaperSpigot, TacoSpigot, BeerSpigot..)
+# As if you are using those jars there won"t be any armor stands appearing for a split second for the versions above 1.8
+SpigotFork: true
+
+# Should there be lightning at the end of the animation?
+Spinning_Lightning: true
+
+# Should all of the lightning that is made by the plugin be silent (make no sound)?
+Lightning_silent: true
+
+# What should be the main command in order to use AdvancedMonthlyCrates plugin, default is /amc
+main_command: "crate"
+
+# Do alts also get mcrate giveall crates or only 1 crate per ip?
+alts_get_giveall: true
+
+# How many Monthly Crates can a single player open at the same time?
+MonthlyCrates_Player_Limit: 100
+
+# How many Monthly Crates can be opened at the same time on the server?
+MonthlyCrates_Global_Limit: 5000
+
+# How many Pouches can be opened at the same time on the server?
+MonthlyCrates_Global_Pouch_Limit: 5000
+
+# How close by / what radius between the Monthly Crates should be to be able to open them?
+Crate_Radius: 1
+
+# How close by / what radius between the Pouches should be to be able to open them?
+Pouch_Radius: 1
+
+# How long should the display animation be rolling for? (measured in seconds)
+Display_Animation_Lenght: 15
+
+# What should be the interval between changing items in the display animation? (measured in seconds)
+Display_Animation_Item_Change: 0.4
+
+# Should the water drops in the Display animation be enabled?
+Display_Animation_Water_Drops: false
+
+# Should the lava drops in the Display animation be enabled? If so, don"t forget to disable water drops above.
+Display_Animation_Lava_Drops: false
+
+# Should the villager particles be shown on item change in the Display animation?
+Display_Animation_Villager_Particle: false
+
+# With what effect should pouches end? (Currently available: Lightning, Explosion, Smoke, Flame), leave empty for no effect.
+PouchEnding: "Lightning"
+
+# What particles should be shown when changing items in the "Round" animation? (Currently available: Instant_Spell, Flame), leave empty for no effect.
+Item_Change_Particle_Round: "Instant_Spell"
+
+# How high should the round animation be after being placed on the ground?
+Round_How_High: 1
+
+# How long should the round2 animation last? (measured in seconds)
+Round2_Animation_Lenght: 12
+
+# Should there be lightning when mystery items change into items on Round2 animation?
+Round2_Animation_Lightning: true
+
+# How fast should be the Round2 animation spinning? (decimals can be used)
+Round2_Animation_Speed: 1
+
+# How fast should be the Round animation spinning? (decimals can be used)
+Round_Animation_Speed: 1
+
+# How long should the round animation last? (measured in seconds)
+Round_Animation_Lenght: 8
+
+# Should the pouches have a spiral particle effect when the animation is playing? (true / false)
+Pouch_Spiral_Effect: true
+
+# Should the give command be case sensitive? (If true this means Crate and crate are different crates)
+Give_Command_Case_Sensitive: true
+
+# Should the Guaranteed Rewards be shown in the animation? (Currently works only for the Round animation)
+Guaranteed_Rewards_Shown: false 
+
+# This allows users on adventure mode servers to be able to open crates (Makes it so when user right clicks air it opens a crate)
+Adventure_Mode: false
+
+# This makes it so users in creative can not open monthly crates
+Cant_Open_Creative: false
+
+# Debug Mode
+Debug_Mode: false
+
+
+# Some configurable settings are explained, others should be self-explanatory.
+# Contact "PM2." on SpigotMC or PM2#5811 on Discord with any questions or bug reports.
+
+
+# Custom item modification options:
+# CustomModelData:
+#
+# RandomNumberMin: 5  
+# RandomNumberMax: 20
+# Both needed to work, variable for commands - {random_number}, can be used for the name of the reward as well. 
+# Placeholder {new_random_number} or %new_random_number% can be used when there are multiple commands in a reward and there"s a need for a newly generated random number in between the bounds.
+#
+# Damage:
+# Used for older spigot versions.
+#
+# Base64Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNlZjlhYTE0ZTg4NDc3M2VhYzEzNGE0ZWU4OTcyMDYzZjQ2NmRlNjc4MzYzY2Y3YjFhMjFhODViNyJ9fX0=
+# Textures can be applied to PLAYER_HEAD for newer versions or SKULL_ITEM + Damage: 3 for older versions
+# You can find different head textures here: minecraft-heads.com
+# To find the skin texture, look for it on the bottom of the selected head page in the "Others:" section under "Value:"
+       
+
+
+Crates:
+#Here you create a new monthly crate, you can call it any name but they must not repeat.
+  VoteCrate:
+    Animation: "Display"
+    #OnlyPlaceableAtWorld: "world, 502, 65, -152" #Works same as OnlyPlaceableAtLocations but has a specified world -> "worldName, x, y, z"
+    #OnlyPlaceableAtLocations:
+    #  - "405,71,-1006"
+    #  - "-1052,60,510"
+    #OnlyPlaceableAtLocations makes it so you can only place this specific crate at declared coordinates. You can find the coordinates by pressing F3 and looking at "Looking at block"
+    #Currently there are 4 types of animations: Round ; Pyramid ; Display ; Round2
+    Item: "ENDER_CHEST"
+    OnlyPlacable: true #Option is useful if you wish the crate be not a block, example: Item: "NETHER_STAR" (Player can open Nether Star crate by right clicking in the air)
+    RewardsDontRepeat: true   #Can the user win a reward only once per opening? (If there aren"t enough prizes to fill the whole crate size there will be repeating items)
+    #CustomModelData: 0
+    #Is the block that will be the monthly crate
+    Enchanted: true #Not all items can be enchanted.
+    Name: "&b&lVote &f&lCrate"
+    CommandOnCratePlace: []
+    MessagesToPlayer:
+      - "&b&lCrates &8> &fYou have opened a &b&lVote &f&lCrate"
+    RewardHologram:
+      - "&b&lVote &f&lCrate"
+    #Customisable hologram above the main prize
+    Final_Message: []
+    Size: 1
+    #Amount of items that the person will get, ranges from 0-10
+    #If set 0 there will be only the best prize in the animation
+    Lores:
+      - ""
+      - "&fPlace to use"
+      - "&fEarned by &b{player_name}"
+    Prizes:
+      BrewingStand:
+        Item: STICK
+        Enchanted: true
+        Name: "&bSell &fStick"
+        Commands:
+          - "sellstick give {player_name} 1 i"
+        Chance: 5
+      MoneyPouchCrate:
+        Item: ENDER_CHEST
+        Enchanted: true
+        Name: "&b&lMoney Pouch &f&lCrate"
+        Commands:
+          - "crate give {player_name} MoneyPouchCrate"
+        Chance: 2
+      PetCrate:
+        Item: ENDER_CHEST
+        Enchanted: true
+        Name: "&b&lPet &f&lCrate"
+        Commands:
+          - "crate give {player_name} PetCrate"
+        Chance: 1
+      CreeperEgg:
+        Item: CHEST
+        Enchanted: true
+        Chance: 5
+        Commands:
+        - "voidc give default {player_name}"
+        Name: "&b&lVoid &fChest"
+      MobSpawner:
+        Item: GOLDEN_SHOVEL
+        Enchanted: true
+        Chance: 15
+        Commands:
+        - "griefprevention:adjustbonusclaimblocks {player_name} 750"
+        Name: "&b&l750 &fClaim Blocks"
+      CustomHeadExample:
+        Item: GOLDEN_SHOVEL
+        Enchanted: true
+        Chance: 5
+        Commands:
+        - "griefprevention:adjustbonusclaimblocks {player_name} 2500"
+        Name: "&b&l2500 &fClaim Blocks"
+      DiamondSword:
+        Item: HOPPER
+        Enchanted: true
+        Chance: 10
+        Commands:
+        - "jetshoppers give {player_name} I 1"
+        Name: "&b&lHopper &fUpgrade"
+      Flower:
+        Item: MOB_SPAWNER
+        Chance: 7
+        Commands:
+        - "wildstacker:stacker give {player_name} spawner BLAZE 1"
+        Name: "&cBlaze &fSpawner &cx1"
+      Apple:
+        Item: MOB_SPAWNER
+        Chance: 3
+        Commands:
+        - "wildstacker:stacker give {player_name} spawner ZOMBIE 1"
+        Name: "&cZombie &fSpawner &cx1"
+      Diamond:
+        Item: MOB_SPAWNER
+        Chance: 3
+        Commands:
+        - "wildstacker:stacker give {player_name} spawner PIG 1"
+        Name: "&bCow &fSpawner &bx1"
+      FishingRod:
+        Item: MOB_SPAWNER
+        Chance: 3
+        Commands:
+        - "wildstacker:stacker give {player_name} spawner COW 1"
+        Name: "&bCow &fSpawner &bx1"
+      Bed:
+        Item: MOB_SPAWNER
+        Chance: 1
+        Commands:
+        - "wildstacker:stacker give {player_name} spawner IRON_GOLEM 1"
+        Name: "&6Iron Golem &fSpawner &bx1"
+      Bedb:
+        Item: TRIPWIRE_HOOK
+        Enchanted: true
+        Chance: 0.1
+        Commands:
+        - "crate give {player_name} AystraliaCrate"
+        Name: "&c&ki&f&ki &cAystralia &fCrate Key &f&ki&c&ki"
+        BroadcastMessagesToPlayers:
+          - "&c&l{player_name} &f&ljust won a &c&lAystralia &f&lCrate"
+      Beda:
+        Item: COOKED_CHICKEN
+        Name: "&c&lKFC"
+        Commands:
+        - "cmi kit kfc {player_name}"
+        Chance: 34.9
+      Bedc:
+        Item: NETHERITE_PICKAXE
+        Enchanted: true
+        Chance: 1
+        Commands:
+        - "cmi kit votepickaxe {player_name}"
+        Name: "&b&lAystralia &f&lPickaxe"
+        BroadcastMessagesToPlayers:
+          - "&b&l{player_name} &f&ljust won a &b&lAystralia &f&lPickaxe"
+  AystraliaCrate:
+    Animation: "Display"
+    #OnlyPlaceableAtWorld: "world, 502, 65, -152" #Works same as OnlyPlaceableAtLocations but has a specified world -> "worldName, x, y, z"
+    #OnlyPlaceableAtLocations:
+    #  - "405,71,-1006"
+    #  - "-1052,60,510"
+    #OnlyPlaceableAtLocations makes it so you can only place this specific crate at declared coordinates. You can find the coordinates by pressing F3 and looking at "Looking at block"
+    #Currently there are 4 types of animations: Round ; Pyramid ; Display ; Round2
+    Item: "ENDER_CHEST"
+    OnlyPlacable: true #Option is useful if you wish the crate be not a block, example: Item: "NETHER_STAR" (Player can open Nether Star crate by right clicking in the air)
+    RewardsDontRepeat: true   #Can the user win a reward only once per opening? (If there aren"t enough prizes to fill the whole crate size there will be repeating items)
+    #CustomModelData: 0
+    #Is the block that will be the monthly crate
+    Enchanted: true #Not all items can be enchanted.
+    Name: "&c&lAystralia &f&lCrate"
+    CommandOnCratePlace: []
+    MessagesToPlayer:
+      - "&b&lCrates &8> &fYou have opened a &c&lAystralia &f&lCrate"
+    RewardHologram:
+      - "&c&lAystralia &f&lCrate"
+    #Customisable hologram above the main prize
+    Final_Message: []
+    Size: 1
+    #Amount of items that the person will get, ranges from 0-10
+    #If set 0 there will be only the best prize in the animation
+    Lores:
+      - ""
+      - "&fRight-click to use"
+      - "&fEarned by &c{player_name}"
+    Prizes:
+      a:
+        Enchanted: true
+        Item: FEATHER
+        Chance: 10
+        Commands:
+        - "cmdi give {player_name} islandfly"
+        Name: "&b&lIsland &f&lFly"
+      b:
+        Enchanted: true
+        Item: COAL
+        Chance: 2
+        Commands:
+        - "cmdi give {player_name} perth"
+        Name: "&b&lPerth &f&lRank"
+      c:
+        Enchanted: true
+        Item: IRON_INGOT
+        Chance: 2
+        Commands:
+        - "cmdi give {player_name} brisbane"
+        Name: "&b&lBrisbane &f&lRank"
+      d:
+        Enchanted: true
+        Item: GOLD_INGOT
+        Chance: 1
+        Commands:
+        - "cmdi give {player_name} melbourne"
+        Name: "&b&lMelborune &f&lRank"
+      e:
+        Enchanted: true
+        Item: DIAMOND
+        Chance: 0
+        Commands:
+        - "cmdi give {player_name} sydney"
+        Name: "&b&lSydney &f&lRank"
+      f:
+        Enchanted: true
+        Item: NETHERITE_INGOT
+        Chance: 0
+        Commands:
+        - "cmdi give {player_name} ayssie"
+        Name: "&b&lAyssie &f&lRank"
+      g:
+        Enchanted: true
+        Item: ELYTRA
+        Chance: 3
+        Commands:
+        - "cmdi give {player_name} fly"
+        Name: "&b&lGlobal &f&lFly"
+      h:
+        Enchanted: true
+        Item: PAPER
+        Chance: 8
+        Commands:
+        - "cmdi give {player_name} nick"
+        Name: "&b&lNickname &f&lAccess"
+      i:
+        Enchanted: true
+        Item: PAPER
+        Chance: 5
+        Commands:
+        - "cmdi give {player_name} jobsboost"
+        Name: "&b&lJobs &f&lBoost"
+      j:
+        Enchanted: true
+        Item: PAPER
+        Chance: 5
+        Commands:
+        - "cmdi give {player_name} jobs"
+        Name: "&b&lUnlimited &f&lJobs"
+      k:
+        Enchanted: true
+        Item: ANVIL
+        Chance: 5
+        Commands:
+        - "cmdi give {player_name} rename"
+        Name: "&b&lRename &f&lAccess"
+      l:
+        Enchanted: true
+        Item: HOPPER
+        Chance: 5
+        Commands:
+        - jetshoppers give {player_name} V 3"
+        Name: "&b&lHopper &f&l[&b&lLevel V&f&l] x3"
+      m:
+        Enchanted: true
+        Item: CHEST
+        Chance: 10
+        Commands:
+        - voidchest give default {player_name} 3"
+        Name: "&b&lVoid &f&lChest x3"
+      n:
+        Enchanted: true
+        Item: TRIPWIRE_HOOK
+        Chance: 5
+        Commands:
+        - crate giveall vote"
+        Name: "&b&lVote Key &f&lAll"
+      o:
+        Enchanted: true
+        Item: PLAYER_HEAD
+        Chance: 5
+        Commands:
+        - "cmdi give {player_name} hat"
+        Name: "&b&lHat &f&lAccess"
+      p:
+        Enchanted: true
+        Item: RED_CONCRETE
+        Chance: 3
+        Commands:
+        - "cmdi give {player_name} concrete"
+        Name: "&b&lConcrete &f&lKit"
+      q:
+        Enchanted: true
+        Item: REDSTONE
+        Chance: 3
+        Commands:
+        - "cmdi give {player_name} redstone"
+        Name: "&b&lRedstone &f&lKit"
+      r:
+        Enchanted: true
+        Item: NETHERITE_SWORD
+        Chance: 3
+        Commands:
+        - "cmdi give {player_name} pvp"
+        Name: "&b&lPvp &f&lKit"
+      s:
+        Enchanted: true
+        Item: RED_DYE
+        Chance: 10
+        Commands:
+        - "cmdi give {player_name} colours"
+        Name: "&b&lColour &f&lPack"
+      t:
+        Enchanted: true
+        Item: PAPER
+        Chance: 5
+        Commands:
+        - "cmdi give {player_name} market15"
+        Name: "&b&l1.15x Sale &f&lMultiplier"
+      u:
+        Enchanted: true
+        Item: PAPER
+        Chance: 5
+        Commands:
+        - "cmdi give {player_name} market5"
+        Name: "&b&l5% Market &f&lDiscount"
+        Item Data: 3
+        Amount: 1
+      v:
+        Enchanted: true
+        Item: PAPER
+        Chance: 5
+        Commands:
+        - "cmdi give {player_name} market25"
+        Name: "&b&l25% Market &f&lDiscount"
+  MoneyPouchCrate:
+    Animation: "Display"
+    #OnlyPlaceableAtWorld: "world, 502, 65, -152" #Works same as OnlyPlaceableAtLocations but has a specified world -> "worldName, x, y, z"
+    #OnlyPlaceableAtLocations:
+    #  - "405,71,-1006"
+    #  - "-1052,60,510"
+    #OnlyPlaceableAtLocations makes it so you can only place this specific crate at declared coordinates. You can find the coordinates by pressing F3 and looking at "Looking at block"
+    #Currently there are 4 types of animations: Round ; Pyramid ; Display ; Round2
+    Item: "ENDER_CHEST"
+    OnlyPlacable: true #Option is useful if you wish the crate be not a block, example: Item: "NETHER_STAR" (Player can open Nether Star crate by right clicking in the air)
+    RewardsDontRepeat: true   #Can the user win a reward only once per opening? (If there aren"t enough prizes to fill the whole crate size there will be repeating items)
+    #CustomModelData: 0
+    #Is the block that will be the monthly crate
+    Enchanted: true #Not all items can be enchanted.
+    Name: "&b&lMoney Pouch &f&lCrate"
+    CommandOnCratePlace: []
+    MessagesToPlayer:
+      - "&b&lCrates &8> &fYou have opened a &b&lMoney Pouch &f&lCrate"
+    RewardHologram:
+      - "&b&lMoney Pouch &f&lCrate"
+    #Customisable hologram above the main prize
+    Final_Message: []
+    Size: 1
+    #Amount of items that the person will get, ranges from 0-10
+    #If set 0 there will be only the best prize in the animation
+    Lores:
+      - ""
+      - "&fPlace to use"
+      - "&fEarned by &b{player_name}"
+    Prizes:
+      TierI:
+        Item: ENDER_CHEST
+        Enchanted: true
+        Chance: 35
+        Commands:
+        - "crate pouch sgive {player_name} MoneyPouchI"
+        Name: "&2&lTier I &f&lMoney Pouch"
+      TierII:
+        Item: ENDER_CHEST
+        Enchanted: true
+        Chance: 30
+        Commands:
+        - "crate pouch sgive {player_name} MoneyPouchII"
+        Name: "&a&lTier II &f&lMoney Pouch"
+      TierIII:
+        Item: ENDER_CHEST
+        Enchanted: true
+        Chance: 20
+        Commands:
+        - "crate pouch sgive {player_name} MoneyPouchIII"
+        Name: "&9&lTier III &f&lMoney Pouch"
+        BroadcastMessagesToPlayers:
+          - "&9&l{player_name} &f&ljust won a &9&lTier III &f&lMoney Pouch"
+      TierIV:
+        Item: ENDER_CHEST
+        Enchanted: true
+        Chance: 10
+        Commands:
+        - "crate pouch sgive {player_name} MoneyPouchIV"
+        Name: "&3&lTier IV &f&lMoney Pouch"
+        BroadcastMessagesToPlayers:
+          - "&3&l{player_name} &f&ljust won a &3&lTier IV &f&lMoney Pouch"
+      TierV:
+        Item: ENDER_CHEST
+        Enchanted: true
+        Chance: 5
+        Commands:
+        - "crate pouch sgive {player_name} MoneyPouchV"
+        Name: "&b&lTier V &f&lMoney Pouch"
+        BroadcastMessagesToPlayers:
+          - "&b&l{player_name} &f&ljust won a &b&lTier V &f&lMoney Pouch"
+  PetCrate:
+    Animation: "Display"
+    #OnlyPlaceableAtWorld: "world, 502, 65, -152" #Works same as OnlyPlaceableAtLocations but has a specified world -> "worldName, x, y, z"
+    #OnlyPlaceableAtLocations:
+    #  - "405,71,-1006"
+    #  - "-1052,60,510"
+    #OnlyPlaceableAtLocations makes it so you can only place this specific crate at declared coordinates. You can find the coordinates by pressing F3 and looking at "Looking at block"
+    #Currently there are 4 types of animations: Round ; Pyramid ; Display ; Round2
+    Item: "ENDER_CHEST"
+    OnlyPlacable: true #Option is useful if you wish the crate be not a block, example: Item: "NETHER_STAR" (Player can open Nether Star crate by right clicking in the air)
+    RewardsDontRepeat: true   #Can the user win a reward only once per opening? (If there aren"t enough prizes to fill the whole crate size there will be repeating items)
+    #CustomModelData: 0
+    #Is the block that will be the monthly crate
+    Enchanted: true #Not all items can be enchanted.
+    Name: "&b&lRandom Pet &f&lCrate"
+    CommandOnCratePlace: []
+    MessagesToPlayer:
+      - "&b&lCrates &8> &fYou have opened a &b&lRandom Pet &f&lCrate"
+    RewardHologram:
+      - "&b&lRandom Pet &f&lCrate"
+    #Customisable hologram above the main prize
+    Final_Message: []
+    Size: 1
+    #Amount of items that the person will get, ranges from 0-10
+    #If set 0 there will be only the best prize in the animation
+    Lores:
+      - ""
+      - "&fPlace to use"
+      - "&fEarned by &b{player_name}"
+    Prizes:
+      Money-Pet:
+        Item: LIGHT_BLUE_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 3
+        Commands:
+        - "tpets give Money-Pet {player_name} 1"
+        Name: "&b&lMoney &f&lPet"
+        BroadcastMessagesToPlayers:
+          - "&b&l{player_name} &f&ljust won a &b&lMoney &f&lPet"
+      Worker-Pet:
+        Item: LIGHT_BLUE_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 3
+        Commands:
+        - "tpets give Worker-Pet {player_name} 1"
+        Name: "&b&lWorker &f&lPet"
+        BroadcastMessagesToPlayers:
+          - "&b&l{player_name} &f&ljust won a &b&lWorker &f&lPet"
+      Goblin-Pet:
+        Item: LIGHT_BLUE_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 3
+        Commands:
+        - "tpets give Goblin-Pet {player_name} 1"
+        Name: "&b&lGoblin &f&lPet"
+        BroadcastMessagesToPlayers:
+          - "&b&l{player_name} &f&ljust won a &b&lGoblin &f&lPet"
+      Exp-Pet:
+        Item: LIGHT_BLUE_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 3
+        Commands:
+        - "tpets give Exp-Pet {player_name} 1"
+        Name: "&b&lExp &f&lPet"
+        BroadcastMessagesToPlayers:
+          - "&b&l{player_name} &f&ljust won a &b&lExp &f&lPet"
+      Vindicator-Pet:
+        Item: LIGHT_BLUE_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 3
+        Commands:
+        - "tpets give Vindicator-Pet {player_name} 1"
+        Name: "&b&lVindicator &f&lPet"
+        BroadcastMessagesToPlayers:
+          - "&b&l{player_name} &f&ljust won a &b&lVindicator &f&lPet"
+      Iron-Golem-Pet:
+        Item: LIGHT_BLUE_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 3
+        Commands:
+        - "tpets give Iron-Golem-Pet {player_name} 1"
+        Name: "&b&lIron Golem &f&lPet"
+        BroadcastMessagesToPlayers:
+          - "&b&l{player_name} &f&ljust won a &b&lIron Golem &f&lPet"
+      Farmer-Pet:
+        Item: LIGHT_BLUE_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 3
+        Commands:
+        - "tpets give Farmer-Pet {player_name} 1"
+        Name: "&b&lFarmer &f&lPet"
+        BroadcastMessagesToPlayers:
+          - "&b&l{player_name} &f&ljust won a &b&lFarmer &f&lPet"
+      Witch-Pet:
+        Item: CYAN_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 7
+        Commands:
+        - "tpets give Witch-Pet {player_name} 1"
+        Name: "&3&lWitch &f&lPet"
+      Pig-Pet:
+        Item: CYAN_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 7
+        Commands:
+        - "tpets give Pig-Pet {player_name} 1"
+        Name: "&3&lPig &f&lPet"
+      Feather-Pet:
+        Item: CYAN_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 7
+        Commands:
+        - "tpets give Feather-Pet {player_name} 1"
+        Name: "&3&lFeather &f&lPet"
+      Dolphin-Pet:
+        Item: CYAN_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 7
+        Commands:
+        - "tpets give Dolphin-Pet {player_name} 1"
+        Name: "&3&lDolphin &f&lPet"
+      Frog-Pet:
+        Item: CYAN_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 7
+        Commands:
+        - "tpets give Frog-Pet {player_name} 1"
+        Name: "&3&lFrog &f&lPet"
+      Bat-Pet:
+        Item: CYAN_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 7
+        Commands:
+        - "tpets give Bat-Pet {player_name} 1"
+        Name: "&3&lBat &f&lPet"
+      Ghost-Pet:
+        Item: CYAN_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 7
+        Commands:
+        - "tpets give Ghost-Pet {player_name} 1"
+        Name: "&3&lGhost &f&lPet"
+      Enderman-Pet:
+        Item: BLUE_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 15
+        Commands:
+        - "tpets give Enderman-Pet {player_name} 1"
+        Name: "&9&lEnderman &f&lPet"
+      Blaze-Pet:
+        Item: BLUE_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 15
+        Commands:
+        - "tpets give Blaze-Pet {player_name} 1"
+        Name: "&9&lBlaze &f&lPet"

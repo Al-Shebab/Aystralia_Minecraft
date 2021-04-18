@@ -50,9 +50,9 @@ rewards:
   - if:
       default: true
     commands:
-    - money give %player% 2500
-    - crate give %player% VoteCrate
-    - cmi tfly %player% +300
+    - money give %player% 2500 -s
+    - crate sgive %player% VoteCrate
+    - cmi tfly %player% +300 -s
     player-message: "&bThanks for voting!"
     broadcast-message: "&9&l%player% &fhas voted for us on &b&l%service%. &fThank you!"
 
@@ -69,7 +69,7 @@ broadcast:
   enabled: true
 
   # Should we tell players if they voted?
-  message-player: true
+  message-player: false
 
   # Should we broadcast queued votes?
   queued: true
@@ -102,7 +102,7 @@ vote-command:
 vote-reminder:
   message: "&fDon't forget to vote for today! &fYou currently have &b%votes%&f votes."
   on-join: true
-  repeat: 3600
+  repeat: 999999
 
 # Controls the /sv <top/leaderboard> command.
 leaderboard:

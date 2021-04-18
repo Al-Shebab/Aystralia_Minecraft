@@ -509,8 +509,6 @@ Crates:
         Commands:
         - "crate pouch sgive {player_name} MoneyPouchIII"
         Name: "&9&lTier III &f&lMoney Pouch"
-        BroadcastMessagesToPlayers:
-          - "&9&l{player_name} &f&ljust won a &9&lTier III &f&lMoney Pouch"
       TierIV:
         Item: ENDER_CHEST
         Enchanted: true
@@ -518,8 +516,6 @@ Crates:
         Commands:
         - "crate pouch sgive {player_name} MoneyPouchIV"
         Name: "&3&lTier IV &f&lMoney Pouch"
-        BroadcastMessagesToPlayers:
-          - "&3&l{player_name} &f&ljust won a &3&lTier IV &f&lMoney Pouch"
       TierV:
         Item: ENDER_CHEST
         Enchanted: true

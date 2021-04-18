@@ -217,7 +217,7 @@ fastplace:
   # Should this check be enabled?
   enabled: true
   # Minimum time in milliseconds between block places
-  minimumTime: 30
+  minimumTime: 20
   # Amount of fastplace-moments before flagging a survival player
   vlBeforeFlagSurvival: 4
   # Amount of fastplace-moments before flagging a creative player

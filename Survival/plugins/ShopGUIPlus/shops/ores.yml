@@ -196,3 +196,10 @@ ores:
       sellPrice: 1000
       buyPrice: 15000
       slot: 23
+    25:
+      type: item
+      item:
+        material: TORCH
+        quantity: 1
+      buyPrice: 5
+      slot: 24

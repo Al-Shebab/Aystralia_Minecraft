@@ -200,3 +200,24 @@ nether:
         quantity: 1
       buyPrice: 250
       slot: 27
+    29:
+      type: item
+      item:
+        material: SOUL_LANTERN
+        quantity: 1
+      buyPrice: 150
+      slot: 28
+    30:
+      type: item
+      item:
+        material: SOUL_CAMPFIRE
+        quantity: 1
+      buyPrice: 50
+      slot: 29
+    31:
+      type: item
+      item:
+        material: SOUL_TORCH
+        quantity: 1
+      buyPrice: 5
+      slot: 30

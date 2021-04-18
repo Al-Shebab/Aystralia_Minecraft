@@ -5,7 +5,6 @@ messages:
 - '&b&lInformation &8> &fThe server auto restarts at &b3am'
 - '&b&lInformation &8> &fJoin our discord! &b/discord'
 - '&b&lInformation &8> &fEarn more money by taking on jobs! &b/jobs'
-- '&b&lInformation &8> &fYou can disable these messages by using &b/broadcastignore'
 - '&b&lInformation &8> &fPlaying with friends? Create a party! &b/party'
 - '&b&lInformation &8> &fLooking to PVP? Fight at the arena &b/warp pvp'
 - '&b&lInformation &8> &fNeed more space? Use your backpack &b/bp'
