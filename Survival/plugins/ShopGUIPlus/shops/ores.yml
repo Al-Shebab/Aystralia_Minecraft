@@ -63,15 +63,15 @@ ores:
     8:
       type: item
       item:
-        material: IRON_ORE
+        material: COAL_BLOCK
         quantity: 1
-      sellPrice: 5
-      buyPrice: 1500
+      sellPrice: 9
+      buyPrice: 4500
       slot: 7
     9:
       type: item
       item:
-        material: IRON_INGOT
+        material: IRON_ORE
         quantity: 1
       sellPrice: 5
       buyPrice: 1500
@@ -79,127 +79,191 @@ ores:
     10:
       type: item
       item:
+        material: IRON_INGOT
+        quantity: 1
+      sellPrice: 5
+      buyPrice: 1500
+      slot: 9
+    11:
+      type: item
+      item:
+        material: IRON_BLOCK
+        quantity: 1
+      sellPrice: 45
+      buyPrice: 13500
+      slot: 10
+    12:
+      type: item
+      item:
         material: GOLD_ORE
         quantity: 1
       sellPrice: 20
       buyPrice: 500
-      slot: 9
-    11:
+      slot: 11
+    13:
       type: item
       item:
         material: GOLD_INGOT
         quantity: 1
       sellPrice: 20
       buyPrice: 500
-      slot: 10
-    12:
+      slot: 12
+    14:
+      type: item
+      item:
+        material: GOLD_BLOCK
+        quantity: 1
+      sellPrice: 180
+      buyPrice: 4500
+      slot: 13
+    15:
       type: item
       item:
         material: REDSTONE_ORE
         quantity: 1
       sellPrice: 15
       buyPrice: 300
-      slot: 11
-    13:
+      slot: 14
+    16:
       type: item
       item:
         material: REDSTONE
         quantity: 1
       sellPrice: 5
       buyPrice: 100
-      slot: 12
-    14:
+      slot: 15
+    17:
+      type: item
+      item:
+        material: REDSTONE_BLOCK
+        quantity: 1
+      sellPrice: 45
+      buyPrice: 900
+      slot: 16
+    18:
       type: item
       item:
         material: EMERALD_ORE
         quantity: 1
       sellPrice: 50
       buyPrice: 5000
-      slot: 13
-    15:
+      slot: 17
+    19:
       type: item
       item:
         material: EMERALD
         quantity: 1
       sellPrice: 3
       buyPrice: 1000
-      slot: 14
-    16:
+      slot: 18
+    20:
+      type: item
+      item:
+        material: EMERALD_BLOCK
+        quantity: 1
+      sellPrice: 27
+      buyPrice: 9000
+      slot: 19
+    21:
       type: item
       item:
         material: LAPIS_ORE
         quantity: 1
       sellPrice: 50
       buyPrice: 10000
-      slot: 15
-    17:
+      slot: 20
+    22:
       type: item
       item:
         material: LAPIS_LAZULI
         quantity: 1
       sellPrice: 3
       buyPrice: 5000
-      slot: 16
-    18:
+      slot: 21
+    23:
+      type: item
+      item:
+        material: LAPIS_BLOCK
+        quantity: 1
+      sellPrice: 27
+      buyPrice: 45000
+      slot: 22
+    24:
       type: item
       item:
         material: DIAMOND_ORE
         quantity: 1
       sellPrice: 150
       buyPrice: 25000
-      slot: 17
-    19:
+      slot: 23
+    25:
       type: item
       item:
         material: DIAMOND
         quantity: 1
       sellPrice: 100
       buyPrice: 10000
-      slot: 18
-    20:
+      slot: 24
+    26:
+      type: item
+      item:
+        material: DIAMOND_BLOCK
+        quantity: 1
+      sellPrice: 900
+      buyPrice: 90000
+      slot: 25
+    27:
       type: item
       item:
         material: NETHER_QUARTZ_ORE
         quantity: 1
       sellPrice: 10
       buyPrice: 3000
-      slot: 19
-    21:
+      slot: 26
+    28:
       type: item
       item:
         material: QUARTZ
         quantity: 1
       sellPrice: 1
       buyPrice: 1000
-      slot: 20
-    22:
+      slot: 27
+    29:
       type: item
       item:
         material: NETHER_GOLD_ORE
         quantity: 1
       sellPrice: 10
       buyPrice: 1500
-      slot: 21
-    23:
+      slot: 28
+    30:
       type: item
       item:
         material: ANCIENT_DEBRIS
         quantity: 1
       sellPrice: 150
       buyPrice: 15000
-      slot: 22
-    24:
+      slot: 29
+    31:
       type: item
       item:
         material: NETHERITE_INGOT
         quantity: 1
       sellPrice: 1000
       buyPrice: 15000
-      slot: 23
-    25:
+      slot: 30
+    32:
+      type: item
+      item:
+        material: NETHERITE_BLOCK
+        quantity: 1
+      sellPrice: 9000
+      buyPrice: 135000
+      slot: 31
+    33:
       type: item
       item:
         material: TORCH
         quantity: 1
       buyPrice: 5
-      slot: 24
+      slot: 32

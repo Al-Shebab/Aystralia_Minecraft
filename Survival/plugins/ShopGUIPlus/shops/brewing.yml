@@ -97,8 +97,8 @@ brewing:
       item:
         material: GUNPOWDER 
         quantity: 1
-      sellPrice: 1.5
-      buyPrice: 150
+      sellPrice: 15
+      buyPrice: 100
       slot: 11
     13:
       type: item
