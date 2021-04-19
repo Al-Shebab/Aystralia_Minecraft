@@ -76,7 +76,7 @@ speed:
     # Should this part of the check be enabled?
     enabled: true
     # Minimum movement distance needed to flag
-    minimumDistXZ: 0.6
+    minimumDistXZ: 0.8
   # Checks movement speed on the ground
   # Debugs as 'moved too fast on ground'
   groundSpeed:
@@ -90,7 +90,7 @@ speed:
     # Should this part of the check be enabled?
     enabled: true
     # Extra compensation when moving off a ladder up a slab
-    climbableCompensation: 0.08
+    climbableCompensation: 0.12
 # Strafe check settings
 # Checks if a player switches movement angle in air
 strafe:
@@ -153,7 +153,7 @@ killaura:
   # Debugs as 'reached too far'
   reach:
     # Should this part of the check be enabled?
-    enabled: true
+    enabled: false
     # Maximum base reach distances
     baseMaxValue:
       # Maximum base reach value
@@ -217,7 +217,7 @@ fastplace:
   # Should this check be enabled?
   enabled: true
   # Minimum time in milliseconds between block places
-  minimumTime: 30
+  minimumTime: 20
   # Amount of fastplace-moments before flagging a survival player
   vlBeforeFlagSurvival: 4
   # Amount of fastplace-moments before flagging a creative player
@@ -228,7 +228,7 @@ fastplace:
 # Checks if the player is using, placing or breaking blocks from illegal angles
 illegalinteract:
   # Maximum difference in angle from the players view
-  maxAngleDifference: 90
+  maxAngleDifference: 120
   # Checks angle when breaking a block
   # Debugs as 'tried to break a block which was out of view'
   break:
@@ -245,13 +245,13 @@ illegalinteract:
     # Should this part of the check be enabled?
     enabled: true
     # Default survival interact range
-    survivalRange: 5.8
+    survivalRange: 6.0
     # Default creative interact range
-    creativeRange: 6.8
+    creativeRange: 7.0
     # Extra allowed reach distance per millisecond of ping
-    pingCompensation: 0.0045
+    pingCompensation: 0.007
     # The multiplier of extra compensation for velocity
-    velocityMultiplier: 1.5
+    velocityMultiplier: 1.7
 # BadPackets check settings
 # Checks for illegal packets
 badpackets:

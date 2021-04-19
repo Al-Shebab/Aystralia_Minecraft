@@ -7,6 +7,17 @@
 # Note, item use requires the cmdi.item.<name> permission. I.e. to use the fly items you'll have to give the player cmdi.item.fly
 
 items:
+  flytoken:
+    item:
+      type: FEATHER
+      name: "&b&lVote &f&lFly"
+      lore: ["&fRight-click to redeem", "&f", "&bActivates 5 minutes of fly"]
+      glow: true
+    consumed: true
+    cooldown: 1
+    actions:
+      - { action: COMMAND, by: CONSOLE, command: "cmi tfly {player} +300 -s" }
+      - { action: MESSAGE, to: PLAYER, message: "&b&lFly &8> &fYou have redeemed &b5 minutes of fly!" }
   islandfly:
     item:
       type: FEATHER

@@ -2,12 +2,18 @@
   "homeLocations": {},
   "uniqueId": "0473cdbb-1524-4c99-812f-1969ad4f233b",
   "playerName": "AngelThorn_",
-  "resets": {},
+  "resets": {
+    "skyblock": 1
+  },
   "locale": "",
   "deaths": {
     "skyblock": 0
   },
   "pendingKicks": [],
   "flagsDisplayMode": "BASIC",
-  "metaData": {}
+  "metaData": {
+    "Border_state": {
+      "booleanValue": true
+    }
+  }
 }

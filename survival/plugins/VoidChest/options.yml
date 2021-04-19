@@ -251,7 +251,7 @@ Player:
     # By default, players will have the default amount.
     # If the default amount doesn't exist, the limit will automatically be 5, unless other permission is given.
     limit:
-      default: 5
+      default: 100
       vip: 10
       admin: 20
 

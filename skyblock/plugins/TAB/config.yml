@@ -46,6 +46,7 @@ group-sorting-priority-list:
   - melbourne
   - brisbane
   - perth
+  - veteran
   - trusted
   - member
   - default
@@ -102,6 +103,9 @@ Groups:
   perth:
     tabprefix: "{#3de5ff}Perth&r "
     tagprefix: "{#3de5ff}Perth&r "
+  veteran:
+    tabprefix: "{#004fd4}Veteran&r "
+    tagprefix: "{#004fd4}Veteran&r "
   trusted:
     tabprefix: "{#773dff}Trusted&r "
     tagprefix: "{#773dff}Trusted&r "

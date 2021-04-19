@@ -17,7 +17,7 @@ header:
 footer:
   - ""
   - "&fPing: &b%ping%"
-  - "&fTPS: &b%tps%"
+  - "&fTPS: &b%server_tps_1%"
   - "&b%time%"
   - "%animation:NAME%"
 
@@ -28,11 +28,12 @@ yellow-number-in-tablist: ""
 group-sorting-priority-list:
   - owner
   - community-manager
+  - server-manager
   - staff-manager
   - developer
   - trial-developer
   - senior-administrator
-  - administator
+  - administrator
   - senior-moderator
   - moderator
   - trial-moderator
@@ -45,6 +46,7 @@ group-sorting-priority-list:
   - melbourne
   - brisbane
   - perth
+  - veteran
   - trusted
   - member
   - default
@@ -101,6 +103,9 @@ Groups:
   perth:
     tabprefix: "{#3de5ff}Perth&r "
     tagprefix: "{#3de5ff}Perth&r "
+  veteran:
+    tabprefix: "{#004fd4}Veteran&r "
+    tagprefix: "{#004fd4}Veteran&r "
   trusted:
     tabprefix: "{#773dff}Trusted&r "
     tagprefix: "{#773dff}Trusted&r "
@@ -129,7 +134,7 @@ classic-vanilla-belowname:
   enabled: true
   
   #number or numeric placeholder, supports per-player placeholders
-  number: "%ping%"
+  number: "%player_ping%"
   
   #text after number, must be same on all players
   text: "ms"

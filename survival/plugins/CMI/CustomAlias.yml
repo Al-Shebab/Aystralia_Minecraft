@@ -33,3 +33,6 @@ CustomAlias:
   wild:
     Cmds:
     - cmi rt world
+  discord:
+    Cmds:
+    - cmi ctext discord

@@ -52,7 +52,7 @@ rewards:
     commands:
     - money give %player% 2500 -s
     - crate sgive %player% VoteCrate
-    - cmi tfly %player% +300 -s
+    - cmdi give %player% flytoken
     player-message: "&bThanks for voting!"
     broadcast-message: "&9&l%player% &fhas voted for us on &b&l%service%. &fThank you!"
 
@@ -69,7 +69,7 @@ broadcast:
   enabled: true
 
   # Should we tell players if they voted?
-  message-player: true
+  message-player: false
 
   # Should we broadcast queued votes?
   queued: true

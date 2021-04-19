@@ -21,7 +21,7 @@ storage:
 votes:
   # At least this many seconds must pass before allowing another vote (per-service). This will apply per service.
   # Default: 3600 seconds (1 hour)
-  cooldown-per-service: 1
+  cooldown-per-service: 0
 
   # Whether or not to treat fake votes as real votes
   process-fake-votes: true
@@ -52,7 +52,7 @@ rewards:
     commands:
     - money give %player% 2500 -s
     - crate sgive %player% VoteCrate
-    - cmi tfly %player% +300 -s
+    - cmdi give %player% flytoken
     player-message: "&bThanks for voting!"
     broadcast-message: "&9&l%player% &fhas voted for us on &b&l%service%. &fThank you!"
 
@@ -102,7 +102,7 @@ vote-command:
 vote-reminder:
   message: "&fDon't forget to vote for today! &fYou currently have &b%votes%&f votes."
   on-join: true
-  repeat: 999999
+  repeat: 3600
 
 # Controls the /sv <top/leaderboard> command.
 leaderboard:

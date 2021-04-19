@@ -5,6 +5,7 @@ Players:
   fda1973c-f476-4fa8-9ca0-805ec201377d:
   - I,world,3836,71,4058,null,null,null,null,I,82,1618119723379,false,null,null,BLACKLIST,true
   - I,world,3836,66,4058,null,null,null,null,I,86,1618119692351,false,null,null,BLACKLIST,true
+  - I,world,3836,76,4058,null,null,null,null,I,0,1618817582600,false,null,null,BLACKLIST,true
   - II,world,3833,66,4036,null,null,null,null,II,54,1617078411468,false,null,null,BLACKLIST,true
   - I,world,3836,70,4058,null,null,null,null,I,37,1618119720007,false,null,null,BLACKLIST,true
   - I,world,3836,65,4058,null,null,null,null,I,2,1618119684766,false,null,null,BLACKLIST,true
@@ -18,18 +19,21 @@ Players:
   - I,world,3836,67,4058,null,null,null,null,I,40,1618119703175,false,null,null,BLACKLIST,true
   - I,world,3832,64,4036,null,null,null,null,I,165,1618121529572,false,null,null,BLACKLIST,true
   - I,world,3836,63,4058,null,null,null,null,I,0,1617954326846,false,null,null,BLACKLIST,true
+  - I,world,3836,77,4058,null,null,null,null,I,0,1618818917192,false,null,null,BLACKLIST,true
   - I,world,3836,72,4058,null,null,null,null,I,0,1618119727976,false,null,null,BLACKLIST,true
+  - I,world,3836,77,4057,null,null,null,null,I,0,1618817588398,false,null,null,BLACKLIST,true
   f4d5e1b8-43e7-47eb-9b3b-21d66b202af7:
-  - IV,world,3332,46,-6890,null,null,null,null,IV,319,1617283547945,false,null,null,BLACKLIST,true
+  - I,world,3345,44,-6892,world,3345,57,-6881,I,19304,1618799521148,false,SVJPTl9JTkdPVHxudWxs:,SVJPTl9JTkdPVHxudWxs:,WHITELIST,true
+  - IV,world,3332,46,-6890,null,null,null,null,IV,461,1617283547945,false,null,null,BLACKLIST,true
   b4dc8143-084b-4ae0-85ba-b5aa2e81ea17:
-  - II,world,-4846,69,-4253,world,-4831,79,-4245,II,2102,1617859310378,true,null,null,BLACKLIST,false
+  - II,world,-4846,69,-4253,world,-4831,79,-4245,II,2446,1617859310378,true,null,null,BLACKLIST,false
   - I,world,-4862,67,-4188,null,null,null,null,I,278,1617528960048,false,null,null,BLACKLIST,true
   - I,world,-4831,79,-4245,world,-4840,75,-4233,I,1762,1617859445978,false,null,null,BLACKLIST,false
   9fe712c8-e226-49fb-92ed-c7edf5660b4b:
   - I,world,-4840,75,-4236,world,-4842,80,-4222,I,14173,1617858582655,false,null,null,BLACKLIST,false
   - I,world,-4846,69,-4251,world,-4840,75,-4236,I,89,1617859080591,false,null,null,BLACKLIST,true
-  - I,world,-4843,49,-4255,world,-4842,72,-4253,I,3749,1618364524885,false,Uk9UVEVOX0ZMRVNIfG51bGw=:,Uk9UVEVOX0ZMRVNIfG51bGw=:,WHITELIST,true
-  - I,world,-4841,55,-4227,world,-4840,76,-4234,I,177,1618705525746,false,null,null,BLACKLIST,false
+  - I,world,-4843,49,-4255,world,-4842,72,-4253,I,3767,1618364524885,false,Uk9UVEVOX0ZMRVNIfG51bGw=:,Uk9UVEVOX0ZMRVNIfG51bGw=:,WHITELIST,true
+  - I,world,-4841,55,-4227,world,-4840,76,-4234,I,7740,1618705525746,false,null,null,BLACKLIST,false
   - I,world,-4859,86,-4227,null,null,null,null,I,0,1618692585819,false,null,null,BLACKLIST,false
   48694fa9-fd64-416c-bb1d-38fad623c081:
   - I,world_nether,-675,128,-633,world_nether,-679,128,-650,I,21263,1617771516811,false,null,null,BLACKLIST,true
@@ -44,8 +48,13 @@ Players:
   db124855-df1c-4a77-849a-fe55d1f90967:
   - II,world,-4790,69,-4196,world,-4788,70,-4192,II,153,1618193538549,false,null,null,BLACKLIST,false
   6345a094-61d3-475f-b421-7896951ae536:
-  - I,world,1994,24,3459,world,1995,24,3459,I,8564,1618332542753,false,null,null,BLACKLIST,true
+  - I,world,1994,24,3459,world,1995,24,3459,I,8573,1618332542753,false,null,null,BLACKLIST,true
   0e4ab47f-d8b4-4929-850d-2a58629d2e78:
-  - II,world,3087,11,5607,null,null,null,null,II,15,1618604652282,false,null,null,BLACKLIST,false
+  - II,world,3087,11,5607,null,null,null,null,II,67,1618604652282,false,null,null,BLACKLIST,false
   ef7e3574-30f6-40e4-9130-1595fceac4db:
   - III,world,-6285,63,-5182,world,-6288,63,-5182,III,426058,1618633256026,false,null,null,BLACKLIST,false
+  bb0a39a2-fb6a-48a1-99e9-79d4229ed129:
+  - I,world,2020,125,3564,null,null,null,null,I,203,1618793035262,false,null,null,BLACKLIST,true
+  - I,world,2013,125,3564,null,null,null,null,I,165,1618792806707,false,null,null,BLACKLIST,true
+  080fb638-f444-4043-ae03-10756a1c1866:
+  - I,world,4590,68,-5040,world,4579,68,-5042,I,0,1618798149837,false,null,null,WHITELIST,true

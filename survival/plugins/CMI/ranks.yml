@@ -108,7 +108,7 @@ trusted:
   AutoRankup: true
   RankupConfirmation: false
   NextRanks:
-  - Last
+  - veteran
   MoneyCost: 0
   Commands:
   - broadcast! &b[playerDisplayName] &fleveled up to {#773dff}Trusted&r
@@ -116,3 +116,17 @@ trusted:
   - luckperms user [playerName] parent add trusted
   StatsRequirements:
   - PlayTime:86400
+veteran:
+  Enabled: true
+  DisplayName: '{#004fd4}Veteran&r'
+  AutoRankup: true
+  RankupConfirmation: false
+  NextRanks:
+  - Last
+  MoneyCost: 0
+  Commands:
+  - broadcast! &b[playerDisplayName] &fleveled up to {#004fd4}Veteran&r
+  - cmi money give [playerName] 100000
+  - luckperms user [playerName] parent add veteran
+  StatsRequirements:
+  - PlayTime:604800
