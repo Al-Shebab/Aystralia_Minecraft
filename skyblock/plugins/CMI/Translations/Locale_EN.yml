@@ -766,7 +766,7 @@ modify:
   addSymbolHover: '&9Add new'
   cancelSymbol: ' &c&l[X]'
   cancelSymbolHover: '&cCancel'
-  acceptSymbol: ' &9&l[✔]'
+  acceptSymbol: ' &a&l[✔]'
   acceptSymbolHover: '&aAccept'
   denySymbol: ' &c&l[X]'
   denySymbolHover: '&cDeny'
