@@ -764,7 +764,7 @@ modify:
   extraEditSymbol: ' &b!'
   addSymbol: '&9[+]'
   addSymbolHover: '&9Add new'
-  cancelSymbol: ' &b&l[X]'
+  cancelSymbol: ' &c&l[X]'
   cancelSymbolHover: '&cCancel'
   acceptSymbol: ' &9&l[✔]'
   acceptSymbolHover: '&aAccept'
