@@ -467,9 +467,9 @@ Afk:
   # Prevents jumping in one place to avoid afk status
   PreventJumping: true
   # Prevents damage while afk
-  PreventDamage: false
+  PreventDamage: true
   # Defines how often in seconds plugin will check for afk players state
-  CheckInterval: 30
+  CheckInterval: 10
   # When set to true, players playtime counter stops
   # As of nature how this system works you can see +-1second jumping up and down while checking players playtime
   StopPlayTime: false
@@ -479,17 +479,14 @@ Afk:
   # Defines commands to be performed when player enters afk mode automatically while addling
   # Supports specialized commands
   AutoAfkCmds:
-  - cmi playercollision [playerName] false -s
-  - msg! &b[playerName] &fis now &bAFK
+  - cmi broadcast !&b&lAFK &8> &b[playerDisplayName] &fis now AFK
   # Defines commands to be performed when player enters /cmi afk
   # Supports specialized commands
   ManualAfkCmds:
-  - cmi playercollision [playerName] false -s
-  - msg! &b[playerName] &fis now &bAFK
+  - cmi broadcast !&b&lAFK &8> &b[playerDisplayName] &fis now AFK
   # Defines commands to be performed when player leaves afk mode
   AfkLeaveCmds:
-  - cmi playercollision [playerName] true -s
-  - msg! &b[playerName] &fis no longer &bAFK
+  - cmi broadcast !&b&lAFK &8> &b[playerDisplayName] &fis no longer AFK
   # Defines how long to wait after player stops moving to kick player
   # This is additional timer to AutoAfkIn and in case player entered afk mode manually he will get kicked after AutoAfkIn+AutoKickIn seconds
   # This can be used not only to kick but to perform repeating action every x seconds if needed
@@ -504,7 +501,7 @@ Afk:
   # Defines commands to be performed when player can be kicked
   # If player is not kicked then commands will be repeated every RepeatingAutoKickInterval seconds
   AutoKickCmds:
-  - kick fuckoffcmi
+  - asiojdnvo
   # Defines worlds where players will not be placed into afk mode after they idled for defined time
   DisabledWorlds:
   - oneTestWorld
@@ -514,7 +511,7 @@ Afk:
   # Prevents player from going bypassing afk mode while continuously holding one button with particular items or on particular blocks
   SmartInteractCheck: true
   # Prevents from players abusing afk by constantly moving in afk machine
-  AntiAfkMachines: true
+  AntiAfkMachines: false
   # EXPERIMENTAL! Prevents players from being pushed around while player is in afk mode
   # Keep in mind that player can still be moved around the same block he is in
   PreventPushing: false
@@ -523,7 +520,7 @@ Afk:
   # Disables afk on item drop
   DisableOnitemDrop: true
   # Disables afk on command usage
-  DisableOnCommand: true
+  DisableOnCommand: false
   # Disables afk on public chat message
   DisableOnPublicChat: true
   # Disables afk on private chat message

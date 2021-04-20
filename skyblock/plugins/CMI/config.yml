@@ -468,32 +468,26 @@ Afk:
   # Prevents jumping in one place to avoid afk status
   PreventJumping: true
   # Prevents damage while afk
-  PreventDamage: false
+  PreventDamage: true
   # Defines how often in seconds plugin will check for afk players state
   CheckInterval: 10
   # When set to true, players playtime counter stops
   # As of nature how this system works you can see +-1second jumping up and down while checking players playtime
-  StopPlayTime: true
+  StopPlayTime: false
   # Defines how long to wait after player stops moving to set him as afk
   # Player needs to have cmi.command.afk.auto permission node
   AutoAfkIn: 300
   # Defines commands to be performed when player enters afk mode automatically while addling
   # Supports specialized commands
   AutoAfkCmds:
-  - cmi playercollision [playerName] false -s
-  - cmi broadcast! %cmi_user_name% {#fa7814}&lCommands &7» {#007ba7}You are {#fae600}now
-    {#007ba7}AFK!
+  - cmi broadcast !&6[playerDisplayName] &eis now AFK
   # Defines commands to be performed when player enters /cmi afk
   # Supports specialized commands
   ManualAfkCmds:
-  - cmi playercollision [playerName] false -s
-  - cmi broadcast! %cmi_user_name% {#fa7814}&lCommands &7» {#007ba7}You are {#fae600}now
-    {#007ba7}AFK!
+  - cmi broadcast !&6[playerDisplayName] &eis now AFK
   # Defines commands to be performed when player leaves afk mode
   AfkLeaveCmds:
-  - cmi playercollision [playerName] true -s
-  - cmi broadcast! %cmi_user_name% {#fa7814}&lCommands &7» {#007ba7}You are {#fae600}no
-    longer {#007ba7}AFK!
+  - cmi broadcast !&6[playerDisplayName] &eis no longer AFK
   # Defines how long to wait after player stops moving to kick player
   # This is additional timer to AutoAfkIn and in case player entered afk mode manually he will get kicked after AutoAfkIn+AutoKickIn seconds
   # This can be used not only to kick but to perform repeating action every x seconds if needed
@@ -508,7 +502,7 @@ Afk:
   # Defines commands to be performed when player can be kicked
   # If player is not kicked then commands will be repeated every RepeatingAutoKickInterval seconds
   AutoKickCmds:
-  - kick [playerName] You have been kicked for idling more than [time]
+  - asiojdnvo
   # Defines worlds where players will not be placed into afk mode after they idled for defined time
   DisabledWorlds:
   - oneTestWorld
@@ -1842,6 +1836,7 @@ Enchanting:
       cutter: 5
       quick_charge: 3
       double_strike: 4
+      wildstackerglow: 1
       protection_projectile: 4
       sonic: 3
       impaling: 5
