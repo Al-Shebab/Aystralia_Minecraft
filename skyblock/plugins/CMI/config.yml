@@ -1327,13 +1327,14 @@ WorldLimits:
   # If player will have cmi.worldlimit.gamemode.bypass permission node, game mode wont be changed
   # Possible modes: creative, survival, adventure, spectator, 
   Gamemode:
-  - world:survival
-  - world_nether:survival
-  - world_the_end:survival
+  - world:creative
+  - world_nether:creative
+  - world_the_end:creative
   # If player will have cmi.worldlimit.fly.bypass permission node, fly mode wont be changed
   Fly:
-  - world_nether:False
-  - world_the_end:False
+  - world:true
+  - world_nether:true
+  - world_the_end:true
   # If player will have cmi.worldlimit.elytra.bypass permission node, elytra flight will not be prevented
   # Players joining worlds with disable elytra flight will get their elytra dismounted if posible
   ElytraFlight:

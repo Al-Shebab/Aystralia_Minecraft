@@ -1331,10 +1331,13 @@ WorldLimits:
   - skyblock_the_end:survival
   # If player will have cmi.worldlimit.fly.bypass permission node, fly mode wont be changed
   Fly:
-  - world_nether:False
-  - world_the_end:False
-  - skyblock_nether:False
-  - skyblock_the_end:False
+  - world:false
+  - arctic:false
+  - fantasy:false
+  - realistic:false
+  - resource:false
+  - world_nether:false
+  - world_the_end:false
   # If player will have cmi.worldlimit.elytra.bypass permission node, elytra flight will not be prevented
   # Players joining worlds with disable elytra flight will get their elytra dismounted if posible
   ElytraFlight:
@@ -1348,10 +1351,13 @@ WorldLimits:
   - world_the_end-256
   # If player will have cmi.worldlimit.god.bypass permission node, fly mode wont be changed
   GodMode:
-  - world_nether:False
-  - world_the_end:False
-  - skyblock_nether:False
-  - skyblock_the_end:False
+  - world:false
+  - arctic:false
+  - fantasy:false
+  - realistic:false
+  - resource:false
+  - world_nether:false
+  - world_the_end:false
   # Prevents particular entity spawn reasons in defined worlds. All possible reasons: NATURAL, JOCKEY, CHUNK_GEN, SPAWNER, EGG, SPAWNER_EGG, LIGHTNING, BUILD_SNOWMAN, BUILD_IRONGOLEM, BUILD_WITHER, VILLAGE_DEFENSE, VILLAGE_INVASION, BREEDING, SLIME_SPLIT, REINFORCEMENTS, NETHER_PORTAL, DISPENSE_EGG, INFECTION, CURED, OCELOT_BABY, SILVERFISH_BLOCK, MOUNT, TRAP, ENDER_PEARL, SHOULDER_ENTITY, DROWNED, SHEARED, EXPLOSION, RAID, PATROL, BEEHIVE, PIGLIN_ZOMBIFIED, CUSTOM, DEFAULT
   SpawnReasons:
     world:

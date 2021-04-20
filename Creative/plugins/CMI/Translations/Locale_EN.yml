@@ -585,6 +585,8 @@ info:
     - SilkTouch
     quick_charge:
     - QUICKCHARGE
+    wildstackerglow:
+    - WildStackerGlow
     protection_projectile:
     - ProjectileProtection
     impaling:
