@@ -36,3 +36,5 @@ CustomAlias:
   discord:
     Cmds:
     - cmi ctext discord
+  test:
+    Cmds: []

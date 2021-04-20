@@ -49,7 +49,7 @@ Newbie:
       v: 2586
       type: COOKED_BEEF
       amount: 64
-    '36':
+    '35':
       v: 2586
       type: GOLDEN_SHOVEL
       meta:
@@ -133,100 +133,16 @@ Daily:
   CommandName: Daily
   Delay: 86400
   Items:
-    '27':
-      v: 2586
-      type: SADDLE
-      meta:
-        ==: ItemMeta
-        meta-type: UNSPECIFIC
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Obtained
-          via "},{"italic":false,"color":"aqua","text":"/kit daily"}],"text":""}'
     '28':
-      v: 2586
-      type: COOKED_BEEF
-      amount: 16
-      meta:
-        ==: ItemMeta
-        meta-type: UNSPECIFIC
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Obtained
-          via "},{"italic":false,"color":"aqua","text":"/kit daily"}],"text":""}'
-    '29':
-      v: 2586
-      type: LEAD
-      meta:
-        ==: ItemMeta
-        meta-type: UNSPECIFIC
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Obtained
-          via "},{"italic":false,"color":"aqua","text":"/kit daily"}],"text":""}'
-    '30':
-      v: 2586
-      type: NAME_TAG
-      meta:
-        ==: ItemMeta
-        meta-type: UNSPECIFIC
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Obtained
-          via "},{"italic":false,"color":"aqua","text":"/kit daily"}],"text":""}'
-    '31':
       v: 2586
       type: SHULKER_BOX
       meta:
         ==: ItemMeta
         meta-type: TILE_ENTITY
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Obtained
-          via "},{"italic":false,"color":"aqua","text":"/kit daily"}],"text":""}'
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit
+          Daily"}],"text":""}'
+        internal: H4sIAAAAAAAAAGWSQUvDQBCFJ7bVNgcVQdBb2XPBe06ieBAED3oTCZPspFmyzejuxFpK/6C/ypS6SanHeXzvDbyZGCCG0zvLefVQi5HVK84nMHoUWvgYAI4jGL5YFohgdM9NLdEYjoyGi4WpKXdYSFLjglLBOfyhUUDPYxi0egwn2vgPi6sJDJ/Y0bjNjeBnrehbHKrkba0ytlolBVpPM2UErcm7sak1Oduu6wkvzlQkpeNmXnYqZ0Xjc5Q9MGfLTiVqWRohNVPSrmzH50xwGzj9MjhVm9n6cGfw4WeDve2mMjLVaOxKbd47VW0AdqVc9qXkzBXpNCMqQi9HoZfxjj7bo0vyErhB4G7/Vc1YpUtmHdDhQeR1jxbG0ZJdlbr2tNSFjw4cV73DkfbCNaXZ9hvaG/0CattlIBwCAAA=
         blockMaterial: SHULKER_BOX
-    '32':
-      v: 2586
-      type: CHEST
-      amount: 8
-      meta:
-        ==: ItemMeta
-        meta-type: TILE_ENTITY
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Obtained
-          via "},{"italic":false,"color":"aqua","text":"/kit daily"}],"text":""}'
-        blockMaterial: CHEST
-    '33':
-      v: 2586
-      type: VILLAGER_SPAWN_EGG
-      meta:
-        ==: ItemMeta
-        meta-type: SPAWN_EGG
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Obtained
-          via "},{"italic":false,"color":"aqua","text":"/kit daily"}],"text":""}'
-    '34':
-      v: 2586
-      type: GOLD_BLOCK
-      meta:
-        ==: ItemMeta
-        meta-type: UNSPECIFIC
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Obtained
-          via "},{"italic":false,"color":"aqua","text":"/kit daily"}],"text":""}'
-    '35':
-      v: 2586
-      type: IRON_BLOCK
-      meta:
-        ==: ItemMeta
-        meta-type: UNSPECIFIC
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Obtained
-          via "},{"italic":false,"color":"aqua","text":"/kit daily"}],"text":""}'
-    '36':
-      v: 2586
-      type: COAL_BLOCK
-      meta:
-        ==: ItemMeta
-        meta-type: UNSPECIFIC
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Obtained
-          via "},{"italic":false,"color":"aqua","text":"/kit daily"}],"text":""}'
 oi:
   CommandName: oi
   Enabled: false
@@ -265,3 +181,238 @@ kfc:
         ==: ItemMeta
         meta-type: UNSPECIFIC
         display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"KFC"}],"text":""}'
+redstone:
+  CommandName: redstone
+  Delay: 10
+  Items:
+    '28':
+      v: 2586
+      type: RED_SHULKER_BOX
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Kit
+          Redstone"}],"text":""}'
+        internal: H4sIAAAAAAAAAHXRTQ/BQBAG4CktbRNSIuG3OAlxcOYua7u0sV/ZDol/b5Naq4vzPPPOZCYHyGG85opetxJrfBzIJYNkh0w0OdhiBPGeK4QIko26SVyl0KtLmIpaMmrIGZeGlQ0qyeBFI0eLls6/6ZEToZ3vOZ+2fuY9VUITQ1AZh/sB7uyhGUH2pnFAC08rpbWHiYNRCyceckZtonRy8H+6OjXM3H3oMKAfoaXpjE8DufhxL3sBWrmGLNh35BtQon3aE9wAIWvVAQAA
+        blockMaterial: RED_SHULKER_BOX
+pvp:
+  CommandName: pvp
+  Delay: 10
+  Items:
+    '1':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '2':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '3':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '4':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '5':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '6':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '7':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '8':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '9':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '10':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '11':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '12':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '13':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '14':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '15':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '16':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '17':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '18':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '19':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '20':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '21':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '22':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '23':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '24':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '25':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '26':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '27':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '33':
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_swiftness
+    '34':
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_swiftness
+    '35':
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_strength
+    '36':
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_strength

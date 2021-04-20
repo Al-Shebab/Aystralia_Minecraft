@@ -159,7 +159,7 @@ log:
   # Define whether transactions will be logged to the console/main server log
   toConsole: true
   # Define whether transactions will be logged to a separate log
-  toFile: false
+  toFile: true
   # Date format of transactions (http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html)
   formatDate: "yyyy/MM/dd HH:mm:ss"
   # Log message for bought command

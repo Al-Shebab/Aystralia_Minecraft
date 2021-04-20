@@ -5,7 +5,7 @@ end:
     PRIVATE: false
     SIGNPRIVATE: true
   invited: []
-  timeswarpedto: 142
+  timeswarpedto: 143
 al_shebab:
   owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
   location: world,-2796.557969183859,72.0,1463.6866072562086,-90.51245,-15.019583
@@ -14,7 +14,7 @@ al_shebab:
     SIGNPRIVATE: true
   invited: []
   timeswarpedto: 57
-total: 155
+total: 157
 cactus:
   owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
   location: world,-1031.8730484289074,1.0,3445.4878586337186,0.7126465,1.0356176
@@ -30,7 +30,7 @@ market:
     PRIVATE: false
     SIGNPRIVATE: true
   invited: []
-  timeswarpedto: 833
+  timeswarpedto: 889
 pvp:
   owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
   location: world,-232.6454408497035,78.0,232.38844669883412,-224.3418,4.7716184
@@ -39,3 +39,11 @@ pvp:
     SIGNPRIVATE: true
   invited: []
   timeswarpedto: 205
+shop:
+  owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  location: world,29.51607159584969,66.0,-26.47561247435537,-359.6647,0.5154234
+  flags:
+    PRIVATE: false
+    SIGNPRIVATE: true
+  invited: []
+  timeswarpedto: 0
