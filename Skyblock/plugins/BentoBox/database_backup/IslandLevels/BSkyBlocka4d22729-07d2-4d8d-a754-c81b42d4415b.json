@@ -1,0 +1,28 @@
+{
+  "uniqueId": "BSkyBlocka4d22729-07d2-4d8d-a754-c81b42d4415b",
+  "level": 1576,
+  "initialLevel": 0,
+  "pointsToNextLevel": 90,
+  "uwCount": {},
+  "mdCount": {
+    "OAK_SLAB": 4,
+    "DIRT": 33,
+    "AIR": 10230645,
+    "STONE_BRICKS": 4248,
+    "TORCH": 111,
+    "BEDROCK": 1,
+    "GRASS_BLOCK": 601,
+    "OAK_SAPLING": 11,
+    "LAVA": 1,
+    "HOPPER": 3,
+    "CHEST": 11,
+    "PLAYER_HEAD": 1,
+    "WHITE_BED": 2,
+    "OAK_LEAVES": 3,
+    "COBBLESTONE": 29,
+    "FURNACE": 2,
+    "OAK_PLANKS": 4164,
+    "WATER": 129,
+    "CRAFTING_TABLE": 1
+  }
+}

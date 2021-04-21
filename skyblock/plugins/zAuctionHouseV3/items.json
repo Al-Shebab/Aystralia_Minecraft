@@ -1,11 +1,7 @@
 {
   "items": [],
-  "buyingItems": [
-    "{\n  \"seller\": \"8bc430e9-6e38-4dea-9501-49344c48446d\",\n  \"item\": \"H4sIAAAAAAAAAEXMQQ6CQAxG4R8mJDhL3XAWt4QL6AFMZSpMhJZMq+eXhIXr9+VFoEWdE7o1C4+FXn5lGWcS5/R4qr4jgtMUEG+8US69mgMIJ5zvroXTcOiVxS3upTp+l//PZiqbsFmNsHwXNDtC0+tHvMIPY/WAz4EAAAA=\",\n  \"price\": 10000,\n  \"expire\": 1618999149808,\n  \"id\": \"f1b3548e-7c91-44b7-98d4-32b234a39e2d\",\n  \"economy\": \"VAULT\",\n  \"type\": \"DEFAULT\",\n  \"buyer\": \"468ce6b8-9bd6-4bd5-9657-c7b67b16c281\"\n}"
-  ],
-  "expiredItems": [
-    "{\n  \"seller\": \"f4d5e1b8-43e7-47eb-9b3b-21d66b202af7\",\n  \"item\": \"H4sIAAAAAAAAAONiYOBgYMpMYRDNzcxLTS5KTCuxSs1LSS2KL0hNLMphZGB1zi/NK7FnAAClrKnTKQAAAA==\",\n  \"price\": 75000,\n  \"expire\": 1618984718732,\n  \"id\": \"86dd90a3-8548-425e-8d63-5834330a7d5c\",\n  \"economy\": \"VAULT\",\n  \"type\": \"DEFAULT\",\n  \"buyer\": null\n}"
-  ],
+  "buyingItems": [],
+  "expiredItems": [],
   "transactions": [
     "{\n  \"seller\": \"e79fc165-83d6-4139-9a8f-d42bf1c23f87\",\n  \"date\": 1614818012929,\n  \"is_read\": true,\n  \"item\": \"H4sIAAAAAAAAAJXSyU7DMBCA4UmzNDWQlvXAW3DlhFgOPcM9chI3teLYleNI7XvzABSFiY0jKnH/9HvGNgFIYcYruG+5ZKWmG/MoeMvybtuLhum8UHsCoaE1gexZqLJ5k4abwwetFxCvDWs7AgCrAKJ3oQwEEL+oXpqnoXprq6UqCsE6oySDHx38S89QB4O+tHrTa0nLUYaedLrbY/CQF9+LoI5Q3wz6ymoqK9ZxM4ZjpMlkhIor7cgEJZlEayWqXOmRzpE+TCjXSro0RTqfnF9rKp3zF1709NWS4YlDSF5pS2t2fNFP8C7xzhtrx8uG7sfEGfJo4NfOf6I73rlrnHvpzNrCmeoCWThhFdcGWeb9oqVlv5Zcokv/cGBXhi+Equf+GAMAAA==\",\n  \"need_money\": false,\n  \"price\": 0,\n  \"economy\": \"VAULT\",\n  \"buyer\": \"3368f471-c1d5-4f9f-8b0e-2245724bf905\"\n}",
     "{\n  \"seller\": \"3368f471-c1d5-4f9f-8b0e-2245724bf905\",\n  \"date\": 1614818156056,\n  \"is_read\": true,\n  \"item\": \"H4sIAAAAAAAAAONiYOBgYMpMYRDNzcxLTS5KTCuxSs1LSS2KL0hNLMphZGB1zi/NK2FkAADYt2ySKQAAAA==\",\n  \"need_money\": false,\n  \"price\": 10,\n  \"economy\": \"VAULT\",\n  \"buyer\": \"e79fc165-83d6-4139-9a8f-d42bf1c23f87\"\n}",

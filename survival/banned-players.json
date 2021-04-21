@@ -16,6 +16,14 @@
     "reason": "Cheating"
   },
   {
+    "uuid": "4d2ccacc-6cc8-4dbb-8c29-2e138ca2e157",
+    "name": "ligma_left_nut",
+    "created": "2021-04-20 21:10:13 -0700",
+    "source": "§bServer",
+    "expires": "forever",
+    "reason": "Anti-Cheat Ban - Appeal via https://discord.gg/hWN7zXtbQP"
+  },
+  {
     "uuid": "f14b8cc1-63ff-48b5-8218-953ceba2196e",
     "name": "budingika",
     "created": "2021-04-15 09:53:03 -0700",
@@ -134,14 +142,6 @@
     "source": "Al_Shebab",
     "expires": "forever",
     "reason": "Cheating"
-  },
-  {
-    "uuid": "9943bf37-13a6-3ded-b979-1ac1d658efa9",
-    "name": "Feeyne_Hugh_Dong",
-    "created": "2021-04-17 23:12:38 -0700",
-    "source": "bigbulkcat",
-    "expires": "forever",
-    "reason": "§fViolated server rules"
   },
   {
     "uuid": "6f99075b-b2e0-32cb-90c8-cd42d8504b86",
