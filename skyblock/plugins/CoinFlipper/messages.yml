@@ -56,8 +56,8 @@ BET_CHALLENGE_ALREADYSPINNING: '&cThe player you are trying to challenge is alre
 BET_CHALLENGE_NOMONEY: '&cYou can''t afford to challenge this bet.'
 BET_TITLE_VICTORY: '&bVictory'
 BET_TITLE_LOSS: '&cLoss'
-BET_WON: '&bYou have won your bet against &f%LOSER% &bwith the value &f%MONEY%'
-BET_LOST: '&cYou have lost your bet against &f%WINNER% &cwith the value &f%MONEY%'
+BET_WON: '&a+%MONEY%'
+BET_LOST: '&c-%MONEY%'
 HIGH_GAME_BROADCAST: '&f%WINNER% &bjust won a bet worth &f%MONEY% &b against &f%LOSER%&b.'
 BET_TITLE_COMBAT: '&cCombat'
 BET_START_COMBAT: '&fA Coinflip game you participate in is running but you are

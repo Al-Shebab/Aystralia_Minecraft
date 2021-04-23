@@ -3,43 +3,46 @@
 #    hopperconfig,world,xpos,ypos,zpos,worldforchest/hopper,xpos,ypos,zpos,level,itemstransfered,dateplaced,hoppertpenabled,blockeswhitelisted,blocksblacklisted
 Players:
   fda1973c-f476-4fa8-9ca0-805ec201377d:
-  - II,world,3833,66,4036,null,null,null,null,II,54,1617078411468,false,null,null,BLACKLIST,true
-  - I,world,3836,70,4058,null,null,null,null,I,37,1618119720007,false,null,null,BLACKLIST,true
-  - I,world,3836,65,4058,null,null,null,null,I,2,1618119684766,false,null,null,BLACKLIST,true
-  - I,world,3836,75,4058,null,null,null,null,I,12,1618119739478,false,null,null,BLACKLIST,true
-  - I,world,3836,73,4058,null,null,null,null,I,1,1618119731776,false,null,null,BLACKLIST,true
-  - I,world,3836,68,4058,null,null,null,null,I,70,1618119709477,false,null,null,BLACKLIST,true
-  - I,world,3832,64,4036,null,null,null,null,I,165,1618121529572,false,null,null,BLACKLIST,true
-  - I,world,3836,71,4058,null,null,null,null,I,82,1618119723379,false,null,null,BLACKLIST,true
-  - I,world,3836,66,4058,null,null,null,null,I,86,1618119692351,false,null,null,BLACKLIST,true
-  - I,world,3836,76,4058,null,null,null,null,I,0,1618817582600,false,null,null,BLACKLIST,true
-  - I,world,3836,64,4058,null,null,null,null,I,50,1618119683366,false,null,null,BLACKLIST,true
-  - I,world,3836,74,4058,null,null,null,null,I,24,1618119735950,false,null,null,BLACKLIST,true
-  - I,world,3836,69,4058,null,null,null,null,I,35,1618119715066,false,null,null,BLACKLIST,true
-  - I,world,3836,63,4057,null,null,null,null,I,0,1618199329442,false,null,null,BLACKLIST,true
-  - I,world,3836,67,4058,null,null,null,null,I,40,1618119703175,false,null,null,BLACKLIST,true
-  - I,world,3836,63,4058,null,null,null,null,I,0,1617954326846,false,null,null,BLACKLIST,true
-  - I,world,3836,77,4058,null,null,null,null,I,0,1618818917192,false,null,null,BLACKLIST,true
-  - I,world,3836,72,4058,null,null,null,null,I,0,1618119727976,false,null,null,BLACKLIST,true
-  - I,world,3836,77,4057,null,null,null,null,I,0,1618817588398,false,null,null,BLACKLIST,true
+  - II,world,3902,55,4078,null,null,null,null,II,4,1619128814548,false,null,null,BLACKLIST,true
+  - II,world,3902,55,4077,null,null,null,null,II,10,1619128981451,false,null,null,BLACKLIST,true
+  - I,world,3805,67,4040,null,null,null,null,I,0,1619129992237,false,null,null,BLACKLIST,true
+  - I,world,3805,67,4041,null,null,null,null,I,0,1619129992583,false,null,null,BLACKLIST,false
+  - II,world,3833,66,4036,null,null,null,null,II,310,1617078411468,false,null,null,BLACKLIST,true
+  - I,world,3832,64,4036,null,null,null,null,I,234,1618121529572,false,null,null,BLACKLIST,true
+  - I,world,3805,67,4028,null,null,null,null,I,2,1619129973329,false,null,null,BLACKLIST,true
+  - I,world,3805,67,4027,null,null,null,null,I,86,1619129971637,false,null,null,BLACKLIST,true
+  - I,world,3805,67,4033,null,null,null,null,I,24,1619129985285,false,null,null,BLACKLIST,true
+  - I,world,3806,67,4035,null,null,null,null,I,0,1619130156146,false,null,null,BLACKLIST,true
+  - I,world,3805,67,4034,null,null,null,null,I,50,1619129986392,false,null,null,BLACKLIST,true
+  - I,world,3805,67,4032,null,null,null,null,I,134,1619129984291,false,null,null,BLACKLIST,true
+  - I,world,3805,67,4030,null,null,null,null,I,40,1619129981637,false,null,null,BLACKLIST,true
+  - I,world,3805,67,4031,null,null,null,null,I,82,1619129983032,false,null,null,BLACKLIST,true
+  - I,world,3806,67,4033,null,null,null,null,I,0,1619130156741,false,null,null,BLACKLIST,false
+  - I,world,3805,67,4029,null,null,null,null,I,1,1619129980644,false,null,null,BLACKLIST,true
+  - I,world,3805,67,4039,null,null,null,null,I,0,1619129991883,false,null,null,BLACKLIST,true
+  - I,world,3805,67,4038,null,null,null,null,I,0,1619129991083,false,null,null,BLACKLIST,true
+  - I,world,3805,67,4036,null,null,null,null,I,12,1619129988039,false,null,null,BLACKLIST,true
+  - I,world,3805,67,4037,null,null,null,null,I,37,1619129988738,false,null,null,BLACKLIST,true
+  - I,world,3805,67,4035,null,null,null,null,I,35,1619129987281,false,null,null,BLACKLIST,true
   f4d5e1b8-43e7-47eb-9b3b-21d66b202af7:
-  - I,world,3345,44,-6892,world,3345,57,-6881,I,101085,1618799521148,false,SVJPTl9JTkdPVHxudWxs:,SVJPTl9JTkdPVHxudWxs:,WHITELIST,true
-  - I,world,4585,67,-5053,null,null,null,null,I,54,1618874837139,false,Uk9UVEVOX0ZMRVNIfG51bGw=:,Uk9UVEVOX0ZMRVNIfG51bGw=:,WHITELIST,true
-  - IV,world,3332,46,-6890,null,null,null,null,IV,861,1617283547945,false,null,null,BLACKLIST,true
-  - I,world,4586,66,-5053,null,null,null,null,I,107,1618874880842,false,R09MRF9OVUdHRVR8bnVsbA==:,R09MRF9OVUdHRVR8bnVsbA==:,WHITELIST,true
+  - I,world,3345,44,-6892,null,null,null,null,I,118165,1618799521148,false,SVJPTl9JTkdPVHxudWxs:,SVJPTl9JTkdPVHxudWxs:,WHITELIST,true
+  - I,world,4585,67,-5053,null,null,null,null,I,91,1618874837139,false,Uk9UVEVOX0ZMRVNIfG51bGw=:,Uk9UVEVOX0ZMRVNIfG51bGw=:,WHITELIST,true
+  - IV,world,3332,46,-6890,null,null,null,null,IV,882,1617283547945,false,null,null,BLACKLIST,true
+  - I,world,4586,66,-5053,null,null,null,null,I,149,1618874880842,false,R09MRF9OVUdHRVR8bnVsbA==:,R09MRF9OVUdHRVR8bnVsbA==:,WHITELIST,true
   b4dc8143-084b-4ae0-85ba-b5aa2e81ea17:
   - II,world,-4846,69,-4253,world,-4831,79,-4245,II,2724,1617859310378,true,null,null,BLACKLIST,false
-  - I,world,4586,67,-5047,null,null,null,null,I,79,1618875612391,false,Uk9UVEVOX0ZMRVNIfG51bGw=:,Uk9UVEVOX0ZMRVNIfG51bGw=:,WHITELIST,true
+  - I,world,4586,67,-5047,null,null,null,null,I,117,1618875612391,false,Uk9UVEVOX0ZMRVNIfG51bGw=:,Uk9UVEVOX0ZMRVNIfG51bGw=:,WHITELIST,true
   - I,world,-4862,67,-4188,null,null,null,null,I,278,1617528960048,false,null,null,BLACKLIST,true
+  - IV,world,4567,66,-5056,world,4569,66,-5056,IV,713,1619155749027,false,null,null,BLACKLIST,true
   - I,world,-4831,79,-4245,null,null,null,null,I,1762,1617859445978,false,null,null,BLACKLIST,false
-  - I,world,4586,68,-5046,null,null,null,null,I,79,1618875598891,false,R09MRF9OVUdHRVR8bnVsbA==:,R09MRF9OVUdHRVR8bnVsbA==:,WHITELIST,true
+  - I,world,4586,68,-5046,null,null,null,null,I,114,1618875598891,false,R09MRF9OVUdHRVR8bnVsbA==:,R09MRF9OVUdHRVR8bnVsbA==:,WHITELIST,true
   9fe712c8-e226-49fb-92ed-c7edf5660b4b:
   - I,world,-4846,69,-4251,null,null,null,null,I,103,1617859080591,false,null,null,BLACKLIST,true
   - I,world,-4843,49,-4255,world,-4842,72,-4253,I,3769,1618364524885,false,Uk9UVEVOX0ZMRVNIfG51bGw=:,Uk9UVEVOX0ZMRVNIfG51bGw=:,WHITELIST,true
   - I,world,-4859,86,-4227,null,null,null,null,I,0,1618692585819,false,null,null,BLACKLIST,false
-  - I,world,-4841,55,-4227,world,-4847,57,-4228,I,12736,1618705525746,false,null,null,BLACKLIST,false
+  - I,world,-4841,55,-4227,world,-4847,57,-4228,I,13171,1618705525746,false,null,null,BLACKLIST,false
   48694fa9-fd64-416c-bb1d-38fad623c081:
-  - I,world_nether,-694,128,-633,world_nether,-694,130,-637,I,16223,1617818114736,false,null,null,BLACKLIST,true
+  - I,world_nether,-694,128,-633,world_nether,-694,130,-637,I,16245,1617818114736,false,null,null,BLACKLIST,true
   - I,world,-4833,70,-4013,null,null,null,null,I,21,1617516778466,false,null,null,BLACKLIST,true
   - I,world_nether,-675,128,-633,world_nether,-679,128,-650,I,21263,1617771516811,false,null,null,BLACKLIST,true
   - I,world_the_end,276,1,0,null,null,null,null,I,449,1617734932138,false,null,null,BLACKLIST,true
@@ -59,10 +62,13 @@ Players:
   bb0a39a2-fb6a-48a1-99e9-79d4229ed129:
   - I,world,2013,125,3564,null,null,null,null,I,328,1618792806707,false,null,null,BLACKLIST,true
   - I,world,2020,125,3564,null,null,null,null,I,437,1618793035262,false,null,null,BLACKLIST,true
+  - I,world_the_end,-1085,0,557,null,null,null,null,I,0,1619063192754,false,null,null,BLACKLIST,true
   080fb638-f444-4043-ae03-10756a1c1866:
   - I,world,4590,68,-5040,world,4579,68,-5042,I,4,1618798149837,false,null,null,WHITELIST,true
   8f7d4db4-7035-4974-8cf6-b4c8036f5d27:
   - I,world,2047,38,3491,null,null,null,null,I,0,1618877508557,false,null,null,BLACKLIST,true
   - I,world,2047,38,3492,null,null,null,null,I,0,1618877507561,false,null,null,BLACKLIST,true
   58821929-84e9-41f6-a23a-fe4b1edcb7fa:
-  - II,world_the_end,-10114,0,-7151,world_the_end,-10113,0,-7151,II,49693,1618894761646,false,null,null,BLACKLIST,true
+  - II,world_the_end,-10114,0,-7151,null,null,null,null,II,95135,1619160038204,false,null,null,BLACKLIST,true
+  e1ad6875-63b6-4a64-aeb8-d0ab50a11b2c:
+  - I,world,1833,67,2458,null,null,null,null,I,352,1619160993894,false,null,null,BLACKLIST,true

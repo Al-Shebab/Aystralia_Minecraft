@@ -1,8 +1,32 @@
 {
   "uniqueId": "BSkyBlock69a1cb10-13ee-4ae2-a6c9-774889c391eb",
-  "level": 0,
+  "level": 120,
   "initialLevel": 0,
-  "pointsToNextLevel": 0,
+  "pointsToNextLevel": 14,
   "uwCount": {},
-  "mdCount": {}
+  "mdCount": {
+    "CHEST": 1,
+    "OAK_TRAPDOOR": 4,
+    "COBBLESTONE": 105,
+    "TORCH": 4,
+    "PUMPKIN_STEM": 4,
+    "DIAMOND_ORE": 1,
+    "DIRT": 61,
+    "GOLD_ORE": 2,
+    "FURNACE": 1,
+    "COAL_ORE": 8,
+    "SAND": 11,
+    "IRON_ORE": 9,
+    "CRAFTING_TABLE": 1,
+    "CACTUS": 3,
+    "FARMLAND": 16,
+    "AIR": 10239524,
+    "GRASS_BLOCK": 23,
+    "SUGAR_CANE": 8,
+    "LAVA": 1,
+    "MELON_STEM": 1,
+    "WATER": 16,
+    "STONE": 195,
+    "BEDROCK": 1
+  }
 }
