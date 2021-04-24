@@ -1,0 +1,8 @@
+bets:
+  '1':
+    booster: 0
+    player: flaboo
+    money: 50000.0
+    side: 1
+    time: 1087
+    animation: default

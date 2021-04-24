@@ -1,0 +1,8 @@
+bets:
+  '1':
+    booster: 0
+    player: AngelThorn_
+    money: 200000.0
+    side: 1
+    time: 799
+    animation: default

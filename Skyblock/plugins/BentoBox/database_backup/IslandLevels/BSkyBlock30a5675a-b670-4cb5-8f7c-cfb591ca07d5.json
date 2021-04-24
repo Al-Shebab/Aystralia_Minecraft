@@ -1,14 +1,14 @@
 {
   "uniqueId": "BSkyBlock30a5675a-b670-4cb5-8f7c-cfb591ca07d5",
-  "level": 39,
+  "level": 49,
   "initialLevel": 0,
   "pointsToNextLevel": 54,
   "uwCount": {},
   "mdCount": {
-    "CRAFTING_TABLE": 1,
+    "CHEST": 45,
+    "AIR": 10239509,
     "COBBLESTONE_SLAB": 444,
-    "AIR": 10239519,
-    "CHEST": 35,
-    "BEDROCK": 1
+    "BEDROCK": 1,
+    "CRAFTING_TABLE": 1
   }
 }
