@@ -440,15 +440,15 @@ Crates:
         Item: PAPER
         Chance: 5
         Commands:
-        - "cmdi give {player_name} market15"
-        Name: "&b&l1.15x Sale &f&lMultiplier"
+        - "cmdi give {player_name} market5"
+        Name: "&b&l5% Market &f&lDiscount"
       u:
         Enchanted: true
         Item: PAPER
         Chance: 5
         Commands:
-        - "cmdi give {player_name} market5"
-        Name: "&b&l5% Market &f&lDiscount"
+        - "cmdi give {player_name} market15"
+        Name: "&b&l15% Market &f&lDiscount"
         Item Data: 3
         Amount: 1
       v:

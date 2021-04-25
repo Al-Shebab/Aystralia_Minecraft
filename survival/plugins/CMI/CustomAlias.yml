@@ -36,5 +36,9 @@ CustomAlias:
   discord:
     Cmds:
     - cmi ctext discord
-  test:
-    Cmds: []
+  donate:
+    Cmds:
+    - cmi ctext donate
+  buy:
+    Cmds:
+    - cmi ctext donate

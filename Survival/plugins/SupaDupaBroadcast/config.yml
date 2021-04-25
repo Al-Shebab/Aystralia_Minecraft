@@ -7,6 +7,8 @@ messages:
 - '&b&lInformation &8> &fEarn more money by taking on jobs! &b/jobs'
 - '&b&lInformation &8> &fPlaying with friends? Create a party! &b/party'
 - '&b&lInformation &8> &fLooking to PVP? Fight at the arena &b/warp pvp'
+- '&b&lInformation &8> &fInterested in buying a rank? &b/donate'
+- '&b&lInformation &8> &fWant to gamble all your money? &b/coinflip'
 - '&b&lInformation &8> &fNeed more space? Use your backpack &b/bp'
 - '&b&lInformation &8> &fGet some perks! &b/perks'
 - '&b&lInformation &8> &fSick of throwing stuff out? Throw it in the bin &b/bin'

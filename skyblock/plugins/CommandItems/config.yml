@@ -130,8 +130,8 @@ items:
     consumed: true
     cooldown: 1
     actions:
-      - { action: COMMAND, by: CONSOLE, command: "shop addmodifier global {player} 1.15 sell" }
-      - { action: MESSAGE, to: PLAYER, message: "&b&lShop &8> &fYou have redeemed &b1.15x Sale Multiplier!" }
+      - { action: COMMAND, by: CONSOLE, command: "shop addmodifier global {player} 0.85 buy" }
+      - { action: MESSAGE, to: PLAYER, message: "&b&lShop &8> &fYou have redeemed &b15% Market Discount!" }
   nick:
     item:
       type: PAPER

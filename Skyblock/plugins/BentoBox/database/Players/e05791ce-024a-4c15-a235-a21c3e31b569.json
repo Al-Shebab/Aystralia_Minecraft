@@ -4,7 +4,10 @@
   "playerName": "sneakypanda1781",
   "resets": {},
   "locale": "",
-  "deaths": {},
+  "deaths": {
+    "skyblock": 0
+  },
   "pendingKicks": [],
-  "flagsDisplayMode": "BASIC"
+  "flagsDisplayMode": "BASIC",
+  "metaData": {}
 }

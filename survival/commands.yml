@@ -35,6 +35,10 @@ aliases:
   - cmi dispose
   trash:
   - cmi dispose
+  donate:
+  - cmi ctext donate
+  buy:
+  - cmi ctext donate
   bp:
   - pv 1
   backpack:
