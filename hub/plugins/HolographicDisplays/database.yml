@@ -3,7 +3,7 @@ anarchy:
   lines:
   - '&0&lAnarchy'
   - '&f&lPlayers Online: &b&l{online: Anarchy}'
-  - '&f&lStatus: &a&lOnline'
+  - '&f&lStatus: &c&lOffline'
 skyblock:
   location: world, -15.500, 46.000, -418.500
   lines:
