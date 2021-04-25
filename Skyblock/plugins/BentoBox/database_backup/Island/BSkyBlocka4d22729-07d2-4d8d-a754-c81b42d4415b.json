@@ -27,8 +27,8 @@
     "PLACE_BLOCKS": 400,
     "HURT_ANIMALS": 400,
     "END_PORTAL": 400,
-    "FIRE_BURNING": 500,
-    "TNT_DAMAGE": 500,
+    "FIRE_BURNING": -1,
+    "TNT_DAMAGE": -1,
     "DISPENSER": 400,
     "BUTTON": 200,
     "BREEDING": 400,
@@ -52,7 +52,7 @@
     "TURTLE_EGGS": 400,
     "ENDER_PEARL": 200,
     "ANVIL": 400,
-    "FIRE_IGNITE": 500,
+    "FIRE_IGNITE": -1,
     "HIVE": 500,
     "CAKE": 500,
     "PVP_NETHER": -1,
@@ -82,7 +82,7 @@
     "TRAPDOOR": 400,
     "EXPERIENCE_BOTTLE_THROWING": 500,
     "LEVER": 200,
-    "TRADING": 0,
+    "TRADING": 400,
     "DOOR": 200,
     "MONSTER_SPAWNERS_SPAWN": 500,
     "LECTERN": 500,
@@ -93,7 +93,7 @@
     "MILKING": 400,
     "BREAK_BLOCKS": 400,
     "BREWING": 400,
-    "FIRE_SPREAD": 0,
+    "FIRE_SPREAD": -1,
     "FLINT_AND_STEEL": 500,
     "COLLECT_LAVA": 400,
     "DYE": 500,
@@ -128,7 +128,12 @@
     ]
   },
   "doNotLoad": false,
-  "cooldowns": {},
+  "cooldowns": {
+    "FIRE_BURNING": 1619302909656,
+    "FIRE_IGNITE": 1619302916590,
+    "FIRE_SPREAD": 1619302918825,
+    "TNT_DAMAGE": 1619302927753
+  },
   "homes": {
     "": [
       "skyblock",
