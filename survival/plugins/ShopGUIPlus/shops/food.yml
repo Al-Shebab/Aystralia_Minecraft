@@ -7,6 +7,14 @@ food:
     1:
       type: item
       item:
+        material: melon_slice
+        quantity: 16
+      sellPrice: 1
+      buyPrice: 100
+      slot: 0
+    1:
+      type: item
+      item:
         material: apple
         quantity: 1
       sellPrice: 1

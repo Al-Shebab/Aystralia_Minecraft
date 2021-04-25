@@ -300,6 +300,14 @@ organics:
       sellPrice: 1
       buyPrice: 100
       slot: 36
+    371:
+      type: item
+      item:
+        material: MELON_SLICE
+        quantity: 1
+      sellPrice: 0.25
+      buyPrice: 25
+      slot: 37
     38:
       type: item
       item:
@@ -307,7 +315,7 @@ organics:
         quantity: 1
       sellPrice: 1
       buyPrice: 100
-      slot: 37
+      slot: 38
     39:
       type: item
       item:
@@ -315,7 +323,7 @@ organics:
         quantity: 1
       sellPrice: 1
       buyPrice: 100
-      slot: 38
+      slot: 39
     40:
       type: item
       item:
@@ -323,7 +331,7 @@ organics:
         quantity: 1
       sellPrice: 1
       buyPrice: 100
-      slot: 39
+      slot: 40
     41:
       type: item
       item:
@@ -331,7 +339,7 @@ organics:
         quantity: 1
       sellPrice: 1
       buyPrice: 100
-      slot: 40
+      slot: 41
     42:
       type: item
       item:
@@ -339,7 +347,7 @@ organics:
         quantity: 1
       sellPrice: 1
       buyPrice: 100
-      slot: 41
+      slot: 42
     43:
       type: item
       item:
@@ -347,7 +355,7 @@ organics:
         quantity: 1
       sellPrice: 1
       buyPrice: 100
-      slot: 42
+      slot: 43
     44:
       type: item
       item:
@@ -355,7 +363,7 @@ organics:
         quantity: 1
       sellPrice: 1
       buyPrice: 100
-      slot: 43
+      slot: 44
     45:
       type: item
       item:
@@ -363,7 +371,7 @@ organics:
         quantity: 1
       sellPrice: 1
       buyPrice: 100
-      slot: 44
+      slot: 45
     46:
       type: item
       item:
@@ -371,7 +379,7 @@ organics:
         quantity: 1
       sellPrice: 1
       buyPrice: 100
-      slot: 45
+      slot: 46
     47:
       type: item
       item:
@@ -379,4 +387,4 @@ organics:
         quantity: 1
       sellPrice: 1
       buyPrice: 100
-      slot: 46
+      slot: 47

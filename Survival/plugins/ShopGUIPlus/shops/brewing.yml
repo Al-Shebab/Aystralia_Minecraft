@@ -132,3 +132,11 @@ brewing:
       sellPrice: 1
       buyPrice: 100
       slot: 15
+    17:
+      type: item
+      item:
+        material: MILK_BUCKET
+        quantity: 1
+      sellPrice: 1
+      buyPrice: 100
+      slot: 16
