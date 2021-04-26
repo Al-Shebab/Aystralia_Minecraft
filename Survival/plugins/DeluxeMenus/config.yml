@@ -319,3 +319,5 @@ gui_menus:
     file: jobs.yml
   worldsmenu:
     file: worldsmenu.yml
+  pets:
+    file: pets.yml

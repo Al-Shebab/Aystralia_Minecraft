@@ -1,0 +1,8 @@
+bets:
+  '1':
+    booster: 0
+    player: BooMBooM69
+    money: 1000.0
+    side: 0
+    time: 993
+    animation: default

@@ -103,6 +103,14 @@ ores:
     13:
       type: item
       item:
+        material: GOLD_NUGGET
+        quantity: 1
+      sellPrice: 2
+      buyPrice: 60
+      slot: 53
+    131:
+      type: item
+      item:
         material: GOLD_INGOT
         quantity: 1
       sellPrice: 20

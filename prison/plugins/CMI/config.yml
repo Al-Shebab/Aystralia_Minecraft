@@ -1305,7 +1305,7 @@ Warps:
   # Automatically opens GUI when created new warp point
   GUIOnCreation: true
   # Minimal lenght of warp name
-  MinLenght: 3
+  MinLenght: 1
   # Maximal lenght of warp name
   MaxLenght: 16
   # How many warps to show in each page

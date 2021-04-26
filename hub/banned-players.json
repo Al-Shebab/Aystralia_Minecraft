@@ -56,12 +56,28 @@
     "reason": "Cheating"
   },
   {
+    "uuid": "dd05ebb0-28bc-47d3-9455-c888bb593fc5",
+    "name": "ShibeDogetic",
+    "created": "2021-04-26 02:30:41 -0700",
+    "source": "Al_Shebab",
+    "expires": "forever",
+    "reason": "Cheating"
+  },
+  {
     "uuid": "4fb07a9e-cc12-49f3-9d41-34e4f8bb2a09",
     "name": "Volpidash",
     "created": "2021-04-13 17:36:17 -0700",
     "source": "Al_Shebab",
     "expires": "forever",
     "reason": "§fViolated server rules"
+  },
+  {
+    "uuid": "de14bbd5-08a9-459b-9496-d2fa90babc43",
+    "name": "XDT3RGaming",
+    "created": "2021-04-26 02:30:32 -0700",
+    "source": "Al_Shebab",
+    "expires": "forever",
+    "reason": "Cheating"
   },
   {
     "uuid": "1428f49f-bfbf-41fb-86c4-83ac70fed643",

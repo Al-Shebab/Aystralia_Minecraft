@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "item": {
     "material": "COMMAND_BLOCK",
     "lore": [
@@ -9,6 +9,6 @@
     "meta": {
       
     },
-    "name": "&e&lPet Saves"
+    "name": "&b&lPet Saves"
   }
 }

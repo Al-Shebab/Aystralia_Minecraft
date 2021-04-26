@@ -3,7 +3,7 @@ Morning_Woods:
   Password: DaBaby69
   Locked: true
   Level: 10
-  Xp: 1365
+  Xp: 3482
   Ally: ''
   ExpShareMode: EQUAL
   ItemShareMode: NONE
@@ -15,7 +15,6 @@ Morning_Woods:
     MISC: true
   Members:
   - b4dc8143-084b-4ae0-85ba-b5aa2e81ea17|bigbulkcat
-  - 16ebbcfd-4681-4e74-a44d-5662cfb13c09|MrTaco76
   - 9fe712c8-e226-49fb-92ed-c7edf5660b4b|Brazi
   - e79fc165-83d6-4139-9a8f-d42bf1c23f87|Al_Shebab
   - f4d5e1b8-43e7-47eb-9b3b-21d66b202af7|KingMistik
@@ -24,7 +23,7 @@ Aystralia:
   Leader: 1132a3f9-cf23-42e1-8595-79d07b07844e|Aystralia
   Locked: true
   Level: 10
-  Xp: 2225
+  Xp: 440
   Ally: ''
   ExpShareMode: NONE
   ItemShareMode: NONE
@@ -40,7 +39,7 @@ GREENTEAM:
   Leader: 58821929-84e9-41f6-a23a-fe4b1edcb7fa|Greenyyy1
   Locked: true
   Level: 10
-  Xp: 1436
+  Xp: 2350
   Ally: ''
   ExpShareMode: NONE
   ItemShareMode: NONE
@@ -52,5 +51,22 @@ GREENTEAM:
     MISC: true
   Members:
   - 58821929-84e9-41f6-a23a-fe4b1edcb7fa|Greenyyy1
-  - 7d257f9f-f261-4163-9b38-72d457ca790d|masterbladestorm
   - e1ad6875-63b6-4a64-aeb8-d0ab50a11b2c|BooMBooM69
+'yes':
+  Leader: 3d13486a-fdb0-4947-8f4e-7077fbb2b5f1|Peanut33
+  Password: pony
+  Locked: true
+  Level: 10
+  Xp: 3000
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - 3d13486a-fdb0-4947-8f4e-7077fbb2b5f1|Peanut33
+  - 1bc67317-abae-4c97-ba4f-240763082576|ribol

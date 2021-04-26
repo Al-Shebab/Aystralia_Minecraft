@@ -27,14 +27,14 @@
         "meta": {
           "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTQ2MTUxOGI3NGQ1ZjcwMTZmNzIyOTQ3NTZmYzY4YzU0NzExMTBjYzk3ZjNiYjA5M2UwYzZlZDk0YTllMyJ9fX0="
         },
-        "name": "&6Silent: &e%value%"
+        "name": "&fSilent: &b%value%"
       },
       {
         "material": "PLAYER_HEAD",
         "meta": {
           "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFmMzI3YzNmMzQ5MTU4ZDIwOWI0ODY3ZDY4ZmZiMTg5MGJjNTdhMDFiYTk0ODNlM2ZmZmU0ZWM3ZmRlYTBiMCJ9fX0="
         },
-        "name": "&6Silent: &e%value%"
+        "name": "&fSilent: &b%value%"
       }
     ],
     "age": [
@@ -43,7 +43,7 @@
         "meta": {
           
         },
-        "name": "&6Baby: &e%value%"
+        "name": "&fBaby: &b%value%"
       }
     ],
     "profession": [
@@ -52,42 +52,42 @@
         "meta": {
           
         },
-        "name": "&6BlackSmith"
+        "name": "&fBlackSmith"
       },
       {
         "material": "COOKED_BEEF",
         "meta": {
           
         },
-        "name": "&6Butcher"
+        "name": "&fButcher"
       },
       {
         "material": "WHEAT_SEEDS",
         "meta": {
           
         },
-        "name": "&6Farmer"
+        "name": "&fFarmer"
       },
       {
         "material": "BOOK",
         "meta": {
           
         },
-        "name": "&6Librarian"
+        "name": "&fLibrarian"
       },
       {
         "material": "ENCHANTED_BOOK",
         "meta": {
           
         },
-        "name": "&6Priest"
+        "name": "&fPriest"
       },
       {
         "material": "STONE",
         "meta": {
           
         },
-        "name": "&6NitWit"
+        "name": "&fNitWit"
       }
     ],
     "type": [
@@ -96,105 +96,105 @@
         "meta": {
           
         },
-        "name": "&6&lProfession: &cNone"
+        "name": "&f&lProfession: &cNone"
       },
       {
         "material": "IRON_CHESTPLATE",
         "meta": {
           
         },
-        "name": "&6&lProfession: &cArmorer"
+        "name": "&f&lProfession: &cArmorer"
       },
       {
         "material": "COOKED_CHICKEN",
         "meta": {
           
         },
-        "name": "&6&lProfession: &cButcher"
+        "name": "&f&lProfession: &cButcher"
       },
       {
         "material": "MAP",
         "meta": {
           
         },
-        "name": "&6&lProfession: &cCartographer"
+        "name": "&f&lProfession: &cCartographer"
       },
       {
         "material": "ENCHANTED_BOOK",
         "meta": {
           
         },
-        "name": "&6&lProfession: &cCleric"
+        "name": "&f&lProfession: &cCleric"
       },
       {
         "material": "IRON_HOE",
         "meta": {
           
         },
-        "name": "&6&lProfession: &cFarmer"
+        "name": "&f&lProfession: &cFarmer"
       },
       {
         "material": "FISHING_ROD",
         "meta": {
           
         },
-        "name": "&6&lProfession: &cFisherman"
+        "name": "&f&lProfession: &cFisherman"
       },
       {
         "material": "ARROW",
         "meta": {
           
         },
-        "name": "&6&lProfession: &cFletcher"
+        "name": "&f&lProfession: &cFletcher"
       },
       {
         "material": "LEATHER",
         "meta": {
           
         },
-        "name": "&6&lProfession: &cLeatherworker"
+        "name": "&f&lProfession: &cLeatherworker"
       },
       {
         "material": "BOOK",
         "meta": {
           
         },
-        "name": "&6&lProfession: &cLibrarian"
+        "name": "&f&lProfession: &cLibrarian"
       },
       {
         "material": "BRICK",
         "meta": {
           
         },
-        "name": "&6&lProfession: &cMason"
+        "name": "&f&lProfession: &cMason"
       },
       {
         "material": "STONE",
         "meta": {
           
         },
-        "name": "&6&lProfession: &cNitwit"
+        "name": "&f&lProfession: &cNitwit"
       },
       {
         "material": "WHITE_WOOL",
         "meta": {
           
         },
-        "name": "&6&lProfession: &cShepherd"
+        "name": "&f&lProfession: &cShepherd"
       },
       {
         "material": "IRON_PICKAXE",
         "meta": {
           
         },
-        "name": "&6&lProfession: &cToolsmith"
+        "name": "&f&lProfession: &cToolsmith"
       },
       {
         "material": "IRON_SWORD",
         "meta": {
           
         },
-        "name": "&6&lProfession: &cWeaponsmith"
+        "name": "&f&lProfession: &cWeaponsmith"
       }
     ],
     "biome": [
@@ -203,49 +203,49 @@
         "meta": {
           
         },
-        "name": "&6&lBiome: &cDesert"
+        "name": "&f&lBiome: &cDesert"
       },
       {
         "material": "VINE",
         "meta": {
           
         },
-        "name": "&6&lBiome: &cJungle"
+        "name": "&f&lBiome: &cJungle"
       },
       {
         "material": "GRASS",
         "meta": {
           
         },
-        "name": "&6&lBiome: &cPlains"
+        "name": "&f&lBiome: &cPlains"
       },
       {
         "material": "PODZOL",
         "meta": {
           
         },
-        "name": "&6&lBiome: &cSavanna"
+        "name": "&f&lBiome: &cSavanna"
       },
       {
         "material": "SNOW_BLOCK",
         "meta": {
           
         },
-        "name": "&6&lBiome: &cSnow"
+        "name": "&f&lBiome: &cSnow"
       },
       {
         "material": "SLIME_BLOCK",
         "meta": {
           
         },
-        "name": "&6&lBiome: &cSwamp"
+        "name": "&f&lBiome: &cSwamp"
       },
       {
         "material": "MOSSY_COBBLESTONE",
         "meta": {
           
         },
-        "name": "&6&lBiome: &cTaiga"
+        "name": "&f&lBiome: &cTaiga"
       }
     ],
     "level": [
@@ -254,35 +254,35 @@
         "meta": {
           
         },
-        "name": "&6&lLevel: &eNovice"
+        "name": "&f&lLevel: &bNovice"
       },
       {
         "material": "IRON_INGOT",
         "meta": {
           
         },
-        "name": "&6&lLevel: &eApprentice"
+        "name": "&f&lLevel: &bApprentice"
       },
       {
         "material": "GOLD_INGOT",
         "meta": {
           
         },
-        "name": "&6&lLevel: &eJourneyman"
+        "name": "&f&lLevel: &bJourneyman"
       },
       {
         "material": "EMERALD",
         "meta": {
           
         },
-        "name": "&6&lLevel: &eExpert"
+        "name": "&f&lLevel: &bExpert"
       },
       {
         "material": "DIAMOND",
         "meta": {
           
         },
-        "name": "&6&lLevel: &eMaster"
+        "name": "&f&lLevel: &bMaster"
       }
     ],
     "arms": [
@@ -291,7 +291,7 @@
         "meta": {
           
         },
-        "name": "&6Arms Raised: &e%value%"
+        "name": "&fArms Raised: &b%value%"
       }
     ],
     "shaking": [
@@ -300,7 +300,7 @@
         "meta": {
           
         },
-        "name": "&6Shaking: &e%value%"
+        "name": "&fShaking: &b%value%"
       }
     ]
   }
