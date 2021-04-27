@@ -1,8 +1,8 @@
 {
   "uniqueId": "BSkyBlock5c6c7166-3853-45c7-90b9-261b0c6a6864",
-  "level": 4061,
+  "level": 4074,
   "initialLevel": 0,
-  "pointsToNextLevel": 39,
+  "pointsToNextLevel": 89,
   "uwCount": {},
   "mdCount": {
     "QUARTZ_BLOCK": 1292,
@@ -16,7 +16,7 @@
     "CHEST": 22,
     "STONE": 77,
     "QUARTZ_SLAB": 122,
-    "DIRT": 841,
+    "DIRT": 816,
     "OAK_SLAB": 1,
     "OAK_STAIRS": 19,
     "COBBLESTONE": 9,
@@ -24,7 +24,7 @@
     "DIAMOND_ORE": 2,
     "WATER": 186,
     "LEVER": 1,
-    "GRASS_BLOCK": 2025,
+    "GRASS_BLOCK": 2050,
     "WHITE_BED": 2,
     "AIR": 10231688,
     "DISPENSER": 10,
