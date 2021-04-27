@@ -2,6 +2,36 @@ menu_title: '&b&lPets'
 open_command:
 - pet
 - pets
+- pet menu
+- pets menu
+- pet spawn
+- pets spawn
+- pet summon
+- pets summon
+- simplepet
+- simplepets
+- simplepets:pet
+- simplepets:pets
+- simplepets:simplepet
+- simplepets:simplepets
+- simplepet menu
+- simplepets menu
+- simplepets:pet menu
+- simplepets:pets menu
+- simplepets:simplepet menu
+- simplepets:simplepets menu
+- simplepet summon
+- simplepets summon
+- simplepets:pet summon
+- simplepets:pets summon
+- simplepets:simplepet summon
+- simplepets:simplepets summon
+- simplepet spawn 
+- simplepets spawn 
+- simplepets:pet spawn 
+- simplepets:pets spawn 
+- simplepets:simplepet spawn 
+- simplepets:simplepets spawn 
 size: 36
 items:
   'Decorations':
