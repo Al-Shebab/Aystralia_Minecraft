@@ -524,7 +524,7 @@ concrete:
         meta-type: TILE_ENTITY
         display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit
           Concrete"}],"text":""}'
-        internal: H4sIAAAAAAAAAH3SPW/CMBAG4AslFFI+OvVL6h/pVIE6dIYdGXM1Fhc7ci+K8u8ZXMnD1d7fx3ev7QaggfWWvL5+ObY8HpRZQP3N2P42APBYwXRPnmEOE3uGl9Y61EH98MdwsYxH7Z0OyFhBvfO940/4A1UE7wmQNRc+mqDGvJpE9ZxUOX8n1jqR0tc8mEbwlEDAcz5ex/hrivugnCn0ngkxIpEf8uJedCbbFibMRWcTEF0eLDJPcaK+MKYRa+lRFaY8iHz5/KW4qK4PHRXEKoq3JFpl0LHKk7VYqrOu8D028j8FP/zXGuAG8VJe8jsDAAA=
+        internal: H4sIAAAAAAAAAIXSwU4CMRAG4FlgBRYFTqAkvIgnovHgWe+klKE0zLabOpvNvr0Xk5oOhfv/deZvWwFUMH8jry8fji3338pMofxkrH8qAFgWMPoiz1BA+e5bx7sJDOwRnmvrUAd14tfubBn32jsdkBH+QJGAbQRkzZn3JqheqEGi1lFdzQ/zax1I6YsAowSsIgh4FPEyib/EuA/KGdn7IS96JPKdEON8Z7K1nDDJdzYB0QkwvfcUB2rlmCq/lu6VnDLL56+e/5i/qKYNDUnxlIhNFLUy6FgJMs8v1Vgnv8fixn8KvvvXGuAXwJwrzTsDAAA=
         blockMaterial: WHITE_SHULKER_BOX
 perth:
   CommandName: perth
@@ -833,4 +833,107 @@ melbourne:
           "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
         enchants:
           PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+sydney:
+  CommandName: sydney
+  Delay: 604800
+  Items:
+    '28':
+      v: 2586
+      type: NETHERITE_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#93FFC7","text":"Sydney
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DIG_SPEED: 6
+          DURABILITY: 3
+    '29':
+      v: 2586
+      type: NETHERITE_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#93FFC7","text":"Sydney
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DURABILITY: 3
+    '30':
+      v: 2586
+      type: NETHERITE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#93FFC7","text":"Sydney
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DIG_SPEED: 6
+          DURABILITY: 3
+    '31':
+      v: 2586
+      type: NETHERITE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#93FFC7","text":"Sydney
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DIG_SPEED: 6
+          LOOT_BONUS_BLOCKS: 3
+          DURABILITY: 3
+    '32':
+      v: 2586
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#93FFC7","text":"Sydney
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DAMAGE_ALL: 5
+          DURABILITY: 3
+    '33':
+      v: 2586
+      type: NETHERITE_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#93FFC7","text":"Sydney
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 5
+          DURABILITY: 3
+    '34':
+      v: 2586
+      type: NETHERITE_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#93FFC7","text":"Sydney
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 5
+          DURABILITY: 3
+    '35':
+      v: 2586
+      type: NETHERITE_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#93FFC7","text":"Sydney
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 5
+          DURABILITY: 3
+    '36':
+      v: 2586
+      type: NETHERITE_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#93FFC7","text":"Sydney
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 5
           DURABILITY: 3

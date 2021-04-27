@@ -1,0 +1,26 @@
+MineD:
+  Location: world;5108.32;75.0;5097.44;-268.72;-1.65
+  ReqPerm: true
+  ShowWithNoPerm: true
+  Slot: 3
+  Page: 4
+  Creator: f4d5e1b8-43e7-47eb-9b3b-21d66b202af7
+  Item:
+    v: 2586
+    type: SANDSTONE
+MineC:
+  Location: world;2079.47;80.0;2047.4;-359.38;3.89
+  Group: C
+  ReqPerm: true
+  Creator: 5e9388ba-0573-444c-a761-b6d9174042af
+MineB:
+  Location: world;2972.47;122.0;3014.06;-125.72;0.65
+  ReqPerm: true
+  ShowWithNoPerm: true
+  Creator: b4dc8143-084b-4ae0-85ba-b5aa2e81ea17
+  Item:
+    v: 2586
+    type: BIRCH_LOG
+MineA:
+  Location: world;968.52;81.0;911.64;-43.15;2.39
+  Creator: 5e9388ba-0573-444c-a761-b6d9174042af

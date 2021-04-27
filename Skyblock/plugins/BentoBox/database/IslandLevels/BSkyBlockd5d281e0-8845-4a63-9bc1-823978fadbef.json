@@ -1,0 +1,27 @@
+{
+  "uniqueId": "BSkyBlockd5d281e0-8845-4a63-9bc1-823978fadbef",
+  "level": 60,
+  "initialLevel": 0,
+  "pointsToNextLevel": 73,
+  "uwCount": {},
+  "mdCount": {
+    "COBWEB": 2,
+    "OAK_PLANKS": 19,
+    "COBBLESTONE_SLAB": 147,
+    "WATER": 1,
+    "LAVA": 3,
+    "GRASS_BLOCK": 29,
+    "AIR": 10239463,
+    "CRAFTING_TABLE": 1,
+    "REDSTONE_ORE": 1,
+    "CHEST": 2,
+    "ENCHANTING_TABLE": 1,
+    "BOOKSHELF": 27,
+    "BEDROCK": 1,
+    "FURNACE": 1,
+    "DIRT": 8,
+    "OAK_SLAB": 284,
+    "COBBLESTONE": 8,
+    "BROWN_BED": 2
+  }
+}
