@@ -11,7 +11,11 @@
   "notificationMode": "radius",
   "skipResetBypassLimit": 50,
   "zeroBlockResetDelaySec": 0.0,
-  "blocks": [],
+  "blocks": [
+    "SPRUCE_LOG-15.0",
+    "OAK_LOG-48.0",
+    "BIRCH_LOG-37.0"
+  ],
   "skipResetEnabled": false,
   "usePagingOnReset": false,
   "resetThresholdPercent": 0.0,

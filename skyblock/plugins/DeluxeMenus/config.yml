@@ -353,8 +353,8 @@ gui_menus:
     file: jobs.yml
   jobs2:
     file: jobs2.yml
-  kits:
-    file: kits.yml
+  pets:
+    file: pets.yml
   profile:
     file: profile.yml
   playersettings:

@@ -12,7 +12,9 @@
   "skipResetBypassLimit": 50,
   "zeroBlockResetDelaySec": 0.0,
   "blocks": [
-    "SANDSTONE-100.0"
+    "SANDSTONE-48.0",
+    "RED_SANDSTONE-37.0",
+    "COBBLESTONE-15.0"
   ],
   "skipResetEnabled": false,
   "usePagingOnReset": false,

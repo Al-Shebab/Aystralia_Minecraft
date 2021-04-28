@@ -12,7 +12,9 @@
   "skipResetBypassLimit": 50,
   "zeroBlockResetDelaySec": 0.0,
   "blocks": [
-    "SPRUCE_LOG-100.0"
+    "SPRUCE_LOG-48.0",
+    "SANDSTONE-37.0",
+    "RED_SANDSTONE-15.0"
   ],
   "skipResetEnabled": false,
   "usePagingOnReset": false,
@@ -21,7 +23,7 @@
   "minY": 74.0,
   "minX": 2102.0,
   "sortOrder": 0,
-  "name": "c",
+  "name": "C",
   "skipResetPercent": 80.0,
   "isVirtual": false,
   "minZ": 2061.0,

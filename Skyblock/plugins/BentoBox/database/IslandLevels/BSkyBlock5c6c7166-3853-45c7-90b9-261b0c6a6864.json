@@ -1,12 +1,12 @@
 {
   "uniqueId": "BSkyBlock5c6c7166-3853-45c7-90b9-261b0c6a6864",
-  "level": 4070,
+  "level": 4077,
   "initialLevel": 0,
   "pointsToNextLevel": 89,
   "uwCount": {},
   "mdCount": {
     "OAK_LOG": 441,
-    "GRASS_BLOCK": 2042,
+    "GRASS_BLOCK": 2056,
     "OAK_SAPLING": 1,
     "DIAMOND_ORE": 2,
     "OAK_PLANKS": 426,
@@ -16,7 +16,7 @@
     "REDSTONE_WIRE": 10,
     "QUARTZ_BLOCK": 1292,
     "CHEST": 22,
-    "DIRT": 824,
+    "DIRT": 810,
     "STONE": 77,
     "TORCH": 20,
     "FURNACE": 1,

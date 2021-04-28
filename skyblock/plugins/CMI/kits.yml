@@ -8,112 +8,68 @@ Newbie:
   - '&fBeginner items'
   - '&bOnce you lose it, its gone forever.'
   CommandName: Newbie
-Daily:
-  CommandName: Daily
-  Enabled: false
-  Delay: 86400
+Claim:
+  CommandName: Claim
+  Delay: 600
   Items:
-    '27':
-      v: 2586
-      type: SADDLE
-      meta:
-        ==: ItemMeta
-        meta-type: UNSPECIFIC
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Obtained
-          via "},{"italic":false,"color":"aqua","text":"/kit daily"}],"text":""}'
     '28':
       v: 2586
-      type: COOKED_BEEF
-      amount: 16
-      meta:
-        ==: ItemMeta
-        meta-type: UNSPECIFIC
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Obtained
-          via "},{"italic":false,"color":"aqua","text":"/kit daily"}],"text":""}'
+      type: GOLDEN_SHOVEL
     '29':
       v: 2586
-      type: LEAD
+      type: WRITTEN_BOOK
       meta:
         ==: ItemMeta
-        meta-type: UNSPECIFIC
+        meta-type: BOOK_SIGNED
         lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Obtained
-          via "},{"italic":false,"color":"aqua","text":"/kit daily"}],"text":""}'
-    '30':
-      v: 2586
-      type: NAME_TAG
-      meta:
-        ==: ItemMeta
-        meta-type: UNSPECIFIC
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Obtained
-          via "},{"italic":false,"color":"aqua","text":"/kit daily"}],"text":""}'
-    '31':
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Written
+          at "},{"italic":false,"color":"white","text":"04/03/21 00:46:57"}],"text":""}'
+        title: How to claim!
+        author: Al_Shebab
+        pages:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"How
+          to claim!\n\n"},{"italic":false,"color":"gold","text":"Use your claim shovel
+          and right click on 2 corners of your base\n\n"},{"italic":false,"color":"gold","text":"If
+          you want to add people to your claim use "},{"italic":false,"color":"white","text":"/trust\n\n"},{"italic":false,"color":"gold","text":"If
+          you need more claimblocks use /buyclaimblocks"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"For
+          more information use the link below.\n\n"},{"italic":false,"color":"aqua","text":"https://bit.ly/38bk7Fv\n\n"},{"italic":false,"color":"gold","text":"Alternatively
+          google \"Grief Prevention Plugin\""}],"text":""}'
+        resolved: true
+Daily:
+  CommandName: Daily
+  Delay: 86400
+  Items:
+    '28':
       v: 2586
       type: SHULKER_BOX
       meta:
         ==: ItemMeta
         meta-type: TILE_ENTITY
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Obtained
-          via "},{"italic":false,"color":"aqua","text":"/kit daily"}],"text":""}'
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit
+          Daily"}],"text":""}'
+        internal: H4sIAAAAAAAAAGWSQUvDQBCFJ7bVNgcVQdBb2XPBe06ieBAED3oTCZPspFmyzejuxFpK/6C/ypS6SanHeXzvDbyZGCCG0zvLefVQi5HVK84nMHoUWvgYAI4jGL5YFohgdM9NLdEYjoyGi4WpKXdYSFLjglLBOfyhUUDPYxi0egwn2vgPi6sJDJ/Y0bjNjeBnrehbHKrkba0ytlolBVpPM2UErcm7sak1Oduu6wkvzlQkpeNmXnYqZ0Xjc5Q9MGfLTiVqWRohNVPSrmzH50xwGzj9MjhVm9n6cGfw4WeDve2mMjLVaOxKbd47VW0AdqVc9qXkzBXpNCMqQi9HoZfxjj7bo0vyErhB4G7/Vc1YpUtmHdDhQeR1jxbG0ZJdlbr2tNSFjw4cV73DkfbCNaXZ9hvaG/0CattlIBwCAAA=
         blockMaterial: SHULKER_BOX
-    '32':
+votepickaxe:
+  CommandName: votepickaxe
+  Delay: 330012439
+  Items:
+    '28':
       v: 2586
-      type: CHEST
-      amount: 8
-      meta:
-        ==: ItemMeta
-        meta-type: TILE_ENTITY
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Obtained
-          via "},{"italic":false,"color":"aqua","text":"/kit daily"}],"text":""}'
-        blockMaterial: CHEST
-    '33':
-      v: 2586
-      type: VILLAGER_SPAWN_EGG
-      meta:
-        ==: ItemMeta
-        meta-type: SPAWN_EGG
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Obtained
-          via "},{"italic":false,"color":"aqua","text":"/kit daily"}],"text":""}'
-    '34':
-      v: 2586
-      type: GOLD_BLOCK
+      type: NETHERITE_PICKAXE
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Obtained
-          via "},{"italic":false,"color":"aqua","text":"/kit daily"}],"text":""}'
-    '35':
-      v: 2586
-      type: IRON_BLOCK
-      meta:
-        ==: ItemMeta
-        meta-type: UNSPECIFIC
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Obtained
-          via "},{"italic":false,"color":"aqua","text":"/kit daily"}],"text":""}'
-    '36':
-      v: 2586
-      type: COAL_BLOCK
-      meta:
-        ==: ItemMeta
-        meta-type: UNSPECIFIC
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Obtained
-          via "},{"italic":false,"color":"aqua","text":"/kit daily"}],"text":""}'
-oi:
-  CommandName: oi
-  Enabled: false
-  Delay: 10
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Aystralia
+          "},{"bold":true,"italic":false,"color":"white","text":"Pickaxe"}],"text":""}'
+        enchants:
+          DIG_SPEED: 10
+          LOOT_BONUS_BLOCKS: 5
+          MENDING: 1
+          DURABILITY: 10
 kfc:
   CommandName: kfc
-  Delay: 10
+  Delay: 72502192
   Items:
     '28':
       v: 2586
@@ -123,18 +79,768 @@ kfc:
         ==: ItemMeta
         meta-type: UNSPECIFIC
         display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"KFC"}],"text":""}'
-votepickaxe:
-  CommandName: votepickaxe
+redstone:
+  CommandName: redstone
   Delay: 10
   Items:
     '28':
+      v: 2586
+      type: RED_SHULKER_BOX
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Kit
+          Redstone"}],"text":""}'
+        internal: H4sIAAAAAAAAAHXRTQ/BQBAG4CktbRNSIuG3OAlxcOYua7u0sV/ZDol/b5Naq4vzPPPOZCYHyGG85opetxJrfBzIJYNkh0w0OdhiBPGeK4QIko26SVyl0KtLmIpaMmrIGZeGlQ0qyeBFI0eLls6/6ZEToZ3vOZ+2fuY9VUITQ1AZh/sB7uyhGUH2pnFAC08rpbWHiYNRCyceckZtonRy8H+6OjXM3H3oMKAfoaXpjE8DufhxL3sBWrmGLNh35BtQon3aE9wAIWvVAQAA
+        blockMaterial: RED_SHULKER_BOX
+pvp:
+  CommandName: pvp
+  Delay: 10
+  Items:
+    '1':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '2':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '3':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '4':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '5':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '6':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '7':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '8':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '9':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '10':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '11':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '12':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '13':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '14':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '15':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '16':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '17':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '18':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '19':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '20':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '21':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '22':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '23':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '24':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '25':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '26':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '27':
+      v: 2586
+      type: SPLASH_POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_healing
+    '33':
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_swiftness
+    '34':
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_swiftness
+    '35':
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_strength
+    '36':
+      v: 2586
+      type: POTION
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        potion-type: minecraft:strong_strength
+ayssie:
+  CommandName: ayssie
+  Delay: 604800
+  Items:
+    '28':
+      v: 2586
+      type: NETHERITE_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFBB56","text":"Ayssie
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          LOYALTY: 10
+          DURABILITY: 5
+    '29':
+      v: 2586
+      type: NETHERITE_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFBB56","text":"Ayssie
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DIG_SPEED: 7
+          DURABILITY: 5
+    '30':
+      v: 2586
+      type: NETHERITE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFBB56","text":"Ayssie
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DIG_SPEED: 7
+          DURABILITY: 5
+    '31':
       v: 2586
       type: NETHERITE_PICKAXE
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFBB56","text":"Ayssie
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
         enchants:
-          DIG_SPEED: 10
-          LOOT_BONUS_BLOCKS: 5
-          MENDING: 1
-          DURABILITY: 10
+          DIG_SPEED: 7
+          LOOT_BONUS_BLOCKS: 3
+          DURABILITY: 5
+    '32':
+      v: 2586
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFBB56","text":"Ayssie
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          LOOT_BONUS_MOBS: 3
+          DAMAGE_ALL: 5
+          DURABILITY: 5
+    '33':
+      v: 2586
+      type: NETHERITE_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFBB56","text":"Ayssie
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 5
+          DURABILITY: 5
+    '34':
+      v: 2586
+      type: NETHERITE_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFBB56","text":"Ayssie
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 5
+          DURABILITY: 5
+    '35':
+      v: 2586
+      type: NETHERITE_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFBB56","text":"Ayssie
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 5
+          DURABILITY: 5
+    '36':
+      v: 2586
+      type: NETHERITE_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFBB56","text":"Ayssie
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 5
+          DURABILITY: 5
+concrete:
+  CommandName: concrete
+  Delay: 604800
+  Items:
+    '28':
+      v: 2586
+      type: WHITE_SHULKER_BOX
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit
+          Concrete"}],"text":""}'
+        internal: H4sIAAAAAAAAAIXSwU4CMRAG4FlgBRYFTqAkvIgnovHgWe+klKE0zLabOpvNvr0Xk5oOhfv/deZvWwFUMH8jry8fji3338pMofxkrH8qAFgWMPoiz1BA+e5bx7sJDOwRnmvrUAd14tfubBn32jsdkBH+QJGAbQRkzZn3JqheqEGi1lFdzQ/zax1I6YsAowSsIgh4FPEyib/EuA/KGdn7IS96JPKdEON8Z7K1nDDJdzYB0QkwvfcUB2rlmCq/lu6VnDLL56+e/5i/qKYNDUnxlIhNFLUy6FgJMs8v1Vgnv8fixn8KvvvXGuAXwJwrzTsDAAA=
+        blockMaterial: WHITE_SHULKER_BOX
+perth:
+  CommandName: perth
+  Delay: 604800
+  Items:
+    '28':
+      v: 2586
+      type: DIAMOND_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00B7D4","text":"Perth
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DURABILITY: 1
+    '29':
+      v: 2586
+      type: DIAMOND_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00B7D4","text":"Perth
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DIG_SPEED: 2
+          DURABILITY: 1
+    '30':
+      v: 2586
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00B7D4","text":"Perth
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DIG_SPEED: 2
+          DURABILITY: 1
+    '31':
+      v: 2586
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00B7D4","text":"Perth
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DIG_SPEED: 2
+          DURABILITY: 1
+    '32':
+      v: 2586
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00B7D4","text":"Perth
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DAMAGE_ALL: 2
+          DURABILITY: 1
+    '33':
+      v: 2586
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00B7D4","text":"Perth
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 1
+    '34':
+      v: 2586
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00B7D4","text":"Perth
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 1
+    '35':
+      v: 2586
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00B7D4","text":"Perth
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 1
+    '36':
+      v: 2586
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00B7D4","text":"Perth
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 1
+brisbane:
+  CommandName: brisbane
+  Delay: 604800
+  Items:
+    '28':
+      v: 2586
+      type: DIAMOND_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3DE5FF","text":"Brisbane
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DURABILITY: 3
+    '29':
+      v: 2586
+      type: DIAMOND_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3DE5FF","text":"Brisbane
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DIG_SPEED: 5
+          DURABILITY: 3
+    '30':
+      v: 2586
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3DE5FF","text":"Brisbane
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DIG_SPEED: 5
+          DURABILITY: 3
+    '31':
+      v: 2586
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3DE5FF","text":"Brisbane
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DIG_SPEED: 5
+          LOOT_BONUS_BLOCKS: 1
+          DURABILITY: 3
+    '32':
+      v: 2586
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3DE5FF","text":"Brisbane
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DAMAGE_ALL: 3
+          DURABILITY: 3
+    '33':
+      v: 2586
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3DE5FF","text":"Brisbane
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+    '34':
+      v: 2586
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3DE5FF","text":"Brisbane
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+    '35':
+      v: 2586
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3DE5FF","text":"Brisbane
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+    '36':
+      v: 2586
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3DE5FF","text":"Brisbane
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+melbourne:
+  CommandName: melbourne
+  Delay: 604800
+  Items:
+    '28':
+      v: 2586
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3DFFD5","text":"Melbourne
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DAMAGE_ALL: 4
+          DURABILITY: 3
+    '29':
+      v: 2586
+      type: NETHERITE_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3DFFD5","text":"Melbourne
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DURABILITY: 3
+    '30':
+      v: 2586
+      type: NETHERITE_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3DFFD5","text":"Melbourne
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DIG_SPEED: 5
+          DURABILITY: 3
+    '31':
+      v: 2586
+      type: NETHERITE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3DFFD5","text":"Melbourne
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DIG_SPEED: 5
+          DURABILITY: 3
+    '32':
+      v: 2586
+      type: NETHERITE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3DFFD5","text":"Melbourne
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DIG_SPEED: 5
+          LOOT_BONUS_BLOCKS: 3
+          DURABILITY: 3
+    '33':
+      v: 2586
+      type: NETHERITE_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3DFFD5","text":"Melbourne
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+    '34':
+      v: 2586
+      type: NETHERITE_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3DFFD5","text":"Melbourne
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+    '35':
+      v: 2586
+      type: NETHERITE_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3DFFD5","text":"Melbourne
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+    '36':
+      v: 2586
+      type: NETHERITE_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3DFFD5","text":"Melbourne
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+sydney:
+  CommandName: sydney
+  Delay: 604800
+  Items:
+    '28':
+      v: 2586
+      type: NETHERITE_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#93FFC7","text":"Sydney
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DIG_SPEED: 6
+          DURABILITY: 3
+    '29':
+      v: 2586
+      type: NETHERITE_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#93FFC7","text":"Sydney
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DURABILITY: 3
+    '30':
+      v: 2586
+      type: NETHERITE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#93FFC7","text":"Sydney
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DIG_SPEED: 6
+          DURABILITY: 3
+    '31':
+      v: 2586
+      type: NETHERITE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#93FFC7","text":"Sydney
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DIG_SPEED: 6
+          LOOT_BONUS_BLOCKS: 3
+          DURABILITY: 3
+    '32':
+      v: 2586
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#93FFC7","text":"Sydney
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          DAMAGE_ALL: 5
+          DURABILITY: 3
+    '33':
+      v: 2586
+      type: NETHERITE_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#93FFC7","text":"Sydney
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 5
+          DURABILITY: 3
+    '34':
+      v: 2586
+      type: NETHERITE_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#93FFC7","text":"Sydney
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 5
+          DURABILITY: 3
+    '35':
+      v: 2586
+      type: NETHERITE_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#93FFC7","text":"Sydney
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 5
+          DURABILITY: 3
+    '36':
+      v: 2586
+      type: NETHERITE_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#93FFC7","text":"Sydney
+          "},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 5
+          DURABILITY: 3

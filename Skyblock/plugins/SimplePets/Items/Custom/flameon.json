@@ -1,0 +1,15 @@
+{
+  "__COMMENT__": "This is an example of how the 'Custom Items' work",
+  "CommandsOnClick": [
+    "particle flame {location} 1.0 1.0 1.0 0.0 20"
+  ],
+  "namespace": "flameon",
+  "enabled": true,
+  "item": {
+    "material": "FLINT_AND_STEEL",
+    "meta": {
+      
+    },
+    "name": "&c&lBurn Baby Burn"
+  }
+}

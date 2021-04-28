@@ -12,7 +12,9 @@
   "skipResetBypassLimit": 50,
   "zeroBlockResetDelaySec": 0.0,
   "blocks": [
-    "BIRCH_LOG-100.0"
+    "BIRCH_LOG-48.0",
+    "SPRUCE_LOG-37.0",
+    "SANDSTONE-15.0"
   ],
   "skipResetEnabled": false,
   "usePagingOnReset": false,
