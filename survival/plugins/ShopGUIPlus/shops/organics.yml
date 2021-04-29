@@ -137,7 +137,7 @@ organics:
       item:
         material: ORANGE_TULIP
         quantity: 1
-      sellPrice: 10
+      sellPrice: 1
       buyPrice: 100
       slot: 16
     18:
@@ -257,7 +257,7 @@ organics:
       item:
         material: SUGAR_CANE
         quantity: 1
-      sellPrice: 1
+      sellPrice: 3
       buyPrice: 100
       slot: 31
     33:
@@ -265,7 +265,7 @@ organics:
       item:
         material: BAMBOO
         quantity: 1
-      sellPrice:  0.25
+      sellPrice:  1
       buyPrice: 100
       slot: 32
     34:
@@ -281,7 +281,7 @@ organics:
       item:
         material: CACTUS
         quantity: 1
-      sellPrice: 1
+      sellPrice: 3
       buyPrice: 100
       slot: 34
     36:
@@ -289,7 +289,7 @@ organics:
       item:
         material: PUMPKIN
         quantity: 1
-      sellPrice: 1
+      sellPrice: 5
       buyPrice: 100
       slot: 35
     37:
@@ -297,7 +297,7 @@ organics:
       item:
         material: MELON
         quantity: 1
-      sellPrice: 1
+      sellPrice: 5
       buyPrice: 100
       slot: 36
     371:
@@ -305,7 +305,7 @@ organics:
       item:
         material: MELON_SLICE
         quantity: 1
-      sellPrice: 0.25
+      sellPrice: 1.25
       buyPrice: 25
       slot: 37
     38:
@@ -388,3 +388,11 @@ organics:
       sellPrice: 1
       buyPrice: 100
       slot: 47
+    48:
+      type: item
+      item:
+        material: WHEAT
+        quantity: 1
+      sellPrice: 3
+      buyPrice: 100
+      slot: 48

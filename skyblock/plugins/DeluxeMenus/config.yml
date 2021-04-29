@@ -353,8 +353,8 @@ gui_menus:
     file: jobs.yml
   jobs2:
     file: jobs2.yml
-  kits:
-    file: kits.yml
+  pets:
+    file: pets.yml
   profile:
     file: profile.yml
   playersettings:
@@ -403,3 +403,5 @@ gui_menus:
     file: zrecipe-compactslime.yml
   perks:
     file: perks.yml
+  cosmetics:
+    file: cosmetics.yml

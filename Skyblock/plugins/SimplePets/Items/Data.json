@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "item": {
+    "material": "PLAYER_HEAD",
+    "lore": [
+      "&7Click Here to open",
+      "&7the Pet Data Menu"
+    ],
+    "meta": {
+      "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODUxNGQyMjViMjYyZDg0N2M3ZTU1N2I0NzQzMjdkY2VmNzU4YzJjNTg4MmU0MWVlNmQ4YzVlOWNkM2JjOTE0In19fQ=="
+    },
+    "name": "&cPet Data"
+  }
+}

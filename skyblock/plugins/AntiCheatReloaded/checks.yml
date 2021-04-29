@@ -9,7 +9,7 @@ flight:
   # Debugs as 'tried to fly on the Y-axis' or 'had too little Y dropoff'
   airFlight:
     # Should this part of the check be enabled?
-    enabled: true
+    enabled: false
     # How many milliseconds to account for block placement
     # Increase this if you get false positives when building a tower
     accountForBlockPlacement: 1500

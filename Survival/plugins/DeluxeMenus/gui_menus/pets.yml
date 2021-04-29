@@ -2,6 +2,36 @@ menu_title: '&b&lPets'
 open_command:
 - pet
 - pets
+- pet menu
+- pets menu
+- pet spawn
+- pets spawn
+- pet summon
+- pets summon
+- simplepet
+- simplepets
+- simplepets:pet
+- simplepets:pets
+- simplepets:simplepet
+- simplepets:simplepets
+- simplepet menu
+- simplepets menu
+- simplepets:pet menu
+- simplepets:pets menu
+- simplepets:simplepet menu
+- simplepets:simplepets menu
+- simplepet summon
+- simplepets summon
+- simplepets:pet summon
+- simplepets:pets summon
+- simplepets:simplepet summon
+- simplepets:simplepets summon
+- simplepet spawn 
+- simplepets spawn 
+- simplepets:pet spawn 
+- simplepets:pets spawn 
+- simplepets:simplepet spawn 
+- simplepets:simplepets spawn 
 size: 36
 items:
   'Decorations':
@@ -9,6 +39,22 @@ items:
     material: 160
     data: 7
     slots:
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
     - 35
   'CatNoOwn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==

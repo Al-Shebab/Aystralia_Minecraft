@@ -1,0 +1,31 @@
+{
+  "maxZ": 8794.0,
+  "maxY": 4.0,
+  "maxX": 8762.0,
+  "mineLinerData": "",
+  "world": "world",
+  "mineBlockEvents": [],
+  "resetTime": 900,
+  "notificationRadius": 150,
+  "commands": [],
+  "notificationMode": "radius",
+  "skipResetBypassLimit": 50,
+  "zeroBlockResetDelaySec": 0.0,
+  "blocks": [
+    "STONE-48.0",
+    "COAL_ORE-37.0",
+    "IRON_ORE-15.0"
+  ],
+  "skipResetEnabled": false,
+  "usePagingOnReset": false,
+  "resetThresholdPercent": 0.0,
+  "prisonBlocks": [],
+  "minY": 38.0,
+  "minX": 8794.0,
+  "sortOrder": 0,
+  "name": "G",
+  "skipResetPercent": 80.0,
+  "isVirtual": false,
+  "minZ": 8762.0,
+  "hasSpawn": false
+}

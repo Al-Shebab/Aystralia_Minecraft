@@ -143,6 +143,7 @@ items:
     actions:
       - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set cmi.command.nick true" }
       - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set cmi.colors.nickname.* true" }
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set cmi.command.nick.different true" }
       - { action: MESSAGE, to: PLAYER, message: "&b&lPerks &8> &fYou have redeemed &bNickname Access!" }
   jobs:
     item:
