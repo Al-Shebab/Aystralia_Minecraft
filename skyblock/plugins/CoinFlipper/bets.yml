@@ -1,0 +1,15 @@
+bets:
+  '1':
+    booster: 0
+    player: Aystralia
+    money: 1.0E7
+    side: 1
+    time: 1151
+    animation: default
+  '2':
+    booster: 0
+    player: GoodGuyThomas
+    money: 150000.0
+    side: 1
+    time: 1151
+    animation: default

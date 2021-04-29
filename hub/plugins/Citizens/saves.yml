@@ -24,13 +24,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 107.33743
+        bodyYaw: 164.89981
         world: world
         x: '-19.5'
         y: '43.0'
         z: '-414.5'
-        yaw: '121.9289'
-        pitch: '0.0'
+        yaw: '-155.1002'
+        pitch: '-0.0155'
       spawned: true
       type: PLAYER
       skintrait:
@@ -55,7 +55,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: commandtrait,equipment,type,lookclose,location,mounttrait,owner,skintrait,spawned,inventory,scoreboardtrait
+    traitnames: lookclose,inventory,mounttrait,commandtrait,equipment,location,spawned,skintrait,owner,type,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -82,13 +82,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 65.92297
+        bodyYaw: 6.131878
         world: world
         x: '-19.5'
         y: '43.0'
         z: '-432.5'
-        yaw: '35.2729'
-        pitch: '-7.3913'
+        yaw: '4.5875'
+        pitch: '12.1157'
       spawned: true
       type: PLAYER
       skintrait:
@@ -113,7 +113,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: commandtrait,equipment,type,location,lookclose,mounttrait,owner,skintrait,spawned,inventory,scoreboardtrait
+    traitnames: lookclose,inventory,mounttrait,location,commandtrait,equipment,spawned,skintrait,owner,type,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -141,13 +141,13 @@ npc:
             delay: 0
       spawned: true
       location:
-        bodyYaw: 92.46408
+        bodyYaw: 130.38524
         world: world
         x: '-15.5'
         y: '43.0'
         z: '-418.5'
-        yaw: '52.4641'
-        pitch: '0.0'
+        yaw: '170.3852'
+        pitch: '-3.2096'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -171,7 +171,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: equipment,commandtrait,type,location,lookclose,mounttrait,owner,skintrait,spawned,inventory,scoreboardtrait
+    traitnames: lookclose,inventory,mounttrait,location,equipment,commandtrait,spawned,skintrait,owner,type,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -199,13 +199,13 @@ npc:
             delay: 0
       spawned: true
       location:
-        bodyYaw: 76.306496
+        bodyYaw: 64.300446
         world: world
         x: '-14.5'
         y: '43.0'
         z: '-423.5'
-        yaw: '88.1635'
-        pitch: '29.0421'
+        yaw: '70.4484'
+        pitch: '-7.6762'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -229,7 +229,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: equipment,commandtrait,type,location,lookclose,mounttrait,owner,skintrait,spawned,inventory,scoreboardtrait
+    traitnames: lookclose,inventory,mounttrait,equipment,location,commandtrait,spawned,skintrait,owner,type,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -244,13 +244,13 @@ npc:
     traits:
       spawned: true
       location:
-        bodyYaw: 77.43857
+        bodyYaw: 47.405
         world: world
         x: '-15.5'
         y: '43.0'
         z: '-428.5'
-        yaw: '98.0245'
-        pitch: '-2.9172'
+        yaw: '12.7122'
+        pitch: '12.2651'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -287,7 +287,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: commandtrait,equipment,type,location,lookclose,mounttrait,owner,skintrait,spawned,inventory,scoreboardtrait
+    traitnames: lookclose,inventory,mounttrait,commandtrait,equipment,location,spawned,skintrait,owner,type,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

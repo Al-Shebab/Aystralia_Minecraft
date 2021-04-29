@@ -1,7 +1,7 @@
 {
-  "maxZ": 3013.0,
-  "maxY": 117.0,
-  "maxX": 2993.0,
+  "maxZ": 10210.0,
+  "maxY": 4.0,
+  "maxX": 10242.0,
   "mineLinerData": "",
   "world": "world",
   "mineBlockEvents": [],
@@ -20,12 +20,12 @@
   "usePagingOnReset": false,
   "resetThresholdPercent": 0.0,
   "prisonBlocks": [],
-  "minY": 92.0,
-  "minX": 3017.0,
+  "minY": 38.0,
+  "minX": 10210.0,
   "sortOrder": 0,
   "name": "B",
   "skipResetPercent": 80.0,
   "isVirtual": false,
-  "minZ": 2989.0,
+  "minZ": 10242.0,
   "hasSpawn": false
 }

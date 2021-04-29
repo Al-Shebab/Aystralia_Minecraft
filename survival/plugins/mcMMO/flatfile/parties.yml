@@ -3,7 +3,7 @@ Morning_Woods:
   Password: DaBaby69
   Locked: true
   Level: 10
-  Xp: 0
+  Xp: 2440
   Ally: ''
   ExpShareMode: EQUAL
   ItemShareMode: NONE
@@ -23,7 +23,7 @@ Aystralia:
   Leader: 1132a3f9-cf23-42e1-8595-79d07b07844e|Aystralia
   Locked: true
   Level: 10
-  Xp: 3924
+  Xp: 1920
   Ally: ''
   ExpShareMode: NONE
   ItemShareMode: NONE
@@ -39,7 +39,7 @@ GREENTEAM:
   Leader: 58821929-84e9-41f6-a23a-fe4b1edcb7fa|Greenyyy1
   Locked: true
   Level: 10
-  Xp: 0
+  Xp: 2756
   Ally: ''
   ExpShareMode: NONE
   ItemShareMode: NONE
@@ -57,7 +57,7 @@ GREENTEAM:
   Password: pony
   Locked: true
   Level: 10
-  Xp: 2880
+  Xp: 4703
   Ally: ''
   ExpShareMode: NONE
   ItemShareMode: NONE
@@ -70,3 +70,21 @@ GREENTEAM:
   Members:
   - 3d13486a-fdb0-4947-8f4e-7077fbb2b5f1|Peanut33
   - 1bc67317-abae-4c97-ba4f-240763082576|ribol
+Jizzy:
+  Leader: 0ad0c6e4-2b1a-4145-813c-a7b2997923c9|JizBall
+  Password: JizzyBalls
+  Locked: true
+  Level: 10
+  Xp: 3313
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: EQUAL
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - 0ad0c6e4-2b1a-4145-813c-a7b2997923c9|JizBall
+  - d293a988-5271-4d6c-8e6b-369ef3bca5fa|coclover
