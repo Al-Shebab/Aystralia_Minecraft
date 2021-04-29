@@ -1,17 +1,17 @@
 {
   "PetCore": {
-    "startup": "450ms",
-    "SupportedVersions": "3ms",
+    "startup": "492ms",
+    "SupportedVersions": "4ms",
     "ErrorCheck": "1ms",
-    "Loading Config Files": "22ms",
-    "Registering Command": "8ms",
-    "Registering Listeners": "17ms",
+    "Loading Config Files": "25ms",
+    "Registering Command": "9ms",
+    "Registering Listeners": "18ms",
     "MySQL": "0ms",
     "Saving PlayerData": "0ms"
   },
   "TypeManager": {
-    "Register Pets": "290ms",
-    "Sorting Pets": "13ms",
+    "Register Pets": "316ms",
+    "Sorting Pets": "18ms",
     "Unloading Pets": "0ms"
   },
   "LinkRetriever": {
