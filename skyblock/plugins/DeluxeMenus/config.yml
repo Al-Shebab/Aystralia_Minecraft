@@ -365,8 +365,6 @@ gui_menus:
     file: tags.yml
   tags2:
     file: tags2.yml
-  cosmetics:
-    file: cosmetics.yml
   perks2:
     file: perks2.yml
   skills:

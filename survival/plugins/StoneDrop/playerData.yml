@@ -3251,6 +3251,87 @@ users:
     REDSTONE: true
     COBBLE: false
     STACK: false
+  e218105c-f1bd-4d55-822e-11e7ed5a4a44:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
+  9a431aca-1c9b-4bfd-9876-5e78a1ea8919:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
+  88c9ef80-140f-4547-9f69-8ae07c27cc08:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
+  857f530d-0fa0-41b8-8881-b947ec8a7449:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
+  6885a4e6-7013-4c1f-9c55-071442501aa3:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
+  1c1ef11b-ae1f-4618-b7f1-37d1679a7a6b:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
+  fd2f3d47-cb66-4f4e-a467-608410125d3e:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
+  033b0025-6410-45c9-958e-bd2f4f75ea03:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
+  4a72829e-9f26-4fa4-b9aa-984d7d807228:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
 userVersion:
   e79fc165-83d6-4139-9a8f-d42bf1c23f87: 1.9.9
   5e9388ba-0573-444c-a761-b6d9174042af: 1.9.8
@@ -3611,3 +3692,12 @@ userVersion:
   8b1679e2-1eaa-4242-8d81-c6620bfadfd4: 1.9.9
   ba4ae609-9931-4912-94a5-b6bd15f51247: 1.9.9
   d293a988-5271-4d6c-8e6b-369ef3bca5fa: 1.9.9
+  1c1ef11b-ae1f-4618-b7f1-37d1679a7a6b: 1.9.9
+  9a431aca-1c9b-4bfd-9876-5e78a1ea8919: 1.9.9
+  fd2f3d47-cb66-4f4e-a467-608410125d3e: 1.9.9
+  88c9ef80-140f-4547-9f69-8ae07c27cc08: 1.9.9
+  033b0025-6410-45c9-958e-bd2f4f75ea03: 1.9.9
+  6885a4e6-7013-4c1f-9c55-071442501aa3: 1.9.9
+  4a72829e-9f26-4fa4-b9aa-984d7d807228: 1.9.9
+  857f530d-0fa0-41b8-8881-b947ec8a7449: 1.9.9
+  e218105c-f1bd-4d55-822e-11e7ed5a4a44: 1.9.9

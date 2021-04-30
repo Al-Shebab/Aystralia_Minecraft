@@ -62,6 +62,26 @@ gui:
     lore:
     - '&7Exit the tags menu'
 deluxetags:
+  staff:
+    order: 12
+    tag: '&f[&4&lStaff&f]&r '
+    description: ''
+    permission: deluxetags.tag.staff
+  alshebab:
+    order: 13
+    tag: '&f[&cالشباب&f]&r '
+    description: ''
+    permission: deluxetags.tag.alshebab
+  feeyne:
+    order: 14
+    tag: '&f[&b&l7 CPS&f]&r '
+    description: ''
+    permission: deluxetags.tag.feeyne
+  mistik:
+    order: 15
+    tag: '&f[&8&lN&0&lZ&f]&r '
+    description: ''
+    permission: deluxetags.tag.mistik
   betatester:
     order: 1
     tag: '&f[&d&lBeta Tester&f]&r '
@@ -107,46 +127,11 @@ deluxetags:
     tag: '&f[&5&lVirgin&f]&r '
     description: ''
     permission: deluxetags.tag.virgin
-  redstoner:
-    order: 10
-    tag: '&f[&c&lRedstoner&f]&r '
-    description: ''
-    permission: deluxetags.tag.redstoner
   money:
     order: 21
     tag: '&f[&a&l$&2&l$&a&l$&f]&r '
     description: ''
     permission: deluxetags.tag.money
-  miner:
-    order: 11
-    tag: '&f[&8&lMiner&f]&r '
-    description: ''
-    permission: deluxetags.tag.miner
-  staff:
-    order: 12
-    tag: '&f[&4&lStaff&f]&r '
-    description: ''
-    permission: deluxetags.tag.staff
-  alshebab:
-    order: 13
-    tag: '&f[&cالشباب&f]&r '
-    description: ''
-    permission: deluxetags.tag.alshebab
-  feeyne:
-    order: 14
-    tag: '&f[&b&l7 CPS&f]&r '
-    description: ''
-    permission: deluxetags.tag.feeyne
-  mistik:
-    order: 15
-    tag: '&f[&8&lN&0&lZ&f]&r '
-    description: ''
-    permission: deluxetags.tag.mistik
-  aus:
-    order: 16
-    tag: '&f[&2&lA&a&lU&6&lS&f]&r '
-    description: ''
-    permission: deluxetags.tag.aus
   rainbow:
     order: 17
     tag: '&f[&c&lR&6&la&e&li&2&ln&a&lb&b&lo&3&lw&f]&r '
@@ -157,13 +142,18 @@ deluxetags:
     tag: '&f[&b&lAystralia&f]&r '
     description: ''
     permission: deluxetags.tag.aystralia
-  exploiter:
+  exploit:
     order: 19
-    tag: '&f[&4&lExploiter&f]&r '
+    tag: '&f[&4&lExploit&f]&r '
     description: ''
-    permission: deluxetags.tag.exploiter
+    permission: deluxetags.tag.exploit
   hacker:
     order: 20
     tag: '&f[&4&lHacker&f]&r '
     description: ''
     permission: deluxetags.tag.hacker
+  p2w:
+    order: 22
+    tag: '&f[&a&lP&2&l2&a&lW&f]&r '
+    description: ''
+    permission: deluxetags.tag.p2w

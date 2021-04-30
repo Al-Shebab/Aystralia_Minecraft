@@ -1,8 +1,10 @@
-menu_title: '&b&lCosmetics'
+menu_title: '&b&lTags'
 open_command:
-- cosmetics
-- cosmetic
-- uc
+- tags
+- tag
+- tagmenu
+- tagsmenu
+- deluxetags:tags
 size: 36
 items:
   'Decorations':
@@ -11,2435 +13,2416 @@ items:
     data: 7
     slots:
     - 35
-  'snowcloudNoOwn':
+  'StaffNoOwn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 0
-    display_name: '&b[*] &b&lSnow Cloud &f&lEffect'
+    display_name: '&f[&4&lStaff&f] &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.snowcloud'
+          permission: 'deluxetags.tag.staff'
     lore:
     - ''
-    - '&bPrice: &f50c'
-    - ''
-    - '&8» &bPurchase from server store'
-    - '&8» &b/buy'
+    - '&cUnavailable'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.snowcloud'
+          permission: 'deluxetags.tag.staff'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.snowcloud'
+          permission: 'deluxetags.tag.staff'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'snowcloudSpawn':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzAyOTFlOTMyNjI5NmFhYWYyN2YyNTVkZTk4MWU3ODc4NjhiYzYyZmU0NjYzOWVlODdiMjhhMTk1ZTlkOTliZiJ9fX0=
+  'StaffOn':
+    material: name_tag
     priority: 2
     slot: 0
-    display_name: '&b[*] &b&lSnow Cloud &f&lEffect'
+    display_name: '&f[&4&lStaff&f] &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'ultracosmetics.particleeffects.snowcloud'
+          permission: 'deluxetags.tag.staff'
     lore:
     - ''
     - '&fClick to toggle'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects snowcloud %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.snowcloud.on true'
-    - '[console] lp user %player_name% permission set cosmetics.snowcloud.off false'
+    - '[console] tags set %player_name% staff'
+    - '[console] lp user %player_name% permission set deluxetags.tag.staff.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.staff.off false'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.snowcloud.off'
+          permission: 'deluxetags.tag.staff.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects snowcloud %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.snowcloud.on true'
-    - '[console] lp user %player_name% permission set cosmetics.snowcloud.off false'
+    - '[console] tags set %player_name% staff'
+    - '[console] lp user %player_name% permission set deluxetags.tag.staff.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.staff.off false'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.snowcloud.off'
+          permission: 'deluxetags.tag.staff.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'snowcloudRemove':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzAyOTFlOTMyNjI5NmFhYWYyN2YyNTVkZTk4MWU3ODc4NjhiYzYyZmU0NjYzOWVlODdiMjhhMTk1ZTlkOTliZiJ9fX0=
+  'StaffOff':
+    material: name_tag
     priority: 1
     slot: 0
-    display_name: '&b[*] &b&lSnow Cloud &f&lEffect'
+    display_name: '&f[&4&lStaff&f] &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.snowcloud.on'
+          permission: 'deluxetags.tag.staff.on'
     lore:
     - ''
     - '&aActivated'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.snowcloud.on false'
-    - '[console] lp user %player_name% permission set cosmetics.snowcloud.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.staff.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.staff.off true'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.snowcloud.on'
+          permission: 'deluxetags.tag.staff.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.snowcloud.on false'
-    - '[console] lp user %player_name% permission set cosmetics.snowcloud.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.staff.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.staff.off true'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.snowcloud.on'
+          permission: 'deluxetags.tag.staff.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'BloodhelixNoOwn':
+  'alshebabNoOwn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 1
-    display_name: '&b[*] &b&lBlood Helix &f&lEffect'
+    display_name: '&f[&cالشباب&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.bloodhelix'
+          permission: 'deluxetags.tag.alshebab'
     lore:
     - ''
-    - '&bPrice: &f50c'
+    - '&bPrice: &f$1'
     - ''
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.bloodhelix'
+          permission: 'deluxetags.tag.alshebab'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.bloodhelix'
+          permission: 'deluxetags.tag.alshebab'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'BloodhelixSpawn':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTYwMzgzYTI5YWQ4YjdiYWViNGMwYzdlMTVmMzUyMGYwN2VjNzU2NWY1YWY4NDFhNmY4MTJhYTQxOWJiNiJ9fX0=
+  'alshebabOn':
+    material: name_tag
     priority: 2
     slot: 1
-    display_name: '&b[*] &b&lBlood Helix &f&lEffect'
+    display_name: '&f[&cالشباب&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'ultracosmetics.particleeffects.bloodhelix'
+          permission: 'deluxetags.tag.alshebab'
     lore:
     - ''
     - '&fClick to toggle'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects bloodhelix %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.bloodhelix.on true'
-    - '[console] lp user %player_name% permission set cosmetics.bloodhelix.off false'
+    - '[console] tags set %player_name% alshebab'
+    - '[console] lp user %player_name% permission set deluxetags.tag.alshebab.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.alshebab.off false'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.bloodhelix.off'
+          permission: 'deluxetags.tag.alshebab.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects bloodhelix %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.bloodhelix.on true'
-    - '[console] lp user %player_name% permission set cosmetics.bloodhelix.off false'
+    - '[console] tags set %player_name% alshebab'
+    - '[console] lp user %player_name% permission set deluxetags.tag.alshebab.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.alshebab.off false'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.bloodhelix.off'
+          permission: 'deluxetags.tag.alshebab.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'BloodhelixRemove':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTYwMzgzYTI5YWQ4YjdiYWViNGMwYzdlMTVmMzUyMGYwN2VjNzU2NWY1YWY4NDFhNmY4MTJhYTQxOWJiNiJ9fX0=
+  'alshebabOff':
+    material: name_tag
     priority: 1
     slot: 1
-    display_name: '&b[*] &b&lBlood Helix &f&lEffect'
+    display_name: '&f[&cالشباب&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.bloodhelix.on'
+          permission: 'deluxetags.tag.alshebab.on'
     lore:
     - ''
     - '&aActivated'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.bloodhelix.on false'
-    - '[console] lp user %player_name% permission set cosmetics.bloodhelix.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.alshebab.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.alshebab.off true'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.bloodhelix.on'
+          permission: 'deluxetags.tag.alshebab.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.bloodhelix.on false'
-    - '[console] lp user %player_name% permission set cosmetics.bloodhelix.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.alshebab.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.alshebab.off true'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.bloodhelix.on'
+          permission: 'deluxetags.tag.alshebab.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'crushedcandycaneNoOwn':
+  'feeyneNoOwn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 2
-    display_name: '&b[*] &b&lCrushed Candy Cane &f&lEffect'
+    display_name: '&f[&b&l7 CPS&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.crushedcandycane'
+          permission: 'deluxetags.tag.feeyne'
     lore:
     - ''
-    - '&bPrice: &f50c'
+    - '&bPrice: &f$1'
     - ''
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.crushedcandycane'
+          permission: 'deluxetags.tag.feeyne'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.crushedcandycane'
+          permission: 'deluxetags.tag.feeyne'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'crushedcandycaneSpawn':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjI3NGE4YTVjYTY2YWZlYjJjN2YxNjIyNTNhNmM0NjFkNTZiODUxMTQyN2E1NTg1Nzg4MmExZjc3YWFjOCJ9fX0=
+  'feeyneOn':
+    material: name_tag
     priority: 2
     slot: 2
-    display_name: '&b[*] &b&lCrushed Candy Cane &f&lEffect'
+    display_name: '&f[&b&l7 CPS&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'ultracosmetics.particleeffects.crushedcandycane'
+          permission: 'deluxetags.tag.feeyne'
     lore:
     - ''
     - '&fClick to toggle'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects crushedcandycane %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.crushedcandycane.on true'
-    - '[console] lp user %player_name% permission set cosmetics.crushedcandycane.off false'
+    - '[console] tags set %player_name% feeyne'
+    - '[console] lp user %player_name% permission set deluxetags.tag.feeyne.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.feeyne.off false'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.crushedcandycane.off'
+          permission: 'deluxetags.tag.feeyne.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects crushedcandycane %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.crushedcandycane.on true'
-    - '[console] lp user %player_name% permission set cosmetics.crushedcandycane.off false'
+    - '[console] tags set %player_name% feeyne'
+    - '[console] lp user %player_name% permission set deluxetags.tag.feeyne.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.feeyne.off false'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.crushedcandycane.off'
+          permission: 'deluxetags.tag.feeyne.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'crushedcandycaneRemove':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjI3NGE4YTVjYTY2YWZlYjJjN2YxNjIyNTNhNmM0NjFkNTZiODUxMTQyN2E1NTg1Nzg4MmExZjc3YWFjOCJ9fX0=
+  'feeyneOff':
+    material: name_tag
     priority: 1
     slot: 2
-    display_name: '&b[*] &b&lCrushed Candy Cane &f&lEffect'
+    display_name: '&f[&b&l7 CPS&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.crushedcandycane.on'
+          permission: 'deluxetags.tag.feeyne.on'
     lore:
     - ''
     - '&aActivated'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.crushedcandycane.on false'
-    - '[console] lp user %player_name% permission set cosmetics.crushedcandycane.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.feeyne.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.feeyne.off true'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.crushedcandycane.on'
+          permission: 'deluxetags.tag.feeyne.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.crushedcandycane.on false'
-    - '[console] lp user %player_name% permission set cosmetics.crushedcandycane.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.feeyne.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.feeyne.off true'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.crushedcandycane.on'
+          permission: 'deluxetags.tag.feeyne.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'enchantedNoOwn':
+  'mistikNoOwn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 3
-    display_name: '&b[*] &b&lEnchanted &f&lEffect'
+    display_name: '&f[&8&lN&0&lZ&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.enchanted'
+          permission: 'deluxetags.tag.mistik'
     lore:
     - ''
-    - '&bPrice: &f50c'
+    - '&bPrice: &f$1'
     - ''
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.enchanted'
+          permission: 'deluxetags.tag.mistik'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.enchanted'
+          permission: 'deluxetags.tag.mistik'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'enchantedSpawn':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzJlYTg1Yzg1ZmUwNDg0YWY2YzgxNWVmYjY1NWQyYjIxZTEwOTg2M2M5NjMzM2I5MjgwYjU5YjgwZDZhYzk4ZiJ9fX0=
+  'mistikOn':
+    material: name_tag
     priority: 2
     slot: 3
-    display_name: '&b[*] &b&lEnchanted &f&lEffect'
+    display_name: '&f[&8&lN&0&lZ&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'ultracosmetics.particleeffects.enchanted'
+          permission: 'deluxetags.tag.mistik'
     lore:
     - ''
     - '&fClick to toggle'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects enchanted %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.enchanted.on true'
-    - '[console] lp user %player_name% permission set cosmetics.enchanted.off false'
+    - '[console] tags set %player_name% mistik'
+    - '[console] lp user %player_name% permission set deluxetags.tag.mistik.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.mistik.off false'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.enchanted.off'
+          permission: 'deluxetags.tag.mistik.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects enchanted %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.enchanted.on true'
-    - '[console] lp user %player_name% permission set cosmetics.enchanted.off false'
+    - '[console] tags set %player_name% mistik'
+    - '[console] lp user %player_name% permission set deluxetags.tag.mistik.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.mistik.off false'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.enchanted.off'
+          permission: 'deluxetags.tag.mistik.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'enchantedRemove':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzJlYTg1Yzg1ZmUwNDg0YWY2YzgxNWVmYjY1NWQyYjIxZTEwOTg2M2M5NjMzM2I5MjgwYjU5YjgwZDZhYzk4ZiJ9fX0=
+  'mistikOff':
+    material: name_tag
     priority: 1
     slot: 3
-    display_name: '&b[*] &b&lEnchanted &f&lEffect'
+    display_name: '&f[&8&lN&0&lZ&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.enchanted.on'
+          permission: 'deluxetags.tag.mistik.on'
     lore:
     - ''
     - '&aActivated'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.enchanted.on false'
-    - '[console] lp user %player_name% permission set cosmetics.enchanted.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.mistik.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.mistik.off true'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.enchanted.on'
+          permission: 'deluxetags.tag.mistik.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.enchanted.on false'
-    - '[console] lp user %player_name% permission set cosmetics.enchanted.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.mistik.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.mistik.off true'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.enchanted.on'
+          permission: 'deluxetags.tag.mistik.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'enderauraNoOwn':
+  'betatesterNoOwn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 4
-    display_name: '&b[*] &b&lEnder Aura &f&lEffect'
+    display_name: '&f[&d&lBeta Tester&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.enderaura'
+          permission: 'deluxetags.tag.betatester'
     lore:
     - ''
-    - '&bPrice: &f50c'
-    - ''
-    - '&8» &bPurchase from server store'
-    - '&8» &b/buy'
+    - '&cUnavailable'
+    - '&cGiven to anyone playing prior to 1/5/21'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.enderaura'
+          permission: 'deluxetags.tag.betatester'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.enderaura'
+          permission: 'deluxetags.tag.betatester'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'enderauraSpawn':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY3NzhmNzJlYWNhNDUyZWUwMTM4OTNlMmJjNTNkOGQ1YjFmY2E0NGNmZTI3MDM4NjViMDU0YzI4YTNkZDcifX19
+  'betatesterOn':
+    material: name_tag
     priority: 2
     slot: 4
-    display_name: '&b[*] &b&lEnder Aura &f&lEffect'
+    display_name: '&f[&d&lBeta Tester&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'ultracosmetics.particleeffects.enderaura'
+          permission: 'deluxetags.tag.betatester'
     lore:
     - ''
     - '&fClick to toggle'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects enderaura %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.enderaura.on true'
-    - '[console] lp user %player_name% permission set cosmetics.enderaura.off false'
+    - '[console] tags set %player_name% betatester'
+    - '[console] lp user %player_name% permission set deluxetags.tag.betatester.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.betatester.off false'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.enderaura.off'
+          permission: 'deluxetags.tag.betatester.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects enderaura %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.enderaura.on true'
-    - '[console] lp user %player_name% permission set cosmetics.enderaura.off false'
+    - '[console] tags set %player_name% betatester'
+    - '[console] lp user %player_name% permission set deluxetags.tag.betatester.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.betatester.off false'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.enderaura.off'
+          permission: 'deluxetags.tag.betatester.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'enderauraRemove':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY3NzhmNzJlYWNhNDUyZWUwMTM4OTNlMmJjNTNkOGQ1YjFmY2E0NGNmZTI3MDM4NjViMDU0YzI4YTNkZDcifX19
+  'betatesterOff':
+    material: name_tag
     priority: 1
     slot: 4
-    display_name: '&b[*] &b&lEnder Aura &f&lEffect'
+    display_name: '&f[&d&lBeta Tester&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.enderaura.on'
+          permission: 'deluxetags.tag.betatester.on'
     lore:
     - ''
     - '&aActivated'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.enderaura.on false'
-    - '[console] lp user %player_name% permission set cosmetics.enderaura.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.betatester.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.betatester.off true'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.enderaura.on'
+          permission: 'deluxetags.tag.betatester.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.enderaura.on false'
-    - '[console] lp user %player_name% permission set cosmetics.enderaura.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.betatester.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.betatester.off true'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.enderaura.on'
+          permission: 'deluxetags.tag.betatester.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'firewavesNoOwn':
+  'simpNoOwn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 5
-    display_name: '&b[*] &b&lFire Waves &f&lEffect'
+    display_name: '&f[&d&lSimp&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.firewaves'
+          permission: 'deluxetags.tag.simp'
     lore:
-    - ''
-    - '&bPrice: &f50c'
+    - '&bPrice: &f$1'
     - ''
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.firewaves'
+          permission: 'deluxetags.tag.simp'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.firewaves'
+          permission: 'deluxetags.tag.simp'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'firewavesSpawn':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBhNDRkNTFlY2M3OWY2OTRjZmQ2MDIyOGM4ODQyODg0OGNhNjE4ZTM2YTY1OWE0MTZlOTI0NmQ4NDFhZWM4In19fQ==
+  'simpOn':
+    material: name_tag
     priority: 2
     slot: 5
-    display_name: '&b[*] &b&lFire Waves &f&lEffect'
+    display_name: '&f[&d&lSimp&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'ultracosmetics.particleeffects.firewaves'
+          permission: 'deluxetags.tag.simp'
     lore:
     - ''
     - '&fClick to toggle'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects firewaves %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.firewaves.on true'
-    - '[console] lp user %player_name% permission set cosmetics.firewaves.off false'
+    - '[console] tags set %player_name% simp'
+    - '[console] lp user %player_name% permission set deluxetags.tag.simp.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.simp.off false'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.firewaves.off'
+          permission: 'deluxetags.tag.simp.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects firewaves %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.firewaves.on true'
-    - '[console] lp user %player_name% permission set cosmetics.firewaves.off false'
+    - '[console] tags set %player_name% simp'
+    - '[console] lp user %player_name% permission set deluxetags.tag.simp.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.simp.off false'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.firewaves.off'
+          permission: 'deluxetags.tag.simp.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'firewavesRemove':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBhNDRkNTFlY2M3OWY2OTRjZmQ2MDIyOGM4ODQyODg0OGNhNjE4ZTM2YTY1OWE0MTZlOTI0NmQ4NDFhZWM4In19fQ==
+  'simpOff':
+    material: name_tag
     priority: 1
     slot: 5
-    display_name: '&b[*] &b&lFire Waves &f&lEffect'
+    display_name: '&f[&d&lSimp&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.firewaves.on'
+          permission: 'deluxetags.tag.simp.on'
     lore:
     - ''
     - '&aActivated'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.firewaves.on false'
-    - '[console] lp user %player_name% permission set cosmetics.firewaves.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.simp.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.simp.off true'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.firewaves.on'
+          permission: 'deluxetags.tag.simp.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.firewaves.on false'
-    - '[console] lp user %player_name% permission set cosmetics.firewaves.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.simp.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.simp.off true'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.firewaves.on'
+          permission: 'deluxetags.tag.simp.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'flamefairyNoOwn':
+  'ogNoOwn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 6
-    display_name: '&b[*] &b&lFlame Fairy &f&lEffect'
+    display_name: '&f[&2&lO&a&lG&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.flamefairy'
+          permission: 'deluxetags.tag.og'
     lore:
-    - ''
-    - '&bPrice: &f50c'
+    - '&bPrice: &f$1'
     - ''
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.flamefairy'
+          permission: 'deluxetags.tag.og'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.flamefairy'
+          permission: 'deluxetags.tag.og'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'flamefairySpawn':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTNhNWMzMThmM2ViYTBlYzhjMTlhZWM0ODY5ZjBmMTE4NjQ4YThlMmY3NzE4NGE5NzdiOWQ3NzEwN2EyZmFlMCJ9fX0=
+  'ogOn':
+    material: name_tag
     priority: 2
     slot: 6
-    display_name: '&b[*] &b&lFlame Fairy &f&lEffect'
+    display_name: '&f[&2&lO&a&lG&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'ultracosmetics.particleeffects.flamefairy'
+          permission: 'deluxetags.tag.og'
     lore:
     - ''
     - '&fClick to toggle'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects flamefairy %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.flamefairy.on true'
-    - '[console] lp user %player_name% permission set cosmetics.flamefairy.off false'
+    - '[console] tags set %player_name% og'
+    - '[console] lp user %player_name% permission set deluxetags.tag.og.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.og.off false'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.flamefairy.off'
+          permission: 'deluxetags.tag.og.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects flamefairy %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.flamefairy.on true'
-    - '[console] lp user %player_name% permission set cosmetics.flamefairy.off false'
+    - '[console] tags set %player_name% og'
+    - '[console] lp user %player_name% permission set deluxetags.tag.og.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.og.off false'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.flamefairy.off'
+          permission: 'deluxetags.tag.og.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'flamefairyRemove':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTNhNWMzMThmM2ViYTBlYzhjMTlhZWM0ODY5ZjBmMTE4NjQ4YThlMmY3NzE4NGE5NzdiOWQ3NzEwN2EyZmFlMCJ9fX0=
+  'ogOff':
+    material: name_tag
     priority: 1
     slot: 6
-    display_name: '&b[*] &b&lFlame Fairy &f&lEffect'
+    display_name: '&f[&2&lO&a&lG&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.flamefairy.on'
+          permission: 'deluxetags.tag.og.on'
     lore:
     - ''
     - '&aActivated'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.flamefairy.on false'
-    - '[console] lp user %player_name% permission set cosmetics.flamefairy.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.og.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.og.off true'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.flamefairy.on'
+          permission: 'deluxetags.tag.og.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.flamefairy.on false'
-    - '[console] lp user %player_name% permission set cosmetics.flamefairy.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.og.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.og.off true'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.flamefairy.on'
+          permission: 'deluxetags.tag.og.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'flameringsNoOwn':
+  'highrollerNoOwn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 7
-    display_name: '&b[*] &b&lFlame Rings &f&lEffect'
+    display_name: '&f[&e&lHigh &6&lRoller&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.flamerings'
+          permission: 'deluxetags.tag.highroller'
     lore:
-    - ''
-    - '&bPrice: &f50c'
+    - '&bPrice: &f$1'
     - ''
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.flamerings'
+          permission: 'deluxetags.tag.highroller'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.flamerings'
+          permission: 'deluxetags.tag.highroller'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'flameringsSpawn':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjdkNTdiNWJjOWFiM2Y1M2VjOWNjMmY5NGI3MmMxMzRhY2RlODU1YTY0M2MyNWU1YTI2YzNlMGIyYTYwM2FkZCJ9fX0=
+  'highrollerOn':
+    material: name_tag
     priority: 2
     slot: 7
-    display_name: '&b[*] &b&lFlame Rings &f&lEffect'
+    display_name: '&f[&e&lHigh &6&lRoller&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'ultracosmetics.particleeffects.flamerings'
+          permission: 'deluxetags.tag.highroller'
     lore:
     - ''
     - '&fClick to toggle'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects flamerings %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.flamerings.on true'
-    - '[console] lp user %player_name% permission set cosmetics.flamerings.off false'
+    - '[console] tags set %player_name% highroller'
+    - '[console] lp user %player_name% permission set deluxetags.tag.highroller.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.highroller.off false'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.flamerings.off'
+          permission: 'deluxetags.tag.highroller.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects flamerings %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.flamerings.on true'
-    - '[console] lp user %player_name% permission set cosmetics.flamerings.off false'
+    - '[console] tags set %player_name% highroller'
+    - '[console] lp user %player_name% permission set deluxetags.tag.highroller.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.highroller.off false'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.flamerings.off'
+          permission: 'deluxetags.tag.highroller.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'flameringsRemove':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjdkNTdiNWJjOWFiM2Y1M2VjOWNjMmY5NGI3MmMxMzRhY2RlODU1YTY0M2MyNWU1YTI2YzNlMGIyYTYwM2FkZCJ9fX0=
+  'highrollerOff':
+    material: name_tag
     priority: 1
     slot: 7
-    display_name: '&b[*] &b&lFlame Rings &f&lEffect'
+    display_name: '&f[&e&lHigh &6&lRoller&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.flamerings.on'
+          permission: 'deluxetags.tag.highroller.on'
     lore:
     - ''
     - '&aActivated'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.flamerings.on false'
-    - '[console] lp user %player_name% permission set cosmetics.flamerings.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.highroller.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.highroller.off true'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.flamerings.on'
+          permission: 'deluxetags.tag.highroller.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.flamerings.on false'
-    - '[console] lp user %player_name% permission set cosmetics.flamerings.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.highroller.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.highroller.off true'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.flamerings.on'
+          permission: 'deluxetags.tag.highroller.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'frostlordNoOwn':
+  'toxicNoOwn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 8
-    display_name: '&b[*] &b&lFrost Lord &f&lEffect'
+    display_name: '&f[&a&lTO&2&lXIC&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.frostlord'
+          permission: 'deluxetags.tag.toxic'
     lore:
-    - ''
-    - '&bPrice: &f50c'
+    - '&bPrice: &f$1'
     - ''
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.frostlord'
+          permission: 'deluxetags.tag.toxic'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.frostlord'
+          permission: 'deluxetags.tag.toxic'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'frostlordSpawn':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWE5ZDhlNGQxYTFiM2EzYzg0MGZmZmM5ZmMwMzAxYjg5YTFiYjY2N2U1NmQ5N2M4ZTFmOWE2YmYwMTQxZjFhMCJ9fX0=
+  'toxicOn':
+    material: name_tag
     priority: 2
     slot: 8
-    display_name: '&b[*] &b&lFrost Lord &f&lEffect'
+    display_name: '&f[&a&lTO&2&lXIC&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'ultracosmetics.particleeffects.frostlord'
+          permission: 'deluxetags.tag.toxic'
     lore:
     - ''
     - '&fClick to toggle'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects frostlord %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.frostlord.on true'
-    - '[console] lp user %player_name% permission set cosmetics.frostlord.off false'
+    - '[console] tags set %player_name% toxic'
+    - '[console] lp user %player_name% permission set deluxetags.tag.toxic.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.toxic.off false'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.frostlord.off'
+          permission: 'deluxetags.tag.toxic.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects frostlord %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.frostlord.on true'
-    - '[console] lp user %player_name% permission set cosmetics.frostlord.off false'
+    - '[console] tags set %player_name% toxic'
+    - '[console] lp user %player_name% permission set deluxetags.tag.toxic.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.toxic.off false'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.frostlord.off'
+          permission: 'deluxetags.tag.toxic.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'frostlordRemove':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWE5ZDhlNGQxYTFiM2EzYzg0MGZmZmM5ZmMwMzAxYjg5YTFiYjY2N2U1NmQ5N2M4ZTFmOWE2YmYwMTQxZjFhMCJ9fX0=
+  'toxicOff':
+    material: name_tag
     priority: 1
     slot: 8
-    display_name: '&b[*] &b&lFrost Lord &f&lEffect'
+    display_name: '&f[&a&lTO&2&lXIC&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.frostlord.on'
+          permission: 'deluxetags.tag.toxic.on'
     lore:
     - ''
     - '&aActivated'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.frostlord.on false'
-    - '[console] lp user %player_name% permission set cosmetics.frostlord.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.toxic.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.toxic.off true'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.frostlord.on'
+          permission: 'deluxetags.tag.toxic.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.frostlord.on false'
-    - '[console] lp user %player_name% permission set cosmetics.frostlord.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.toxic.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.toxic.off true'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.frostlord.on'
+          permission: 'deluxetags.tag.toxic.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'frozenwalkNoOwn':
+  'nullNoOwn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 9
-    display_name: '&b[*] &b&lFrozen Walk &f&lEffect'
+    display_name: '&f[&c&lnull&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.frozenwalk'
+          permission: 'deluxetags.tag.null'
     lore:
-    - ''
-    - '&bPrice: &f50c'
+    - '&bPrice: &f$1'
     - ''
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.frozenwalk'
+          permission: 'deluxetags.tag.null'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.frozenwalk'
+          permission: 'deluxetags.tag.null'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'frozenwalkSpawn':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JiZThmZDFhYTM5ZjE1MDc2ZTg4NGRmZTZkZGI5YTNmMzc2MWRiMzFlMmIxZjk5NDBiNWRmZDM0ZDFjNGQifX19
+  'nullOn':
+    material: name_tag
     priority: 2
     slot: 9
-    display_name: '&b[*] &b&lFrozen Walk &f&lEffect'
+    display_name: '&f[&c&lnull&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'ultracosmetics.particleeffects.frozenwalk'
+          permission: 'deluxetags.tag.null'
     lore:
     - ''
     - '&fClick to toggle'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects frozenwalk %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.frozenwalk.on true'
-    - '[console] lp user %player_name% permission set cosmetics.frozenwalk.off false'
+    - '[console] tags set %player_name% notnull'
+    - '[console] lp user %player_name% permission set deluxetags.tag.null.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.null.off false'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.frozenwalk.off'
+          permission: 'deluxetags.tag.null.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects frozenwalk %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.frozenwalk.on true'
-    - '[console] lp user %player_name% permission set cosmetics.frozenwalk.off false'
+    - '[console] tags set %player_name% notnull'
+    - '[console] lp user %player_name% permission set deluxetags.tag.null.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.null.off false'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.frozenwalk.off'
+          permission: 'deluxetags.tag.null.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'frozenwalkRemove':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JiZThmZDFhYTM5ZjE1MDc2ZTg4NGRmZTZkZGI5YTNmMzc2MWRiMzFlMmIxZjk5NDBiNWRmZDM0ZDFjNGQifX19
+  'nullOff':
+    material: name_tag
     priority: 1
     slot: 9
-    display_name: '&b[*] &b&lFrozen Walk &f&lEffect'
+    display_name: '&f[&c&lnull&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.frozenwalk.on'
+          permission: 'deluxetags.tag.null.on'
     lore:
     - ''
     - '&aActivated'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.frozenwalk.on false'
-    - '[console] lp user %player_name% permission set cosmetics.frozenwalk.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.null.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.null.off true'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.frozenwalk.on'
+          permission: 'deluxetags.tag.null.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.frozenwalk.on false'
-    - '[console] lp user %player_name% permission set cosmetics.frozenwalk.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.null.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.null.off true'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.frozenwalk.on'
+          permission: 'deluxetags.tag.null.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'greensparksNoOwn':
+  'voidNoOwn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 10
-    display_name: '&b[*] &b&lGreen Sparks &f&lEffect'
+    display_name: '&f[&0&lVOID&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.greensparks'
+          permission: 'deluxetags.tag.void'
     lore:
-    - ''
-    - '&bPrice: &f50c'
+    - '&bPrice: &f$1'
     - ''
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.greensparks'
+          permission: 'deluxetags.tag.void'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.greensparks'
+          permission: 'deluxetags.tag.void'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'greensparksSpawn':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTAwZmI5NDM4OWZkMzNmNjVhZTFmNTc2ZmVjOGJiNDFjYmE2ZmU5YzJlODM4YmQ0MzkzNzJhZDE4MGNlN2E4NiJ9fX0=
+  'voidOn':
+    material: name_tag
     priority: 2
     slot: 10
-    display_name: '&b[*] &b&lGreen Sparks &f&lEffect'
+    display_name: '&f[&0&lVOID&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'ultracosmetics.particleeffects.greensparks'
+          permission: 'deluxetags.tag.void'
     lore:
     - ''
     - '&fClick to toggle'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects greensparks %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.greensparks.on true'
-    - '[console] lp user %player_name% permission set cosmetics.greensparks.off false'
+    - '[console] tags set %player_name% void'
+    - '[console] lp user %player_name% permission set deluxetags.tag.void.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.void.off false'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.greensparks.off'
+          permission: 'deluxetags.tag.void.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects greensparks %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.greensparks.on true'
-    - '[console] lp user %player_name% permission set cosmetics.greensparks.off false'
+    - '[console] tags set %player_name% void'
+    - '[console] lp user %player_name% permission set deluxetags.tag.void.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.void.off false'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.greensparks.off'
+          permission: 'deluxetags.tag.void.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'greensparksRemove':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTAwZmI5NDM4OWZkMzNmNjVhZTFmNTc2ZmVjOGJiNDFjYmE2ZmU5YzJlODM4YmQ0MzkzNzJhZDE4MGNlN2E4NiJ9fX0=
+  'voidOff':
+    material: name_tag
     priority: 1
     slot: 10
-    display_name: '&b[*] &b&lGreen Sparks &f&lEffect'
+    display_name: '&f[&0&lVOID&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.greensparks.on'
+          permission: 'deluxetags.tag.void.on'
     lore:
     - ''
     - '&aActivated'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.greensparks.on false'
-    - '[console] lp user %player_name% permission set cosmetics.greensparks.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.void.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.void.off true'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.greensparks.on'
+          permission: 'deluxetags.tag.void.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.greensparks.on false'
-    - '[console] lp user %player_name% permission set cosmetics.greensparks.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.void.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.void.off true'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.greensparks.on'
+          permission: 'deluxetags.tag.void.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'infernoNoOwn':
+  'downbadNoOwn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 11
-    display_name: '&b[*] &b&lInferno &f&lEffect'
+    display_name: '&f[&9&lDown &1&lBad&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.inferno'
+          permission: 'deluxetags.tag.downbad'
     lore:
-    - ''
-    - '&bPrice: &f50c'
+    - '&bPrice: &f$1'
     - ''
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.inferno'
+          permission: 'deluxetags.tag.downbad'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.inferno'
+          permission: 'deluxetags.tag.downbad'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'infernoSpawn':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzM4ZmU2Y2Q4MTk1NDU3OTJiZWJmMzMwZDg4NGM3MmVkYjhkNTBkYjlkZjc2NDhhMzQ3OTY4ZGUyMmViMjI2ZCJ9fX0=
+  'downbadOn':
+    material: name_tag
     priority: 2
     slot: 11
-    display_name: '&b[*] &b&lInferno &f&lEffect'
+    display_name: '&f[&9&lDown &1&lBad&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'ultracosmetics.particleeffects.inferno'
+          permission: 'deluxetags.tag.downbad'
     lore:
     - ''
     - '&fClick to toggle'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects inferno %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.inferno.on true'
-    - '[console] lp user %player_name% permission set cosmetics.inferno.off false'
+    - '[console] tags set %player_name% downbad'
+    - '[console] lp user %player_name% permission set deluxetags.tag.downbad.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.downbad.off false'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.inferno.off'
+          permission: 'deluxetags.tag.downbad.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects inferno %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.inferno.on true'
-    - '[console] lp user %player_name% permission set cosmetics.inferno.off false'
+    - '[console] tags set %player_name% downbad'
+    - '[console] lp user %player_name% permission set deluxetags.tag.downbad.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.downbad.off false'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.inferno.off'
+          permission: 'deluxetags.tag.downbad.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'infernoRemove':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzM4ZmU2Y2Q4MTk1NDU3OTJiZWJmMzMwZDg4NGM3MmVkYjhkNTBkYjlkZjc2NDhhMzQ3OTY4ZGUyMmViMjI2ZCJ9fX0=
+  'downbadOff':
+    material: name_tag
     priority: 1
     slot: 11
-    display_name: '&b[*] &b&lInferno &f&lEffect'
+    display_name: '&f[&9&lDown &1&lBad&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.inferno.on'
+          permission: 'deluxetags.tag.downbad.on'
     lore:
     - ''
     - '&aActivated'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.inferno.on false'
-    - '[console] lp user %player_name% permission set cosmetics.inferno.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.downbad.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.downbad.off true'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.inferno.on'
+          permission: 'deluxetags.tag.downbad.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.inferno.on false'
-    - '[console] lp user %player_name% permission set cosmetics.inferno.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.downbad.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.downbad.off true'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.inferno.on'
+          permission: 'deluxetags.tag.downbad.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'inloveNoOwn':
+  'virginNoOwn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 12
-    display_name: '&b[*] &b&lIn Love &f&lEffect'
+    display_name: '&f[&5&lVirgin&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.inlove'
+          permission: 'deluxetags.tag.virgin'
     lore:
-    - ''
-    - '&bPrice: &f50c'
+    - '&bPrice: &f$1'
     - ''
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.inlove'
+          permission: 'deluxetags.tag.virgin'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.inlove'
+          permission: 'deluxetags.tag.virgin'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'inloveSpawn':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQzNmMzMjkxZmUwMmQxNDJjNGFmMjhkZjJmNTViYjAzOTdlMTk4NTU0ZTgzNDU5OTBkYmJjZDRjMTQwMzE2YiJ9fX0=
+  'virginOn':
+    material: name_tag
     priority: 2
     slot: 12
-    display_name: '&b[*] &b&lIn Love &f&lEffect'
+    display_name: '&f[&5&lVirgin&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'ultracosmetics.particleeffects.inlove'
+          permission: 'deluxetags.tag.virgin'
     lore:
     - ''
     - '&fClick to toggle'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects inlove %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.inlove.on true'
-    - '[console] lp user %player_name% permission set cosmetics.inlove.off false'
+    - '[console] tags set %player_name% virgin'
+    - '[console] lp user %player_name% permission set deluxetags.tag.virgin.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.virgin.off false'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.inlove.off'
+          permission: 'deluxetags.tag.virgin.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects inlove %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.inlove.on true'
-    - '[console] lp user %player_name% permission set cosmetics.inlove.off false'
+    - '[console] tags set %player_name% virgin'
+    - '[console] lp user %player_name% permission set deluxetags.tag.virgin.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.virgin.off false'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.inlove.off'
+          permission: 'deluxetags.tag.virgin.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'inloveRemove':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQzNmMzMjkxZmUwMmQxNDJjNGFmMjhkZjJmNTViYjAzOTdlMTk4NTU0ZTgzNDU5OTBkYmJjZDRjMTQwMzE2YiJ9fX0=
+  'virginOff':
+    material: name_tag
     priority: 1
     slot: 12
-    display_name: '&b[*] &b&lIn Love &f&lEffect'
+    display_name: '&f[&5&lVirgin&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.inlove.on'
+          permission: 'deluxetags.tag.virgin.on'
     lore:
     - ''
     - '&aActivated'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.inlove.on false'
-    - '[console] lp user %player_name% permission set cosmetics.inlove.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.virgin.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.virgin.off true'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.inlove.on'
+          permission: 'deluxetags.tag.virgin.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.inlove.on false'
-    - '[console] lp user %player_name% permission set cosmetics.inlove.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.virgin.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.virgin.off true'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.inlove.on'
+          permission: 'deluxetags.tag.virgin.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'magicalrodsNoOwn':
+  'moneyNoOwn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 13
-    display_name: '&b[*] &b&lMagical Rods &f&lEffect'
+    display_name: '&f[&a&l$&2&l$&a&l$&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.magicalrods'
+          permission: 'deluxetags.tag.money'
     lore:
-    - ''
-    - '&bPrice: &f50c'
+    - '&bPrice: &f$1'
     - ''
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.magicalrods'
+          permission: 'deluxetags.tag.money'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.magicalrods'
+          permission: 'deluxetags.tag.money'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'magicalrodsSpawn':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2VlYTM0NTkwOGQxN2RjNDQ5NjdkMWRjZTQyOGYyMmYyYjE5Mzk3MzcwYWJlYjc3YmRjMTJlMmRkMWNiNiJ9fX0=
+  'moneyOn':
+    material: name_tag
     priority: 2
     slot: 13
-    display_name: '&b[*] &b&lMagical Rods &f&lEffect'
+    display_name: '&f[&a&l$&2&l$&a&l$&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'ultracosmetics.particleeffects.magicalrods'
+          permission: 'deluxetags.tag.money'
     lore:
     - ''
     - '&fClick to toggle'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects magicalrods %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.magicalrods.on true'
-    - '[console] lp user %player_name% permission set cosmetics.magicalrods.off false'
+    - '[console] tags set %player_name% money'
+    - '[console] lp user %player_name% permission set deluxetags.tag.money.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.money.off false'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.magicalrods.off'
+          permission: 'deluxetags.tag.money.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects magicalrods %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.magicalrods.on true'
-    - '[console] lp user %player_name% permission set cosmetics.magicalrods.off false'
+    - '[console] tags set %player_name% money'
+    - '[console] lp user %player_name% permission set deluxetags.tag.money.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.money.off false'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.magicalrods.off'
+          permission: 'deluxetags.tag.money.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'magicalrodsRemove':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2VlYTM0NTkwOGQxN2RjNDQ5NjdkMWRjZTQyOGYyMmYyYjE5Mzk3MzcwYWJlYjc3YmRjMTJlMmRkMWNiNiJ9fX0=
+  'moneyOff':
+    material: name_tag
     priority: 1
     slot: 13
-    display_name: '&b[*] &b&lMagical Rods &f&lEffect'
+    display_name: '&f[&a&l$&2&l$&a&l$&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.magicalrods.on'
+          permission: 'deluxetags.tag.money.on'
     lore:
     - ''
     - '&aActivated'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.magicalrods.on false'
-    - '[console] lp user %player_name% permission set cosmetics.magicalrods.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.money.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.money.off true'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.magicalrods.on'
+          permission: 'deluxetags.tag.money.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.magicalrods.on false'
-    - '[console] lp user %player_name% permission set cosmetics.magicalrods.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.money.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.money.off true'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.magicalrods.on'
+          permission: 'deluxetags.tag.money.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'musicNoOwn':
+  'rainbowNoOwn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 14
-    display_name: '&b[*] &b&lMusic &f&lEffect'
+    display_name: '&f[&c&lR&6&la&e&li&2&ln&a&lb&b&lo&3&lw&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.music'
+          permission: 'deluxetags.tag.rainbow'
     lore:
-    - ''
-    - '&bPrice: &f50c'
+    - '&bPrice: &f$1'
     - ''
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.music'
+          permission: 'deluxetags.tag.rainbow'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.music'
+          permission: 'deluxetags.tag.rainbow'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'musicSpawn':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjIyNzkxZTg4NzcyNmJiMGY3YmRlYTY4NmI2N2I1NDk5Y2NiMmIyM2Q1YWNmZjY2Yzg3MGZhOTk5Nzk3MyJ9fX0=
+  'rainbowOn':
+    material: name_tag
     priority: 2
     slot: 14
-    display_name: '&b[*] &b&lMusic &f&lEffect'
+    display_name: '&f[&c&lR&6&la&e&li&2&ln&a&lb&b&lo&3&lw&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'ultracosmetics.particleeffects.music'
+          permission: 'deluxetags.tag.rainbow'
     lore:
     - ''
     - '&fClick to toggle'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects music %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.music.on true'
-    - '[console] lp user %player_name% permission set cosmetics.music.off false'
+    - '[console] tags set %player_name% rainbow'
+    - '[console] lp user %player_name% permission set deluxetags.tag.rainbow.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.rainbow.off false'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.music.off'
+          permission: 'deluxetags.tag.rainbow.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects music %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.music.on true'
-    - '[console] lp user %player_name% permission set cosmetics.music.off false'
+    - '[console] tags set %player_name% rainbow'
+    - '[console] lp user %player_name% permission set deluxetags.tag.rainbow.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.rainbow.off false'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.music.off'
+          permission: 'deluxetags.tag.rainbow.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'musicRemove':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjIyNzkxZTg4NzcyNmJiMGY3YmRlYTY4NmI2N2I1NDk5Y2NiMmIyM2Q1YWNmZjY2Yzg3MGZhOTk5Nzk3MyJ9fX0=
+  'rainbowOff':
+    material: name_tag
     priority: 1
     slot: 14
-    display_name: '&b[*] &b&lMusic &f&lEffect'
+    display_name: '&f[&c&lR&6&la&e&li&2&ln&a&lb&b&lo&3&lw&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.music.on'
+          permission: 'deluxetags.tag.rainbow.on'
     lore:
     - ''
     - '&aActivated'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.music.on false'
-    - '[console] lp user %player_name% permission set cosmetics.music.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.rainbow.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.rainbow.off true'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.music.on'
+          permission: 'deluxetags.tag.rainbow.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.music.on false'
-    - '[console] lp user %player_name% permission set cosmetics.music.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.rainbow.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.rainbow.off true'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.music.on'
+          permission: 'deluxetags.tag.rainbow.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'raincloudNoOwn':
+  'exploitNoOwn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 15
-    display_name: '&b[*] &b&lRain Cloud &f&lEffect'
+    display_name: '&f[&4&lExploit&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.raincloud'
+          permission: 'deluxetags.tag.exploit'
     lore:
-    - ''
-    - '&bPrice: &f50c'
+    - '&bPrice: &f$1'
     - ''
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.raincloud'
+          permission: 'deluxetags.tag.exploit'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.raincloud'
+          permission: 'deluxetags.tag.exploit'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'raincloudSpawn':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2I2ZGI5ODBhNTI0OTYwOTdkZmE4ZDU3ZGZiOTlkOGIxMjAxMTljNzExMzgzNThhNGRhMjliZWYwNmExZDZjMSJ9fX0=
+  'exploitOn':
+    material: name_tag
     priority: 2
     slot: 15
-    display_name: '&b[*] &b&lRain Cloud &f&lEffect'
+    display_name: '&f[&4&lExploit&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'ultracosmetics.particleeffects.raincloud'
+          permission: 'deluxetags.tag.exploit'
     lore:
     - ''
     - '&fClick to toggle'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects raincloud %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.raincloud.on true'
-    - '[console] lp user %player_name% permission set cosmetics.raincloud.off false'
+    - '[console] tags set %player_name% exploit'
+    - '[console] lp user %player_name% permission set deluxetags.tag.exploit.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.exploit.off false'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.raincloud.off'
+          permission: 'deluxetags.tag.exploit.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects raincloud %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.raincloud.on true'
-    - '[console] lp user %player_name% permission set cosmetics.raincloud.off false'
+    - '[console] tags set %player_name% exploit'
+    - '[console] lp user %player_name% permission set deluxetags.tag.exploit.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.exploit.off false'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.raincloud.off'
+          permission: 'deluxetags.tag.exploit.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'raincloudRemove':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2I2ZGI5ODBhNTI0OTYwOTdkZmE4ZDU3ZGZiOTlkOGIxMjAxMTljNzExMzgzNThhNGRhMjliZWYwNmExZDZjMSJ9fX0=
+  'exploitOff':
+    material: name_tag
     priority: 1
     slot: 15
-    display_name: '&b[*] &b&lRain Cloud &f&lEffect'
+    display_name: '&f[&4&lExploit&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.raincloud.on'
+          permission: 'deluxetags.tag.exploit.on'
     lore:
     - ''
     - '&aActivated'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.raincloud.on false'
-    - '[console] lp user %player_name% permission set cosmetics.raincloud.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.exploit.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.exploit.off true'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.raincloud.on'
+          permission: 'deluxetags.tag.exploit.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.raincloud.on false'
-    - '[console] lp user %player_name% permission set cosmetics.raincloud.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.exploit.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.exploit.off true'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.raincloud.on'
+          permission: 'deluxetags.tag.exploit.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'santahatNoOwn':
+  'hackerNoOwn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 16
-    display_name: '&b[*] &b&lSanta Hat &f&lEffect'
+    display_name: '&f[&4&lHacker&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.santahat'
+          permission: 'deluxetags.tag.hacker'
     lore:
-    - ''
-    - '&bPrice: &f50c'
+    - '&bPrice: &f$1'
     - ''
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.santahat'
+          permission: 'deluxetags.tag.hacker'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.santahat'
+          permission: 'deluxetags.tag.hacker'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'santahatSpawn':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmRjNmE3Zjk4YWU4MGUyMzVjODAxNjFmYTY1NGU2ZmY3ZTJkMWVlYmRiY2JiMDUwMDVlNmE0M2UxZTVmOGZhNCJ9fX0=
+  'hackerOn':
+    material: name_tag
     priority: 2
     slot: 16
-    display_name: '&b[*] &b&lSanta Hat &f&lEffect'
+    display_name: '&f[&4&lHacker&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'ultracosmetics.particleeffects.santahat'
+          permission: 'deluxetags.tag.hacker'
     lore:
     - ''
     - '&fClick to toggle'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects santahat %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.santahat.on true'
-    - '[console] lp user %player_name% permission set cosmetics.santahat.off false'
+    - '[console] tags set %player_name% hacker'
+    - '[console] lp user %player_name% permission set deluxetags.tag.hacker.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.hacker.off false'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.santahat.off'
+          permission: 'deluxetags.tag.hacker.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects santahat %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.santahat.on true'
-    - '[console] lp user %player_name% permission set cosmetics.santahat.off false'
+    - '[console] tags set %player_name% hacker'
+    - '[console] lp user %player_name% permission set deluxetags.tag.hacker.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.hacker.off false'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.santahat.off'
+          permission: 'deluxetags.tag.hacker.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'santahatRemove':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmRjNmE3Zjk4YWU4MGUyMzVjODAxNjFmYTY1NGU2ZmY3ZTJkMWVlYmRiY2JiMDUwMDVlNmE0M2UxZTVmOGZhNCJ9fX0=
+  'hackerOff':
+    material: name_tag
     priority: 1
     slot: 16
-    display_name: '&b[*] &b&lSanta Hat &f&lEffect'
+    display_name: '&f[&4&lHacker&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.santahat.on'
+          permission: 'deluxetags.tag.hacker.on'
     lore:
     - ''
     - '&aActivated'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.santahat.on false'
-    - '[console] lp user %player_name% permission set cosmetics.santahat.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.hacker.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.hacker.off true'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.santahat.on'
+          permission: 'deluxetags.tag.hacker.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.santahat.on false'
-    - '[console] lp user %player_name% permission set cosmetics.santahat.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.hacker.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.hacker.off true'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.santahat.on'
+          permission: 'deluxetags.tag.hacker.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'superheroNoOwn':
+  'p2wNoOwn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 17
-    display_name: '&b[*] &b&lSuperhero &f&lEffect'
+    display_name: '&f[&a&lP&2&l2&a&lW&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.superhero'
+          permission: 'deluxetags.tag.p2w'
     lore:
-    - ''
-    - '&bPrice: &f50c'
+    - '&bPrice: &f$1'
     - ''
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.superhero'
+          permission: 'deluxetags.tag.p2w'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.superhero'
+          permission: 'deluxetags.tag.p2w'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'superheroSpawn':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU0MzVjMzdlZGFmZTE2NWM5MmFlMzczNmUxNWM0NjRhZDYyMWQ2MTIyMDQzNWQxYTM5YWRiNDcwNWZiODg2In19fQ==
+  'p2wOn':
+    material: name_tag
     priority: 2
     slot: 17
-    display_name: '&b[*] &b&lSuperhero &f&lEffect'
+    display_name: '&f[&a&lP&2&l2&a&lW&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'ultracosmetics.particleeffects.superhero'
+          permission: 'deluxetags.tag.p2w'
     lore:
     - ''
     - '&fClick to toggle'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects superhero %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.superhero.on true'
-    - '[console] lp user %player_name% permission set cosmetics.superhero.off false'
+    - '[console] tags set %player_name% p2w'
+    - '[console] lp user %player_name% permission set deluxetags.tag.p2w.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.p2w.off false'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.superhero.off'
+          permission: 'deluxetags.tag.p2w.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects superhero %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.superhero.on true'
-    - '[console] lp user %player_name% permission set cosmetics.superhero.off false'
+    - '[console] tags set %player_name% p2w'
+    - '[console] lp user %player_name% permission set deluxetags.tag.p2w.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.p2w.off false'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.superhero.off'
+          permission: 'deluxetags.tag.p2w.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'superheroRemove':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU0MzVjMzdlZGFmZTE2NWM5MmFlMzczNmUxNWM0NjRhZDYyMWQ2MTIyMDQzNWQxYTM5YWRiNDcwNWZiODg2In19fQ==
+  'p2wOff':
+    material: name_tag
     priority: 1
     slot: 17
-    display_name: '&b[*] &b&lSuperhero &f&lEffect'
+    display_name: '&f[&a&lP&2&l2&a&lW&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.superhero.on'
+          permission: 'deluxetags.tag.p2w.on'
     lore:
     - ''
     - '&aActivated'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.superhero.on false'
-    - '[console] lp user %player_name% permission set cosmetics.superhero.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.p2w.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.p2w.off true'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.superhero.on'
+          permission: 'deluxetags.tag.p2w.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.superhero.on false'
-    - '[console] lp user %player_name% permission set cosmetics.superhero.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.p2w.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.p2w.off true'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.superhero.on'
+          permission: 'deluxetags.tag.p2w.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'angelwingsNoOwn':
+  'aystraliaNoOwn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 18
-    display_name: '&b[*] &b&lAngel Wings &f&lEffect'
+    display_name: '&f[&b&lAystralia&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.angelwings'
+          permission: 'deluxetags.tag.aystralia'
     lore:
-    - ''
-    - '&bPrice: &f50c'
+    - '&bPrice: &f$1'
     - ''
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.angelwings'
+          permission: 'deluxetags.tag.aystralia'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'ultracosmetics.particleeffects.angelwings'
+          permission: 'deluxetags.tag.aystralia'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'angelwingsSpawn':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMThmYTg3MTU4NmU1YmY2MzY2ZmRhZmFiMTExMWU0Mjk2YzZlNmNmYmQ1MWViY2E1ODFjYTVmZTZkNTNiYTIxMiJ9fX0=
+  'aystraliaOn':
+    material: name_tag
     priority: 2
     slot: 18
-    display_name: '&b[*] &b&lAngel Wings &f&lEffect'
+    display_name: '&f[&b&lAystralia&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'ultracosmetics.particleeffects.angelwings'
+          permission: 'deluxetags.tag.aystralia'
     lore:
     - ''
     - '&fClick to toggle'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects angelwings %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.angelwings.on true'
-    - '[console] lp user %player_name% permission set cosmetics.angelwings.off false'
+    - '[console] tags set %player_name% aystralia'
+    - '[console] lp user %player_name% permission set deluxetags.tag.aystralia.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.aystralia.off false'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.angelwings.off'
+          permission: 'deluxetags.tag.aystralia.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc toggle effects angelwings %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.angelwings.on true'
-    - '[console] lp user %player_name% permission set cosmetics.angelwings.off false'
+    - '[console] tags set %player_name% aystralia'
+    - '[console] lp user %player_name% permission set deluxetags.tag.aystralia.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.aystralia.off false'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.angelwings.off'
+          permission: 'deluxetags.tag.aystralia.off'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'angelwingsRemove':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMThmYTg3MTU4NmU1YmY2MzY2ZmRhZmFiMTExMWU0Mjk2YzZlNmNmYmQ1MWViY2E1ODFjYTVmZTZkNTNiYTIxMiJ9fX0=
+  'aystraliaOff':
+    material: name_tag
     priority: 1
     slot: 18
-    display_name: '&b[*] &b&lAngel Wings &f&lEffect'
+    display_name: '&f[&b&lAystralia&f]&r &f&lTag'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.angelwings.on'
+          permission: 'deluxetags.tag.aystralia.on'
     lore:
     - ''
     - '&aActivated'
     left_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.angelwings.on false'
-    - '[console] lp user %player_name% permission set cosmetics.angelwings.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.aystralia.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.aystralia.off true'
     - '[close]'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.angelwings.on'
+          permission: 'deluxetags.tag.aystralia.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
     - '[sound] ENTITY_PLAYER_LEVELUP'
-    - '[console] uc clear %player_name%'
-    - '[console] lp user %player_name% permission set cosmetics.angelwings.on false'
-    - '[console] lp user %player_name% permission set cosmetics.angelwings.off true'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.aystralia.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.aystralia.off true'
     - '[close]'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'cosmetics.angelwings.on'
+          permission: 'deluxetags.tag.aystralia.on'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
