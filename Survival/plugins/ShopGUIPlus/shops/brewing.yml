@@ -23,10 +23,10 @@ brewing:
     3:
       type: item
       item:
-        material: MAGMA_CREAM 
+        material: magma_cream
         quantity: 1
-      sellPrice: 1.5
-      buyPrice: 150
+      sellPrice: 15
+      buyPrice: 100
       slot: 2
     4:
       type: item

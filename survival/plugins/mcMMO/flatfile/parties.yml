@@ -3,7 +3,7 @@ Morning_Woods:
   Password: DaBaby69
   Locked: true
   Level: 10
-  Xp: 1584
+  Xp: 4952
   Ally: ''
   ExpShareMode: EQUAL
   ItemShareMode: NONE
@@ -18,12 +18,11 @@ Morning_Woods:
   - 9fe712c8-e226-49fb-92ed-c7edf5660b4b|Brazi
   - e79fc165-83d6-4139-9a8f-d42bf1c23f87|Al_Shebab
   - f4d5e1b8-43e7-47eb-9b3b-21d66b202af7|KingMistik
-  - db124855-df1c-4a77-849a-fe55d1f90967|TNKCroco101
 Aystralia:
   Leader: 1132a3f9-cf23-42e1-8595-79d07b07844e|Aystralia
   Locked: true
   Level: 10
-  Xp: 3940
+  Xp: 0
   Ally: ''
   ExpShareMode: NONE
   ItemShareMode: NONE
@@ -39,7 +38,7 @@ GREENTEAM:
   Leader: 58821929-84e9-41f6-a23a-fe4b1edcb7fa|Greenyyy1
   Locked: true
   Level: 10
-  Xp: 2872
+  Xp: 1152
   Ally: ''
   ExpShareMode: NONE
   ItemShareMode: NONE
@@ -57,7 +56,7 @@ GREENTEAM:
   Password: pony
   Locked: true
   Level: 10
-  Xp: 6025
+  Xp: 0
   Ally: ''
   ExpShareMode: NONE
   ItemShareMode: NONE
