@@ -97,7 +97,7 @@ world-settings:
     fixed-chunk-inhabited-time: -1
     use-vanilla-world-scoreboard-name-coloring: false
     per-player-mob-spawns: true
-    max-auto-save-chunks-per-tick: 24
+    max-auto-save-chunks-per-tick: 12
     delay-chunk-unloads-by: 10s
     prevent-moving-into-unloaded-chunks: true
     should-remove-dragon: false
@@ -202,7 +202,7 @@ world-settings:
     squid-spawn-height:
       maximum: 0.0
     viewdistances:
-      no-tick-view-distance: -1
+      no-tick-view-distance: 10
     anti-xray:
       use-permission: false
       enabled: true
