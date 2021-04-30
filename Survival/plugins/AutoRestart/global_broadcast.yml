@@ -50,7 +50,7 @@ global_broadcasts:
                 text: '&b&lServer Restart'
                 timing: '20:40:20'
             subtitle:
-                text: '&b%m &fMinute Remaining!'
+                text: '&b%m &fMinutes Remaining!'
                 timing: '20:40:20'
     ##▒█▀▀▀█ ▒█▀▀▀ ▒█▀▀█ ▒█▀▀▀█ ▒█▄░▒█ ▒█▀▀▄ ▒█▀▀▀█
     ##░▀▀▀▄▄ ▒█▀▀▀ ▒█░░░ ▒█░░▒█ ▒█▒█▒█ ▒█░▒█ ░▀▀▀▄▄

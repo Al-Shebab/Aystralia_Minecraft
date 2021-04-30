@@ -5,16 +5,30 @@ messages:
   inventoryIsFullLosingItems: '&cWARNING! Your inventory''s full and you''re losing
     items!'
 options:
+  otherPlugins:
+    isProcessTokensEnchantExplosiveEvents: true
+    isProcessCrazyEnchantsBlockExplodeEvents: true
+    isProcessMcMMOBlockBreakEvents: true
+    isProcessEZBlocksBlockBreakEvents: false
+  blockBreakEvents:
+    blockBreakEventPriority: LOW
+    TokenEnchantBlockExplodeEventPriority: LOW
+    CrazyEnchantsBlastUseEventPriority: LOW
+    ZenchantmentsBlockShredEventPriority: LOW
   general:
     isAutoManagerEnabled: false
     isCalculateDurabilityEnabled: false
     isCalculateFortuneEnabled: true
+    isCalculateFortuneOnAllBlocksEnabled: false
     isCalculateSilkEnabled: true
     isCalculateXPEnabled: true
     givePlayerXPAsOrbDrops: true
     dropItemsIfInventoryIsFull: true
     playSoundIfInventoryIsFull: true
     hologramIfInventoryIsFull: false
+    isAutoSellPerBlockBreakEnabled: false
+    isAutoSellPerBlockBreakInlinedEnabled: false
+    maxFortuneLevel: 0
   permissions:
     permissionAutoPickup: prison.automanager.pickup
     permissionAutoSmelt: prison.automanager.smelt
@@ -29,10 +43,15 @@ options:
     loreBlockExplosionCountName: '&dPrison Blocks Exploded:&7 '
     loreDurabiltyResistance: false
     loreDurabiltyResistanceName: '&dDurability Resistance&7'
+  normalDrop:
+    isProcessNormalDropsEvents: true
+    normalDropSmelt: true
+    normalDropBlock: true
   autoPickup:
     autoPickupEnabled: true
     autoPickupLimitToMines: true
     autoPickupAllBlocks: true
+    autoPickupBlockNameListEnabled: false
     autoPickupCobbleStone: true
     autoPickupStone: true
     autoPickupGoldOre: true
@@ -54,6 +73,13 @@ options:
     autoSmeltAllBlocks: true
     autoSmeltGoldOre: true
     autoSmeltIronOre: true
+    autoSmeltCoalOre: true
+    autoSmeltDiamondlOre: true
+    autoSmeltEmeraldOre: true
+    autoSmeltLapisOre: true
+    autoSmeltRedstoneOre: true
+    autoSmeltNetherQuartzOre: true
+    autoSmeltAncientDebris: true
   autoBlock:
     autoBlockEnabled: true
     autoBlockLimitToMines: true
@@ -69,3 +95,7 @@ options:
     autoBlockLapisBlock: true
     autoBlockSnowBlock: true
     autoBlockGlowstone: true
+  debug:
+    isDebugSupressOnBlockBreakEventCancels: false
+    isDebugSupressOnTEExplodeEventCancels: false
+    isDebugSupressOnCEBlastUseEventCancels: false

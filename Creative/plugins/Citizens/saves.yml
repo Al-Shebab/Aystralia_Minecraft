@@ -25,13 +25,13 @@ npc:
             n: -1
             delay: 0
       location:
-        bodyYaw: 171.44745
+        bodyYaw: 179.05124
         world: world
         x: '3.5'
         y: '40.0'
         z: '9.5'
-        yaw: '-148.5526'
-        pitch: '-4.2217'
+        yaw: '-140.9488'
+        pitch: '0.0'
       spawned: true
       lookclose:
         range: '5.0'
@@ -82,13 +82,13 @@ npc:
             n: -1
             delay: 0
       location:
-        bodyYaw: 21.42566
+        bodyYaw: 96.93144
         world: world
         x: '9.5'
         y: '40.0'
         z: '3.5'
-        yaw: '55.7031'
-        pitch: '-3.2891'
+        yaw: '80.934'
+        pitch: '-1.065'
       spawned: true
       lookclose:
         range: '5.0'

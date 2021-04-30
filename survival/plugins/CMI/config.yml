@@ -701,6 +701,9 @@ Chat:
   - (\%item\%)
   - (\[item\])
   - (\[ITEM\])
+  - (\[Item\])
+  - (\[i\])
+  - (\[I\])
   - (\%i\%)
   - (\%I\%)
   # Attention! This will require you to have CMI Bungee plugin which can be found at zrips.net
@@ -713,7 +716,8 @@ Chat:
   # Do you want to enable staff messaging over bungeecord
   BungeeStaffMessages: false
   # Used for simple chat messages. Optional variables: {displayName} {world} {prefix} {suffix} {group} {shout} {message}. Supporting PlaceHolderAPI variables like %player_server%
-  GeneralFormat: '%luckperms_prefix%&r %cmi_user_display_name% &8» &r{message}'
+  GeneralFormat: '%luckperms_prefix%%deluxetags_tag%&r%cmi_user_display_name% &8»
+    &r{message}'
   # Will define message format itself, this allows to have gradients in messages
   # It NEEDS to contain {message} otherwise we will ignore this setup
   # For 1.16+ servers you can use color gradients like '{#b3a28f>}{message}{#d7b8e6<}'

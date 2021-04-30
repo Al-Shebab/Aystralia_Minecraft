@@ -96,6 +96,40 @@ Lore:
   noRanksFoundSetup6: '&1/ranks autoConfigure full <price=x> <mult=x>!'
   noRanksFoundSetup7: '&3Please replace the X with the starting price and'
   noRanksFoundSetup8: '&3multiplier, default price = 50000, multiplier = 1.5.'
+  BackpackID: '&3Backpack ID: '
+  ClickToAddBackpack: '&8Click to add backpack.'
+  ClickToAddBackpackInst0: '&3Instructions: '
+  ClickToAddBackpackInst1: '&8Remember to add an item'
+  ClickToAddBackpackInst2: '&8Inside the backpack to'
+  ClickToAddBackpackInst3: '&8Save it'
+  ClickToOpenBackpack: '&8Click to open Prison Backpack.'
+  ClickToEdit: '&8Click to edit.'
+  ClickToSelect: '&7Click to select.'
+  ClickToEnable: '&aClick to enable.'
+  ClickToDisable: '&cClick to disable.'
+  DelaySellAll: '&3Delay: &8'
+  EmptyMultiplier: '&c[!] There aren''t multipliers!'
+  LeftClickToEdit: '&aLeft-Click to edit value'
+  Multiplier: '&3Multiplier: &f'
+  Permission: '&3Permission: '
+  PlayerOwner: '&3Backpack owner: '
+  PrestigeName: '&8Prestige name: &3'
+  PrestigeMultiplier: '&8Multiplier: &3'
+  PrestigeMultiplierInfoGUI: '&3Manage multipliers.'
+  RightClickToDisable: '&cRight-Click to disable.'
+  RightClickToDelete: '&cRight-Click to delete.'
+  RightClickToEdit: '&8Right click to edit.'
+  ShowItem: '&3Show Item: &7'
+  ShowItemDescription: '&7This''s the item'
+  ShowItemDescription2: '&7Shown in the Player''s GUI'
+  ShowItemDescription3: '&7Or /mines GUI.'
+  SellAllDelayInfo: '&8Short delay before using again'
+  SellAllDelayInfo2: '&8the &3/sellall sell &8command.'
+  SellAllCurrencyInfo: '&3Edit SellAll Currency.'
+  SellAllActiveCurrency: '&3Currency: &a'
+  ZeroBlocksReset1: '&8Set a mine''s delay '
+  ZeroBlocksReset2: '&8before reset when it '
+  ZeroBlocksReset3: '&8reaches zero blocks.'
 Message:
   CantGetRanksAdmin: '&7[&3PRISON WARN&7] &cCan''t get Ranks, there might be no ranks
     or the Ranks module''s disabled.'
@@ -232,6 +266,77 @@ Message:
      please add them and maybe restart the server, this might need it sometimes!
   SellAllAutoEnabled: '&7[&3PRISON&7] &3SellAll-Auto &aenabled &3with success!'
   SellAllAutoDisabled: '&7[&3PRISON&7] &3SellAll-Auto &cdisabled &3with success!'
+  BackPackIsDisabled: Backpacks are disabled in the config.yml, you can't use this!
+  BackPackNeedPlayer: Please add a playername.
+  BackPackDeleteOperationSuccess: The backpack should've been deleted with success!
+  BackPackDeleteOperationFail: Can't find the backpack or something went wrong...?
+  BackPackPlayerNotFound: Player not found.
+  BackPackDoNotOwnAny: Sorry but you don't own any inventory, please use /backpack
+    <AnIdYouWant> to make one.
+  BackPackOwnLimitReached: Sorry but you already have the max amount of backpacks
+    allowed for Player!
+  BackPackResizeNotInt: Backpack's size value isn't a number.
+  BackPackResizeNotMultiple9: Backpack's size must be a multiple of 9 and max 54.
+  BackPackResizeDone: If the Backpack wasn't missing, it got resized with success!
+  CantGiveItemFromConsole: You can't get an item as the console.
+  EnableAutoSellToUse: Sorry, but AutoSell's &cdisabled&7, please enable it!
+  EnableSellDelayToUse: Sorry, but the SellAll Delay's &cdisabled&7, please enable
+    it!
+  EventCancelled: '&cEvent cancelled.'
+  InvalidBooleanInput: Sorry, you should type &a-true-&7 or &c-false-&7 here.
+  MissingPermission: Sorry but you don't have the &cpermission&7 to use that!
+  MineShowItemEditSuccess: Mine show item edited with success.
+  GuiClosedWithSuccess: The GUI got closed.
+  SellAllAutoSellMissingPermission: You don't have the &cpermission&7 to edit AutoSell.
+  SellAllAutoSellEnabled: Autosell has been &aenabled&7.
+  SellAllAutoSellDisabled: Autosell has been &cdisabled&7.
+  SellAllAutoSellAlreadyEnabled: AutoSell has already been &aenabled&7!
+  SellAllAutoSellAlreadyDisabled: AutoSell has already been &cdisabled&7!
+  SellAllAutoPerUserToggleableAlreadyEnabled: AutoSell perUserToggleable's already
+    &aenabled&7!
+  SellAllAutoPerUserToggleableAlreadyDisabled: AutoSell perUserToggleable's already
+    &cdisabled&7!
+  SellAllAutoPerUserToggleableEnabled: SellAll PerUserToggleable &aEnabled&7!
+  SellAllAutoPerUserToggleableDisabled: SellAll PerUserToggleable &cDisabled&7!
+  SellAllCurrencyChat1: '&3Started setup of new currency for SellAll!'
+  SellAllCurrencyChat2: Type &ccancel &7to cancel.
+  SellAllCurrencyChat3: Type &3default &7to set to default currency.
+  SellAllCurrencyChat4: Type the &aCurrency name &7to set the new currency.
+  SellAllCurrencyEditedSuccess: SellAll Currency edited with success!
+  SellAllCurrencyEditCancelled: SellAll edit currency &ccancelled&7.
+  SellAllCurrencyNotFound: No active economy supports the currency named '%s'.
+  SellAllDefaultSuccess: Default Values added with &asuccess&7!
+  SellAllDefaultMissingPermission: Sorry but you're missing the &cpermission!
+  SellAllNotFoundEdit: ' not found in the config!'
+  SellAllAlreadyAdded: ' &cgot already added before&7, to edit it please use the /sellall
+    edit command!'
+  SellAllSignOnly: Sorry but you can use SellAll only by touching a sign (or with
+    the ByPass permission).
+  SellAllSignMissingPermission: Sorry, but you don't have the &cpermission&7 to use
+    this!
+  SellAllWaitDelay: Please &cwait&7 before using this command again!
+  SellAllDelayAlreadyEnabled: SellAll Delay already &aenabled&7!
+  SellAllDelayAlreadyDisabled: SellAll Delay already &cdisabled&7!
+  SellAllDelayEnabled: SellAll Delay &aenabled &7with &asuccess&7!
+  SellAllDelayDisabled: SellAll Delay &cdisabled &7with &asuccess&7!
+  SellAllDelayEditedWithSuccess: SellAll Delay edited with &asuccess&7!
+  SellAllDelayNotNumber: Delay value &cisn't&7 a number!
+  SellAllGUIEmpty: Sorry but there &caren't&7 Blocks in the SellAll Shop!
+  SellAllGUIEmpty2: '&7[&cTIP&7] &7You can &aadd&7 one using the command /sellall
+    add!'
+  SellAllTriggerAlreadyEnabled: SellAll trigger's already &aenabled&7.
+  SellAllTriggerAlreadyDisabled: SellAll trigger's already &cdisabled&7.
+  SellAllTriggerEnabled: SellAll trigger &aEnabled&7.
+  SellAllTriggerDisabled: SellAll trigger &cDisabled&7.
+  SellAllTriggerIsDisabled: SellAll trigger's &cdisabled&7 in the SellAllConfig.yml.
+  SellAllTriggerMissingItem: Please add a valid Item ID for SellAll Shift+Right Click
+    Trigger.
+  SellAllTriggerItemAddSuccess: SellAll trigger Item added with &asuccess&7!
+  SellAllTriggerItemEditSuccess: SellAll trigger Item edited with &asuccess&7!
+  SellAllTriggerItemDeleteSuccess: SellAll trigger Item deleted with &asuccess&7!
+  TooLowValue: '&cToo low value.'
+  TooHighValue: '&cToo high value.'
+  GUIReloadSuccess: GUIs reloaded with success!
 Setup:
   Message:
     MissingPermission: '&7[&3PRISON ERROR&7] &cSorry but you don''t have the permission

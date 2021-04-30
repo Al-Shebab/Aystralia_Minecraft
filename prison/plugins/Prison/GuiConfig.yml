@@ -7,6 +7,7 @@ Options:
     Item_gotten_rank: TRIPWIRE_HOOK
     Item_not_gotten_rank: REDSTONE_BLOCK
     Enchantment_effect_current_rank: 'true'
+    Number_of_Rank_Player_GUI: 'false'
   Mines:
     GUI_Enabled: 'true'
     Permission_GUI_Enabled: 'false'
@@ -19,3 +20,17 @@ Options:
     Permission_GUI: prison.gui.prestiges
   Setup:
     EnabledGUI: 'true'
+  Titles:
+    PlayerRanksGUI: '&3Player -> Ranks'
+    PlayerPrestigesGUI: '&3Player -> Prestiges'
+    PlayerMinesGUI: '&3Player -> Mines'
+EditableLore:
+  Ranks:
+  - ' '
+  - '&8-----------------------'
+  - ' '
+  - '&8&l|&3Info&8|'
+  - '&3Rank Price: &a${rankPrice}'
+  - ' '
+  - '&8-----------------------'
+  - '%prison_rcb_default%'

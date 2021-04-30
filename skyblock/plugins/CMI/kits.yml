@@ -8,48 +8,6 @@ Newbie:
   - '&fBeginner items'
   - '&bOnce you lose it, its gone forever.'
   CommandName: Newbie
-Claim:
-  CommandName: Claim
-  Delay: 600
-  Items:
-    '28':
-      v: 2586
-      type: GOLDEN_SHOVEL
-    '29':
-      v: 2586
-      type: WRITTEN_BOOK
-      meta:
-        ==: ItemMeta
-        meta-type: BOOK_SIGNED
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Written
-          at "},{"italic":false,"color":"white","text":"04/03/21 00:46:57"}],"text":""}'
-        title: How to claim!
-        author: Al_Shebab
-        pages:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"How
-          to claim!\n\n"},{"italic":false,"color":"gold","text":"Use your claim shovel
-          and right click on 2 corners of your base\n\n"},{"italic":false,"color":"gold","text":"If
-          you want to add people to your claim use "},{"italic":false,"color":"white","text":"/trust\n\n"},{"italic":false,"color":"gold","text":"If
-          you need more claimblocks use /buyclaimblocks"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"For
-          more information use the link below.\n\n"},{"italic":false,"color":"aqua","text":"https://bit.ly/38bk7Fv\n\n"},{"italic":false,"color":"gold","text":"Alternatively
-          google \"Grief Prevention Plugin\""}],"text":""}'
-        resolved: true
-Daily:
-  CommandName: Daily
-  Delay: 86400
-  Items:
-    '28':
-      v: 2586
-      type: SHULKER_BOX
-      meta:
-        ==: ItemMeta
-        meta-type: TILE_ENTITY
-        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Kit
-          Daily"}],"text":""}'
-        internal: H4sIAAAAAAAAAGWSQUvDQBCFJ7bVNgcVQdBb2XPBe06ieBAED3oTCZPspFmyzejuxFpK/6C/ypS6SanHeXzvDbyZGCCG0zvLefVQi5HVK84nMHoUWvgYAI4jGL5YFohgdM9NLdEYjoyGi4WpKXdYSFLjglLBOfyhUUDPYxi0egwn2vgPi6sJDJ/Y0bjNjeBnrehbHKrkba0ytlolBVpPM2UErcm7sak1Oduu6wkvzlQkpeNmXnYqZ0Xjc5Q9MGfLTiVqWRohNVPSrmzH50xwGzj9MjhVm9n6cGfw4WeDve2mMjLVaOxKbd47VW0AdqVc9qXkzBXpNCMqQi9HoZfxjj7bo0vyErhB4G7/Vc1YpUtmHdDhQeR1jxbG0ZJdlbr2tNSFjw4cV73DkfbCNaXZ9hvaG/0CattlIBwCAAA=
-        blockMaterial: SHULKER_BOX
 votepickaxe:
   CommandName: votepickaxe
   Delay: 330012439

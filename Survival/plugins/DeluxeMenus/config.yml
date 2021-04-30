@@ -321,5 +321,7 @@ gui_menus:
     file: worldsmenu.yml
   pets:
     file: pets.yml
+  tags:
+    file: tags.yml
   cosmetics:
     file: cosmetics.yml

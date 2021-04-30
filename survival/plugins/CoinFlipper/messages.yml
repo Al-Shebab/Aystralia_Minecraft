@@ -58,7 +58,7 @@ BET_TITLE_VICTORY: '&bVictory'
 BET_TITLE_LOSS: '&cLoss'
 BET_WON: '&a+%MONEY%'
 BET_LOST: '&c-%MONEY%'
-HIGH_GAME_BROADCAST: '&f%WINNER% &bjust won a bet worth &f%MONEY% &b against &f%LOSER%&b.'
+HIGH_GAME_BROADCAST: '&b%WINNER% &fjust won a bet worth &b%MONEY% &fagainst &b%LOSER%'
 BET_TITLE_COMBAT: '&cCombat'
 BET_START_COMBAT: '&fA Coinflip game you participate in is running but you are
   in combat.'
