@@ -558,7 +558,7 @@ Crates:
       Money-Pet:
         Item: LIGHT_BLUE_CONCRETE_POWDER
         Enchanted: true
-        Chance: 3
+        Chance: 2
         Commands:
         - "tpets give Money-Pet {player_name} 1"
         Name: "&b&lMoney &f&lPet"
@@ -609,6 +609,24 @@ Crates:
         Name: "&b&lIron Golem &f&lPet"
         BroadcastMessagesToPlayers:
           - "&b&l{player_name} &f&ljust won a &b&lIron Golem &f&lPet"
+      Thor-Pet:
+        Item: LIGHT_BLUE_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 3
+        Commands:
+        - "tpets give Thor-Pet {player_name} 1"
+        Name: "&b&lThor &f&lPet"
+        BroadcastMessagesToPlayers:
+          - "&b&l{player_name} &f&ljust won a &b&lThor &f&lPet"
+      Lightning-Pet:
+        Item: LIGHT_BLUE_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 3
+        Commands:
+        - "tpets give Lightning-Pet {player_name} 1"
+        Name: "&b&lLightning McQueen &f&lPet"
+        BroadcastMessagesToPlayers:
+          - "&b&l{player_name} &f&ljust won a &b&lLightning McQueen &f&lPet"
       Farmer-Pet:
         Item: LIGHT_BLUE_CONCRETE_POWDER
         Enchanted: true
@@ -621,63 +639,98 @@ Crates:
       Witch-Pet:
         Item: CYAN_CONCRETE_POWDER
         Enchanted: true
-        Chance: 7
+        Chance: 5
         Commands:
         - "tpets give Witch-Pet {player_name} 1"
         Name: "&3&lWitch &f&lPet"
       Pig-Pet:
         Item: CYAN_CONCRETE_POWDER
         Enchanted: true
-        Chance: 7
+        Chance: 5
         Commands:
         - "tpets give Pig-Pet {player_name} 1"
         Name: "&3&lPig &f&lPet"
       Feather-Pet:
         Item: CYAN_CONCRETE_POWDER
         Enchanted: true
-        Chance: 7
+        Chance: 5
         Commands:
         - "tpets give Feather-Pet {player_name} 1"
         Name: "&3&lFeather &f&lPet"
       Dolphin-Pet:
         Item: CYAN_CONCRETE_POWDER
         Enchanted: true
-        Chance: 7
+        Chance: 5
         Commands:
         - "tpets give Dolphin-Pet {player_name} 1"
         Name: "&3&lDolphin &f&lPet"
       Frog-Pet:
         Item: CYAN_CONCRETE_POWDER
         Enchanted: true
-        Chance: 7
+        Chance: 5
         Commands:
         - "tpets give Frog-Pet {player_name} 1"
         Name: "&3&lFrog &f&lPet"
       Bat-Pet:
         Item: CYAN_CONCRETE_POWDER
         Enchanted: true
-        Chance: 7
+        Chance: 5
         Commands:
         - "tpets give Bat-Pet {player_name} 1"
         Name: "&3&lBat &f&lPet"
       Ghost-Pet:
         Item: CYAN_CONCRETE_POWDER
         Enchanted: true
-        Chance: 7
+        Chance: 5
         Commands:
         - "tpets give Ghost-Pet {player_name} 1"
         Name: "&3&lGhost &f&lPet"
+      Paper-Pet:
+        Item: CYAN_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 5
+        Commands:
+        - "tpets give Paper-Pet {player_name} 1"
+        Name: "&3&lPaper &f&lPet"
+      Panic-Pet:
+        Item: CYAN_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 5
+        Commands:
+        - "tpets give Panic-Pet {player_name} 1"
+        Name: "&3&lPanic &f&lPet"
+      Compactor-Pet:
+        Item: CYAN_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 5
+        Commands:
+        - "tpets give Compactor-Pet {player_name} 1"
+        Name: "&3&lCompactor &f&lPet"
       Enderman-Pet:
         Item: BLUE_CONCRETE_POWDER
         Enchanted: true
-        Chance: 15
+        Chance: 6
         Commands:
         - "tpets give Enderman-Pet {player_name} 1"
         Name: "&9&lEnderman &f&lPet"
       Blaze-Pet:
         Item: BLUE_CONCRETE_POWDER
         Enchanted: true
-        Chance: 15
+        Chance: 6
         Commands:
         - "tpets give Blaze-Pet {player_name} 1"
         Name: "&9&lBlaze &f&lPet"
+      Bin-Pet:
+        Item: BLUE_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 6
+        Commands:
+        - "tpets give Bin-Pet {player_name} 1"
+        Name: "&9&lBin &f&lPet"
+      Leprechaun-Pet:
+        Item: BLUE_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 6
+        Commands:
+        - "tpets give Leprechaun-Pet {player_name} 1"
+        Name: "&9&lLeprechaun &f&lPet"

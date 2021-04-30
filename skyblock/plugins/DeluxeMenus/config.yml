@@ -403,3 +403,5 @@ gui_menus:
     file: zrecipe-compactslime.yml
   perks:
     file: perks.yml
+  cosmetics:
+    file: cosmetics.yml

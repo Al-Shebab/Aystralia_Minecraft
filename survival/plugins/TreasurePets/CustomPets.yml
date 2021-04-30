@@ -2848,7 +2848,7 @@ cp:
       - ''
       disabledRegions:
       - ''
-      timer-length: 1
+      timer-length: 5
       onActivation:
         PetTimerEvent:
           1:
@@ -2901,7 +2901,7 @@ cp:
       - ''
       disabledRegions:
       - ''
-      timer-length: 1
+      timer-length: 5
       onActivation:
         PetTimerEvent:
           1:
@@ -2929,7 +2929,7 @@ cp:
       - ''
       disabledRegions:
       - ''
-      timer-length: 1
+      timer-length: 5
       onActivation:
         PetTimerEvent:
           1:
@@ -2982,7 +2982,7 @@ cp:
       - ''
       disabledRegions:
       - ''
-      timer-length: 1
+      timer-length: 5
       onActivation:
         PetTimerEvent:
           1:
@@ -3040,3 +3040,188 @@ cp:
           1:
           - "[potion] INVISIBILITY 10 1 DamageCause:BLOCK_EXPLOSION DamageCause:CONTACT DamageCause:CRAMMING DamageCause:CUSTOM DamageCause:DRAGON_BREATH DamageCause:DROWNING DamageCause:DRYOUT DamageCause:ENTITY_ATTACK DamageCause:ENTITY_EXPLOSION DamageCause:ENTITY_SWEEP_ATTACK DamageCause:FALL DamageCause:FALLING_BLOCK DamageCause:FIRE DamageCause:FIRE_TICK DamageCause:FLY_INTO_WALL DamageCause:HOT_FLOOR DamageCause:LAVA DamageCause:LIGHTNING DamageCause:MAGIC DamageCause:MELTING DamageCause:POISON DamageCause:PROJECTILE DamageCause:STARVATION DamageCause:SUFFOCATION DamageCause:SUICIDE DamageCause:THORNS DamageCause:VOID DamageCause:WITHER DamageCause:ANVIL DamageCause:ARROW DamageCause:CACTUS DamageCause:CRAMMING DamageCause:DROWN DamageCause:EXPLOSION DamageCause:FALL DamageCause:FALLINGBLOCK DamageCause:FIREBALL DamageCause:FLYINTOWALL DamageCause:GENERIC DamageCause:HOTFLOOR DamageCause:INDIRECTMAGIC DamageCause:INFIRE DamageCause:INWALL DamageCause:LAVA DamageCause:LIGHTNINGBOLT DamageCause:MAGIC DamageCause:MOB DamageCause:ONFIRE DamageCause:OUTOFWORLD DamageCause:PLAYER DamageCause:THORNS DamageCause:THROWN DamageCause:WITHER"
           - "[message] &b&lGhost Pet &8> &fGh&7os&8ted&0..."
+  Bin-Pet:
+    values:
+      displayName: '&b&lBin Pet &f[LVL %level%]'
+      skin: http://textures.minecraft.net/texture/1811917c644f04f56b68c9c71b33ac082c2601c24409be78c2063d4df2a86525
+      tier: 1
+      maxLevel: 1
+      enabled: true
+      lore:
+        1:
+        - '&fOpens a dispose inventory'
+        - '&fupon activation'
+        - ' '
+        - '&b&lACTIVE'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      onActivation:
+        PlayerInteractEvent:
+          1:
+          - "[command] cmi dispose {player}"
+  Panic-Pet:
+    values:
+      displayName: '&b&lPanic Pet &f[LVL %level%]'
+      skin: http://textures.minecraft.net/texture/865286e3e6fa00e4a60bb89675b9aa75d6c9cdd1ec840d1bcc296b71c92f9e43
+      tier: 1
+      maxLevel: 1
+      enabled: true
+      lore:
+        1:
+        - '&fGrants a Tier I iron set'
+        - '&fupon activation'
+        - ' '
+        - '&f12 hour cooldown'
+        - ' '
+        - '&b&lACTIVE'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      onActivation:
+        PlayerInteractEvent:
+          1:
+          - "[command] cmi kit panic {player}"  
+          - "[message] &c&lPanic Pet &8> &4&lPanic Activated"
+          - "[cooldown] 43200"
+  Paper-Pet:
+    values:
+      displayName: '&b&lPaper Pet &f[LVL %level%]'
+      skin: http://textures.minecraft.net/texture/e825419e429afc040c9e68b10523b917d7b8087d63e7648b10807da8b768ee
+      tier: 1
+      maxLevel: 1
+      enabled: true
+      lore:
+        1:
+        - '&fProvides infinite slow falling'
+        - ' '
+        - '&b&lPASSIVE'
+        - ' '
+        - '&b&lInventory Pet'
+      hotbarActivationOnly: false
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      timer-length: 5
+      onActivation:
+        PetTimerEvent:
+          1:
+          - "[potion] SLOW_FALLING infinite 1"
+  Compactor-Pet:
+    values:
+      displayName: '&b&lCompactor Pet &f[LVL %level%]'
+      skin: http://textures.minecraft.net/texture/d5eb7b1729952cbee4ac3443e5f8b3378009e005ac500aaa2d2750dac99a37be
+      tier: 1
+      maxLevel: 1
+      enabled: true
+      lore:
+        1:
+        - '&fCompact all ores in your inventory'
+        - '&fupon activation'
+        - ' '
+        - '&b&lACTIVE'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      onActivation:
+        PlayerInteractEvent:
+          1:
+          - "[command] lp user {player} permission settemp condense true 3s" 
+          - "[command] sudo {player} cmi condense"
+  Leprechaun-Pet:
+    values:
+      displayName: '&b&lLeprechaun Pet &f[LVL %level%]'
+      skin: http://textures.minecraft.net/texture/17ae1c6837cbba7eaa7e207c338256bc3497386675ed52ed7b330c71814e6104
+      tier: 1
+      maxLevel: 1
+      enabled: true
+      lore:
+        1:
+        - '&fProvides infinite luck'
+        - ' '
+        - '&b&lPASSIVE'
+        - ' '
+        - '&b&lInventory Pet'
+      hotbarActivationOnly: false
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      timer-length: 5
+      onActivation:
+        PetTimerEvent:
+          1:
+          - "[potion] LUCK infinite 1"
+  Thor-Pet:
+    values:
+      displayName: '&b&lThor Pet &f[LVL %level%]'
+      skin: http://textures.minecraft.net/texture/829ca3cec8401cafe27a37fe601ee0e333b0f521b65b9a731e424ff6aa1a4b44
+      tier: 1
+      maxLevel: 1
+      enabled: true
+      lore:
+        1:
+        - '&fSummon lightning'
+        - '&fupon activation'
+        - ''
+        - '&f2 Hour cooldown'
+        - ' '
+        - '&b&lACTIVE'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      onActivation:
+        PlayerInteractEvent:
+          1:
+          - "[command] cmi smite {player} -s"
+          - "[command] effect {player} fire_resistance 5 1"
+          - "[cooldown] 7200"
+  Lightning-Pet:
+    values:
+      displayName: '&b&lLighting McQueen Pet &f[LVL %level%]'
+      skin: http://textures.minecraft.net/texture/c8e22f196ea96efc33d455d9c22a0cd20551f6d3e7fb4e766c3cc468df3c968
+      tier: 1
+      maxLevel: 1
+      enabled: true
+      lore:
+        1:
+        - '&fProvides speed 100 for 5 seconds'
+        - '&fupon activation'
+        - ''
+        - '&f2 Minute cooldown'
+        - ' '
+        - '&b&lACTIVE'
+      hotbarActivationOnly: true
+      disabledInOtherFactionLand: false
+      addedExpMessage: false
+      disabledWorlds:
+      - ''
+      disabledRegions:
+      - ''
+      onActivation:
+        PlayerInteractEvent:
+          1:
+          - "[potion] SPEED 5 255"
+          - "[message] &c&lLightning Mcqueen &8> &cKachow"
+          - "[cooldown] 120"

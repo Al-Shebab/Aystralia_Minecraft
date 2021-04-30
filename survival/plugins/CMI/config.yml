@@ -1433,7 +1433,7 @@ ItemRepair:
     # Can be bypassed with cmi.command.repair.repairshare.bypass
     ProtectNormalRepair: false
     # When enabled will prevent players repairing items for others with CMI command. They still can use items and repairs normaly for them selfs
-    ProtectCommandRepair: true
+    ProtectCommandRepair: false
     # Sets durability on item when another picks it up or selects in inventory. Set to 0 or less if you don't want to change durability
     # Attention! Keep this number above 0, otherwise item will get removed without option for the player to repair it throw some means, unless this is what you actually want
     Durability: 1
@@ -1476,7 +1476,7 @@ Cooldowns:
   # KEEP IN MIND that for permission to work you need to set base command cooldown in this list, otherwise permission node will have no effect
   # -----
   # ATTENTION! If you have command like "/cmi home" and you want to prevent teleportation to home but allow gui opening without restrictions, use space after command, in example "cmi home :10"
-  Enabled: true
+  Enabled: false
   List:
   - cmi heal:180
   - cmi feed:120
@@ -1889,6 +1889,7 @@ Enchanting:
       cutter: 5
       quick_charge: 3
       double_strike: 4
+      wildstackerglow: 1
       protection_projectile: 4
       sonic: 3
       impaling: 5

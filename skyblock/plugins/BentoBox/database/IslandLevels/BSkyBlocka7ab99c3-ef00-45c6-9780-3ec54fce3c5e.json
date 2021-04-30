@@ -6,20 +6,20 @@
   "uwCount": {},
   "mdCount": {
     "CRAFTING_TABLE": 1,
-    "OAK_LEAVES": 57,
-    "COBWEB": 3,
-    "DIRT": 14,
-    "BEDROCK": 1,
-    "GRASS_BLOCK": 36,
-    "STONE": 4,
-    "AIR": 10239450,
-    "WATER": 381,
-    "COBBLESTONE": 1,
-    "CHEST": 1,
-    "OAK_SIGN": 1,
     "COBBLESTONE_STAIRS": 2,
+    "STONE": 4,
+    "COBBLESTONE": 1,
+    "GRASS_BLOCK": 36,
+    "BEDROCK": 1,
+    "WATER": 381,
+    "OAK_LOG": 5,
+    "OAK_LEAVES": 57,
+    "CHEST": 1,
+    "DIRT": 14,
     "COBBLESTONE_SLAB": 42,
+    "OAK_SIGN": 1,
+    "COBWEB": 3,
     "LAVA": 1,
-    "OAK_LOG": 5
+    "AIR": 10239450
   }
 }

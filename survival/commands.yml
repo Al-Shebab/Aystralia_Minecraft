@@ -45,3 +45,5 @@ aliases:
   - pv 1
   perks:
   - dm open perks2
+  rules:
+  - cmi ctext rules

@@ -39,6 +39,3 @@ CustomAlias:
   donate:
     Cmds:
     - cmi ctext donate
-  buy:
-    Cmds:
-    - cmi ctext donate
