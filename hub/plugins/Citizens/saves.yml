@@ -24,13 +24,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 144.83812
+        bodyYaw: -77.1927
         world: world
         x: '-19.5'
         y: '43.0'
         z: '-414.5'
-        yaw: '-175.1619'
-        pitch: '12.2184'
+        yaw: '-117.1927'
+        pitch: '0.0'
       spawned: true
       type: PLAYER
       skintrait:
@@ -82,13 +82,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 74.20619
+        bodyYaw: -29.403542
         world: world
         x: '-19.5'
         y: '43.0'
         z: '-432.5'
-        yaw: '34.2062'
-        pitch: '10.4268'
+        yaw: '-18.8918'
+        pitch: '-2.9766'
       spawned: true
       type: PLAYER
       skintrait:
@@ -141,13 +141,13 @@ npc:
             delay: 0
       spawned: true
       location:
-        bodyYaw: 126.071045
+        bodyYaw: 130.54242
         world: world
         x: '-15.5'
         y: '43.0'
         z: '-418.5'
-        yaw: '166.071'
-        pitch: '-0.3082'
+        yaw: '170.5424'
+        pitch: '11.6068'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -199,13 +199,13 @@ npc:
             delay: 0
       spawned: true
       location:
-        bodyYaw: 51.00107
+        bodyYaw: 65.47974
         world: world
         x: '-14.5'
         y: '43.0'
         z: '-423.5'
-        yaw: '91.0011'
-        pitch: '22.7771'
+        yaw: '95.3595'
+        pitch: '28.9482'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -236,27 +236,27 @@ npc:
       usedefaultstuckaction: true
   '17':
     metadata:
-      cached-skin-uuid-name: kaoticoce
-      cached-skin-uuid: 3368f471-c1d5-4f9f-8b0e-2245724bf905
+      cached-skin-uuid-name: greenyyy1
+      cached-skin-uuid: 58821929-84e9-41f6-a23a-fe4b1edcb7fa
       nameplate-visible: 'false'
     name: creative
     uuid: 875f6f87-d168-4f8d-b5a1-69fd86b93331
     traits:
       spawned: true
       location:
-        bodyYaw: 39.018234
+        bodyYaw: 46.79515
         world: world
         x: '-15.5'
         y: '43.0'
         z: '-428.5'
-        yaw: '23.1326'
-        pitch: '-3.0359'
+        yaw: '9.4025'
+        pitch: '11.5416'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
-        signature: vWyQMrgp/do/zBBvgkasc4HnP1WK5rzOaRIN8DkPpcZDpCoC0wmlRpoC3QrzpT+PFXab/rrgvMKo2cqT5PV2PLlUg4dfsXrXy3FPB5BNqrWALsiSdL/ARXu3K1fxvyU900TcOLsB2yqLc9jxqXGmq58BxZvBjBcmsyfe9ktqBwwbmruAIVywtHP7/reckxi0OeplNy9BqSG+2KG5yP5LZWiU/oo1LgqKCHGPnqaTpQ8iHbdBQtcPn65X6qKR+JNeCNcDvqwc4532BPPB1SP0eekUP/iHGD69/6zwSzViQ0otMnhHnFmIYbpm8MLcgmaK3TvNCV1yTBAQvvytmN6vX36E1nUcT+fAwSkaCnoXIPIuskFWrzYG7Efh/w6xz3sxhZQ8ulGYoE/StXRZ1Hpl1YD6PjSrFCPhsBstaej9KrfD2ejxfnMo6wjitSfuPTqc1sBc/iRk1AUGZ5nG8f5d/s3Akn3b1dzEz4ywMu6Odey2LxuOMS3xVUsHnMAXThD+f3Q2cqV+Y9zLGonwAtQOktfSBSX2YEC74wCmMV1OTdS8HHx94DiBIsOh0jju85hP5BGoGeJwvnr5EuF4JsyUQ3SRQli31+NTA79ipujPFF73KgBk1Ptqv5H6heQsy29xk9rmmEzXknSMAx2lZS65glXOM0IN0k6f8V4oPBPTqRI=
-        skinName: kaoticoce
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNzQ4Mjg1Nzg0NSwKICAicHJvZmlsZUlkIiA6ICIzMzY4ZjQ3MWMxZDU0ZjlmOGIwZTIyNDU3MjRiZjkwNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLYW90aWNPQ0UiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTlhMTg2NzZlMzg1YTFmYzczMGQ1MWRjMTc2NjM0Yjc4YTM1ZDlmZjQ4NGQ1OTc4MzYxYjg0NjMzNWIxYzJjNiIKICAgIH0KICB9Cn0=
+        signature: TSTY0D/7tLLBc0nj8++C6D/HvN+rhmOaXUgjCcmUJOpHmk21Z7a7X0riKzF25Z0nbQjw2DKWVWLOQ3ZaX8uKKM/V7WN5JdenU59KpvBhH8tq7rYGb0KMPUp5Ppn06OG1T6SydR+x9cGaUjiT8TXoAMJ/r/8T+cJE09UlrVVMP7d7qbMoi/XASrtp2IRM8dG2ysZUMdYKp1sHBtH01j49fL+T2xOjs9cNzO2rzlzKrT0Yrpw75ppc8P5w1ctvpbxpqwN6JHqwDvim2NVIbPmahcrbbct1kIMq1owV56g8IjlZrrW5vQNYIk3g+oFnnr+KHQUfKY7KSVl////4ZNt5Ss21YNnVz9nS0OlmBrjck9p7HXV+bvbYX22G/m3uazF94GjcLw92Ea51nIMuvTco+fk7mmYzC3Rh0ZeIqge7M9u5uqGwboJE2hdADCmiOBHoO62Vje5nw9sAgHRu8yILiliPKbBWp03MbwlvVZ7pPLtNVCk7AS2eh0d50V8V3EBguUPjCT7yDK/yS0fkQQdmnTPfbrZlJRaWeeBh6qHraJCvcK8j4LOAc/UhxPChlZEDDb7pGA+ItNYxi55OaDrFy/Zs6iYhITZzKyu1G2kHxfSePhdFzY+rFi9naZUeZSmXMVhmA6OzFAL6gZHhkyUsvu1DZO5sVrcbYPCHvS50lIg=
+        skinName: greenyyy1
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxOTc2MDI2ODYwNiwKICAicHJvZmlsZUlkIiA6ICI1ODgyMTkyOTg0ZTk0MWY2YTIzYWZlNGIxZWRjYjdmYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHcmVlbnl5eTEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU2OWU0ZTkxNWVlN2U0ZjcwMzEzYjJjOWI2N2JlYWE1MjA0NTI3OWYxZjY2OTNjMGU1OWUxODI1YjRkM2FlNCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
         updateSkins: false
       lookclose:
         range: '5.0'

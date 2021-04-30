@@ -390,7 +390,7 @@ Crates:
         Item: TRIPWIRE_HOOK
         Chance: 5
         Commands:
-        - crate giveall vote"
+        - crate giveall VoteCrate"
         Name: "&b&lVote Key &f&lAll"
       o:
         Enchanted: true

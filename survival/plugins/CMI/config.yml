@@ -465,11 +465,11 @@ Afk:
   # Enable or disable auto afk system entirely
   Enabled: true
   # Prevents jumping in one place to avoid afk status
-  PreventJumping: true
+  PreventJumping: false
   # Prevents damage while afk
   PreventDamage: true
   # Defines how often in seconds plugin will check for afk players state
-  CheckInterval: 10
+  CheckInterval: 60
   # When set to true, players playtime counter stops
   # As of nature how this system works you can see +-1second jumping up and down while checking players playtime
   StopPlayTime: false
@@ -509,7 +509,7 @@ Afk:
   # Disables afk on interaction
   DisableOnInteract: true
   # Prevents player from going bypassing afk mode while continuously holding one button with particular items or on particular blocks
-  SmartInteractCheck: true
+  SmartInteractCheck: false
   # Prevents from players abusing afk by constantly moving in afk machine
   AntiAfkMachines: false
   # EXPERIMENTAL! Prevents players from being pushed around while player is in afk mode
@@ -1893,6 +1893,7 @@ Enchanting:
       cutter: 5
       quick_charge: 3
       double_strike: 4
+      wildstackerglow: 1
       protection_projectile: 4
       sonic: 3
       impaling: 5
