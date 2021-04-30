@@ -299,148 +299,148 @@ Crates:
         Item: FEATHER
         Chance: 10
         Commands:
-        - cmdi give {player_name} islandfly
+        - "cmdi give {player_name} islandfly"
         Name: "&b&lIsland &f&lFly"
       b:
         Enchanted: true
         Item: COAL
         Chance: 2
         Commands:
-        - cmdi give {player_name} perth
+        - "cmdi give {player_name} perth"
         Name: "&b&lPerth &f&lRank"
       c:
         Enchanted: true
         Item: IRON_INGOT
         Chance: 2
         Commands:
-        - cmdi give {player_name} brisbane
+        - "cmdi give {player_name} brisbane"
         Name: "&b&lBrisbane &f&lRank"
       d:
         Enchanted: true
         Item: GOLD_INGOT
         Chance: 1
         Commands:
-        - cmdi give {player_name} melbourne
+        - "cmdi give {player_name} melbourne"
         Name: "&b&lMelborune &f&lRank"
       e:
         Enchanted: true
         Item: DIAMOND
         Chance: 0
         Commands:
-        - cmdi give {player_name} sydney
+        - "cmdi give {player_name} sydney"
         Name: "&b&lSydney &f&lRank"
       f:
         Enchanted: true
         Item: NETHERITE_INGOT
         Chance: 0
         Commands:
-        - cmdi give {player_name} ayssie
+        - "cmdi give {player_name} ayssie"
         Name: "&b&lAyssie &f&lRank"
       g:
         Enchanted: true
         Item: ELYTRA
         Chance: 3
         Commands:
-        - cmdi give {player_name} fly
+        - "cmdi give {player_name} fly"
         Name: "&b&lGlobal &f&lFly"
       h:
         Enchanted: true
         Item: PAPER
         Chance: 8
         Commands:
-        - cmdi give {player_name} nick
+        - "cmdi give {player_name} nick"
         Name: "&b&lNickname &f&lAccess"
       i:
         Enchanted: true
         Item: PAPER
         Chance: 5
         Commands:
-        - cmdi give {player_name} jobsboost
+        - "cmdi give {player_name} jobsboost"
         Name: "&b&lJobs &f&lBoost"
       j:
         Enchanted: true
         Item: PAPER
         Chance: 5
         Commands:
-        - cmdi give {player_name} jobs
+        - "cmdi give {player_name} jobs"
         Name: "&b&lUnlimited &f&lJobs"
       k:
         Enchanted: true
         Item: ANVIL
         Chance: 5
         Commands:
-        - cmdi give {player_name} rename
+        - "cmdi give {player_name} rename"
         Name: "&b&lRename &f&lAccess"
       l:
         Enchanted: true
         Item: HOPPER
         Chance: 5
         Commands:
-        - jetshoppers give {player_name} V 3
+        - jetshoppers give {player_name} V 3"
         Name: "&b&lHopper &f&l[&b&lLevel V&f&l] x3"
       m:
         Enchanted: true
         Item: CHEST
         Chance: 10
         Commands:
-        - voidchest give default {player_name} 3
+        - voidchest give default {player_name} 3"
         Name: "&b&lVoid &f&lChest x3"
       n:
         Enchanted: true
         Item: TRIPWIRE_HOOK
         Chance: 5
         Commands:
-        - crate giveall vote
+        - crate giveall vote"
         Name: "&b&lVote Key &f&lAll"
       o:
         Enchanted: true
         Item: PLAYER_HEAD
         Chance: 5
         Commands:
-        - cmdi give {player_name} hat
+        - "cmdi give {player_name} hat"
         Name: "&b&lHat &f&lAccess"
       p:
         Enchanted: true
         Item: RED_CONCRETE
         Chance: 3
         Commands:
-        - cmdi give {player_name} concrete
+        - "cmdi give {player_name} concrete"
         Name: "&b&lConcrete &f&lKit"
       q:
         Enchanted: true
         Item: REDSTONE
         Chance: 3
         Commands:
-        - cmdi give {player_name} redstone
+        - "cmdi give {player_name} redstone"
         Name: "&b&lRedstone &f&lKit"
       r:
         Enchanted: true
         Item: NETHERITE_SWORD
         Chance: 3
         Commands:
-        - cmdi give {player_name} pvp
+        - "cmdi give {player_name} pvp"
         Name: "&b&lPvp &f&lKit"
       s:
         Enchanted: true
         Item: RED_DYE
         Chance: 10
         Commands:
-        - cmdi give {player_name} colours
+        - "cmdi give {player_name} colours"
         Name: "&b&lColour &f&lPack"
       t:
         Enchanted: true
         Item: PAPER
         Chance: 5
         Commands:
-        - cmdi give {player_name} market15
-        Name: "&b&l1.15x Sale &f&lMultiplier"
+        - "cmdi give {player_name} market5"
+        Name: "&b&l5% Market &f&lDiscount"
       u:
         Enchanted: true
         Item: PAPER
         Chance: 5
         Commands:
-        - cmdi give {player_name} market5
-        Name: "&b&l5% Market &f&lDiscount"
+        - "cmdi give {player_name} market15"
+        Name: "&b&l15% Market &f&lDiscount"
         Item Data: 3
         Amount: 1
       v:
@@ -448,7 +448,7 @@ Crates:
         Item: PAPER
         Chance: 5
         Commands:
-        - cmdi give {player_name} market25
+        - "cmdi give {player_name} market25"
         Name: "&b&l25% Market &f&lDiscount"
   MoneyPouchCrate:
     Animation: "Display"
@@ -550,7 +550,7 @@ Crates:
       Money-Pet:
         Item: LIGHT_BLUE_CONCRETE_POWDER
         Enchanted: true
-        Chance: 3
+        Chance: 2
         Commands:
         - "tpets give Money-Pet {player_name} 1"
         Name: "&b&lMoney &f&lPet"
@@ -601,6 +601,24 @@ Crates:
         Name: "&b&lIron Golem &f&lPet"
         BroadcastMessagesToPlayers:
           - "&b&l{player_name} &f&ljust won a &b&lIron Golem &f&lPet"
+      Thor-Pet:
+        Item: LIGHT_BLUE_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 3
+        Commands:
+        - "tpets give Thor-Pet {player_name} 1"
+        Name: "&b&lThor &f&lPet"
+        BroadcastMessagesToPlayers:
+          - "&b&l{player_name} &f&ljust won a &b&lThor &f&lPet"
+      Lightning-Pet:
+        Item: LIGHT_BLUE_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 3
+        Commands:
+        - "tpets give Lightning-Pet {player_name} 1"
+        Name: "&b&lLightning McQueen &f&lPet"
+        BroadcastMessagesToPlayers:
+          - "&b&l{player_name} &f&ljust won a &b&lLightning McQueen &f&lPet"
       Farmer-Pet:
         Item: LIGHT_BLUE_CONCRETE_POWDER
         Enchanted: true
@@ -613,64 +631,98 @@ Crates:
       Witch-Pet:
         Item: CYAN_CONCRETE_POWDER
         Enchanted: true
-        Chance: 7
+        Chance: 5
         Commands:
         - "tpets give Witch-Pet {player_name} 1"
         Name: "&3&lWitch &f&lPet"
       Pig-Pet:
         Item: CYAN_CONCRETE_POWDER
         Enchanted: true
-        Chance: 7
+        Chance: 5
         Commands:
         - "tpets give Pig-Pet {player_name} 1"
         Name: "&3&lPig &f&lPet"
       Feather-Pet:
         Item: CYAN_CONCRETE_POWDER
         Enchanted: true
-        Chance: 7
+        Chance: 5
         Commands:
         - "tpets give Feather-Pet {player_name} 1"
         Name: "&3&lFeather &f&lPet"
       Dolphin-Pet:
         Item: CYAN_CONCRETE_POWDER
         Enchanted: true
-        Chance: 7
+        Chance: 5
         Commands:
         - "tpets give Dolphin-Pet {player_name} 1"
         Name: "&3&lDolphin &f&lPet"
       Frog-Pet:
         Item: CYAN_CONCRETE_POWDER
         Enchanted: true
-        Chance: 7
+        Chance: 5
         Commands:
         - "tpets give Frog-Pet {player_name} 1"
         Name: "&3&lFrog &f&lPet"
       Bat-Pet:
         Item: CYAN_CONCRETE_POWDER
         Enchanted: true
-        Chance: 7
+        Chance: 5
         Commands:
         - "tpets give Bat-Pet {player_name} 1"
         Name: "&3&lBat &f&lPet"
       Ghost-Pet:
         Item: CYAN_CONCRETE_POWDER
         Enchanted: true
-        Chance: 7
+        Chance: 5
         Commands:
         - "tpets give Ghost-Pet {player_name} 1"
         Name: "&3&lGhost &f&lPet"
+      Paper-Pet:
+        Item: CYAN_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 5
+        Commands:
+        - "tpets give Paper-Pet {player_name} 1"
+        Name: "&3&lPaper &f&lPet"
+      Panic-Pet:
+        Item: CYAN_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 5
+        Commands:
+        - "tpets give Panic-Pet {player_name} 1"
+        Name: "&3&lPanic &f&lPet"
+      Compactor-Pet:
+        Item: CYAN_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 5
+        Commands:
+        - "tpets give Compactor-Pet {player_name} 1"
+        Name: "&3&lCompactor &f&lPet"
       Enderman-Pet:
         Item: BLUE_CONCRETE_POWDER
         Enchanted: true
-        Chance: 15
+        Chance: 6
         Commands:
         - "tpets give Enderman-Pet {player_name} 1"
         Name: "&9&lEnderman &f&lPet"
       Blaze-Pet:
         Item: BLUE_CONCRETE_POWDER
         Enchanted: true
-        Chance: 15
+        Chance: 6
         Commands:
         - "tpets give Blaze-Pet {player_name} 1"
         Name: "&9&lBlaze &f&lPet"
-
+      Bin-Pet:
+        Item: BLUE_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 6
+        Commands:
+        - "tpets give Bin-Pet {player_name} 1"
+        Name: "&9&lBin &f&lPet"
+      Leprechaun-Pet:
+        Item: BLUE_CONCRETE_POWDER
+        Enchanted: true
+        Chance: 6
+        Commands:
+        - "tpets give Leprechaun-Pet {player_name} 1"
+        Name: "&9&lLeprechaun &f&lPet"

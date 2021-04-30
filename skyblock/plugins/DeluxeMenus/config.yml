@@ -361,8 +361,6 @@ gui_menus:
     file: playersettings.yml
   chatcolor:
     file: chatcolor.yml
-  tags:
-    file: tags.yml
   tags2:
     file: tags2.yml
   perks2:
@@ -403,5 +401,5 @@ gui_menus:
     file: perks.yml
   cosmetics:
     file: cosmetics.yml
-  cosmetics:
+  tags:
     file: tags.yml
