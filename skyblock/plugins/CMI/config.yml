@@ -703,7 +703,12 @@ Chat:
   ItemRegex:
   - (\%item\%)
   - (\[item\])
+  - (\[ITEM\])
+  - (\[Item\])
+  - (\[i\])
+  - (\[I\])
   - (\%i\%)
+  - (\%I\%)
   # Attention! This will require you to have CMI Bungee plugin which can be found at zrips.net
   # Or direct download https://www.zrips.net/cmi/
   # Do you want to enable private messaging over bungeecord
@@ -714,7 +719,8 @@ Chat:
   # Do you want to enable staff messaging over bungeecord
   BungeeStaffMessages: false
   # Used for simple chat messages. Optional variables: {displayName} {world} {prefix} {suffix} {group} {shout} {message}. Supporting PlaceHolderAPI variables like %player_server%
-  GeneralFormat: '%luckperms_prefix%&r %cmi_user_display_name% &8» &r{message}'
+  GeneralFormat: '%luckperms_prefix%%deluxetags_tag%&r%cmi_user_display_name% &8»
+    &r{message}'
   # Will define message format itself, this allows to have gradients in messages
   # It NEEDS to contain {message} otherwise we will ignore this setup
   # For 1.16+ servers you can use color gradients like '{#b3a28f>}{message}{#d7b8e6<}'
@@ -1422,7 +1428,7 @@ ItemRepair:
     # Can be bypassed with cmi.command.repair.repairshare.bypass
     ProtectNormalRepair: false
     # When enabled will prevent players repairing items for others with CMI command. They still can use items and repairs normaly for them selfs
-    ProtectCommandRepair: true
+    ProtectCommandRepair: false
     # Sets durability on item when another picks it up or selects in inventory. Set to 0 or less if you don't want to change durability
     # Attention! Keep this number above 0, otherwise item will get removed without option for the player to repair it throw some means, unless this is what you actually want
     Durability: 1
@@ -1836,6 +1842,7 @@ Enchanting:
       cutter: 5
       quick_charge: 3
       double_strike: 4
+      wildstackerglow: 1
       protection_projectile: 4
       sonic: 3
       impaling: 5

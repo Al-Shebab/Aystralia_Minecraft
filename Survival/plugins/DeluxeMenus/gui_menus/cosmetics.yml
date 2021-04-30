@@ -44,7 +44,7 @@ items:
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
@@ -53,11 +53,11 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.snowcloud'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
@@ -66,7 +66,7 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.snowcloud'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'snowcloudSpawn':
@@ -172,7 +172,7 @@ items:
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
@@ -181,11 +181,11 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.bloodhelix'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
@@ -194,7 +194,7 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.bloodhelix'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'BloodhelixSpawn':
@@ -300,7 +300,7 @@ items:
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
@@ -309,11 +309,11 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.crushedcandycane'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
@@ -322,7 +322,7 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.crushedcandycane'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'crushedcandycaneSpawn':
@@ -428,7 +428,7 @@ items:
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
@@ -437,11 +437,11 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.enchanted'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
@@ -450,7 +450,7 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.enchanted'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'enchantedSpawn':
@@ -556,7 +556,7 @@ items:
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
@@ -565,11 +565,11 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.enderaura'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
@@ -578,7 +578,7 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.enderaura'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'enderauraSpawn':
@@ -684,7 +684,7 @@ items:
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
@@ -693,11 +693,11 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.firewaves'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
@@ -706,7 +706,7 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.firewaves'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'firewavesSpawn':
@@ -812,7 +812,7 @@ items:
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
@@ -821,11 +821,11 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.flamefairy'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
@@ -834,7 +834,7 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.flamefairy'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'flamefairySpawn':
@@ -940,7 +940,7 @@ items:
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
@@ -949,11 +949,11 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.flamerings'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
@@ -962,7 +962,7 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.flamerings'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'flameringsSpawn':
@@ -1068,7 +1068,7 @@ items:
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
@@ -1077,11 +1077,11 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.frostlord'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
@@ -1090,7 +1090,7 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.frostlord'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'frostlordSpawn':
@@ -1196,7 +1196,7 @@ items:
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
@@ -1205,11 +1205,11 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.frozenwalk'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
@@ -1218,7 +1218,7 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.frozenwalk'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'frozenwalkSpawn':
@@ -1324,7 +1324,7 @@ items:
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
@@ -1333,11 +1333,11 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.greensparks'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
@@ -1346,7 +1346,7 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.greensparks'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'greensparksSpawn':
@@ -1452,7 +1452,7 @@ items:
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
@@ -1461,11 +1461,11 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.inferno'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
@@ -1474,7 +1474,7 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.inferno'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'infernoSpawn':
@@ -1580,7 +1580,7 @@ items:
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
@@ -1589,11 +1589,11 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.inlove'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
@@ -1602,7 +1602,7 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.inlove'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'inloveSpawn':
@@ -1708,7 +1708,7 @@ items:
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
@@ -1717,11 +1717,11 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.magicalrods'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
@@ -1730,7 +1730,7 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.magicalrods'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'magicalrodsSpawn':
@@ -1836,7 +1836,7 @@ items:
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
@@ -1845,11 +1845,11 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.music'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
@@ -1858,7 +1858,7 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.music'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'musicSpawn':
@@ -1964,7 +1964,7 @@ items:
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
@@ -1973,11 +1973,11 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.raincloud'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
@@ -1986,7 +1986,7 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.raincloud'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'raincloudSpawn':
@@ -2092,7 +2092,7 @@ items:
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
@@ -2101,11 +2101,11 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.santahat'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
@@ -2114,7 +2114,7 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.santahat'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'santahatSpawn':
@@ -2220,7 +2220,7 @@ items:
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
@@ -2229,11 +2229,11 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.superhero'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
@@ -2242,7 +2242,7 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.superhero'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'superheroSpawn':
@@ -2348,7 +2348,7 @@ items:
     - '&8» &bPurchase from server store'
     - '&8» &b/buy'
     left_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
@@ -2357,11 +2357,11 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.angelwings'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+    - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
@@ -2370,7 +2370,7 @@ items:
           type: "!has permission"
           permission: 'ultracosmetics.particleeffects.angelwings'
       deny_commands:
-      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/cosmetics'
+      - '[message] &b&lCosmetics &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/effects'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'angelwingsSpawn':

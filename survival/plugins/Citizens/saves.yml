@@ -708,13 +708,13 @@ npc:
     uuid: 6df17d1b-0551-43e8-80db-544fec826edf
     traits:
       location:
-        bodyYaw: 157.71233
+        bodyYaw: 142.18974
         world: world
         x: '-6.5'
         y: '77.0'
         z: '1.5'
-        yaw: '-162.2877'
-        pitch: '0.0'
+        yaw: '-177.8103'
+        pitch: '5.8454'
       spawned: true
       lookclose:
         range: '5.0'

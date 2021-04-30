@@ -403,3 +403,5 @@ gui_menus:
     file: perks.yml
   cosmetics:
     file: cosmetics.yml
+  cosmetics:
+    file: tags.yml
