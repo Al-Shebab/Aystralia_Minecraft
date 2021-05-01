@@ -931,12 +931,10 @@ command:
       args: (-p:playerName) (reason) (-s)
     info:
       # This only determines message in title message and not message shown in chat. For chat message check config.yml file
-      afkTitle: '&eYou are now AFK'
+      afkTitle: '&bYou are now AFK'
       afkSubTitle:
-      - '&2Don''t eat to much cookies!'
-      - '&2Nice day for fishing'
-      - '&2Afk, again?'
-      - '&2Where are you?'
+      - '&fWhere are you?'
+      - '&fBrb taking a shit'
   afkcheck:
     help:
       info: '&fCheck players afk status'

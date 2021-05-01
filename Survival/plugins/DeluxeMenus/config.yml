@@ -313,8 +313,8 @@
 debug: false
 check_updates: false
 gui_menus:
-  perks2:
-    file: perks2.yml
+  upgrades:
+    file: upgrades.yml
   jobs:
     file: jobs.yml
   worldsmenu:
@@ -323,5 +323,7 @@ gui_menus:
     file: pets.yml
   tags:
     file: tags.yml
+  perks:
+    file: perks.yml
   cosmetics:
     file: cosmetics.yml

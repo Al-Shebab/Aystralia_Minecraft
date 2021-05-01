@@ -1,11 +1,6 @@
 menu_title: '&b&lJobs'
 open_command:
-- mcjob
-- mcjobs
-- jobs
-- job
-- job join
-- jobs join
+- mjkdvcbiuweqrbviubviu
 size: 45
 items:
   'Decoration':
@@ -82,11 +77,11 @@ items:
     left_click_commands:
     - '[sound] ENTITY_ARROW_HIT_PLAYER'  
     - '[close]'
-    - '[openguimenu] menu'
+    - '[openguimenu] perks'
     right_click_commands:
     - '[sound] ENTITY_ARROW_HIT_PLAYER'  
     - '[close]'
-    - '[openguimenu] menu'
+    - '[openguimenu] perks'
   'Miner1':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU1OWYzYjE1NTRkOWMwMmRjOGEyMTllMjU4ZDEzNjNjODhmNzI3OGM0NTI2MjYzODA0ZWFjNDZjNWQ1NyJ9fX0=
     priority: 1
@@ -315,3 +310,67 @@ items:
     - '[sound] ENTITY_ARROW_HIT_PLAYER' 
     - '[close]'
     - '[player] jobs leave Destroyer'
+  'asdas1s':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 1
+    slot: 16
+    display_name: '&c[*] &c&lComing Soon...'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'menu.use'
+    lore:
+    - ''
+    - ''
+    - '&7&oHmm...'
+    left_click_commands:
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'menu.use'
+      deny_commands:
+      - '[close]'
+    right_click_commands:
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission 
+          permission: 'menu.use'
+      deny_commands:
+      - '[close]'
+  'asdas2s':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 1
+    slot: 25
+    display_name: '&c[*] &c&lComing Soon...'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'menu.use'
+    lore:
+    - ''
+    - ''
+    - '&7&oHmm...'
+    left_click_commands:
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'menu.use'
+      deny_commands:
+      - '[close]'
+    right_click_commands:
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission 
+          permission: 'menu.use'
+      deny_commands:
+      - '[close]'

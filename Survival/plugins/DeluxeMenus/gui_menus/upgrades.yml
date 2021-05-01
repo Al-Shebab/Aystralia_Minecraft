@@ -1,8 +1,7 @@
-menu_title: '&b&lPerks'
+menu_title: '&b&lUpgrades'
 open_command:
-- perk
-- perks
-size: 27
+- wefvnhweorghvouuiob
+size: 45
 items:
   'Decoration':
     display_name: '&f'
@@ -32,11 +31,41 @@ items:
     - 9
     - 17
     - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 36
+    - 37
+    - 38
+    - 39
+    - 41
+    - 42
+    - 43
+    - 44
+    - 45
+  'Back':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+    slot: 40
+    display_name: '&b[*] &bBack'
+    lore: ''
+    left_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'  
+    - '[close]'
+    - '[openguimenu] perks'
+    right_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'  
+    - '[close]'
+    - '[openguimenu] perks'
   'HasteBuy':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 10
-    display_name: '&b[*] &b&lHaste II &f&lPerk'
+    display_name: '&b[*] &b&lHaste II &f&lUpgrade'
     view_requirement:
       requirements:
         Permission:
@@ -50,7 +79,7 @@ items:
     - ''
     - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Haste II'
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPermanant Haste II'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] money take %player_name% 175000'
@@ -66,11 +95,11 @@ items:
           type: "!has permission"
           permission: 'perks.haste'
       deny_commands:
-      - '[message] &b&lPerks &8> &fYou need &b$175,000 &fto buy this'
+      - '[message] &b&lUpgrades &8> &fYou need &b$175,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Haste II'
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPermanant Haste II'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] money take %player_name% 175000'
@@ -86,14 +115,14 @@ items:
           type: "!has permission"
           permission: 'perks.haste'
       deny_commands:
-      - '[message] &b&lPerks &8> &fYou need &b$175,000 &fto buy this'
+      - '[message] &b&lUpgrades &8> &fYou need &b$175,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'HasteOn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
     priority: 2
     slot: 10
-    display_name: '&b[*] &b&lHaste II &f&lPerk'
+    display_name: '&b[*] &b&lHaste II &f&lUpgrade'
     view_requirement:
       requirements:
         Permission:
@@ -103,7 +132,7 @@ items:
     - ''
     - '&aActivated'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fPerk disabled &c&lHaste'
+    - '[message] &b&lUpgrades &8> &fUpgrade disabled &c&lHaste'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.haste.on false'
@@ -115,11 +144,11 @@ items:
           type: has permission
           permission: 'perks.haste.on'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fPerk disabled &c&lHaste'
+    - '[message] &b&lUpgrades &8> &fUpgrade disabled &c&lHaste'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.haste.on false'
@@ -131,14 +160,14 @@ items:
           type: has permission
           permission: 'perks.haste.on'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'HasteOff':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
     priority: 1
     slot: 10
-    display_name: '&b[*] &b&lHaste II &f&lPerk'
+    display_name: '&b[*] &b&lHaste II &f&lUpgrade'
     view_requirement:
       requirements:
         Permission:
@@ -148,7 +177,7 @@ items:
     - ''
     - '&cDeactivated'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fPerk enabled &a&lHaste'
+    - '[message] &b&lUpgrades &8> &fUpgrade enabled &a&lHaste'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.haste.on true'
@@ -160,11 +189,11 @@ items:
           type: has permission
           permission: 'perks.haste.off'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fPerk enabled &a&lHaste'
+    - '[message] &b&lUpgrades &8> &fUpgrade enabled &a&lHaste'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.haste.on true'
@@ -176,14 +205,14 @@ items:
           type: has permission
           permission: 'perks.haste.off'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'SpeedBuy':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 11
-    display_name: '&b[*] &b&lSpeed II &f&lPerk'
+    display_name: '&b[*] &b&lSpeed II &f&lUpgrade'
     view_requirement:
       requirements:
         Permission:
@@ -197,7 +226,7 @@ items:
     - ''
     - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Speed II'
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPermanant Speed II'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] money take %player_name% 175000'
@@ -213,11 +242,11 @@ items:
           type: "!has permission"
           permission: 'perks.speed'
       deny_commands:
-      - '[message] &b&lPerks &8> &fYou need &b$175,000 &fto buy this'
+      - '[message] &b&lUpgrades &8> &fYou need &b$175,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Speed II'
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPermanant Speed II'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] money take %player_name% 175000'
@@ -233,14 +262,14 @@ items:
           type: "!has permission"
           permission: 'perks.speed'
       deny_commands:
-      - '[message] &b&lPerks &8> &fYou need &b$175,000 &fto buy this'
+      - '[message] &b&lUpgrades &8> &fYou need &b$175,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'SpeedOn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
     priority: 2
     slot: 11
-    display_name: '&b[*] &b&lSpeed II &f&lPerk'
+    display_name: '&b[*] &b&lSpeed II &f&lUpgrade'
     view_requirement:
       requirements:
         Permission:
@@ -250,7 +279,7 @@ items:
     - ''
     - '&aActivated'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fPerk disabled &c&lSpeed'
+    - '[message] &b&lUpgrades &8> &fUpgrade disabled &c&lSpeed'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.speed.on false'
@@ -262,11 +291,11 @@ items:
           type: has permission
           permission: 'perks.speed.on'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fPerk disabled &c&lSpeed'
+    - '[message] &b&lUpgrades &8> &fUpgrade disabled &c&lSpeed'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.speed.on false'
@@ -278,14 +307,14 @@ items:
           type: has permission
           permission: 'perks.speed.on'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'SpeedOff':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
     priority: 1
     slot: 11
-    display_name: '&b[*] &b&lSpeed II &f&lPerk'
+    display_name: '&b[*] &b&lSpeed II &f&lUpgrade'
     view_requirement:
       requirements:
         Permission:
@@ -295,7 +324,7 @@ items:
     - ''
     - '&cDeactivated'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fPerk enabled &a&lSpeed'
+    - '[message] &b&lUpgrades &8> &fUpgrade enabled &a&lSpeed'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.speed.on true'
@@ -307,11 +336,11 @@ items:
           type: has permission
           permission: 'perks.speed.off'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fPerk enabled &a&lSpeed'
+    - '[message] &b&lUpgrades &8> &fUpgrade enabled &a&lSpeed'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.speed.on true'
@@ -323,14 +352,14 @@ items:
           type: has permission
           permission: 'perks.speed.off'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'ResistanceBuy':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 12
-    display_name: '&b[*] &b&lResistance II &f&lPerk'
+    display_name: '&b[*] &b&lResistance II &f&lUpgrade'
     view_requirement:
       requirements:
         Permission:
@@ -344,7 +373,7 @@ items:
     - ''
     - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Resistance II'
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPermanant Resistance II'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] money take %player_name% 350000'
@@ -360,11 +389,11 @@ items:
           type: "!has permission"
           permission: 'perks.resistance'
       deny_commands:
-      - '[message] &b&lPerks &8> &fYou need &b$350,000 &fto buy this'
+      - '[message] &b&lUpgrades &8> &fYou need &b$350,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Resistance II'
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPermanant Resistance II'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] money take %player_name% 350000'
@@ -380,14 +409,14 @@ items:
           type: "!has permission"
           permission: 'perks.resistance'
       deny_commands:
-      - '[message] &b&lPerks &8> &fYou need &b$350,000 &fto buy this'
+      - '[message] &b&lUpgrades &8> &fYou need &b$350,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'ResistanceOn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
     priority: 2
     slot: 12
-    display_name: '&b[*] &b&lResistance II &f&lPerk'
+    display_name: '&b[*] &b&lResistance II &f&lUpgrade'
     view_requirement:
       requirements:
         Permission:
@@ -397,7 +426,7 @@ items:
     - ''
     - '&aActivated'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fPerk disabled &c&lresistance'
+    - '[message] &b&lUpgrades &8> &fUpgrade disabled &c&lresistance'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.resistance.on false'
@@ -409,11 +438,11 @@ items:
           type: has permission
           permission: 'perks.resistance.on'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fPerk disabled &c&lresistance'
+    - '[message] &b&lUpgrades &8> &fUpgrade disabled &c&lresistance'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.resistance.on false'
@@ -425,14 +454,14 @@ items:
           type: has permission
           permission: 'perks.resistance.on'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'ResistanceOff':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
     priority: 1
     slot: 12
-    display_name: '&b[*] &b&lResistance II &f&lPerk'
+    display_name: '&b[*] &b&lResistance II &f&lUpgrade'
     view_requirement:
       requirements:
         Permission:
@@ -442,7 +471,7 @@ items:
     - ''
     - '&cDeactivated'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fPerk enabled &a&lresistance'
+    - '[message] &b&lUpgrades &8> &fUpgrade enabled &a&lresistance'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.resistance.on true'
@@ -454,11 +483,11 @@ items:
           type: has permission
           permission: 'perks.resistance.off'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fPerk enabled &a&lresistance'
+    - '[message] &b&lUpgrades &8> &fUpgrade enabled &a&lresistance'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.resistance.on true'
@@ -470,14 +499,14 @@ items:
           type: has permission
           permission: 'perks.resistance.off'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'JumpboostBuy':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 13
-    display_name: '&b[*] &b&lJump Boost II &f&lPerk'
+    display_name: '&b[*] &b&lJump Boost II &f&lUpgrade'
     view_requirement:
       requirements:
         Permission:
@@ -491,7 +520,7 @@ items:
     - ''
     - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Jump Boost II'
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPermanant Jump Boost II'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] money take %player_name% 350000'
@@ -507,11 +536,11 @@ items:
           type: "!has permission"
           permission: 'perks.jumpboost'
       deny_commands:
-      - '[message] &b&lPerks &8> &fYou need &b$350,000 &fto buy this'
+      - '[message] &b&lUpgrades &8> &fYou need &b$350,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Jump Boost II'
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPermanant Jump Boost II'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] money take %player_name% 350000'
@@ -527,14 +556,14 @@ items:
           type: "!has permission"
           permission: 'perks.jumpboost'
       deny_commands:
-      - '[message] &b&lPerks &8> &fYou need &b$350,000 &fto buy this'
+      - '[message] &b&lUpgrades &8> &fYou need &b$350,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'JumpboostOn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
     priority: 2
     slot: 13
-    display_name: '&b[*] &b&lJump Boost II &f&lPerk'
+    display_name: '&b[*] &b&lJump Boost II &f&lUpgrade'
     view_requirement:
       requirements:
         Permission:
@@ -544,7 +573,7 @@ items:
     - ''
     - '&aActivated'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fPerk disabled &c&lJumpboost'
+    - '[message] &b&lUpgrades &8> &fUpgrade disabled &c&lJumpboost'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.jumpboost.on false'
@@ -556,11 +585,11 @@ items:
           type: has permission
           permission: 'perks.jumpboost.on'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fPerk disabled &c&lJumpboost'
+    - '[message] &b&lUpgrades &8> &fUpgrade disabled &c&lJumpboost'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.jumpboost.on false'
@@ -572,14 +601,14 @@ items:
           type: has permission
           permission: 'perks.jumpboost.on'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'JumpboostOff':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
     priority: 1
     slot: 13
-    display_name: '&b[*] &b&lJump Boost II &f&lPerk'
+    display_name: '&b[*] &b&lJump Boost II &f&lUpgrade'
     view_requirement:
       requirements:
         Permission:
@@ -589,7 +618,7 @@ items:
     - ''
     - '&cDeactivated'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fPerk enabled &a&lJumpboost'
+    - '[message] &b&lUpgrades &8> &fUpgrade enabled &a&lJumpboost'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.jumpboost.on true'
@@ -601,11 +630,11 @@ items:
           type: has permission
           permission: 'perks.jumpboost.off'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fPerk enabled &a&lJumpboost'
+    - '[message] &b&lUpgrades &8> &fUpgrade enabled &a&lJumpboost'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.jumpboost.on true'
@@ -617,14 +646,14 @@ items:
           type: has permission
           permission: 'perks.jumpboost.off'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'StrengthBuy':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 14
-    display_name: '&b[*] &b&lStrength II &f&lPerk'
+    display_name: '&b[*] &b&lStrength II &f&lUpgrade'
     view_requirement:
       requirements:
         Permission:
@@ -638,7 +667,7 @@ items:
     - ''
     - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Strength II'
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPermanant Strength II'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] money take %player_name% 750000'
@@ -654,11 +683,11 @@ items:
           type: "!has permission"
           permission: 'perks.strength'
       deny_commands:
-      - '[message] &b&lPerks &8> &fYou need &b$750,000 &fto buy this'
+      - '[message] &b&lUpgrades &8> &fYou need &b$750,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Strength II'
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPermanant Strength II'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] money take %player_name% 750000'
@@ -674,14 +703,14 @@ items:
           type: "!has permission"
           permission: 'perks.strength'
       deny_commands:
-      - '[message] &b&lPerks &8> &fYou need &b$750,000 &fto buy this'
+      - '[message] &b&lUpgrades &8> &fYou need &b$750,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'StrengthOn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
     priority: 2
     slot: 14
-    display_name: '&b[*] &b&lStrength II &f&lPerk'
+    display_name: '&b[*] &b&lStrength II &f&lUpgrade'
     view_requirement:
       requirements:
         Permission:
@@ -691,7 +720,7 @@ items:
     - ''
     - '&aActivated'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fPerk disabled &c&lStrength'
+    - '[message] &b&lUpgrades &8> &fUpgrade disabled &c&lStrength'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.strength.on false'
@@ -703,11 +732,11 @@ items:
           type: has permission
           permission: 'perks.strength.on'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fPerk disabled &c&lStrength'
+    - '[message] &b&lUpgrades &8> &fUpgrade disabled &c&lStrength'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.strength.on false'
@@ -719,14 +748,14 @@ items:
           type: has permission
           permission: 'perks.strength.on'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'StrengthOff':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
     priority: 1
     slot: 14
-    display_name: '&b[*] &b&lStrength II &f&lPerk'
+    display_name: '&b[*] &b&lStrength II &f&lUpgrade'
     view_requirement:
       requirements:
         Permission:
@@ -736,7 +765,7 @@ items:
     - ''
     - '&cDeactivated'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fPerk enabled &a&lStrength'
+    - '[message] &b&lUpgrades &8> &fUpgrade enabled &a&lStrength'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.strength.on true'
@@ -748,11 +777,11 @@ items:
           type: has permission
           permission: 'perks.strength.off'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fPerk enabled &a&lStrength'
+    - '[message] &b&lUpgrades &8> &fUpgrade enabled &a&lStrength'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.strength.on true'
@@ -764,14 +793,14 @@ items:
           type: has permission
           permission: 'perks.strength.off'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'RegenerationBuy':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 15
-    display_name: '&b[*] &b&lRegeneration &f&lPerk'
+    display_name: '&b[*] &b&lRegeneration &f&lUpgrade'
     view_requirement:
       requirements:
         Permission:
@@ -785,7 +814,7 @@ items:
     - ''
     - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Regeneration'
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPermanant Regeneration'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] money take %player_name% 1150000'
@@ -801,11 +830,11 @@ items:
           type: "!has permission"
           permission: 'perks.regeneration'
       deny_commands:
-      - '[message] &b&lPerks &8> &fYou need &b$1,150,000 &fto buy this'
+      - '[message] &b&lUpgrades &8> &fYou need &b$1,150,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Regeneration'
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPermanant Regeneration'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] money take %player_name% 1150000'
@@ -821,14 +850,14 @@ items:
           type: "!has permission"
           permission: 'perks.regeneration'
       deny_commands:
-      - '[message] &b&lPerks &8> &fYou need &b$1,150,000 &fto buy this'
+      - '[message] &b&lUpgrades &8> &fYou need &b$1,150,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'RegenerationOn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
     priority: 2
     slot: 15
-    display_name: '&b[*] &b&lRegeneration &f&lPerk'
+    display_name: '&b[*] &b&lRegeneration &f&lUpgrade'
     view_requirement:
       requirements:
         Permission:
@@ -838,7 +867,7 @@ items:
     - ''
     - '&aActivated'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fPerk disabled &c&lRegeneration'
+    - '[message] &b&lUpgrades &8> &fUpgrade disabled &c&lRegeneration'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.regeneration.on false'
@@ -850,11 +879,11 @@ items:
           type: has permission
           permission: 'perks.regeneration.on'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fPerk disabled &c&lRegeneration'
+    - '[message] &b&lUpgrades &8> &fUpgrade disabled &c&lRegeneration'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.regeneration.on false'
@@ -866,14 +895,14 @@ items:
           type: has permission
           permission: 'perks.regeneration.on'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'RegenerationOff':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
     priority: 1
     slot: 15
-    display_name: '&b[*] &b&lRegeneration &f&lPerk'
+    display_name: '&b[*] &b&lRegeneration &f&lUpgrade'
     view_requirement:
       requirements:
         Permission:
@@ -883,7 +912,7 @@ items:
     - ''
     - '&cDeactivated'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fPerk enabled &a&lRegeneration'
+    - '[message] &b&lUpgrades &8> &fUpgrade enabled &a&lRegeneration'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.regeneration.on true'
@@ -895,11 +924,11 @@ items:
           type: has permission
           permission: 'perks.regeneration.off'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fPerk enabled &a&lRegeneration'
+    - '[message] &b&lUpgrades &8> &fUpgrade enabled &a&lRegeneration'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.regeneration.on true'
@@ -911,14 +940,14 @@ items:
           type: has permission
           permission: 'perks.regeneration.off'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'HealthboostBuy':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
     slot: 16
-    display_name: '&b[*] &b&lHealth Boost &f&lPerk'
+    display_name: '&b[*] &b&lHealth Boost &f&lUpgrade'
     view_requirement:
       requirements:
         Permission:
@@ -932,7 +961,7 @@ items:
     - ''
     - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Health Boost'
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPermanant Health Boost'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] money take %player_name% 1500000'
@@ -948,11 +977,11 @@ items:
           type: "!has permission"
           permission: 'perks.Health Boost'
       deny_commands:
-      - '[message] &b&lPerks &8> &fYou need &b$1,500,000 &fto buy this'
+      - '[message] &b&lUpgrades &8> &fYou need &b$1,500,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Health Boost'
+    - '[message] &b&lUpgrades &8> &fYou have bought &bPermanant Health Boost'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] money take %player_name% 1500000'
@@ -968,14 +997,14 @@ items:
           type: "!has permission"
           permission: 'perks.Health Boost'
       deny_commands:
-      - '[message] &b&lPerks &8> &fYou need &b$1,500,000 &fto buy this'
+      - '[message] &b&lUpgrades &8> &fYou need &b$1,500,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'HealthboostOn':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
     priority: 2
     slot: 16
-    display_name: '&b[*] &b&lHealth Boost &f&lPerk'
+    display_name: '&b[*] &b&lHealth Boost &f&lUpgrade'
     view_requirement:
       requirements:
         Permission:
@@ -985,7 +1014,7 @@ items:
     - ''
     - '&aActivated'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fPerk disabled &c&lHealth Boost'
+    - '[message] &b&lUpgrades &8> &fUpgrade disabled &c&lHealth Boost'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.healthboost.on false'
@@ -997,11 +1026,11 @@ items:
           type: has permission
           permission: 'perks.healthboost.on'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fPerk disabled &c&lHealth Boost'
+    - '[message] &b&lUpgrades &8> &fUpgrade disabled &c&lHealth Boost'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.healthboost.on false'
@@ -1013,14 +1042,14 @@ items:
           type: has permission
           permission: 'perks.healthboost.on'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'HealthboostOff':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
     priority: 1
     slot: 16
-    display_name: '&b[*] &b&lHealth Boost &f&lPerk'
+    display_name: '&b[*] &b&lHealth Boost &f&lUpgrade'
     view_requirement:
       requirements:
         Permission:
@@ -1030,7 +1059,7 @@ items:
     - ''
     - '&cDeactivated'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fPerk enabled &a&lHealth Boost'
+    - '[message] &b&lUpgrades &8> &fUpgrade enabled &a&lHealth Boost'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.healthboost.on true'
@@ -1042,11 +1071,11 @@ items:
           type: has permission
           permission: 'perks.healthboost.off'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fPerk enabled &a&lHealth Boost'
+    - '[message] &b&lUpgrades &8> &fUpgrade enabled &a&lHealth Boost'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] lp user %player_name% permission set perks.healthboost.on true'
@@ -1058,6 +1087,6 @@ items:
           type: has permission
           permission: 'perks.healthboost.off'
       deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[message] &b&lUpgrades &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'

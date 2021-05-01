@@ -268,7 +268,7 @@ info:
   sec: '&f[secs] &bsec '
   vanishSymbolOn: '&8[&bH&8]&r'
   vanishSymbolOff: ''
-  afkSymbolOn: '&8[&bAfk&8]&r'
+  afkSymbolOn: '&c&lAFK&r'
   afkSymbolOff: ''
   nextPageConsole: '&fFor next page perform &f[command]'
   prevPage: '&9----<< &bPrev '
@@ -815,10 +815,10 @@ teleportation:
   relocation: '!actionbar!&cYour teleport location was obstructed. You have been teleported
     to a safe location.'
 afk:
-  'on': '&bAFK'
+  'on': '&cAFK'
   'off': '&bPlaying'
   left: '&b[playerDisplayName] &fis no longer AFK'
-  MayNotRespond: '&fPlayer is AFK and may not respond'
+  MayNotRespond: '&bPlayer is AFK and may not respond'
   MayNotRespondStaff: '&fStaff member is AFK and may not respond. Try contacting us
     through discord'
 BossBar:
@@ -931,12 +931,10 @@ command:
       args: (-p:playerName) (reason) (-s)
     info:
       # This only determines message in title message and not message shown in chat. For chat message check config.yml file
-      afkTitle: '&eYou are now AFK'
+      afkTitle: '&bYou are now AFK'
       afkSubTitle:
-      - '&2Don''t eat to much cookies!'
-      - '&2Nice day for fishing'
-      - '&2Afk, again?'
-      - '&2Where are you?'
+      - '&fWhere are you?'
+      - '&fBrb taking a shit'
   afkcheck:
     help:
       info: '&fCheck players afk status'
