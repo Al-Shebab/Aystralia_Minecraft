@@ -308,6 +308,11 @@ messages:
         type: TCHAT
         message: '&fPlayer &b%player% &fhas added &7%item% &ffor &d%price%&o%currency%
           &fto the auction!'
+    buy:
+      annonce:
+        type: TCHAT
+        message: '&fPlayer &b%player% &fhas just bought &7%item% &ffor &d%price%&o%currency%
+          &fto the auction!'
   world:
     is:
       banned:

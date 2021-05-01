@@ -41,6 +41,7 @@ playerDeath:
   Commands:
   - cmi msg [playerName] This is event command example!
   - cmi actionbarmsg [playerName] This is event command example!
+  SourceCommands: []
 playerKillPlayer:
   # [sourceName] to insert source player name
   # [sourceDisplayName] to insert player display name

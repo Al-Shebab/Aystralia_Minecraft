@@ -1,3 +1,5 @@
+# DeluxeTags messages.yml
+# Edit the plugin messages to your liking!
 cmd:
   no_permission: '&cYou don''t have &f{0} &cto do that!'
   target_not_online: '&f{0} &cis not online!'

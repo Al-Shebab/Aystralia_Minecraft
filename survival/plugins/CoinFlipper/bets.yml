@@ -1,0 +1,8 @@
+bets:
+  '1':
+    booster: 0
+    player: Spongiebobbuu
+    money: 10000.0
+    side: 1
+    time: 1234
+    animation: default
