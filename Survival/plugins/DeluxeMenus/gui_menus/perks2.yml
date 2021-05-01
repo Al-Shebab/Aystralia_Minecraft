@@ -2,9 +2,9 @@ menu_title: '&b&lPerks'
 open_command:
 - perk
 - perks
-size: 36
+size: 27
 items:
-  'Decorations':
+  'Decoration':
     display_name: '&f'
     material: 160
     data: 7
@@ -23,8 +23,6 @@ items:
     - 24
     - 25
     - 26
-    - 29
-    - 33
     - 0
     - 1
     - 3
@@ -34,48 +32,30 @@ items:
     - 9
     - 17
     - 27
-    - 28
-    - 30
-    - 32
-    - 34
-    - 35
-  'Back':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
-    slot: 31
-    display_name: '&b[*] &bBack'
-    lore: ''
-    left_click_commands:
-    - '[sound] ENTITY_ARROW_HIT_PLAYER'  
-    - '[close]'
-    - '[openguimenu] upgrades'
-    right_click_commands:
-    - '[sound] ENTITY_ARROW_HIT_PLAYER'  
-    - '[close]'
-    - '[openguimenu] upgrades'
   'HasteBuy':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjZlYTIxMzU4Mzg0NjE1MzQzNzJmMmRhNmM4NjJkMjFjZDVmM2QyYzcxMTlmMmJiNjc0YmJkNDI3OTEifX19
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
-    slot: 11
-    display_name: '&b[*] &bHaste Perk'
+    slot: 10
+    display_name: '&b[*] &b&lHaste II &f&lPerk'
     view_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'MCPerks.Haste'
+          permission: 'perks.haste'
     lore:
     - ''
-    - '&bPerk: &fPermanant Haste'
+    - '&bPerk: &fPermanant Haste II'
     - ''
     - '&bPrice: &f$175,000'
     - ''
     - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Haste'
+    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Haste II'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] money take %player_name% 175000'
-    - '[console] lp user %player_name% permission set MCPerks.Haste true'
-    - '[console] lp user %player_name% permission set MCPerks.Hasteons true'
+    - '[console] lp user %player_name% permission set perks.haste true'
+    - '[console] lp user %player_name% permission set perks.haste.on true'
     - '[console] effect %player_name% fast_digging 99999999 2'
     left_click_requirement:
       requirements:
@@ -84,18 +64,18 @@ items:
           amount: 175000
         Permission:
           type: "!has permission"
-          permission: 'MCPerks.Haste'
+          permission: 'perks.haste'
       deny_commands:
       - '[message] &b&lPerks &8> &fYou need &b$175,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Haste'
+    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Haste II'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] money take %player_name% 175000'
-    - '[console] lp user %player_name% permission set MCPerks.Haste true'
-    - '[console] lp user %player_name% permission set MCPerks.Hasteons true'
+    - '[console] lp user %player_name% permission set perks.haste true'
+    - '[console] lp user %player_name% permission set perks.haste.on true'
     - '[console] effect %player_name% fast_digging 99999999 2'
     right_click_requirement:
       requirements:
@@ -104,21 +84,21 @@ items:
           amount: 175000
         Permission:
           type: "!has permission"
-          permission: 'MCPerks.Haste'
+          permission: 'perks.haste'
       deny_commands:
       - '[message] &b&lPerks &8> &fYou need &b$175,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'Hasteons':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2U4N2IxZGY2YmYyMzg3ZTEwZTg3NTVkZTM3ZDdiY2I5NGNmNjFhNWZhMThlMjA0YjM4ZDZjMWZmOTIyMzE3YyJ9fX0=
+  'HasteOn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
     priority: 2
-    slot: 11
-    display_name: '&b[*] &fHaste Perk'
+    slot: 10
+    display_name: '&b[*] &b&lHaste II &f&lPerk'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'MCPerks.Hasteons'
+          permission: 'perks.haste.on'
     lore:
     - ''
     - '&aActivated'
@@ -126,14 +106,14 @@ items:
     - '[message] &b&lPerks &8> &fPerk disabled &c&lHaste'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] lp user %player_name% permission set MCPerks.Hasteons false'
-    - '[console] lp user %player_name% permission set MCPerks.Hasteoffs true'
+    - '[console] lp user %player_name% permission set perks.haste.on false'
+    - '[console] lp user %player_name% permission set perks.haste.off true'
     - '[console] effect %player_name% fast_digging 0 1'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'MCPerks.Hasteons'
+          permission: 'perks.haste.on'
       deny_commands:
       - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
@@ -142,28 +122,28 @@ items:
     - '[message] &b&lPerks &8> &fPerk disabled &c&lHaste'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] lp user %player_name% permission set MCPerks.Hasteons false'
-    - '[console] lp user %player_name% permission set MCPerks.Hasteoffs true'
+    - '[console] lp user %player_name% permission set perks.haste.on false'
+    - '[console] lp user %player_name% permission set perks.haste.off true'
     - '[console] effect %player_name% fast_digging 0 1'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'MCPerks.Hasteons'
+          permission: 'perks.haste.on'
       deny_commands:
       - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'Hasteoffs':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWE4YzY4NTE0ZDhjODE5ZTY4ZWI3NWI1OTY0NDVkODhiMzY3YWUzNTFiYWE5OTgzYmM2OWNmNmI1MjBmMzk4NSJ9fX0=
+  'HasteOff':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
     priority: 1
-    slot: 11
-    display_name: '&b[*] &fHaste Perk'
+    slot: 10
+    display_name: '&b[*] &b&lHaste II &f&lPerk'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'MCPerks.Hasteoffs'
+          permission: 'perks.haste.off'
     lore:
     - ''
     - '&cDeactivated'
@@ -171,14 +151,14 @@ items:
     - '[message] &b&lPerks &8> &fPerk enabled &a&lHaste'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] lp user %player_name% permission set MCPerks.Hasteons true'
-    - '[console] lp user %player_name% permission set MCPerks.Hasteoffs false'
+    - '[console] lp user %player_name% permission set perks.haste.on true'
+    - '[console] lp user %player_name% permission set perks.haste.off false'
     - '[console] effect %player_name% fast_digging 99999999 2'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'MCPerks.Hasteoffs'
+          permission: 'perks.haste.off'
       deny_commands:
       - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
@@ -187,193 +167,190 @@ items:
     - '[message] &b&lPerks &8> &fPerk enabled &a&lHaste'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] lp user %player_name% permission set MCPerks.Hasteons true'
-    - '[console] lp user %player_name% permission set MCPerks.Hasteoffs false'
+    - '[console] lp user %player_name% permission set perks.haste.on true'
+    - '[console] lp user %player_name% permission set perks.haste.off false'
     - '[console] effect %player_name% fast_digging 99999999 2'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'MCPerks.Hasteoffs'
-      deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
-      - '[sound] BLOCK_ANVIL_LAND' 
-      - '[close]'
-  'StrengthBuy':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBkZmM4YTM1NjNiZjk5NmY1YzFiNzRiMGIwMTViMmNjZWIyZDA0Zjk0YmJjZGFmYjIyOTlkOGE1OTc5ZmFjMSJ9fX0=
-    priority: 3
-    slot: 12
-    display_name: '&b[*] &bStrength Perk'
-    view_requirement:
-      requirements:
-        Permission:
-          type: "!has permission"
-          permission: 'MCPerks.Strength'
-    lore:
-    - ''
-    - '&bPerk: &fPermanant Strength'
-    - ''
-    - '&bPrice: &f$275,000'
-    - ''
-    - '&8» &bClick to buy'
-    left_click_commands:
-    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Strength'
-    - '[sound] ENTITY_PLAYER_LEVELUP' 
-    - '[close]'
-    - '[console] money take %player_name% 275000'
-    - '[console] lp user %player_name% permission set MCPerks.Strength true'
-    - '[console] lp user %player_name% permission set MCPerks.Strengthons true'
-    - '[console] effect %player_name% increase_damage 99999999 2'
-    left_click_requirement:
-      requirements:
-        Economy:
-          type: has money
-          amount: 275000
-        Permission:
-          type: "!has permission"
-          permission: 'MCPerks.Strength'
-      deny_commands:
-      - '[message] &b&lPerks &8> &fYou need &b$275,000 &fto buy this'
-      - '[sound] BLOCK_ANVIL_LAND' 
-      - '[close]'
-    right_click_commands:
-    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Strength'
-    - '[sound] ENTITY_PLAYER_LEVELUP' 
-    - '[close]'
-    - '[console] money take %player_name% 275000'
-    - '[console] lp user %player_name% permission set MCPerks.Strength true'
-    - '[console] lp user %player_name% permission set MCPerks.Strengthons true'
-    - '[console] effect %player_name% increase_damage 99999999 2'
-    right_click_requirement:
-      requirements:
-        Economy:
-          type: has money
-          amount: 275000
-        Permission:
-          type: "!has permission"
-          permission: 'MCPerks.Strength'
-      deny_commands:
-      - '[message] &b&lPerks &8> &fYou need &b$275,000 &fto buy this'
-      - '[sound] BLOCK_ANVIL_LAND' 
-      - '[close]'
-  'Strengthons':
-    material: DIAMOND_SWORD
-    enchantments:
-      - ARROW_DAMAGE;1
-    hide_enchantments: true
-    priority: 2
-    slot: 12
-    display_name: '&b[*] &fStrength Perk'
-    view_requirement:
-      requirements:
-        Permission:
-          type: has permission
-          permission: 'MCPerks.Strengthons'
-    lore:
-    - ''
-    - '&aActivated'
-    left_click_commands:
-    - '[message] &b&lPerks &8> &fPerk disabled &c&lStrength'
-    - '[sound] ENTITY_PLAYER_LEVELUP' 
-    - '[close]'
-    - '[console] lp user %player_name% permission set MCPerks.Strengthons false'
-    - '[console] lp user %player_name% permission set MCPerks.Strengthoffs true'
-    - '[console] effect %player_name% increase_damage 0 1'
-    left_click_requirement:
-      requirements:
-        Permission:
-          type: has permission
-          permission: 'MCPerks.Strengthons'
-      deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
-      - '[sound] BLOCK_ANVIL_LAND' 
-      - '[close]'
-    right_click_commands:
-    - '[message] &b&lPerks &8> &fPerk disabled &c&lStrength'
-    - '[sound] ENTITY_PLAYER_LEVELUP' 
-    - '[close]'
-    - '[console] lp user %player_name% permission set MCPerks.Strengthons false'
-    - '[console] lp user %player_name% permission set MCPerks.Strengthoffs true'
-    - '[console] effect %player_name% increase_damage 0 1'
-    right_click_requirement:
-      requirements:
-        Permission:
-          type: has permission
-          permission: 'MCPerks.Strengthons'
-      deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
-      - '[sound] BLOCK_ANVIL_LAND' 
-      - '[close]'
-  'Strengthoffs':
-    material: DIAMOND_SWORD
-    priority: 1
-    slot: 12
-    display_name: '&b[*] &fStrength Perk'
-    view_requirement:
-      requirements:
-        Permission:
-          type: has permission
-          permission: 'MCPerks.Strengthoffs'
-    lore:
-    - ''
-    - '&cDeactivated'
-    left_click_commands:
-    - '[message] &b&lPerks &8> &fPerk enabled &a&lStrength'
-    - '[sound] ENTITY_PLAYER_LEVELUP' 
-    - '[close]'
-    - '[console] lp user %player_name% permission set MCPerks.Strengthons true'
-    - '[console] lp user %player_name% permission set MCPerks.Strengthoffs false'
-    - '[console] effect %player_name% increase_damage 99999999 2'
-    left_click_requirement:
-      requirements:
-        Permission:
-          type: has permission
-          permission: 'MCPerks.Strengthoffs'
-      deny_commands:
-      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
-      - '[sound] BLOCK_ANVIL_LAND' 
-      - '[close]'
-    right_click_commands:
-    - '[message] &b&lPerks &8> &fPerk enabled &a&lStrength'
-    - '[sound] ENTITY_PLAYER_LEVELUP' 
-    - '[close]'
-    - '[console] lp user %player_name% permission set MCPerks.Strengthons true'
-    - '[console] lp user %player_name% permission set MCPerks.Strengthoffs false'
-    - '[console] effect %player_name% increase_damage 99999999 2'
-    right_click_requirement:
-      requirements:
-        Permission:
-          type: has permission
-          permission: 'MCPerks.Strengthoffs'
+          permission: 'perks.haste.off'
       deny_commands:
       - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'SpeedBuy':
-    material: DIAMOND_BOOTS
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
-    slot: 13
-    display_name: '&b[*] &bSpeed Perk'
+    slot: 11
+    display_name: '&b[*] &b&lSpeed II &f&lPerk'
     view_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'MCPerks.IncreaseMoveSpeed'
+          permission: 'perks.speed'
     lore:
     - ''
-    - '&bPerk: &fPermanant Speed'
+    - '&bPerk: &fPermanant Speed II'
+    - ''
+    - '&bPrice: &f$175,000'
+    - ''
+    - '&8» &bClick to buy'
+    left_click_commands:
+    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Speed II'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] money take %player_name% 175000'
+    - '[console] lp user %player_name% permission set perks.speed true'
+    - '[console] lp user %player_name% permission set perks.speed.on true'
+    - '[console] effect %player_name% speed 99999999 2'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 175000
+        Permission:
+          type: "!has permission"
+          permission: 'perks.speed'
+      deny_commands:
+      - '[message] &b&lPerks &8> &fYou need &b$175,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Speed II'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] money take %player_name% 175000'
+    - '[console] lp user %player_name% permission set perks.speed true'
+    - '[console] lp user %player_name% permission set perks.speed.on true'
+    - '[console] effect %player_name% speed 99999999 2'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 175000
+        Permission:
+          type: "!has permission"
+          permission: 'perks.speed'
+      deny_commands:
+      - '[message] &b&lPerks &8> &fYou need &b$175,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'SpeedOn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
+    priority: 2
+    slot: 11
+    display_name: '&b[*] &b&lSpeed II &f&lPerk'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'perks.speed.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[message] &b&lPerks &8> &fPerk disabled &c&lSpeed'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] lp user %player_name% permission set perks.speed.on false'
+    - '[console] lp user %player_name% permission set perks.speed.off true'
+    - '[console] effect %player_name% speed 0 1'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'perks.speed.on'
+      deny_commands:
+      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPerks &8> &fPerk disabled &c&lSpeed'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] lp user %player_name% permission set perks.speed.on false'
+    - '[console] lp user %player_name% permission set perks.speed.off true'
+    - '[console] effect %player_name% speed 0 1'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'perks.speed.on'
+      deny_commands:
+      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'SpeedOff':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
+    priority: 1
+    slot: 11
+    display_name: '&b[*] &b&lSpeed II &f&lPerk'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'perks.speed.off'
+    lore:
+    - ''
+    - '&cDeactivated'
+    left_click_commands:
+    - '[message] &b&lPerks &8> &fPerk enabled &a&lSpeed'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] lp user %player_name% permission set perks.speed.on true'
+    - '[console] lp user %player_name% permission set perks.speed.off false'
+    - '[console] effect %player_name% speed 99999999 2'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'perks.speed.off'
+      deny_commands:
+      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPerks &8> &fPerk enabled &a&lSpeed'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] lp user %player_name% permission set perks.speed.on true'
+    - '[console] lp user %player_name% permission set perks.speed.off false'
+    - '[console] effect %player_name% speed 99999999 2'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'perks.speed.off'
+      deny_commands:
+      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'ResistanceBuy':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 12
+    display_name: '&b[*] &b&lResistance II &f&lPerk'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'perks.resistance'
+    lore:
+    - ''
+    - '&bPerk: &fPermanant Resistance II'
     - ''
     - '&bPrice: &f$350,000'
     - ''
     - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Speed'
+    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Resistance II'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] money take %player_name% 350000'
-    - '[console] lp user %player_name% permission set MCPerks.IncreaseMoveSpeed true'
-    - '[console] lp user %player_name% permission set MCPerks.IncreaseMoveSpeedons true'
-    - '[console] effect %player_name% speed 99999999 2'
+    - '[console] lp user %player_name% permission set perks.resistance true'
+    - '[console] lp user %player_name% permission set perks.resistance.on true'
+    - '[console] effect %player_name% damage_resistance 99999999 2'
     left_click_requirement:
       requirements:
         Economy:
@@ -381,19 +358,19 @@ items:
           amount: 350000
         Permission:
           type: "!has permission"
-          permission: 'MCPerks.IncreaseMoveSpeed'
+          permission: 'perks.resistance'
       deny_commands:
       - '[message] &b&lPerks &8> &fYou need &b$350,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Speed'
+    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Resistance II'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     - '[console] money take %player_name% 350000'
-    - '[console] lp user %player_name% permission set MCPerks.IncreaseMoveSpeed true'
-    - '[console] lp user %player_name% permission set MCPerks.IncreaseMoveSpeedons true'
-    - '[console] effect %player_name% speed 99999999 2'
+    - '[console] lp user %player_name% permission set perks.resistance true'
+    - '[console] lp user %player_name% permission set perks.resistance.on true'
+    - '[console] effect %player_name% damage_resistance 99999999 2'
     right_click_requirement:
       requirements:
         Economy:
@@ -401,394 +378,685 @@ items:
           amount: 350000
         Permission:
           type: "!has permission"
-          permission: 'MCPerks.IncreaseMoveSpeed'
+          permission: 'perks.resistance'
       deny_commands:
       - '[message] &b&lPerks &8> &fYou need &b$350,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'Speedons':
-    material: DIAMOND_BOOTS
-    enchantments:
-      - ARROW_DAMAGE;1
-    hide_enchantments: true
+  'ResistanceOn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
     priority: 2
-    slot: 13
-    display_name: '&b[*] &fSpeed Perk'
+    slot: 12
+    display_name: '&b[*] &b&lResistance II &f&lPerk'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'MCPerks.IncreaseMoveSpeedons'
+          permission: 'perks.resistance.on'
     lore:
     - ''
     - '&aActivated'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fPerk disabled &c&lSpeed'
+    - '[message] &b&lPerks &8> &fPerk disabled &c&lresistance'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] lp user %player_name% permission set MCPerks.IncreaseMoveSpeedons false'
-    - '[console] lp user %player_name% permission set MCPerks.IncreaseMoveSpeedoffs true'
-    - '[console] effect %player_name% speed 0 1'
+    - '[console] lp user %player_name% permission set perks.resistance.on false'
+    - '[console] lp user %player_name% permission set perks.resistance.off true'
+    - '[console] effect %player_name% damage_resistance 0 2'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'MCPerks.IncreaseMoveSpeedons'
+          permission: 'perks.resistance.on'
       deny_commands:
       - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fPerk disabled &c&lSpeed'
+    - '[message] &b&lPerks &8> &fPerk disabled &c&lresistance'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] lp user %player_name% permission set MCPerks.IncreaseMoveSpeedons false'
-    - '[console] lp user %player_name% permission set MCPerks.IncreaseMoveSpeedoffs true'
-    - '[console] effect %player_name% speed 0 1'
+    - '[console] lp user %player_name% permission set perks.resistance.on false'
+    - '[console] lp user %player_name% permission set perks.resistance.off true'
+    - '[console] effect %player_name% damage_resistance 0 2'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'MCPerks.IncreaseMoveSpeedons'
+          permission: 'perks.resistance.on'
       deny_commands:
       - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'Speedoffs':
-    material: DIAMOND_BOOTS
+  'ResistanceOff':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
     priority: 1
-    slot: 13
-    display_name: '&b[*] &fSpeed Perk'
+    slot: 12
+    display_name: '&b[*] &b&lResistance II &f&lPerk'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'MCPerks.IncreaseMoveSpeedoffs'
+          permission: 'perks.resistance.off'
     lore:
     - ''
     - '&cDeactivated'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fPerk enabled &a&lSpeed'
+    - '[message] &b&lPerks &8> &fPerk enabled &a&lresistance'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] lp user %player_name% permission set MCPerks.IncreaseMoveSpeedons true'
-    - '[console] lp user %player_name% permission set MCPerks.IncreaseMoveSpeedoffs false'
-    - '[console] effect %player_name% speed 99999999 2'
+    - '[console] lp user %player_name% permission set perks.resistance.on true'
+    - '[console] lp user %player_name% permission set perks.resistance.off false'
+    - '[console] effect %player_name% damage_resistance 99999999 2'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'MCPerks.IncreaseMoveSpeedoffs'
+          permission: 'perks.resistance.off'
       deny_commands:
       - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fPerk enabled &a&lSpeed'
+    - '[message] &b&lPerks &8> &fPerk enabled &a&lresistance'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] lp user %player_name% permission set MCPerks.IncreaseMoveSpeedons true'
-    - '[console] lp user %player_name% permission set MCPerks.IncreaseMoveSpeedoffs false'
-    - '[console] effect %player_name% speed 99999999 2'
+    - '[console] lp user %player_name% permission set perks.resistance.on true'
+    - '[console] lp user %player_name% permission set perks.resistance.off false'
+    - '[console] effect %player_name% damage_resistance 99999999 2'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'MCPerks.IncreaseMoveSpeedoffs'
+          permission: 'perks.resistance.off'
       deny_commands:
       - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'HealthBuy':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTQ2M2QzNjY1MzRkNDE3NmY0ZWMxNTkzODVkNjM0OTFkODJmMjlmOWYwNzMyM2I4Nzc2MjdiZWEzZGM3NWQifX19
+  'JumpboostBuy':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
-    slot: 14
-    display_name: '&b[*] &bHealth Perk'
+    slot: 13
+    display_name: '&b[*] &b&lJump Boost II &f&lPerk'
     view_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'MCPerks.Health'
+          permission: 'perks.jumpboost'
     lore:
     - ''
-    - '&bPerk: &fPermanant Extra Health'
+    - '&bPerk: &fPermanant Jump Boost II'
     - ''
-    - '&bPrice: &f$1,200,000'
+    - '&bPrice: &f$350,000'
     - ''
     - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Extra Health'
+    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Jump Boost II'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] money take %player_name% 1200000'
-    - '[console] lp user %player_name% permission set MCPerks.Health true'
-    - '[console] lp user %player_name% permission set MCPerks.Healthons true'
-    - '[console] effect %player_name% health_boost 99999999 2'
+    - '[console] money take %player_name% 350000'
+    - '[console] lp user %player_name% permission set perks.jumpboost true'
+    - '[console] lp user %player_name% permission set perks.jumpboost.on true'
+    - '[console] effect %player_name% jump 99999999 2'
     left_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 1200000
+          amount: 350000
         Permission:
           type: "!has permission"
-          permission: 'MCPerks.Health'
+          permission: 'perks.jumpboost'
       deny_commands:
-      - '[message] &b&lPerks &8> &fYou need &b$1,200,000 &fto buy this'
+      - '[message] &b&lPerks &8> &fYou need &b$350,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Extra Health'
+    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Jump Boost II'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] money take %player_name% 1200000'
-    - '[console] lp user %player_name% permission set MCPerks.Health true'
-    - '[console] lp user %player_name% permission set MCPerks.Healthons true'
-    - '[console] effect %player_name% health_boost 99999999 2'
+    - '[console] money take %player_name% 350000'
+    - '[console] lp user %player_name% permission set perks.jumpboost true'
+    - '[console] lp user %player_name% permission set perks.jumpboost.on true'
+    - '[console] effect %player_name% jump 99999999 2'
     right_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 1200000
+          amount: 350000
         Permission:
           type: "!has permission"
-          permission: 'MCPerks.Health'
+          permission: 'perks.jumpboost'
       deny_commands:
-      - '[message] &b&lPerks &8> &fYou need &b$1,200,000 &fto buy this'
+      - '[message] &b&lPerks &8> &fYou need &b$350,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'Healthons':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE0ODE4NjZlNmE4NGYyMTYxMmVmZjI5MDI5NzllOWRkODg1ZjgwMThkOWUwYzQ5MDRiNGRiNzNkMmVhNjQ3In19fQ==
+  'JumpboostOn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
     priority: 2
-    slot: 14
-    display_name: '&b[*] &fHealth Perk'
+    slot: 13
+    display_name: '&b[*] &b&lJump Boost II &f&lPerk'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'MCPerks.Healthons'
+          permission: 'perks.jumpboost.on'
     lore:
     - ''
     - '&aActivated'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fPerk disabled &c&lHealth'
+    - '[message] &b&lPerks &8> &fPerk disabled &c&lJumpboost'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] lp user %player_name% permission set MCPerks.Healthons false'
-    - '[console] lp user %player_name% permission set MCPerks.Healthoffs true'
-    - '[console] effect %player_name% health_boost 0 1'
+    - '[console] lp user %player_name% permission set perks.jumpboost.on false'
+    - '[console] lp user %player_name% permission set perks.jumpboost.off true'
+    - '[console] effect %player_name% jump 0 2'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'MCPerks.Healthons'
+          permission: 'perks.jumpboost.on'
       deny_commands:
       - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fPerk disabled &c&lHealth'
+    - '[message] &b&lPerks &8> &fPerk disabled &c&lJumpboost'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] lp user %player_name% permission set MCPerks.Healthons false'
-    - '[console] lp user %player_name% permission set MCPerks.Healthoffs true'
-    - '[console] effect %player_name% health_boost 0 1'
+    - '[console] lp user %player_name% permission set perks.jumpboost.on false'
+    - '[console] lp user %player_name% permission set perks.jumpboost.off true'
+    - '[console] effect %player_name% jump 0 2'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'MCPerks.Healthons'
+          permission: 'perks.jumpboost.on'
       deny_commands:
       - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'Healthoffs':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjgzN2YzZGIxM2E0MGQ0OTc5ZGU3NzE3OWUxOGFmNmUwYmMzY2MzOWVhNmFiYTUxOGJiMDgwYTZmMDFhNDAifX19
+  'JumpboostOff':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
     priority: 1
-    slot: 14
-    display_name: '&b[*] &fHealth Perk'
+    slot: 13
+    display_name: '&b[*] &b&lJump Boost II &f&lPerk'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'MCPerks.Healthoffs'
+          permission: 'perks.jumpboost.off'
     lore:
     - ''
     - '&cDeactivated'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fPerk enabled &a&lHealth'
+    - '[message] &b&lPerks &8> &fPerk enabled &a&lJumpboost'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] lp user %player_name% permission set MCPerks.Healthons true'
-    - '[console] lp user %player_name% permission set MCPerks.Healthoffs false'
-    - '[console] effect %player_name% health_boost 99999999 2'
+    - '[console] lp user %player_name% permission set perks.jumpboost.on true'
+    - '[console] lp user %player_name% permission set perks.jumpboost.off false'
+    - '[console] effect %player_name% jump 99999999 2'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'MCPerks.Healthoffs'
+          permission: 'perks.jumpboost.off'
       deny_commands:
       - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fPerk enabled &a&lHealth'
+    - '[message] &b&lPerks &8> &fPerk enabled &a&lJumpboost'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] lp user %player_name% permission set MCPerks.Healthons true'
-    - '[console] lp user %player_name% permission set MCPerks.Healthoffs false'
-    - '[console] effect %player_name% health_boost 99999999 2'
+    - '[console] lp user %player_name% permission set perks.jumpboost.on true'
+    - '[console] lp user %player_name% permission set perks.jumpboost.off false'
+    - '[console] effect %player_name% jump 99999999 2'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'MCPerks.Healthoffs'
+          permission: 'perks.jumpboost.off'
       deny_commands:
       - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'WaterBreathingBuy':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTQ2M2QzNjY1MzRkNDE3NmY0ZWMxNTkzODVkNjM0OTFkODJmMjlmOWYwNzMyM2I4Nzc2MjdiZWEzZGM3NWQifX19
+  'StrengthBuy':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 3
-    slot: 15
-    display_name: '&b[*] &bWater Breathing Perk'
+    slot: 14
+    display_name: '&b[*] &b&lStrength II &f&lPerk'
     view_requirement:
       requirements:
         Permission:
           type: "!has permission"
-          permission: 'MCPerks.Water Breathing'
+          permission: 'perks.strength'
     lore:
     - ''
-    - '&bPerk: &fPermanant Water Breathing'
+    - '&bPerk: &fPermanant Strength II'
     - ''
-    - '&bPrice: &f$450,000'
+    - '&bPrice: &f$750,000'
     - ''
     - '&8» &bClick to buy'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Water Breathing'
+    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Strength II'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] money take %player_name% 450000'
-    - '[console] lp user %player_name% permission set MCPerks.Water Breathing true'
-    - '[console] lp user %player_name% permission set MCPerks.WaterBreathingons true'
-    - '[console] effect %player_name% conduit_power 99999999 1'
+    - '[console] money take %player_name% 750000'
+    - '[console] lp user %player_name% permission set perks.strength true'
+    - '[console] lp user %player_name% permission set perks.strength.on true'
+    - '[console] effect %player_name% increase_damage 99999999 2'
     left_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 450000
+          amount: 750000
         Permission:
           type: "!has permission"
-          permission: 'MCPerks.Water Breathing'
+          permission: 'perks.strength'
       deny_commands:
-      - '[message] &b&lPerks &8> &fYou need &b$450,000 &fto buy this'
+      - '[message] &b&lPerks &8> &fYou need &b$750,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Water Breathing'
+    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Strength II'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] money take %player_name% 450000'
-    - '[console] lp user %player_name% permission set MCPerks.Water Breathing true'
-    - '[console] lp user %player_name% permission set MCPerks.WaterBreathingons true'
-    - '[console] effect %player_name% conduit_power 99999999 1'
+    - '[console] money take %player_name% 750000'
+    - '[console] lp user %player_name% permission set perks.strength true'
+    - '[console] lp user %player_name% permission set perks.strength.on true'
+    - '[console] effect %player_name% increase_damage 99999999 2'
     right_click_requirement:
       requirements:
         Economy:
           type: has money
-          amount: 450000
+          amount: 750000
         Permission:
           type: "!has permission"
-          permission: 'MCPerks.Water Breathing'
+          permission: 'perks.strength'
       deny_commands:
-      - '[message] &b&lPerks &8> &fYou need &b$450,000 &fto buy this'
+      - '[message] &b&lPerks &8> &fYou need &b$750,000 &fto buy this'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'WaterBreathingons':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE0ODE4NjZlNmE4NGYyMTYxMmVmZjI5MDI5NzllOWRkODg1ZjgwMThkOWUwYzQ5MDRiNGRiNzNkMmVhNjQ3In19fQ==
+  'StrengthOn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
     priority: 2
-    slot: 15
-    display_name: '&b[*] &fWater Breathing Perk'
+    slot: 14
+    display_name: '&b[*] &b&lStrength II &f&lPerk'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'MCPerks.WaterBreathingons'
+          permission: 'perks.strength.on'
     lore:
     - ''
     - '&aActivated'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fPerk disabled &c&lWater Breathing'
+    - '[message] &b&lPerks &8> &fPerk disabled &c&lStrength'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] lp user %player_name% permission set MCPerks.WaterBreathingons false'
-    - '[console] lp user %player_name% permission set MCPerks.WaterBreathingoffs true'
-    - '[console] effect %player_name% conduit_power 0 1'
+    - '[console] lp user %player_name% permission set perks.strength.on false'
+    - '[console] lp user %player_name% permission set perks.strength.off true'
+    - '[console] effect %player_name% increase_damage 0 2'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'MCPerks.WaterBreathingons'
+          permission: 'perks.strength.on'
       deny_commands:
       - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fPerk disabled &c&lWater Breathing'
+    - '[message] &b&lPerks &8> &fPerk disabled &c&lStrength'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] lp user %player_name% permission set MCPerks.WaterBreathingons false'
-    - '[console] lp user %player_name% permission set MCPerks.WaterBreathingoffs true'
-    - '[console] effect %player_name% conduit_power 0 1'
+    - '[console] lp user %player_name% permission set perks.strength.on false'
+    - '[console] lp user %player_name% permission set perks.strength.off true'
+    - '[console] effect %player_name% increase_damage 0 2'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'MCPerks.WaterBreathingons'
+          permission: 'perks.strength.on'
       deny_commands:
       - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
-  'WaterBreathingoffs':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjgzN2YzZGIxM2E0MGQ0OTc5ZGU3NzE3OWUxOGFmNmUwYmMzY2MzOWVhNmFiYTUxOGJiMDgwYTZmMDFhNDAifX19
+  'StrengthOff':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
     priority: 1
-    slot: 15
-    display_name: '&b[*] &fWater Breathing Perk'
+    slot: 14
+    display_name: '&b[*] &b&lStrength II &f&lPerk'
     view_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'MCPerks.WaterBreathingoffs'
+          permission: 'perks.strength.off'
     lore:
     - ''
     - '&cDeactivated'
     left_click_commands:
-    - '[message] &b&lPerks &8> &fPerk enabled &a&lWater Breathing'
+    - '[message] &b&lPerks &8> &fPerk enabled &a&lStrength'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] lp user %player_name% permission set MCPerks.WaterBreathingons true'
-    - '[console] lp user %player_name% permission set MCPerks.WaterBreathingoffs false'
-    - '[console] effect %player_name% conduit_power 99999999 1'
+    - '[console] lp user %player_name% permission set perks.strength.on true'
+    - '[console] lp user %player_name% permission set perks.strength.off false'
+    - '[console] effect %player_name% increase_damage 99999999 2'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'MCPerks.WaterBreathingoffs'
+          permission: 'perks.strength.off'
       deny_commands:
       - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lPerks &8> &fPerk enabled &a&lWater Breathing'
+    - '[message] &b&lPerks &8> &fPerk enabled &a&lStrength'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
-    - '[console] lp user %player_name% permission set MCPerks.WaterBreathingons true'
-    - '[console] lp user %player_name% permission set MCPerks.WaterBreathingoffs false'
-    - '[console] effect %player_name% conduit_power 99999999 1'
+    - '[console] lp user %player_name% permission set perks.strength.on true'
+    - '[console] lp user %player_name% permission set perks.strength.off false'
+    - '[console] effect %player_name% increase_damage 99999999 2'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission
-          permission: 'MCPerks.WaterBreathingoffs'
+          permission: 'perks.strength.off'
+      deny_commands:
+      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'RegenerationBuy':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 15
+    display_name: '&b[*] &b&lRegeneration &f&lPerk'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'perks.regeneration'
+    lore:
+    - ''
+    - '&bPerk: &fPermanant Regeneration'
+    - ''
+    - '&bPrice: &f$1,150,000'
+    - ''
+    - '&8» &bClick to buy'
+    left_click_commands:
+    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Regeneration'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] money take %player_name% 1150000'
+    - '[console] lp user %player_name% permission set perks.regeneration true'
+    - '[console] lp user %player_name% permission set perks.regeneration.on true'
+    - '[console] effect %player_name% regeneration 99999999 1'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 1150000
+        Permission:
+          type: "!has permission"
+          permission: 'perks.regeneration'
+      deny_commands:
+      - '[message] &b&lPerks &8> &fYou need &b$1,150,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Regeneration'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] money take %player_name% 1150000'
+    - '[console] lp user %player_name% permission set perks.regeneration true'
+    - '[console] lp user %player_name% permission set perks.regeneration.on true'
+    - '[console] effect %player_name% regeneration 99999999 1'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 1150000
+        Permission:
+          type: "!has permission"
+          permission: 'perks.regeneration'
+      deny_commands:
+      - '[message] &b&lPerks &8> &fYou need &b$1,150,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'RegenerationOn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
+    priority: 2
+    slot: 15
+    display_name: '&b[*] &b&lRegeneration &f&lPerk'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'perks.regeneration.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[message] &b&lPerks &8> &fPerk disabled &c&lRegeneration'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] lp user %player_name% permission set perks.regeneration.on false'
+    - '[console] lp user %player_name% permission set perks.regeneration.off true'
+    - '[console] effect %player_name% regeneration 0 1'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'perks.regeneration.on'
+      deny_commands:
+      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPerks &8> &fPerk disabled &c&lRegeneration'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] lp user %player_name% permission set perks.regeneration.on false'
+    - '[console] lp user %player_name% permission set perks.regeneration.off true'
+    - '[console] effect %player_name% regeneration 0 1'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'perks.regeneration.on'
+      deny_commands:
+      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'RegenerationOff':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
+    priority: 1
+    slot: 15
+    display_name: '&b[*] &b&lRegeneration &f&lPerk'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'perks.regeneration.off'
+    lore:
+    - ''
+    - '&cDeactivated'
+    left_click_commands:
+    - '[message] &b&lPerks &8> &fPerk enabled &a&lRegeneration'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] lp user %player_name% permission set perks.regeneration.on true'
+    - '[console] lp user %player_name% permission set perks.regeneration.off false'
+    - '[console] effect %player_name% regeneration 99999999 1'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'perks.regeneration.off'
+      deny_commands:
+      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPerks &8> &fPerk enabled &a&lRegeneration'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] lp user %player_name% permission set perks.regeneration.on true'
+    - '[console] lp user %player_name% permission set perks.regeneration.off false'
+    - '[console] effect %player_name% regeneration 99999999 1'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'perks.regeneration.off'
+      deny_commands:
+      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'HealthboostBuy':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 16
+    display_name: '&b[*] &b&lHealth Boost &f&lPerk'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'perks.Health Boost'
+    lore:
+    - ''
+    - '&bPerk: &fPermanant Health Boost'
+    - ''
+    - '&bPrice: &f$1,500,000'
+    - ''
+    - '&8» &bClick to buy'
+    left_click_commands:
+    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Health Boost'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] money take %player_name% 1500000'
+    - '[console] lp user %player_name% permission set perks.healthboost true'
+    - '[console] lp user %player_name% permission set perks.healthboost.on true'
+    - '[console] effect %player_name% healthboost 99999999 2'
+    left_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 1500000
+        Permission:
+          type: "!has permission"
+          permission: 'perks.Health Boost'
+      deny_commands:
+      - '[message] &b&lPerks &8> &fYou need &b$1,500,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPerks &8> &fYou have bought &bPermanant Health Boost'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] money take %player_name% 1500000'
+    - '[console] lp user %player_name% permission set perks.healthboost true'
+    - '[console] lp user %player_name% permission set perks.healthboost.on true'
+    - '[console] effect %player_name% healthboost 99999999 2'
+    right_click_requirement:
+      requirements:
+        Economy:
+          type: has money
+          amount: 1500000
+        Permission:
+          type: "!has permission"
+          permission: 'perks.Health Boost'
+      deny_commands:
+      - '[message] &b&lPerks &8> &fYou need &b$1,500,000 &fto buy this'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'HealthboostOn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
+    priority: 2
+    slot: 16
+    display_name: '&b[*] &b&lHealth Boost &f&lPerk'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'perks.healthboost.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[message] &b&lPerks &8> &fPerk disabled &c&lHealth Boost'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] lp user %player_name% permission set perks.healthboost.on false'
+    - '[console] lp user %player_name% permission set perks.healthboost.off true'
+    - '[console] effect %player_name% healthboost 0 2'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'perks.healthboost.on'
+      deny_commands:
+      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPerks &8> &fPerk disabled &c&lHealth Boost'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] lp user %player_name% permission set perks.healthboost.on false'
+    - '[console] lp user %player_name% permission set perks.healthboost.off true'
+    - '[console] effect %player_name% healthboost 0 2'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'perks.healthboost.on'
+      deny_commands:
+      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'HealthboostOff':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
+    priority: 1
+    slot: 16
+    display_name: '&b[*] &b&lHealth Boost &f&lPerk'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'perks.healthboost.off'
+    lore:
+    - ''
+    - '&cDeactivated'
+    left_click_commands:
+    - '[message] &b&lPerks &8> &fPerk enabled &a&lHealth Boost'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] lp user %player_name% permission set perks.healthboost.on true'
+    - '[console] lp user %player_name% permission set perks.healthboost.off false'
+    - '[console] effect %player_name% healthboost 99999999 2'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'perks.healthboost.off'
+      deny_commands:
+      - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPerks &8> &fPerk enabled &a&lHealth Boost'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    - '[console] lp user %player_name% permission set perks.healthboost.on true'
+    - '[console] lp user %player_name% permission set perks.healthboost.off false'
+    - '[console] effect %player_name% healthboost 99999999 2'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'perks.healthboost.off'
       deny_commands:
       - '[message] &b&lPerks &8> &4Error, Contact Al_Shebab'
       - '[sound] BLOCK_ANVIL_LAND' 
