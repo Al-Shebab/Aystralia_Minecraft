@@ -341,7 +341,7 @@ entities:
     # A list of entities that will be nerfed.
     # If you want all entities to be nerfed, set this to [].
     whitelist:
-    - sadfdaaa
+    - COD
     # A list of entities that won't be nerfed.
     blacklist: []
     # A list of worlds that entities can be nerfed in.
@@ -421,7 +421,7 @@ entities:
   clear-equipment: false
 
   # Should corpses be spawned when entity dies ("death animations")?
-  spawn-corpses: true
+  spawn-corpses: false
 
   # When enabled, entities will be one shot by specific tools.
   one-shot:
@@ -681,9 +681,6 @@ spawners:
     ladders:
       '1':
         entities:
-        - AREA_EFFECT_CLOUD
-        - ARMOR_STAND
-        - ARROW
         - BAT
         - BEE
         - BLAZE
@@ -696,24 +693,15 @@ spawners:
         - CREEPER
         - DOLPHIN
         - DONKEY
-        - DRAGON_FIREBALL
-        - DROPPED_ITEM
         - DROWNED
         - EGG
         - ELDER_GUARDIAN
         - ENDERMAN
         - ENDERMITE
-        - ENDER_CRYSTAL
         - ENDER_DRAGON
-        - ENDER_PEARL
-        - ENDER_SIGNAL
         - EVOKER
-        - EVOKER_FANGS
-        - EXPERIENCE_ORB
-        - FALLING_BLOCK
         - FIREBALL
         - FIREWORK
-        - FISHING_HOOK
         - FOX
         - GHAST
         - GIANT
@@ -725,17 +713,8 @@ spawners:
         - IRON_GOLEM
         - ITEM_FRAME
         - LEASH_HITCH
-        - LIGHTNING
         - LLAMA
-        - LLAMA_SPIT
         - MAGMA_CUBE
-        - MINECART
-        - MINECART_CHEST
-        - MINECART_COMMAND
-        - MINECART_FURNACE
-        - MINECART_HOPPER
-        - MINECART_MOB_SPAWNER
-        - MINECART_TNT
         - MULE
         - MUSHROOM_COW
         - OCELOT
@@ -756,21 +735,17 @@ spawners:
         - SALMON
         - SHEEP
         - SHULKER
-        - SHULKER_BULLET
         - SILVERFISH
         - SKELETON
         - SKELETON_HORSE
         - SLIME
-        - SMALL_FIREBALL
         - SNOWBALL
         - SNOWMAN
-        - SPECTRAL_ARROW
         - SPIDER
         - SPLASH_POTION
         - SQUID
         - STRAY
         - STRIDER
-        - THROWN_EXP_BOTTLE
         - TRADER_LLAMA
         - TRIDENT
         - TROPICAL_FISH
