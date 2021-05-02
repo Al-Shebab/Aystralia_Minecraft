@@ -1,0 +1,31 @@
+{
+  "uniqueId": "BSkyBlock23525e8b-7d22-492a-9818-86e31b048973",
+  "level": 94,
+  "initialLevel": 0,
+  "pointsToNextLevel": 34,
+  "uwCount": {},
+  "mdCount": {
+    "JUNGLE_LEAVES": 58,
+    "COBWEB": 3,
+    "SUGAR_CANE": 1,
+    "GRASS_BLOCK": 27,
+    "BEETROOTS": 1,
+    "CRAFTING_TABLE": 1,
+    "WATER": 7,
+    "OAK_SLAB": 27,
+    "ANCIENT_DEBRIS": 1,
+    "COBBLESTONE_SLAB": 2,
+    "SAND": 3,
+    "BEDROCK": 1,
+    "DIRT": 42,
+    "LAVA": 1,
+    "JUNGLE_LOG": 10,
+    "CHEST": 1,
+    "STONE": 9,
+    "FARMLAND": 9,
+    "WHEAT": 8,
+    "AIR": 10239782,
+    "COBBLESTONE_STAIRS": 2,
+    "COCOA": 4
+  }
+}

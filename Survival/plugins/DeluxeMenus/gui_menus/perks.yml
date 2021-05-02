@@ -314,6 +314,38 @@ items:
       deny_commands:
       - '[openguimenu] jobs'
       - '[close]'
+  'pv':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDVjNmRjMmJiZjUxYzM2Y2ZjNzcxNDU4NWE2YTU2ODNlZjJiMTRkNDdkOGZmNzE0NjU0YTg5M2Y1ZGE2MjIifX19
+    priority: 1
+    slot: 19
+    display_name: '&b[*] &b&lVaults'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'menu.use'
+    lore:
+    - ''
+    - ''
+    - '&7&oUntouchable...'
+    left_click_commands:
+    - '[openguimenu] pv'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'menu.use'
+      deny_commands:
+      - '[close]'
+    right_click_commands:
+    - '[openguimenu] pv'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission 
+          permission: 'menu.use'
+      deny_commands:
+      - '[close]'
   'asdass':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
     priority: 1

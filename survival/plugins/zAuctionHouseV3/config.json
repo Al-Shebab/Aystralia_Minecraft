@@ -9,6 +9,7 @@
   "useNoMoneyItem": true,
   "displayErrorBuyMessage": false,
   "enableSellAnnonce": false,
+  "enableBuyAnnonce": false,
   "openInventoryAfterRemoveConfirm": true,
   "useLog": true,
   "useLogInFile": false,
@@ -74,5 +75,6 @@
   "materialItem3": "GOLD_BLOCK",
   "blacklistPlayers": [],
   "autoSaveSecond": 900,
-  "sortCooldownChange": 5
+  "sortCooldownChange": 5,
+  "maxSqlRetryAmoun": 5
 }

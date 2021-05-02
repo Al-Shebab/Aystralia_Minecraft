@@ -327,3 +327,5 @@ gui_menus:
     file: perks.yml
   cosmetics:
     file: cosmetics.yml
+  pv:
+    file: pv.yml

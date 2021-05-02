@@ -1,0 +1,25 @@
+{
+  "uniqueId": "BSkyBlock75eb1edf-dd9a-414d-b4df-89da4c5eb2db",
+  "level": 100,
+  "initialLevel": 0,
+  "pointsToNextLevel": 85,
+  "uwCount": {},
+  "mdCount": {
+    "COBWEB": 2,
+    "GRASS_BLOCK": 35,
+    "CRAFTING_TABLE": 1,
+    "WATER": 1,
+    "FURNACE": 1,
+    "COBBLESTONE": 1,
+    "COBBLESTONE_SLAB": 2,
+    "SAND": 3,
+    "OAK_SAPLING": 1,
+    "BEDROCK": 1,
+    "DIRT": 46,
+    "LAVA": 5,
+    "CHEST": 1,
+    "STONE": 9,
+    "AIR": 10239889,
+    "COBBLESTONE_STAIRS": 2
+  }
+}
