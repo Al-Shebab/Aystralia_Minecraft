@@ -1,75 +1,90 @@
-hourly1:
-  DisplayName: "&7Hourly reward"
+paycheck:
+  DisplayName: "&bPaycheck &f[Level 1]"
   AutoClaim: true
   Description:
-  - "&2Get reward for every hour you are online"
-  - "&2Free heal and 20 bucks into your pocket"
-  PayEvery: 3600
+  - "&b$500 &fevery 30 minutes"
+  PayEvery: 1800
   Commands:
-  - asConsole! cmi heal [playerName] -s
-  - asConsole! cmi money give [playerName] 20
-daily1:
-  DisplayName: "&7Daily reward"
+  - perm:cmi.prewards.spaycheck! asConsole! cmi money give [playerName] 500 -s
+  - perm:cmi.prewards.spaycheck! asConsole! actionbar message [playerName] &b&lPaycheck &8> &a+$500
+paycheck2:
+  DisplayName: "&bPaycheck &f[Level 2]"
   AutoClaim: true
   Description:
-  - "&2Get reward for every 24 hours of playtime"
-  - "&22000 bucks into your pocket!"
-  PayEvery: 86400
+  - "&b$1000 &fevery 30 minutes"
+  PayEvery: 60
   Commands:
-  - asConsole! cmi money give [playerName] 2000
-1hour:
-  DisplayName: "&fOne hour reward"
-  AutoClaim: false
+  - perm:cmi.prewards.spaycheck2! asConsole! cmi money give [playerName] 1000 -s
+  - perm:cmi.prewards.spaycheck2! asConsole! actionbar message [playerName] &b&lPaycheck &8> &a+$1,000
+paycheck3:
+  DisplayName: "&bPaycheck &f[Level 3]"
+  AutoClaim: true
   Description:
-  - "&2Get reward for 1 hour you have been online"
-  - "&2500 bucks into your pocket!"
-  PayFor: 3600
+  - "&b$2000 &fevery 30 minutes"
+  PayEvery: 1800
   Commands:
-  - asConsole! cmi money give [playerName] 500
-6hour:
-  DisplayName: "&f6 hour reward"
-  AutoClaim: false
+  - perm:cmi.prewards.spaycheck3! asConsole! cmi money give [playerName] 2000 -s
+  - perm:cmi.prewards.spaycheck3! asConsole! actionbar message [playerName] &b&lPaycheck &8> &a+$2,000
+paycheck4:
+  DisplayName: "&bPaycheck &f[Level 4]"
+  AutoClaim: true
   Description:
-  - "&2Get reward for 6 hour's you have been online"
-  - "&22 000 bucks into your pocket!"
-  PayFor: 21600
+  - "&b$3500 &fevery 30 minutes"
+  PayEvery: 1800
   Commands:
-  - asConsole! cmi money give [playerName] 2000
-12hour:
-  DisplayName: "&f12 hour reward"
-  AutoClaim: false
+  - perm:cmi.prewards.spaycheck4! asConsole! cmi money give [playerName] 3500 -s
+  - perm:cmi.prewards.spaycheck4! asConsole! actionbar message [playerName] &b&lPaycheck &8> &a+$3,500
+paycheck5:
+  DisplayName: "&bPaycheck &f[Level 5]"
+  AutoClaim: true
   Description:
-  - "&2Get reward for 12 hour's you have been online"
-  - "&25 000 bucks into your pocket!"
-  PayFor: 43200
+  - "&b$4500 &fevery 30 minutes"
+  PayEvery: 1800
   Commands:
-  - asConsole! cmi money give [playerName] 5000
-24hour:
-  DisplayName: "&f24 hour reward"
-  AutoClaim: false
+  - perm:cmi.prewards.spaycheck5! asConsole! cmi money give [playerName] 4500 -s
+  - perm:cmi.prewards.spaycheck5! asConsole! actionbar message [playerName] &b&lPaycheck &8> &a+$4,500
+paycheck6:
+  DisplayName: "&bPaycheck &f[Level 6]"
+  AutoClaim: true
   Description:
-  - "&2Get reward for 24 hour's you have been online"
-  - "&215 000 bucks into your pocket!"
-  PayFor: 86400
+  - "&b$5250 &fevery 30 minutes"
+  PayEvery: 1800
   Commands:
-  - asConsole! cmi money give [playerName] 15000
-7days:
-  DisplayName: "&f7 day reward"
-  AutoClaim: false
+  - perm:cmi.prewards.spaycheck6! asConsole! cmi money give [playerName] 5250 -s
+  - perm:cmi.prewards.spaycheck6! asConsole! actionbar message [playerName] &b&lPaycheck &8> &a+$5,250
+paycheck7:
+  DisplayName: "&bPaycheck &f[Level 7]"
+  AutoClaim: true
   Description:
-  - "&2Get reward for 7 days you have been online"
-  - "&250 000 bucks into your pocket!"
-  PayFor: 604800
+  - "&b$6000 &fevery 30 minutes"
+  PayEvery: 1800
   Commands:
-  - asConsole! cmi money give [playerName] 50000
-30days:
-  DisplayName: "&f30 day reward"
-  AutoClaim: false
+  - perm:cmi.prewards.spaycheck7! asConsole! cmi money give [playerName] 6000 -s
+  - perm:cmi.prewards.spaycheck7! asConsole! actionbar message [playerName] &b&lPaycheck &8> &a+$6,000
+paycheck8:
+  DisplayName: "&bPaycheck &f[Level 8]"
+  AutoClaim: true
   Description:
-  - "&2Get reward for 30 days you have been online"
-  - "&2500 000 bucks into your pocket!"
-  PayFor: 2592000
+  - "&b$6750 &fevery 30 minutes"
+  PayEvery: 1800
   Commands:
-  - asConsole! cmi money give [playerName] 500000
-
-  
+  - perm:cmi.prewards.spaycheck8! asConsole! cmi money give [playerName] 6750 -s
+  - perm:cmi.prewards.spaycheck8! asConsole! actionbar message [playerName] &b&lPaycheck &8> &a+$6,750
+paycheck9:
+  DisplayName: "&bPaycheck &f[Level 9]"
+  AutoClaim: true
+  Description:
+  - "&b$7500 &fevery 30 minutes"
+  PayEvery: 1800
+  Commands:
+  - perm:cmi.prewards.spaycheck9! asConsole! cmi money give [playerName] 7500 -s
+  - perm:cmi.prewards.spaycheck9! asConsole! actionbar message [playerName] &b&lPaycheck &8> &a+$7,500
+paycheck10:
+  DisplayName: "&bPaycheck &f[Level 10]"
+  AutoClaim: true
+  Description:
+  - "&b$8250 &fevery 30 minutes"
+  PayEvery: 1800
+  Commands:
+  - perm:cmi.prewards.spaycheck10! asConsole! cmi money give [playerName] 8250 -s
+  - perm:cmi.prewards.spaycheck10! asConsole! actionbar message [playerName] &b&lPaycheck &8> &a+$8,250

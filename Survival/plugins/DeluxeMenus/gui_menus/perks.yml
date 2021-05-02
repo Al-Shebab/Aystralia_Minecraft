@@ -346,11 +346,11 @@ items:
           permission: 'menu.use'
       deny_commands:
       - '[close]'
-  'asdass':
-    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+  'paycheck':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IxMzA5ZGFjNTU2OTExZTU1Mzk4MDM4YzQzNjdmODkyZDk2Y2Q1ZTgwMzRmYzIzMmRiOTIwNzM2ODc5OTQ0YyJ9fX0=
     priority: 1
     slot: 16
-    display_name: '&c[*] &c&lComing Soon...'
+    display_name: '&b[*] &b&lPaycheck'
     view_requirement:
       requirements:
         Permission:
@@ -359,24 +359,28 @@ items:
     lore:
     - ''
     - ''
-    - '&7&oMay have something to do with paychecks, maybe not?'
+    - '&7&oGet paid for literally doing nothing'
     left_click_commands:
     - '[close]'
+    - '[openguimenu] paycheck'
     left_click_requirement:
       requirements:
         Permission:
           type: has permission
           permission: 'menu.use'
       deny_commands:
+      - '[openguimenu] paycheck'
       - '[close]'
     right_click_commands:
     - '[close]'
+    - '[openguimenu] paycheck'
     right_click_requirement:
       requirements:
         Permission:
           type: has permission 
           permission: 'menu.use'
       deny_commands:
+      - '[openguimenu] paycheck'
       - '[close]'
   'Information':
     material: head;Al_Shebab

@@ -329,3 +329,5 @@ gui_menus:
     file: cosmetics.yml
   pv:
     file: pv.yml
+  paycheck:
+    file: paycheck.yml
