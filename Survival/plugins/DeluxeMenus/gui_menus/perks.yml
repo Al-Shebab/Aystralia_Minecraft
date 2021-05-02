@@ -52,7 +52,7 @@ open_command:
 - simplepets:pets spawn 
 - simplepets:simplepet spawn 
 - simplepets:simplepets spawn 
-size: 27
+size: 45
 items:
   'Decoration':
     display_name: '&f'
@@ -81,6 +81,23 @@ items:
     - 9
     - 17
     - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 36
+    - 37
+    - 38
+    - 39
+    - 41
+    - 42
+    - 43
+    - 44
+    - 45
   'worldsmenu':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI4OWQ1YjE3ODYyNmVhMjNkMGIwYzNkMmRmNWMwODVlODM3NTA1NmJmNjg1YjVlZDViYjQ3N2ZlODQ3MmQ5NCJ9fX0=
     priority: 1
@@ -322,6 +339,46 @@ items:
       - '[close]'
     right_click_commands:
     - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission 
+          permission: 'menu.use'
+      deny_commands:
+      - '[close]'
+  'Information':
+    material: head;Al_Shebab
+    priority: 1
+    slot: 40
+    display_name: '&b[*] &b&lInformation'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'menu.use'
+    lore:
+    - ''
+    - '&b&lDiscord: &fhttps://discord.gg/hWN7zXtbQP'
+    - '&b&lStore: &fhttps://aystralia.tebex.io/'
+    - '&b&lForums: &fOne day...'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[message] &b&lDiscord: &fhttps://discord.gg/hWN7zXtbQP'
+    - '[message] &b&lStore: &fhttps://aystralia.tebex.io/'
+    - '[message] &b&lForums: &fOne day...'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'menu.use'
+      deny_commands:
+      - '[close]'
+    right_click_commands:
+    - '[close]'
+    - '[message] &b&lDiscord: &fhttps://discord.gg/hWN7zXtbQP'
+    - '[message] &b&lStore: &fhttps://aystralia.tebex.io/'
+    - '[message] &b&lForums: &fOne day...'
     right_click_requirement:
       requirements:
         Permission:

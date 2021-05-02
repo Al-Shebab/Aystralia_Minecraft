@@ -9,5 +9,9 @@
   },
   "pendingKicks": [],
   "flagsDisplayMode": "BASIC",
-  "metaData": {}
+  "metaData": {
+    "Border_state": {
+      "booleanValue": false
+    }
+  }
 }
