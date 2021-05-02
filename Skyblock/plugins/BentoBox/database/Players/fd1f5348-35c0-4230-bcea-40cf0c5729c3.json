@@ -1,0 +1,24 @@
+{
+  "homeLocations": [
+    [
+      [
+        "skyblock",
+        8000.5,
+        120.0,
+        14000.5,
+        0.0,
+        0.0
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "fd1f5348-35c0-4230-bcea-40cf0c5729c3",
+  "playerName": "YourEvilLemon",
+  "resets": {},
+  "locale": "",
+  "deaths": {
+    "skyblock": 0
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC"
+}

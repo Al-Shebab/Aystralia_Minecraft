@@ -169,13 +169,6 @@ Crates:
       - "&fPlace to use"
       - "&fEarned by &b{player_name}"
     Prizes:
-      BrewingStand:
-        Item: STICK
-        Enchanted: true
-        Name: "&bSell &fStick"
-        Commands:
-          - "sellstick give {player_name} 1 i"
-        Chance: 10
       MoneyPouchCrate:
         Item: ENDER_CHEST
         Enchanted: true
@@ -193,20 +186,20 @@ Crates:
       CreeperEgg:
         Item: CHEST
         Enchanted: true
-        Chance: 5
+        Chance: 7
         Commands:
         - "voidc give default {player_name}"
         Name: "&b&lVoid &fChest"
       MobSpawner:
         Item: NETHER_STAR
-        Percentage: 5
+        Percentage: 7
         Commands:
         - minions give {player_name} Miner 1
         Name: '&b&lMiner &fMinion'
       DiamondSword:
         Item: HOPPER
         Enchanted: true
-        Chance: 5
+        Chance: 6
         Commands:
         - "jetshoppers give {player_name} I 1"
         Name: "&b&lHopper &fUpgrade"

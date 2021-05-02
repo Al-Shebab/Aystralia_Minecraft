@@ -169,13 +169,6 @@ Crates:
       - "&fPlace to use"
       - "&fEarned by &b{player_name}"
     Prizes:
-      BrewingStand:
-        Item: STICK
-        Enchanted: true
-        Name: "&bSell &fStick"
-        Commands:
-          - "sellstick give {player_name} 1 i"
-        Chance: 5
       MoneyPouchCrate:
         Item: ENDER_CHEST
         Enchanted: true
@@ -193,7 +186,7 @@ Crates:
       CreeperEgg:
         Item: CHEST
         Enchanted: true
-        Chance: 5
+        Chance: 7
         Commands:
         - "voidc give default {player_name}"
         Name: "&b&lVoid &fChest"
@@ -207,7 +200,7 @@ Crates:
       CustomHeadExample:
         Item: GOLDEN_SHOVEL
         Enchanted: true
-        Chance: 5
+        Chance: 6
         Commands:
         - "griefprevention:adjustbonusclaimblocks {player_name} 2500"
         Name: "&b&l2500 &fClaim Blocks"
@@ -220,13 +213,13 @@ Crates:
         Name: "&b&lHopper &fUpgrade"
       Flower:
         Item: MOB_SPAWNER
-        Chance: 7
+        Chance: 8
         Commands:
         - "wildstacker:stacker give {player_name} spawner BLAZE 1"
         Name: "&cBlaze &fSpawner &cx1"
       Apple:
         Item: MOB_SPAWNER
-        Chance: 3
+        Chance: 4
         Commands:
         - "wildstacker:stacker give {player_name} spawner ZOMBIE 1"
         Name: "&cZombie &fSpawner &cx1"
