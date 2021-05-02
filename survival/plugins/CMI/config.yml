@@ -1305,7 +1305,7 @@ DynamicViewRange:
   Enabled: false
 WorldLimits:
   # By setting to true fly and gamemode limitations per world will be aplied for player on world change if they dont have appropiate permission node
-  Enabled: true
+  Enabled: false
   # World list with default game modes
   # If player will have cmi.worldlimit.gamemode.bypass permission node, game mode wont be changed
   # Possible modes: creative, survival, adventure, spectator, 
