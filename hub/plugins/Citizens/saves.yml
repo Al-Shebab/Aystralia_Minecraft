@@ -146,8 +146,8 @@ npc:
         x: '-15.5'
         y: '43.0'
         z: '-418.5'
-        yaw: '88.9357'
-        pitch: '-1.9111'
+        yaw: '118.9357'
+        pitch: '-2.0297'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -204,8 +204,8 @@ npc:
         x: '-14.5'
         y: '43.0'
         z: '-423.5'
-        yaw: '89.0742'
-        pitch: '28.8227'
+        yaw: '88.4256'
+        pitch: '-13.6545'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true

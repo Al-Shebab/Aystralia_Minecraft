@@ -247,9 +247,7 @@ Optimizations:
   # This doesnt have effect on rankup or /playtime commands, it will only show more specific playtime by hours when using /cplaytime command
   CMIPlayTimeTracking: true
   # Player names to be excluded from playtimetop list
-  PlaytimeTopExclude:
-  - Al_Shebab
-  - Callum22122
+  PlaytimeTopExclude: []
   ItemName:
     # For black listed materials check ItemRenaming.list section
 
@@ -322,7 +320,7 @@ Optimizations:
 PlaytimeRewards:
   # Enable or disable playtime rewards.
   # This is required if you want to have auto rewards
-  Enabled: false
+  Enabled: true
   # When enabled, while player is in afk mode, repeatable playtime rewards will not increase in playtime
   # ATENTION! this setting will not have any effect if you have Afk.StopPlayTime set to true
   # When StopPlayTime set to true, afk will be expluded automatically
@@ -1716,7 +1714,7 @@ Time:
       # Default value: 90 Starts from tick: 22200 Ends at tick: 24000
       sunrise: 90
     # Time is defined in seconds. Vanilla 24 hour ingame duration is 1200 seconds of real time
-    realistic:
+    fantasy:
       Enabled: false
       # Default value: 600 Starts from tick: 0 Ends at tick: 12000
       day: 600
@@ -1727,7 +1725,7 @@ Time:
       # Default value: 90 Starts from tick: 22200 Ends at tick: 24000
       sunrise: 90
     # Time is defined in seconds. Vanilla 24 hour ingame duration is 1200 seconds of real time
-    fantasy:
+    realistic:
       Enabled: false
       # Default value: 600 Starts from tick: 0 Ends at tick: 12000
       day: 600
