@@ -61,7 +61,6 @@ items:
     - ''
     - '&cUnavailable'
     left_click_commands:
-    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     left_click_requirement:
@@ -70,11 +69,9 @@ items:
           type: "!has permission"
           permission: 'deluxetags.tag.staff'
       deny_commands:
-      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
     - '[sound] ENTITY_PLAYER_LEVELUP' 
     - '[close]'
     right_click_requirement:
@@ -83,7 +80,6 @@ items:
           type: "!has permission"
           permission: 'deluxetags.tag.staff'
       deny_commands:
-      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'StaffOn':
