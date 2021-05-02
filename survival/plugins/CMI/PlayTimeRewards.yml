@@ -6,7 +6,7 @@ spaycheck:
   PayEvery: 1800
   Commands:
   - perm:cmi.prewards.spaycheck! asConsole! cmi money give [playerName] 500 -s
-  - perm:cmi.prewards.spaycheck! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &a+$500
+  - perm:cmi.prewards.spaycheck! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &f+$500
 spaycheck2:
   DisplayName: "&bPaycheck &f[Level 2]"
   AutoClaim: true
@@ -15,7 +15,7 @@ spaycheck2:
   PayEvery: 1800
   Commands:
   - perm:cmi.prewards.spaycheck2! asConsole! cmi money give [playerName] 1000 -s
-  - perm:cmi.prewards.spaycheck2! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &a+$1,000
+  - perm:cmi.prewards.spaycheck2! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &f+$1,000
 spaycheck3:
   DisplayName: "&bPaycheck &f[Level 3]"
   AutoClaim: true
@@ -24,7 +24,7 @@ spaycheck3:
   PayEvery: 1800
   Commands:
   - perm:cmi.prewards.spaycheck3! asConsole! cmi money give [playerName] 2000 -s
-  - perm:cmi.prewards.spaycheck3! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &a+$2,000
+  - perm:cmi.prewards.spaycheck3! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &f+$2,000
 spaycheck4:
   DisplayName: "&bPaycheck &f[Level 4]"
   AutoClaim: true
@@ -33,7 +33,7 @@ spaycheck4:
   PayEvery: 1800
   Commands:
   - perm:cmi.prewards.spaycheck4! asConsole! cmi money give [playerName] 3500 -s
-  - perm:cmi.prewards.spaycheck4! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &a+$3,500
+  - perm:cmi.prewards.spaycheck4! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &f+$3,500
 spaycheck5:
   DisplayName: "&bPaycheck &f[Level 5]"
   AutoClaim: true
@@ -42,7 +42,7 @@ spaycheck5:
   PayEvery: 1800
   Commands:
   - perm:cmi.prewards.spaycheck5! asConsole! cmi money give [playerName] 4500 -s
-  - perm:cmi.prewards.spaycheck5! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &a+$4,500
+  - perm:cmi.prewards.spaycheck5! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &f+$4,500
 spaycheck6:
   DisplayName: "&bPaycheck &f[Level 6]"
   AutoClaim: true
@@ -51,7 +51,7 @@ spaycheck6:
   PayEvery: 1800
   Commands:
   - perm:cmi.prewards.spaycheck6! asConsole! cmi money give [playerName] 5250 -s
-  - perm:cmi.prewards.spaycheck6! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &a+$5,250
+  - perm:cmi.prewards.spaycheck6! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &f+$5,250
 spaycheck7:
   DisplayName: "&bPaycheck &f[Level 7]"
   AutoClaim: true
@@ -60,7 +60,7 @@ spaycheck7:
   PayEvery: 1800
   Commands:
   - perm:cmi.prewards.spaycheck7! asConsole! cmi money give [playerName] 6000 -s
-  - perm:cmi.prewards.spaycheck7! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &a+$6,000
+  - perm:cmi.prewards.spaycheck7! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &f+$6,000
 spaycheck8:
   DisplayName: "&bPaycheck &f[Level 8]"
   AutoClaim: true
@@ -69,7 +69,7 @@ spaycheck8:
   PayEvery: 1800
   Commands:
   - perm:cmi.prewards.spaycheck8! asConsole! cmi money give [playerName] 6750 -s
-  - perm:cmi.prewards.spaycheck8! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &a+$6,750
+  - perm:cmi.prewards.spaycheck8! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &f+$6,750
 spaycheck9:
   DisplayName: "&bPaycheck &f[Level 9]"
   AutoClaim: true
@@ -78,7 +78,7 @@ spaycheck9:
   PayEvery: 1800
   Commands:
   - perm:cmi.prewards.spaycheck9! asConsole! cmi money give [playerName] 7500 -s
-  - perm:cmi.prewards.spaycheck9! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &a+$7,500
+  - perm:cmi.prewards.spaycheck9! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &f+$7,500
 spaycheck10:
   DisplayName: "&bPaycheck &f[Level 10]"
   AutoClaim: true
@@ -87,4 +87,4 @@ spaycheck10:
   PayEvery: 1800
   Commands:
   - perm:cmi.prewards.spaycheck10! asConsole! cmi money give [playerName] 8250 -s
-  - perm:cmi.prewards.spaycheck10! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &a+$8,250
+  - perm:cmi.prewards.spaycheck10! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &f+$8,250
