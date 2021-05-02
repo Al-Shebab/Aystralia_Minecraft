@@ -1550,7 +1550,7 @@ Combat:
 ShulkerBoxes:
   # When set to true, players will not have option to open shulker boxes while in combat
   # Combat timer can be defined under combat section
-  PreventInCombat: true
+  PreventInCombat: false
 Vanish:
   # Defines default states of vanish edit options for players
   # This will not have any effect if player already edited his vanish mode with vanishedit command
@@ -1627,7 +1627,7 @@ scan:
   EnablePurge: false
 search:
   # When this set to true, all found items in inventories will be deleted durring search. Ex: /cmi search id 7 purge
-  EnablePurge: false
+  EnablePurge: true
 lfix:
   # Tps cap from which to start adjusting light fix speed
   SoftCap: 19.0
