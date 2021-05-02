@@ -73,7 +73,7 @@ items:
     - ''
     - '&fPurchase with &b&l/buy'
     left_click_commands:
-    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
     - '[close]'
     left_click_requirement:
       requirements:
@@ -81,11 +81,11 @@ items:
           type: "!has permission"
           permission: 'playervaults.vault.1'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
     - '[close]'
     right_click_requirement:
       requirements:
@@ -93,7 +93,7 @@ items:
           type: "!has permission"
           permission: 'playervaults.vault.1'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'PV1Yes':
@@ -120,7 +120,7 @@ items:
           type: has permission
           permission: 'playervaults.vault.1'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND'
       - '[close]'
     right_click_commands:
@@ -132,7 +132,7 @@ items:
           type: has permission
           permission: 'playervaults.vault.1'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'PV2No':
@@ -152,7 +152,7 @@ items:
     - ''
     - '&fPurchase with &b&l/buy'
     left_click_commands:
-    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
     - '[close]'
     left_click_requirement:
       requirements:
@@ -160,11 +160,11 @@ items:
           type: "!has permission"
           permission: 'playervaults.vault.2'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
     - '[close]'
     right_click_requirement:
       requirements:
@@ -172,7 +172,7 @@ items:
           type: "!has permission"
           permission: 'playervaults.vault.2'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'PV2Yes':
@@ -199,7 +199,7 @@ items:
           type: has permission
           permission: 'playervaults.vault.2'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND'
       - '[close]'
     right_click_commands:
@@ -211,7 +211,7 @@ items:
           type: has permission
           permission: 'playervaults.vault.2'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'PV3No':
@@ -231,7 +231,7 @@ items:
     - ''
     - '&fPurchase with &b&l/buy'
     left_click_commands:
-    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
     - '[close]'
     left_click_requirement:
       requirements:
@@ -239,11 +239,11 @@ items:
           type: "!has permission"
           permission: 'playervaults.vault.3'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
     - '[close]'
     right_click_requirement:
       requirements:
@@ -251,7 +251,7 @@ items:
           type: "!has permission"
           permission: 'playervaults.vault.3'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'PV3Yes':
@@ -278,7 +278,7 @@ items:
           type: has permission
           permission: 'playervaults.vault.3'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND'
       - '[close]'
     right_click_commands:
@@ -290,7 +290,7 @@ items:
           type: has permission
           permission: 'playervaults.vault.3'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'PV4No':
@@ -310,7 +310,7 @@ items:
     - ''
     - '&fPurchase with &b&l/buy'
     left_click_commands:
-    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
     - '[close]'
     left_click_requirement:
       requirements:
@@ -318,11 +318,11 @@ items:
           type: "!has permission"
           permission: 'playervaults.vault.4'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
     - '[close]'
     right_click_requirement:
       requirements:
@@ -330,7 +330,7 @@ items:
           type: "!has permission"
           permission: 'playervaults.vault.4'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'PV4Yes':
@@ -357,7 +357,7 @@ items:
           type: has permission
           permission: 'playervaults.vault.4'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND'
       - '[close]'
     right_click_commands:
@@ -369,7 +369,7 @@ items:
           type: has permission
           permission: 'playervaults.vault.4'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'PV5No':
@@ -389,7 +389,7 @@ items:
     - ''
     - '&fPurchase with &b&l/buy'
     left_click_commands:
-    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
     - '[close]'
     left_click_requirement:
       requirements:
@@ -397,11 +397,11 @@ items:
           type: "!has permission"
           permission: 'playervaults.vault.5'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
     - '[close]'
     right_click_requirement:
       requirements:
@@ -409,7 +409,7 @@ items:
           type: "!has permission"
           permission: 'playervaults.vault.5'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'PV5Yes':
@@ -436,7 +436,7 @@ items:
           type: has permission
           permission: 'playervaults.vault.5'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND'
       - '[close]'
     right_click_commands:
@@ -448,7 +448,7 @@ items:
           type: has permission
           permission: 'playervaults.vault.5'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'PV6No':
@@ -468,7 +468,7 @@ items:
     - ''
     - '&fPurchase with &b&l/buy'
     left_click_commands:
-    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
     - '[close]'
     left_click_requirement:
       requirements:
@@ -476,11 +476,11 @@ items:
           type: "!has permission"
           permission: 'playervaults.vault.6'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
     - '[close]'
     right_click_requirement:
       requirements:
@@ -488,7 +488,7 @@ items:
           type: "!has permission"
           permission: 'playervaults.vault.6'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'PV6Yes':
@@ -515,7 +515,7 @@ items:
           type: has permission
           permission: 'playervaults.vault.6'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND'
       - '[close]'
     right_click_commands:
@@ -527,7 +527,7 @@ items:
           type: has permission
           permission: 'playervaults.vault.6'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'PV7No':
@@ -547,7 +547,7 @@ items:
     - ''
     - '&fPurchase with &b&l/buy'
     left_click_commands:
-    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
     - '[close]'
     left_click_requirement:
       requirements:
@@ -555,11 +555,11 @@ items:
           type: "!has permission"
           permission: 'playervaults.vault.7'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
     - '[close]'
     right_click_requirement:
       requirements:
@@ -567,7 +567,7 @@ items:
           type: "!has permission"
           permission: 'playervaults.vault.7'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'PV7Yes':
@@ -594,7 +594,7 @@ items:
           type: has permission
           permission: 'playervaults.vault.7'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND'
       - '[close]'
     right_click_commands:
@@ -606,7 +606,7 @@ items:
           type: has permission
           permission: 'playervaults.vault.7'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'PV8No':
@@ -626,7 +626,7 @@ items:
     - ''
     - '&fPurchase with &b&l/buy'
     left_click_commands:
-    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
     - '[close]'
     left_click_requirement:
       requirements:
@@ -634,11 +634,11 @@ items:
           type: "!has permission"
           permission: 'playervaults.vault.8'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
     - '[close]'
     right_click_requirement:
       requirements:
@@ -646,7 +646,7 @@ items:
           type: "!has permission"
           permission: 'playervaults.vault.8'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'PV8Yes':
@@ -673,7 +673,7 @@ items:
           type: has permission
           permission: 'playervaults.vault.8'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND'
       - '[close]'
     right_click_commands:
@@ -685,7 +685,7 @@ items:
           type: has permission
           permission: 'playervaults.vault.8'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'PV9No':
@@ -705,7 +705,7 @@ items:
     - ''
     - '&fPurchase with &b&l/buy'
     left_click_commands:
-    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
     - '[close]'
     left_click_requirement:
       requirements:
@@ -713,11 +713,11 @@ items:
           type: "!has permission"
           permission: 'playervaults.vault.9'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
     - '[close]'
     right_click_requirement:
       requirements:
@@ -725,7 +725,7 @@ items:
           type: "!has permission"
           permission: 'playervaults.vault.9'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'PV9Yes':
@@ -752,7 +752,7 @@ items:
           type: has permission
           permission: 'playervaults.vault.9'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND'
       - '[close]'
     right_click_commands:
@@ -764,7 +764,7 @@ items:
           type: has permission
           permission: 'playervaults.vault.9'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'PV10No':
@@ -784,7 +784,7 @@ items:
     - ''
     - '&fPurchase with &b&l/buy'
     left_click_commands:
-    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
     - '[close]'
     left_click_requirement:
       requirements:
@@ -792,11 +792,11 @@ items:
           type: "!has permission"
           permission: 'playervaults.vault.10'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
     - '[close]'
     right_click_requirement:
       requirements:
@@ -804,7 +804,7 @@ items:
           type: "!has permission"
           permission: 'playervaults.vault.10'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'PV10Yes':
@@ -831,7 +831,7 @@ items:
           type: has permission
           permission: 'playervaults.vault.10'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND'
       - '[close]'
     right_click_commands:
@@ -843,7 +843,7 @@ items:
           type: has permission
           permission: 'playervaults.vault.10'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'PV11No':
@@ -863,7 +863,7 @@ items:
     - ''
     - '&fPurchase with &b&l/buy'
     left_click_commands:
-    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
     - '[close]'
     left_click_requirement:
       requirements:
@@ -871,11 +871,11 @@ items:
           type: "!has permission"
           permission: 'playervaults.vault.*'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
     right_click_commands:
-    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+    - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
     - '[close]'
     right_click_requirement:
       requirements:
@@ -883,7 +883,7 @@ items:
           type: "!has permission"
           permission: 'playervaults.vault.*'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'
   'PV11Yes':
@@ -911,7 +911,7 @@ items:
           type: has permission
           permission: 'playervaults.vault.*'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND'
       - '[close]'
     right_click_commands:
@@ -923,6 +923,6 @@ items:
           type: has permission
           permission: 'playervaults.vault.*'
       deny_commands:
-      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/ranks'
+      - '[message] &b&lVaults &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/commands'
       - '[sound] BLOCK_ANVIL_LAND' 
       - '[close]'

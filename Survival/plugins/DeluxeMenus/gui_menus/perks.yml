@@ -329,6 +329,7 @@ items:
     - ''
     - '&7&oUntouchable...'
     left_click_commands:
+    - '[close]'
     - '[openguimenu] pv'
     left_click_requirement:
       requirements:
@@ -338,6 +339,7 @@ items:
       deny_commands:
       - '[close]'
     right_click_commands:
+    - '[close]'
     - '[openguimenu] pv'
     right_click_requirement:
       requirements:
