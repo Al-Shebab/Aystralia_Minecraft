@@ -1,0 +1,39 @@
+menu_title: '&b&lWelcome!'
+open_command:
+- abcuisdiuoiioioqw
+size: 45
+items:
+  'Decoration':
+    display_name: '&f'
+    material: 160
+    data: 7
+    slots:
+    - 44
+  'welcome':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI4OWQ1YjE3ODYyNmVhMjNkMGIwYzNkMmRmNWMwODVlODM3NTA1NmJmNjg1YjVlZDViYjQ3N2ZlODQ3MmQ5NCJ9fX0=
+    priority: 1
+    slot: 10
+    display_name: '&b[*] &b&lWelcome Message'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'menu.use'
+    lore:
+    - ''
+    - ''
+    - '&7&oWho even lives in Arctic?'
+    left_click_commands: []
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'menu.use'
+      deny_commands: []
+    right_click_commands: []
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'menu.use'
+      deny_commands: []

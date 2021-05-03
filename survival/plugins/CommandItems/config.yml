@@ -243,3 +243,13 @@ items:
       - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set epicrename.removeglow.* true" }
       - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set epicrename.bypass.* true" }
       - { action: MESSAGE, to: PLAYER, message: "&b&lPerks &8> &fYou have redeemed &bRename Access!" }
+  starter:
+    item:
+      type: WRITTEN_BOOK
+      name: "&b&lAystralia Network &f&lGuide"
+      lore: ["&f", "&bRead me!"]
+      glow: true
+    consumed: false
+    cooldown: 1
+    actions:
+      - { action: COMMAND, by: PLAYER, command: "dm open abcuisdiuoiioioqw" }
