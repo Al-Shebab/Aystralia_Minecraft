@@ -716,7 +716,6 @@ spawners:
         - LLAMA
         - MAGMA_CUBE
         - MULE
-        - MUSHROOM_COW
         - OCELOT
         - PAINTING
         - PANDA
