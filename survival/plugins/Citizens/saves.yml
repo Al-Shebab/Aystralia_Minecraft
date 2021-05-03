@@ -713,7 +713,7 @@ npc:
         x: '-6.5'
         y: '77.0'
         z: '1.5'
-        yaw: '-125.8269'
+        yaw: '-132.8492'
         pitch: '0.0'
       spawned: true
       lookclose:
