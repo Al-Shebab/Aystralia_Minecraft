@@ -502,7 +502,7 @@ Afk:
   # Defines how long to wait after player stops moving to set him as afk
   # Player needs to have cmi.command.afk.auto permission node
   # Set to 0 if you want to disable it
-  AutoAfkIn: 600
+  AutoAfkIn: 1800
   # Defines commands to be performed when player enters afk mode automatically while addling
   # Supports specialized commands
   AutoAfkCmds:
