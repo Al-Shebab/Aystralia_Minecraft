@@ -1,6 +1,9 @@
 menu_title: '&b&lJobs'
 open_command:
-- mjkdvcbiuweqrbviubviu
+- jobs
+- job
+- job join
+- jobs join
 size: 45
 items:
   'Decoration':

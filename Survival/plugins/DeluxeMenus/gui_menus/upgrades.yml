@@ -1,6 +1,7 @@
 menu_title: '&b&lUpgrades'
 open_command:
-- wefvnhweorghvouuiob
+- upgrade
+- upgrades
 size: 45
 items:
   'Decoration':

@@ -22,10 +22,9 @@
 # and if possible spread them out with a delay by using "delay! 0.3" or similar variable
 # This will allow server to catch up with his calculation instead of forcing him to do all of those commands at once
 firstJoinServer:
-  Enabled: false
+  Enabled: true
   Commands:
-  - cmi msg [playerName] This is event command example!
-  - cmi actionbarmsg [playerName] This is event command example!
+  - cmdi give [playerName] starter
 joinServer:
   Enabled: false
   Commands:

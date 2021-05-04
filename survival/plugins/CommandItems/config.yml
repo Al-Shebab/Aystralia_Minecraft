@@ -250,6 +250,6 @@ items:
       lore: ["&f", "&bRead me!"]
       glow: true
     consumed: false
-    cooldown: 1
+    cooldown: 0
     actions:
       - { action: COMMAND, by: PLAYER, command: "dm open abcuisdiuoiioioqw" }

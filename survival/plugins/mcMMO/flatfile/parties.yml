@@ -1,28 +1,8 @@
-Morning_Woods:
-  Leader: b4dc8143-084b-4ae0-85ba-b5aa2e81ea17|bigbulkcat
-  Password: DaBaby69
-  Locked: true
-  Level: 10
-  Xp: 3200
-  Ally: ''
-  ExpShareMode: EQUAL
-  ItemShareMode: NONE
-  ItemShareType:
-    LOOT: true
-    MINING: true
-    HERBALISM: true
-    WOODCUTTING: true
-    MISC: true
-  Members:
-  - b4dc8143-084b-4ae0-85ba-b5aa2e81ea17|bigbulkcat
-  - 9fe712c8-e226-49fb-92ed-c7edf5660b4b|Brazi
-  - e79fc165-83d6-4139-9a8f-d42bf1c23f87|Al_Shebab
-  - f4d5e1b8-43e7-47eb-9b3b-21d66b202af7|KingMistik
 GREENTEAM:
   Leader: 58821929-84e9-41f6-a23a-fe4b1edcb7fa|Greenyyy1
   Locked: true
   Level: 10
-  Xp: 0
+  Xp: 528
   Ally: ''
   ExpShareMode: NONE
   ItemShareMode: NONE
@@ -43,7 +23,7 @@ GREENTEAM:
   Password: pony
   Locked: true
   Level: 10
-  Xp: 1048
+  Xp: 420
   Ally: ''
   ExpShareMode: NONE
   ItemShareMode: NONE
@@ -61,7 +41,7 @@ Jizzy:
   Password: JizzyBalls
   Locked: true
   Level: 10
-  Xp: 0
+  Xp: 30
   Ally: ''
   ExpShareMode: NONE
   ItemShareMode: EQUAL

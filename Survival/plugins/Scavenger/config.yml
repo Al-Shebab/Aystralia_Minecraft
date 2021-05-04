@@ -1,11 +1,11 @@
 # Global settings.
 Global:
-  Enabled: true
+  Enabled: false
   Notify: false
   SingleItemDrops: false
   SingleItemKeeps: true
   SlotBasedRecovery: false
-  UseTheOrMethod: true
+  UseTheOrMethod: false
   Debug: false
   Permissions: true
   OpsAllPerms: false

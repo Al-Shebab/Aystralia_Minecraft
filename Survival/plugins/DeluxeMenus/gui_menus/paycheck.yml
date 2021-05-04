@@ -1,5 +1,7 @@
 menu_title: '&b&lPaycheck Upgrades'
-open_command: home-upgrades
+open_command:
+- paycheck
+- paychecks
 size: 36
 items:
   'Decoration':

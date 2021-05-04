@@ -1,6 +1,7 @@
 menu_title: '&b&lCosmetics'
 open_command:
-- cbasfbasdrth45wrbrw
+- cosmetic
+- cosmetics
 size: 45
 items:
   'Decorations':

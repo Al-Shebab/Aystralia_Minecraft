@@ -1,6 +1,8 @@
 menu_title: '&b&lPlayer Vaults'
 open_command:
 - pv
+- vault
+- vaults
 size: 45
 items:
   'Decoration':

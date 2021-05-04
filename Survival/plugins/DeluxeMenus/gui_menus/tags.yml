@@ -1,6 +1,10 @@
 menu_title: '&b&lTags'
 open_command:
-- taikhjsbiusjbdiu
+- tags
+- tag
+- tagmenu
+- tagsmenu
+- deluxetags:tags
 size: 45
 items:
   'Decorations':
