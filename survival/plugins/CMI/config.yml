@@ -337,7 +337,7 @@ Sleeping:
   Speedup:
     # When set to true, players can speedup night by sleeping in bed
     # This will allow to speed up night in percentage depending how many players are sleeping in beds in that world
-    Enabled: false
+    Enabled: true
     # List of worlds where this should be applied.
     # Keep in mind that time speed up only works on a normal type world and by default you will have only one
     # Set this list to [] if you want to include all possible worlds
@@ -346,7 +346,7 @@ Sleeping:
     # When having this set to false players can speed up day durring storms or other events
     OnlyDurringNight: true
     # Type of speedup information, can be: none, title, bossbar
-    InfoType: title
+    InfoType: bossbar
     # When set to true, players who are in afk mode will be excluded from speed calculations
     ExcludeAfk: true
     # Defines speed to go throw night, bigger numbers will make it go faster and less players you will need to go throw night
@@ -357,11 +357,11 @@ Sleeping:
     # Minimal amount of players sleeping in beds before speeding it up
     # Can be defined in 2 formats. When using clean number like 3, then 3 players will have to be sleeping before speedup kicks in
     # If amount is defined with % like 50% then half of server population will have to be sleeping before speedup kicks in
-    MinBeforeSpeeding: 50%
+    MinBeforeSpeeding: 2
     # When set to true online players will be informed about missing sleeping people count
     Inform: true
     # Time in seconds between information messages can be shown when player starts or stops sleeping
-    InformDelay: 30
+    InformDelay: 10
 Compass:
   # Enable EXPERIMENTAL boss bar compass
   # Only for 1.9+ servers
