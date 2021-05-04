@@ -255,7 +255,25 @@ Crates:
         Name: "&c&lKFC"
         Commands:
         - "cmi kit kfc {player_name}"
-        Chance: 34.9
+        Chance: 8.75
+      mcdonalds:
+        Item: COOKED_BEEF
+        Name: "&6&lMcDonalds"
+        Commands:
+        - "cmi kit mcdonalds {player_name}"
+        Chance: 8.75
+      subway:
+        Item: COOKIE
+        Name: "&2&lSubway"
+        Commands:
+        - "cmi kit subway {player_name}"
+        Chance: 8.75
+      redrooster:
+        Item: ROTTEN_FLESH
+        Name: "&c&lRed &f&lRooster"
+        Commands:
+        - "cmi kit redrooster {player_name}"
+        Chance: 8.65
       Bedc:
         Item: NETHERITE_PICKAXE
         Enchanted: true

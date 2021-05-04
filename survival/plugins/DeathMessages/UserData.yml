@@ -1666,3 +1666,7 @@ a05eeaa8-c47c-46d4-a462-e0e835850c0d:
   username: christhork
   messages-enabled: true
   is-blacklisted: false
+3eedf910-0adf-4201-b6f6-e161a7d0b683:
+  username: Infra_Red
+  messages-enabled: true
+  is-blacklisted: false

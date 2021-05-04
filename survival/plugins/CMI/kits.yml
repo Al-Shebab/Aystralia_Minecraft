@@ -986,3 +986,40 @@ panic:
         enchants:
           PROTECTION_ENVIRONMENTAL: 1
           DURABILITY: 1
+redrooster:
+  CommandName: redrooster
+  Delay: 10
+  Items:
+    '28':
+      v: 2586
+      type: ROTTEN_FLESH
+      amount: 16
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Red
+          "},{"bold":true,"italic":false,"color":"white","text":"Rooster"}],"text":""}'
+mcdonalds:
+  CommandName: mcdonalds
+  Delay: 10
+  Items:
+    '28':
+      v: 2586
+      type: COOKED_BEEF
+      amount: 16
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"McDonalds"}],"text":""}'
+subway:
+  CommandName: subway
+  Delay: 10
+  Items:
+    '28':
+      v: 2586
+      type: COOKIE
+      amount: 16
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Subway"}],"text":""}'
