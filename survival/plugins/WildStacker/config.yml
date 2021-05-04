@@ -182,7 +182,7 @@ entities:
   # SpawnReason list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html
   # You can combine both filters using "ENTITY_TYPE:SPAWN_REASON"
   merge-radius:
-    all: 5
+    all: 3
 
   # Custom display-name for the entities.
   # If you don't want a display-name, use "custom-name: ''"
@@ -223,7 +223,7 @@ entities:
   # You can use 'all' as a global limit (all: 20 will set all entities to must have at least 20 entities around before stacking)
   # If you don't want any limits, you can set a random type.
   minimum-required:
-    all: 10
+    all: 5
 
   # A list of worlds entities won't get stacked inside them (case-sensitive)
   disabled-worlds:
@@ -379,7 +379,7 @@ entities:
   # When smart-breed is enabled, players will be consumed with two items in order to breed a stack.
   # No breeding animation will be played, and a new baby stack will be spawned with the correct amount.
   # This can prevent massive splits of the stack for breeding, and can help with performance.
-  smart-breeding: false
+  smart-breeding: true
 
   # When enabled, entities' names will be shown only if player looks exactly towards them.
   hide-names: false

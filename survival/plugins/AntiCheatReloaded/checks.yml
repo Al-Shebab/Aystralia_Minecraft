@@ -58,7 +58,7 @@ speed:
     # Should this part of the check be enabled?
     enabled: true
     # Base unadjusted air speed limit
-    baseLimit: 0.05125
+    baseLimit: 0.08125
     # Prediction multiplier for custom walk speeds
     walkSpeedMultiplier: 2.0
   # Checks movement acceleration in the air
@@ -67,7 +67,7 @@ speed:
     # Should this part of the check be enabled?
     enabled: true
     # Base unadjusted air acceleration limit
-    baseLimit: 0.5725
+    baseLimit: 0.8725
     # Limit multiplier for custom walk speeds
     walkSpeedMultiplier: 2.0
   # Checks movement acceleration in the air
@@ -215,7 +215,7 @@ velocity:
 # Checks if the player places blocks too fast
 fastplace:
   # Should this check be enabled?
-  enabled: true
+  enabled: false
   # Minimum time in milliseconds between block places
   minimumTime: 20
   # Amount of fastplace-moments before flagging a survival player
@@ -335,14 +335,14 @@ fastbow:
 # Checks if the player consumes food too fast
 fasteat:
   # Should this check be enabled?
-  enabled: true
+  enabled: false
   # Minimum time in milliseconds it takes to consume food
   eatTimeMin: 1000
 # FastHeal check settings
 # Checks if the player regains health too fast
 fastheal:
   # Should this check be enabled?
-  enabled: true
+  enabled: false
   # Minimum server TPS needed for FastHeal to be active
   minimumTps: 17.5
   # Should FastHeal be disabled for 'lagging' players?

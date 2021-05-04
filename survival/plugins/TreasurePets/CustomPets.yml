@@ -2948,7 +2948,7 @@ cp:
       - ''
       disabledRegions:
       - ''
-      timer-length: 5
+      timer-length: 10
       onActivation:
         PetTimerEvent:
           1:
@@ -3001,7 +3001,7 @@ cp:
       - ''
       disabledRegions:
       - ''
-      timer-length: 5
+      timer-length: 10
       onActivation:
         PetTimerEvent:
           1:
@@ -3029,7 +3029,7 @@ cp:
       - ''
       disabledRegions:
       - ''
-      timer-length: 5
+      timer-length: 10
       onActivation:
         PetTimerEvent:
           1:
@@ -3082,7 +3082,7 @@ cp:
       - ''
       disabledRegions:
       - ''
-      timer-length: 5
+      timer-length: 10
       onActivation:
         PetTimerEvent:
           1:
@@ -3213,7 +3213,7 @@ cp:
       - ''
       disabledRegions:
       - ''
-      timer-length: 5
+      timer-length: 10
       onActivation:
         PetTimerEvent:
           1:
@@ -3264,7 +3264,7 @@ cp:
       - ''
       disabledRegions:
       - ''
-      timer-length: 5
+      timer-length: 10
       onActivation:
         PetTimerEvent:
           1:
