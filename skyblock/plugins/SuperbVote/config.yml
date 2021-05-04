@@ -102,7 +102,7 @@ vote-command:
 vote-reminder:
   message: "&fDon't forget to vote for today! &fYou currently have &b%votes%&f votes."
   on-join: true
-  repeat: 3600
+  repeat: -1
 
 # Controls the /sv <top/leaderboard> command.
 leaderboard:
