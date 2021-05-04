@@ -1,5 +1,5 @@
 {
-  "enabled": false,
+  "enabled": true,
   "item": {
     "material": "DIAMOND_HORSE_ARMOR",
     "meta": {

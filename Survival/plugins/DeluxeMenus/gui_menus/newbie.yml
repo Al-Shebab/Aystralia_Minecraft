@@ -837,12 +837,12 @@ items:
           permission: 'menu.use'
     lore:
     - ''
-    - '&fGet some free gear using &b/kits'
+    - '&fGet some free gear using &b/kit'
     - ''
     - '&b&lClick me!'
     left_click_commands:
     - '[close]'
-    - '[player] cmi kits'
+    - '[player] cmi kit'
     left_click_requirement:
       requirements:
         Permission:
@@ -851,7 +851,7 @@ items:
       deny_commands: []
     right_click_commands:
     - '[close]'
-    - '[player] cmi kits'
+    - '[player] cmi kit'
     right_click_requirement:
       requirements:
         Permission:

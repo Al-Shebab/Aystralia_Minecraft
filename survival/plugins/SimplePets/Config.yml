@@ -180,7 +180,7 @@ PetToggles:
   AutoRemove:
     # Disabling this will make it so pets wont be automatically removed if the player is afk
     # Default: true
-    Enabled: true
+    Enabled: false
     # What should the wait be?
     # This is in ticks (20 ticks = 1 second)
     # Default: 10000
@@ -204,7 +204,7 @@ RenamePet:
   # true = Anvil
   # false = Chat
   # Default: true
-  ViaAnvil: true
+  ViaAnvil: false
   # Should the name have a limited number of characters?
   # Default: false
   Limit-Number-Of-Characters: false
@@ -216,7 +216,7 @@ RenamePet:
   - jeb_
   # Are pet names allowed to have the &k color code?
   # Default: false
-  Allow-&k: false
+  Allow-&k: true
   # Are pet names allowed to be colored?
   # Default: true
   Allow-ColorCodes: true
