@@ -79,13 +79,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -2.7321472
+        bodyYaw: 120.331635
         world: world
         x: '17.5'
         y: '64.0'
         z: '1.5'
-        yaw: '-42.7321'
-        pitch: '-61.8099'
+        yaw: '160.3316'
+        pitch: '-33.0439'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -200,8 +200,8 @@ npc:
         x: '18.5'
         y: '64.0'
         z: '-6.5'
-        yaw: '43.1893'
-        pitch: '0.0'
+        yaw: '29.5673'
+        pitch: '-11.6792'
       spawned: true
       skintrait:
         fetchDefaultSkin: true

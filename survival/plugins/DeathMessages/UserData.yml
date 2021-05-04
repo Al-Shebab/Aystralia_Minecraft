@@ -1670,3 +1670,7 @@ a05eeaa8-c47c-46d4-a462-e0e835850c0d:
   username: Infra_Red
   messages-enabled: true
   is-blacklisted: false
+067c9324-7113-46d4-aa13-c8b16e02c310:
+  username: _The_Fake_NJ_
+  messages-enabled: true
+  is-blacklisted: false

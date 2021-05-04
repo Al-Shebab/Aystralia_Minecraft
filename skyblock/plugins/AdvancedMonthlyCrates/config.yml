@@ -272,7 +272,8 @@ Crates:
     #Is the block that will be the monthly crate
     Enchanted: true #Not all items can be enchanted.
     Name: "&c&lAystralia &f&lCrate"
-    CommandOnCratePlace: []
+    CommandOnCratePlace:
+      - "cmi broadcast !&b&lCrates &8> &c&l{player_name} &fhas opened an &c&lAystralia &f&lCrate"
     MessagesToPlayer:
       - "&b&lCrates &8> &fYou have opened a &c&lAystralia &f&lCrate"
     RewardHologram:
@@ -292,157 +293,177 @@ Crates:
         Item: FEATHER
         Chance: 10
         Commands:
-        - "cmdi give {player_name} islandfly"
-        Name: "&b&lIsland &f&lFly"
+        - "cmdi give {player_name} fly"
+        Name: "&b&lGlobal &f&lFly"
       b:
         Enchanted: true
         Item: COAL
-        Chance: 2
+        Chance: 10
         Commands:
         - "cmdi give {player_name} perth"
         Name: "&b&lPerth &f&lRank"
       c:
         Enchanted: true
-        Item: IRON_INGOT
-        Chance: 2
+        Item: CHEST
+        Chance: 10
         Commands:
-        - "cmdi give {player_name} brisbane"
-        Name: "&b&lBrisbane &f&lRank"
+        - "voidc give default {player_name}"
+        Name: "&b&lVoidChest &f&lx10"
       d:
         Enchanted: true
-        Item: GOLD_INGOT
-        Chance: 1
+        Item: HOPPER
+        Chance: 7
         Commands:
-        - "cmdi give {player_name} melbourne"
-        Name: "&b&lMelborune &f&lRank"
-      e:
-        Enchanted: true
-        Item: DIAMOND
-        Chance: 0
-        Commands:
-        - "cmdi give {player_name} sydney"
-        Name: "&b&lSydney &f&lRank"
+        - "jetshopper give {player_name} V 5"
+        Name: "&b&lTier Hopper &f&l[&b&lLevel 5&f&l] &f&lx10"
       f:
         Enchanted: true
-        Item: NETHERITE_INGOT
-        Chance: 0
+        Item: BEETROOT
+        Chance: 7
         Commands:
-        - "cmdi give {player_name} ayssie"
-        Name: "&b&lAyssie &f&lRank"
+        - "cmdi give {player_name} beets"
+        Name: "&c&lDwight's &f&lBeets"
       g:
         Enchanted: true
-        Item: ELYTRA
-        Chance: 3
+        Item: TRIPWIRE_HOOK
+        Chance: 7
         Commands:
-        - "cmdi give {player_name} fly"
-        Name: "&b&lGlobal &f&lFly"
+        - "cmdi give {player_name} keyall"
+        Name: "&b&lKey &f&lAll"
       h:
         Enchanted: true
         Item: PAPER
-        Chance: 8
+        Chance: 4
         Commands:
         - "cmdi give {player_name} nick"
         Name: "&b&lNickname &f&lAccess"
       i:
         Enchanted: true
-        Item: PAPER
-        Chance: 5
-        Commands:
-        - "cmdi give {player_name} jobsboost"
-        Name: "&b&lJobs &f&lBoost"
-      j:
-        Enchanted: true
-        Item: PAPER
-        Chance: 5
-        Commands:
-        - "cmdi give {player_name} jobs"
-        Name: "&b&lUnlimited &f&lJobs"
-      k:
-        Enchanted: true
         Item: ANVIL
-        Chance: 5
+        Chance: 4
         Commands:
         - "cmdi give {player_name} rename"
         Name: "&b&lRename &f&lAccess"
-      l:
-        Enchanted: true
-        Item: HOPPER
-        Chance: 5
-        Commands:
-        - jetshoppers give {player_name} V 3"
-        Name: "&b&lHopper &f&l[&b&lLevel V&f&l] x3"
-      m:
-        Enchanted: true
-        Item: CHEST
-        Chance: 10
-        Commands:
-        - voidchest give default {player_name} 3"
-        Name: "&b&lVoid &f&lChest x3"
-      n:
-        Enchanted: true
-        Item: TRIPWIRE_HOOK
-        Chance: 5
-        Commands:
-        - crate giveall VoteCrate"
-        Name: "&b&lVote Key &f&lAll"
-      o:
-        Enchanted: true
-        Item: PLAYER_HEAD
-        Chance: 5
-        Commands:
-        - "cmdi give {player_name} hat"
-        Name: "&b&lHat &f&lAccess"
-      p:
-        Enchanted: true
-        Item: RED_CONCRETE
-        Chance: 3
-        Commands:
-        - "cmdi give {player_name} concrete"
-        Name: "&b&lConcrete &f&lKit"
-      q:
+      k:
         Enchanted: true
         Item: REDSTONE
-        Chance: 3
+        Chance: 4
         Commands:
         - "cmdi give {player_name} redstone"
         Name: "&b&lRedstone &f&lKit"
-      r:
+      l:
+        Enchanted: true
+        Item: RED_CONCRETE
+        Chance: 4
+        Commands:
+        - "cmdi give {player_name} concrete"
+        Name: "&b&lConcrete &f&lKit"
+      l:
         Enchanted: true
         Item: NETHERITE_SWORD
-        Chance: 3
+        Chance: 4
         Commands:
         - "cmdi give {player_name} pvp"
-        Name: "&b&lPvp &f&lKit"
-      s:
+        Name: "&b&lPVP &f&lKit"
+      m:
         Enchanted: true
         Item: RED_DYE
-        Chance: 10
+        Chance: 4
         Commands:
         - "cmdi give {player_name} colours"
         Name: "&b&lColour &f&lPack"
+      n:
+        Enchanted: true
+        Item: WHITE_SHULKER_BOX
+        Chance: 3
+        Commands:
+        - "cmi kit spawners {player_name}"
+        Name: "&b&ki&f&ki &b&lSpawners &f&ki&b&ki"
+      j:
+        Enchanted: true
+        Item: PAPER
+        Chance: 3
+        Commands:
+        - "cmdi give {player_name} jobs"
+        Name: "&b&lUnlimited &f&lJobs"
+      m:
+        Enchanted: true
+        Item: CHEST
+        Chance: 3
+        Commands:
+        - "cmdi give {player_name} pvs"
+        Name: "&b&lUnlimited &f&lPlayer Vaults"
+      o:
+        Enchanted: true
+        Item: RED_BED
+        Chance: 3
+        Commands:
+        - "cmdi give {player_name} homes"
+        Name: "&b&lUnlimited &f&lHomes"
+      q:
+        Enchanted: true
+        Item: CHEST
+        Chance: 3
+        Commands:
+        - "crate give {player_name} VoteCrate 30"
+        Name: "&b&l30x &f&lVote Crates"
+      r:
+        Enchanted: true
+        Item: CHEST
+        Chance: 3
+        Commands:
+        - "crate give {player_name} PetCrate 5"
+        Name: "&b&l5x &f&lPet Crates"
+      s:
+        Enchanted: true
+        Item: CHEST
+        Chance: 1
+        Commands:
+        - "crate give {player_name} MoneyPouchCrate 5"
+        Name: "&b&l5x &f&lMoney Pouch Crates"
       t:
         Enchanted: true
-        Item: PAPER
-        Chance: 5
+        Item: ENDER_CHEST
+        Chance: 1
         Commands:
-        - "cmdi give {player_name} market5"
-        Name: "&b&l5% Market &f&lDiscount"
+        - "crate give {player_name} AystraliaCrate 5"
+        Name: "&c&l5x &f&lAystralia Crates"
       u:
         Enchanted: true
-        Item: PAPER
-        Chance: 5
+        Item: IRON_INGOT
+        Chance: 1
         Commands:
-        - "cmdi give {player_name} market15"
-        Name: "&b&l15% Market &f&lDiscount"
-        Item Data: 3
-        Amount: 1
+        - "cmdi give {player_name} brisbane"
+        Name: "&c&lBrisbane &f&lRank"
+        BroadcastMessagesToPlayers:
+          - "&c&l{player_name} &f&ljust won &c&lBrisbane &f&lRank"
       v:
         Enchanted: true
-        Item: PAPER
-        Chance: 5
+        Item: GOLD_INGOT
+        Chance: 1
         Commands:
-        - "cmdi give {player_name} market25"
-        Name: "&b&l25% Market &f&lDiscount"
+        - "cmdi give {player_name} melbourne"
+        Name: "&c&lMelbourne &f&lRank"
+        BroadcastMessagesToPlayers:
+          - "&c&l{player_name} &f&ljust won &c&lMelbourne &f&lRank"
+      w:
+        Enchanted: true
+        Item: DIAMOND
+        Chance: 0.9
+        Commands:
+        - "cmdi give {player_name} sydney"
+        Name: "&c&lSydney &f&lRank"
+        BroadcastMessagesToPlayers:
+          - "&c&l{player_name} &f&ljust won &c&lSydney &f&lRank"
+      x:
+        Enchanted: true
+        Item: NETHERITE_INGOT
+        Chance: 0.1
+        Commands:
+        - "cmdi give {player_name} ayssie"
+        Name: "&c&lAyssie &f&lRank"
+        BroadcastMessagesToPlayers:
+          - "&c&l{player_name} &f&ljust won &c&lAyssie &f&lRank"
   MoneyPouchCrate:
     Animation: "Display"
     #OnlyPlaceableAtWorld: "world, 502, 65, -152" #Works same as OnlyPlaceableAtLocations but has a specified world -> "worldName, x, y, z"

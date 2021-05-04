@@ -1023,3 +1023,578 @@ subway:
         ==: ItemMeta
         meta-type: UNSPECIFIC
         display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Subway"}],"text":""}'
+aystraliacratepickaxe:
+  CommandName: aystraliacratepickaxe
+  Delay: 10
+  Items:
+    '28':
+      v: 2586
+      type: NETHERITE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Aystralia
+          "},{"bold":true,"italic":false,"color":"white","text":"Pickaxe"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Tunnel
+          III"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Treasures
+          IV"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Telekinesis
+          III"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Smelter
+          VII"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Lucky
+          Miner III"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Haste
+          III"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"▸
+          Grants permanent Fast Digging IV effect."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"▸
+          30% chance to drop x4 more exp from ores."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"▸
+          105% chance to smelt ore on mining."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"▸
+          Moves all items to your inventory in a 5 block radius."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"▸
+          4% chance to find additional loot when mining/digging."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"▸
+          Mines/Digs multiple blocks at once."}],"text":""}'
+        enchants:
+          DIG_SPEED: 10
+          LOOT_BONUS_BLOCKS: 5
+          HASTE: 3
+          LUCKY_MINER: 3
+          MENDING: 1
+          SMELTER: 7
+          TELEKINESIS: 3
+          TREASURES: 4
+          TUNNEL: 3
+          DURABILITY: 10
+        PublicBukkitValues:
+          nexengine:fogus_loren-haste: §aHaste III
+          nexengine:fogus_loren-treasures_info: §8▸ 4% chance to find additional loot
+            when mining/digging.
+          nexengine:fogus_loren-telekinesis_info: §8▸ Moves all items to your inventory
+            in a 5 block radius.
+          nexengine:fogus_loren-telekinesis: §aTelekinesis III
+          nexengine:fogus_loren-smelter_info: §8▸ 105% chance to smelt ore on mining.
+          nexengine:fogus_loren-tunnel: §9Tunnel III
+          nexengine:fogus_loren-treasures: §9Treasures IV
+          nexengine:fogus_loren-tunnel_info: §8▸ Mines/Digs multiple blocks at once.
+          nexengine:fogus_loren-lucky_miner: §2Lucky Miner III
+          nexengine:fogus_loren-haste_info: §8▸ Grants permanent Fast Digging IV effect.
+          nexengine:fogus_loren-smelter: §aSmelter VII
+          nexengine:fogus_loren-lucky_miner_info: §8▸ 30% chance to drop x4 more exp
+            from ores.
+spawners:
+  CommandName: spawners
+  Delay: 10
+  Items:
+    '28':
+      v: 2586
+      type: WHITE_SHULKER_BOX
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":true,"color":"aqua","text":"i"},{"italic":false,"obfuscated":true,"color":"white","text":"i
+          "},{"bold":true,"italic":false,"obfuscated":false,"color":"aqua","text":"Spawners
+          "},{"bold":false,"italic":false,"obfuscated":true,"color":"white","text":"i"},{"italic":false,"obfuscated":true,"color":"aqua","text":"i"}],"text":""}'
+        internal: H4sIAAAAAAAAANWYXWvbMBSGTz6beEvTbt3Nroqvuz+Qy3Zl9KIlNIPBxgiyfeKI2FZqyeSj9FeMfTDY/9nPmmSHOCTZwCAviFw4isV73vfkwZJsAVhwfBkwd3IdCSoW74nfhsaNwJBbAHBcgfogYAJaUKUenIY0QjcmI9HjUzKLMLagJohvwZFH+TQgixbU70iI8PXRxrmIid379Gg7LPDs3ogEHC9sKkhA3fUwiTyMAymbz+AiphMU45gl/nj9K3NGCXeJ2JjosoDFds8mDwmxL2whK8rRZUCWeD7I/NlPn9c37KfdsFXo3NIonfwWpX/4bUE7GxJBstTdPLWjtKEKp7dkfockdhapEkUOzRpUlrJlIK9zdVXSZJ5L186rYKXDK5ZEAupVeHmPDwmN0evL+xjfk8hHOMmqvsqrhswZrvrdhm4q0WcCZWXZB/U3VWrQ/IDUHws1sKCZ5fuLfeVwkTnM/GR1pZ9G1oMzOaO7KsjfkDC1K4Xlp5F6V99SLipFufh+OC6uxtSdYKSTjI3cbqZuGBt7Amiko1qUji+Ho6NPfZ1kdPLMU+obRsWWeY1E1AxaRway0V5J6whX2oZRsWNfIxd1k7gYI07L4kJpG8xFal8jFw2DVpArNitpBXHZzDAmtsxrJKJZlIhvhyPiIwsdqvUocpLHXqbihnGx618jGkdF0fh1cDTkrjMkWo8kr7c6PKLoDeUuTro3jJV/JdFITasoNT8OR821UtQMzIs8OK7kDQNlXwKNgLRN2psGNCzr3RdX2oahsWNfIxeWQQ+OwQQDFKysBwdfyRtGx74EGgF5ZtBWdTClUrKkrSpPxQ2DY9e/RjSem/TePJaHer1sbL52ztQNg2NPAI10dIrS8fN/0uEr/TUCN7FcVd6xAEOdgJzl0aksMPRVAcMY2Z9BByYAfwCYGnA9uB0AAA==
+        blockMaterial: WHITE_SHULKER_BOX
+beets:
+  CommandName: beets
+  Delay: 30
+  Items:
+    '1':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '2':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '3':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '4':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '5':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '6':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '7':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '8':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '9':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '10':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '11':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '12':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '13':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '14':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '15':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '16':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '17':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '18':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '19':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '20':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '21':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '22':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '23':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '24':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '25':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '26':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '27':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '28':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '29':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '30':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '31':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '32':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '33':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '34':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '35':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    '36':
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    Helmet:
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    Chest:
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    Legs:
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    Boots:
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
+    OffHand:
+      v: 2586
+      type: BEETROOT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Dwight''s
+          "},{"bold":true,"italic":false,"color":"white","text":"Beets"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fresh
+          and locally sourced from Schrute Farms"}],"text":""}'
