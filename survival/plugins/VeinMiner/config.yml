@@ -4,8 +4,8 @@
 
 # To add a custom category, see the categories.yml
 
-MetricsEnabled: true
-PerformUpdateChecks: true
+MetricsEnabled: false
+PerformUpdateChecks: false
 
 SortBlocklistAlphabetically: true
 RepairFriendlyVeinminer: false
