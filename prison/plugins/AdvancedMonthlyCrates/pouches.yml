@@ -1,0 +1,148 @@
+# Pouches
+
+Pouches:
+  MoneyPouchI:
+    Item: ENDER_CHEST
+    Enchanted: true
+    OnlyPlacable: true
+    PouchStand: ENDER_CHEST
+    PouchStandEnchanted: false
+    CrouchInstaOpen: false
+    Height: 1.2
+    Speed: 2
+    Name: "&2&lTier I &f&lMoney Pouch"
+    ConvertBigNumbers: true
+    EndHologram:
+      - "&fYou have won &2${random_number} &ffrom this pouch!"
+    TitleMessage: "&2&l+${random_number}"
+    Lores:
+      - ''
+      - '&fPlace the Money Pouch to receive a'
+      - '&frandom amount of money!'
+      - ''
+      - '&2&l* Tier I'
+      - ''
+      - '&2&l* Reward'
+      - '&f- &f$10,000 - $50,000'
+      - ''
+      - '&f[Place down to open!]'
+    RandomNumberMin: 10000
+    RandomNumberMax: 50000
+    Rewards:
+      - "cmi money give {player_name} {random_number} -s"
+  MoneyPouchII:
+    Item: ENDER_CHEST
+    Enchanted: true
+    OnlyPlacable: true
+    PouchStand: ENDER_CHEST
+    PouchStandEnchanted: false
+    CrouchInstaOpen: false
+    Height: 1.2
+    Speed: 2
+    Name: "&a&lTier II &f&lMoney Pouch"
+    ConvertBigNumbers: true
+    EndHologram:
+      - "&fYou have won &a${random_number} &ffrom this pouch!"
+    TitleMessage: "&a&l+${random_number}"
+    Lores:
+      - ''
+      - '&fPlace the Money Pouch to receive a'
+      - '&frandom amount of money!'
+      - ''
+      - '&a&l* Tier II'
+      - ''
+      - '&a&l* Reward'
+      - '&f- &f$50,000 - $100,000'
+      - ''
+      - '&f[Place down to open!]'
+    RandomNumberMin: 50000
+    RandomNumberMax: 100000
+    Rewards:
+      - "cmi money give {player_name} {random_number} -s"
+  MoneyPouchIII:
+    Item: ENDER_CHEST
+    Enchanted: true
+    OnlyPlacable: true
+    PouchStand: ENDER_CHEST
+    PouchStandEnchanted: false
+    CrouchInstaOpen: false
+    Height: 1.2
+    Speed: 2
+    Name: "&9&lTier III &f&lMoney Pouch"
+    ConvertBigNumbers: true
+    EndHologram:
+      - "&fYou have won &9${random_number} &ffrom this pouch!"
+    TitleMessage: "&9&l+${random_number}"
+    Lores:
+      - ''
+      - '&fPlace the Money Pouch to receive a'
+      - '&frandom amount of money!'
+      - ''
+      - '&9&l* Tier III'
+      - ''
+      - '&9&l* Reward'
+      - '&f- &f$100,000 - $200,000'
+      - ''
+      - '&f[Place down to open!]'
+    RandomNumberMin: 100000
+    RandomNumberMax: 200000
+    Rewards:
+      - "cmi money give {player_name} {random_number} -s"
+  MoneyPouchIV:
+    Item: ENDER_CHEST
+    Enchanted: true
+    OnlyPlacable: true
+    PouchStand: ENDER_CHEST
+    PouchStandEnchanted: false
+    CrouchInstaOpen: false
+    Height: 1.2
+    Speed: 2
+    Name: "&3&lTier IV &f&lMoney Pouch"
+    ConvertBigNumbers: true
+    EndHologram:
+      - "&fYou have won &3${random_number} &ffrom this pouch!"
+    TitleMessage: "&3&l+${random_number}"
+    Lores:
+      - ''
+      - '&fPlace the Money Pouch to receive a'
+      - '&frandom amount of money!'
+      - ''
+      - '&3&l* Tier IV'
+      - ''
+      - '&3&l* Reward'
+      - '&f- &f$200,000 - $500,000'
+      - ''
+      - '&f[Place down to open!]'
+    RandomNumberMin: 200000
+    RandomNumberMax: 500000
+    Rewards:
+      - "cmi money give {player_name} {random_number} -s"
+  MoneyPouchV:
+    Item: ENDER_CHEST
+    Enchanted: true
+    OnlyPlacable: true
+    PouchStand: ENDER_CHEST
+    PouchStandEnchanted: false
+    CrouchInstaOpen: false
+    Height: 1.2
+    Speed: 2
+    Name: "&b&lTier V &f&lMoney Pouch"
+    ConvertBigNumbers: true
+    EndHologram:
+      - "&fYou have won &b${random_number} &ffrom this pouch!"
+    TitleMessage: "&b&l+${random_number}"
+    Lores:
+      - ''
+      - '&fPlace the Money Pouch to receive a'
+      - '&frandom amount of money!'
+      - ''
+      - '&b&l* Tier V'
+      - ''
+      - '&b&l* Reward'
+      - '&f- &f$500,000 - $1,000,000'
+      - ''
+      - '&f[Place down to open!]'
+    RandomNumberMin: 500000
+    RandomNumberMax: 1000000
+    Rewards:
+      - "cmi money give {player_name} {random_number} -s"

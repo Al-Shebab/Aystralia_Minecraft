@@ -1,0 +1,222 @@
+Update-Checking:
+  # Would you like to check for new jenkins builds?
+  # Default: true
+  Enabled: false
+
+  ##########################################
+  #  The unit of time for update checking  #
+  #  Time Units:                          #
+  #  - SECONDS                            #
+  #  - MINUTES                            #
+  #  - HOURS                              #
+  #  - DAYS                               #
+  ##########################################
+  unit: HOURS
+  time: 12
+
+# Enabling this would require players to have access to at least 1 pets permission
+# Default: false
+Needs-Pet-Permission-To-Open-GUI: true
+
+# Disabling this would grant ALL players access to pets (they wont need permissions)
+# Default: true
+Needs-Permission: true
+
+# Disabling this would remove all the pets the player does not have access to from the GUI
+# Default: true
+Remove-Item-If-No-Permission: true
+
+# Disabling this will remove a players pet when they change worlds
+# Default true
+RemovePetsOnWorldChange: false
+Economy:
+  # Enabling this would allow players to buy pets via Vault/TokenManager
+  # Default: false
+  Enabled: false
+  # What type of economy do you have?
+  # Economy Types:
+  # - UNKNOWN
+  # - VAULT
+  # - TOKEN_MANAGER
+  # Default: 'UNKNOWN'
+  Type: UNKNOWN
+
+# Disabling this would make it so there is no particles when a player renames/removes/spawns a pet
+# Default: true
+ShowParticles: false
+
+# Disabling this would allow other plugins to deny the pets from spawning
+# Default: true
+Complete-Mobspawning-Deny-Bypass: true
+PetItemStorage:
+  # Disabling this will remove players access to a GUI that stores items
+  # Default: true
+  Enable: true
+  # What size would you like the inventory to be?
+  # Sizes: 9,18,27,36,45,54
+  # Default: 27
+  Inventory-Size: 27
+
+# Disabling this will make it so players do not need to have any data permissions (EG. pet.type.armorstand.data.silent)
+# Default: true
+Needs-Data-Permissions: true
+Pathfinding:
+  # How far away can the pets stand near the player?
+  # Default: 1.9
+  Distance-to-Player: 1.9
+  # How far away can the large pets (Giants/Ghast) stand near the player?
+  # Default: 2.9
+  Distance-to-Player_LargePets: 2.9
+  # How far away from the player does the pet have to be before it teleports closer?
+  # Default: 20
+  Min-Distance-For-Teleport: 20.0
+  # How far away can the pet be before it will stop walking near the player?
+  # Default: 3
+  Stopping-Distance: 3.0
+  # How far away can the large pet (Giant/Ghast) be before it will stop walking near the player?
+  # Default: 7
+  Stopping-Distance_LargePets: 7.0
+Worlds:
+  # Enabling this will make it so pets only work in the worlds that are listed in 'Allowed-Worlds'
+  # Default: false
+  Enabled: false
+  Allowed-Worlds:
+  - world
+
+###########################################################
+#  Recently our code changed to support WorldGuard flags  #
+#  Flag Names:                                            #
+#  - allow-pet-spawn                                      #
+#  - allow-pet-enter                                      #
+#  - allow-pet-riding                                   #
+###########################################################
+WorldGuard:
+  # This is the bypass permission for WorldGuard
+  # Default: region.bypass
+  BypassPermission: region.bypass
+PlotSquared:
+  # This is the bypass permission for PlotSquared
+  # Default: plots.admin
+  BypassPermission: plots.admin
+  On-Unclaimed-Plots:
+    # Are pets allowed to move on unclaimed plots?
+    # Default: true
+    Move: true
+    # Are pets allowed to be spawned on unclaimed plots?
+    # Default: true
+    Spawn: true
+    # Are players allowed to ride pets on unclaimed plots?
+    # Default: true
+    Riding: true
+  On-Roads:
+    # Are pets allowed to move on the roads?
+    # Default: true
+    Move: true
+    # Are pets allowed to be spawned while on roads
+    # Default: true
+    Spawn: true
+    # Are players allowed to ride pets while on a road
+    # Default: true
+    Riding: true
+  Block-If-Denied:
+    # Are pets allowed to move on a plot their owner is blocked on?
+    # Default: true
+    Move: true
+    # Are pets allowed to be spawned on plots their owner is blocked on?
+    # (Is this even needed? Its not like they can get on the plot anyway XD)
+    # 
+    # Default: true
+    Spawn: true
+    # Can player ride their pets onto plots they are denied on?
+    # Default: true
+    Riding: true
+WorldBorder:
+  Block-If-Denied:
+    # Are pets allowed to move when inside a WorldBorder?
+    # Default: true
+    Move: true
+    # Can pets be spawned in a WorldBorder?
+    # Default: true
+    Spawn: true
+    # Can a player ride a pet in a WorldBorder?
+    # Default: true
+    Riding: true
+MySQL:
+  # Would you like to use MySQL to save player/pet data?
+  # Default: false
+  Enabled: false
+  Host: host
+  Port: '3306'
+  # Example: SimplePets
+  DatabaseName: insert_DatabaseName
+  Login:
+    Username: username
+    Password: password
+  Options:
+    UseSSL: false
+    # Enabling this will make the plugin attempt to reconnect to the database
+    # Default: false
+    AutoReconnect: false
+Debug:
+  # Would you like to view Debug information in the console/logs?
+  # It can help us see where issues are.
+  # Default: false
+  Enabled: false
+  # What level of debug info would you like to see?
+  # 0 = Normal Info
+  # 1 = Moderate Info (Warnings)
+  # 2 = Critical/Errors (No explanation here i hope...)
+  Levels:
+  - '0'
+  - '1'
+  - '2'
+PetToggles:
+  # When the owner is vanished should the owner see their pet with the glow effect?
+  # Default: true
+  GlowWhenVanished: true
+  # Should pet names be hidden when their owner sneaks?
+  # Default: true
+  HideNameOnShift: true
+  AutoRemove:
+    # Disabling this will make it so pets wont be automatically removed if the player is afk
+    # Default: true
+    Enabled: false
+    # What should the wait be?
+    # This is in ticks (20 ticks = 1 second)
+    # Default: 10000
+    TickDelay: 10000
+  # Are all pets able to be rideable?
+  # Default: true
+  All-Pets-Mountable: true
+  # Are all pets able to be worn as hats?
+  # Default: true
+  All-Pets-Hat: true
+
+# When a player logs back in should their pet be spawned in as well?
+# NOTE: If the player removed their pet before logging out then it wont respawn.
+# Default: true
+Respawn-Last-Pet-On-Login: true
+RenamePet:
+  # Should players be able to rename pets?
+  # Default: true
+  Enabled: true
+  # Should pet names be changed in an anvil?
+  # true = Anvil
+  # false = Chat
+  # Default: true
+  ViaAnvil: false
+  # Should the name have a limited number of characters?
+  # Default: false
+  Limit-Number-Of-Characters: false
+  # What should the character limit be set to?
+  # Default: 10
+  CharacterLimit: 16
+  # Are there words you don't want in a pets name?
+  Blocked-Words:
+  - jeb_
+  # Are pet names allowed to have the &k color code?
+  # Default: false
+  Allow-&k: true
+  # Are pet names allowed to be colored?
+  # Default: true
+  Allow-ColorCodes: true

@@ -1,0 +1,146 @@
+CMD_PLAYER_ONLY: This command is for players only
+NO_PERMISSION: '&cYou don''t have permission to use this command!'
+PLAYER_NOT_FOUND: '&cPlayer not found.'
+DISABLED_IN_WORLD: '&cCoinflip is disabled in this world.'
+CMD_HELP: help
+CMD_GUI: gui
+CMD_STATS: stats
+CMD_ANIMATION: animation
+CMD_CLEAR: clear
+CMD_RELOAD: reload
+CMD_CONFIG: config
+CMD_CONVERT: convert
+CMD_HISTORY: history
+CONVERT_START: '&b&lCoinflip &8>&f Converting .yml stats to SQLite...'
+CONVERT_SUCCESS: '&b&lCoinflip &8>&f Done'
+CONVERT_FAIL: '&b&lCoinflip &8>&f Converting failed. Please see console for more information.'
+HEADS: Heads
+TAILS: Tails
+WRONG_MONEY: '&c%NUMBER% is not recognized as a number.'
+SYNTAX_L1: '&bSyntax'
+SYNTAX_L2: '&b/coinflip [amount] [heads/tails] &f- &fPlaces a Coinflip game'
+SYNTAX_L3: '&b/coinflip gui &f- &fOpens the GUI'
+SYNTAX_L4: '&b/coinflip stats &f- View your stats'
+SYNTAX_L5: '&b/coinflip animation &f- Create or delete animations.'
+MIN_BET: '&cPlease provide a bet over &b%MIN_BET%'
+MAX_BET: '&cPlease provide a bet under &b%MAX_BET%'
+PLACE_TRIAL_PICKSIDE: '&cPlease choose a site. (heads/tails)'
+PLACE_SUCCESSFUL: '&bSuccessfully placed a Coinflip game.'
+PLACE_FAILED_ALREADYGAME: '&cYou have reached your limit of Coinflip games simultaneously.'
+PLACE_FAILED_MAXBETS: '&cThere can only be %NUM% bets active at once.'
+PLACE_FAILED_NOMONEY: '&cYou don''t have enough money to do this.'
+PLACE_NOT_POSSIBLE_NOMONEY: '&cYou need atleast &f%MINMON% &cto place bets.'
+CLEAR_SUCCESSFUL: '&bCleared all bets'
+CLEAR_FAILED_NOBETS: '&cThere are no bets to clear.'
+HELP_ITEM_L1: '&b&lCoinflip Help'
+HELP_ITEM_L2: '&fLeft-click to challenge flip'
+HELP_ITEM_L3: '&fRight-click to remove your flip'
+HELP_ITEM_L4: '&f''/coinflip help'' for more help with the commands.'
+CREATE: '&fCreate'
+MENU_HEAD_GAME: '&fGame #%ID%'
+MENU_HEAD_PLAYER: '&fPlayer: &b%PLAYER%'
+MENU_HEAD_MONEY: '&fMoney: &b%MONEY%'
+MENU_HEAD_TIMEREMAINING: '&fTime remaining: &b%HOURS% hours, %MINUTES% minutes'
+MENU_HEAD_SIDE: '&fSide: &b%SIDE%'
+BET_REMOVE_SELF_CONFIRM: '&cRight click once more to confirm you want to remove your
+  bet.'
+BET_REMOVE_SELF_SUCCESSFUL: '&bSuccessfully removed your bet.'
+BET_REMOVE_OTHER_CONFIRM: '&cRight click once more to confirm you want to remove %PLAYER%''s
+  bet.'
+BET_REMOVE_OTHER_SUCCESSFUL: '&bSuccessfully removed %PLAYER%''s bet.'
+BET_REMOVE_OTHER_NOTIFICATION: '&cYour bet has been removed'
+BET_EXPIRE_REFUND: '&cYour bet has expired. You have been refunded &f%MONEY%'
+BET_CHALLENGE_CANTSELF: '&cYou can''t challenge your own bet!'
+BET_CHALLENGE_ALREADYSPINNING: '&cThe player you are trying to challenge is already
+  in a Coinflip game.'
+BET_CHALLENGE_NOMONEY: '&cYou can''t afford to challenge this bet.'
+BET_TITLE_VICTORY: '&bVictory'
+BET_TITLE_LOSS: '&cLoss'
+BET_WON: '&a+%MONEY%'
+BET_LOST: '&c-%MONEY%'
+HIGH_GAME_BROADCAST: '&b%WINNER% &fjust won a bet worth &b%MONEY% &fagainst &b%LOSER%'
+BET_TITLE_COMBAT: '&cCombat'
+BET_START_COMBAT: '&fA Coinflip game you participate in is running but you are
+  in combat.'
+STATS_NOSTATS: '&cYou have no stats to be found. Please relog to get it.'
+STATS_STATS: '&b&l%PLAYER%''s Statistics'
+STATS_GAMESWON: '&fGames won: &b%AMOUNT%'
+STATS_GAMESLOST: '&fGames lost: &b%AMOUNT%'
+STATS_WINPERCENTAGE: '&fWin percentage: &b%AMOUNT%%'
+STATS_MONEYWON: '&fMoney won: &b%AMOUNT%'
+STATS_MONEYSPENT: '&fMoney spent: &b%AMOUNT%'
+STATS_MONEYEARNED: '&fMoney earned: &b%AMOUNT%'
+RELOAD_SUCCESS: '&bCoinflip Files reloaded successfully.'
+GUI_SELECTION: Coinflip Selection
+GUI_CONFIGURATOR: Coinflip Configurator
+GUI_GAME: Coinflip
+GUI_GAME_18: Coinflip Game
+CREATION_NAME: Coinflip Creation
+CREATION_MONEY: '&f&lMoney: &b%MONEY%'
+CREATION_SIDE: '&f&lSide: &b%SIDE%'
+CREATION_BET: '&f&lBet'
+CREATION_MONEY_COLOR: '&b'
+CREATION_MONEY_T1: $1
+CREATION_MONEY_T2: $10
+CREATION_MONEY_T3: $100
+CREATION_MONEY_T4: $1000
+CREATION_MONEY_T5: $10000
+CREATION_MONEY_MAX: Maximum bet
+CREATION_MONEY_LEFTTOADD: '&bLeft click to add this to your bet'
+CREATION_MONEY_RIGHTTOREMOVE: '&cRight click to remove this from your bet.'
+CREATION_MONEY_CUSTOM: Custom value
+CREATION_MONEY_CUSTOM_DESC: '&bEnter custom value'
+CREATION_MONEY_CUSTOM_SPEC: '&bPlease specify how much money you want to set your
+  bet to. Exit typing &f''exit''&b.'
+CREATION_MONEY_CUSTOM_NOMONEY: '&cYou can''t afford this bet.'
+CREATION_MONEY_CUSTOM_SUCCESS: '&bBet money sat to $%MONEY%'
+ANIMATION_CREATE_GIVENAME: '&fPlease specify name of new animation. ''exit'' to exit.'
+ANIMATION_CREATE_ALREADYEXISTS: '&cAn animation with name %ANIMATION% already exists.'
+ANIMATION_CREATE_SUCCESS: '&bNew animation with name %ANIMATION% generated.'
+ANIMATION_CLONE_GIVENAME: '&fPlease write the name of the new copied animation.'
+ANIMATION_CLONE_SUCCESS: '&bAnimation copied successfully.'
+ANIMATION_REMOVE_CANT_REMOVE_DEFAULT: '&cYou can''t remove an default animation.'
+ANIMATION_REMOVE_CANT_REMOVE_ALL: '&cYou can''t remove the last remaining animation.'
+ANIMATION_REMOVE_SUCCESS: '&bSuccessfully removed animation %ANIMATION%.'
+ANIMATION_GUI_CREATE: '&b&lCreate'
+ANIMATION_GUI_DELETE: '&c&lDelete'
+ANIMATION_GUI_CLONE: '&f&lClone'
+ANIMATION_GUI_DEFANIM: '&fDefault animation'
+BACK: '&c&lBack'
+ANIMATION_FRAMEEDITOR_COPYLAST: '&dCopy last frame'
+ANIMATION_FRAMEEDITOR_P1HEAD: '&fPlayer 1 Skull'
+ANIMATION_FRAMEEDITOR_P2HEAD: '&fPlayer 2 Skull'
+ANIMATION_FRAMEEDITOR_WINNERHEAD: '&fWinner Skull'
+NEXT: '&bNext'
+ANIMATION_FRAMEEDITOR_CURRENT: '&fCurrent frame: %FRAME%'
+PREVIOUS: '&bPrevious'
+ANIMATION_ROLL_P1SKULL: '&f%PLAYER%'
+ANIMATION_ROLL_P2SKULL: '&f%PLAYER%'
+ANIMATION_ROLL_WINNERSKULL: '&b&lWinner: &f%PLAYER%'
+ANIMATION_ROLL_ROLLING: Rolling...
+ANIMATION_ROLL_WINNERCHOSEN: '&bWinner chosen.'
+INPUT_NOTNUM: '&cPlease specify a number'
+INPUT_NOTBOOLEAN: '&cPlease specify a boolean (true/false)'
+INPUT_NOTSOUND: Please specify a correct sound.
+INPUT_EMPTY: '&cYour input needs to have a lenght of over 0.'
+CONFIGURATOR_SPEC: '&bPleace specify the new value for %CVAR%. &bType ''exit'' to
+  exit.'
+CONFIGURATOR_EDIT_SUCCESSFUL: '&bSuccessfully changed value of &f%CVAR% &bto &f%VALUE%'
+CONFIGURATOR_MESSAGE_PREVIEW: '&fPlease preview new message for %CVAR%'
+CONFIGURATOR_MESSAGE_CONFIRM: '&b&lConfirm'
+CONFIGURATOR_MESSAGE_CHANGE: '&b&lChange'
+CONFIGURATOR_MESSAGE_CANCEL: '&c&lCancel'
+ERROR_UNDER_MIN: '&cPlease provide a number over &b%MIN_BET%'
+ERROR_OVER_MAX: '&cPlease provide a number under &b%MAX_BET%'
+HISTORY_INVENTORY: '%player%''s Coinflip history'
+HISTORY_GAME: '&bGame #%id%'
+HISTORY_TIME: '&fTime: &b%time%'
+HISTORY_VICTORY: '&fStatus: &bWIN'
+HISTORY_OPPONENT: '&fOpponent: &b%opponent%'
+HISTORY_LOSS: '&fStatus: &cLOSS'
+HISTORY_IN_POT: '&fIn pot: &b%money%'
+HISTORY_MONEY_WON: '&fMoney won: &b%money%'
+HISTORY_MONEY_LOST: '&fMoney lost: &c%money%'
+HISTORY_TAX: '&fTaxed: &b%tax%%'
+GAMES_PLAYED_WHEN_OFFLINE: '&bSomeone has challenged your Coinflip game(s) while
+  you were offline.%newline%Check them at &f/coinflip history'

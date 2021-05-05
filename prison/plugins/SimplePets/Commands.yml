@@ -1,0 +1,19 @@
+prefix: '&bSimplePets &8>>'
+Info:
+  Pet-Data-Header: '{prefix} &f%player%''s Pet Data:'
+  Pet-Data-Values: '&f- &b%key%&f: &r%value%'
+  Excluded-Data-Values: []
+Help:
+  Header: '&f&m-------&b SimplePets Commands &f&m-------'
+List:
+  List-Display: '&bPet list &f(&f%size%&f)&b: %list%'
+  List-Pet-Not-Supported:
+  - '&cPet is not supported'
+  - '&cin your current version.'
+Modify:
+  Invalid-JSON: '{prefix} &cInvalid JSON has been entered.'
+  Invalid-JSON-Error-Player: '{prefix} &cError: %error%'
+  Pet-Modified: '{prefix} &fYou have changed &c%player%''s &fPet Data.'
+Inv:
+  No-Pet-Items: '{prefix} &fNo items stored in your Pet Inventory.'
+  No-Pet-Items-Other: '{prefix} &fNo items stored for %player%.'

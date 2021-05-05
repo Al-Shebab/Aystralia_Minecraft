@@ -1,0 +1,2461 @@
+menu_title: '&b&lTags'
+open_command:
+- tags
+- tag
+- tagmenu
+- tagsmenu
+- deluxetags:tags
+size: 45
+items:
+  'Decorations':
+    display_name: '&f'
+    material: 160
+    data: 7
+    slots:
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 36
+    - 37
+    - 38
+    - 39
+    - 41
+    - 42
+    - 43
+    - 44
+  'Back':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+    slot: 40
+    display_name: '&b[*] &bBack'
+    lore: ''
+    left_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'  
+    - '[close]'
+    - '[openguimenu] perks'
+    right_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'  
+    - '[close]'
+    - '[openguimenu] perks'
+  'StaffNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 0
+    display_name: '&f[&4&lStaff&f] &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.staff'
+    lore:
+    - ''
+    - '&cUnavailable'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.staff'
+      deny_commands:
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.staff'
+      deny_commands:
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'StaffOn':
+    material: name_tag
+    priority: 2
+    slot: 0
+    display_name: '&f[&4&lStaff&f] &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.staff'
+    lore:
+    - ''
+    - '&fClick to toggle'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% staff'
+    - '[console] lp user %player_name% permission set deluxetags.tag.staff.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.staff.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.staff.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% staff'
+    - '[console] lp user %player_name% permission set deluxetags.tag.staff.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.staff.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.staff.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'StaffOff':
+    material: name_tag
+    priority: 1
+    slot: 0
+    display_name: '&f[&4&lStaff&f] &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.staff.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.staff.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.staff.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.staff.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.staff.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.staff.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.staff.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'alshebabNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 1
+    display_name: '&f[&cالشباب&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.alshebab'
+    lore:
+    - ''
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.alshebab'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.alshebab'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'alshebabOn':
+    material: name_tag
+    priority: 2
+    slot: 1
+    display_name: '&f[&cالشباب&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.alshebab'
+    lore:
+    - ''
+    - '&fClick to toggle'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% alshebab'
+    - '[console] lp user %player_name% permission set deluxetags.tag.alshebab.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.alshebab.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.alshebab.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% alshebab'
+    - '[console] lp user %player_name% permission set deluxetags.tag.alshebab.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.alshebab.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.alshebab.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'alshebabOff':
+    material: name_tag
+    priority: 1
+    slot: 1
+    display_name: '&f[&cالشباب&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.alshebab.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.alshebab.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.alshebab.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.alshebab.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.alshebab.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.alshebab.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.alshebab.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'feeyneNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 2
+    display_name: '&f[&b&l7 CPS&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.feeyne'
+    lore:
+    - ''
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.feeyne'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.feeyne'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'feeyneOn':
+    material: name_tag
+    priority: 2
+    slot: 2
+    display_name: '&f[&b&l7 CPS&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.feeyne'
+    lore:
+    - ''
+    - '&fClick to toggle'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% feeyne'
+    - '[console] lp user %player_name% permission set deluxetags.tag.feeyne.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.feeyne.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.feeyne.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% feeyne'
+    - '[console] lp user %player_name% permission set deluxetags.tag.feeyne.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.feeyne.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.feeyne.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'feeyneOff':
+    material: name_tag
+    priority: 1
+    slot: 2
+    display_name: '&f[&b&l7 CPS&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.feeyne.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.feeyne.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.feeyne.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.feeyne.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.feeyne.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.feeyne.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.feeyne.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'mistikNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 3
+    display_name: '&f[&8&lN&0&lZ&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.mistik'
+    lore:
+    - ''
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.mistik'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.mistik'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'mistikOn':
+    material: name_tag
+    priority: 2
+    slot: 3
+    display_name: '&f[&8&lN&0&lZ&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.mistik'
+    lore:
+    - ''
+    - '&fClick to toggle'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% mistik'
+    - '[console] lp user %player_name% permission set deluxetags.tag.mistik.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.mistik.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.mistik.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% mistik'
+    - '[console] lp user %player_name% permission set deluxetags.tag.mistik.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.mistik.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.mistik.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'mistikOff':
+    material: name_tag
+    priority: 1
+    slot: 3
+    display_name: '&f[&8&lN&0&lZ&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.mistik.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.mistik.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.mistik.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.mistik.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.mistik.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.mistik.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.mistik.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'betatesterNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 4
+    display_name: '&f[&d&lBeta Tester&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.betatester'
+    lore:
+    - ''
+    - '&cUnavailable'
+    - '&cGiven to anyone playing prior to 1/5/21'
+    left_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.betatester'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.betatester'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'betatesterOn':
+    material: name_tag
+    priority: 2
+    slot: 4
+    display_name: '&f[&d&lBeta Tester&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.betatester'
+    lore:
+    - ''
+    - '&fClick to toggle'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% betatester'
+    - '[console] lp user %player_name% permission set deluxetags.tag.betatester.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.betatester.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.betatester.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% betatester'
+    - '[console] lp user %player_name% permission set deluxetags.tag.betatester.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.betatester.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.betatester.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'betatesterOff':
+    material: name_tag
+    priority: 1
+    slot: 4
+    display_name: '&f[&d&lBeta Tester&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.betatester.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.betatester.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.betatester.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.betatester.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.betatester.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.betatester.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.betatester.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'simpNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 5
+    display_name: '&f[&d&lSimp&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.simp'
+    lore:
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.simp'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.simp'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'simpOn':
+    material: name_tag
+    priority: 2
+    slot: 5
+    display_name: '&f[&d&lSimp&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.simp'
+    lore:
+    - ''
+    - '&fClick to toggle'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% simp'
+    - '[console] lp user %player_name% permission set deluxetags.tag.simp.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.simp.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.simp.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% simp'
+    - '[console] lp user %player_name% permission set deluxetags.tag.simp.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.simp.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.simp.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'simpOff':
+    material: name_tag
+    priority: 1
+    slot: 5
+    display_name: '&f[&d&lSimp&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.simp.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.simp.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.simp.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.simp.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.simp.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.simp.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.simp.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'ogNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 6
+    display_name: '&f[&2&lO&a&lG&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.og'
+    lore:
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.og'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.og'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'ogOn':
+    material: name_tag
+    priority: 2
+    slot: 6
+    display_name: '&f[&2&lO&a&lG&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.og'
+    lore:
+    - ''
+    - '&fClick to toggle'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% og'
+    - '[console] lp user %player_name% permission set deluxetags.tag.og.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.og.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.og.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% og'
+    - '[console] lp user %player_name% permission set deluxetags.tag.og.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.og.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.og.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'ogOff':
+    material: name_tag
+    priority: 1
+    slot: 6
+    display_name: '&f[&2&lO&a&lG&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.og.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.og.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.og.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.og.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.og.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.og.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.og.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'highrollerNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 7
+    display_name: '&f[&e&lHigh &6&lRoller&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.highroller'
+    lore:
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.highroller'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.highroller'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'highrollerOn':
+    material: name_tag
+    priority: 2
+    slot: 7
+    display_name: '&f[&e&lHigh &6&lRoller&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.highroller'
+    lore:
+    - ''
+    - '&fClick to toggle'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% highroller'
+    - '[console] lp user %player_name% permission set deluxetags.tag.highroller.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.highroller.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.highroller.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% highroller'
+    - '[console] lp user %player_name% permission set deluxetags.tag.highroller.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.highroller.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.highroller.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'highrollerOff':
+    material: name_tag
+    priority: 1
+    slot: 7
+    display_name: '&f[&e&lHigh &6&lRoller&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.highroller.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.highroller.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.highroller.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.highroller.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.highroller.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.highroller.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.highroller.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'toxicNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 8
+    display_name: '&f[&a&lTO&2&lXIC&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.toxic'
+    lore:
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.toxic'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.toxic'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'toxicOn':
+    material: name_tag
+    priority: 2
+    slot: 8
+    display_name: '&f[&a&lTO&2&lXIC&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.toxic'
+    lore:
+    - ''
+    - '&fClick to toggle'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% toxic'
+    - '[console] lp user %player_name% permission set deluxetags.tag.toxic.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.toxic.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.toxic.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% toxic'
+    - '[console] lp user %player_name% permission set deluxetags.tag.toxic.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.toxic.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.toxic.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'toxicOff':
+    material: name_tag
+    priority: 1
+    slot: 8
+    display_name: '&f[&a&lTO&2&lXIC&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.toxic.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.toxic.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.toxic.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.toxic.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.toxic.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.toxic.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.toxic.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'nullNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 9
+    display_name: '&f[&c&lnull&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.null'
+    lore:
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.null'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.null'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'nullOn':
+    material: name_tag
+    priority: 2
+    slot: 9
+    display_name: '&f[&c&lnull&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.null'
+    lore:
+    - ''
+    - '&fClick to toggle'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% notnull'
+    - '[console] lp user %player_name% permission set deluxetags.tag.null.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.null.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.null.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% notnull'
+    - '[console] lp user %player_name% permission set deluxetags.tag.null.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.null.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.null.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'nullOff':
+    material: name_tag
+    priority: 1
+    slot: 9
+    display_name: '&f[&c&lnull&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.null.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.null.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.null.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.null.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.null.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.null.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.null.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'voidNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 10
+    display_name: '&f[&0&lVOID&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.void'
+    lore:
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.void'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.void'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'voidOn':
+    material: name_tag
+    priority: 2
+    slot: 10
+    display_name: '&f[&0&lVOID&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.void'
+    lore:
+    - ''
+    - '&fClick to toggle'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% void'
+    - '[console] lp user %player_name% permission set deluxetags.tag.void.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.void.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.void.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% void'
+    - '[console] lp user %player_name% permission set deluxetags.tag.void.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.void.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.void.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'voidOff':
+    material: name_tag
+    priority: 1
+    slot: 10
+    display_name: '&f[&0&lVOID&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.void.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.void.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.void.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.void.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.void.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.void.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.void.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'downbadNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 11
+    display_name: '&f[&9&lDown &1&lBad&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.downbad'
+    lore:
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.downbad'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.downbad'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'downbadOn':
+    material: name_tag
+    priority: 2
+    slot: 11
+    display_name: '&f[&9&lDown &1&lBad&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.downbad'
+    lore:
+    - ''
+    - '&fClick to toggle'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% downbad'
+    - '[console] lp user %player_name% permission set deluxetags.tag.downbad.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.downbad.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.downbad.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% downbad'
+    - '[console] lp user %player_name% permission set deluxetags.tag.downbad.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.downbad.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.downbad.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'downbadOff':
+    material: name_tag
+    priority: 1
+    slot: 11
+    display_name: '&f[&9&lDown &1&lBad&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.downbad.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.downbad.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.downbad.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.downbad.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.downbad.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.downbad.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.downbad.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'virginNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 12
+    display_name: '&f[&5&lVirgin&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.virgin'
+    lore:
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.virgin'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.virgin'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'virginOn':
+    material: name_tag
+    priority: 2
+    slot: 12
+    display_name: '&f[&5&lVirgin&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.virgin'
+    lore:
+    - ''
+    - '&fClick to toggle'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% virgin'
+    - '[console] lp user %player_name% permission set deluxetags.tag.virgin.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.virgin.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.virgin.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% virgin'
+    - '[console] lp user %player_name% permission set deluxetags.tag.virgin.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.virgin.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.virgin.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'virginOff':
+    material: name_tag
+    priority: 1
+    slot: 12
+    display_name: '&f[&5&lVirgin&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.virgin.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.virgin.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.virgin.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.virgin.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.virgin.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.virgin.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.virgin.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'moneyNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 13
+    display_name: '&f[&a&l$&2&l$&a&l$&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.money'
+    lore:
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.money'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.money'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'moneyOn':
+    material: name_tag
+    priority: 2
+    slot: 13
+    display_name: '&f[&a&l$&2&l$&a&l$&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.money'
+    lore:
+    - ''
+    - '&fClick to toggle'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% money'
+    - '[console] lp user %player_name% permission set deluxetags.tag.money.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.money.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.money.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% money'
+    - '[console] lp user %player_name% permission set deluxetags.tag.money.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.money.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.money.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'moneyOff':
+    material: name_tag
+    priority: 1
+    slot: 13
+    display_name: '&f[&a&l$&2&l$&a&l$&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.money.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.money.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.money.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.money.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.money.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.money.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.money.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'rainbowNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 14
+    display_name: '&f[&c&lR&6&la&e&li&2&ln&a&lb&b&lo&3&lw&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.rainbow'
+    lore:
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.rainbow'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.rainbow'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'rainbowOn':
+    material: name_tag
+    priority: 2
+    slot: 14
+    display_name: '&f[&c&lR&6&la&e&li&2&ln&a&lb&b&lo&3&lw&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.rainbow'
+    lore:
+    - ''
+    - '&fClick to toggle'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% rainbow'
+    - '[console] lp user %player_name% permission set deluxetags.tag.rainbow.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.rainbow.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.rainbow.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% rainbow'
+    - '[console] lp user %player_name% permission set deluxetags.tag.rainbow.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.rainbow.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.rainbow.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'rainbowOff':
+    material: name_tag
+    priority: 1
+    slot: 14
+    display_name: '&f[&c&lR&6&la&e&li&2&ln&a&lb&b&lo&3&lw&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.rainbow.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.rainbow.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.rainbow.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.rainbow.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.rainbow.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.rainbow.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.rainbow.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'exploitNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 15
+    display_name: '&f[&4&lExploit&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.exploit'
+    lore:
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.exploit'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.exploit'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'exploitOn':
+    material: name_tag
+    priority: 2
+    slot: 15
+    display_name: '&f[&4&lExploit&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.exploit'
+    lore:
+    - ''
+    - '&fClick to toggle'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% exploit'
+    - '[console] lp user %player_name% permission set deluxetags.tag.exploit.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.exploit.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.exploit.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% exploit'
+    - '[console] lp user %player_name% permission set deluxetags.tag.exploit.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.exploit.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.exploit.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'exploitOff':
+    material: name_tag
+    priority: 1
+    slot: 15
+    display_name: '&f[&4&lExploit&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.exploit.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.exploit.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.exploit.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.exploit.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.exploit.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.exploit.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.exploit.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'hackerNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 16
+    display_name: '&f[&4&lHacker&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.hacker'
+    lore:
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.hacker'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.hacker'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'hackerOn':
+    material: name_tag
+    priority: 2
+    slot: 16
+    display_name: '&f[&4&lHacker&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.hacker'
+    lore:
+    - ''
+    - '&fClick to toggle'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% hacker'
+    - '[console] lp user %player_name% permission set deluxetags.tag.hacker.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.hacker.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.hacker.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% hacker'
+    - '[console] lp user %player_name% permission set deluxetags.tag.hacker.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.hacker.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.hacker.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'hackerOff':
+    material: name_tag
+    priority: 1
+    slot: 16
+    display_name: '&f[&4&lHacker&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.hacker.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.hacker.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.hacker.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.hacker.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.hacker.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.hacker.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.hacker.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'p2wNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 17
+    display_name: '&f[&a&lP&2&l2&a&lW&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.p2w'
+    lore:
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.p2w'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.p2w'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'p2wOn':
+    material: name_tag
+    priority: 2
+    slot: 17
+    display_name: '&f[&a&lP&2&l2&a&lW&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.p2w'
+    lore:
+    - ''
+    - '&fClick to toggle'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% p2w'
+    - '[console] lp user %player_name% permission set deluxetags.tag.p2w.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.p2w.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.p2w.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% p2w'
+    - '[console] lp user %player_name% permission set deluxetags.tag.p2w.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.p2w.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.p2w.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'p2wOff':
+    material: name_tag
+    priority: 1
+    slot: 17
+    display_name: '&f[&a&lP&2&l2&a&lW&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.p2w.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.p2w.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.p2w.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.p2w.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.p2w.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.p2w.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.p2w.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'aystraliaNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 18
+    display_name: '&f[&b&lAystralia&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.aystralia'
+    lore:
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.aystralia'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'deluxetags.tag.aystralia'
+      deny_commands:
+      - '[message] &b&lTags &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/tags'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'aystraliaOn':
+    material: name_tag
+    priority: 2
+    slot: 18
+    display_name: '&f[&b&lAystralia&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.aystralia'
+    lore:
+    - ''
+    - '&fClick to toggle'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% aystralia'
+    - '[console] lp user %player_name% permission set deluxetags.tag.aystralia.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.aystralia.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.aystralia.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags set %player_name% aystralia'
+    - '[console] lp user %player_name% permission set deluxetags.tag.aystralia.on true'
+    - '[console] lp user %player_name% permission set deluxetags.tag.aystralia.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.aystralia.off'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'aystraliaOff':
+    material: name_tag
+    priority: 1
+    slot: 18
+    display_name: '&f[&b&lAystralia&f]&r &f&lTag'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.aystralia.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.aystralia.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.aystralia.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.aystralia.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[console] tags clear %player_name%'
+    - '[console] lp user %player_name% permission set deluxetags.tag.aystralia.on false'
+    - '[console] lp user %player_name% permission set deluxetags.tag.aystralia.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'deluxetags.tag.aystralia.on'
+      deny_commands:
+      - '[message] &b&lTags &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'

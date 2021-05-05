@@ -1,0 +1,182 @@
+# 
+# These are the tiers for the pets/eggs. The ID is the number the tier is configured in.
+# %hatchingState% will change between the not-hatching text and the hatching text
+# Depending on whether the egg is hatching or not.
+# Hatching time is in minutes.
+# The pet egg GUI contains all the pet eggs for sale. For each tier, configure the slot
+# It's egg is in and it's price.
+Features:
+  PetMenu: true
+  PetShop: true
+  Tinkerer: true
+  Shards: true
+  TPet: true
+  EssentialsXMoneyBoost: false
+  ShopGUIMoneyBoost: true
+  factionsSupport: false
+main-command:
+  aliases:
+  - treasurepets
+  - tpets
+  help-message:
+  - '&f------- &b&l Pets &f-------'
+  - '&f- &b/pets reload &f- &fReload all configuration files in treasure pets'
+  - '&f- &b/pets give {pet} {receiver} {level} &f- &fGive a TP object to a player'
+  - '&f- &b/pets give egg {receiver} {tier#} {amount} &f- &fGive TP eggs to a player'
+  - '&f- &b/pets give petleash <receiver> <amount> &f- &fGive pet leashes to a player'
+  - '&f- &b/pets give rarecandy <receiver> <amount> &f- &fGive pet rare candies to
+    a player'
+  - '&f- &b/pets shards give <player> <amount> &f- &fGive shards to a player'
+  - '&f- &b/pets petmenu &f- &fOpen the pet menu'
+  - '&f- &b/pets petshop &f- &fOpen the pet shop'
+  - '&f- &b/pets tinkerer &f- &fOpen the tinkerer'
+  - '&f- &b/pets pets &f- &fOpen the list of pets'
+  - '&f- &b/pets list &f- &fList active pets'
+tiers:
+  '1':
+    name: Common
+    egg-item:
+      hatching-time: 5
+      material: MONSTER_EGG
+      display-name: '&a&lMystery Pet Egg'
+      lore:
+      - '&fHatches into a &a%eggTier% &fpet.'
+      - '&fPlace egg in hotbar to begin hatching.'
+      - '%hatchingState%'
+      not-hatching: '&4&lNOT HATCHING &e&l(&e%hatchingTime%m&e&l)'
+      hatching: '&e&lHATCHING &e&l(&e%hatchingTime%m&e&l)'
+  '2':
+    name: Special
+    egg-item:
+      hatching-time: 5
+      material: MONSTER_EGG
+      display-name: '&d&lMystery Pet Egg'
+      lore:
+      - '&fHatches into a &d%eggTier% &fpet.'
+      - '&fPlace egg in hotbar to begin hatching.'
+      - '%hatchingState%'
+      not-hatching: '&4&lNOT HATCHING &e&l(&e%hatchingTime%m&e&l)'
+      hatching: '&e&lHATCHING &e&l(&e%hatchingTime%m&e&l)'
+  '3':
+    name: Legendary
+    egg-item:
+      hatching-time: 5
+      material: MONSTER_EGG
+      display-name: '&b&lMystery Pet Egg'
+      lore:
+      - '&fHatches into a &b%eggTier% &fpet.'
+      - '&fPlace egg in hotbar to begin hatching.'
+      - '%hatchingState%'
+      not-hatching: '&4&lNOT HATCHING &e&l(&e%hatchingTime%m&e&l)'
+      hatching: '&e&lHATCHING &e&l(&e%hatchingTime%m&e&l)'
+  '4':
+    name: Exclusive
+    egg-item:
+      hatching-time: 5
+      material: MONSTER_EGG
+      display-name: '&e&lMystery Pet Egg'
+      lore:
+      - '&fHatches into a &e%eggTier% &fpet.'
+      - '&fPlace egg in hotbar to begin hatching.'
+      - '%hatchingState%'
+      not-hatching: '&4&lNOT HATCHING &e&l(&e%hatchingTime%m&e&l)'
+      hatching: '&e&lHATCHING &e&l(&e%hatchingTime%m&e&l)'
+pet-egg-gui:
+  size: 18
+  name: Pet Shop
+  tier-1:
+    slot: 4
+    price: 100
+  tier-2:
+    slot: 5
+    price: 200
+  tier-3:
+    slot: 6
+    price: 300
+  tier-4:
+    slot: 14
+    price: 400
+Merchant:
+  Spawners:
+    SilverfishShardAmount: 1
+    CowShardAmount: 1
+    IrongolemShardAmount: 1
+    PigzombieShardAmount: 1
+    ZombieShardAmount: 1
+    WitchShardAmount: 1
+    SlimeShardAmount: 1
+    GuardianShardAmount: 1
+    EndermanShardAmount: 1
+    CreeperShardAmount: 1
+    MagmacubeShardAmount: 1
+    SquidShardAmount: 1
+    BlazeShardAmount: 1
+    RabbitShardAmount: 1
+    VillagerShardAmount: 1
+    EndermiteShardAmount: 1
+    SkeletonShardAmount: 1
+    CavespiderShardAmount: 1
+    HorseShardAmount: 1
+    SpiderShardAmount: 1
+    BatShardAmount: 1
+    WolfShardAmount: 1
+    MooshroomShardAmount: 1
+    OcelotShardAmount: 1
+    SheepShardAmount: 1
+    PigShardAmount: 1
+    ChickenShardAmount: 1
+    SilverfishDisplayName: Silverfish Spawner
+    CowDisplayName: Cow Spawner
+    IrongolemDisplayName: Irongolem Spawner
+    PigzombieDisplayName: Zombie Pigman Spawner
+    ZombieDisplayName: Zombie Spawner
+    WitchDisplayName: Witch Spawner
+    SlimeDisplayName: Slime Spawner
+    GuardianDisplayName: Guardian Spawner
+    EndermanDisplayName: Enderman Spawner
+    CreeperDisplayName: Creeper Spawner
+    MagmacubeDisplayName: Magma Cube Spawner
+    SquidDisplayName: Squid Spawner
+    BlazeDisplayName: Blaze Spawner
+    RabbitDisplayName: Rabbit Spawner
+    VillagerDisplayName: Villager Spawner
+    EndermiteDisplayName: Endermite Spawner
+    SkeletonDisplayName: Skeleton Spawner
+    CavespiderDisplayName: Cave Spider Spawner
+    HorseDisplayName: Horse Spawner
+    SpiderDisplayName: Spider Spawner
+    BatDisplayName: Bat Spawner
+    WolfDisplayName: Wolf Spawner
+    MooshroomDisplayName: Mooshroom Spawner
+    OcelotDisplayName: Ocelot Spawner
+    SheepDisplayName: Sheep Spawner
+    PigDisplayName: Pig Spawner
+    ChickenDisplayName: Chicken Spawner
+ProgressMapSize: 50
+ProgressIcon: '|'
+ExplodeDestroyBlocks: true
+MaxExp: 200
+ExtendingMaxExp: true
+ExpRate: 5
+PerkExpRate: 10
+activatablePetsLimitInInventory: 40
+extra-items:
+  rare-candy:
+    material: MAGMA_CREAM
+    display-name: '&c&lRare Candy'
+    lore:
+    - '&fMagical candy imbued with'
+    - '&fpowerful growth hormones'
+    - '&ffor inventory pets.'
+    - ' '
+    - '&c&lAbility'
+    - '&fApply to any inventory pet to instantly'
+    - '&fincrease its level by +1.'
+  pet-leash:
+    pet-leashed: '&b&lLeashed'
+    remove-leash-on-death: true
+    material: LEASH
+    display-name: '&b&lPet Leash'
+    lore:
+    - '&fApply to an inventory pet'
+    - '&fto keep it upon death!'

@@ -1,0 +1,35 @@
+# AntiCheatReloaded language file
+# The alert message when a player enters a higher group
+ALERT:
+- '&c&lAnticheat &8> &f%player% has just entered the %group% hack group.'
+- '&c&lAnticheat &8> &f%player%''s last failed check was: %check%.'
+- '&c&lAnticheat &8> &fType ''/acr report %player%'' for more information.'
+# The warning a player receives when reaching a certain level
+# Only sent when enabled in groups.yml
+WARNING:
+- '&c&lAnticheat &8>&f You have been flagged for using cheats.'
+- '&c&lAnticheat &8>&f If you continue to cheat, action will be taken.'
+# Ban message
+BAN_REASON: '&c&lAnticheat &8> &fBanned for unfair advantage'
+# Message to broadcast when banned
+# Only sent when enabled in config.yml
+BAN_BROADCAST: '&c&lAnticheat &8> &f%player% was banned for cheating'
+# Kick message
+KICK_REASON: '&c&lAnticheat &8> &fKicked for unfair advantage'
+# Message to broadcast when kicked
+# Only sent when enabled in config.yml
+KICK_BROADCAST: '&c&lAnticheat &8> &f%player% was kicked for cheating'
+# The warning message to send when a player is spamming
+SPAM_WARNING: '&c&lAnticheat &8> &fStop spamming the server or you will be kicked!'
+# Kick reason when spamming
+SPAM_KICK_REASON: '&c&lAnticheat &8> &fKicked for spamming'
+# Message to broadcast when kicked for spamming
+# Only sent when enabled in config.yml
+SPAM_KICK_BROADCAST: '&c&lAnticheat &8> &f%player% was kicked for spamming'
+# Ban reason when spamming
+SPAM_BAN_REASON: '&c&lAnticheat &8> &fBanned for spamming'
+# Message to broadcast when banned for spamming
+# Only sent when enabled in config.yml
+SPAM_BAN_BROADCAST: '&c%player% was banned for spamming'
+# The prefix for staff and debug alerts
+ALERT_PREFIX: '&c&lAnticheat &8> &f'

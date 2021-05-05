@@ -1,0 +1,2480 @@
+menu_title: '&b&lPets'
+open_command:
+- oiujfnvoiuavoiv
+size: 45
+items:
+  'Decorations':
+    display_name: '&f'
+    material: 160
+    data: 7
+    slots:
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 36
+    - 37
+    - 38
+    - 39
+    - 41
+    - 42
+    - 43
+    - 44
+  'Back':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE2ZWEzNGE2YTZlYzVjMDUxZTY5MzJmMWM0NzFiNzAxMmIyOThkMzhkMTc5ZjFiNDg3YzQxM2Y1MTk1OWNkNCJ9fX0=
+    slot: 40
+    display_name: '&b[*] &bBack'
+    lore: ''
+    left_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'  
+    - '[close]'
+    - '[openguimenu] perks'
+    right_click_commands:
+    - '[sound] ENTITY_ARROW_HIT_PLAYER'  
+    - '[close]'
+    - '[openguimenu] perks'
+  'CatNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 0
+    display_name: '&b[*] &b&lCat &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.cat'
+    lore:
+    - ''
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.cat'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.cat'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'CatSpawn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmIyNTNmYzZiNjU2OTg4NDUzYTJkNzEzOGZjYTRkMWYyNzUyZjQ3NjkxZjBjNDM0ZTQzMjE4Mzc3MWNmZTEifX19
+    priority: 2
+    slot: 0
+    display_name: '&b[*] &b&lCat &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'Pet.type.cat'
+    lore:
+    - ''
+    - '&fClick to spawn'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn cat'
+    - '[console] lp user %player_name% permission set petsmenu.cat.on true'
+    - '[console] lp user %player_name% permission set petsmenu.cat.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.cat.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn cat'
+    - '[console] lp user %player_name% permission set petsmenu.cat.on true'
+    - '[console] lp user %player_name% permission set petsmenu.cat.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.cat.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'CatRemove':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmIyNTNmYzZiNjU2OTg4NDUzYTJkNzEzOGZjYTRkMWYyNzUyZjQ3NjkxZjBjNDM0ZTQzMjE4Mzc3MWNmZTEifX19
+    priority: 1
+    slot: 0
+    display_name: '&b[*] &b&lCat &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.cat.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.cat.on false'
+    - '[console] lp user %player_name% permission set petsmenu.cat.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.cat.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.cat.on false'
+    - '[console] lp user %player_name% permission set petsmenu.cat.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.cat.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'BeeNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 1
+    display_name: '&b[*] &b&lBee &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.bee'
+    lore:
+    - ''
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.bee'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.bee'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'BeeSpawn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI3MjRhOWE0Y2RkNjhiYTQ5NDE1NTYwZTViZTQwYjRhMWM0N2NiNWJlMWQ2NmFlZGI1MmEzMGU2MmVmMmQ0NyJ9fX0=
+    priority: 2
+    slot: 1
+    display_name: '&b[*] &b&lBee &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'Pet.type.bee'
+    lore:
+    - ''
+    - '&fClick to spawn'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn bee'
+    - '[console] lp user %player_name% permission set petsmenu.bee.on true'
+    - '[console] lp user %player_name% permission set petsmenu.bee.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.bee.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn bee'
+    - '[console] lp user %player_name% permission set petsmenu.bee.on true'
+    - '[console] lp user %player_name% permission set petsmenu.bee.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.bee.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'BeeRemove':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI3MjRhOWE0Y2RkNjhiYTQ5NDE1NTYwZTViZTQwYjRhMWM0N2NiNWJlMWQ2NmFlZGI1MmEzMGU2MmVmMmQ0NyJ9fX0=
+    priority: 1
+    slot: 1
+    display_name: '&b[*] &b&lBee &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.bee.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.bee.on false'
+    - '[console] lp user %player_name% permission set petsmenu.bee.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.bee.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.bee.on false'
+    - '[console] lp user %player_name% permission set petsmenu.bee.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.bee.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'ChickenNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 2
+    display_name: '&b[*] &b&lChicken &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.chicken'
+    lore:
+    - ''
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.chicken'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.chicken'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'ChickenSpawn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTRkODE2YTQ3NWIzZjMxM2I2MjBkNjViZjkzNTg5MzFiNDZhZjljOGY0ZTdjOWFlNjQ3MDg4ODBiZWE2YmUifX19
+    priority: 2
+    slot: 2
+    display_name: '&b[*] &b&lChicken &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'Pet.type.chicken'
+    lore:
+    - ''
+    - '&fClick to spawn'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn chicken'
+    - '[console] lp user %player_name% permission set petsmenu.chicken.on true'
+    - '[console] lp user %player_name% permission set petsmenu.chicken.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.chicken.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn chicken'
+    - '[console] lp user %player_name% permission set petsmenu.chicken.on true'
+    - '[console] lp user %player_name% permission set petsmenu.chicken.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.chicken.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'ChickenRemove':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTRkODE2YTQ3NWIzZjMxM2I2MjBkNjViZjkzNTg5MzFiNDZhZjljOGY0ZTdjOWFlNjQ3MDg4ODBiZWE2YmUifX19
+    priority: 1
+    slot: 2
+    display_name: '&b[*] &b&lChicken &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.chicken.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.chicken.on false'
+    - '[console] lp user %player_name% permission set petsmenu.chicken.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.chicken.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.chicken.on false'
+    - '[console] lp user %player_name% permission set petsmenu.chicken.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.chicken.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'CowNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 3
+    display_name: '&b[*] &b&lCow &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.cow'
+    lore:
+    - ''
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.cow'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.cow'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'CowSpawn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ2YzZlZGE5NDJmN2Y1ZjcxYzMxNjFjNzMwNmY0YWVkMzA3ZDgyODk1ZjlkMmIwN2FiNDUyNTcxOGVkYzUifX19
+    priority: 2
+    slot: 3
+    display_name: '&b[*] &b&lCow &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'Pet.type.cow'
+    lore:
+    - ''
+    - '&fClick to spawn'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn cow'
+    - '[console] lp user %player_name% permission set petsmenu.cow.on true'
+    - '[console] lp user %player_name% permission set petsmenu.cow.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.cow.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn cow'
+    - '[console] lp user %player_name% permission set petsmenu.cow.on true'
+    - '[console] lp user %player_name% permission set petsmenu.cow.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.cow.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'CowRemove':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ2YzZlZGE5NDJmN2Y1ZjcxYzMxNjFjNzMwNmY0YWVkMzA3ZDgyODk1ZjlkMmIwN2FiNDUyNTcxOGVkYzUifX19
+    priority: 1
+    slot: 3
+    display_name: '&b[*] &b&lCow &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.cow.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.cow.on false'
+    - '[console] lp user %player_name% permission set petsmenu.cow.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.cow.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.cow.on false'
+    - '[console] lp user %player_name% permission set petsmenu.cow.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.cow.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'EndermanNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 4
+    display_name: '&b[*] &b&lEnderman &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.Enderman'
+    lore:
+    - ''
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.Enderman'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.Enderman'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'EndermanSpawn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTZjMGIzNmQ1M2ZmZjY5YTQ5YzdkNmYzOTMyZjJiMGZlOTQ4ZTAzMjIyNmQ1ZTgwNDVlYzU4NDA4YTM2ZTk1MSJ9fX0=
+    priority: 2
+    slot: 4
+    display_name: '&b[*] &b&lEnderman &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'Pet.type.Enderman'
+    lore:
+    - ''
+    - '&fClick to spawn'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn enderman'
+    - '[console] lp user %player_name% permission set petsmenu.Enderman.on true'
+    - '[console] lp user %player_name% permission set petsmenu.Enderman.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.Enderman.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn enderman'
+    - '[console] lp user %player_name% permission set petsmenu.Enderman.on true'
+    - '[console] lp user %player_name% permission set petsmenu.Enderman.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.Enderman.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'EndermanRemove':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTZjMGIzNmQ1M2ZmZjY5YTQ5YzdkNmYzOTMyZjJiMGZlOTQ4ZTAzMjIyNmQ1ZTgwNDVlYzU4NDA4YTM2ZTk1MSJ9fX0=
+    priority: 1
+    slot: 4
+    display_name: '&b[*] &b&lEnderman &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.Enderman.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.Enderman.on false'
+    - '[console] lp user %player_name% permission set petsmenu.Enderman.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.Enderman.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.Enderman.on false'
+    - '[console] lp user %player_name% permission set petsmenu.Enderman.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.Enderman.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'EndermiteNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 5
+    display_name: '&b[*] &b&lEndermite &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.endermite'
+    lore:
+    - ''
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.endermite'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.endermite'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'EndermiteSpawn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWExYTA4MzFhYTAzYWZiNDIxMmFkY2JiMjRlNWRmYWE3ZjQ3NmExMTczZmNlMjU5ZWY3NWE4NTg1NSJ9fX0=
+    priority: 2
+    slot: 5
+    display_name: '&b[*] &b&lEndermite &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'Pet.type.endermite'
+    lore:
+    - ''
+    - '&fClick to spawn'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn endermite'
+    - '[console] lp user %player_name% permission set petsmenu.endermite.on true'
+    - '[console] lp user %player_name% permission set petsmenu.endermite.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.endermite.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn endermite'
+    - '[console] lp user %player_name% permission set petsmenu.endermite.on true'
+    - '[console] lp user %player_name% permission set petsmenu.endermite.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.endermite.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'EndermiteRemove':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWExYTA4MzFhYTAzYWZiNDIxMmFkY2JiMjRlNWRmYWE3ZjQ3NmExMTczZmNlMjU5ZWY3NWE4NTg1NSJ9fX0=
+    priority: 1
+    slot: 5
+    display_name: '&b[*] &b&lEndermite &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.endermite.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.endermite.on false'
+    - '[console] lp user %player_name% permission set petsmenu.endermite.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.endermite.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.endermite.on false'
+    - '[console] lp user %player_name% permission set petsmenu.endermite.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.endermite.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'FoxNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 6
+    display_name: '&b[*] &b&lFox &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.fox'
+    lore:
+    - ''
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.fox'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.fox'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'FoxSpawn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjRhMDM0NzQzNjQzNGViMTNkNTM3YjllYjZiNDViNmVmNGM1YTc4Zjg2ZTkxODYzZWY2MWQyYjhhNTNiODIifX19
+    priority: 2
+    slot: 6
+    display_name: '&b[*] &b&lFox &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'Pet.type.fox'
+    lore:
+    - ''
+    - '&fClick to spawn'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn fox'
+    - '[console] lp user %player_name% permission set petsmenu.fox.on true'
+    - '[console] lp user %player_name% permission set petsmenu.fox.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.fox.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn fox'
+    - '[console] lp user %player_name% permission set petsmenu.fox.on true'
+    - '[console] lp user %player_name% permission set petsmenu.fox.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.fox.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'FoxRemove':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjRhMDM0NzQzNjQzNGViMTNkNTM3YjllYjZiNDViNmVmNGM1YTc4Zjg2ZTkxODYzZWY2MWQyYjhhNTNiODIifX19
+    priority: 1
+    slot: 6
+    display_name: '&b[*] &b&lFox &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.fox.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.fox.on false'
+    - '[console] lp user %player_name% permission set petsmenu.fox.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.fox.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.fox.on false'
+    - '[console] lp user %player_name% permission set petsmenu.fox.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.fox.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'HorseNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 7
+    display_name: '&b[*] &b&lHorse &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.horse'
+    lore:
+    - ''
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.horse'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.horse'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'HorseSpawn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUwZjk5MjU5OWE1NWE4MzExMzczYTU0MTI3MTZiYjdmOTFjZjM5YWZhZGVhMjUxN2Y0MTVkNzI4NzlhMiJ9fX0=
+    priority: 2
+    slot: 7
+    display_name: '&b[*] &b&lHorse &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'Pet.type.horse'
+    lore:
+    - ''
+    - '&fClick to spawn'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn horse'
+    - '[console] lp user %player_name% permission set petsmenu.horse.on true'
+    - '[console] lp user %player_name% permission set petsmenu.horse.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.horse.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn horse'
+    - '[console] lp user %player_name% permission set petsmenu.horse.on true'
+    - '[console] lp user %player_name% permission set petsmenu.horse.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.horse.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'HorseRemove':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUwZjk5MjU5OWE1NWE4MzExMzczYTU0MTI3MTZiYjdmOTFjZjM5YWZhZGVhMjUxN2Y0MTVkNzI4NzlhMiJ9fX0=
+    priority: 1
+    slot: 7
+    display_name: '&b[*] &b&lHorse &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.horse.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.horse.on false'
+    - '[console] lp user %player_name% permission set petsmenu.horse.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.horse.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.horse.on false'
+    - '[console] lp user %player_name% permission set petsmenu.horse.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.horse.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'MooshroomNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 8
+    display_name: '&b[*] &b&lMooshroom &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.mooshroom'
+    lore:
+    - ''
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.mooshroom'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.mooshroom'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'MooshroomSpawn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI1Mjg0MWYyZmQ1ODllMGJjODRjYmFiZjllMWMyN2NiNzBjYWM5OGY4ZDZiM2RkMDY1ZTU1YTRkY2I3MGQ3NyJ9fX0=
+    priority: 2
+    slot: 8
+    display_name: '&b[*] &b&lMooshroom &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'Pet.type.mooshroom'
+    lore:
+    - ''
+    - '&fClick to spawn'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn mooshroom'
+    - '[console] lp user %player_name% permission set petsmenu.mooshroom.on true'
+    - '[console] lp user %player_name% permission set petsmenu.mooshroom.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.mooshroom.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn mooshroom'
+    - '[console] lp user %player_name% permission set petsmenu.mooshroom.on true'
+    - '[console] lp user %player_name% permission set petsmenu.mooshroom.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.mooshroom.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'MooshroomRemove':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI1Mjg0MWYyZmQ1ODllMGJjODRjYmFiZjllMWMyN2NiNzBjYWM5OGY4ZDZiM2RkMDY1ZTU1YTRkY2I3MGQ3NyJ9fX0=
+    priority: 1
+    slot: 8
+    display_name: '&b[*] &b&lMooshroom &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.mooshroom.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.mooshroom.on false'
+    - '[console] lp user %player_name% permission set petsmenu.mooshroom.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.mooshroom.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.mooshroom.on false'
+    - '[console] lp user %player_name% permission set petsmenu.mooshroom.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.mooshroom.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'MuleNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 9
+    display_name: '&b[*] &b&lMule &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.mule'
+    lore:
+    - ''
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.mule'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.mule'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'MuleSpawn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDZkY2RhMjY1ZTU3ZTRmNTFiMTQ1YWFjYmY1YjU5YmRjNjA5OWZmZDNjY2UwYTY2MWIyYzAwNjVkODA5MzBkOCJ9fX0=
+    priority: 2
+    slot: 9
+    display_name: '&b[*] &b&lMule &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'Pet.type.mule'
+    lore:
+    - ''
+    - '&fClick to spawn'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn mule'
+    - '[console] lp user %player_name% permission set petsmenu.mule.on true'
+    - '[console] lp user %player_name% permission set petsmenu.mule.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.mule.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn mule'
+    - '[console] lp user %player_name% permission set petsmenu.mule.on true'
+    - '[console] lp user %player_name% permission set petsmenu.mule.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.mule.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'MuleRemove':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDZkY2RhMjY1ZTU3ZTRmNTFiMTQ1YWFjYmY1YjU5YmRjNjA5OWZmZDNjY2UwYTY2MWIyYzAwNjVkODA5MzBkOCJ9fX0=
+    priority: 1
+    slot: 9
+    display_name: '&b[*] &b&lMule &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.mule.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.mule.on false'
+    - '[console] lp user %player_name% permission set petsmenu.mule.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.mule.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.mule.on false'
+    - '[console] lp user %player_name% permission set petsmenu.mule.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.mule.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'PandaNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 10
+    display_name: '&b[*] &b&lPanda &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.panda'
+    lore:
+    - ''
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.panda'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.panda'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'PandaSpawn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGYwMDg1ODkyNmNkOGNkZjNmMWNmNzFlMjEwY2RlNWRhZjg3MDgzMjA1NDdiZDZkZjU3OTU4NTljNjhkOWIzZiJ9fX0=
+    priority: 2
+    slot: 10
+    display_name: '&b[*] &b&lPanda &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'Pet.type.panda'
+    lore:
+    - ''
+    - '&fClick to spawn'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn panda'
+    - '[console] lp user %player_name% permission set petsmenu.panda.on true'
+    - '[console] lp user %player_name% permission set petsmenu.panda.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.panda.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn panda'
+    - '[console] lp user %player_name% permission set petsmenu.panda.on true'
+    - '[console] lp user %player_name% permission set petsmenu.panda.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.panda.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'PandaRemove':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGYwMDg1ODkyNmNkOGNkZjNmMWNmNzFlMjEwY2RlNWRhZjg3MDgzMjA1NDdiZDZkZjU3OTU4NTljNjhkOWIzZiJ9fX0=
+    priority: 1
+    slot: 10
+    display_name: '&b[*] &b&lPanda &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.panda.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.panda.on false'
+    - '[console] lp user %player_name% permission set petsmenu.panda.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.panda.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.panda.on false'
+    - '[console] lp user %player_name% permission set petsmenu.panda.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.panda.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'ParrotNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 11
+    display_name: '&b[*] &b&lParrot &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.parrot'
+    lore:
+    - ''
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.parrot'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.parrot'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'ParrotSpawn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODVjYTI4ODkwY2I3YTk2MmJhYmI0MGU1ZjQzOGJhNDcyMjZkNWMxNWVhMzAwOTFkNWMxZjQ0M2ExZDk3OTQ3ZSJ9fX0=
+    priority: 2
+    slot: 11
+    display_name: '&b[*] &b&lParrot &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'Pet.type.parrot'
+    lore:
+    - ''
+    - '&fClick to spawn'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn parrot'
+    - '[console] lp user %player_name% permission set petsmenu.parrot.on true'
+    - '[console] lp user %player_name% permission set petsmenu.parrot.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.parrot.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn parrot'
+    - '[console] lp user %player_name% permission set petsmenu.parrot.on true'
+    - '[console] lp user %player_name% permission set petsmenu.parrot.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.parrot.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'ParrotRemove':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODVjYTI4ODkwY2I3YTk2MmJhYmI0MGU1ZjQzOGJhNDcyMjZkNWMxNWVhMzAwOTFkNWMxZjQ0M2ExZDk3OTQ3ZSJ9fX0=
+    priority: 1
+    slot: 11
+    display_name: '&b[*] &b&lParrot &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.parrot.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.parrot.on false'
+    - '[console] lp user %player_name% permission set petsmenu.parrot.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.parrot.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.parrot.on false'
+    - '[console] lp user %player_name% permission set petsmenu.parrot.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.parrot.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'PigNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 12
+    display_name: '&b[*] &b&lPig &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.pig'
+    lore:
+    - ''
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.pig'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.pig'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'PigSpawn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIxNjY4ZWY3Y2I3OWRkOWMyMmNlM2QxZjNmNGNiNmUyNTU5ODkzYjZkZjRhNDY5NTE0ZTY2N2MxNmFhNCJ9fX0=
+    priority: 2
+    slot: 12
+    display_name: '&b[*] &b&lPig &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'Pet.type.pig'
+    lore:
+    - ''
+    - '&fClick to spawn'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn pig'
+    - '[console] lp user %player_name% permission set petsmenu.pig.on true'
+    - '[console] lp user %player_name% permission set petsmenu.pig.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.pig.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn pig'
+    - '[console] lp user %player_name% permission set petsmenu.pig.on true'
+    - '[console] lp user %player_name% permission set petsmenu.pig.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.pig.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'PigRemove':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIxNjY4ZWY3Y2I3OWRkOWMyMmNlM2QxZjNmNGNiNmUyNTU5ODkzYjZkZjRhNDY5NTE0ZTY2N2MxNmFhNCJ9fX0=
+    priority: 1
+    slot: 12
+    display_name: '&b[*] &b&lPig &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.pig.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.pig.on false'
+    - '[console] lp user %player_name% permission set petsmenu.pig.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.pig.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.pig.on false'
+    - '[console] lp user %player_name% permission set petsmenu.pig.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.pig.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'RabbitNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 13
+    display_name: '&b[*] &b&lRabbit &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.rabbit'
+    lore:
+    - ''
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.rabbit'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.rabbit'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'RabbitSpawn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTE3YmZmYzE5NzJhY2Q3ZjNiNGE4ZjQzYjViNmM3NTM0Njk1YjhmZDYyNjc3ZTAzMDZiMjgzMTU3NGIifX19
+    priority: 2
+    slot: 13
+    display_name: '&b[*] &b&lRabbit &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'Pet.type.rabbit'
+    lore:
+    - ''
+    - '&fClick to spawn'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn rabbit'
+    - '[console] lp user %player_name% permission set petsmenu.rabbit.on true'
+    - '[console] lp user %player_name% permission set petsmenu.rabbit.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.rabbit.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn rabbit'
+    - '[console] lp user %player_name% permission set petsmenu.rabbit.on true'
+    - '[console] lp user %player_name% permission set petsmenu.rabbit.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.rabbit.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'RabbitRemove':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTE3YmZmYzE5NzJhY2Q3ZjNiNGE4ZjQzYjViNmM3NTM0Njk1YjhmZDYyNjc3ZTAzMDZiMjgzMTU3NGIifX19
+    priority: 1
+    slot: 13
+    display_name: '&b[*] &b&lRabbit &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.rabbit.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.rabbit.on false'
+    - '[console] lp user %player_name% permission set petsmenu.rabbit.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.rabbit.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.rabbit.on false'
+    - '[console] lp user %player_name% permission set petsmenu.rabbit.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.rabbit.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'SheepNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 14
+    display_name: '&b[*] &b&lSheep &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.sheep'
+    lore:
+    - ''
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.sheep'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.sheep'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'SheepSpawn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjg0MGYzNGU1ZmQwNTRjMGU2YWMxOGViZDc2ZWEwZjNhMDI2MzE4MmFhNGE3YmJlOTI0MzBmYjI3NjM0NmRkMCJ9fX0=
+    priority: 2
+    slot: 14
+    display_name: '&b[*] &b&lSheep &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'Pet.type.sheep'
+    lore:
+    - ''
+    - '&fClick to spawn'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn sheep'
+    - '[console] lp user %player_name% permission set petsmenu.sheep.on true'
+    - '[console] lp user %player_name% permission set petsmenu.sheep.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.sheep.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn sheep'
+    - '[console] lp user %player_name% permission set petsmenu.sheep.on true'
+    - '[console] lp user %player_name% permission set petsmenu.sheep.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.sheep.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'SheepRemove':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjg0MGYzNGU1ZmQwNTRjMGU2YWMxOGViZDc2ZWEwZjNhMDI2MzE4MmFhNGE3YmJlOTI0MzBmYjI3NjM0NmRkMCJ9fX0=
+    priority: 1
+    slot: 14
+    display_name: '&b[*] &b&lSheep &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.sheep.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.sheep.on false'
+    - '[console] lp user %player_name% permission set petsmenu.sheep.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.sheep.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.sheep.on false'
+    - '[console] lp user %player_name% permission set petsmenu.sheep.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.sheep.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'SlimeNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 15
+    display_name: '&b[*] &b&lSlime &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.slime'
+    lore:
+    - ''
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.slime'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.slime'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'SlimeSpawn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk1YWVlYzZiODQyYWRhODY2OWY4NDZkNjViYzQ5NzYyNTk3ODI0YWI5NDRmMjJmNDViZjNiYmI5NDFhYmU2YyJ9fX0=
+    priority: 2
+    slot: 15
+    display_name: '&b[*] &b&lSlime &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'Pet.type.slime'
+    lore:
+    - ''
+    - '&fClick to spawn'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn slime'
+    - '[console] lp user %player_name% permission set petsmenu.slime.on true'
+    - '[console] lp user %player_name% permission set petsmenu.slime.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.slime.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn slime'
+    - '[console] lp user %player_name% permission set petsmenu.slime.on true'
+    - '[console] lp user %player_name% permission set petsmenu.slime.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.slime.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'SlimeRemove':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk1YWVlYzZiODQyYWRhODY2OWY4NDZkNjViYzQ5NzYyNTk3ODI0YWI5NDRmMjJmNDViZjNiYmI5NDFhYmU2YyJ9fX0=
+    priority: 1
+    slot: 15
+    display_name: '&b[*] &b&lSlime &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.slime.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.slime.on false'
+    - '[console] lp user %player_name% permission set petsmenu.slime.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.slime.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.slime.on false'
+    - '[console] lp user %player_name% permission set petsmenu.slime.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.slime.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'TurtleNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 16
+    display_name: '&b[*] &b&lTurtle &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.turtle'
+    lore:
+    - ''
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.turtle'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.turtle'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'TurtleSpawn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMGE0MDUwZTdhYWNjNDUzOTIwMjY1OGZkYzMzOWRkMTgyZDdlMzIyZjlmYmNjNGQ1Zjk5YjU3MThhIn19fQ==
+    priority: 2
+    slot: 16
+    display_name: '&b[*] &b&lTurtle &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'Pet.type.turtle'
+    lore:
+    - ''
+    - '&fClick to spawn'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn turtle'
+    - '[console] lp user %player_name% permission set petsmenu.turtle.on true'
+    - '[console] lp user %player_name% permission set petsmenu.turtle.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.turtle.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn turtle'
+    - '[console] lp user %player_name% permission set petsmenu.turtle.on true'
+    - '[console] lp user %player_name% permission set petsmenu.turtle.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.turtle.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'TurtleRemove':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMGE0MDUwZTdhYWNjNDUzOTIwMjY1OGZkYzMzOWRkMTgyZDdlMzIyZjlmYmNjNGQ1Zjk5YjU3MThhIn19fQ==
+    priority: 1
+    slot: 16
+    display_name: '&b[*] &b&lTurtle &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.turtle.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.turtle.on false'
+    - '[console] lp user %player_name% permission set petsmenu.turtle.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.turtle.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.turtle.on false'
+    - '[console] lp user %player_name% permission set petsmenu.turtle.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.turtle.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'VillagerNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 17
+    display_name: '&b[*] &b&lVillager &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.villager'
+    lore:
+    - ''
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.villager'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.villager'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'VillagerSpawn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjk5N2Y5ZjIzMDA4YjYxNDhkNWQzYjM2MWUxMzI4ZmMxMGUxN2RhZjI4Yjk5YWVjNTZmMWRjMDRhMzE2NzA2In19fQ==
+    priority: 2
+    slot: 17
+    display_name: '&b[*] &b&lVillager &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'Pet.type.villager'
+    lore:
+    - ''
+    - '&fClick to spawn'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn villager'
+    - '[console] lp user %player_name% permission set petsmenu.villager.on true'
+    - '[console] lp user %player_name% permission set petsmenu.villager.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.villager.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn villager'
+    - '[console] lp user %player_name% permission set petsmenu.villager.on true'
+    - '[console] lp user %player_name% permission set petsmenu.villager.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.villager.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'VillagerRemove':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjk5N2Y5ZjIzMDA4YjYxNDhkNWQzYjM2MWUxMzI4ZmMxMGUxN2RhZjI4Yjk5YWVjNTZmMWRjMDRhMzE2NzA2In19fQ==
+    priority: 1
+    slot: 17
+    display_name: '&b[*] &b&lVillager &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.villager.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.villager.on false'
+    - '[console] lp user %player_name% permission set petsmenu.villager.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.villager.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.villager.on false'
+    - '[console] lp user %player_name% permission set petsmenu.villager.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.villager.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'WolfNoOwn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    priority: 3
+    slot: 18
+    display_name: '&b[*] &b&lWolf &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.wolf'
+    lore:
+    - ''
+    - '&bPrice: &f$1'
+    - ''
+    - '&8» &bPurchase from server store'
+    - '&8» &b/buy'
+    left_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.wolf'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: "!has permission"
+          permission: 'Pet.type.wolf'
+      deny_commands:
+      - '[message] &b&lPets &8> &fPurchase from the server store &bhttps://aystralia.tebex.io/category/pets'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'WolfSpawn':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjllOGVjYTc5YmVkNmVlNmY3MmRkMWE1ODU2YmIxNWQ5YTBiM2MwYzczOTZhN2NjNDRjZjdmYzJlYzlhMiJ9fX0=
+    priority: 2
+    slot: 18
+    display_name: '&b[*] &b&lWolf &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'Pet.type.wolf'
+    lore:
+    - ''
+    - '&fClick to spawn'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn wolf'
+    - '[console] lp user %player_name% permission set petsmenu.wolf.on true'
+    - '[console] lp user %player_name% permission set petsmenu.wolf.off false'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.wolf.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets spawn wolf'
+    - '[console] lp user %player_name% permission set petsmenu.wolf.on true'
+    - '[console] lp user %player_name% permission set petsmenu.wolf.off false'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.wolf.off'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+  'WolfRemove':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjllOGVjYTc5YmVkNmVlNmY3MmRkMWE1ODU2YmIxNWQ5YTBiM2MwYzczOTZhN2NjNDRjZjdmYzJlYzlhMiJ9fX0=
+    priority: 1
+    slot: 18
+    display_name: '&b[*] &b&lWolf &f&lPet'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.wolf.on'
+    lore:
+    - ''
+    - '&aActivated'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.wolf.on false'
+    - '[console] lp user %player_name% permission set petsmenu.wolf.off true'
+    - '[close]'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.wolf.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[player] pets remove'
+    - '[console] lp user %player_name% permission set petsmenu.wolf.on false'
+    - '[console] lp user %player_name% permission set petsmenu.wolf.off true'
+    - '[close]'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'petsmenu.wolf.on'
+      deny_commands:
+      - '[message] &b&lPets &8> &4Error, Contact Al_Shebab'
+      - '[sound] BLOCK_ANVIL_LAND' 
+      - '[close]'
