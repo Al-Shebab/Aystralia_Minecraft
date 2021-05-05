@@ -29,3 +29,14 @@ expansions:
       quadrillions: Q
       billions: B
       millions: M
+  player:
+    ping_color:
+      medium: '&e'
+      high: '&c'
+      low: '&a'
+  server:
+    tps_color:
+      high: '&a'
+      low: '&c'
+      medium: '&e'
+    server_name: A Minecraft Server

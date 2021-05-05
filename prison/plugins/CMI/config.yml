@@ -1844,6 +1844,7 @@ Enchanting:
       arrow_knockback: 2
       loyalty: 3
       depth_strider: 3
+      glow: 10
       vanishing_curse: 1
       durability: 3
       knockback: 2

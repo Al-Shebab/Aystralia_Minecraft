@@ -535,6 +535,8 @@ info:
     - Loyalty
     depth_strider:
     - DepthStrider
+    glow:
+    - Glow
     vanishing_curse:
     - VanishingCurse
     durability:

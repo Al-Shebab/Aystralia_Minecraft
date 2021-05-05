@@ -1,0 +1,57 @@
+Reset:
+  Interval:
+    Default: 600
+    Times:
+    - '1'
+    - '2'
+    - '3'
+    - '10'
+  OnlyResetWhenPlayersAreOnline: false
+  Optimization:
+    Maximum-Number-of-Resets-at-a-given-Time: 3
+Unmodifiable:
+- LADDER
+MineEffects:
+  RefreshDelay: 80
+  DurationMultiplier: 3.0
+Sign:
+  RefreshDelay: 200
+  Placeholder:
+    TimeFormatted: '%MINUTES%m%SECONDS%s'
+  Percentage:
+    PercentMined:
+    - '&8&l&m+-------+'
+    - '&bPercent Mined'
+    - '&a%PMINED%%'
+    - '&8&l&m+-------+'
+    PercentLeft:
+    - '&8&l&m+-------+'
+    - '&bPercent Left'
+    - '&a%PLEFT%%'
+    - '&8&l&m+-------+'
+    BlocksMined:
+    - '&8&l&m+-------+'
+    - '&bBlocks Mined'
+    - '&a%MINED%'
+    - '&8&l&m+-------+'
+  Timed:
+    TimeLeft:
+    - '&8&l&m+-------+'
+    - '&bResetting in'
+    - '&a%RESTIMEF%'
+    - '&8&l&m+-------+'
+Hologram:
+  Percentage:
+    PercentMined:
+    - '&b&lPercent Mined'
+    - '&a&l%PMINED%%'
+    PercentLeft:
+    - '&b&lPercent Left'
+    - '&a&l%PLEFT%%'
+    BlocksMined:
+    - '&b&lBlocks Mined'
+    - '&a&l%MINED%'
+  Timed:
+    TimeLeft:
+    - '&b&lResetting in'
+    - '&a&l%RESTIMEF%'
