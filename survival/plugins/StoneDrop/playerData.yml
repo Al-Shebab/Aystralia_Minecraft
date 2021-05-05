@@ -3602,6 +3602,69 @@ users:
     REDSTONE: true
     COBBLE: false
     STACK: false
+  b883ce98-7fac-43cb-b1de-915a31ed4f8e:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
+  1bbbc0ea-cd06-42ac-b3eb-4e8926d88a98:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
+  2ef446d6-e948-412c-8f36-521d75b1f33d:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
+  38f1a568-9ba8-4b29-9b11-8e8a6fb9b6c6:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
+  43e420a8-20a0-4d44-a8dd-e7b6216cb210:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
+  d2636f4e-125c-4fab-b330-4a66893f6ea8:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
+  6a7078e5-685b-4854-9a51-898255f29acd:
+    COAL: true
+    DIAMOND: true
+    EMERALD: true
+    GOLD_INGOT: true
+    IRON_INGOT: true
+    REDSTONE: true
+    COBBLE: false
+    STACK: false
 userVersion:
   e79fc165-83d6-4139-9a8f-d42bf1c23f87: 1.9.9
   5e9388ba-0573-444c-a761-b6d9174042af: 1.9.8
@@ -4001,3 +4064,10 @@ userVersion:
   067c9324-7113-46d4-aa13-c8b16e02c310: 1.9.9
   9c077293-bda5-4048-971f-fb163a740da8: 1.9.9
   3eedf910-0adf-4201-b6f6-e161a7d0b683: 1.9.9
+  43e420a8-20a0-4d44-a8dd-e7b6216cb210: 1.9.9
+  d2636f4e-125c-4fab-b330-4a66893f6ea8: 1.9.9
+  b883ce98-7fac-43cb-b1de-915a31ed4f8e: 1.9.9
+  6a7078e5-685b-4854-9a51-898255f29acd: 1.9.9
+  2ef446d6-e948-412c-8f36-521d75b1f33d: 1.9.9
+  38f1a568-9ba8-4b29-9b11-8e8a6fb9b6c6: 1.9.9
+  1bbbc0ea-cd06-42ac-b3eb-4e8926d88a98: 1.9.9
