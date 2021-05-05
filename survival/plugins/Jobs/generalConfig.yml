@@ -335,13 +335,13 @@ ExploitProtections:
     Reassign: true
     # Defines max available furnaces each player can have to get paid from
     # This can be overridden with jobs.maxfurnaces.[amount] permission node
-    MaxDefaultAvailable: 20
+    MaxDefaultAvailable: 9999
   BlastFurnaces:
     Reassign: false
-    MaxDefaultAvailable: 15
+    MaxDefaultAvailable: 9999
   Smokers:
     Reassign: false
-    MaxDefaultAvailable: 15
+    MaxDefaultAvailable: 9999
   BrewingStands:
     # When enabled, players interacted brewing stands will be saved into file and will be reassigned after restart to keep giving out money
     # Players will no longer need to click on brewing stand to get paid from it after server restart
@@ -349,7 +349,7 @@ ExploitProtections:
     # Defines max available brewing stands each player can have to get paid from
     # Set to 0 if you want to disable this limitation
     # This can be overridden with jobs.maxbrewingstands.[amount] permission node
-    MaxDefaultAvailable: 20
+    MaxDefaultAvailable: 9999
   General:
     # Enable blocks protection, like ore, from exploiting by placing and destroying same block again and again.
     # Modify restrictedBlocks.yml for blocks you want to protect

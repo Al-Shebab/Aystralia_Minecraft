@@ -1,0 +1,8 @@
+bets:
+  '1':
+    booster: 100
+    player: Feeyne
+    money: 1100000.42
+    side: 1
+    time: 1240
+    animation: default

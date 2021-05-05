@@ -333,7 +333,7 @@ Crates:
         Item: CHEST
         Chance: 10
         Commands:
-        - "voidc give default {player_name}"
+        - "voidc give default {player_name} 10"
         Name: "&b&lVoidChest &f&lx10"
       d:
         Enchanted: true

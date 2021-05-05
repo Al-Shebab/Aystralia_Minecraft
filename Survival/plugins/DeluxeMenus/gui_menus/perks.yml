@@ -370,6 +370,42 @@ items:
       deny_commands:
       - '[openguimenu] paycheck'
       - '[close]'
+  'challenges':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMxNzU0ODUxZTM2N2U4YmViYTJhNmQ4ZjdjMmZlZGU4N2FlNzkzYWM1NDZiMGYyOTlkNjczMjE1YjI5MyJ9fX0=
+    priority: 1
+    slot: 20
+    display_name: '&b[*] &b&lChallenges'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'menu.use'
+    lore:
+    - ''
+    - ''
+    - '&7&oGet paid for literally doing something'
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] challenges'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'menu.use'
+      deny_commands:
+      - '[openguimenu] challenges'
+      - '[close]'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] paycheck'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission 
+          permission: 'menu.use'
+      deny_commands:
+      - '[openguimenu] paycheck'
+      - '[close]'
   'Information':
     material: head;Al_Shebab
     priority: 1
