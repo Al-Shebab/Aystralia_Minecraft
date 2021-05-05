@@ -120,13 +120,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$160000'
-        - '[console] money give %player_name% 160000'
+        - '[console] money give %player_name% 160000 -s'
         - '[console] exp give %player_name% L60'
         - '[console] lp user %player_name% permission set challenge.Emerald.9 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$160000'
-        - '[console] money give %player_name% 160000'
+        - '[console] money give %player_name% 160000 -s'
         - '[console] exp give %player_name% L60'
         - '[console] lp user %player_name% permission set challenge.Emerald.9 true' 
         - '[close]'  
@@ -184,13 +184,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$80000'
-        - '[console] money give %player_name% 80000'
+        - '[console] money give %player_name% 80000 -s'
         - '[console] exp give %player_name% L40' 
         - '[console] lp user %player_name% permission set challenge.Emerald.9 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$80000'
-        - '[console] money give %player_name% 80000'
+        - '[console] money give %player_name% 80000 -s'
         - '[console] exp give %player_name% L40' 
         - '[console] lp user %player_name% permission set challenge.Emerald.9 true' 
         - '[close]'  
@@ -248,13 +248,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$40000'
-        - '[console] money give %player_name% 40000'
+        - '[console] money give %player_name% 40000 -s'
         - '[console] exp give %player_name% L30'   
         - '[console] lp user %player_name% permission set challenge.Emerald.8 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$40000'
-        - '[console] money give %player_name% 40000'
+        - '[console] money give %player_name% 40000 -s'
         - '[console] exp give %player_name% L30' 
         - '[console] lp user %player_name% permission set challenge.Emerald.8 true' 
         - '[close]'  
@@ -312,13 +312,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$20000'
-        - '[console] money give %player_name% 20000'
+        - '[console] money give %player_name% 20000 -s'
         - '[console] exp give %player_name% L20' 
         - '[console] lp user %player_name% permission set challenge.Emerald.7 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$20000'
-        - '[console] money give %player_name% 20000'
+        - '[console] money give %player_name% 20000 -s'
         - '[console] exp give %player_name% L20' 
         - '[console] lp user %player_name% permission set challenge.Emerald.7 true' 
         - '[close]'  
@@ -376,13 +376,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$8000'
-        - '[console] money give %player_name% 8000'
+        - '[console] money give %player_name% 8000 -s'
         - '[console] exp give %player_name% L15' 
         - '[console] lp user %player_name% permission set challenge.Emerald.6 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$8000'
-        - '[console] money give %player_name% 8000'
+        - '[console] money give %player_name% 8000 -s'
         - '[console] exp give %player_name% L15'     
         - '[console] lp user %player_name% permission set challenge.Emerald.6 true' 
         - '[close]'  
@@ -440,12 +440,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$5000'
-        - '[console] money give %player_name% 5000'
+        - '[console] money give %player_name% 5000 -s'
         - '[console] lp user %player_name% permission set challenge.Emerald.5 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$5000'
-        - '[console] money give %player_name% 5000'
+        - '[console] money give %player_name% 5000 -s'
         - '[console] lp user %player_name% permission set challenge.Emerald.5 true' 
         - '[close]'  
       'inprogressEmeraldorelev4':
@@ -502,13 +502,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$3000'
-        - '[console] money give %player_name% 3000'
+        - '[console] money give %player_name% 3000 -s'
         - '[console] exp give %player_name% L5'     
         - '[console] lp user %player_name% permission set challenge.Emerald.4 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$3000'
-        - '[console] money give %player_name% 3000'
+        - '[console] money give %player_name% 3000 -s'
         - '[console] exp give %player_name% L5'    
         - '[console] lp user %player_name% permission set challenge.Emerald.4 true' 
         - '[close]'  
@@ -566,13 +566,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$1500'
-        - '[console] money give %player_name% 1500'
+        - '[console] money give %player_name% 1500 -s'
         - '[console] exp give %player_name% L3' 
         - '[console] lp user %player_name% permission set challenge.Emerald.3 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$1500'
-        - '[console] money give %player_name% 1500'
+        - '[console] money give %player_name% 1500 -s'
         - '[console] exp give %player_name% L3' 
         - '[console] lp user %player_name% permission set challenge.Emerald.3 true' 
         - '[close]'  
@@ -624,12 +624,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$600'
-        - '[console] money give %player_name% 600'
+        - '[console] money give %player_name% 600 -s'
         - '[console] lp user %player_name% permission set challenge.Emerald.2 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$600'
-        - '[console] money give %player_name% 600'
+        - '[console] money give %player_name% 600 -s'
         - '[console] lp user %player_name% permission set challenge.Emerald.2 true' 
         - '[close]'  
       'inprogressEmeraldorelev1':
@@ -700,13 +700,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$160000'
-        - '[console] money give %player_name% 160000'
+        - '[console] money give %player_name% 160000 -s'
         - '[console] exp give %player_name% L60' 
         - '[console] lp user %player_name% permission set challenge.Diamond.9 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$160000'
-        - '[console] money give %player_name% 160000'
+        - '[console] money give %player_name% 160000 -s'
         - '[console] exp give %player_name% L60' 
         - '[console] lp user %player_name% permission set challenge.Diamond.9 true' 
         - '[close]'  
@@ -765,13 +765,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$80000'
-        - '[console] money give %player_name% 80000'
+        - '[console] money give %player_name% 80000 -s'
         - '[console] exp give %player_name% L40' 
         - '[console] lp user %player_name% permission set challenge.Diamond.9 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$80000'
-        - '[console] money give %player_name% 80000'
+        - '[console] money give %player_name% 80000 -s'
         - '[console] exp give %player_name% L40' 
         - '[console] lp user %player_name% permission set challenge.Diamond.9 true' 
         - '[close]'  
@@ -829,13 +829,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$40000'
-        - '[console] money give %player_name% 40000'
+        - '[console] money give %player_name% 40000 -s'
         - '[console] exp give %player_name% L30' 
         - '[console] lp user %player_name% permission set challenge.Diamond.8 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$40000'
-        - '[console] money give %player_name% 40000'
+        - '[console] money give %player_name% 40000 -s'
         - '[console] exp give %player_name% L30' 
         - '[console] lp user %player_name% permission set challenge.Diamond.8 true' 
         - '[close]'  
@@ -893,13 +893,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$20000'
-        - '[console] money give %player_name% 20000'
+        - '[console] money give %player_name% 20000 -s'
         - '[console] exp give %player_name% L20' 
         - '[console] lp user %player_name% permission set challenge.Diamond.7 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$20000'
-        - '[console] money give %player_name% 20000'
+        - '[console] money give %player_name% 20000 -s'
         - '[console] exp give %player_name% L20' 
         - '[console] lp user %player_name% permission set challenge.Diamond.7 true' 
         - '[close]'  
@@ -957,13 +957,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$8000'
-        - '[console] money give %player_name% 8000'
+        - '[console] money give %player_name% 8000 -s'
         - '[console] exp give %player_name% L15' 
         - '[console] lp user %player_name% permission set challenge.Diamond.6 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$8000'
-        - '[console] money give %player_name% 8000'
+        - '[console] money give %player_name% 8000 -s'
         - '[console] exp give %player_name% L15' 
         - '[console] lp user %player_name% permission set challenge.Diamond.6 true' 
         - '[close]'  
@@ -1021,12 +1021,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$5000'
-        - '[console] money give %player_name% 5000'
+        - '[console] money give %player_name% 5000 -s'
         - '[console] lp user %player_name% permission set challenge.Diamond.5 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$5000'
-        - '[console] money give %player_name% 5000'
+        - '[console] money give %player_name% 5000 -s'
         - '[console] lp user %player_name% permission set challenge.Diamond.5 true' 
         - '[close]'  
       'inprogressDiamondorelev4':
@@ -1083,13 +1083,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$3000'
-        - '[console] money give %player_name% 3000'
+        - '[console] money give %player_name% 3000 -s'
         - '[console] exp give %player_name% L5' 
         - '[console] lp user %player_name% permission set challenge.Diamond.4 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$3000'
-        - '[console] money give %player_name% 3000'
+        - '[console] money give %player_name% 3000 -s'
         - '[console] exp give %player_name% L5'   
         - '[console] lp user %player_name% permission set challenge.Diamond.4 true' 
         - '[close]'  
@@ -1147,13 +1147,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$1500'
-        - '[console] money give %player_name% 1500'
+        - '[console] money give %player_name% 1500 -s'
         - '[console] exp give %player_name% L3' 
         - '[console] lp user %player_name% permission set challenge.Diamond.3 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$1500'
-        - '[console] money give %player_name% 1500'
+        - '[console] money give %player_name% 1500 -s'
         - '[console] exp give %player_name% L3' 
         - '[console] lp user %player_name% permission set challenge.Diamond.3 true' 
         - '[close]'  
@@ -1205,12 +1205,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$600'
-        - '[console] money give %player_name% 600'
+        - '[console] money give %player_name% 600 -s'
         - '[console] lp user %player_name% permission set challenge.Diamond.2 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$600'
-        - '[console] money give %player_name% 600'
+        - '[console] money give %player_name% 600 -s'
         - '[console] lp user %player_name% permission set challenge.Diamond.2 true' 
         - '[close]'  
       'inprogressDiamondorelev1':
@@ -1281,13 +1281,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$80000'
-        - '[console] money give %player_name% 80000'
+        - '[console] money give %player_name% 80000 -s'
         - '[console] exp give %player_name% L40' 
         - '[console] lp user %player_name% permission set challenge.Iron.9 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$80000'
-        - '[console] money give %player_name% 80000'
+        - '[console] money give %player_name% 80000 -s'
         - '[console] exp give %player_name% L40'      
         - '[console] lp user %player_name% permission set challenge.Iron.9 true' 
         - '[close]'  
@@ -1345,12 +1345,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$40000'
-        - '[console] money give %player_name% 40000'
+        - '[console] money give %player_name% 40000 -s'
         - '[console] lp user %player_name% permission set challenge.Iron.9 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$40000'
-        - '[console] money give %player_name% 40000'
+        - '[console] money give %player_name% 40000 -s'
         - '[console] lp user %player_name% permission set challenge.Iron.9 true' 
         - '[close]'  
       'inprogressIronorelev8':
@@ -1407,13 +1407,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$20000'
-        - '[console] money give %player_name% 20000'
+        - '[console] money give %player_name% 20000 -s'
         - '[console] exp give %player_name% L20' 
         - '[console] lp user %player_name% permission set challenge.Iron.8 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$20000'
-        - '[console] money give %player_name% 20000'
+        - '[console] money give %player_name% 20000 -s'
         - '[console] exp give %player_name% L20'      
         - '[console] lp user %player_name% permission set challenge.Iron.8 true' 
         - '[close]'  
@@ -1471,12 +1471,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$10000'
-        - '[console] money give %player_name% 10000'
+        - '[console] money give %player_name% 10000 -s'
         - '[console] lp user %player_name% permission set challenge.Iron.7 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$10000'
-        - '[console] money give %player_name% 10000'
+        - '[console] money give %player_name% 10000 -s'
         - '[console] lp user %player_name% permission set challenge.Iron.7 true' 
         - '[close]'  
       'inprogressIronorelev6':
@@ -1533,13 +1533,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$4000'
-        - '[console] money give %player_name% 4000'
+        - '[console] money give %player_name% 4000 -s'
         - '[console] exp give %player_name% L10' 
         - '[console] lp user %player_name% permission set challenge.Iron.6 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$4000'
-        - '[console] money give %player_name% 4000'
+        - '[console] money give %player_name% 4000 -s'
         - '[console] exp give %player_name% L10' 
         - '[console] lp user %player_name% permission set challenge.Iron.6 true' 
         - '[close]'  
@@ -1597,12 +1597,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$2500'
-        - '[console] money give %player_name% 2500'
+        - '[console] money give %player_name% 2500 -s'
         - '[console] lp user %player_name% permission set challenge.Iron.5 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$2500'
-        - '[console] money give %player_name% 2500'
+        - '[console] money give %player_name% 2500 -s'
         - '[console] lp user %player_name% permission set challenge.Iron.5 true' 
         - '[close]'  
       'inprogressIronorelev4':
@@ -1659,13 +1659,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$1500'
-        - '[console] money give %player_name% 1500'
+        - '[console] money give %player_name% 1500 -s'
         - '[console] exp give %player_name% L3'   
         - '[console] lp user %player_name% permission set challenge.Iron.4 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$1500'
-        - '[console] money give %player_name% 1500'
+        - '[console] money give %player_name% 1500 -s'
         - '[console] exp give %player_name% L3' 
         - '[console] lp user %player_name% permission set challenge.Iron.4 true' 
         - '[close]'  
@@ -1723,12 +1723,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$800'
-        - '[console] money give %player_name% 800'
+        - '[console] money give %player_name% 800 -s'
         - '[console] lp user %player_name% permission set challenge.Iron.3 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$800'
-        - '[console] money give %player_name% 800'
+        - '[console] money give %player_name% 800 -s'
         - '[console] lp user %player_name% permission set challenge.Iron.3 true' 
         - '[close]'  
       'inprogressIronorelev2':
@@ -1779,12 +1779,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$300'
-        - '[console] money give %player_name% 300'
+        - '[console] money give %player_name% 300 -s'
         - '[console] lp user %player_name% permission set challenge.Iron.2 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$300'
-        - '[console] money give %player_name% 300'
+        - '[console] money give %player_name% 300 -s'
         - '[console] lp user %player_name% permission set challenge.Iron.2 true' 
         - '[close]'  
       'inprogressIronorelev1':
@@ -1855,13 +1855,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$80000'
-        - '[console] money give %player_name% 80000'
+        - '[console] money give %player_name% 80000 -s'
         - '[console] exp give %player_name% L40' 
         - '[console] lp user %player_name% permission set challenge.Gold.9 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$80000'
-        - '[console] money give %player_name% 80000'
+        - '[console] money give %player_name% 80000 -s'
         - '[console] exp give %player_name% L40' 
         - '[console] lp user %player_name% permission set challenge.Gold.9 true' 
         - '[close]'  
@@ -1919,12 +1919,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$40000'
-        - '[console] money give %player_name% 40000'
+        - '[console] money give %player_name% 40000 -s'
         - '[console] lp user %player_name% permission set challenge.Gold.9 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$40000'
-        - '[console] money give %player_name% 40000'
+        - '[console] money give %player_name% 40000 -s'
         - '[console] lp user %player_name% permission set challenge.Gold.9 true' 
         - '[close]'  
       'inprogressGoldorelev8':
@@ -1981,13 +1981,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$20000'
-        - '[console] money give %player_name% 20000'
+        - '[console] money give %player_name% 20000 -s'
         - '[console] exp give %player_name% L20' 
         - '[console] lp user %player_name% permission set challenge.Gold.8 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$20000'
-        - '[console] money give %player_name% 20000'
+        - '[console] money give %player_name% 20000 -s'
         - '[console] exp give %player_name% L20' 
         - '[console] lp user %player_name% permission set challenge.Gold.8 true' 
         - '[close]'  
@@ -2045,12 +2045,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$10000'
-        - '[console] money give %player_name% 10000'
+        - '[console] money give %player_name% 10000 -s'
         - '[console] lp user %player_name% permission set challenge.Gold.7 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$10000'
-        - '[console] money give %player_name% 10000'
+        - '[console] money give %player_name% 10000 -s'
         - '[console] lp user %player_name% permission set challenge.Gold.7 true' 
         - '[close]'  
       'inprogressGoldorelev6':
@@ -2107,13 +2107,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$4000'
-        - '[console] money give %player_name% 4000'
+        - '[console] money give %player_name% 4000 -s'
         - '[console] exp give %player_name% L10' 
         - '[console] lp user %player_name% permission set challenge.Gold.6 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$4000'
-        - '[console] money give %player_name% 4000'
+        - '[console] money give %player_name% 4000 -s'
         - '[console] exp give %player_name% L10' 
         - '[console] lp user %player_name% permission set challenge.Gold.6 true' 
         - '[close]'  
@@ -2171,12 +2171,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$2500'
-        - '[console] money give %player_name% 2500'
+        - '[console] money give %player_name% 2500 -s'
         - '[console] lp user %player_name% permission set challenge.Gold.5 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$2500'
-        - '[console] money give %player_name% 2500'
+        - '[console] money give %player_name% 2500 -s'
         - '[console] lp user %player_name% permission set challenge.Gold.5 true' 
         - '[close]'  
       'inprogressGoldorelev4':
@@ -2233,13 +2233,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$1500'
-        - '[console] money give %player_name% 1500'
+        - '[console] money give %player_name% 1500 -s'
         - '[console] exp give %player_name% L3' 
         - '[console] lp user %player_name% permission set challenge.Gold.4 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$1500'
-        - '[console] money give %player_name% 1500'
+        - '[console] money give %player_name% 1500 -s'
         - '[console] exp give %player_name% L3' 
         - '[console] lp user %player_name% permission set challenge.Gold.4 true' 
         - '[close]'  
@@ -2297,12 +2297,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$800'
-        - '[console] money give %player_name% 800'
+        - '[console] money give %player_name% 800 -s'
         - '[console] lp user %player_name% permission set challenge.Gold.3 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$800'
-        - '[console] money give %player_name% 800'
+        - '[console] money give %player_name% 800 -s'
         - '[console] lp user %player_name% permission set challenge.Gold.3 true' 
         - '[close]'  
       'inprogressGoldorelev2':
@@ -2353,12 +2353,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$300'
-        - '[console] money give %player_name% 300'
+        - '[console] money give %player_name% 300 -s'
         - '[console] lp user %player_name% permission set challenge.Gold.2 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$300'
-        - '[console] money give %player_name% 300'
+        - '[console] money give %player_name% 300 -s'
         - '[console] lp user %player_name% permission set challenge.Gold.2 true' 
         - '[close]'  
       'inprogressGoldorelev1':
@@ -2429,13 +2429,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$80000'
-        - '[console] money give %player_name% 80000'
+        - '[console] money give %player_name% 80000 -s'
         - '[console] exp give %player_name% L40' 
         - '[console] lp user %player_name% permission set challenge.Coal.9 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$80000'
-        - '[console] money give %player_name% 80000'
+        - '[console] money give %player_name% 80000 -s'
         - '[console] exp give %player_name% L40' 
         - '[console] lp user %player_name% permission set challenge.Coal.9 true' 
         - '[close]'  
@@ -2493,12 +2493,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$40000'
-        - '[console] money give %player_name% 40000'
+        - '[console] money give %player_name% 40000 -s'
         - '[console] lp user %player_name% permission set challenge.Coal.9 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$40000'
-        - '[console] money give %player_name% 40000'
+        - '[console] money give %player_name% 40000 -s'
         - '[console] lp user %player_name% permission set challenge.Coal.9 true' 
         - '[close]'  
       'inprogressCoalorelev8':
@@ -2555,13 +2555,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$20000'
-        - '[console] money give %player_name% 20000'
+        - '[console] money give %player_name% 20000 -s'
         - '[console] exp give %player_name% L20' 
         - '[console] lp user %player_name% permission set challenge.Coal.8 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$20000'
-        - '[console] money give %player_name% 20000'
+        - '[console] money give %player_name% 20000 -s'
         - '[console] exp give %player_name% L20' 
         - '[console] lp user %player_name% permission set challenge.Coal.8 true' 
         - '[close]'  
@@ -2619,12 +2619,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$10000'
-        - '[console] money give %player_name% 10000'
+        - '[console] money give %player_name% 10000 -s'
         - '[console] lp user %player_name% permission set challenge.Coal.7 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$10000'
-        - '[console] money give %player_name% 10000'
+        - '[console] money give %player_name% 10000 -s'
         - '[console] lp user %player_name% permission set challenge.Coal.7 true' 
         - '[close]'  
       'inprogressCoalorelev6':
@@ -2681,13 +2681,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$4000'
-        - '[console] money give %player_name% 4000'
+        - '[console] money give %player_name% 4000 -s'
         - '[console] exp give %player_name% L10' 
         - '[console] lp user %player_name% permission set challenge.Coal.6 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$4000'
-        - '[console] money give %player_name% 4000'
+        - '[console] money give %player_name% 4000 -s'
         - '[console] exp give %player_name% L10' 
         - '[console] lp user %player_name% permission set challenge.Coal.6 true' 
         - '[close]'  
@@ -2745,12 +2745,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$2500'
-        - '[console] money give %player_name% 2500'
+        - '[console] money give %player_name% 2500 -s'
         - '[console] lp user %player_name% permission set challenge.Coal.5 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$2500'
-        - '[console] money give %player_name% 2500'
+        - '[console] money give %player_name% 2500 -s'
         - '[console] lp user %player_name% permission set challenge.Coal.5 true' 
         - '[close]'  
       'inprogressCoalorelev4':
@@ -2807,13 +2807,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$1500'
-        - '[console] money give %player_name% 1500'
+        - '[console] money give %player_name% 1500 -s'
         - '[console] exp give %player_name% L3' 
         - '[console] lp user %player_name% permission set challenge.Coal.4 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$1500'
-        - '[console] money give %player_name% 1500'
+        - '[console] money give %player_name% 1500 -s'
         - '[console] exp give %player_name% L3' 
         - '[console] lp user %player_name% permission set challenge.Coal.4 true' 
         - '[close]'  
@@ -2871,12 +2871,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$800'
-        - '[console] money give %player_name% 800'
+        - '[console] money give %player_name% 800 -s'
         - '[console] lp user %player_name% permission set challenge.Coal.3 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$800'
-        - '[console] money give %player_name% 800'
+        - '[console] money give %player_name% 800 -s'
         - '[console] lp user %player_name% permission set challenge.Coal.3 true' 
         - '[close]'  
       'inprogressCoalorelev2':
@@ -2927,12 +2927,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$300'
-        - '[console] money give %player_name% 300'
+        - '[console] money give %player_name% 300 -s'
         - '[console] lp user %player_name% permission set challenge.Coal.2 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$300'
-        - '[console] money give %player_name% 300'
+        - '[console] money give %player_name% 300 -s'
         - '[console] lp user %player_name% permission set challenge.Coal.2 true' 
         - '[close]'  
       'inprogressCoalorelev1':
@@ -3003,13 +3003,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$80000'
-        - '[console] money give %player_name% 80000'
+        - '[console] money give %player_name% 80000 -s'
         - '[console] exp give %player_name% L40' 
         - '[console] lp user %player_name% permission set challenge.Redstone.9 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$80000'
-        - '[console] money give %player_name% 80000'
+        - '[console] money give %player_name% 80000 -s'
         - '[console] exp give %player_name% L40' 
         - '[console] lp user %player_name% permission set challenge.Redstone.9 true' 
         - '[close]'  
@@ -3067,12 +3067,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$40000'
-        - '[console] money give %player_name% 40000'
+        - '[console] money give %player_name% 40000 -s'
         - '[console] lp user %player_name% permission set challenge.Redstone.9 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$40000'
-        - '[console] money give %player_name% 40000'
+        - '[console] money give %player_name% 40000 -s'
         - '[console] lp user %player_name% permission set challenge.Redstone.9 true' 
         - '[close]'  
       'inprogressRedstoneorelev8':
@@ -3129,13 +3129,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$20000'
-        - '[console] money give %player_name% 20000'
+        - '[console] money give %player_name% 20000 -s'
         - '[console] exp give %player_name% L20' 
         - '[console] lp user %player_name% permission set challenge.Redstone.8 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$20000'
-        - '[console] money give %player_name% 20000'
+        - '[console] money give %player_name% 20000 -s'
         - '[console] exp give %player_name% L20' 
         - '[console] lp user %player_name% permission set challenge.Redstone.8 true' 
         - '[close]'  
@@ -3193,12 +3193,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$10000'
-        - '[console] money give %player_name% 10000'
+        - '[console] money give %player_name% 10000 -s'
         - '[console] lp user %player_name% permission set challenge.Redstone.7 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$10000'
-        - '[console] money give %player_name% 10000'
+        - '[console] money give %player_name% 10000 -s'
         - '[console] lp user %player_name% permission set challenge.Redstone.7 true' 
         - '[close]'  
       'inprogressRedstoneorelev6':
@@ -3255,13 +3255,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$4000'
-        - '[console] money give %player_name% 4000'
+        - '[console] money give %player_name% 4000 -s'
         - '[console] exp give %player_name% L10' 
         - '[console] lp user %player_name% permission set challenge.Redstone.6 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$4000'
-        - '[console] money give %player_name% 4000'
+        - '[console] money give %player_name% 4000 -s'
         - '[console] exp give %player_name% L10' 
         - '[console] lp user %player_name% permission set challenge.Redstone.6 true' 
         - '[close]'  
@@ -3319,12 +3319,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$2500'
-        - '[console] money give %player_name% 2500'
+        - '[console] money give %player_name% 2500 -s'
         - '[console] lp user %player_name% permission set challenge.Redstone.5 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$2500'
-        - '[console] money give %player_name% 2500'
+        - '[console] money give %player_name% 2500 -s'
         - '[console] lp user %player_name% permission set challenge.Redstone.5 true' 
         - '[close]'  
       'inprogressRedstoneorelev4':
@@ -3381,13 +3381,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$1500'
-        - '[console] money give %player_name% 1500'
+        - '[console] money give %player_name% 1500 -s'
         - '[console] exp give %player_name% L3' 
         - '[console] lp user %player_name% permission set challenge.Redstone.4 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$1500'
-        - '[console] money give %player_name% 1500'
+        - '[console] money give %player_name% 1500 -s'
         - '[console] exp give %player_name% L3' 
         - '[console] lp user %player_name% permission set challenge.Redstone.4 true' 
         - '[close]'  
@@ -3445,12 +3445,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$800'
-        - '[console] money give %player_name% 800'
+        - '[console] money give %player_name% 800 -s'
         - '[console] lp user %player_name% permission set challenge.Redstone.3 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$800'
-        - '[console] money give %player_name% 800'
+        - '[console] money give %player_name% 800 -s'
         - '[console] lp user %player_name% permission set challenge.Redstone.3 true' 
         - '[close]'  
       'inprogressRedstoneorelev2':
@@ -3501,12 +3501,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$300'
-        - '[console] money give %player_name% 300'
+        - '[console] money give %player_name% 300 -s'
         - '[console] lp user %player_name% permission set challenge.Redstone.2 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$300'
-        - '[console] money give %player_name% 300'
+        - '[console] money give %player_name% 300 -s'
         - '[console] lp user %player_name% permission set challenge.Redstone.2 true' 
         - '[close]'  
       'inprogressRedstoneorelev1':
@@ -3577,13 +3577,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$80000'
-        - '[console] money give %player_name% 80000'
+        - '[console] money give %player_name% 80000 -s'
         - '[console] exp give %player_name% L40' 
         - '[console] lp user %player_name% permission set challenge.Lapis.9 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$80000'
-        - '[console] money give %player_name% 80000'
+        - '[console] money give %player_name% 80000 -s'
         - '[console] exp give %player_name% L40' 
         - '[console] lp user %player_name% permission set challenge.Lapis.9 true' 
         - '[close]'  
@@ -3641,12 +3641,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$40000'
-        - '[console] money give %player_name% 40000'
+        - '[console] money give %player_name% 40000 -s'
         - '[console] lp user %player_name% permission set challenge.Lapis.9 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$40000'
-        - '[console] money give %player_name% 40000'
+        - '[console] money give %player_name% 40000 -s'
         - '[console] lp user %player_name% permission set challenge.Lapis.9 true' 
         - '[close]'  
       'inprogressLapisorelev8':
@@ -3703,13 +3703,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$20000'
-        - '[console] money give %player_name% 20000'
+        - '[console] money give %player_name% 20000 -s'
         - '[console] exp give %player_name% L20' 
         - '[console] lp user %player_name% permission set challenge.Lapis.8 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$20000'
-        - '[console] money give %player_name% 20000'
+        - '[console] money give %player_name% 20000 -s'
         - '[console] exp give %player_name% L20' 
         - '[console] lp user %player_name% permission set challenge.Lapis.8 true' 
         - '[close]'  
@@ -3767,12 +3767,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$10000'
-        - '[console] money give %player_name% 10000'
+        - '[console] money give %player_name% 10000 -s'
         - '[console] lp user %player_name% permission set challenge.Lapis.7 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$10000'
-        - '[console] money give %player_name% 10000'
+        - '[console] money give %player_name% 10000 -s'
         - '[console] lp user %player_name% permission set challenge.Lapis.7 true' 
         - '[close]'  
       'inprogressLapisorelev6':
@@ -3829,13 +3829,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$4000'
-        - '[console] money give %player_name% 4000'
+        - '[console] money give %player_name% 4000 -s'
         - '[console] exp give %player_name% L10' 
         - '[console] lp user %player_name% permission set challenge.Lapis.6 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$4000'
-        - '[console] money give %player_name% 4000'
+        - '[console] money give %player_name% 4000 -s'
         - '[console] exp give %player_name% L10' 
         - '[console] lp user %player_name% permission set challenge.Lapis.6 true' 
         - '[close]'  
@@ -3893,12 +3893,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$2500'
-        - '[console] money give %player_name% 2500'
+        - '[console] money give %player_name% 2500 -s'
         - '[console] lp user %player_name% permission set challenge.Lapis.5 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$2500'
-        - '[console] money give %player_name% 2500'
+        - '[console] money give %player_name% 2500 -s'
         - '[console] lp user %player_name% permission set challenge.Lapis.5 true' 
         - '[close]'  
       'inprogressLapisorelev4':
@@ -3955,13 +3955,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$1500'
-        - '[console] money give %player_name% 1500'
+        - '[console] money give %player_name% 1500 -s'
         - '[console] exp give %player_name% L3' 
         - '[console] lp user %player_name% permission set challenge.Lapis.4 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$1500'
-        - '[console] money give %player_name% 1500'
+        - '[console] money give %player_name% 1500 -s'
         - '[console] exp give %player_name% L3' 
         - '[console] lp user %player_name% permission set challenge.Lapis.4 true' 
         - '[close]'  
@@ -4019,12 +4019,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$800'
-        - '[console] money give %player_name% 800'
+        - '[console] money give %player_name% 800 -s'
         - '[console] lp user %player_name% permission set challenge.Lapis.3 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$800'
-        - '[console] money give %player_name% 800'
+        - '[console] money give %player_name% 800 -s'
         - '[console] lp user %player_name% permission set challenge.Lapis.3 true' 
         - '[close]'  
       'inprogressLapisorelev2':
@@ -4075,12 +4075,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$300'
-        - '[console] money give %player_name% 300'
+        - '[console] money give %player_name% 300 -s'
         - '[console] lp user %player_name% permission set challenge.Lapis.2 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$300'
-        - '[console] money give %player_name% 300'
+        - '[console] money give %player_name% 300 -s'
         - '[console] lp user %player_name% permission set challenge.Lapis.2 true' 
         - '[close]'  
       'inprogressLapisorelev1':
@@ -4148,12 +4148,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$40000'
-        - '[console] money give %player_name% 40000'
+        - '[console] money give %player_name% 40000 -s'
         - '[console] lp user %player_name% permission set challenge.Stone.9 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$40000'
-        - '[console] money give %player_name% 40000'
+        - '[console] money give %player_name% 40000 -s'
         - '[console] lp user %player_name% permission set challenge.Stone.9 true' 
         - '[close]'  
       'inprogressStonelev9':
@@ -4207,13 +4207,13 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$20000'
-        - '[console] money give %player_name% 20000'
+        - '[console] money give %player_name% 20000 -s'
         - '[console] exp give %player_name% L20' 
         - '[console] lp user %player_name% permission set challenge.Stone.9 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$20000'
-        - '[console] money give %player_name% 20000'
+        - '[console] money give %player_name% 20000 -s'
         - '[console] exp give %player_name% L20' 
         - '[console] lp user %player_name% permission set challenge.Stone.9 true' 
         - '[close]'  
@@ -4268,12 +4268,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$10000'
-        - '[console] money give %player_name% 10000'
+        - '[console] money give %player_name% 10000 -s'
         - '[console] lp user %player_name% permission set challenge.Stone.8 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$10000'
-        - '[console] money give %player_name% 10000'
+        - '[console] money give %player_name% 10000 -s'
         - '[console] lp user %player_name% permission set challenge.Stone.8 true' 
         - '[close]'  
       'inprogressStonelev7':
@@ -4327,12 +4327,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$5000'
-        - '[console] money give %player_name% 5000'
+        - '[console] money give %player_name% 5000 -s'
         - '[console] lp user %player_name% permission set challenge.Stone.7 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$5000'
-        - '[console] money give %player_name% 5000'
+        - '[console] money give %player_name% 5000 -s'
         - '[console] lp user %player_name% permission set challenge.Stone.7 true' 
         - '[close]'  
       'inprogressStonelev6':
@@ -4386,12 +4386,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$2500'
-        - '[console] money give %player_name% 2500'
+        - '[console] money give %player_name% 2500 -s'
         - '[console] lp user %player_name% permission set challenge.Stone.6 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$2500'
-        - '[console] money give %player_name% 2500'
+        - '[console] money give %player_name% 2500 -s'
         - '[console] lp user %player_name% permission set challenge.Stone.6 true' 
         - '[close]'  
       'inprogressStonelev5':
@@ -4445,12 +4445,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$1300'
-        - '[console] money give %player_name% 1300'
+        - '[console] money give %player_name% 1300 -s'
         - '[console] lp user %player_name% permission set challenge.Stone.5 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$1300'
-        - '[console] money give %player_name% 1300'
+        - '[console] money give %player_name% 1300 -s'
         - '[console] lp user %player_name% permission set challenge.Stone.5 true' 
         - '[close]'  
       'inprogressStonelev4':
@@ -4504,12 +4504,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$800'
-        - '[console] money give %player_name% 800'
+        - '[console] money give %player_name% 800 -s'
         - '[console] lp user %player_name% permission set challenge.Stone.4 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$800'
-        - '[console] money give %player_name% 800'
+        - '[console] money give %player_name% 800 -s'
         - '[console] lp user %player_name% permission set challenge.Stone.4 true' 
         - '[close]'  
       'inprogressStonelev3':
@@ -4563,12 +4563,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$400'
-        - '[console] money give %player_name% 400'
+        - '[console] money give %player_name% 400 -s'
         - '[console] lp user %player_name% permission set challenge.Stone.3 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$400'
-        - '[console] money give %player_name% 400'
+        - '[console] money give %player_name% 400 -s'
         - '[console] lp user %player_name% permission set challenge.Stone.3 true' 
         - '[close]'  
       'inprogressStonelev2':
@@ -4619,12 +4619,12 @@
         - '&f» &bClick to claim'
         left_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$150'
-        - '[console] money give %player_name% 150'
+        - '[console] money give %player_name% 150 -s'
         - '[console] lp user %player_name% permission set challenge.Stone.2 true' 
         - '[close]'
         right_click_commands:
         - '[message] &b&lChallenges &8> &fYou have claimed the challenge and received &b$150'
-        - '[console] money give %player_name% 150'
+        - '[console] money give %player_name% 150 -s'
         - '[console] lp user %player_name% permission set challenge.Stone.2 true' 
         - '[close]'  
       'inprogressStonelev1':
