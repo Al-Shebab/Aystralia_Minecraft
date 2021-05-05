@@ -33,7 +33,7 @@ group-sorting-priority-list:
   - developer
   - trial-developer
   - senior-administrator
-  - administrator
+  - administator
   - senior-moderator
   - moderator
   - trial-moderator
@@ -42,6 +42,7 @@ group-sorting-priority-list:
   - event-team
   - builder
   - graphics-designer
+  - ayssie
   - sydney
   - melbourne
   - brisbane
@@ -172,7 +173,7 @@ unlimited-nametag-prefix-suffix-mode:
 
 placeholders:
   #output of %afk%
-  afk-yes: ""
+  afk-yes: "&c&lAFK"
   afk-no: ""
   
   #%date%
@@ -182,7 +183,7 @@ placeholders:
   time-format: "h:mm:ss a"
   
   #in hours, in case of wrong timezone
-  time-offset: -5
+  time-offset: 0
   
   #don't forget color codes
   remove-strings:

@@ -68,3 +68,7 @@ forwarding:
       address: 127.0.0.1
       port: 8194
       token: pej59n446omvfg9a16idi4b9i9
+    Skyblock:
+      address: 127.0.0.1
+      port: 8195
+      token: g05tgu0c8acp7iacq1s5n885mb
