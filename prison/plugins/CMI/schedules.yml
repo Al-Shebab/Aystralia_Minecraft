@@ -34,7 +34,7 @@
 #   Insert line with 'delay! 5' to perform rest of commands after 5 seconds from scheduler trigger. This allows to create in example counter before server stop. Check example.
 #   [randomPlayer] placeholder can be used to get random online player name who dont have cmi.scheduler.exclude permission node. This can be used to give rewards for random players on particular time. In example: - cmi give [randomPlayer] diamond %rand/1-5% will give rando mamount from 1 to 5 diamonds to random online player
 # Supports PlaceHolderAPI variables
-# More information about specialized commands can be found at http://www.zrips.net/cmi/commands/specialized/
+# More information about specialized commands can be found at https://www.zrips.net/cmi/commands/specialized/
 
 saveMaps:
   Enabled: false

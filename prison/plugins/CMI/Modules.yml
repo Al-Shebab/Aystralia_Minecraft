@@ -11,7 +11,7 @@ silentChest: false
 #  
 # Version check when player logs in
 # Applies for servers from 1.7.x and up
-versionCheck: true
+versionCheck: false
 #  
 # World limitations: fly, game mode and god mode
 # Applies for servers from 1.7.x and up
@@ -83,7 +83,7 @@ paintingEditor: true
 #  
 # Handles player vanish mode
 # Applies for servers from 1.7.x and up
-vanish: true
+vanish: false
 #  
 # Handles money cheques
 # Applies for servers from 1.7.x and up
@@ -99,11 +99,11 @@ cmiPlaytime: true
 #  
 # Handles hologram updates
 # Applies for servers from 1.7.x and up
-holograms: true
+holograms: false
 #  
 # Handles portals
 # Applies for servers from 1.7.x and up
-portals: true
+portals: false
 #  
 # Handles home bed interactions and bed destroy events. Disabling this homes will still work
 # Applies for servers from 1.7.x and up
@@ -111,7 +111,7 @@ homeInteractions: true
 #  
 # Handles dynamic signs
 # Applies for servers from 1.7.x and up
-dynamicSigns: true
+dynamicSigns: false
 #  
 # Handles leather armor which has dynamic colors
 # Applies for servers from 1.7.x and up
@@ -179,7 +179,7 @@ afk: true
 #  
 # Handling timed commands like tfly and tgod
 # Applies for servers from 1.7.x and up
-timedCommands: false
+timedCommands: true
 #  
 # Handling of eventCommands.yml feature 
 # Applies for servers from 1.9.x and up
@@ -192,6 +192,10 @@ disabledEnchants: false
 # Handling of siting on blocks
 # Applies for servers from 1.8.x and up
 sitAnimation: true
+#  
+# Handling of ride suffocation detection
+# Applies for servers from 1.7.x and up
+rideAnimation: true
 #  
 # Handling of boss bar compass
 # Applies for servers from 1.9.x and up
@@ -217,6 +221,6 @@ totemBehavior: false
 # Applies for servers from 1.9.x and up
 anvilRenameColor: true
 #  
-# Handling of anvil unlimited repair
-# Applies for servers from 1.9.x and up
-anvilUnlimitedRepair: true
+# Handling of launch command falldamage
+# Applies for servers from 1.7.x and up
+launchPad: true

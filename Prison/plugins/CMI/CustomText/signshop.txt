@@ -1,0 +1,8 @@
+<AutoPage><AutoAlias><ReqPermission>
+&b&lSign Shop Tutorial
+&fStep 1. Place a sign on a chest
+&fStep 2. Enter desired shop, example can be found here
+&9https://i.imgur.com/6NsB964.png
+&fStep 3. ???
+&fStep 4. Profit
+&bIf you need any help feel free to contact a staff member.

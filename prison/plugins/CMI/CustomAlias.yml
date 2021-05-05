@@ -17,25 +17,9 @@
 # Commands under this alias will get executed. Exelent way to show help page and correct usage if needed
 
 CustomAlias:
-  bin:
-    Cmds:
-    - cmi dispose
-  trash:
-    Cmds:
-    - cmi dispose
-  rtp:
-    Cmds:
-    - cmi rt world
   fix:
     Cmds:
     - cmi repair
-  repair:
-    Cmds:
-    - mcmmo:repair $1-
-  fakequit:
-    Cmds:
-    - v on
-    - broadcast! &4&l- &r%cmi_user_name%
     Perm: true
   colours:
     Cmds:
@@ -43,9 +27,15 @@ CustomAlias:
   colourpicker:
     Cmds:
     - cmi colorpicker $1-
-  rt:
+  rtp:
     Cmds:
     - cmi rt world
   wild:
     Cmds:
     - cmi rt world
+  discord:
+    Cmds:
+    - cmi ctext discord
+  donate:
+    Cmds:
+    - cmi ctext donate
