@@ -247,7 +247,7 @@ world-settings:
       no-tick-view-distance: -1
     anti-xray:
       use-permission: false
-      enabled: true
+      enabled: false
       engine-mode: 2
       max-chunk-section-index: 3
       update-radius: 2

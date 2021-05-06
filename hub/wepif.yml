@@ -39,7 +39,7 @@ permissions:
             permissions:
             - '*'
     users:
-        sk89q:
+        Al_Shebab:
             permissions:
             - worldedit
             groups:
