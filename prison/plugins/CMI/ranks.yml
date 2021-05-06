@@ -81,52 +81,321 @@
 #         MonsterKills - defines amount of monster kills. If specific monster is not defined, then total amount is used
 #         KilledBy - defines amount of deaths by monster. If specific monster is not defined, then total amount is used
 
-guest:
+nothing:
   Enabled: true
-  DisplayName: '{#5d18ff}&lGuest&r'
+  DisplayName: ''
   DefaultRank: true
   AutoRankup: true
   NextRanks:
-  - member
-member:
+  - A
+A:
   Enabled: true
-  DisplayName: '{#763bff}&lMember&r'
-  AutoRankup: true
+  DisplayName: '&b&lA&r'
+  AutoRankup: false
   RankupConfirmation: false
   NextRanks:
-  - trusted
+  - B
   MoneyCost: 0
   Commands:
-  - broadcast! &b[playerDisplayName] &fleveled up to {#763bff}&lMember&r
-  - cmi money give [playerName] 10000
-  - luckperms user [playerName] parent add member
+  - luckperms user [playerName] parent add A
   StatsRequirements:
-  - PlayTime:1200
-trusted:
+  - PlayTime:1
+B:
   Enabled: true
-  DisplayName: '{#773dff}Trusted&r'
-  AutoRankup: true
+  DisplayName: '&b&lB&r'
+  AutoRankup: false
   RankupConfirmation: false
   NextRanks:
-  - veteran
-  MoneyCost: 0
+  - C
+  MoneyCost: 1000000
   Commands:
-  - broadcast! &b[playerDisplayName] &fleveled up to {#773dff}Trusted&r
-  - cmi money give [playerName] 25000
-  - luckperms user [playerName] parent add trusted
-  StatsRequirements:
-  - PlayTime:86400
-veteran:
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - luckperms user [playerName] parent add B
+C:
   Enabled: true
-  DisplayName: '{#004fd4}Veteran&r'
-  AutoRankup: true
+  DisplayName: '&b&lC&r'
+  AutoRankup: false
   RankupConfirmation: false
   NextRanks:
-  - Last
-  MoneyCost: 0
+  - D
+  MoneyCost: 1836180
   Commands:
-  - broadcast! &b[playerDisplayName] &fleveled up to {#004fd4}Veteran&r
-  - cmi money give [playerName] 100000
-  - luckperms user [playerName] parent add veteran
-  StatsRequirements:
-  - PlayTime:604800
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - luckperms user [playerName] parent add C
+D:
+  Enabled: true
+  DisplayName: '&b&lD&r'
+  AutoRankup: false
+  RankupConfirmation: false
+  NextRanks:
+  - E
+  MoneyCost: 3305124
+  Commands:
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - luckperms user [playerName] parent add D
+E:
+  Enabled: true
+  DisplayName: '&b&lE&r'
+  AutoRankup: false
+  RankupConfirmation: false
+  NextRanks:
+  - F
+  MoneyCost: 5949233
+  Commands:
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - luckperms user [playerName] parent add E
+F:
+  Enabled: true
+  DisplayName: '&b&lF&r'
+  AutoRankup: false
+  RankupConfirmation: false
+  NextRanks:
+  - G
+  MoneyCost: 10708602
+  Commands:
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - luckperms user [playerName] parent add F
+G:
+  Enabled: true
+  DisplayName: '&b&lG&r'
+  AutoRankup: false
+  RankupConfirmation: false
+  NextRanks:
+  - H
+  MoneyCost: 19275602
+  Commands:
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - luckperms user [playerName] parent add G
+H:
+  Enabled: true
+  DisplayName: '&b&lH&r'
+  AutoRankup: false
+  RankupConfirmation: false
+  NextRanks:
+  - I
+  MoneyCost: 34695870
+  Commands:
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - luckperms user [playerName] parent add H
+I:
+  Enabled: true
+  DisplayName: '&b&lI&r'
+  AutoRankup: false
+  RankupConfirmation: false
+  NextRanks:
+  - J
+  MoneyCost: 62452565
+  Commands:
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - luckperms user [playerName] parent add I
+J:
+  Enabled: true
+  DisplayName: '&b&lJ&r'
+  AutoRankup: false
+  RankupConfirmation: false
+  NextRanks:
+  - K
+  MoneyCost: 112414618
+  Commands:
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - luckperms user [playerName] parent add J
+K:
+  Enabled: true
+  DisplayName: '&b&lK&r'
+  AutoRankup: false
+  RankupConfirmation: false
+  NextRanks:
+  - L
+  MoneyCost: 202346312
+  Commands:
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - luckperms user [playerName] parent add K
+L:
+  Enabled: true
+  DisplayName: '&b&lL&r'
+  AutoRankup: false
+  RankupConfirmation: false
+  NextRanks:
+  - M
+  MoneyCost: 364223362
+  Commands:
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - luckperms user [playerName] parent add L
+M:
+  Enabled: true
+  DisplayName: '&b&lM&r'
+  AutoRankup: false
+  RankupConfirmation: false
+  NextRanks:
+  - N
+  MoneyCost: 655602051
+  Commands:
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - luckperms user [playerName] parent add M
+N:
+  Enabled: true
+  DisplayName: '&b&lN&r'
+  AutoRankup: false
+  RankupConfirmation: false
+  NextRanks:
+  - O
+  MoneyCost: 1180083692
+  Commands:
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - luckperms user [playerName] parent add N
+O:
+  Enabled: true
+  DisplayName: '&b&lO&r'
+  AutoRankup: false
+  RankupConfirmation: false
+  NextRanks:
+  - P
+  MoneyCost: 2124150646
+  Commands:
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - luckperms user [playerName] parent add O
+P:
+  Enabled: true
+  DisplayName: '&b&lP&r'
+  AutoRankup: false
+  RankupConfirmation: false
+  NextRanks:
+  - Q
+  MoneyCost: 3823471163
+  Commands:
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - luckperms user [playerName] parent add P
+Q:
+  Enabled: true
+  DisplayName: '&b&lQ&r'
+  AutoRankup: false
+  RankupConfirmation: false
+  NextRanks:
+  - R
+  MoneyCost: 6882248093
+  Commands:
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - luckperms user [playerName] parent add Q
+R:
+  Enabled: true
+  DisplayName: '&b&lR&r'
+  AutoRankup: false
+  RankupConfirmation: false
+  NextRanks:
+  - S
+  MoneyCost: 12388046567
+  Commands:
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - luckperms user [playerName] parent add R
+S:
+  Enabled: true
+  DisplayName: '&b&lS&r'
+  AutoRankup: false
+  RankupConfirmation: false
+  NextRanks:
+  - T
+  MoneyCost: 22298483821
+  Commands:
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - luckperms user [playerName] parent add S
+T:
+  Enabled: true
+  DisplayName: '&b&lT&r'
+  AutoRankup: false
+  RankupConfirmation: false
+  NextRanks:
+  - U
+  MoneyCost: 40137270878
+  Commands:
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - luckperms user [playerName] parent add T
+U:
+  Enabled: true
+  DisplayName: '&b&lU&r'
+  AutoRankup: false
+  RankupConfirmation: false
+  NextRanks:
+  - V
+  MoneyCost: 72247087580
+  Commands:
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - luckperms user [playerName] parent add U
+V:
+  Enabled: true
+  DisplayName: '&b&lV&r'
+  AutoRankup: false
+  RankupConfirmation: false
+  NextRanks:
+  - W
+  MoneyCost: 130044757643
+  Commands:
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - luckperms user [playerName] parent add V
+W:
+  Enabled: true
+  DisplayName: '&b&lW&r'
+  AutoRankup: false
+  RankupConfirmation: false
+  NextRanks:
+  - X
+  MoneyCost: 234080563758
+  Commands:
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - luckperms user [playerName] parent add W
+X:
+  Enabled: true
+  DisplayName: '&b&lX&r'
+  AutoRankup: false
+  RankupConfirmation: false
+  NextRanks:
+  - Y
+  MoneyCost: 529699370528
+  Commands:
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - luckperms user [playerName] parent add X
+Y:
+  Enabled: true
+  DisplayName: '&b&lY&r'
+  AutoRankup: false
+  RankupConfirmation: false
+  NextRanks:
+  - Z
+  MoneyCost: 1210639759316
+  Commands:
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - luckperms user [playerName] parent add Y
+Z:
+  Enabled: true
+  DisplayName: '&b&lZ&r'
+  AutoRankup: false
+  RankupConfirmation: false
+  MoneyCost: 2179151566770
+  Commands:
+  - msg!- [playerName] &b&lRankup &8> &fYou are now &b&lRank %cmi_user_rank%! &fYou
+    have been given &b+1 Rankup Crate
+  - msg!- [playerName] &b&lPrestige &8> &fYou are now eligible to prestige! &b/prestige
+  - luckperms user [playerName] parent add Z

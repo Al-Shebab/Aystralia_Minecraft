@@ -1,23 +1,23 @@
-mine_name: A
+mine_name: L
 blocks:
-- SPRUCE_LOG:15:false:false
-- BIRCH_LOG:37:false:false
-- OAK_LOG:48:false:false
+- NETHERRACK:15:false:false
+- DIAMOND_ORE:37:false:false
+- LAPIS_ORE:48:false:false
 region:
   world: world
-  zmin: 10572
+  zmin: 6952
   ymin: 4
-  xmin: 10572
-  zmax: 10604
+  xmin: 6952
+  zmax: 6984
   ymax: 38
-  xmax: 10604
+  xmax: 6984
 reset:
   use_timer: false
   timer: 10
   use_percentage: true
   percentage: 45
   reset_type: GRADUAL
-  use_messages: false
+  use_messages: true
   reset_direction: TOPTOBOTTOM
 perm_to_mine: false
 blocks_mined: 0

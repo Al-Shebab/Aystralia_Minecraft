@@ -323,7 +323,7 @@ Alias:
   #  
   # /cmi editwarp $1-
   /editwarp:
-    Enabled: false
+    Enabled: true
     Tab: true
   #  
   # /cmi effect $1-
@@ -1036,10 +1036,10 @@ Alias:
   #  
   # /cmi removewarp $1-
   /removewarp:
-    Enabled: false
+    Enabled: true
     Tab: true
   /delwarp:
-    Enabled: false
+    Enabled: true
     Tab: true
   #  
   # /cmi repair $1-
@@ -1214,7 +1214,7 @@ Alias:
   #  
   # /cmi setwarp $1-
   /setwarp:
-    Enabled: false
+    Enabled: true
     Tab: true
   #  
   # /cmi setworth $1-
@@ -1618,7 +1618,7 @@ Alias:
   #  
   # /cmi warp $1-
   /warp:
-    Enabled: false
+    Enabled: true
     Tab: true
   #  
   # /cmi warpgroups $1-
