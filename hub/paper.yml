@@ -27,7 +27,7 @@ settings:
   incoming-packet-spam-threshold: 300
   chunk-tasks-per-tick: 1000
   fix-entity-position-desync: true
-  max-joins-per-tick: 3
+  max-joins-per-tick: 1000
   load-permissions-yml-before-plugins: true
   unsupported-settings:
     allow-permanent-block-break-exploits: false

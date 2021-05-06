@@ -1713,50 +1713,6 @@ Time:
       night: 420
       # Default value: 90 Starts from tick: 22200 Ends at tick: 24000
       sunrise: 90
-    # Time is defined in seconds. Vanilla 24 hour ingame duration is 1200 seconds of real time
-    fantasy:
-      Enabled: false
-      # Default value: 600 Starts from tick: 0 Ends at tick: 12000
-      day: 600
-      # Default value: 90 Starts from tick: 12000 Ends at tick: 13800
-      sunset: 90
-      # Default value: 420 Starts from tick: 13800 Ends at tick: 22200
-      night: 420
-      # Default value: 90 Starts from tick: 22200 Ends at tick: 24000
-      sunrise: 90
-    # Time is defined in seconds. Vanilla 24 hour ingame duration is 1200 seconds of real time
-    realistic:
-      Enabled: false
-      # Default value: 600 Starts from tick: 0 Ends at tick: 12000
-      day: 600
-      # Default value: 90 Starts from tick: 12000 Ends at tick: 13800
-      sunset: 90
-      # Default value: 420 Starts from tick: 13800 Ends at tick: 22200
-      night: 420
-      # Default value: 90 Starts from tick: 22200 Ends at tick: 24000
-      sunrise: 90
-    # Time is defined in seconds. Vanilla 24 hour ingame duration is 1200 seconds of real time
-    resource:
-      Enabled: false
-      # Default value: 600 Starts from tick: 0 Ends at tick: 12000
-      day: 600
-      # Default value: 90 Starts from tick: 12000 Ends at tick: 13800
-      sunset: 90
-      # Default value: 420 Starts from tick: 13800 Ends at tick: 22200
-      night: 420
-      # Default value: 90 Starts from tick: 22200 Ends at tick: 24000
-      sunrise: 90
-    # Time is defined in seconds. Vanilla 24 hour ingame duration is 1200 seconds of real time
-    arctic:
-      Enabled: false
-      # Default value: 600 Starts from tick: 0 Ends at tick: 12000
-      day: 600
-      # Default value: 90 Starts from tick: 12000 Ends at tick: 13800
-      sunset: 90
-      # Default value: 420 Starts from tick: 13800 Ends at tick: 22200
-      night: 420
-      # Default value: 90 Starts from tick: 22200 Ends at tick: 24000
-      sunrise: 90
 RandomTeleportation:
   # If this set to true we will generate random teleport default settings for all detected worlds
   # Setting to false will not longer generate world setups, but you can add them manually if needed
@@ -1776,9 +1732,12 @@ RandomTeleportation:
       IgnoreLava: true
       minY: 0
       maxY: 256
+    # World name to use this feature. Add annother one with appropriate name to enable random teleportation
     world_the_end:
       Enabled: false
+      # Max coordinate to teleport, setting to 1000, player can be teleported between -1000 and 1000 coordinates
       MaxRange: 1000
+      # If maxcord set to 1000 and mincord to 500, then player can be teleported between -1000 to -500 and 1000 to 500 coordinates
       MinRange: 500
       CenterX: 0
       CenterZ: 0
@@ -1787,9 +1746,12 @@ RandomTeleportation:
       IgnoreLava: true
       minY: 0
       maxY: 256
+    # World name to use this feature. Add annother one with appropriate name to enable random teleportation
     world:
       Enabled: true
+      # Max coordinate to teleport, setting to 1000, player can be teleported between -1000 and 1000 coordinates
       MaxRange: 7000
+      # If maxcord set to 1000 and mincord to 500, then player can be teleported between -1000 to -500 and 1000 to 500 coordinates
       MinRange: 1000
       CenterX: 0
       CenterZ: 0
@@ -1857,81 +1819,43 @@ Enchanting:
     MaxLevel:
       protection_fire: 4
       damage_all: 5
-      aquaman: 1
+      arrow_fire: 1
       soul_speed: 3
-      lucky_miner: 3
-      surprise: 3
+      water_worker: 1
       arrow_knockback: 2
       loyalty: 3
+      depth_strider: 3
       glow: 10
-      poisoned_arrows: 3
+      vanishing_curse: 1
       durability: 3
+      knockback: 2
       luck: 3
       binding_curse: 1
       loot_bonus_blocks: 3
-      smelter: 7
+      protection_environmental: 4
       dig_speed: 5
+      mending: 1
       frost_walker: 2
-      paralyze: 2
-      withered_arrows: 3
+      lure: 3
+      loot_bonus_mobs: 3
+      piercing: 4
+      protection_explosions: 4
       damage_undead: 5
       multishot: 1
       fire_aspect: 2
       channeling: 1
-      blindness: 3
+      sweeping_edge: 3
       thorns: 3
       damage_arthropods: 5
-      ender_bow: 1
-      ice_aspect: 3
-      rocket: 4
-      silk_touch: 1
-      confusion: 3
-      cutter: 5
-      quick_charge: 3
-      double_strike: 4
-      protection_projectile: 4
-      sonic: 3
-      impaling: 5
-      night_vision: 1
-      arrow_damage: 5
-      cold_steel: 3
-      arrow_infinite: 1
-      criticals: 3
-      infernus: 2
-      tunnel: 3
-      venom: 2
-      arrow_fire: 1
-      treasures: 4
-      scavenger: 4
-      water_worker: 1
-      exhaust: 2
-      vampire: 4
-      depth_strider: 3
-      exp_hunter: 6
-      thrifty: 3
-      vanishing_curse: 1
-      knockback: 2
-      wither: 2
-      pigificator: 5
-      telekinesis: 3
-      protection_environmental: 4
-      bane_of_netherspawn: 5
-      mending: 1
-      replanter: 1
-      lure: 3
-      loot_bonus_mobs: 3
-      piercing: 4
-      flame_walker: 3
-      protection_explosions: 4
-      hardened: 3
-      rage: 2
-      bunny_hop: 3
-      sweeping_edge: 3
       oxygen: 3
       riptide: 3
+      silk_touch: 1
+      quick_charge: 3
+      protection_projectile: 4
+      impaling: 5
       protection_fall: 4
-      haste: 3
-      thunder: 3
+      arrow_damage: 5
+      arrow_infinite: 1
   # When set to true, players will be required to have cmi.enchantments.[enchantname] permission node
   RequireSpecificPermission: false
   # When set to true, players will be required to have cmi.enchantments.[enchantname].[maxlevel] permission node to be abble to enchant item to defined max level

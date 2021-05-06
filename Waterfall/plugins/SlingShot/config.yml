@@ -73,4 +73,4 @@ message: "&cYou have been returned to the lobby for reason: &4%REASON%"
 # This is the message to show the kicked player
 # 
 # %REASON% will use the original kick reason
-kick-message: "The lobby server was not available, so you have been kicked from the network"
+kick-message: "%REASON%, If this is unusual join our discord https://discord.gg/hWN7zXtbQP"
