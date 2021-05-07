@@ -1,5 +1,6 @@
 # Use ingame editor /cmi setworth to change prices
 worth:
+  ACACIA_LOG: '3277.0'
   BASALT: '1475740.0'
   BIRCH_LOG: '800.0'
   BLACKSTONE: '922377.0'
@@ -11,6 +12,7 @@ worth:
   END_STONE_BRICKS: '6044629.0'
   GOLD_ORE: '34360.0'
   IRON_ORE: '21475.0'
+  JUNGLE_LOG: '2048.0'
   LAPIS_ORE: '87961.0'
   MAGMA_BLOCK: '2361183.0'
   NETHERITE_BLOCK: '6.338253E7'

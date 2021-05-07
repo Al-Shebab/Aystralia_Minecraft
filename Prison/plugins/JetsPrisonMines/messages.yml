@@ -9,12 +9,12 @@
 reset:
   timed:
     times: "10,5,3,2,1" #The times (in seconds) you wish the messages below to show. If you are using gradual reset, only numbers up to 10 is supported
-    singular: "&a%MINE% &7Will be resetting in &b%TIME% second."
-    plural: "&a%MINE% &7Will be resetting in &b%TIME% seconds."
-    reset: "&a%MINE% &7is now resetting! You have been teleported to &a%MINE% Spawn&7!."
+    singular: "&b%MINE% &fWill be resetting in &b%TIME% second."
+    plural: "&b%MINE% &fWill be resetting in &b%TIME% seconds."
+    reset: "&b%MINE% &fis now resetting! You have been teleported to &b%MINE% Spawn&f!."
     onReset: "none"
   gradual:
-    player_in_mine: "&a%MINE% &7is currently resetting! Please wait!" #Called if a user runs into the mine while its resetting
+    player_in_mine: "&b%MINE% &fis currently resetting! Please wait!" #Called if a user runs into the mine while its resetting
 #
 #  -- Hologram messages --
 #
@@ -23,15 +23,15 @@ reset:
 # %MINE% for the mine
 #
 hologram:
-  timer_holo: "&7-- &aMine &b%MINE% &awill reset in &b%STAT% &7--"
-  blocks_left_holo: "&7-- &aThere are &b%STAT%% &ablocks left in mine &b%MINE% &7--"
-  blocks_mined_holo: "&7-- &b%STATUNFORMATTED% &ablocks have been mined &7--"
+  timer_holo: "&f-- &bMine &b%MINE% &bwill reset in &b%STAT% &f--"
+  blocks_left_holo: "&f-- &bThere are &b%STAT%% &bblocks left in mine &b%MINE% &f--"
+  blocks_mined_holo: "&f-- &b%STATUNFORMATTED% &bblocks have been mined &f--"
 
 #Reset messages for user, when a user does the /mine reset <mine> command
 player_not_standing_in_mine: "%PREFIX%&cYou are currently not standing in a mine to reset!"
 player_mine_des_not_exist: "%PREFIX%&cThat mine does not exist!"
 player_cooldown_reset_message: "%PREFIX%&cYou can next reset a mine in %COOLDOWN% seconds!"
-player_reset_mine: "%PREFIX%&aYou have reset mine %MINENAME%!"
+player_reset_mine: "%PREFIX%&bYou have reset mine %MINENAME%!"
 
 #
 # -- Other stuff --

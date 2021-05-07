@@ -5,10 +5,10 @@
   "pointsToNextLevel": 54,
   "uwCount": {},
   "mdCount": {
-    "CRAFTING_TABLE": 1,
-    "AIR": 10239509,
     "COBBLESTONE_SLAB": 444,
+    "CHEST": 45,
     "BEDROCK": 1,
-    "CHEST": 45
+    "AIR": 10239509,
+    "CRAFTING_TABLE": 1
   }
 }

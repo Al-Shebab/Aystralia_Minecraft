@@ -289,7 +289,7 @@ info:
   beeinfo: '!actionbar!&bHoney level: &f[level]&b/&f[maxlevel] &bBees inside: &f[count]&b/&f[maxcount]'
   circle: '&3Circle'
   square: '&fSquare'
-  clear: '&7Clear'
+  clear: '&fClear'
   protectedArea: '&cProtected area. Can''t do this here.'
   valueToLong: '&fValue is too high. Max: [max]'
   valueToShort: '&fValue is too low. Min: [min]'
@@ -596,6 +596,8 @@ info:
     - QUICKCHARGE
     double_strike:
     - DOUBLESTRIKE
+    wildstackerglow:
+    - WildStackerGlow
     protection_projectile:
     - ProjectileProtection
     sonic:
@@ -794,7 +796,7 @@ modify:
   ChangeHover: '&fClick to change'
   ChangeCommands: '&fCommands'
   enabledColor: '&b'
-  disabledColor: '&7'
+  disabledColor: '&f'
   commandTitle: ' &f--- &b[name] &f---'
   commandList: ' &f[command]  '
   emptyLine: '&b[Empty line]'
@@ -869,7 +871,7 @@ Selection:
   SecondaryPoint: '&fPlaced &bSecondary &fSelection Point [point]'
   CoordsTop: '&fX:&b[x] &fY:&b[y] &fZ:&b[z]'
   CoordsBottom: '&fX:&b[x] &fY:&b[y] &fZ:&b[z]'
-  Area: '&7[world] &f(&b[x1]:[y1]:[z1] &f[x2]:[y2]:[z2]&f)'
+  Area: '&f[world] &f(&b[x1]:[y1]:[z1] &f[x2]:[y2]:[z2]&f)'
 NetherPortal:
   ToHigh: '&cPortal is to big, max height is &b[max]&c!'
   ToWide: '&cPortal is to wide, max width is &b[max]&c!'
@@ -887,7 +889,7 @@ Location:
   Z: '&fZ: &b[z]'
   Pitch: '&fPitch: &b[pitch]'
   Yaw: '&fYaw: &b[yaw]'
-Locations: '&7Locations: '
+Locations: '&fLocations: '
 Ender:
   Title: '&bOpen ender chest'
 Chat:
@@ -896,10 +898,14 @@ Chat:
   LocalNoOne: '!actionbar!&cNobody hear you, write ! before message for global chat'
   shoutDeduction: '!actionbar!&cDeducted &f[amount] &cfor shout'
   # Use \n to add new line
-  publicHover: '&fSent time: &b%server_time_hh:mm:ss%'
-  privateHover: '&fSent time: &b%server_time_hh:mm:ss%'
-  staffHover: '&fSent time: &b%server_time_hh:mm:ss%'
-  helpopHover: '&fSent time: &b%server_time_hh:mm:ss%'
+  publicHover: '&fUsername: &b%cmi_user_name%\n&fPing: &b%cmi_user_ping%ms\n&fBalance:
+    &b%cmi_user_balance_formatted%'
+  privateHover: '&fUsername: &b%cmi_user_name%\n&fPing: &b%cmi_user_ping%ms\n&fBalance:
+    &b%cmi_user_balance_formatted%'
+  staffHover: '&fUsername: &b%cmi_user_name%\n&fPing: &b%cmi_user_ping%ms\n&fBalance:
+    &b%cmi_user_balance_formatted%'
+  helpopHover: '&fUsername: &b%cmi_user_name%\n&fPing: &b%cmi_user_ping%ms\n&fBalance:
+    &b%cmi_user_balance_formatted%'
   link: '&l&f[&bLINK&f]'
   item: '&f[%cmi_iteminhand_displayname%[amount]&f]'
   itemAmount: ' x[amount]'
@@ -970,7 +976,7 @@ command:
       info: '&fLists all recorded alerts'
       args: ''
     info:
-      list: ' &f[place]. &b[playerDisplayName] &f[time] &7Reason: [reason]'
+      list: ' &f[place]. &b[playerDisplayName] &f[time] &fReason: [reason]'
   aliaseditor:
     help:
       info: '&fAlias editor'
@@ -1022,7 +1028,7 @@ command:
       leftLeg: '&bLeft leg [coord]&b: &f[amount]'
       rightLeg: '&bRight leg [coord]&b: &f[amount]'
       pos: '&bPosition [coord]&b: &f[amount]'
-      list: '&7[place]. &b[distance] [items]'
+      list: '&f[place]. &b[distance] [items]'
       items: '&3[displayName]&f[type]'
       plate: '&bPlate'
       size: '&bSmall'
@@ -1628,7 +1634,7 @@ command:
       autoAlias: '&fAuto alias: &b[state]'
       permReq: '&fRequires permission: &b[state]'
       listTitle: '&fCText''s'
-      listFormat: '&b[name]&7: &r[extra]'
+      listFormat: '&b[name]&f: &r[extra]'
   editlocale:
     help:
       info: '&fEdit your locale file'
@@ -1664,7 +1670,7 @@ command:
       autoLore: '&9Auto lore generation: [state]'
       group: '&9Group: &b[group]'
       newGroup: '&fEnter new group name'
-      displayName: '&2DisplayName: &7[displayName]'
+      displayName: '&2DisplayName: &f[displayName]'
       newDisplayName: '&fEnter new display name'
       randomizeYaw: '&9Randomize direction: [state]'
       permission: '&9Requires permission to use: [state]'
@@ -2116,7 +2122,7 @@ command:
       moveZ: '&bZ:&f[z]'
       shift:
       - '&fChange by 0.01 or hold shift to change by 0.1'
-      listFormat: '&b[name]&7: &r[extra]'
+      listFormat: '&b[name]&f: &r[extra]'
       addInfo: '&fEnter new line text. Type &bcancel &fto cancel. Extra variables:
         &bICON:&b[Value] &bSICON:&b[Value]&f where &bValue&f- &b[MaterialName-amount]%enchanted%&f,
         &b%itemInHand%&f, &bHead:[headOwner]'
@@ -2410,7 +2416,7 @@ command:
       info: '&fBan ip list'
       args: ''
     info:
-      banList: '&7[ip] &f- &b[reason]  '
+      banList: '&f[ip] &f- &b[reason]  '
       bannedBy: '&bBanned by: &f[source]'
       ends: '&bEnds: &f[time]'
       related: |-
@@ -2844,7 +2850,7 @@ command:
       noMailsById: '&fThere is no mail by this id for this player'
       noMails: '&fYou have no mail'
       mailHover: '&f[senderName] /n &f[time]'
-      mailList: ' &7[senderDisplayName]&f: [mail] '
+      mailList: ' &f[senderDisplayName]&f: [mail] '
       waitingMail: '&fYou have &b[amount] &fmails. Click to check them out.'
   mailall:
     help:
@@ -3082,7 +3088,7 @@ command:
       removedNote: '&fRemoved note for player'
       noNotesById: '&fThere is no saved notes by this id for player'
       noNotes: '&fThere is no saved notes for player'
-      listNotes: '&7[note]'
+      listNotes: '&f[note]'
   openbook:
     help:
       info: '&fOpen book gui'
@@ -3544,9 +3550,9 @@ command:
       give: '&fGive &b[name] &fitem'
       removed: '&fRemoved &b[name] &fitem'
       saved: '&fSaved &b[name] &fitem'
-      uiTitle: 'Category: [category] &8[current]&7/&8[total]'
-      name: '&7Name: &f[name]'
-      category: '&7Category: &f[category]'
+      uiTitle: 'Category: [category] &8[current]&f/&8[total]'
+      name: '&fName: &f[name]'
+      category: '&fCategory: &f[category]'
   sc:
     help:
       info: '&fStarts sign copy process'

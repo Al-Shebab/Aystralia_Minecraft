@@ -3,47 +3,47 @@
 #    hopperconfig,world,xpos,ypos,zpos,worldforchest/hopper,xpos,ypos,zpos,level,itemstransfered,dateplaced,hoppertpenabled,blockeswhitelisted,blocksblacklisted
 Players:
   1132a3f9-cf23-42e1-8595-79d07b07844e:
-  - IV,skyblock,5971,118,2011,skyblock,5969,118,2013,IV,1429369,1618790133556,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,false
-  - V,skyblock,5981,118,2014,skyblock,5982,118,2014,V,13859727,1618356834685,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - IV,skyblock,5980,118,2013,skyblock,5982,118,2013,IV,1573534,1618537058589,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,false
-  - V,skyblock,5980,118,2014,skyblock,5982,118,2014,V,13504591,1618356859383,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - IV,skyblock,5969,118,2012,skyblock,5969,118,2014,IV,4406098,1618356765538,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - IV,skyblock,5971,118,2013,skyblock,5969,118,2013,IV,1172488,1618790131706,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,false
-  - IV,skyblock,5970,118,2012,skyblock,5969,118,2014,IV,3830866,1618356767788,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - V,skyblock,5970,118,2013,skyblock,5969,118,2014,V,12723352,1618356766837,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - IV,skyblock,6014,122,1998,skyblock,6014,122,1999,IV,1430842,1618956844462,false,UE9QUFl8bnVsbA==:,UE9QUFl8bnVsbA==:,WHITELIST,false
-  - IV,skyblock,5970,118,2011,skyblock,5969,118,2013,IV,176384,1619561035199,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - V,skyblock,5969,119,2001,skyblock,5969,118,2001,V,15664819,1618356799384,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - V,skyblock,5969,119,2002,skyblock,5969,118,2001,V,14119734,1618356795985,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - IV,skyblock,5971,118,2012,skyblock,5969,118,2013,IV,1172308,1618790132560,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,false
-  - V,skyblock,5982,119,2001,skyblock,5982,118,2001,V,15433450,1618356703039,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - IV,skyblock,5969,118,2003,skyblock,5969,118,2001,IV,6571453,1618356776684,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - V,skyblock,5982,119,2002,skyblock,5982,118,2002,V,13322659,1618356706705,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - IV,skyblock,5971,118,2003,skyblock,5969,118,2002,IV,814523,1619034796738,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,false
-  - IV,skyblock,5970,118,2002,skyblock,5969,118,2001,IV,7279714,1618356778534,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - V,skyblock,5970,118,2003,skyblock,5969,118,2001,V,12794966,1618356777455,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - IV,skyblock,5980,118,2012,skyblock,5982,118,2013,IV,1188655,1618790179058,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - V,skyblock,5981,118,2012,skyblock,5982,118,2014,V,13441374,1618356831336,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - V,skyblock,5981,118,2013,skyblock,5982,118,2014,V,13669734,1618356834084,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - V,skyblock,5982,118,2012,skyblock,5982,118,2014,V,13497647,1618356830686,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - IV,skyblock,5980,118,2011,skyblock,5982,118,2013,IV,1174087,1618790179806,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - IV,skyblock,6014,123,1999,skyblock,6014,122,1999,IV,3113132,1618794119748,false,UE9QUFl8bnVsbA==:,UE9QUFl8bnVsbA==:,WHITELIST,false
-  - IV,skyblock,5980,118,2003,skyblock,5982,118,2001,IV,1228062,1618790207003,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - V,skyblock,5982,118,2003,skyblock,5982,118,2002,V,13750970,1618356814487,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,false
-  - IV,skyblock,5980,118,2002,skyblock,5982,118,2001,IV,1541898,1618790206206,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - V,skyblock,5981,118,2003,skyblock,5982,118,2002,V,13758574,1618356813989,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - V,skyblock,5970,118,2001,skyblock,5969,118,2001,V,15827912,1618357258377,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - IV,skyblock,5969,119,2014,skyblock,5969,118,2014,IV,3816666,1618356750088,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - IV,skyblock,5971,118,2002,skyblock,5969,118,2001,IV,851901,1619034796490,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,false
-  - V,skyblock,5969,119,2013,skyblock,5969,118,2013,V,13471243,1618356751185,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - IV,skyblock,5971,118,2001,skyblock,5969,118,2001,IV,2175754,1618535634356,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,false
-  - V,skyblock,5982,119,2013,skyblock,5982,118,2013,V,13484279,1618356722903,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,false
-  - V,skyblock,5970,118,2014,skyblock,5969,118,2014,V,13869278,1618356849133,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,false
-  - IV,skyblock,5971,118,2014,skyblock,5969,118,2014,IV,2977083,1618377566010,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,false
-  - IV,skyblock,5981,118,2001,skyblock,5982,118,2001,IV,9143589,1618356811533,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - IV,skyblock,5981,118,2002,skyblock,5982,118,2001,IV,4066583,1618356812287,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - IV,skyblock,5980,118,2001,skyblock,5982,118,2001,IV,1705722,1618790204959,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
-  - V,skyblock,5982,119,2014,skyblock,5982,118,2014,V,13625411,1618356724337,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,false
+  - IV,skyblock,5971,118,2011,skyblock,5969,118,2013,IV,1444665,1618790133556,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,false
+  - V,skyblock,5981,118,2014,skyblock,5982,118,2014,V,13878671,1618356834685,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - IV,skyblock,5980,118,2013,skyblock,5982,118,2013,IV,1588833,1618537058589,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,false
+  - V,skyblock,5980,118,2014,skyblock,5982,118,2014,V,13523535,1618356859383,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - IV,skyblock,5969,118,2012,skyblock,5969,118,2014,IV,4421394,1618356765538,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - IV,skyblock,5971,118,2013,skyblock,5969,118,2013,IV,1187784,1618790131706,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,false
+  - IV,skyblock,5970,118,2012,skyblock,5969,118,2014,IV,3846162,1618356767788,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - V,skyblock,5970,118,2013,skyblock,5969,118,2014,V,12742296,1618356766837,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - IV,skyblock,6014,122,1998,skyblock,6014,122,1999,IV,1460188,1618956844462,false,UE9QUFl8bnVsbA==:,UE9QUFl8bnVsbA==:,WHITELIST,false
+  - IV,skyblock,5970,118,2011,skyblock,5969,118,2013,IV,191680,1619561035199,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - V,skyblock,5969,119,2001,skyblock,5969,118,2001,V,15688381,1618356799384,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - V,skyblock,5969,119,2002,skyblock,5969,118,2001,V,14138736,1618356795985,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - IV,skyblock,5971,118,2012,skyblock,5969,118,2013,IV,1187604,1618790132560,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,false
+  - V,skyblock,5982,119,2001,skyblock,5982,118,2001,V,15456874,1618356703039,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - IV,skyblock,5969,118,2003,skyblock,5969,118,2001,IV,6586749,1618356776684,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - V,skyblock,5982,119,2002,skyblock,5982,118,2002,V,13341603,1618356706705,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - IV,skyblock,5971,118,2003,skyblock,5969,118,2002,IV,829819,1619034796738,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,false
+  - IV,skyblock,5970,118,2002,skyblock,5969,118,2001,IV,7295010,1618356778534,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - V,skyblock,5970,118,2003,skyblock,5969,118,2001,V,12813910,1618356777455,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - IV,skyblock,5980,118,2012,skyblock,5982,118,2013,IV,1203951,1618790179058,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - V,skyblock,5981,118,2012,skyblock,5982,118,2014,V,13460318,1618356831336,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - V,skyblock,5981,118,2013,skyblock,5982,118,2014,V,13688678,1618356834084,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - V,skyblock,5982,118,2012,skyblock,5982,118,2014,V,13516591,1618356830686,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - IV,skyblock,5980,118,2011,skyblock,5982,118,2013,IV,1189383,1618790179806,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - IV,skyblock,6014,123,1999,skyblock,6014,122,1999,IV,3142444,1618794119748,false,UE9QUFl8bnVsbA==:,UE9QUFl8bnVsbA==:,WHITELIST,false
+  - IV,skyblock,5980,118,2003,skyblock,5982,118,2001,IV,1243358,1618790207003,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - V,skyblock,5982,118,2003,skyblock,5982,118,2002,V,13769914,1618356814487,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,false
+  - IV,skyblock,5980,118,2002,skyblock,5982,118,2001,IV,1557194,1618790206206,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - V,skyblock,5981,118,2003,skyblock,5982,118,2002,V,13777518,1618356813989,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - V,skyblock,5970,118,2001,skyblock,5969,118,2001,V,15851336,1618357258377,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - IV,skyblock,5969,119,2014,skyblock,5969,118,2014,IV,3831962,1618356750088,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - IV,skyblock,5971,118,2002,skyblock,5969,118,2001,IV,867197,1619034796490,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,false
+  - V,skyblock,5969,119,2013,skyblock,5969,118,2013,V,13490187,1618356751185,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - IV,skyblock,5971,118,2001,skyblock,5969,118,2001,IV,2194698,1618535634356,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,false
+  - V,skyblock,5982,119,2013,skyblock,5982,118,2013,V,13503223,1618356722903,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,false
+  - V,skyblock,5970,118,2014,skyblock,5969,118,2014,V,13888222,1618356849133,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,false
+  - IV,skyblock,5971,118,2014,skyblock,5969,118,2014,IV,2992379,1618377566010,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,false
+  - IV,skyblock,5981,118,2001,skyblock,5982,118,2001,IV,9162533,1618356811533,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - IV,skyblock,5981,118,2002,skyblock,5982,118,2001,IV,4081879,1618356812287,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - IV,skyblock,5980,118,2001,skyblock,5982,118,2001,IV,1724666,1618790204959,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,true
+  - V,skyblock,5982,119,2014,skyblock,5982,118,2014,V,13644355,1618356724337,false,null,UE9QUFl8bnVsbA==:,BLACKLIST,false
   ef7e3574-30f6-40e4-9130-1595fceac4db:
   - V,skyblock,2000,121,9963,skyblock,1991,124,9963,V,921013,1617429794543,false,null,null,BLACKLIST,false
   - IV,skyblock,1963,121,10001,skyblock,1965,121,10010,IV,409323,1618219318527,false,null,null,BLACKLIST,false
@@ -55,16 +55,16 @@ Players:
   - V,skyblock,6,125,-1955,skyblock,6,125,-1954,V,1305437,1617267171610,false,UE9QUFl8bnVsbA==:SVJPTl9JTkdPVHxudWxs:,UE9QUFl8bnVsbA==:SVJPTl9JTkdPVHxudWxs:,WHITELIST,true
   5e9388ba-0573-444c-a761-b6d9174042af:
   - IV,skyblock,5973,122,1987,null,null,null,null,IV,370464,1617372739437,false,null,null,BLACKLIST,false
-  - V,skyblock,5978,122,1987,skyblock,5978,122,1988,V,31160046,1617372709632,false,null,null,BLACKLIST,false
+  - V,skyblock,5978,122,1987,skyblock,5978,122,1988,V,31228545,1617372709632,false,null,null,BLACKLIST,false
   34c62dfb-c6e0-4034-b3b5-6238f714a256:
-  - V,skyblock,-1989,161,6020,skyblock,-1992,161,6017,V,361,1617612743886,false,null,null,BLACKLIST,true
+  - V,skyblock,-1989,161,6020,skyblock,-1992,161,6017,V,363,1617612743886,false,null,null,BLACKLIST,true
   b7ce396a-aabf-4bf6-bffc-d222f80d5c70:
   - V,skyblock,-3991,1,-1967,skyblock,-3991,1,-1965,V,150427,1617648192700,false,null,null,BLACKLIST,true
   f4d5e1b8-43e7-47eb-9b3b-21d66b202af7:
   - I,skyblock,-6019,114,6021,null,null,null,null,I,320,1617660550110,false,null,null,BLACKLIST,true
   - I,skyblock,-6019,114,6020,null,null,null,null,I,301,1617660552702,false,null,null,BLACKLIST,true
   - I,skyblock,-6018,114,6021,null,null,null,null,I,320,1617660551261,false,null,null,BLACKLIST,true
-  - I,skyblock,-6018,114,6020,null,null,null,null,I,448,1617660561533,false,null,null,BLACKLIST,true
+  - I,skyblock,-6018,114,6020,null,null,null,null,I,466,1617660561533,false,null,null,BLACKLIST,true
   7b4be04b-8ce5-40e4-8858-07888a45c071:
   - II,skyblock,-10009,160,-9968,skyblock,-10017,180,-9971,II,37578,1618002341116,false,null,null,BLACKLIST,true
   f5a445e3-e06d-47f5-b5ba-230ff2712e51:
@@ -85,3 +85,5 @@ Players:
   - I,skyblock,-3998,124,-9993,null,null,null,null,I,171,1618266727311,false,null,null,BLACKLIST,true
   468ce6b8-9bd6-4bd5-9657-c7b67b16c281:
   - I,skyblock,12000,161,8003,null,null,null,null,I,8,1618394082501,false,null,null,BLACKLIST,true
+  3d13486a-fdb0-4947-8f4e-7077fbb2b5f1:
+  - V,skyblock,1976,125,-11973,skyblock,1980,121,-11978,V,28157,1620369417417,false,null,null,BLACKLIST,false

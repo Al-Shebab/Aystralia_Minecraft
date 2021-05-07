@@ -21,5 +21,6 @@ reset:
 perm_to_mine: false
 blocks_mined: 0
 stats:
-  holograms: []
+  holograms:
+  - world:1538.5:48.0:1520.5:HOLOGRAM_PERCENT_BLOCKS_LEFT
 effects: []

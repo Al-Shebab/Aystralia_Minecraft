@@ -81,25 +81,17 @@
 #         MonsterKills - defines amount of monster kills. If specific monster is not defined, then total amount is used
 #         KilledBy - defines amount of deaths by monster. If specific monster is not defined, then total amount is used
 
-nothing:
-  Enabled: true
-  DisplayName: ''
-  DefaultRank: true
-  AutoRankup: true
-  NextRanks:
-  - A
 A:
   Enabled: true
   DisplayName: '&b&lA&r'
-  AutoRankup: false
+  DefaultRank: true
+  AutoRankup: true
   RankupConfirmation: false
   NextRanks:
   - B
   MoneyCost: 0
   Commands:
   - luckperms user [playerName] parent add A
-  StatsRequirements:
-  - PlayTime:1
 B:
   Enabled: true
   DisplayName: '&b&lB&r'
@@ -114,6 +106,7 @@ B:
   - luckperms user [playerName] parent add B
 C:
   Enabled: true
+  
   DisplayName: '&b&lC&r'
   AutoRankup: false
   RankupConfirmation: false

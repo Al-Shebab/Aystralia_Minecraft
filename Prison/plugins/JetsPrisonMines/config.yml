@@ -8,7 +8,7 @@
 # -- Plugin Settings --
 
 #The prefix that is shown before the plugin
-plugins_prefix: "&eJets&bPrisonMines &7» "
+plugins_prefix: "&b&lPrison &8>  "
 
 # Mine settings
 #Whether users can place blocks in the mines or not
@@ -18,7 +18,7 @@ place_blocks_in_mines: false
 teleport_to_mine_spawn_login: true
 
 #Should players be able to mine blocks while the mine is resetting? Possible options are true/false
-allow_block_break_while_mine_reset: true
+allow_block_break_while_mine_reset: false
 
 #For this to be true, the above variable has to be true - Would you like to teleport them to the mine spawn if they try breaking a block
 #while the mine is resetting?
@@ -28,7 +28,7 @@ teleport_on_mine_reset_block_break: false
 reset_mine_if_no_blocks: true
 
 #Teleport players ontop of the mine, keeping there X and Z coordinates, instead of to the spawn point, this is automatically true for a mine if the mine does not have a spawn point
-teleport_players_to_mine_surface_on_reset: false
+teleport_players_to_mine_surface_on_reset: true
 
 # -- Player reset permission nodes --
 #Players (if they have the permission jetsprisonmines.user.reset can reset mines)
@@ -49,5 +49,5 @@ reset_mine_if_full: false #false = it wont reset, true = it will reset despite b
 
 #Whether when a mine resets, only missing blocks should be reset? This can help with performance. This option is only applied for percentage resets. This option should no longer be used, as checking if a block is air or not is equally CPU intesnive
 #Using the reset command will replace all blocks still
-only_replace_missing_blocks: false
+only_replace_missing_blocks: true
 

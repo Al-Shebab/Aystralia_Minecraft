@@ -1,42 +1,81 @@
 Ayssie:
   Location: world;6244.49;39.0;6222.41;-359.67;0.09
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  Item:
+    v: 2586
+    type: DIAMOND_BLOCK
 Brisbane:
   Location: world;3348.63;44.0;3327.57;-359.75;0.34
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  Item:
+    v: 2586
+    type: REDSTONE_BLOCK
 Melbourne:
-  Location: world;5158.54;39.0;5181.69;-180.26;0.76
+  Location: world;5158.54;39.0;5181.68;-180.26;0.76
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  Item:
+    v: 2586
+    type: IRON_BLOCK
 A:
   Location: world;10588.69;40.0;10567.3;-359.63;1.09
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  Item:
+    v: 2586
+    type: OAK_LOG
 B:
-  Location: world;10225.59;41.0;10247.35;-178.74;-0.15
+  Location: world;10226.5;41.0;10247.5;-179.82;-1.23
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  Item:
+    v: 2586
+    type: BIRCH_LOG
 C:
-  Location: world;9864.47;39.0;9885.53;-179.65;0.34
+  Location: world;9864.45;39.0;9885.53;-179.65;0.34
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  Item:
+    v: 2586
+    type: SPRUCE_LOG
 D:
   Location: world;9481.77;39.0;9502.58;-89.86;-0.23
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  Item:
+    v: 2586
+    type: SANDSTONE
 E:
-  Location: world;9119.56;38.87;9140.54;-89.72;-0.06
+  Location: world;9119.56;38.86;9140.54;-89.72;-0.06
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  Item:
+    v: 2586
+    type: RED_SANDSTONE
 F:
-  Location: world;452.47;40.0;473.5;-180.33;0.59
+  Location: world;452.47;40.0;473.5;-180.33;0.58
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  Item:
+    v: 2586
+    type: COBBLESTONE
 G:
   Location: world;8778.54;41.87;8757.37;-0.51;2.51
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  Item:
+    v: 2586
+    type: STONE
 H:
-  Location: world;8395.3;39.0;8416.3;-89.6;0.26
+  Location: world;8395.29;39.0;8416.29;-89.6;0.26
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  Item:
+    v: 2586
+    type: COAL_ORE
 I:
   Location: world;8054.48;40.0;8075.69;-179.88;1.09
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  Item:
+    v: 2586
+    type: IRON_ORE
 J:
   Location: world;7713.48;40.0;7692.51;-269.72;1.51
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  Item:
+    v: 2586
+    type: GOLD_ORE
 K:
   Location: world;7330.49;39.0;7309.49;-0.15;0.01
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
@@ -53,11 +92,14 @@ O:
   Location: world;4796.45;39.0;4817.56;-180.29;0.26
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
 P:
-  Location: world;4434.64;39.0;4455.36;-180.37;0.51
+  Location: world;4434.64;39.0;4455.35;-180.37;0.51
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
 Sydney:
   Location: world;5882.49;40.0;5903.61;-179.6;1.68
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  Item:
+    v: 2586
+    type: GOLD_BLOCK
 Q:
   Location: world;4072.42;42.0;4093.41;-180.38;1.93
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
@@ -86,5 +128,5 @@ Y:
   Location: world;814.4;40.0;835.48;-180.25;1.01
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
 Z:
-  Location: world;1176.48;40.0;1155.37;-0.31;1.43
+  Location: world;1176.48;40.0;1155.35;-0.31;1.43
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
