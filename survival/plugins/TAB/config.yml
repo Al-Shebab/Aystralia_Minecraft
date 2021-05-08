@@ -194,7 +194,7 @@ unlimited-nametag-prefix-suffix-mode:
 
 placeholders:
   #output of %afk%
-  afk-yes: "&c&lAFK"
+  afk-yes: ""
   afk-no: ""
   
   #%date%
