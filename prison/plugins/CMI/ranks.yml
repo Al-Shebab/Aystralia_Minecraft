@@ -106,7 +106,6 @@ B:
   - luckperms user [playerName] parent add B
 C:
   Enabled: true
-  
   DisplayName: '&b&lC&r'
   AutoRankup: false
   RankupConfirmation: false

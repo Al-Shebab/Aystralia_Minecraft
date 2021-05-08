@@ -17,11 +17,9 @@ Melbourne:
     v: 2586
     type: IRON_BLOCK
 A:
-  Location: world;10588.69;40.0;10567.3;-359.63;1.09
+  Location: world;10588.5;41.0;10567.5;0.0;0.07
+  ReqPerm: true
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-  Item:
-    v: 2586
-    type: OAK_LOG
 B:
   Location: world;10226.5;41.0;10247.5;-179.82;-1.23
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
@@ -40,6 +38,10 @@ D:
   Item:
     v: 2586
     type: SANDSTONE
+test:
+  Location: world;9839.3;40.0;9861.3;296.71;13.53
+  ReqPerm: true
+  Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
 E:
   Location: world;9119.56;38.86;9140.54;-89.72;-0.06
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
@@ -128,5 +130,5 @@ Y:
   Location: world;814.4;40.0;835.48;-180.25;1.01
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87
 Z:
-  Location: world;1176.48;40.0;1155.35;-0.31;1.43
+  Location: world;1176.48;40.0;1155.34;-0.31;1.43
   Creator: e79fc165-83d6-4139-9a8f-d42bf1c23f87

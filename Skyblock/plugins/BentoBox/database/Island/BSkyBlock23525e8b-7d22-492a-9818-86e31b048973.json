@@ -10,16 +10,13 @@
     0.0
   ],
   "range": 1000,
-  "protectionRange": 100,
-  "maxEverProtectionRange": 100,
+  "protectionRange": 150,
+  "maxEverProtectionRange": 150,
   "world": "skyblock",
   "gameMode": "BSkyBlock",
   "createdDate": 1619925812890,
   "updatedDate": 1619925812890,
-  "owner": "64cb3143-ab81-4970-ab93-d2c004533c2c",
-  "members": {
-    "64cb3143-ab81-4970-ab93-d2c004533c2c": 1000
-  },
+  "members": {},
   "maxMembers": {},
   "spawn": false,
   "purgeProtected": false,
@@ -107,7 +104,13 @@
     "ENDER_PEARL": 200,
     "CAKE": 500
   },
-  "history": [],
+  "history": [
+    {
+      "timestamp": 1620509363234,
+      "type": "UNOWNED",
+      "data": {}
+    }
+  ],
   "levelHandicap": 0,
   "spawnPoint": {
     "NORMAL": [
@@ -129,6 +132,7 @@
   },
   "doNotLoad": false,
   "cooldowns": {},
+  "metaData": {},
   "homes": {
     "": [
       "skyblock",

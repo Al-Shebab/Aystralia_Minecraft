@@ -1295,7 +1295,7 @@ Warps:
   # Do you want to show creator in warp list
   showCreator: false
   # When set to true, new warps by default will require permission node to use them
-  requirePerm: false
+  requirePerm: true
 GlobalGui:
   # Defines item type in empty fields in GUI when its needed to be filled up
   EmptyField: BLACK_STAINED_GLASS_PANE

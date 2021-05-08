@@ -20,7 +20,7 @@ reset:
   use_messages: true
   reset_direction: TOPTOBOTTOM
 perm_to_mine: false
-blocks_mined: 0
+blocks_mined: 34
 stats:
   holograms:
   - world:6968.5:42.0:6986.5:HOLOGRAM_PERCENT_BLOCKS_LEFT

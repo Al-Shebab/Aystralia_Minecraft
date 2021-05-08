@@ -16,11 +16,11 @@
   "gameMode": "BSkyBlock",
   "createdDate": 1618192579864,
   "updatedDate": 1618192579864,
-  "owner": "0473cdbb-1524-4c99-812f-1969ad4f233b",
+  "owner": "8bc430e9-6e38-4dea-9501-49344c48446d",
   "members": {
     "9739b788-dc44-45a6-aeb4-8a12d1e55288": 900,
-    "8bc430e9-6e38-4dea-9501-49344c48446d": 500,
-    "0473cdbb-1524-4c99-812f-1969ad4f233b": 1000
+    "8bc430e9-6e38-4dea-9501-49344c48446d": 1000,
+    "0473cdbb-1524-4c99-812f-1969ad4f233b": 500
   },
   "maxMembers": {},
   "spawn": false,
@@ -75,7 +75,7 @@
     "FIRE_EXTINGUISH": 400,
     "ANIMAL_SPAWNERS_SPAWN": 500,
     "HURT_VILLAGERS": 400,
-    "TNT_DAMAGE": 500,
+    "TNT_DAMAGE": -1,
     "HOPPER": 400,
     "RIDING": 400,
     "EXPERIENCE_PICKUP": 0,
@@ -96,13 +96,13 @@
     "MOUNT_INVENTORY": 400,
     "LEVER": 200,
     "TRADING": 0,
-    "FIRE_BURNING": 500,
+    "FIRE_BURNING": -1,
     "BREAK_HOPPERS": 500,
     "BEACON": 400,
     "FROST_WALKER": 400,
     "BOAT": 500,
     "JUKEBOX": 400,
-    "FIRE_SPREAD": 0,
+    "FIRE_SPREAD": -1,
     "LEASH": 400,
     "ITEM_FRAME": 400,
     "LECTERN": 500,
@@ -130,7 +130,11 @@
     ]
   },
   "doNotLoad": false,
-  "cooldowns": {},
+  "cooldowns": {
+    "FIRE_BURNING": 1620458036909,
+    "TNT_DAMAGE": 1620458043813,
+    "FIRE_SPREAD": 1620458046479
+  },
   "homes": {
     "": [
       "skyblock",

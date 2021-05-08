@@ -178,8 +178,8 @@ world:
     END_PORTAL: 400
     BREEDING: 400
     HURT_VILLAGERS: 400
-    FROST_WALKER: 400
     TURTLE_EGGS: 400
+    FROST_WALKER: 400
     COLLECT_LAVA: 400
     LEVER: 200
     HURT_MONSTERS: 0
@@ -204,8 +204,8 @@ world:
     ITEM_FRAME: 400
     PLACE_BLOCKS: 400
     CRAFTING: 0
-    ENCHANTING: 0
     SHEARING: 400
+    ENCHANTING: 0
     BED: 500
     SPAWN_EGGS: 400
     MILKING: 400
@@ -214,12 +214,12 @@ world:
     EXPERIENCE_PICKUP: 0
     HOPPER: 400
     LEASH: 400
-    BREAK_BLOCKS: 400
     MOUNT_INVENTORY: 400
+    BREAK_BLOCKS: 400
     CHORUS_FRUIT: 400
     CONTAINER: 500
-    POTION_THROWING: 400
     JUKEBOX: 400
+    POTION_THROWING: 400
   # These are the default settings for new islands
   default-island-settings:
     PVP_END: false

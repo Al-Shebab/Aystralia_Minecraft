@@ -142,7 +142,7 @@ Groups:
   _OTHER_:
     tabprefix: "%luckperms_prefix%"
     tagprefix: "%luckperms_prefix%"
-    tabsuffix: "%cmi_user_afk_symbol%"
+    tabsuffix: ""
     tagsuffix: ""
     customtabname: "%cmi_user_display_name%"
     customtagname: "%cmi_user_display_name%"
