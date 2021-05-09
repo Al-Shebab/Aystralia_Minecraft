@@ -2,7 +2,7 @@
   "uniqueId": "BSkyBlockfabb01c5-4465-43b3-b9b4-c6b280259bd3",
   "level": 601,
   "initialLevel": 0,
-  "pointsToNextLevel": 29,
+  "pointsToNextLevel": 38,
   "uwCount": {},
   "mdCount": {
     "BEDROCK": 1,
@@ -45,12 +45,11 @@
     "DARK_OAK_FENCE": 24,
     "AIR": 10234277,
     "OAK_FENCE": 207,
-    "IRON_ORE": 1,
     "SPRUCE_LEAVES": 111,
     "CACTUS": 48,
     "ENCHANTING_TABLE": 1,
     "HOPPER": 11,
-    "COBBLESTONE": 826,
+    "COBBLESTONE": 827,
     "OAK_LOG": 99
   }
 }

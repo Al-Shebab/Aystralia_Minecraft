@@ -56,87 +56,66 @@ Groups:
   owner:
     tabprefix: "{#ff0000}Owner&r "
     tagprefix: "{#ff0000}Owner&r "
-    tabsuffix: " %cmi_user_afk_symbol%"
   community-manager:
     tabprefix: "{#ff4848}Community Manager&r "
     tagprefix: "{#ff4848}Community Manager&r "
-    tabsuffix: " %cmi_user_afk_symbol%"
   staff-manager:
     tabprefix: "{#ff6565}Staff Manager&r "
     tagprefix: "{#ff6565}Staff Manager&r "
-    tabsuffix: " %cmi_user_afk_symbol%"
   developer:
     tabprefix: "{#ff2b2b}Developer&r "
     tagprefix: "{#ff2b2b}Developer&r "
-    tabsuffix: " %cmi_user_afk_symbol%"
   trial-developer:
     tabprefix: "{#ff2b2b}Trial Developer&r "
     tagprefix: "{#ff2b2b}Trial Developer&r "
-    tabsuffix: " %cmi_user_afk_symbol%"
   senior-administrator:
     tabprefix: "{#ff9800}Senior Administrator&r "
     tagprefix: "{#ff9800}Senior Administrator&r "
-    tabsuffix: " %cmi_user_afk_symbol%"
   administrator:
     tabprefix: "{#ffc26d}Administrator&r "
     tagprefix: "{#ffc26d}Administrator&r "
-    tabsuffix: " %cmi_user_afk_symbol%"
   senior-moderator:
     tabprefix: "{#efff00}Senior Moderator&r "
     tagprefix: "{#efff00}Senior Moderator&r "
-    tabsuffix: " %cmi_user_afk_symbol%"
   moderator:
     tabprefix: "{#cdff3d}Moderator&r "
     tagprefix: "{#cdff3d}Moderator&r "
-    tabsuffix: " %cmi_user_afk_symbol%"
   trial-moderator:
     tabprefix: "{#a3ff3d}Trial Moderator&r "
     tagprefix: "{#a3ff3d}Trial Moderator&r "
-    tabsuffix: " %cmi_user_afk_symbol%"
   event-manager:
     tabprefix: "{#b600c2}Event Manager&r "
     tagprefix: "{#b600c2}Event Manager&r "
-    tabsuffix: " %cmi_user_afk_symbol%"
   event-team:
     tabprefix: "{#d700e4}Event Team&r "
     tagprefix: "{#d700e4}Event Team&r "
-    tabsuffix: " %cmi_user_afk_symbol%"
   builder:
     tabprefix: "{#f21dff}Builder&r "
     tagprefix: "{#f21dff}Builder&r "
-    tabsuffix: " %cmi_user_afk_symbol%"
   sydney:
     tabprefix: "{#3dff9a}Sydney&r "
     tagprefix: "{#3dff9a}Sydney&r "
-    tabsuffix: " %cmi_user_afk_symbol%"
   melbourne:
     tabprefix: "{#3dffd5}Melbourne&r "
     tagprefix: "{#3dffd5}Melbourne&r "
-    tabsuffix: " %cmi_user_afk_symbol%"
   brisbane:
     tabprefix: "{#3dffd5}Brisbane&r "
     tagprefix: "{#3dffd5}Brisbane&r "
-    tabsuffix: " %cmi_user_afk_symbol%"
   perth:
     tabprefix: "{#3de5ff}Perth&r "
     tagprefix: "{#3de5ff}Perth&r "
-    tabsuffix: " %cmi_user_afk_symbol%"
   veteran:
     tabprefix: "{#004fd4}Veteran&r "
     tagprefix: "{#004fd4}Veteran&r "
-    tabsuffix: " %cmi_user_afk_symbol%"
   trusted:
     tabprefix: "{#773dff}Trusted&r "
     tagprefix: "{#773dff}Trusted&r "
-    tabsuffix: " %cmi_user_afk_symbol%"
   member:
     tabprefix: "{#763bff}Member&r "
     tagprefix: "{#763bff}Member&r "
-    tabsuffix: " %cmi_user_afk_symbol%"
   default:
     tabprefix: "{#5d18ff}Guest&r "
     tagprefix: "{#5d18ff}Guest&r "
-    tabsuffix: " %cmi_user_afk_symbol%"
       
   #default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
   _OTHER_:
@@ -194,7 +173,7 @@ unlimited-nametag-prefix-suffix-mode:
 
 placeholders:
   #output of %afk%
-  afk-yes: "&c&lAFK"
+  afk-yes: ""
   afk-no: ""
   
   #%date%

@@ -1,0 +1,33 @@
+{
+  "uniqueId": "BSkyBlockce9af7e0-0a0e-491e-8294-e2fa144d304b",
+  "level": 103,
+  "initialLevel": 0,
+  "pointsToNextLevel": 9,
+  "uwCount": {},
+  "mdCount": {
+    "TORCH": 4,
+    "HOPPER": 2,
+    "STONE": 9,
+    "SAND": 3,
+    "COBBLESTONE_STAIRS": 2,
+    "BLAST_FURNACE": 1,
+    "AIR": 10239823,
+    "CHEST": 5,
+    "STONECUTTER": 1,
+    "COBBLESTONE_WALL": 30,
+    "LAVA": 1,
+    "BEDROCK": 1,
+    "OAK_PLANKS": 1,
+    "GRASS_BLOCK": 39,
+    "FURNACE": 1,
+    "DIRT": 39,
+    "CRAFTING_TABLE": 1,
+    "REDSTONE_ORE": 1,
+    "COBBLESTONE_SLAB": 2,
+    "COBWEB": 3,
+    "OAK_TRAPDOOR": 1,
+    "SUGAR_CANE": 1,
+    "WATER": 7,
+    "COBBLESTONE": 22
+  }
+}

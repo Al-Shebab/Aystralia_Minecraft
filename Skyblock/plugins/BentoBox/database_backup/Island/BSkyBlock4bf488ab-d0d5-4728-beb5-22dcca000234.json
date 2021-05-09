@@ -27,7 +27,7 @@
   "purgeProtected": false,
   "flags": {
     "ISLAND_FLY_PROTECTION": 500,
-    "FIRE_IGNITE": 500,
+    "FIRE_IGNITE": -1,
     "LEAF_DECAY": 500,
     "CHALLENGES_ISLAND_PROTECTION": 0,
     "CAKE": 500,
@@ -61,7 +61,7 @@
     "PVP_OVERWORLD": -1,
     "EXPERIENCE_BOTTLE_THROWING": 500,
     "DYE": 500,
-    "MONSTER_NATURAL_SPAWN": 500,
+    "MONSTER_NATURAL_SPAWN": -1,
     "PVP_END": -1,
     "HURT_MONSTERS": 0,
     "BREEDING": 400,
@@ -133,16 +133,18 @@
   "cooldowns": {
     "FIRE_BURNING": 1620458036909,
     "TNT_DAMAGE": 1620458043813,
-    "FIRE_SPREAD": 1620458046479
+    "FIRE_SPREAD": 1620458046479,
+    "MONSTER_NATURAL_SPAWN": 1620528246019,
+    "FIRE_IGNITE": 1620530183532
   },
   "homes": {
     "": [
       "skyblock",
-      -5997.5,
+      -5999.512260866434,
       161.0,
-      12006.5,
-      270.0,
-      30.0
+      11938.314687911188,
+      178.15350341796875,
+      86.42830657958984
     ]
   }
 }

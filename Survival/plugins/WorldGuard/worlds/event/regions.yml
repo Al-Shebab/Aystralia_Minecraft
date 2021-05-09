@@ -14,7 +14,7 @@ regions:
         min: {x: -50000, y: 0, z: -50000}
         max: {x: 50000, y: 255, z: 50000}
         members: {}
-        flags: {}
+        flags: {mob-spawning: deny}
         owners:
             unique-ids: [857f530d-0fa0-41b8-8881-b947ec8a7449, e79fc165-83d6-4139-9a8f-d42bf1c23f87,
                 5e9388ba-0573-444c-a761-b6d9174042af, f4d5e1b8-43e7-47eb-9b3b-21d66b202af7,

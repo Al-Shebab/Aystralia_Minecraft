@@ -8,6 +8,7 @@ GriefPrevention:
     realistic: 256
     resource: 256
     arctic: -1
+    event: -1
   Claims:
     Mode:
       world: Survival
@@ -17,6 +18,7 @@ GriefPrevention:
       fantasy: Survival
       world_the_end: Disabled
       realistic: Survival
+      event: Survival
     PreventGlobalMonsterEggs: true
     PreventTheft: true
     ProtectCreatures: true
@@ -86,6 +88,7 @@ GriefPrevention:
       realistic: true
       resource: true
       arctic: true
+      event: true
     ProtectFreshSpawns: false
     PunishLogout: false
     CombatTimeoutSeconds: 1

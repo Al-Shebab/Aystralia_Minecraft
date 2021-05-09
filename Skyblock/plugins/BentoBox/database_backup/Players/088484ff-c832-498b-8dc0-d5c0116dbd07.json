@@ -1,0 +1,24 @@
+{
+  "homeLocations": [
+    [
+      [
+        "skyblock",
+        4000.5,
+        120.0,
+        -13999.5,
+        0.0,
+        0.0
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "088484ff-c832-498b-8dc0-d5c0116dbd07",
+  "playerName": "jonnyfastcar",
+  "resets": {},
+  "locale": "",
+  "deaths": {
+    "skyblock": 0
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC"
+}
