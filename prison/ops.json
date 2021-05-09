@@ -22,5 +22,11 @@
     "name": "Feeyne",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "ffffffff-ffff-ffff-ffff-fffffffffff0",
+    "name": "CMIFakeOperator",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
