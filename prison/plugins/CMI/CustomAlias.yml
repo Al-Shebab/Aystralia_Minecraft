@@ -39,3 +39,6 @@ CustomAlias:
   donate:
     Cmds:
     - cmi ctext donate
+  hub:
+    Cmds:
+    - server Hub

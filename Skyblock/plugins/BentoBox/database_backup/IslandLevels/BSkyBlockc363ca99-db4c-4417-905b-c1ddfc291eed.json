@@ -1,13 +1,32 @@
 {
   "uniqueId": "BSkyBlockc363ca99-db4c-4417-905b-c1ddfc291eed",
-  "level": 7,
+  "level": 113,
   "initialLevel": 0,
-  "pointsToNextLevel": 99,
+  "pointsToNextLevel": 33,
   "uwCount": {},
   "mdCount": {
+    "DIRT": 4,
+    "AIR": 10237880,
+    "TORCH": 32,
+    "COBBLESTONE": 138,
+    "OAK_PLANKS": 1,
+    "OBSIDIAN": 14,
+    "IRON_ORE": 1,
+    "WALL_TORCH": 4,
+    "GLASS": 106,
+    "HOPPER": 15,
+    "LAVA": 10,
+    "WATER": 158,
+    "SPRUCE_DOOR": 2,
+    "FURNACE": 1,
     "BEDROCK": 1,
-    "CHEST": 1,
-    "DIRT": 6,
-    "AIR": 10239992
+    "SPRUCE_SLAB": 833,
+    "CHEST": 27,
+    "SPRUCE_LEAVES": 542,
+    "PODZOL": 57,
+    "SPRUCE_LOG": 166,
+    "REDSTONE_ORE": 1,
+    "CRAFTING_TABLE": 3,
+    "NETHER_PORTAL": 6
   }
 }
