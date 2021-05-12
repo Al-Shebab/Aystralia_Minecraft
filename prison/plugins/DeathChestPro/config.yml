@@ -1,0 +1,52 @@
+config_version: 1
+debug_messages: false
+expire_groups:
+  default:
+    permission: deathchestpro.expire.default
+    teleport_cost: 0
+    chest_block: CHEST
+    unlock_after: -1
+    time: 86400
+allow_break_chests: false
+allow_killer_looting: true
+drop_items_after_expire: true
+lava_spawning: true
+lava_protection: true
+old_lava_protection: false
+void_spawning_chest: true
+auto_equip_armor: true
+clickable_message: true
+spawn_chest_on_highest_block: false
+spawn_chest_on_pvp_kill: true
+start_timer_at_death: true
+store_experience: true
+store_experience_percent: 100.0
+max_player_chests: 5
+teleport_cooldown: 0
+deathchest_fireworks:
+  enabled: false
+  interval: 5
+disabled_worlds:
+- example_world
+disabled_regions:
+- example_region
+sounds:
+  click: UI_BUTTON_CLICK
+  gui_open: ENTITY_EXPERIENCE_ORB_PICKUP
+hologram:
+  enabled: true
+  death_date_format: dd/MM/yyyy hh:mm
+  lines:
+  - '%locked%'
+  - '&b%item_count% &fItems'
+  - '&fDied &b%death_date%'
+  - 'Owner: &b%player%'
+  - '&b%timeleft% &fleft'
+deathchest_inv_title: '&b%player%''s grave'
+placeholders_format:
+  location: '%x%, %y%, %z%, %world%'
+blacklisted_blocks:
+- portal
+- bed
+- barrier
+- sign
