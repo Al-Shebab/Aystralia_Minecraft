@@ -58,10 +58,10 @@ Crate_Radius: 1
 Pouch_Radius: 1
 
 # How long should the display animation be rolling for? (measured in seconds)
-Display_Animation_Lenght: 15
+Display_Animation_Lenght: 10
 
 # What should be the interval between changing items in the display animation? (measured in seconds)
-Display_Animation_Item_Change: 0.4
+Display_Animation_Item_Change: 0.2
 
 # Should the water drops in the Display animation be enabled?
 Display_Animation_Water_Drops: false
