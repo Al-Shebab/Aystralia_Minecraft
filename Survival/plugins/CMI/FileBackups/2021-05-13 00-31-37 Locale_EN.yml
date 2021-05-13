@@ -596,8 +596,6 @@ info:
     - QUICKCHARGE
     double_strike:
     - DOUBLESTRIKE
-    wildstackerglow:
-    - WildStackerGlow
     protection_projectile:
     - ProjectileProtection
     sonic:
@@ -3762,8 +3760,7 @@ command:
       setBed: '&fCreated bed respawn location'
       private: ' &9(private)'
       noMore: '&cYou have reached max sethome limit'
-      noOverwrite: '&cYou can''t overwrite homes, you must delete the old one and
-        create a new one.'
+      noOverwrite: '&cYou can't overwrite homes, you must delete the old one and create a new one.'
       slotTaken: '!actionbar!&cHome slot is already been used by &b[homeName]&c, consider
         another one'
       setIcon: '!actionbar:3!&bSet home icon as &b[material] &bmaterial'
