@@ -55,7 +55,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: inventory,lookclose,equipment,type,skintrait,commandtrait,owner,location,spawned,mounttrait,scoreboardtrait
+    traitnames: type,lookclose,owner,mounttrait,spawned,location,inventory,skintrait,commandtrait,scoreboardtrait,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -113,7 +113,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: inventory,lookclose,equipment,type,commandtrait,skintrait,owner,location,spawned,mounttrait,scoreboardtrait
+    traitnames: type,lookclose,owner,mounttrait,spawned,location,inventory,commandtrait,scoreboardtrait,skintrait,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -141,13 +141,13 @@ npc:
             delay: 0
       spawned: true
       location:
-        bodyYaw: 139.42093
+        bodyYaw: 102.438324
         world: world
         x: '-15.5'
         y: '43.0'
         z: '-418.5'
-        yaw: '179.4209'
-        pitch: '-0.2817'
+        yaw: '142.4383'
+        pitch: '-5.9194'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -171,7 +171,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: inventory,lookclose,equipment,type,owner,skintrait,commandtrait,location,spawned,mounttrait,scoreboardtrait
+    traitnames: type,owner,lookclose,mounttrait,spawned,location,inventory,skintrait,commandtrait,scoreboardtrait,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -199,13 +199,13 @@ npc:
             delay: 0
       spawned: true
       location:
-        bodyYaw: 57.515274
+        bodyYaw: 65.97771
         world: world
         x: '-14.5'
         y: '43.0'
         z: '-423.5'
-        yaw: '97.4669'
-        pitch: '0.0'
+        yaw: '89.6836'
+        pitch: '29.0542'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -229,7 +229,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: inventory,lookclose,equipment,type,commandtrait,owner,skintrait,location,spawned,mounttrait,scoreboardtrait
+    traitnames: type,lookclose,owner,mounttrait,spawned,location,inventory,commandtrait,skintrait,scoreboardtrait,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -249,8 +249,8 @@ npc:
         x: '-15.5'
         y: '43.0'
         z: '-428.5'
-        yaw: '1.9'
-        pitch: '0.0'
+        yaw: '1.0903'
+        pitch: '-0.2984'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -287,7 +287,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: inventory,lookclose,equipment,type,commandtrait,owner,skintrait,location,spawned,mounttrait,scoreboardtrait
+    traitnames: type,owner,lookclose,mounttrait,spawned,location,inventory,commandtrait,skintrait,scoreboardtrait,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

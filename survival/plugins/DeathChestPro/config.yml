@@ -37,16 +37,12 @@ hologram:
   enabled: true
   death_date_format: dd/MM/yyyy hh:mm
   lines:
-  - '%locked%'
+  - '&fOwner: &b%player%'
   - '&b%item_count% &fItems'
-  - '&fDied &b%death_date%'
-  - 'Owner: &b%player%'
   - '&b%timeleft% &fleft'
-deathchest_inv_title: '&b%player%''s grave'
+deathchest_inv_title: '&b%player%''s &fgrave'
 placeholders_format:
   location: '%x%, %y%, %z%, %world%'
 blacklisted_blocks:
-- portal
-- bed
+- bedrock
 - barrier
-- sign
