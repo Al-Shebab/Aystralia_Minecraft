@@ -6,5 +6,6 @@
   "locale": "",
   "deaths": {},
   "pendingKicks": [],
-  "flagsDisplayMode": "BASIC"
+  "flagsDisplayMode": "BASIC",
+  "metaData": {}
 }
