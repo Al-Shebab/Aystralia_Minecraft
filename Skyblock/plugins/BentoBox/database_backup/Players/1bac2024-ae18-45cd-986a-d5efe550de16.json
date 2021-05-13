@@ -1,0 +1,24 @@
+{
+  "homeLocations": [
+    [
+      [
+        "skyblock",
+        -13999.5,
+        120.0,
+        -11999.5,
+        0.0,
+        0.0
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "1bac2024-ae18-45cd-986a-d5efe550de16",
+  "playerName": "rain_chat",
+  "resets": {},
+  "locale": "",
+  "deaths": {
+    "skyblock": 0
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC"
+}

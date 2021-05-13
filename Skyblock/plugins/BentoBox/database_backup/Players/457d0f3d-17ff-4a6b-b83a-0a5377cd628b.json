@@ -1,17 +1,5 @@
 {
-  "homeLocations": [
-    [
-      [
-        "skyblock",
-        2000.5,
-        120.0,
-        -13999.5,
-        0.0,
-        0.0
-      ],
-      1
-    ]
-  ],
+  "homeLocations": {},
   "uniqueId": "457d0f3d-17ff-4a6b-b83a-0a5377cd628b",
   "playerName": "N4RENK0",
   "resets": {},
@@ -20,5 +8,6 @@
     "skyblock": 0
   },
   "pendingKicks": [],
-  "flagsDisplayMode": "BASIC"
+  "flagsDisplayMode": "BASIC",
+  "metaData": {}
 }

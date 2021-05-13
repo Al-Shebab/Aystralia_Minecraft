@@ -1,0 +1,24 @@
+{
+  "homeLocations": [
+    [
+      [
+        "skyblock",
+        -13999.5,
+        120.0,
+        -7999.5,
+        0.0,
+        0.0
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "9b93ad4e-b045-4af9-9fce-d3b4ecdaae31",
+  "playerName": "AzzyBoi",
+  "resets": {},
+  "locale": "",
+  "deaths": {
+    "skyblock": 0
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC"
+}

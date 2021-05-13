@@ -1,0 +1,25 @@
+{
+  "uniqueId": "BSkyBlock0887194c-d43b-49ad-af36-c259043c4e2d",
+  "level": 6,
+  "initialLevel": 0,
+  "pointsToNextLevel": 94,
+  "uwCount": {},
+  "mdCount": {
+    "OAK_WALL_SIGN": 7,
+    "OAK_LOG": 2,
+    "COAL_ORE": 3,
+    "LAPIS_ORE": 1,
+    "FURNACE": 1,
+    "CHEST": 2,
+    "AIR": 10239517,
+    "BEDROCK": 1,
+    "GLASS": 112,
+    "DIRT": 1,
+    "CRAFTING_TABLE": 1,
+    "GOLD_ORE": 1,
+    "WATER": 227,
+    "LAVA": 53,
+    "OAK_LEAVES": 56,
+    "COBBLESTONE": 15
+  }
+}

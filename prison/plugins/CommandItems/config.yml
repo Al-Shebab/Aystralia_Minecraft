@@ -12,7 +12,7 @@ items:
       type: PAPER
       name: "&b&lJobs &f&lBoost"
       lore: ["&fRight-click to redeem", "&7Grants 2x Job money and exp", "&f", "&bGlobal & Permanant"]
-      glow: true
+      glow: true 
     consumed: true
     cooldown: 1
     actions:
@@ -177,6 +177,7 @@ items:
     cooldown: 1
     actions:
       - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set jobs.max.* true" }
+      - { action: COMMAND, by: CONSOLE, command: "lp user {player} permission set jobs.max.100 true" }
       - { action: MESSAGE, to: PLAYER, message: "&b&lPerks &8> &fYou have redeemed &bUnlimited Jobs!" }
   redstone:
     item:
