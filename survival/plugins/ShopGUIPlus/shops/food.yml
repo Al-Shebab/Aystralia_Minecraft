@@ -116,3 +116,11 @@ food:
       sellPrice: 500
       buyPrice: 10000
       slot: 12
+    14:
+      type: item
+      item:
+        material: cookie
+        quantity: 16
+      sellPrice: 1
+      buyPrice: 100
+      slot: 13

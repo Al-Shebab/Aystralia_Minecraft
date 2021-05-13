@@ -1,0 +1,21 @@
+{
+  "uniqueId": "BSkyBlock3d215231-2d2e-4332-a434-2ecdc42a92d6",
+  "level": 101,
+  "initialLevel": 0,
+  "pointsToNextLevel": 89,
+  "uwCount": {},
+  "mdCount": {
+    "OAK_LEAVES": 10,
+    "OAK_SLAB": 24,
+    "COBWEB": 3,
+    "BEDROCK": 1,
+    "COBBLESTONE_STAIRS": 2,
+    "CRAFTING_TABLE": 1,
+    "AIR": 10239864,
+    "GRASS_BLOCK": 41,
+    "COBBLESTONE_SLAB": 2,
+    "STONE": 9,
+    "WATER": 4,
+    "DIRT": 39
+  }
+}
