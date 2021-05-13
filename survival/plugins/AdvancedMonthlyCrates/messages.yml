@@ -13,7 +13,7 @@ MonthlyCrate_Global_Pouch_Limit_Message: "&b&lCrates &8> &cSorry, there is alrea
 MonthlyCrate_Player_Limit_Message: "&b&lCrates &8> &cYou already have {opening_crates_now} Monthly Crates placed, please wait for at least one of them to finish to open an another one!"
 
 # What message should the player receive if he is trying to open a crate too close to another crate?
-Crate_Radius_Message: "&b&lCrates &8> &cYou are too close to another crate that is being opened, please move away to open Yours."
+Crate_Radius_Message: "&b&lCrates &8> &cYou are too close to another crate that is being opened, please move away to open yours."
 
 # What should be the message that the player receives once he is given a crate with a command give / giveall? (%crate_name% ; %amount_given%)
 Player_Gets_MCrate_Message: "&b&lCrates &8> &fYou have been given x%amount_given% %crate_name%"
@@ -31,8 +31,7 @@ Pouch_Placed_At_Wrong_Location: "&b&lCrates &8> &cYou can not place this Pouch h
 BlockedCommandMessage: "&b&lCrates &8> &cYou can not use this command while opening a Monthly Crate!"
 
 # What should be the messages if a player right clicks a monthly crate in the air? Leave empty for nothing
-Player_RightClick_Air:
-  - "&b&lCrates &8> &fPlease place the crate on the ground to open it."
+Player_RightClick_Air: "&b&lCrates &8> &fPlease place the crate on the ground to open it."
   
 # What message should the player receive if he is trying to open a pouch too close to another pouch?
 Pouch_Radius_Message: "&b&lCrates &8> &cYou are too close to another pouch that is being opened, please move away to open yours."
