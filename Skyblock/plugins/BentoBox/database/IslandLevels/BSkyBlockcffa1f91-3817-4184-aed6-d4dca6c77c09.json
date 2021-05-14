@@ -1,0 +1,29 @@
+{
+  "uniqueId": "BSkyBlockcffa1f91-3817-4184-aed6-d4dca6c77c09",
+  "level": 8648,
+  "initialLevel": 0,
+  "pointsToNextLevel": 59,
+  "uwCount": {},
+  "mdCount": {
+    "STONE": 1,
+    "CHEST": 56,
+    "HOPPER": 88,
+    "CRAFTING_TABLE": 1,
+    "BEDROCK": 1,
+    "IRON_ORE": 1,
+    "SPAWNER": 1,
+    "WATER": 15,
+    "DARK_OAK_LEAVES": 294,
+    "LAVA": 81,
+    "DARK_OAK_FENCE": 69,
+    "IRON_BLOCK": 284,
+    "DARK_OAK_LOG": 121,
+    "DIRT": 24,
+    "DARK_OAK_PLANKS": 165,
+    "GLASS": 951,
+    "COBBLESTONE": 2,
+    "DARK_OAK_WALL_SIGN": 77,
+    "AIR": 10237767,
+    "REDSTONE_ORE": 1
+  }
+}

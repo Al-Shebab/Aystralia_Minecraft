@@ -335,3 +335,5 @@ gui_menus:
     file: newbie.yml
   challenges:
     file: challenges.yml
+  chatcolour:
+    file: chatcolour.yml

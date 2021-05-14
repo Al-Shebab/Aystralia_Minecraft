@@ -1,8 +1,0 @@
-bets:
-  '1':
-    booster: 0
-    player: Elie_
-    money: 15500.0
-    side: 0
-    time: 933
-    animation: default

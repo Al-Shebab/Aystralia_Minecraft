@@ -403,3 +403,5 @@ gui_menus:
     file: cosmetics.yml
   tags:
     file: tags.yml
+  chatcolour:
+    file: chatcolour.yml
