@@ -88,3 +88,59 @@ spaycheck10:
   Commands:
   - perm:cmi.prewards.spaycheck10! asConsole! cmi money give [playerName] 8250 -s
   - perm:cmi.prewards.spaycheck10! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &f+$8,250
+haste:
+  DisplayName: "&b&lHaste II &f&lUpgrade"
+  AutoClaim: true
+  Description:
+  - "&bPermanant Haste II"
+  PayEvery: 1
+  Commands:
+  - perm:perks.haste.on! asConsole! cmi effect [playerName] fast_digging 99999999 2 -s'
+speed:
+  DisplayName: "&b&lSpeed II &f&lUpgrade"
+  AutoClaim: true
+  Description:
+  - "&bPermanant Speed II"
+  PayEvery: 1
+  Commands:
+  - perm:perks.speed.on! asConsole! cmi effect [playerName] speed 99999999 2 -s'
+resistance:
+  DisplayName: "&b&lResistance II &f&lUpgrade"
+  AutoClaim: true
+  Description:
+  - "&bPermanant Resistance II"
+  PayEvery: 1
+  Commands:
+  - perm:perks.resistance.on! asConsole! cmi effect [playerName] damage_resistance 99999999 2 -s'
+jumpboost:
+  DisplayName: "&b&lJump Boost II &f&lUpgrade"
+  AutoClaim: true
+  Description:
+  - "&bPermanant Jump Boost II"
+  PayEvery: 1
+  Commands:
+  - perm:perks.jumpboost.on! asConsole! cmi effect [playerName] jump 99999999 2 -s'
+strength:
+  DisplayName: "&b&lStrength II &f&lUpgrade"
+  AutoClaim: true
+  Description:
+  - "&bPermanant Strength II"
+  PayEvery: 1
+  Commands:
+  - perm:perks.strength.on! asConsole! cmi effect [playerName] increase_damage 99999999 2 -s'
+regeneration:
+  DisplayName: "&b&lRegeneration &f&lUpgrade"
+  AutoClaim: true
+  Description:
+  - "&bPermanant Regeneration"
+  PayEvery: 1
+  Commands:
+  - perm:perks.regeneration.on! asConsole! cmi effect [playerName] regeneration 99999999 2 -s'
+healthboost:
+  DisplayName: "&b&lHealth Boost &f&lUpgrade"
+  AutoClaim: true
+  Description:
+  - "&bPermanant Health Boost"
+  PayEvery: 1
+  Commands:
+  - perm:perks.healthboost.on! asConsole! cmi effect [playerName] healthboost 99999999 2 -s'

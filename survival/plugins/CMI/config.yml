@@ -326,7 +326,7 @@ PlaytimeRewards:
   # When StopPlayTime set to true, afk will be expluded automatically
   ExcludeAfk: true
   # Defines time in minutes to inform player about pending reward which needs to be claimed
-  RewardInform: 15
+  RewardInform: 0
   # Defines how many one time rewards you want to show in list
   # This will show next X amount rewards from your current playtime
   # No point in listing all rewards if player is still far away
