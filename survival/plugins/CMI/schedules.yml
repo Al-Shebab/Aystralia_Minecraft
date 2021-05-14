@@ -108,14 +108,11 @@ AllInOneJustExample:
   - actionbar! &eServer will stop in &61 &esec!
   - kickall! &eServer will be back online soon!
 Announcer:
-  Enabled: false
+  Enabled: true
   MinPlayers: 1
-  FeedBack: false
-  Delay: 600
+  FeedBack: true
+  Delay: 1
   Repeat: true
-  Randomize: true
+  Randomize: false
   Commands:
-  - broadcast! &eRules can be found at &e/rules
-  - broadcast! &eKits can be accesed with &e/kits
-  - broadcast! &eIf you need help, ask staff
-  - broadcast! &eAdvertisement of other servers will be punished
+  - perm:test! title! This is a test

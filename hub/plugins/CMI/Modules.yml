@@ -83,7 +83,7 @@ paintingEditor: true
 #  
 # Handles player vanish mode
 # Applies for servers from 1.7.x and up
-vanish: true
+vanish: false
 #  
 # Handles money cheques
 # Applies for servers from 1.7.x and up
