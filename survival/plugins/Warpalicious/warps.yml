@@ -1,11 +1,3 @@
-end:
-  owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-  location: world,-4457.57,27.0,1749.3746028429928,180.4,0.0
-  flags:
-    PRIVATE: false
-    SIGNPRIVATE: true
-  invited: []
-  timeswarpedto: 231
 al_shebab:
   owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
   location: world,-2796.557969183859,72.0,1463.6866072562086,-90.51245,-15.019583
@@ -14,39 +6,7 @@ al_shebab:
     SIGNPRIVATE: true
   invited: []
   timeswarpedto: 85
-total: 171
-cactus:
-  owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-  location: world,-1031.8730484289074,1.0,3445.4878586337186,0.7126465,1.0356176
-  flags:
-    PRIVATE: false
-    SIGNPRIVATE: true
-  invited: []
-  timeswarpedto: 131
-market:
-  owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-  location: world,29.51607159584969,66.0,-26.47561247435537,-359.6647,0.5154234
-  flags:
-    PRIVATE: false
-    SIGNPRIVATE: true
-  invited: []
-  timeswarpedto: 2270
-pvp:
-  owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-  location: world,-232.6454408497035,78.0,232.38844669883412,-224.3418,4.7716184
-  flags:
-    PRIVATE: false
-    SIGNPRIVATE: true
-  invited: []
-  timeswarpedto: 289
-shop:
-  owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-  location: world,29.51607159584969,66.0,-26.47561247435537,-359.6647,0.5154234
-  flags:
-    PRIVATE: false
-    SIGNPRIVATE: true
-  invited: []
-  timeswarpedto: 158
+total: 3259
 Casino:
   owner: b4dc8143-084b-4ae0-85ba-b5aa2e81ea17
   location: world,2186.4060333567027,78.5,-4560.497980129569,-269.8797,-1.1736429
@@ -86,7 +46,7 @@ GreenXp:
     PRIVATE: false
     SIGNPRIVATE: true
   invited: []
-  timeswarpedto: 78
+  timeswarpedto: 80
 GreiferVolcano:
   owner: e05791ce-024a-4c15-a235-a21c3e31b569
   location: world,-9981.20184555994,71.0,-9962.347893915583,-190.48167,10.9497795
@@ -119,3 +79,11 @@ event:
     SIGNPRIVATE: true
   invited: []
   timeswarpedto: 1
+cactus:
+  owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
+  location: world,-1032.0539592767655,1.0,3445.4804631519924,-359.65286,-1.488981
+  flags:
+    PRIVATE: false
+    SIGNPRIVATE: true
+  invited: []
+  timeswarpedto: 0
