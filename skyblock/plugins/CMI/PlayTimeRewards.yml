@@ -5,7 +5,8 @@ paycheck:
   - "&b$500 &fevery 30 minutes"
   PayEvery: 1800
   Commands:
-  - perm:cmi.prewards.paycheck! asConsole! cmi money give [playerName] 500
+  - perm:cmi.prewards.paycheck! asConsole! cmi money give [playerName] 500 -s
+  - perm:cmi.prewards.paycheck! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &f+$500
 paycheck2:
   DisplayName: "&bPaycheck &f[Level 2]"
   AutoClaim: true
@@ -13,7 +14,8 @@ paycheck2:
   - "&b$1000 &fevery 30 minutes"
   PayEvery: 1800
   Commands:
-  - perm:cmi.prewards.paycheck2! asConsole! cmi money give [playerName] 1000
+  - perm:cmi.prewards.paycheck2! asConsole! cmi money give [playerName] 1000 -s
+  - perm:cmi.prewards.paycheck2! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &f+$1,000
 paycheck3:
   DisplayName: "&bPaycheck &f[Level 3]"
   AutoClaim: true
@@ -21,7 +23,8 @@ paycheck3:
   - "&b$2000 &fevery 30 minutes"
   PayEvery: 1800
   Commands:
-  - perm:cmi.prewards.paycheck3! asConsole! cmi money give [playerName] 2000
+  - perm:cmi.prewards.paycheck3! asConsole! cmi money give [playerName] 2000 -s
+  - perm:cmi.prewards.paycheck3! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &f+$2,000
 paycheck4:
   DisplayName: "&bPaycheck &f[Level 4]"
   AutoClaim: true
@@ -29,7 +32,8 @@ paycheck4:
   - "&b$3500 &fevery 30 minutes"
   PayEvery: 1800
   Commands:
-  - perm:cmi.prewards.paycheck4! asConsole! cmi money give [playerName] 3500
+  - perm:cmi.prewards.paycheck4! asConsole! cmi money give [playerName] 3500 -s
+  - perm:cmi.prewards.paycheck4! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &f+$3,500
 paycheck5:
   DisplayName: "&bPaycheck &f[Level 5]"
   AutoClaim: true
@@ -37,7 +41,8 @@ paycheck5:
   - "&b$4500 &fevery 30 minutes"
   PayEvery: 1800
   Commands:
-  - perm:cmi.prewards.paycheck5! asConsole! cmi money give [playerName] 4500
+  - perm:cmi.prewards.paycheck5! asConsole! cmi money give [playerName] 4500 -s
+  - perm:cmi.prewards.paycheck5! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &f+$4,500
 paycheck6:
   DisplayName: "&bPaycheck &f[Level 6]"
   AutoClaim: true
@@ -45,7 +50,8 @@ paycheck6:
   - "&b$5250 &fevery 30 minutes"
   PayEvery: 1800
   Commands:
-  - perm:cmi.prewards.paycheck6! asConsole! cmi money give [playerName] 5250
+  - perm:cmi.prewards.paycheck6! asConsole! cmi money give [playerName] 5250 -s
+  - perm:cmi.prewards.paycheck6! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &f+$5,250
 paycheck7:
   DisplayName: "&bPaycheck &f[Level 7]"
   AutoClaim: true
@@ -53,7 +59,8 @@ paycheck7:
   - "&b$6000 &fevery 30 minutes"
   PayEvery: 1800
   Commands:
-  - perm:cmi.prewards.paycheck7! asConsole! cmi money give [playerName] 6000
+  - perm:cmi.prewards.paycheck7! asConsole! cmi money give [playerName] 6000 -s
+  - perm:cmi.prewards.paycheck7! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &f+$6,000
 paycheck8:
   DisplayName: "&bPaycheck &f[Level 8]"
   AutoClaim: true
@@ -61,7 +68,8 @@ paycheck8:
   - "&b$6750 &fevery 30 minutes"
   PayEvery: 1800
   Commands:
-  - perm:cmi.prewards.paycheck8! asConsole! cmi money give [playerName] 6750
+  - perm:cmi.prewards.paycheck8! asConsole! cmi money give [playerName] 6750 -s
+  - perm:cmi.prewards.paycheck8! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &f+$6,750
 paycheck9:
   DisplayName: "&bPaycheck &f[Level 9]"
   AutoClaim: true
@@ -69,7 +77,8 @@ paycheck9:
   - "&b$7500 &fevery 30 minutes"
   PayEvery: 1800
   Commands:
-  - perm:cmi.prewards.paycheck9! asConsole! cmi money give [playerName] 7500
+  - perm:cmi.prewards.paycheck9! asConsole! cmi money give [playerName] 7500 -s
+  - perm:cmi.prewards.paycheck9! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &f+$7,500
 paycheck10:
   DisplayName: "&bPaycheck &f[Level 10]"
   AutoClaim: true
@@ -77,4 +86,61 @@ paycheck10:
   - "&b$8250 &fevery 30 minutes"
   PayEvery: 1800
   Commands:
-  - perm:cmi.prewards.paycheck10! asConsole! cmi money give [playerName] 8250
+  - perm:cmi.prewards.paycheck10! asConsole! cmi money give [playerName] 8250 -s
+  - perm:cmi.prewards.paycheck10! asConsole! cmi actionbarmsg [playerName] &b&lPaycheck &8> &f+$8,250
+khaste:
+  DisplayName: "&b&lHaste II &f&lUpgrade"
+  AutoClaim: true
+  Description:
+  - "&bPermanant Haste II"
+  PayEvery: 1
+  Commands:
+  - perm:perks.khaste.on! asConsole! cmi effect [playerName] fast_digging 99999999 2 -s'
+kspeed:
+  DisplayName: "&b&lSpeed II &f&lUpgrade"
+  AutoClaim: true
+  Description:
+  - "&bPermanant Speed II"
+  PayEvery: 1
+  Commands:
+  - perm:perks.kspeed.on! asConsole! cmi effect [playerName] speed 99999999 2 -s'
+kresistance:
+  DisplayName: "&b&lResistance II &f&lUpgrade"
+  AutoClaim: true
+  Description:
+  - "&bPermanant Resistance II"
+  PayEvery: 1
+  Commands:
+  - perm:perks.kresistance.on! asConsole! cmi effect [playerName] damage_resistance 99999999 2 -s'
+kjumpboost:
+  DisplayName: "&b&lJump Boost II &f&lUpgrade"
+  AutoClaim: true
+  Description:
+  - "&bPermanant Jump Boost II"
+  PayEvery: 1
+  Commands:
+  - perm:perks.kjumpboost.on! asConsole! cmi effect [playerName] jump 99999999 2 -s'
+kstrength:
+  DisplayName: "&b&lStrength II &f&lUpgrade"
+  AutoClaim: true
+  Description:
+  - "&bPermanant Strength II"
+  PayEvery: 1
+  Commands:
+  - perm:perks.kstrength.on! asConsole! cmi effect [playerName] increase_damage 99999999 2 -s'
+kregeneration:
+  DisplayName: "&b&lRegeneration &f&lUpgrade"
+  AutoClaim: true
+  Description:
+  - "&bPermanant Regeneration"
+  PayEvery: 1
+  Commands:
+  - perm:perks.kregeneration.on! asConsole! cmi effect [playerName] regeneration 99999999 2 -s'
+khealthboost:
+  DisplayName: "&b&lHealth Boost &f&lUpgrade"
+  AutoClaim: true
+  Description:
+  - "&bPermanant Health Boost"
+  PayEvery: 1
+  Commands:
+  - perm:perks.khealthboost.on! asConsole! cmi effect [playerName] healthboost 99999999 2 -s'
