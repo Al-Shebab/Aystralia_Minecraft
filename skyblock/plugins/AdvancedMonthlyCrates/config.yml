@@ -307,14 +307,14 @@ Crates:
         Item: CHEST
         Chance: 10
         Commands:
-        - "voidc give default {player_name}"
+        - "voidc give default {player_name} 10"
         Name: "&b&lVoidChest &f&lx10"
       d:
         Enchanted: true
         Item: HOPPER
         Chance: 7
         Commands:
-        - "jetshopper give {player_name} V 5"
+        - "jetshopper give {player_name} V 10 5"
         Name: "&b&lTier Hopper &f&l[&b&lLevel 5&f&l] &f&lx10"
       f:
         Enchanted: true
