@@ -36,6 +36,15 @@
 # Supports PlaceHolderAPI variables
 # More information about specialized commands can be found at https://www.zrips.net/cmi/commands/specialized/
 
+ramsaver:
+  Enabled: true
+  MinPlayers: 1
+  FeedBack: true
+  Delay: 3600
+  Repeat: true
+  Randomize: false
+  Commands:
+  - cmi unloadchunks
 Announcer:
   Enabled: false
   MinPlayers: 1

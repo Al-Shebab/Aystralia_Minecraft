@@ -24,6 +24,12 @@ CustomAlias:
   colours:
     Cmds:
     - cmi colors
+  accept:
+    Cmds:
+    - cmi tpaccept
+  deny:
+    Cmds:
+    - cmi tpdeny
   colourpicker:
     Cmds:
     - cmi colorpicker $1-

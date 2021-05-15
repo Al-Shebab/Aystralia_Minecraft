@@ -1974,3 +1974,15 @@ ebc2e22c-1391-48c7-9bc3-19fbf3f2630a:
   username: Mullinn
   messages-enabled: true
   is-blacklisted: false
+940ab9ea-31d4-440e-8fd0-3cb09f344fbb:
+  username: GramSmasher
+  messages-enabled: true
+  is-blacklisted: false
+c24250d3-de55-4f86-906b-e86fa7783905:
+  username: PrivatizedSp00n
+  messages-enabled: true
+  is-blacklisted: false
+e7c32ef1-a27d-463a-9d87-a9f5023ee36a:
+  username: Skeletons
+  messages-enabled: true
+  is-blacklisted: false
