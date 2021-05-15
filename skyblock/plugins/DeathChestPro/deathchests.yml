@@ -9,13 +9,6 @@ chests:
       yaw: 0.0
     player: 2ed75689-eda2-4722-8a91-ed834918e441
     items:
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
     - ==: org.bukkit.inventory.ItemStack
       v: 2586
       type: PLAYER_HEAD
@@ -52,9 +45,16 @@ chests:
     - null
     - null
     - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
     chest_block: CHEST
     locked: true
-    timeleft: 52903
+    timeleft: 22020
     died: 1621039319221
     exp: 0
   a3e237c6-5c76-4142-a8b0-8f2b525eda03:
@@ -67,11 +67,6 @@ chests:
       yaw: 0.0
     player: 2ed75689-eda2-4722-8a91-ed834918e441
     items:
-    - null
-    - null
-    - null
-    - null
-    - null
     - ==: org.bukkit.inventory.ItemStack
       v: 2586
       type: PLAYER_HEAD
@@ -110,9 +105,14 @@ chests:
     - null
     - null
     - null
+    - null
+    - null
+    - null
+    - null
+    - null
     chest_block: CHEST
     locked: true
-    timeleft: 52579
+    timeleft: 21696
     died: 1621038994369
     exp: 204
   9c95213c-2ef5-4d08-adfb-2aedf6d601f3:
@@ -210,7 +210,7 @@ chests:
     - null
     chest_block: CHEST
     locked: true
-    timeleft: 36394
+    timeleft: 5511
     died: 1621022809469
     exp: 13
   cf549931-2fef-45ae-8f88-8d57f30d6bee:
@@ -307,7 +307,7 @@ chests:
     - null
     chest_block: CHEST
     locked: true
-    timeleft: 36563
+    timeleft: 5680
     died: 1621022978769
     exp: 1
   6843fbf9-4104-4541-bdf8-2334d889a740:
@@ -320,13 +320,6 @@ chests:
       yaw: 0.0
     player: 2ed75689-eda2-4722-8a91-ed834918e441
     items:
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
     - ==: org.bukkit.inventory.ItemStack
       v: 2586
       type: PLAYER_HEAD
@@ -363,9 +356,16 @@ chests:
     - null
     - null
     - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
     chest_block: CHEST
     locked: true
-    timeleft: 52807
+    timeleft: 21924
     died: 1621039222869
     exp: 0
   c1472a39-49cd-48fc-80c2-cb0c69a5ae3f:
@@ -378,13 +378,6 @@ chests:
       yaw: 0.0
     player: 2ed75689-eda2-4722-8a91-ed834918e441
     items:
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
     - ==: org.bukkit.inventory.ItemStack
       v: 2586
       type: PLAYER_HEAD
@@ -421,9 +414,16 @@ chests:
     - null
     - null
     - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
     chest_block: CHEST
     locked: true
-    timeleft: 42879
+    timeleft: 11996
     died: 1621029295296
     exp: 3
   35ec28e5-f65b-4c0d-8215-16e68dbb1d19:
@@ -436,12 +436,6 @@ chests:
       yaw: 0.0
     player: 3da5760c-ca24-48e5-99e7-fbb3210eff07
     items:
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
     - ==: org.bukkit.inventory.ItemStack
       v: 2586
       type: PLAYER_HEAD
@@ -479,9 +473,15 @@ chests:
     - null
     - null
     - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
     chest_block: CHEST
     locked: true
-    timeleft: 34274
+    timeleft: 3391
     died: 1621020690296
     exp: 2305
   7b5813dd-5ebc-47c6-a29b-5a9e2bc47381:
@@ -494,8 +494,6 @@ chests:
       yaw: 0.0
     player: 2ed75689-eda2-4722-8a91-ed834918e441
     items:
-    - null
-    - null
     - ==: org.bukkit.inventory.ItemStack
       v: 2586
       type: PLAYER_HEAD
@@ -537,8 +535,10 @@ chests:
     - null
     - null
     - null
+    - null
+    - null
     chest_block: CHEST
     locked: true
-    timeleft: 43666
+    timeleft: 12783
     died: 1621030081901
     exp: 20
