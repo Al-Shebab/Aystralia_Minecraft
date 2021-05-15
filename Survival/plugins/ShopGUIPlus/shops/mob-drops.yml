@@ -73,7 +73,7 @@ mob-drops:
       item:
         material: string
         quantity: 1
-      sellPrice: 12
+      sellPrice: 3
       buyPrice: 100
       slot: 8
     10:
@@ -97,7 +97,7 @@ mob-drops:
       item:
         material: bone
         quantity: 1
-      sellPrice: 13
+      sellPrice: 11
       buyPrice: 100
       slot: 11
     13:
@@ -145,7 +145,7 @@ mob-drops:
       item:
         material: spider_eye
         quantity: 1
-      sellPrice: 5
+      sellPrice: 25
       buyPrice: 100
       slot: 17
     19:
@@ -153,7 +153,7 @@ mob-drops:
       item:
         material: slime_ball
         quantity: 1
-      sellPrice: 13
+      sellPrice: 12
       buyPrice: 100
       slot: 18
     20:
