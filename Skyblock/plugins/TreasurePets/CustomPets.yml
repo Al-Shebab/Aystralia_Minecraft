@@ -3241,7 +3241,7 @@ cp:
       onActivation:
         PlayerInteractEvent:
           1:
-          - "[command] lp user {player} permission settemp condense true 3s" 
+          - "[command] lp user {player} permission settemp cmi.command.condense true 3s" 
           - "[command] sudo {player} cmi condense"
   Leprechaun-Pet:
     values:

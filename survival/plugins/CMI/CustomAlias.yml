@@ -41,21 +41,21 @@ CustomAlias:
     - cmi ctext donate
   market:
     Cmds:
-    - cmi tppos 29.5 66.0 -26.5 world 0 0 [playerName] -s
+    - asConsole! cmi tppos 29.5 66.0 -26.5 world 0 0 [playerName] -s
     - asConsole! msg!- [playerName] &b&lWarps &8> &fWarping you to market.
   warp market:
     Cmds:
-    - cmi tppos 29.5 66.0 -26.5 world 0 0 [playerName] -s
+    - asConsole! cmi tppos 29.5 66.0 -26.5 world 0 0 [playerName] -s
     - asConsole! msg!- [playerName] &b&lWarps &8> &fWarping you to market.
   warp end:
     Cmds:
-    - cmi tppos -4457.57 27.0 1749.37 world 0 180 [playerName] -s
+    - asConsole! cmi tppos -4457.57 27.0 1749.37 world 0 180 [playerName] -s
     - asConsole! msg!- [playerName] &b&lWarps &8> &fWarping you to end.
   warp pvp:
     Cmds:
-    - cmi tppos -232.64 78.0 232.38 world 1 135 [playerName] -s
+    - asConsole! cmi tppos -232.64 78.0 232.38 world 1 135 [playerName] -s
     - asConsole! msg!- [playerName] &b&lWarps &8> &fWarping you to pvp.
   warp shop:
     Cmds:
-    - cmi tppos 29.5 66.0 -26.5 world 0 0 [playerName] -s
+    - asConsole! cmi tppos 29.5 66.0 -26.5 world 0 0 [playerName] -s
     - asConsole! msg!- [playerName] &b&lWarps &8> &fWarping you to shop.

@@ -12,13 +12,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 48.838287
+        bodyYaw: -45.297157
         world: world
         x: '32.5'
         y: '64.0'
         z: '-7.5'
-        yaw: '8.8383'
-        pitch: '-54.404'
+        yaw: '-8.4615'
+        pitch: '0.0'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -137,13 +137,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -92.00568
+        bodyYaw: 109.36142
         world: world
         x: '34.5'
         y: '64.0'
         z: '-1.5'
-        yaw: '-103.5847'
-        pitch: '-65.6847'
+        yaw: '149.3614'
+        pitch: '0.0'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -195,12 +195,12 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 161.3101
+        bodyYaw: -98.689896
         world: world
         x: '18.5'
         y: '64.0'
         z: '-6.5'
-        yaw: '-158.6899'
+        yaw: '-100.3877'
         pitch: '0.0'
       spawned: true
       skintrait:
@@ -263,12 +263,12 @@ npc:
         updateSkins: false
       type: PLAYER
       location:
-        bodyYaw: 10.588196
+        bodyYaw: 13.783997
         world: world
         x: '48.5'
         y: '65.0'
         z: '-15.5'
-        yaw: '50.5882'
+        yaw: '45.6618'
         pitch: '0.0'
       lookclose:
         range: '5.0'
@@ -335,13 +335,13 @@ npc:
       spawned: true
       type: PLAYER
       location:
-        bodyYaw: 169.63425
+        bodyYaw: 156.5325
         world: world
         x: '26.5'
         y: '64.0'
         z: '-7.5'
-        yaw: '-150.3658'
-        pitch: '-38.2012'
+        yaw: '-163.4675'
+        pitch: '-28.2331'
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
@@ -393,13 +393,13 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNjE3MjE5NTQyNSwKICAicHJvZmlsZUlkIiA6ICIyMzUwMzc5NWZmOGY0YmQyODE4YzBhZDA1OGZkYmNmNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4eHh0ZW50IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q5NGEwMjY4ZWUyZWYyZDY4MjkwNGQxMGRmZDI4YmQ0YWNkNTJhZDQ3ZWNjMmUxZGFmODcyYmIzOGM1N2UzZGUiCiAgICB9CiAgfQp9
         updateSkins: false
       location:
-        bodyYaw: 102.344666
+        bodyYaw: 175.4358
         world: world
         x: '42.5164'
         y: '64.0'
         z: '-5.5243'
-        yaw: '85.4358'
-        pitch: '0.0'
+        yaw: '-144.5642'
+        pitch: '-4.8369'
       lookclose:
         range: '5.0'
         disablewhilenavigating: true
