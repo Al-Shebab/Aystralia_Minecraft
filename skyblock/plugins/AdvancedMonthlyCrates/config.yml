@@ -165,6 +165,21 @@ Crates:
     #Amount of items that the person will get, ranges from 0-10
     #If set 0 there will be only the best prize in the animation
     Lores:
+      - "&fThis crate contains"
+      - ""
+      - "&f[*] &b1x Aystralia Crate"
+      - "&f[*] &b1x Money Pouch Crate"
+      - "&f[*] &b1x Pet Crate"
+      - ""
+      - "&f[*] &31x Iron Golem Spawner"
+      - "&f[*] &31x Cow Golem Spawner"
+      - "&f[*] &31x Pig Golem Spawner"
+      - "&f[*] &31x Zombie Golem Spawner"
+      - "&f[*] &31x Blaze Golem Spawner"
+      - ""
+      - "&f[*] &91x Void Chest"
+      - "&f[*] &91x Tier Hopper"
+      - "&f[*] &91x Miner Minion"
       - ""
       - "&fPlace to use"
       - "&fEarned by &b{player_name}"
@@ -220,7 +235,7 @@ Crates:
         Chance: 5
         Commands:
         - "wildstacker:stacker give {player_name} spawner PIG 1"
-        Name: "&bCow &fSpawner &bx1"
+        Name: "&bPig &fSpawner &bx1"
       FishingRod:
         Item: MOB_SPAWNER
         Chance: 5
@@ -284,9 +299,39 @@ Crates:
     #Amount of items that the person will get, ranges from 0-10
     #If set 0 there will be only the best prize in the animation
     Lores:
+      - "&fThis crate contains"
       - ""
-      - "&fRight-click to use"
-      - "&fEarned by &c{player_name}"
+      - "&f[*] &b1x Aystralia Rank"
+      - "&f[*] &b1x Sydney Rank"
+      - "&f[*] &b1x Melbourne Rank"
+      - "&f[*] &b1x Brisbane Rank"
+      - "&f[*] &b5x Aystralia Crate"
+      - "&f[*] &b5x Money Crate"
+      - ""
+      - "&f[*] &35x Pet Crate"
+      - "&f[*] &330x Vote Crate"
+      - "&f[*] &31x [Custom Enchanted] Aystralia Pickaxe"
+      - "&f[*] &31x Unlimited Homes"
+      - "&f[*] &31x Unlimited Player Vaults"
+      - "&f[*] &31x Unlimited Jobs"
+      - ""
+      - "&f[*] &91x Kit Spawners [Permanant]"
+      - "&f[*] &91x Kit Colours [Permanant]"
+      - "&f[*] &91x Kit PVP [Permanant]"
+      - "&f[*] &91x Kit Concrete [Permanant]"
+      - "&f[*] &91x Kit Redstone [Permanant]"
+      - "&f[*] &91x Rename Access"
+      - "&f[*] &91x Nickname Access"
+      - "&f[*] &91x Vote Key All"
+      - "&f[*] &91x Kit Beets [Permanant]"
+      - ""
+      - "&f[*] &210x Tier Hopper [Tier V]"
+      - "&f[*] &210x Void Chest"
+      - "&f[*] &21x Perth Rank"
+      - "&f[*] &21x Global Fly"
+      - ""
+      - "&fPlace to use"
+      - "&fPurchased by &b{player_name}"
     Prizes:
       a:
         Enchanted: true
@@ -490,9 +535,16 @@ Crates:
     #Amount of items that the person will get, ranges from 0-10
     #If set 0 there will be only the best prize in the animation
     Lores:
+      - "&fThis crate contains"
+      - ""
+      - "&f[*] 1x &2&lTier I &f&lMoney Pouch"
+      - "&f[*] 1x &a&lTier II &f&lMoney Pouch"
+      - "&f[*] 1x &9&lTier III &f&lMoney Pouch"
+      - "&f[*] 1x &3&lTier IV &f&lMoney Pouch"
+      - "&f[*] 1x &b&lTier V &f&lMoney Pouch"
       - ""
       - "&fPlace to use"
-      - "&fEarned by &b{player_name}"
+      - "&fPurchased by &b{player_name}"
     Prizes:
       TierI:
         Item: ENDER_CHEST
