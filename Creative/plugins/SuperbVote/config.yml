@@ -49,7 +49,8 @@ streaks:
 rewards:
   - if:
       default: true
-    commands: []
+    commands:
+    - cmi actionbarmsg %player% -s:7 &b&lVoting &8> &fThank you for voting on &b%service%.
     player-message: "&bThanks for voting. &fKeys have been sent to the other servers."
     broadcast-message: "&9&l%player% &fhas voted for us on &b&l%service%. &fThank you!"
 
@@ -63,13 +64,13 @@ queue-votes: true
 # Broadcast settings:
 broadcast:
   # Should we broadcast votes at all?
-  enabled: true
+  enabled: false
 
   # Should we tell players if they voted?
-  message-player: true
+  message-player: false
 
   # Should we broadcast queued votes?
-  queued: true
+  queued: false
 
   antispam:
     # Should we add a minimum time in between global broadcasts to prevent spam in chat?

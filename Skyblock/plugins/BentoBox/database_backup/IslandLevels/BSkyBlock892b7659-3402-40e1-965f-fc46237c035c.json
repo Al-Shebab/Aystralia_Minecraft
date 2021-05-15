@@ -1,0 +1,26 @@
+{
+  "uniqueId": "BSkyBlock892b7659-3402-40e1-965f-fc46237c035c",
+  "level": 143,
+  "initialLevel": 0,
+  "pointsToNextLevel": 72,
+  "uwCount": {},
+  "mdCount": {
+    "PUMPKIN_STEM": 4,
+    "LAVA": 1,
+    "WATER": 6,
+    "AIR": 10239658,
+    "FURNACE": 1,
+    "CRAFTING_TABLE": 1,
+    "GRASS_BLOCK": 62,
+    "MELON_STEM": 1,
+    "BEETROOTS": 1,
+    "TORCH": 4,
+    "COBBLESTONE": 10,
+    "COBBLESTONE_SLAB": 200,
+    "FARMLAND": 6,
+    "BEDROCK": 1,
+    "CHEST": 3,
+    "DIRT": 39,
+    "OAK_SAPLING": 2
+  }
+}

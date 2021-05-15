@@ -6,7 +6,7 @@ al_shebab:
     SIGNPRIVATE: true
   invited: []
   timeswarpedto: 85
-total: 3259
+total: 3268
 Casino:
   owner: b4dc8143-084b-4ae0-85ba-b5aa2e81ea17
   location: world,2186.4060333567027,78.5,-4560.497980129569,-269.8797,-1.1736429
@@ -15,22 +15,6 @@ Casino:
     SIGNPRIVATE: true
   invited: []
   timeswarpedto: 79
-todo:
-  owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-  location: world,1.4941770903684222,66.0,-18.482230408046227,358.69562,0.34821248
-  flags:
-    PRIVATE: false
-    SIGNPRIVATE: true
-  invited: []
-  timeswarpedto: 5
-to-do:
-  owner: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-  location: world,1.4941770903684222,66.0,-18.482230408046227,358.69562,0.34821248
-  flags:
-    PRIVATE: false
-    SIGNPRIVATE: true
-  invited: []
-  timeswarpedto: 4
 xp:
   owner: 3d13486a-fdb0-4947-8f4e-7077fbb2b5f1
   location: world,-3393.4270349919184,34.0,1758.4424529073897,90.1352,10.200108
