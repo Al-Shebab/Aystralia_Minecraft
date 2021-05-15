@@ -38,19 +38,76 @@
 
 ramsaver:
   Enabled: true
-  MinPlayers: 1
+  MinPlayers: 0
   FeedBack: true
   Delay: 3600
   Repeat: true
   Randomize: false
   Commands:
   - cmi unloadchunks
-Announcer:
-  Enabled: false
-  MinPlayers: 1
+broadcaster:
+  Enabled: true
+  MinPlayers: 0
   FeedBack: true
-  Delay: 1
+  Delay: 1200
   Repeat: true
-  Randomize: false
+  Randomize: true
   Commands:
-  - perm:test! title! This is a test
+  - broadcast! &b&lInformation &8> &fThe server auto restarts at &b3am
+  - broadcast! &b&lInformation &8> &fJoin our discord! &b/discord
+  - broadcast! &b&lInformation &8> &fEarn more money by taking on jobs! &b/jobs
+  - broadcast! &b&lInformation &8> &fPlaying with friends? Create a party! &b/party
+  - broadcast! &b&lInformation &8> &fLooking to PVP? Fight at the arena &b/warp pvp
+  - cmi !broadcast &b&lInformation &8> &fInterested in buying a rank? &b/donate
+  - broadcast! &b&lInformation &8> &fWant to gamble all your money? &b/coinflip
+  - broadcast! &b&lInformation &8> &fNeed more space? Use your backpack &b/bp
+  - broadcast! &b&lInformation &8> &fGet some perks! &b/perks
+  - broadcast! &b&lInformation &8> &fSick of throwing stuff out? Throw it in the bin
+    &b/bin
+  - broadcast! &b&lInformation &8> &fNeed help setting up a market stall? &b/signshop
+  - broadcast! &b&lInformation &8> &fVisit the auction house! &b/ah
+autorestart:
+  Enabled: true
+  PerformOn:
+    '1':
+      Hour: 11
+      Minute: 16
+  Commands:
+  - title! &b&lServer Restart
+  - subtitle! &f&lServer will restart in &b10 minutes
+  - delay! 540
+  - title! &b&lServer Restart
+  - subtitle! &f&lServer will restart in &b1 minute
+  - delay! 50
+  - title! &b&lServer Restart
+  - subtitle! &f&lServer will restart in &b10 seconds
+  - delay! 1
+  - title! &b&lServer Restart
+  - subtitle! &f&lServer will restart in &b9 seconds
+  - delay! 1
+  - title! &b&lServer Restart
+  - subtitle! &f&lServer will restart in &b8 seconds
+  - delay! 1
+  - title! &b&lServer Restart
+  - subtitle! &f&lServer will restart in &b7 seconds
+  - delay! 1
+  - title! &b&lServer Restart
+  - subtitle! &f&lServer will restart in &b6 seconds
+  - delay! 1
+  - title! &b&lServer Restart
+  - subtitle! &f&lServer will restart in &b5 seconds
+  - delay! 1
+  - title! &b&lServer Restart
+  - subtitle! &f&lServer will restart in &b4 seconds
+  - delay! 1
+  - title! &b&lServer Restart
+  - subtitle! &f&lServer will restart in &b3 seconds
+  - delay! 1
+  - title! &b&lServer Restart
+  - subtitle! &f&lServer will restart in &b2 seconds
+  - delay! 1
+  - title! &b&lServer Restart
+  - subtitle! &f&lServer will restart &bnow!
+  - delay! 1
+  - cmi kick all Server Restart
+  - stop

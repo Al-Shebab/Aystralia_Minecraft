@@ -1,1 +1,339 @@
-chests: {}
+chests:
+  d1bcc7e6-3d78-45c4-85ff-84f17d242448:
+    location:
+      world: world
+      x: 7133.0
+      y: 64.0
+      z: 6605.0
+      pitch: 0.0
+      yaw: 0.0
+    player: b038f680-321f-4faf-8d20-80a9db6248e3
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GOLDEN_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Claim
+          "},{"bold":true,"italic":false,"color":"white","text":"Shovel"}],"text":""}'
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Starter
+          "},{"bold":true,"italic":false,"color":"white","text":"Axe"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Belongs
+          to "},{"bold":true,"italic":false,"color":"aqua","text":"xCoachKittyx"}],"text":""}'
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: FURNACE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Starter
+          "},{"bold":true,"italic":false,"color":"white","text":"Pickaxe"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Belongs
+          to "},{"bold":true,"italic":false,"color":"aqua","text":"xCoachKittyx"}],"text":""}'
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Starter
+          "},{"bold":true,"italic":false,"color":"white","text":"Helmet"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Belongs
+          to "},{"bold":true,"italic":false,"color":"aqua","text":"xCoachKittyx"}],"text":""}'
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Starter
+          "},{"bold":true,"italic":false,"color":"white","text":"Chestplate"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Belongs
+          to "},{"bold":true,"italic":false,"color":"aqua","text":"xCoachKittyx"}],"text":""}'
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OAK_LOG
+      amount: 9
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ROTTEN_FLESH
+      amount: 8
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SMITHING_TABLE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Starter
+          "},{"bold":true,"italic":false,"color":"white","text":"Leggings"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Belongs
+          to "},{"bold":true,"italic":false,"color":"aqua","text":"xCoachKittyx"}],"text":""}'
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Starter
+          "},{"bold":true,"italic":false,"color":"white","text":"Boots"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Belongs
+          to "},{"bold":true,"italic":false,"color":"aqua","text":"xCoachKittyx"}],"text":""}'
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    chest_block: CHEST
+    locked: true
+    timeleft: 48555
+    died: 1621065116758
+    exp: 266
+  b8bc7cbc-a70e-4c66-8055-e5fa800888b4:
+    location:
+      world: world
+      x: -6836.0
+      y: 44.0
+      z: -5308.0
+      pitch: 0.0
+      yaw: 0.0
+    player: 3bc367e5-1e49-4bf8-9429-922c9857661f
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Starter
+          "},{"bold":true,"italic":false,"color":"white","text":"Axe"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Belongs
+          to "},{"bold":true,"italic":false,"color":"aqua","text":"GamerFox23456"}],"text":""}'
+        Damage: 4
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: POPPY
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OAK_PLANKS
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Starter
+          "},{"bold":true,"italic":false,"color":"white","text":"Pickaxe"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Belongs
+          to "},{"bold":true,"italic":false,"color":"aqua","text":"GamerFox23456"}],"text":""}'
+        Damage: 141
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: COOKED_BEEF
+      amount: 63
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OAK_PLANKS
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GOLDEN_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Claim
+          "},{"bold":true,"italic":false,"color":"white","text":"Shovel"}],"text":""}'
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OAK_PLANKS
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OAK_PLANKS
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIRT
+      amount: 9
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: COBBLESTONE
+      amount: 59
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WRITTEN_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: BOOK_SIGNED
+        title: How to Claim Land
+        author: BigScary
+        pages:
+        - '{"extra":[{"text":"Click: "},{"bold":false,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"http://bit.ly/mcgpuser"},"text":"bit.ly/mcgpuser"},{"italic":false,"underlined":false,"text":"\n\nClaim
+          land to protect your stuff!  Click the link above to learn land claims in
+          3 minutes or less.  :)\n\nOur claim tools are golden shovel and stick.  On
+          this server, placing a chest will NOT claim land for you."}],"text":""}'
+        - '{"extra":[{"text":"Useful Commands:\n\n/Trust /UnTrust /TrustList\n/ClaimsList\n/AbandonClaim\n\n/Claim
+          /ExtendClaim\n/IgnorePlayer\n\n/SubdivideClaims\n/AccessTrust\n/ContainerTrust\n/PermissionTrust"}],"text":""}'
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WRITTEN_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: BOOK_SIGNED
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Aystralia
+          Network "},{"bold":true,"italic":false,"color":"white","text":"Guide"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Read
+          me!"}],"text":""}'
+        enchants:
+          Glow: 1
+        internal: H4sIAAAAAAAAAONiYOBiYEnOTcnkYGBPzs/NTcxLYWAvLkksKkktYmAAAK3R+LgfAAAA
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: TORCH
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: CRAFTING_TABLE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: FURNACE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ANDESITE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_INGOT
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GRAVEL
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GRANITE
+      amount: 11
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_ORE
+      amount: 33
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIORITE
+      amount: 3
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: COAL
+      amount: 3
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Starter
+          "},{"bold":true,"italic":false,"color":"white","text":"Boots"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Belongs
+          to "},{"bold":true,"italic":false,"color":"aqua","text":"GamerFox23456"}],"text":""}'
+        Damage: 28
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Starter
+          "},{"bold":true,"italic":false,"color":"white","text":"Leggings"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Belongs
+          to "},{"bold":true,"italic":false,"color":"aqua","text":"GamerFox23456"}],"text":""}'
+        Damage: 28
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Starter
+          "},{"bold":true,"italic":false,"color":"white","text":"Chestplate"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Belongs
+          to "},{"bold":true,"italic":false,"color":"aqua","text":"GamerFox23456"}],"text":""}'
+        Damage: 28
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Starter
+          "},{"bold":true,"italic":false,"color":"white","text":"Helmet"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Belongs
+          to "},{"bold":true,"italic":false,"color":"aqua","text":"GamerFox23456"}],"text":""}'
+        Damage: 28
+    chest_block: CHEST
+    locked: true
+    timeleft: 79563
+    died: 1621096189062
+    exp: 211
