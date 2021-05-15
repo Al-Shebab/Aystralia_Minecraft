@@ -2236,205 +2236,205 @@ cp:
       onActivation:
         PetTimerEvent:
           1:
-          - "[command] cmi money add {player} %5-25% -s"
+          - "[command] cmi money give {player} %5-25% -s"
           2:
-          - "[command] cmi money add {player} %10-40% -s"
+          - "[command] cmi money give {player} %10-40% -s"
           3:
-          - "[command] cmi money add {player} %15-55% -s"
+          - "[command] cmi money give {player} %15-55% -s"
           4:
-          - "[command] cmi money add {player} %20-70% -s"
+          - "[command] cmi money give {player} %20-70% -s"
           5:
-          - "[command] cmi money add {player} %25-85% -s"
+          - "[command] cmi money give {player} %25-85% -s"
           6:
-          - "[command] cmi money add {player} %30-100% -s"
+          - "[command] cmi money give {player} %30-100% -s"
           7:
-          - "[command] cmi money add {player} %35-115% -s"
+          - "[command] cmi money give {player} %35-115% -s"
           8:
-          - "[command] cmi money add {player} %40-130% -s"
+          - "[command] cmi money give {player} %40-130% -s"
           9:
-          - "[command] cmi money add {player} %45-145% -s"
+          - "[command] cmi money give {player} %45-145% -s"
           10:
-          - "[command] cmi money add {player} %50-160% -s"
+          - "[command] cmi money give {player} %50-160% -s"
           11:
-          - "[command] cmi money add {player} %55-175% -s"
+          - "[command] cmi money give {player} %55-175% -s"
           12:
-          - "[command] cmi money add {player} %60-190% -s"
+          - "[command] cmi money give {player} %60-190% -s"
           13:
-          - "[command] cmi money add {player} %65-205% -s"
+          - "[command] cmi money give {player} %65-205% -s"
           14:
-          - "[command] cmi money add {player} %70-220% -s"
+          - "[command] cmi money give {player} %70-220% -s"
           15:
-          - "[command] cmi money add {player} %75-235% -s"
+          - "[command] cmi money give {player} %75-235% -s"
           16:
-          - "[command] cmi money add {player} %80-250% -s"
+          - "[command] cmi money give {player} %80-250% -s"
           17:
-          - "[command] cmi money add {player} %85-265% -s"
+          - "[command] cmi money give {player} %85-265% -s"
           18:
-          - "[command] cmi money add {player} %90-280% -s"
+          - "[command] cmi money give {player} %90-280% -s"
           19:
-          - "[command] cmi money add {player} %95-295% -s"
+          - "[command] cmi money give {player} %95-295% -s"
           20:
-          - "[command] cmi money add {player} %100-310% -s"
+          - "[command] cmi money give {player} %100-310% -s"
           21:
-          - "[command] cmi money add {player} %105-325% -s"
+          - "[command] cmi money give {player} %105-325% -s"
           22:
-          - "[command] cmi money add {player} %110-340% -s"
+          - "[command] cmi money give {player} %110-340% -s"
           23:
-          - "[command] cmi money add {player} %115-355% -s"
+          - "[command] cmi money give {player} %115-355% -s"
           24:
-          - "[command] cmi money add {player} %120-370% -s"
+          - "[command] cmi money give {player} %120-370% -s"
           25:
-          - "[command] cmi money add {player} %125-385% -s"
+          - "[command] cmi money give {player} %125-385% -s"
           26:
-          - "[command] cmi money add {player} %130-400% -s"
+          - "[command] cmi money give {player} %130-400% -s"
           27:
-          - "[command] cmi money add {player} %135-415% -s"
+          - "[command] cmi money give {player} %135-415% -s"
           28:
-          - "[command] cmi money add {player} %140-430% -s"
+          - "[command] cmi money give {player} %140-430% -s"
           29:
-          - "[command] cmi money add {player} %145-445% -s"
+          - "[command] cmi money give {player} %145-445% -s"
           30:
-          - "[command] cmi money add {player} %150-460% -s"
+          - "[command] cmi money give {player} %150-460% -s"
           31:
-          - "[command] cmi money add {player} %155-475% -s"
+          - "[command] cmi money give {player} %155-475% -s"
           32:
-          - "[command] cmi money add {player} %160-490% -s"
+          - "[command] cmi money give {player} %160-490% -s"
           33:
-          - "[command] cmi money add {player} %165-505% -s"
+          - "[command] cmi money give {player} %165-505% -s"
           34:
-          - "[command] cmi money add {player} %170-520% -s"
+          - "[command] cmi money give {player} %170-520% -s"
           35:
-          - "[command] cmi money add {player} %175-535% -s"
+          - "[command] cmi money give {player} %175-535% -s"
           36:
-          - "[command] cmi money add {player} %180-550% -s"
+          - "[command] cmi money give {player} %180-550% -s"
           37:
-          - "[command] cmi money add {player} %185-565% -s"
+          - "[command] cmi money give {player} %185-565% -s"
           38:
-          - "[command] cmi money add {player} %190-580% -s"
+          - "[command] cmi money give {player} %190-580% -s"
           39:
-          - "[command] cmi money add {player} %195-595% -s"
+          - "[command] cmi money give {player} %195-595% -s"
           40:
-          - "[command] cmi money add {player} %200-610% -s"
+          - "[command] cmi money give {player} %200-610% -s"
           41:
-          - "[command] cmi money add {player} %205-625% -s"
+          - "[command] cmi money give {player} %205-625% -s"
           42:
-          - "[command] cmi money add {player} %210-640% -s"
+          - "[command] cmi money give {player} %210-640% -s"
           43:
-          - "[command] cmi money add {player} %215-655% -s"
+          - "[command] cmi money give {player} %215-655% -s"
           44:
-          - "[command] cmi money add {player} %220-670% -s"
+          - "[command] cmi money give {player} %220-670% -s"
           45:
-          - "[command] cmi money add {player} %225-685% -s"
+          - "[command] cmi money give {player} %225-685% -s"
           46:
-          - "[command] cmi money add {player} %230-700% -s"
+          - "[command] cmi money give {player} %230-700% -s"
           47:
-          - "[command] cmi money add {player} %235-715% -s"
+          - "[command] cmi money give {player} %235-715% -s"
           48:
-          - "[command] cmi money add {player} %240-730% -s"
+          - "[command] cmi money give {player} %240-730% -s"
           49:
-          - "[command] cmi money add {player} %245-745% -s"
+          - "[command] cmi money give {player} %245-745% -s"
           50:
-          - "[command] cmi money add {player} %250-760% -s"
+          - "[command] cmi money give {player} %250-760% -s"
           51:
-          - "[command] cmi money add {player} %255-775% -s"
+          - "[command] cmi money give {player} %255-775% -s"
           52:
-          - "[command] cmi money add {player} %260-790% -s"
+          - "[command] cmi money give {player} %260-790% -s"
           53:
-          - "[command] cmi money add {player} %265-805% -s"
+          - "[command] cmi money give {player} %265-805% -s"
           54:
-          - "[command] cmi money add {player} %270-820% -s"
+          - "[command] cmi money give {player} %270-820% -s"
           55:
-          - "[command] cmi money add {player} %275-835% -s"
+          - "[command] cmi money give {player} %275-835% -s"
           56:
-          - "[command] cmi money add {player} %280-850% -s"
+          - "[command] cmi money give {player} %280-850% -s"
           57:
-          - "[command] cmi money add {player} %285-865% -s"
+          - "[command] cmi money give {player} %285-865% -s"
           58:
-          - "[command] cmi money add {player} %290-880% -s"
+          - "[command] cmi money give {player} %290-880% -s"
           59:
-          - "[command] cmi money add {player} %295-895% -s"
+          - "[command] cmi money give {player} %295-895% -s"
           60:
-          - "[command] cmi money add {player} %300-910% -s"
+          - "[command] cmi money give {player} %300-910% -s"
           61:
-          - "[command] cmi money add {player} %305-925% -s"
+          - "[command] cmi money give {player} %305-925% -s"
           62:
-          - "[command] cmi money add {player} %310-940% -s"
+          - "[command] cmi money give {player} %310-940% -s"
           63:
-          - "[command] cmi money add {player} %315-955% -s"
+          - "[command] cmi money give {player} %315-955% -s"
           64:
-          - "[command] cmi money add {player} %320-970% -s"
+          - "[command] cmi money give {player} %320-970% -s"
           65:
-          - "[command] cmi money add {player} %325-985% -s"
+          - "[command] cmi money give {player} %325-985% -s"
           66:
-          - "[command] cmi money add {player} %330-1000% -s"
+          - "[command] cmi money give {player} %330-1000% -s"
           67:
-          - "[command] cmi money add {player} %335-1015% -s"
+          - "[command] cmi money give {player} %335-1015% -s"
           68:
-          - "[command] cmi money add {player} %340-1030% -s"
+          - "[command] cmi money give {player} %340-1030% -s"
           69:
-          - "[command] cmi money add {player} %345-1045% -s"
+          - "[command] cmi money give {player} %345-1045% -s"
           70:
-          - "[command] cmi money add {player} %350-1060% -s"
+          - "[command] cmi money give {player} %350-1060% -s"
           71:
-          - "[command] cmi money add {player} %355-1075% -s"
+          - "[command] cmi money give {player} %355-1075% -s"
           72:
-          - "[command] cmi money add {player} %360-1090% -s"
+          - "[command] cmi money give {player} %360-1090% -s"
           73:
-          - "[command] cmi money add {player} %365-1105% -s"
+          - "[command] cmi money give {player} %365-1105% -s"
           74:
-          - "[command] cmi money add {player} %370-1120% -s"
+          - "[command] cmi money give {player} %370-1120% -s"
           75:
-          - "[command] cmi money add {player} %375-1135% -s"
+          - "[command] cmi money give {player} %375-1135% -s"
           76:
-          - "[command] cmi money add {player} %380-1150% -s"
+          - "[command] cmi money give {player} %380-1150% -s"
           77:
-          - "[command] cmi money add {player} %385-1165% -s"
+          - "[command] cmi money give {player} %385-1165% -s"
           78:
-          - "[command] cmi money add {player} %390-1180% -s"
+          - "[command] cmi money give {player} %390-1180% -s"
           79:
-          - "[command] cmi money add {player} %395-1195% -s"
+          - "[command] cmi money give {player} %395-1195% -s"
           80:
-          - "[command] cmi money add {player} %400-1210% -s"
+          - "[command] cmi money give {player} %400-1210% -s"
           81:
-          - "[command] cmi money add {player} %405-1225% -s"
+          - "[command] cmi money give {player} %405-1225% -s"
           82:
-          - "[command] cmi money add {player} %410-1240% -s"
+          - "[command] cmi money give {player} %410-1240% -s"
           83:
-          - "[command] cmi money add {player} %415-1255% -s"
+          - "[command] cmi money give {player} %415-1255% -s"
           84:
-          - "[command] cmi money add {player} %420-1270% -s"
+          - "[command] cmi money give {player} %420-1270% -s"
           85:
-          - "[command] cmi money add {player} %425-1285% -s"
+          - "[command] cmi money give {player} %425-1285% -s"
           86:
-          - "[command] cmi money add {player} %430-1300% -s"
+          - "[command] cmi money give {player} %430-1300% -s"
           87:
-          - "[command] cmi money add {player} %435-1315% -s"
+          - "[command] cmi money give {player} %435-1315% -s"
           88:
-          - "[command] cmi money add {player} %440-1330% -s"
+          - "[command] cmi money give {player} %440-1330% -s"
           89:
-          - "[command] cmi money add {player} %445-1345% -s"
+          - "[command] cmi money give {player} %445-1345% -s"
           90:
-          - "[command] cmi money add {player} %450-1360% -s"
+          - "[command] cmi money give {player} %450-1360% -s"
           91:
-          - "[command] cmi money add {player} %455-1375% -s"
+          - "[command] cmi money give {player} %455-1375% -s"
           92:
-          - "[command] cmi money add {player} %460-1390% -s"
+          - "[command] cmi money give {player} %460-1390% -s"
           93:
-          - "[command] cmi money add {player} %465-1405% -s"
+          - "[command] cmi money give {player} %465-1405% -s"
           94:
-          - "[command] cmi money add {player} %470-1420% -s"
+          - "[command] cmi money give {player} %470-1420% -s"
           95:
-          - "[command] cmi money add {player} %475-1435% -s"
+          - "[command] cmi money give {player} %475-1435% -s"
           96:
-          - "[command] cmi money add {player} %480-1450% -s"
+          - "[command] cmi money give {player} %480-1450% -s"
           97:
-          - "[command] cmi money add {player} %485-1465% -s"
+          - "[command] cmi money give {player} %485-1465% -s"
           98:
-          - "[command] cmi money add {player} %490-1480% -s"
+          - "[command] cmi money give {player} %490-1480% -s"
           99:
-          - "[command] cmi money add {player} %495-1495% -s"
+          - "[command] cmi money give {player} %495-1495% -s"
           100:
-          - "[command] cmi money add {player} %500-1510% -s"
+          - "[command] cmi money give {player} %500-1510% -s"
   Exp-Pet:
     values:
       displayName: '&b&lExperience Pet &f[LVL %level%]'
