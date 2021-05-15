@@ -53,7 +53,6 @@ items:
     - 18
     - 19
     - 20
-    - 21
     - 22
     - 23
     - 24
@@ -405,6 +404,42 @@ items:
           permission: 'menu.use'
       deny_commands:
       - '[openguimenu] paycheck'
+      - '[close]'
+  'chatcolour':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZkZTNiZmNlMmQ4Y2I3MjRkZTg1NTZlNWVjMjFiN2YxNWY1ODQ2ODRhYjc4NTIxNGFkZDE2NGJlNzYyNGIifX19
+    priority: 1
+    slot: 21
+    display_name: '&b[*] &b&lChat Colours'
+    view_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'menu.use'
+    lore:
+    - ''
+    - ''
+    - '&7&oColours, what do you want me to say?'
+    left_click_commands:
+    - '[close]'
+    - '[openguimenu] chatcolour'
+    left_click_requirement:
+      requirements:
+        Permission:
+          type: has permission
+          permission: 'menu.use'
+      deny_commands:
+      - '[openguimenu] chatcolour'
+      - '[close]'
+    right_click_commands:
+    - '[close]'
+    - '[openguimenu] chatcolour'
+    right_click_requirement:
+      requirements:
+        Permission:
+          type: has permission 
+          permission: 'menu.use'
+      deny_commands:
+      - '[openguimenu] chatcolour'
       - '[close]'
   'Information':
     material: head;Al_Shebab
