@@ -337,3 +337,5 @@ gui_menus:
     file: challenges.yml
   chatcolour:
     file: chatcolour.yml
+  sellexp:
+    file: sellexp.yml

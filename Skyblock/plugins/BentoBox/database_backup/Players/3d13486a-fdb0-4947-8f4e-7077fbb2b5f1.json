@@ -2,7 +2,9 @@
   "homeLocations": {},
   "uniqueId": "3d13486a-fdb0-4947-8f4e-7077fbb2b5f1",
   "playerName": "Peanut33",
-  "resets": {},
+  "resets": {
+    "skyblock": 0
+  },
   "locale": "",
   "deaths": {
     "skyblock": 0

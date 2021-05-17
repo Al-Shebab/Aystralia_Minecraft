@@ -4,7 +4,9 @@
   "playerName": "Spongiebobbuu",
   "resets": {},
   "locale": "",
-  "deaths": {},
+  "deaths": {
+    "skyblock": 0
+  },
   "pendingKicks": [],
   "flagsDisplayMode": "BASIC",
   "metaData": {}

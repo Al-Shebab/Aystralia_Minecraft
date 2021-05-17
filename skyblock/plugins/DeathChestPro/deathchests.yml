@@ -1,14 +1,135 @@
 chests:
-  4693a761-4956-4f65-bb39-66f4d12f2893:
+  defb9fdf-5445-424d-86b0-a129175799e3:
     location:
-      world: skyblock_nether
-      x: -13999.0
-      y: 111.0
+      world: skyblock
+      x: 15995.0
+      y: 1.0
+      z: 16008.0
+      pitch: 0.0
+      yaw: 0.0
+    player: 01c116b5-5ffe-4022-ab80-c4197ea80d38
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ICE
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OAK_SIGN
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LAVA_BUCKET
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: STONE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Damage: 8
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SUGAR_CANE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OAK_SAPLING
+      amount: 5
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: STONE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Damage: 21
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OAK_PLANKS
+      amount: 28
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Skyblock
+          Menu "},{"bold":false,"italic":false,"color":"dark_gray","text":"> "},{"italic":false,"color":"white","text":"Right
+          Click"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAAAE2POU7DQBiF/6AgGQd6SiQ6Ki+KIWVEgjNWPMbxPgWSk0zkZexEzhjZPgXiHNTcgBNwAEpugXCZ4knfW5onAohw6eQ1Y8/VfpcyKoLY04FWPKXHCxA4bXhd0aMIAAMBzv2Y1RQ+aGtIJEykbWiwTYu03ruOxCyUHe5R6bfrR6Shou8XU23ZTk62Yx4HYxapRkJKu14XvrRUV4wuVvKm8F4tN8mjYN4QFzMyyyVSRB1xzV5POdZNhbh2R7Jp27OEFVu19LmMFSPBut1ZuqfiwFOjLm9xZjfmLEp3oTwBGMEZ2vYHhre/fy/dl3n3+SO8j66/30CAK8RpYezT8sZhew6Dh9MIxwWFoUnLGv4BDdipAisBAAA=
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: COBBLESTONE
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: STICK
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: CRAFTING_TABLE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PUMPKIN
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BEETROOT_SEEDS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: MELON_SLICE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: RED_MUSHROOM
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BONE
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WOODEN_PICKAXE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: CACTUS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BROWN_MUSHROOM
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: MUSHROOM_STEW
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    chest_block: CHEST
+    locked: true
+    timeleft: 67207
+    died: 1621256767229
+    exp: 2
+  76b635ee-8bd3-40f7-bbf3-259d74f9150f:
+    location:
+      world: skyblock
+      x: 16005.0
+      y: 161.0
       z: 14001.0
       pitch: 0.0
       yaw: 0.0
-    player: 2ed75689-eda2-4722-8a91-ed834918e441
+    player: 01c116b5-5ffe-4022-ab80-c4197ea80d38
     items:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
     - ==: org.bukkit.inventory.ItemStack
       v: 2586
       type: PLAYER_HEAD
@@ -25,15 +146,7 @@ chests:
         - HIDE_DESTROYS
         - HIDE_PLACED_ON
         - HIDE_POTION_EFFECTS
-        internal: H4sIAAAAAAAAAE2PTU6DQBzF/zU1QdQ7eAETCinKsrGVDimDlO+JMaHtNMAM0FBogDu49ghuPINblx7Bq8iyi5f83sfmiQAi3Dis4fylKvcppyKIAx1oVaf0eAVCTdu6qehRBICRAJd+zBsKX7QzJBIm0i40+LZD6uBdR+IWyg4PqPC7zRNSUT70y5m66rSz7bSOgymPFCMhhd1scl9aKWtOl+vJNvdOlpuwKFi0xMWczJlE8qgnrjnomWHdlIlr9ySbdQNLWLYVS19MsGwkWLd7S/cUHHhK1LMOZ3ZrzqN0H040gGu4QLvhwPjj70d7c3Tr+/6VfYrvvyDALappbpRpcefwsobR43mE45zC2KRFA//h6ZrKKwEAAA==
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
+        internal: H4sIAAAAAAAAAE2PS06DUBiF/yomiLoH5054pLVNnDS20kvKRd5wZ7S9DY8LNBQaYEE6cRWO3ISJcQfuQIYdnOQ7j8kRAAS4tbOGsdeq3CeMCiAMdKBVndDjNfA1beumokcBAEY8XHkRayh80E4TSRCLu0Bj2w5NBu/YIjNQenhEhddtntEE5UO/mk/W3exsO64jf8xCRYtJYTab3BPXisXoypK2uXsynDgL/WVLHMzIIhNJHvbE0Qe9ZFjVZeKYPUnn3cAilk3FUJcSlrUYq2ZvqK6CfVcJ+6zDqdnqizDZB9IM4AYu0G44wFnfb9OvPy18/7nkPn+fHoCHO1TTXCuT4t5mZQ2j6XmEo5wCp9OigX8ma2C0KwEAAA==
     - null
     - null
     - null
@@ -54,76 +167,219 @@ chests:
     - null
     chest_block: CHEST
     locked: true
-    timeleft: 22020
-    died: 1621039319221
+    timeleft: 67532
+    died: 1621257092228
     exp: 0
-  a3e237c6-5c76-4142-a8b0-8f2b525eda03:
-    location:
-      world: skyblock_nether
-      x: -13998.0
-      y: 125.0
-      z: 14000.0
-      pitch: 0.0
-      yaw: 0.0
-    player: 2ed75689-eda2-4722-8a91-ed834918e441
-    items:
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2586
-      type: PLAYER_HEAD
-      meta:
-        ==: ItemMeta
-        meta-type: SKULL
-        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Skyblock
-          Menu "},{"bold":false,"italic":false,"color":"dark_gray","text":"> "},{"italic":false,"color":"white","text":"Right
-          Click"}],"text":""}'
-        ItemFlags:
-        - HIDE_ENCHANTS
-        - HIDE_ATTRIBUTES
-        - HIDE_UNBREAKABLE
-        - HIDE_DESTROYS
-        - HIDE_PLACED_ON
-        - HIDE_POTION_EFFECTS
-        internal: H4sIAAAAAAAAAE2Py06DQBiF/5qaIGriI+gbcElRYmLS2EqHlEHKfXaUTsNloA0dDPA4bty4ceeL+D6y7OIk37lsjgggwo1btoy9N4d9zqgI4khH2vCcnq5A4LTjbUNPIgBMBLgMEtZS+Ka9KZEok3aRydIeaaP3XInZqDg+ojrot69IQ9XYr+bautfPtjOehDMWq2ZGaqfdVoG0VjeMrjZyWvkftpeVcbjsiIcZWZQSqeKBeNaotxIblkI8ZyDFvB9Zwoqj2sZSxoqZYcMZbMNXceir8VD2uHA6axHn+0jWAa7hAu3GA9Pik3096Eb689e83EXPvyDALeK0Mg95fe+yA4fJ03mEk4rC1KJ1C/9knystKwEAAA==
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    chest_block: CHEST
-    locked: true
-    timeleft: 21696
-    died: 1621038994369
-    exp: 204
-  9c95213c-2ef5-4d08-adfb-2aedf6d601f3:
+  2ca47a41-e528-4da0-aeec-27f9ce0d6b53:
     location:
       world: skyblock
-      x: -13996.0
-      y: 161.0
-      z: 9996.0
+      x: 16000.0
+      y: 1.0
+      z: 12010.0
       pitch: 0.0
       yaw: 0.0
-    player: 849fbb33-bb4a-450c-9d97-c585fdedc8d2
+    player: 01c116b5-5ffe-4022-ab80-c4197ea80d38
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Skyblock
+          Menu "},{"bold":false,"italic":false,"color":"dark_gray","text":"> "},{"italic":false,"color":"white","text":"Right
+          Click"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAAAE2Py07CQBiFfwxGrBIfwI2JL1DaUGVJpLbT0KmlF+jsCgzpZVqgTA3tG5m4c+PGnS/hg7jWWbI4yXcumyMBSHDt5TVjL9V2kzIqgSRoRyue0sMl9Dg98rqiBwkAOj04D2NWU3injSWTRSKvFxZbNUgT3vdk5qBs94DKsFk+IQ0VojfH2rQZnWyHPJ4PWaRaCSndelmE8lSdMWrOBqsieHX8JI/m+pH4mJFJLpMiaolvCz3n2LAV4rstycaNYBkrruoY+gArVoINt3WMQMXzQI3avMGZe7QnUbpZDEYAV3CG1uJA91u/uf34Mz/fvvo/+9/7C+hBH3FaWNu0vPPYlkPn8TTCcUGha9Oyhn+yoyZhKwEAAA==
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    chest_block: CHEST
+    locked: true
+    timeleft: 67978
+    died: 1621257538228
+    exp: 0
+  1f1b0955-42e5-4c9d-9fe7-28b22cf29fc9:
+    location:
+      world: skyblock
+      x: 8022.0
+      y: 121.0
+      z: -13998.0
+      pitch: 0.0
+      yaw: 0.0
+    player: 3da5760c-ca24-48e5-99e7-fbb3210eff07
+    items:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Skyblock
+          Menu "},{"bold":false,"italic":false,"color":"dark_gray","text":"> "},{"italic":false,"color":"white","text":"Right
+          Click"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAAAE2PvW6CUBzF/zY2obTdOnXq2u0i0dbRqIVL5CICAndDvYaPCxiExsuLmPQZ+gTduvYdOvVFyuhwkt/5WI4MIMOdkzWcL6tyn3Amg9zRgVV1wo43INXsVDcVO8oA0JPgeh3xhsEnEwaiQYx2gcG3Ao867zqIWzg9vOBiLTZTPMJ51+uT0UKML7bDOvKHPFSNmBZ2s8nXaKGuONNXyjb33i03zkJ/fqIu4XSWIZqHLXXNTm8Z0cwBde2WphPRMSIDW7W0uUIGRkw0u7U0TyW+p4ZtJkhqn8xZmOwDZQxwC1d41x3of3z//OnP0/PXefmLvIdHkOAe1yw3yqR4cnhZQ+/1MiJRzqBvsqKBf9NDNOUrAQAA
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    chest_block: CHEST
+    locked: true
+    timeleft: 82456
+    died: 1621272016327
+    exp: 13886
+  c3302ad8-951b-4450-bf06-54db2516cfd2:
+    location:
+      world: skyblock
+      x: 16005.0
+      y: 161.0
+      z: 16001.0
+      pitch: 0.0
+      yaw: 0.0
+    player: 01c116b5-5ffe-4022-ab80-c4197ea80d38
+    items:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Skyblock
+          Menu "},{"bold":false,"italic":false,"color":"dark_gray","text":"> "},{"italic":false,"color":"white","text":"Right
+          Click"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAAAE2PS06DUBiF/5qaIOoa7BJ4pGiHja30knKR8r4z2t7K4wINhQYYuQ2HTo27MO7CPThQ5zLs4CTfeUwOD8DDlZXWjD2WxS5mlAe+pz0tq5geLoCraFPVJT3wADDg4NwNWU3hnbaaQPxI2Poa27RI6b1tCcxAyf4W5W67vkcKyvp+MVWW7eRkO65Cb8wCWYtIbtbrzBWW8orRxUrcZM7RsKM08OYNsTEjs1QgWdARW+/1kGJVl4htdiSZtj0LWDJlQ52LWNIirJqdoToy9hw56NIWJ2ajz4J454sTgEs4Q9v+wPDv5+bz28RPz18fo7fXl1/g4BpVNNOKOB9ZrKhgcHca4TCjMNRpXsM/JtiOGCsBAAA=
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    chest_block: CHEST
+    locked: true
+    timeleft: 67046
+    died: 1621256606479
+    exp: 0
+  4c3fc1f3-8090-4495-9098-b8a01ffee364:
+    location:
+      world: skyblock
+      x: 16035.0
+      y: 1.0
+      z: 13999.0
+      pitch: 0.0
+      yaw: 0.0
+    player: 01c116b5-5ffe-4022-ab80-c4197ea80d38
     items:
     - ==: org.bukkit.inventory.ItemStack
       v: 2586
@@ -131,32 +387,27 @@ chests:
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        Damage: 49
+        Damage: 35
     - ==: org.bukkit.inventory.ItemStack
       v: 2586
-      type: OAK_SIGN
+      type: STONE_SHOVEL
     - ==: org.bukkit.inventory.ItemStack
       v: 2586
-      type: DIRT
-      amount: 6
+      type: CHEST
     - ==: org.bukkit.inventory.ItemStack
       v: 2586
-      type: STICK
-      amount: 14
+      type: BONE
     - ==: org.bukkit.inventory.ItemStack
       v: 2586
       type: WHEAT_SEEDS
-      amount: 2
     - ==: org.bukkit.inventory.ItemStack
       v: 2586
-      type: SEA_PICKLE
+      type: OAK_SAPLING
+      amount: 7
     - ==: org.bukkit.inventory.ItemStack
       v: 2586
-      type: COAL
-      amount: 6
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2586
-      type: MUSHROOM_STEW
+      type: COBBLESTONE
+      amount: 14
     - ==: org.bukkit.inventory.ItemStack
       v: 2586
       type: PLAYER_HEAD
@@ -173,153 +424,87 @@ chests:
         - HIDE_DESTROYS
         - HIDE_PLACED_ON
         - HIDE_POTION_EFFECTS
-        internal: H4sIAAAAAAAAAE2PS06DUBiF/5qaIOoeHLgAHinaYSMtvaRcpLyvA0Pb2/C4QEOhAfbhyMS5iQPX4i5cgHMZdnCS7zwmhwfg4cbOGsaeq3KfMMoDP9CBVnVCj1fA1bStm4oeeQAYcXDpRayh8EU7XSBBLOwCnW07pAzesQVmovTwgAqv2zwhBeVDv5wpq256tp3UkT9hoazHpLCaTe4JK3nN6HItbnP3ZDpxFvrzljiYETUTSB72xDEGLTKsGRJxrJ6ks25gAUuWbGpzEUt6jDWrNzVXxr4rh33W4dRqDTVM9oE4BbiGC7QbDoyjj7+fxRt+/7z/fnlVfwlwcItqmutlUtzZrKxh9Hge4SinMDZo0cA/yGLXIysBAAA=
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2586
-      type: LAPIS_LAZULI
-      amount: 6
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2586
-      type: COBBLESTONE
-      amount: 31
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2586
-      type: OAK_SAPLING
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2586
-      type: MILK_BUCKET
+        internal: H4sIAAAAAAAAAE2Pu06DUBzG/zU1QdR3cHBwcOCSoh0bi/SQcpByPxttT8PlAA2FBpiNgy/gCzi6uPgOPoZvImOHL/l9l+XjAXi4srOGsZeq3CWM8sAPtKdVndDDBXA1beumogceAEYcnHsRayh80U4XSBAL20Bnmw4pg3dsgZko3T+gwuvWT0hB+dAvZsqym55sJ3XkT1go6zEprGade8JSXjG6WImb3D2aTpyFvtoSBzMyzwSShz1xjEHPGdYMiThWT9JZN7CAJUs2NVXEkh5jzepNzZWx78phn3U4tVpjHia7QJwCXMIZ2g4Hxurv9+e7p7G3v5/7u9uPV+DgGtU018ukuLFZWcPo8TTCUU5hbNCigX+OIXRJKwEAAA==
     - ==: org.bukkit.inventory.ItemStack
       v: 2586
       type: LAVA_BUCKET
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: MUTTON
+      amount: 6
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: CRAFTING_TABLE
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: COAL
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LIGHT_GRAY_WOOL
+      amount: 5
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OAK_PLANKS
+      amount: 9
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WHITE_WOOL
+      amount: 24
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: STICK
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PUMPKIN
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: CACTUS
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BROWN_MUSHROOM
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_ORE
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SUGAR_CANE
     - ==: org.bukkit.inventory.ItemStack
       v: 2586
       type: MELON_SLICE
     - ==: org.bukkit.inventory.ItemStack
       v: 2586
-      type: SUGAR_CANE
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    chest_block: CHEST
-    locked: true
-    timeleft: 5511
-    died: 1621022809469
-    exp: 13
-  cf549931-2fef-45ae-8f88-8d57f30d6bee:
-    location:
-      world: skyblock
-      x: -14001.0
-      y: 1.0
-      z: 12002.0
-      pitch: 0.0
-      yaw: 0.0
-    player: 849fbb33-bb4a-450c-9d97-c585fdedc8d2
-    items:
+      type: OAK_SIGN
     - ==: org.bukkit.inventory.ItemStack
       v: 2586
-      type: TORCH
+      type: BEETROOT_SEEDS
     - ==: org.bukkit.inventory.ItemStack
       v: 2586
-      type: WHEAT_SEEDS
+      type: RED_MUSHROOM
     - ==: org.bukkit.inventory.ItemStack
       v: 2586
-      type: WRITTEN_BOOK
-      meta:
-        ==: ItemMeta
-        meta-type: BOOK_SIGNED
-        display-name: '{"extra":[{"text":"Goodluck"}],"text":""}'
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Written
-          at "},{"italic":false,"color":"white","text":"07/03/21 14:47:52"}],"text":""}'
-        title: AYN HC SB
-        author: Feeyne
-        pages:
-        - '{"extra":[{"text":"Hello and Welcome to Aystralia Networks Hardcore Skyblock\n\nThis
-          is a real challange we have given you nothing but the basics.\n\nRemember
-          if you can''t handle this /is Reset is always there\n\n\n"}],"text":""}'
-        - '{"extra":[{"text":"Secret Tip (Use the Shop to your ADVANTAGE"}],"text":""}'
-        resolved: true
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2586
-      type: DIRT
-      amount: 9
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2586
-      type: PLAYER_HEAD
-      meta:
-        ==: ItemMeta
-        meta-type: SKULL
-        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Skyblock
-          Menu "},{"bold":false,"italic":false,"color":"dark_gray","text":"> "},{"italic":false,"color":"white","text":"Right
-          Click"}],"text":""}'
-        ItemFlags:
-        - HIDE_ENCHANTS
-        - HIDE_ATTRIBUTES
-        - HIDE_UNBREAKABLE
-        - HIDE_DESTROYS
-        - HIDE_PLACED_ON
-        - HIDE_POTION_EFFECTS
-        internal: H4sIAAAAAAAAAE2PS06DUBiF/5qaIOrAqSOXwCNFiQNTbaWXlIuU953R9jZQLtBQaABXZGpM3IFuxZXIsIOTfOcxOTwAD1d2WjP2VhabhFEe+J52tKwSur8ArqJNVZd0zwPAgINzL2I1hU/a6gIJYmEd6GzVIqX3ji0wE2139yj32uULUlDW97OxMm/Vk+2oivwRC2U9JrlVLzNPmMsLRmcLcZW5B9OJ09CfNsTBjExSgWRhRxyj12uKNUMijtWR7bjtWcCSJZvaVMSSHmPN6kzNlbHvymGXtnhrNcYkTDaBqAJcwhla9weGKrx///0+Hz9uH7+ebo4/wME1qmimF0l+Z7OigsHDaYSjjMLQoHkN//sMk+0rAQAA
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2586
-      type: LAVA_BUCKET
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2586
-      type: COBBLESTONE
-      amount: 5
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2586
-      type: OAK_SAPLING
+      type: MUSHROOM_STEW
     - ==: org.bukkit.inventory.ItemStack
       v: 2586
       type: ICE
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2586
-      type: COW_SPAWN_EGG
-      meta:
-        ==: ItemMeta
-        meta-type: SPAWN_EGG
-        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Wilson"}],"text":""}'
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
     chest_block: CHEST
     locked: true
-    timeleft: 5680
-    died: 1621022978769
-    exp: 1
-  6843fbf9-4104-4541-bdf8-2334d889a740:
+    timeleft: 67914
+    died: 1621257474179
+    exp: 63
+  c530c421-2c0a-48dc-842c-1960fe7d39bb:
     location:
-      world: skyblock_nether
+      world: skyblock
       x: -13999.0
-      y: 111.0
-      z: 13999.0
+      y: 121.0
+      z: 3999.0
       pitch: 0.0
       yaw: 0.0
-    player: 2ed75689-eda2-4722-8a91-ed834918e441
+    player: 1beb2af6-1c1a-484e-95b1-3982b1bd999a
     items:
+    - null
+    - null
     - ==: org.bukkit.inventory.ItemStack
       v: 2586
       type: PLAYER_HEAD
@@ -336,7 +521,48 @@ chests:
         - HIDE_DESTROYS
         - HIDE_PLACED_ON
         - HIDE_POTION_EFFECTS
-        internal: H4sIAAAAAAAAAE2PS06DUBiF/5rWIOoeXAKPFO2wkUovKRcp7zuj7W14XKCh0AALcB8mxsTE1egKXIADdyDDDk7yncfk8AA83NhZw9hzVe4TRnngBzrQqk7o8Qq4mrZ1U9EjDwAjDiZexBoKn7TTBRLEwi7Q2bZDyuAdW2AmSg/3qPC6zSNSUD70y7my6mZn22kd+VMWynpMCqvZ5J6wkteMLtfiNndPphNnob9oiYMZUTOB5GFPHGPQU4Y1QyKO1ZN03g0sYMmSTW0hYkmPsWb1pubK2HflsM86nFqtoYbJPhBnANdwgXbDgbH6evn3/aL+vr2Tn68J9wEc3KKa5nqZFHc2K2sYPZxHOMopjA1aNPAPDOjtyysBAAA=
+        internal: H4sIAAAAAAAAAE2PS06DQBzG/zU1QdQ7eAQeKdrETWMrHVIGKe/ZGNpOw2MGGgoNcAs3XkK3rtx5C+/gIWTZxZf8vsfmEwFEuHHyhrGXqtynjIogDnSgVZ3S4xUINW3rpqJHEQBGAlz6MWsofNLOkEiYSLvQYNsOaYN3HYlZKDvco8LvNk9IQ3zolzNt1U3PtpM6DiYsUo2EFHaz4b60UteMLtfylnsny03yKFi0xMWMzHOJ8KgnrjnoOce6qRDX7kk26waWsGKrlr6QsWIkWLd7S/dUHHhq1OcdzuzWnEfpPpSnANdwgXbDgfH743f2puDfr7+fV/GDMBDgFtWUG2Va3DmsrGH0cB7hmFMYm7Ro4B9fnFGTKwEAAA==
+    - null
+    - null
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Skyblock
+          Menu "},{"bold":false,"italic":false,"color":"dark_gray","text":"> "},{"italic":false,"color":"white","text":"Right
+          Click"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAAAE2PS06DUBiF/5qaIOrAHbgEHinaibGxlV5SLlLed0bb2/C4QEOhAWbuQIfuoQMHTlyES3AhzmTYwUm+85gcHoCHKyutGXspi23MKA98TztaVjHdXwBX0aaqS7rnAWDAwbkbsprCkbaaQPxI2PgaW7dI6b1tCcxAye4O5W67ekIKyvp+PlEW7fhkO6pCb8QCWYtIbtarzBUW8pLR+VJcZ87BsKM08GYNsTEj01QgWdARW+/1nGJVl4htdiSZtD0LWDJlQ52JWNIirJqdoToy9hw56NIWJ2ajT4N464tjgEs4Q5v+wPD4/WF/Pjy+vf+9dj9fN7/AwTWqaKYVcX5rsaKCwf1phMOMwlCneQ3/z9ISPCsBAAA=
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
     - null
     - null
     - null
@@ -365,180 +591,64 @@ chests:
     - null
     chest_block: CHEST
     locked: true
-    timeleft: 21924
-    died: 1621039222869
+    timeleft: 45182
+    died: 1621234742679
+    exp: 6986
+  63777b04-036b-4866-9f36-b8b83c573349:
+    location:
+      world: skyblock
+      x: -14000.0
+      y: 123.0
+      z: 4000.0
+      pitch: 0.0
+      yaw: 0.0
+    player: 1beb2af6-1c1a-484e-95b1-3982b1bd999a
+    items:
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Skyblock
+          Menu "},{"bold":false,"italic":false,"color":"dark_gray","text":"> "},{"italic":false,"color":"white","text":"Right
+          Click"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAAAE2Pu06DUBzG/zU1QdS5q4kvwCVFOza20kPLQcr9bLQ9DZcDNBQMsJp0Mb5GJx/DZ3JVxg5f8vsuy8cD8HBnpTVjb2Wxjxnlge/pQMsqpscb4CraVHVJjzwADDi4dkNWU/imrSYQPxJ2vsa2LVJ6b1sCM1ByeEK5225ekIKyvl9MlVU7udiOq9Abs0DWIpKb9SZzhZW8ZnSxFreZ827YURp484bYmJFZKpAs6Iit93pNsapLxDY7kkzbngUsmbKhzkUsaRFWzc5QHRl7jhx0aYsTs9FnQbz3xQnALVyhXX9geP76kR4/lqNP5fT7NzqfgIN7VNFMK+L8wWJFBYPnywiHGYWhTvMa/gEPQ+HPKwEAAA==
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    chest_block: CHEST
+    locked: true
+    timeleft: 55348
+    died: 1621244908380
     exp: 0
-  c1472a39-49cd-48fc-80c2-cb0c69a5ae3f:
-    location:
-      world: skyblock
-      x: -13997.0
-      y: 131.0
-      z: 14001.0
-      pitch: 0.0
-      yaw: 0.0
-    player: 2ed75689-eda2-4722-8a91-ed834918e441
-    items:
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2586
-      type: PLAYER_HEAD
-      meta:
-        ==: ItemMeta
-        meta-type: SKULL
-        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Skyblock
-          Menu "},{"bold":false,"italic":false,"color":"dark_gray","text":"> "},{"italic":false,"color":"white","text":"Right
-          Click"}],"text":""}'
-        ItemFlags:
-        - HIDE_ENCHANTS
-        - HIDE_ATTRIBUTES
-        - HIDE_UNBREAKABLE
-        - HIDE_DESTROYS
-        - HIDE_PLACED_ON
-        - HIDE_POTION_EFFECTS
-        internal: H4sIAAAAAAAAAE2Py06DQBiF/5qaIGpMfAIfgUuKdtlIpYMwSLnPjrbTcBloQ8EAazd9EVe6caEPZ2Jk2cVJvnPZHB6Ahysnbxh7qXbblFEe+IH2tKpTergArqZt3VT0wAPAiINzP2YNhQ/a6QIJE2ET6mzdIWXwriMwC2X7e1T63eoRKagY+sVMMbrpyXZSx8GERbKekNJuVoUvGPKS0cVSXBfeq+UmeRTMW+JiRtRcIEXUE9cc9JRjzZSIa/ckm3UDC1iyZUubi1jSE6zZvaV5Mg48OerzDmd2a6pRug3FKcAlnKHNcGCs3t58Gl/W3/H3++3n+f0IHFyjmhb6Li3vHLarYfRwGuG4oDA2adnAP+BtxY4rAQAA
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    chest_block: CHEST
-    locked: true
-    timeleft: 11996
-    died: 1621029295296
-    exp: 3
-  35ec28e5-f65b-4c0d-8215-16e68dbb1d19:
-    location:
-      world: skyblock
-      x: 8000.0
-      y: 122.0
-      z: -14000.0
-      pitch: 0.0
-      yaw: 0.0
-    player: 3da5760c-ca24-48e5-99e7-fbb3210eff07
-    items:
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2586
-      type: PLAYER_HEAD
-      meta:
-        ==: ItemMeta
-        meta-type: SKULL
-        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Skyblock
-          Menu "},{"bold":false,"italic":false,"color":"dark_gray","text":"> "},{"italic":false,"color":"white","text":"Right
-          Click"}],"text":""}'
-        ItemFlags:
-        - HIDE_ENCHANTS
-        - HIDE_ATTRIBUTES
-        - HIDE_UNBREAKABLE
-        - HIDE_DESTROYS
-        - HIDE_PLACED_ON
-        - HIDE_POTION_EFFECTS
-        internal: H4sIAAAAAAAAAE2PS06DQBzG/zU1QdQrmLpx44ZHinbZ2EpnUgYp79lBOw2PgTYUDHACvYsn0CO58gay7OJLft9j84kAItzYecP5W3XYp5yJIA50ZFWdstMVCDVr66ZiJxEARgJcehFvGHyxDks0SKRdgPm2Q9rgHVviJsqOT6j0uvgFaagY+tVcW3ezs+20jvwpD1Wc0NJq4sKT1uqGs9VG3hbuu+kkeegvW+oQThe5RIuwp44x6DUnuqFQx+ppNu8Glohiqaa+lImCE6Jbvam7KvFdNezzjmRWayzCdB/IM4BruEC74cD4F//d3z2Sz++f+GOCHwAEuEU1K/AhLSc2P9Qwej6PSFQwGBusbOAfbxNrhisBAAA=
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    chest_block: CHEST
-    locked: true
-    timeleft: 3391
-    died: 1621020690296
-    exp: 2305
-  7b5813dd-5ebc-47c6-a29b-5a9e2bc47381:
-    location:
-      world: skyblock
-      x: -13997.0
-      y: 132.0
-      z: 14001.0
-      pitch: 0.0
-      yaw: 0.0
-    player: 2ed75689-eda2-4722-8a91-ed834918e441
-    items:
-    - ==: org.bukkit.inventory.ItemStack
-      v: 2586
-      type: PLAYER_HEAD
-      meta:
-        ==: ItemMeta
-        meta-type: SKULL
-        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Skyblock
-          Menu "},{"bold":false,"italic":false,"color":"dark_gray","text":"> "},{"italic":false,"color":"white","text":"Right
-          Click"}],"text":""}'
-        ItemFlags:
-        - HIDE_ENCHANTS
-        - HIDE_ATTRIBUTES
-        - HIDE_UNBREAKABLE
-        - HIDE_DESTROYS
-        - HIDE_PLACED_ON
-        - HIDE_POTION_EFFECTS
-        internal: H4sIAAAAAAAAAE2Pu06DUBzG/zU1QdR3cHSkkKKdtLFIDykHKfez0fZULgdoKBggTj4PT+Lg7gO4OjvK2OFLft9l+XgAHq6stGbspSz2MaM88AMdaFnF9HgBXEWbqi7pkQeAEQfnbshqCj1tNYH4kbDzNbZtkTx42xKYgZLDHcrddvOEZJQN/XIur9rZyXZahd6UBZIWkdysN5krrKQ1o8v1ZJs5b4YdpYGnNMTGjCxSgWRBR2x90HOKVV0kttmRZN4OLGDRlAxVmWBRi7BqdobqSNhzpKBLW5yYjb4I4r0/mQFcwhnaDQfG77dfD6/941//+fP98SspwME1qmimFXF+Y7GigtH9aYTDjMJYp3kN/+40biErAQAA
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    chest_block: CHEST
-    locked: true
-    timeleft: 12783
-    died: 1621030081901
-    exp: 20

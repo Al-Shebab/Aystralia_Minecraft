@@ -2,7 +2,9 @@
   "homeLocations": {},
   "uniqueId": "bb0a39a2-fb6a-48a1-99e9-79d4229ed129",
   "playerName": "flaboo",
-  "resets": {},
+  "resets": {
+    "skyblock": 5
+  },
   "locale": "",
   "deaths": {
     "skyblock": 0

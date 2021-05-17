@@ -1,0 +1,27 @@
+{
+  "homeLocations": [
+    [
+      [
+        "skyblock",
+        16000.5,
+        120.0,
+        8000.5,
+        0.0,
+        0.0
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "01c116b5-5ffe-4022-ab80-c4197ea80d38",
+  "playerName": "Toxify_X",
+  "resets": {
+    "skyblock": 4
+  },
+  "locale": "",
+  "deaths": {
+    "skyblock": 0
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC",
+  "metaData": {}
+}

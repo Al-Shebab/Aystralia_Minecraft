@@ -1,0 +1,28 @@
+{
+  "uniqueId": "BSkyBlock6449c662-8215-4202-98b2-84695529dd66",
+  "level": 13,
+  "initialLevel": 0,
+  "pointsToNextLevel": 68,
+  "uwCount": {},
+  "mdCount": {
+    "FURNACE": 1,
+    "COBBLESTONE": 126,
+    "BLACK_BED": 2,
+    "FARMLAND": 1,
+    "OAK_PLANKS": 33,
+    "BEDROCK": 1,
+    "SAND": 5,
+    "SUGAR_CANE": 5,
+    "OAK_SAPLING": 1,
+    "SMOKER": 1,
+    "CHEST": 2,
+    "MELON_STEM": 1,
+    "CRAFTING_TABLE": 1,
+    "AIR": 10239804,
+    "OAK_WALL_SIGN": 1,
+    "DIRT": 5,
+    "IRON_ORE": 1,
+    "LAVA": 1,
+    "WATER": 8
+  }
+}

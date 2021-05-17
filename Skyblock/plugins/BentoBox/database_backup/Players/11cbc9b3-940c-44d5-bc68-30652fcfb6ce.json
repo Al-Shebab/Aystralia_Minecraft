@@ -1,17 +1,5 @@
 {
-  "homeLocations": [
-    [
-      [
-        "skyblock",
-        -9999.5,
-        120.0,
-        -13999.5,
-        0.0,
-        0.0
-      ],
-      1
-    ]
-  ],
+  "homeLocations": {},
   "uniqueId": "11cbc9b3-940c-44d5-bc68-30652fcfb6ce",
   "playerName": "WhiteClovers",
   "resets": {},
@@ -20,5 +8,6 @@
     "skyblock": 0
   },
   "pendingKicks": [],
-  "flagsDisplayMode": "BASIC"
+  "flagsDisplayMode": "BASIC",
+  "metaData": {}
 }

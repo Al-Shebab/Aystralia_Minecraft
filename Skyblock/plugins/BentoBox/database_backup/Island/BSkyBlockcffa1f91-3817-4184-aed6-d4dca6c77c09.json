@@ -18,7 +18,8 @@
   "updatedDate": 1620956656568,
   "owner": "1beb2af6-1c1a-484e-95b1-3982b1bd999a",
   "members": {
-    "1beb2af6-1c1a-484e-95b1-3982b1bd999a": 1000
+    "1beb2af6-1c1a-484e-95b1-3982b1bd999a": 1000,
+    "96dbb789-4190-4351-af8c-0b7de5eafef7": 500
   },
   "maxMembers": {},
   "spawn": false,
@@ -136,7 +137,7 @@
     "": [
       "skyblock",
       -13999.5,
-      123.0,
+      124.0,
       4000.5,
       270.0,
       30.0

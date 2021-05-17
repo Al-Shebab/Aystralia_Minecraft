@@ -1,4 +1,4 @@
-organics:
+`organics:
   name: "&b&lMarket"
   fillItem:
     material: BLACK_STAINED_GLASS_PANE
@@ -9,7 +9,7 @@ organics:
       item:
         material: OAK_LEAVES
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 0
     2:
@@ -17,7 +17,7 @@ organics:
       item:
         material: SPRUCE_LEAVES
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 1
     3:
@@ -25,7 +25,7 @@ organics:
       item:
         material: BIRCH_LEAVES
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 2
     4:
@@ -33,7 +33,7 @@ organics:
       item:
         material: ACACIA_LEAVES
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 3
     5:
@@ -41,7 +41,7 @@ organics:
       item:
         material: JUNGLE_LEAVES
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 4
     6:
@@ -49,7 +49,7 @@ organics:
       item:
         material: DARK_OAK_LEAVES
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 5
     7:
@@ -57,7 +57,7 @@ organics:
       item:
         material: GRASS
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 6
     8:
@@ -65,7 +65,7 @@ organics:
       item:
         material: FERN
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 7
     9:
@@ -73,7 +73,7 @@ organics:
       item:
         material: DEAD_BUSH
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 8
     10:
@@ -81,7 +81,7 @@ organics:
       item:
         material: SEAGRASS
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 9
     11:
@@ -89,7 +89,7 @@ organics:
       item:
         material: SEA_PICKLE
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 10
     12:
@@ -97,7 +97,7 @@ organics:
       item:
         material: DANDELION
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 11
     13:
@@ -105,7 +105,7 @@ organics:
       item:
         material: POPPY
         quantity: 1
-      sellPrice: 3
+      sellPrice: 6
       buyPrice: 100
       slot: 12
     14:
@@ -113,7 +113,7 @@ organics:
       item:
         material: BLUE_ORCHID
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 13
     15:
@@ -121,7 +121,7 @@ organics:
       item:
         material: AZURE_BLUET
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 14
     16:
@@ -129,7 +129,7 @@ organics:
       item:
         material: RED_TULIP
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 15
     17:
@@ -137,7 +137,7 @@ organics:
       item:
         material: ORANGE_TULIP
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 16
     18:
@@ -145,7 +145,7 @@ organics:
       item:
         material: WHITE_TULIP
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 17
     19:
@@ -153,7 +153,7 @@ organics:
       item:
         material: PINK_TULIP
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 18
     20:
@@ -161,7 +161,7 @@ organics:
       item:
         material: OXEYE_DAISY
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 19
     21:
@@ -169,7 +169,7 @@ organics:
       item:
         material: CORNFLOWER
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 20
     22:
@@ -177,7 +177,7 @@ organics:
       item:
         material: LILY_OF_THE_VALLEY
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 21
     23:
@@ -185,7 +185,7 @@ organics:
       item:
         material: BROWN_MUSHROOM
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 22
     24:
@@ -193,7 +193,7 @@ organics:
       item:
         material: RED_MUSHROOM
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 23
     25:
@@ -201,7 +201,7 @@ organics:
       item:
         material: WHEAT_SEEDS
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 24
     26:
@@ -209,7 +209,7 @@ organics:
       item:
         material: PUMPKIN_SEEDS
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 25
     27:
@@ -217,7 +217,7 @@ organics:
       item:
         material: MELON_SEEDS
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 26
     28:
@@ -225,7 +225,7 @@ organics:
       item:
         material: NETHER_WART
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 27
     29:
@@ -233,7 +233,7 @@ organics:
       item:
         material: BEETROOT_SEEDS
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 28
     30:
@@ -241,7 +241,7 @@ organics:
       item:
         material: CARROT
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 29
     31:
@@ -249,7 +249,7 @@ organics:
       item:
         material: POTATO
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 30
     32:
@@ -257,7 +257,7 @@ organics:
       item:
         material: SUGAR_CANE
         quantity: 1
-      sellPrice: 3
+      sellPrice: 6
       buyPrice: 100
       slot: 31
     33:
@@ -265,7 +265,7 @@ organics:
       item:
         material: BAMBOO
         quantity: 1
-      sellPrice:  1
+      sellPrice: 2
       buyPrice: 100
       slot: 32
     34:
@@ -273,7 +273,7 @@ organics:
       item:
         material: KELP
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 33
     35:
@@ -281,7 +281,7 @@ organics:
       item:
         material: CACTUS
         quantity: 1
-      sellPrice: 3
+      sellPrice: 5
       buyPrice: 100
       slot: 34
     36:
@@ -289,7 +289,7 @@ organics:
       item:
         material: PUMPKIN
         quantity: 1
-      sellPrice: 5
+      sellPrice: 10
       buyPrice: 100
       slot: 35
     37:
@@ -297,7 +297,7 @@ organics:
       item:
         material: MELON
         quantity: 1
-      sellPrice: 5
+      sellPrice: 10
       buyPrice: 100
       slot: 36
     371:
@@ -305,7 +305,7 @@ organics:
       item:
         material: MELON_SLICE
         quantity: 1
-      sellPrice: 1.25
+      sellPrice: 2.5
       buyPrice: 25
       slot: 37
     38:
@@ -313,7 +313,7 @@ organics:
       item:
         material: VINE
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 38
     39:
@@ -321,7 +321,7 @@ organics:
       item:
         material: LILY_PAD
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 39
     40:
@@ -329,7 +329,7 @@ organics:
       item:
         material: HAY_BLOCK
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 40
     41:
@@ -337,7 +337,7 @@ organics:
       item:
         material: SUNFLOWER
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 41
     42:
@@ -345,7 +345,7 @@ organics:
       item:
         material: LILAC
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 42
     43:
@@ -353,7 +353,7 @@ organics:
       item:
         material: ROSE_BUSH
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 43
     44:
@@ -361,7 +361,7 @@ organics:
       item:
         material: PEONY
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 44
     45:
@@ -369,7 +369,7 @@ organics:
       item:
         material: TALL_GRASS
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 45
     46:
@@ -377,7 +377,7 @@ organics:
       item:
         material: LARGE_FERN
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 46
     47:
@@ -385,7 +385,7 @@ organics:
       item:
         material: DRIED_KELP_BLOCK
         quantity: 1
-      sellPrice: 1
+      sellPrice: 2
       buyPrice: 100
       slot: 47
     48:
@@ -393,6 +393,6 @@ organics:
       item:
         material: WHEAT
         quantity: 1
-      sellPrice: 3
+      sellPrice: 5
       buyPrice: 100
       slot: 48
