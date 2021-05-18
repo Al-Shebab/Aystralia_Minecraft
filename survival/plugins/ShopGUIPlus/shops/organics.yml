@@ -329,8 +329,8 @@ organics:
       item:
         material: HAY_BLOCK
         quantity: 1
-      sellPrice: 2
-      buyPrice: 100
+      sellPrice: 45
+      buyPrice: 200
       slot: 40
     41:
       type: item
