@@ -24,13 +24,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 105.71771
+        bodyYaw: -94.260666
         world: world
         x: '-19.5'
         y: '43.0'
         z: '-414.5'
-        yaw: '145.7177'
-        pitch: '11.8385'
+        yaw: '-134.2607'
+        pitch: '11.6022'
       spawned: true
       type: PLAYER
       skintrait:
@@ -55,7 +55,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: skintrait,spawned,lookclose,scoreboardtrait,location,inventory,commandtrait,type,equipment,mounttrait,owner
+    traitnames: type,skintrait,mounttrait,owner,inventory,location,commandtrait,spawned,equipment,scoreboardtrait,lookclose
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -82,13 +82,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 101.039566
+        bodyYaw: 14.343529
         world: world
         x: '-19.5'
         y: '43.0'
         z: '-432.5'
-        yaw: '141.0396'
-        pitch: '3.8532'
+        yaw: '-12.3398'
+        pitch: '11.7112'
       spawned: true
       type: PLAYER
       skintrait:
@@ -113,7 +113,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: skintrait,spawned,lookclose,scoreboardtrait,location,inventory,commandtrait,type,equipment,mounttrait,owner
+    traitnames: type,skintrait,mounttrait,owner,inventory,location,commandtrait,spawned,equipment,scoreboardtrait,lookclose
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -141,13 +141,13 @@ npc:
             delay: 0
       spawned: true
       location:
-        bodyYaw: 93.71066
+        bodyYaw: 100.72731
         world: world
         x: '-15.5'
         y: '43.0'
         z: '-418.5'
-        yaw: '71.1418'
-        pitch: '11.5707'
+        yaw: '100.8633'
+        pitch: '28.6169'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -171,7 +171,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: skintrait,spawned,lookclose,scoreboardtrait,location,inventory,commandtrait,type,equipment,mounttrait,owner
+    traitnames: type,skintrait,mounttrait,owner,inventory,location,commandtrait,spawned,equipment,scoreboardtrait,lookclose
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -199,13 +199,13 @@ npc:
             delay: 0
       spawned: true
       location:
-        bodyYaw: 101.57593
+        bodyYaw: 67.202866
         world: world
         x: '-14.5'
         y: '43.0'
         z: '-423.5'
-        yaw: '100.6138'
-        pitch: '17.9363'
+        yaw: '106.0192'
+        pitch: '-5.7365'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -229,7 +229,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: skintrait,spawned,lookclose,scoreboardtrait,location,inventory,commandtrait,type,equipment,mounttrait,owner
+    traitnames: type,skintrait,mounttrait,owner,inventory,location,commandtrait,spawned,equipment,scoreboardtrait,lookclose
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -244,13 +244,13 @@ npc:
     traits:
       spawned: true
       location:
-        bodyYaw: 48.395554
+        bodyYaw: 24.745544
         world: world
         x: '-15.5'
         y: '43.0'
         z: '-428.5'
-        yaw: '24.6841'
-        pitch: '11.5884'
+        yaw: '7.3908'
+        pitch: '-2.0763'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -287,7 +287,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: skintrait,spawned,lookclose,scoreboardtrait,location,inventory,commandtrait,type,equipment,mounttrait,owner
+    traitnames: type,skintrait,mounttrait,owner,inventory,location,commandtrait,spawned,equipment,scoreboardtrait,lookclose
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

@@ -1,0 +1,23 @@
+{
+  "uniqueId": "BSkyBlock11feb80a-4f3e-4702-ad52-384aa4f84ba4",
+  "level": 23,
+  "initialLevel": 0,
+  "pointsToNextLevel": 86,
+  "uwCount": {},
+  "mdCount": {
+    "COBBLESTONE": 267,
+    "DIRT": 18,
+    "COAL_ORE": 1,
+    "NETHER_PORTAL": 6,
+    "FURNACE": 1,
+    "BEDROCK": 1,
+    "LAVA": 5,
+    "CHEST": 2,
+    "OAK_PLANKS": 1,
+    "CRAFTING_TABLE": 1,
+    "HOPPER": 1,
+    "OBSIDIAN": 12,
+    "WATER": 123,
+    "AIR": 10239561
+  }
+}

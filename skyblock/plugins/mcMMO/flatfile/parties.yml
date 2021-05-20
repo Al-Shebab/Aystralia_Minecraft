@@ -51,3 +51,20 @@ Chubby_Noodles:
   Members:
   - 668254da-71a8-4e87-abee-9b7c0d2da985|Chubby_c00n63
   - 0189a133-fd9c-4d5b-ac01-683df2cda644|SwearingNoodle
+username:
+  Leader: 0db4808b-599a-49dc-aa5d-754664518cb2|maddwrath
+  Password: maddwrath
+  Locked: true
+  Level: 10
+  Xp: 600
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - 0db4808b-599a-49dc-aa5d-754664518cb2|maddwrath
