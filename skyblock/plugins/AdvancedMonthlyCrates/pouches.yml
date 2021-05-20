@@ -23,11 +23,11 @@ Pouches:
       - '&2&l* Tier I'
       - ''
       - '&2&l* Reward'
-      - '&f- &f$10,000 - $50,000'
+      - '&f- &f$100,000 - $500,000'
       - ''
       - '&f[Place down to open!]'
-    RandomNumberMin: 10000
-    RandomNumberMax: 50000
+    RandomNumberMin: 100000
+    RandomNumberMax: 500000
     Rewards:
       - "cmi money give {player_name} {random_number} -s"
   MoneyPouchII:
@@ -52,11 +52,11 @@ Pouches:
       - '&a&l* Tier II'
       - ''
       - '&a&l* Reward'
-      - '&f- &f$50,000 - $100,000'
+      - '&f- &f$500,000 - $1,000,000'
       - ''
       - '&f[Place down to open!]'
-    RandomNumberMin: 50000
-    RandomNumberMax: 100000
+    RandomNumberMin: 500000
+    RandomNumberMax: 1000000
     Rewards:
       - "cmi money give {player_name} {random_number} -s"
   MoneyPouchIII:
@@ -81,11 +81,11 @@ Pouches:
       - '&9&l* Tier III'
       - ''
       - '&9&l* Reward'
-      - '&f- &f$100,000 - $200,000'
+      - '&f- &f$1,000,000 - $2,000,000'
       - ''
       - '&f[Place down to open!]'
-    RandomNumberMin: 100000
-    RandomNumberMax: 200000
+    RandomNumberMin: 1000000
+    RandomNumberMax: 2000000
     Rewards:
       - "cmi money give {player_name} {random_number} -s"
   MoneyPouchIV:
@@ -110,11 +110,11 @@ Pouches:
       - '&3&l* Tier IV'
       - ''
       - '&3&l* Reward'
-      - '&f- &f$200,000 - $500,000'
+      - '&f- &f$2,000,000 - $5,000,000'
       - ''
       - '&f[Place down to open!]'
-    RandomNumberMin: 200000
-    RandomNumberMax: 500000
+    RandomNumberMin: 2000000
+    RandomNumberMax: 5000000
     Rewards:
       - "cmi money give {player_name} {random_number} -s"
   MoneyPouchV:
@@ -139,10 +139,10 @@ Pouches:
       - '&b&l* Tier V'
       - ''
       - '&b&l* Reward'
-      - '&f- &f$500,000 - $1,000,000'
+      - '&f- &f$5,000,000 - $10,000,000'
       - ''
       - '&f[Place down to open!]'
-    RandomNumberMin: 500000
-    RandomNumberMax: 1000000
+    RandomNumberMin: 5000000
+    RandomNumberMax: 10000000
     Rewards:
       - "cmi money give {player_name} {random_number} -s"
