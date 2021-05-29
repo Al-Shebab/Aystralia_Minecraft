@@ -69,8 +69,7 @@ autorestart:
   Enabled: true
   PerformOn:
     '1':
-      Hour: 11
-      Minute: 16
+      Hour: 3
   Commands:
   - title! &b&lServer Restart
   - subtitle! &f&lServer will restart in &b10 minutes

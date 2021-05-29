@@ -1,0 +1,24 @@
+{
+  "uniqueId": "BSkyBlocka2cc98d9-4a8d-48a3-ba1c-2a9514d7643a",
+  "level": 141,
+  "initialLevel": 0,
+  "pointsToNextLevel": 19,
+  "uwCount": {},
+  "mdCount": {
+    "AIR": 10239596,
+    "GOLD_ORE": 4,
+    "IRON_ORE": 12,
+    "OAK_LOG": 6,
+    "CHEST": 1,
+    "OAK_WALL_SIGN": 1,
+    "DIRT": 45,
+    "COAL_ORE": 11,
+    "SAND": 11,
+    "LAVA": 3,
+    "DIAMOND_ORE": 2,
+    "STONE": 197,
+    "BEDROCK": 1,
+    "GRASS_BLOCK": 58,
+    "OAK_LEAVES": 52
+  }
+}
