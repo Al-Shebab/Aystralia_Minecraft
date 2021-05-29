@@ -1,9 +1,21 @@
 {
-  "homeLocations": {},
+  "homeLocations": [
+    [
+      [
+        "skyblock",
+        -3999.5,
+        120.0,
+        -15999.5,
+        0.0,
+        0.0
+      ],
+      1
+    ]
+  ],
   "uniqueId": "64cb3143-ab81-4970-ab93-d2c004533c2c",
   "playerName": "Sc00byVC",
   "resets": {
-    "skyblock": 7
+    "skyblock": 11
   },
   "locale": "",
   "deaths": {

@@ -1,1 +1,84 @@
-chests: {}
+chests:
+  24f50e67-2a02-4736-a01c-a6d1c6d0073b:
+    location:
+      world: world
+      x: -4194.0
+      y: 27.0
+      z: 6657.0
+      pitch: 0.0
+      yaw: 0.0
+    player: 66a47821-50f5-4692-b142-d352c083675c
+    items:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: WRITTEN_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: BOOK_SIGNED
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Aystralia
+          Network "},{"bold":true,"italic":false,"color":"white","text":"Guide"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Read
+          me!"}],"text":""}'
+        enchants:
+          Glow: 1
+        internal: H4sIAAAAAAAAAONiYOBiYEnOTcnkYGBPzs/NTcxLYWAvLkksKkktYmAAAK3R+LgfAAAA
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    chest_block: CHEST
+    locked: true
+    timeleft: 40994
+    died: 1622180953552
+    exp: 363

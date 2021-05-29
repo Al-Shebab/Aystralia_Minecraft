@@ -1,27 +1,9 @@
-GREENTEAM:
-  Leader: 58821929-84e9-41f6-a23a-fe4b1edcb7fa|Greenyyy1
-  Locked: true
-  Level: 10
-  Xp: 4464
-  Ally: ''
-  ExpShareMode: NONE
-  ItemShareMode: NONE
-  ItemShareType:
-    LOOT: true
-    MINING: true
-    HERBALISM: true
-    WOODCUTTING: true
-    MISC: true
-  Members:
-  - 58821929-84e9-41f6-a23a-fe4b1edcb7fa|Greenyyy1
-  - 1132a3f9-cf23-42e1-8595-79d07b07844e|Aystralia
-  - 857f530d-0fa0-41b8-8881-b947ec8a7449|Wofie
 'yes':
   Leader: 3d13486a-fdb0-4947-8f4e-7077fbb2b5f1|Peanut33
   Password: pony
   Locked: true
   Level: 10
-  Xp: 2220
+  Xp: 1968
   Ally: ''
   ExpShareMode: NONE
   ItemShareMode: NONE
@@ -39,7 +21,7 @@ Jizzy:
   Password: JizzyBalls
   Locked: true
   Level: 10
-  Xp: 4150
+  Xp: 4447
   Ally: ''
   ExpShareMode: NONE
   ItemShareMode: EQUAL
@@ -52,3 +34,21 @@ Jizzy:
   Members:
   - 0ad0c6e4-2b1a-4145-813c-a7b2997923c9|JizBall
   - d293a988-5271-4d6c-8e6b-369ef3bca5fa|coclover
+sexy:
+  Leader: ff86903b-01d3-4092-a03c-5d22e740b25d|LCtheRealOG
+  Password: funnynumber
+  Locked: true
+  Level: 10
+  Xp: 2570
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - ff86903b-01d3-4092-a03c-5d22e740b25d|LCtheRealOG
+  - 78a27f6c-dd45-4c2f-a2fc-4b07a1efcd7f|jesss37

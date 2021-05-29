@@ -28,7 +28,7 @@
     "LEAF_DECAY": 500,
     "COMMAND_RANKS": 500,
     "HURT_VILLAGERS": 400,
-    "FIRE_IGNITE": 500,
+    "FIRE_IGNITE": 1,
     "LEVER": 200,
     "MONSTER_SPAWNERS_SPAWN": 500,
     "NOTE_BLOCK": 0,
@@ -82,11 +82,11 @@
     "CHALLENGES_ISLAND_PROTECTION": 0,
     "MONSTER_NATURAL_SPAWN": 500,
     "BREWING": 400,
-    "FIRE_BURNING": 500,
+    "FIRE_BURNING": -1,
     "FURNACE": 400,
     "DISPENSER": 400,
     "MINECART": 500,
-    "FIRE_SPREAD": 0,
+    "FIRE_SPREAD": -1,
     "SHEARING": 400,
     "ITEM_PICKUP": 0,
     "BED": 500,
@@ -99,7 +99,7 @@
     "ELYTRA": 0,
     "END_PORTAL": 400,
     "HURT_MONSTERS": 0,
-    "TNT_DAMAGE": 500,
+    "TNT_DAMAGE": -1,
     "COLLECT_LAVA": 400,
     "ANIMAL_SPAWNERS_SPAWN": 500,
     "DYE": 500,
@@ -128,15 +128,20 @@
     ]
   },
   "doNotLoad": false,
-  "cooldowns": {},
+  "cooldowns": {
+    "FIRE_BURNING": 1621495184330,
+    "TNT_DAMAGE": 1621495191059,
+    "FIRE_SPREAD": 1621495194192,
+    "FIRE_IGNITE": 1621774930225
+  },
   "homes": {
     "": [
       "skyblock",
-      5989.690930126991,
+      6000.5,
       125.0,
-      16003.127517291163,
-      -142.64981079101562,
-      27.300012588500977
+      16002.5,
+      0.0,
+      0.0
     ]
   }
 }

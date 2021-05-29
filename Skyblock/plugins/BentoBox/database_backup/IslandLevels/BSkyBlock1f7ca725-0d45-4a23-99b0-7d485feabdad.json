@@ -5,13 +5,13 @@
   "pointsToNextLevel": 89,
   "uwCount": {},
   "mdCount": {
+    "WATER": 610,
     "AIR": 10239365,
     "COBBLESTONE": 7,
-    "BEDROCK": 1,
     "DIRT": 14,
+    "LAVA": 1,
     "OAK_SAPLING": 1,
     "SPAWNER": 1,
-    "WATER": 610,
-    "LAVA": 1
+    "BEDROCK": 1
   }
 }

@@ -256,6 +256,14 @@
     "reason": "Ban Avading"
   },
   {
+    "uuid": "bd06c487-6d64-4ad3-aa9f-e80b6919146b",
+    "name": "zxoge",
+    "created": "2021-05-22 23:26:08 -0700",
+    "source": "§bServer",
+    "expires": "forever",
+    "reason": "Anti-Cheat Ban - Appeal via https://discord.gg/hWN7zXtbQP"
+  },
+  {
     "uuid": "22dcf31a-afdb-4e12-a2af-3642517b1890",
     "name": "general_banana39",
     "created": "2021-04-30 12:23:01 -0700",

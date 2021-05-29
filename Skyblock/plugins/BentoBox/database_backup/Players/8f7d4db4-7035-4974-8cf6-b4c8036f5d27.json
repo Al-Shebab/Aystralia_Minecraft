@@ -1,10 +1,15 @@
 {
   "homeLocations": {},
   "uniqueId": "8f7d4db4-7035-4974-8cf6-b4c8036f5d27",
-  "playerName": "tubee_",
-  "resets": {},
+  "playerName": "dinoduck420",
+  "resets": {
+    "skyblock": 1
+  },
   "locale": "",
-  "deaths": {},
+  "deaths": {
+    "skyblock": 0
+  },
   "pendingKicks": [],
-  "flagsDisplayMode": "BASIC"
+  "flagsDisplayMode": "BASIC",
+  "metaData": {}
 }
