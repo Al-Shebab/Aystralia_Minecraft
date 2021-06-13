@@ -2,7 +2,7 @@ Al_Shebab:
   Leader: 1132a3f9-cf23-42e1-8595-79d07b07844e|Aystralia
   Locked: true
   Level: 10
-  Xp: 1463
+  Xp: 2363
   Ally: ''
   ExpShareMode: NONE
   ItemShareMode: NONE
@@ -67,7 +67,7 @@ username:
     WOODCUTTING: true
     MISC: true
   Members:
-  - 0db4808b-599a-49dc-aa5d-754664518cb2|maddwrath
+  - 0db4808b-599a-49dc-aa5d-754664518cb2|Majorzaw
 lit:
   Leader: 35ab940d-3468-48bc-87e5-3f325065f043|adimay2001
   Password: bam

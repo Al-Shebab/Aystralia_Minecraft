@@ -24,13 +24,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 55.090935
+        bodyYaw: 84.76337
         world: world
         x: '-19.5'
         y: '43.0'
         z: '-414.5'
-        yaw: '15.0909'
-        pitch: '5.9442'
+        yaw: '101.212'
+        pitch: '11.5449'
       spawned: true
       type: PLAYER
       skintrait:
@@ -55,7 +55,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: commandtrait,inventory,type,mounttrait,spawned,skintrait,lookclose,owner,location,scoreboardtrait,equipment
+    traitnames: type,location,lookclose,scoreboardtrait,skintrait,inventory,owner,equipment,mounttrait,commandtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -82,13 +82,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: -90.13939
+        bodyYaw: 5.3755035
         world: world
         x: '-19.5'
         y: '43.0'
         z: '-432.5'
-        yaw: '-130.1394'
-        pitch: '0.0'
+        yaw: '4.7492'
+        pitch: '10.1705'
       spawned: true
       type: PLAYER
       skintrait:
@@ -113,7 +113,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: commandtrait,inventory,type,mounttrait,spawned,skintrait,lookclose,owner,location,scoreboardtrait,equipment
+    traitnames: type,location,lookclose,scoreboardtrait,skintrait,inventory,owner,equipment,mounttrait,commandtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -141,13 +141,13 @@ npc:
             delay: 0
       spawned: true
       location:
-        bodyYaw: 150.56326
+        bodyYaw: 126.41829
         world: world
         x: '-15.5'
         y: '43.0'
         z: '-418.5'
-        yaw: '-169.4367'
-        pitch: '0.0'
+        yaw: '166.4183'
+        pitch: '11.8055'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -171,7 +171,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: commandtrait,inventory,type,mounttrait,spawned,skintrait,lookclose,owner,location,equipment,scoreboardtrait
+    traitnames: type,location,lookclose,scoreboardtrait,skintrait,owner,inventory,equipment,mounttrait,commandtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -199,13 +199,13 @@ npc:
             delay: 0
       spawned: true
       location:
-        bodyYaw: -72.95082
+        bodyYaw: 92.184494
         world: world
         x: '-14.5'
         y: '43.0'
         z: '-423.5'
-        yaw: '-112.9508'
-        pitch: '-5.7761'
+        yaw: '80.6565'
+        pitch: '24.9227'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -229,7 +229,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: commandtrait,inventory,type,mounttrait,spawned,skintrait,lookclose,owner,location,equipment,scoreboardtrait
+    traitnames: type,location,lookclose,scoreboardtrait,skintrait,owner,inventory,equipment,mounttrait,commandtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -244,13 +244,13 @@ npc:
     traits:
       spawned: true
       location:
-        bodyYaw: 108.230896
+        bodyYaw: 19.007881
         world: world
         x: '-15.5'
         y: '43.0'
         z: '-428.5'
-        yaw: '148.2309'
-        pitch: '10.3936'
+        yaw: '-20.9921'
+        pitch: '0.0'
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
@@ -287,7 +287,7 @@ npc:
       owner:
         owner: Al_Shebab
         uuid: e79fc165-83d6-4139-9a8f-d42bf1c23f87
-    traitnames: commandtrait,inventory,type,mounttrait,spawned,skintrait,lookclose,owner,location,equipment,scoreboardtrait
+    traitnames: type,location,lookclose,scoreboardtrait,skintrait,owner,inventory,equipment,mounttrait,commandtrait,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

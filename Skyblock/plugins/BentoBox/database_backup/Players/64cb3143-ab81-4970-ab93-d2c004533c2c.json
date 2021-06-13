@@ -1,17 +1,5 @@
 {
-  "homeLocations": [
-    [
-      [
-        "skyblock",
-        -3999.5,
-        120.0,
-        -15999.5,
-        0.0,
-        0.0
-      ],
-      1
-    ]
-  ],
+  "homeLocations": {},
   "uniqueId": "64cb3143-ab81-4970-ab93-d2c004533c2c",
   "playerName": "Sc00byVC",
   "resets": {

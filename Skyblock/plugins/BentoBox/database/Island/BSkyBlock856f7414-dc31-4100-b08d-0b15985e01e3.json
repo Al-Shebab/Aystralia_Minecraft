@@ -72,7 +72,7 @@
     "MINECART": 500,
     "COLLECT_LAVA": 400,
     "HURT_MONSTERS": 0,
-    "LOCK": 500,
+    "LOCK": 0,
     "BREWING": 400,
     "PVP_END": -1,
     "REDSTONE": 400,

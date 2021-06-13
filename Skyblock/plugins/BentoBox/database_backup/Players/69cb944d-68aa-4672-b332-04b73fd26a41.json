@@ -1,17 +1,5 @@
 {
-  "homeLocations": [
-    [
-      [
-        "skyblock",
-        0.5,
-        120.0,
-        -15999.5,
-        0.0,
-        0.0
-      ],
-      1
-    ]
-  ],
+  "homeLocations": {},
   "uniqueId": "69cb944d-68aa-4672-b332-04b73fd26a41",
   "playerName": "JackV3",
   "resets": {},
@@ -20,5 +8,6 @@
     "skyblock": 0
   },
   "pendingKicks": [],
-  "flagsDisplayMode": "BASIC"
+  "flagsDisplayMode": "BASIC",
+  "metaData": {}
 }

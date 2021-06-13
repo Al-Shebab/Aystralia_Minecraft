@@ -1083,8 +1083,8 @@ aystraliacratepickaxe:
           nexengine:fogus_loren-treasures: §9Treasures IV
           nexengine:fogus_loren-tunnel_info: §8▸ Mines/Digs multiple blocks at once.
           nexengine:fogus_loren-lucky_miner: §2Lucky Miner III
-          nexengine:fogus_loren-haste_info: §8▸ Grants permanent Fast Digging IV effect.
           nexengine:fogus_loren-smelter: §aSmelter VII
+          nexengine:fogus_loren-haste_info: §8▸ Grants permanent Fast Digging IV effect.
           nexengine:fogus_loren-lucky_miner_info: §8▸ 30% chance to drop x4 more exp
             from ores.
 spawners:

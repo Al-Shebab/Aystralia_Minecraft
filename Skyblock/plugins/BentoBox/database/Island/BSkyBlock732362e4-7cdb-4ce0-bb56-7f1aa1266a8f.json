@@ -47,7 +47,7 @@
     "ITEM_PICKUP": 0,
     "TNT_DAMAGE": 500,
     "MOUNT_INVENTORY": 400,
-    "LOCK": 500,
+    "LOCK": 0,
     "CHORUS_FRUIT": 400,
     "PLACE_BLOCKS": 400,
     "PVP_OVERWORLD": -1,

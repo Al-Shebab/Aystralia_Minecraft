@@ -20,6 +20,7 @@
   "members": {
     "8f7d4db4-7035-4974-8cf6-b4c8036f5d27": 1000
   },
+  "maxMembers": {},
   "spawn": false,
   "purgeProtected": false,
   "flags": {
@@ -132,7 +133,7 @@
     "": [
       "skyblock",
       16000.5,
-      121.0,
+      122.0,
       -15999.5,
       0.0,
       0.0
