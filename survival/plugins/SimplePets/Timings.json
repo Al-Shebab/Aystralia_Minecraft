@@ -2,7 +2,7 @@
   "PetCore": {
     "startup": "-1ms",
     "SupportedVersions": "9ms",
-    "Saving PlayerData": "4ms"
+    "Saving PlayerData": "2ms"
   },
   "LinkRetriever": {
     "Unloading Plugin Links": "0ms"

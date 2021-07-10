@@ -185,3 +185,4 @@ VALID_PLAYERNAME_REGEXP: "^\\w+$"
 
 # Add stock counter to quantity line?
 USE_STOCK_COUNTER: false
+
