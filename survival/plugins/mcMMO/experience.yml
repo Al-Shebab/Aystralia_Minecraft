@@ -1,13 +1,11 @@
+
 #
 #  Experience configuration
-#  Last updated on 2.1.171-b${BUILD_NUMBER}
+#  Last updated on 2.1.200-b${BUILD_NUMBER}
 #
 #  Configure the experience formula and experience settings here.
 #
 #####
-
-
-
 # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarColor.html
 # These are the only valid colors for Experience Bars, use the exact name found here
 # BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW (As of the time of this update these are the only Bar colors available, this could change in the future so check the BarColor enum to see if it has)
@@ -123,25 +121,21 @@ Experience_Formula:
     # LINEAR:      base + (level * multiplier)
     # EXPONENTIAL: multiplier * level ^ exponent + base
     Curve: LINEAR
-
     # If invalid values are entered mcMMO will not start and print an error in the console
     Linear_Values:
         base: 1020
         multiplier: 20
     Exponential_Values:
         multiplier: 0.1
-        exponent: 1.80
+        exponent: 1.8
         base: 2000
-
     # Cumulative experience curves will use a players power level instead of their skill level,
     # players with high power levels will have to gain a lot more experience to reach the next level in every skill.
     Cumulative_Curve: false
-
     # Experience gained in every skill will get multiplied by this value. 1.0 by default, 2.0 means two times as much
     Multiplier:
         Global: 1.0
         PVP: 1.0
-
     # Experience gained from mobs not naturally spawned will get multiplied by this value. 0 by default.
     Eggs:
         Multiplier: 0
@@ -151,7 +145,6 @@ Experience_Formula:
         Multiplier: 0
     Breeding:
         Multiplier: 1.0
-
     # Experience gained will get divided by these values. 1.0 by default, 2.0 means two times less XP gained.
     Modifier:
         Swords: 1.0
@@ -167,12 +160,10 @@ Experience_Formula:
         Repair: 1.0
         Fishing: 1.0
         Alchemy: 1.0
-
     # XP earned by players with the permission mcmmo.perks.xp.customboost.<skillname> will get multiplied
     # with 1.25 by default, resulting in a 25% XP boost
     Custom_XP_Perk:
         Boost: 1.25
-
 #
 # Settings for Diminished Returns
 ###
@@ -182,7 +173,6 @@ Diminished_Returns:
     ### Set this value to 0 to turn it off
     Guaranteed_Minimum_Percentage: 0.05
     Enabled: false
-
     # Limit the amount of experience a player can earn:
     # Threshold (amount of experience) per Time_Interval (in minutes)
     Threshold:
@@ -199,16 +189,13 @@ Diminished_Returns:
         Repair: 20000
         Fishing: 20000
         Alchemy: 20000
-
     Time_Interval: 10
-
 #
 #  Settings for XP conversion with '/mcconvert experience'
 ###
 Conversion:
     # Old experience will get divided by this modifier
     Exp_Modifier: 1
-
 #
 #  Settings for XP distribution
 ###
@@ -219,7 +206,6 @@ Experience_Values:
         Dodge: 800
         Roll: 600
         Fall: 600
-
         # FeatherFall_Multiplier: Multiply Acrobatics XP by this value when wearing boots with the Feather Fall enchant
         FeatherFall_Multiplier: 2.0
     Alchemy:
@@ -256,6 +242,7 @@ Experience_Values:
         Snow_Block: 40
         Soul_Sand: 40
         Soul_Soil: 40
+        Rooted_Dirt: 60
     Woodcutting:
         Crimson_Hyphae: 50
         Stripped_Crimson_Hyphae: 50
@@ -379,6 +366,12 @@ Experience_Values:
         Cornflower: 150
         Lily_Of_The_Valley: 150
         Wither_Rose: 500
+        Small_Dripleaf: 140
+        Moss_Block: 150
+        Cave_Vines: 90
+        Glow_Lichen: 200
+        Cave_Vines_Plant: 90
+        Big_Dripleaf: 140
     Mining:
         Bone_Block: 500
         Crying_Obsidian: 3000
@@ -451,6 +444,27 @@ Experience_Values:
         Purpur_Pillar: 250
         Purpur_Slab: 150
         Purpur_Stairs: 250
+        Small_Amethyst_Bud: 10
+        Calcite: 400
+        Tuff: 10
+        Deepslate_Coal_Ore: 700
+        Deepslate_Emerald_Ore: 1700
+        Deepslate_Redstone_Ore: 900
+        Deepslate_Copper_Ore: 1900
+        Deepslate_Gold_Ore: 1900
+        Deepslate_Lapis_Ore: 1400
+        Cobbled_Deepslate: 15
+        Deepslate: 30
+        Deepslate_Iron_Ore: 1300
+        Large_Amethyst_Bud: 30
+        Deepslate_Diamond_Ore: 3600
+        Budding_Amethyst: 400
+        Block_Of_Amethyst: 500
+        Lapis_Lazuli_Ore: 800
+        Amethyst_Cluster: 60
+        Medium_Amethyst_Bud: 20
+        Copper_Ore: 1400
+        Smooth_Basalt: 300
     Repair:
         Base: 1000.0
         Wood: 0.6
@@ -473,6 +487,20 @@ Experience_Values:
         Nether_Quartz_Ore: 25
         Redstone_Ore: 15
         Nether_Gold_Ore: 35
+        Lapis_Lazuli_Ore: 40
+        Deepslate_Lapis_Lazuli_Ore: 60
+        Deepslate_Copper_Ore: 100
+        Deepslate_Gold_Ore: 50
+        Deepslate_Coal_Ore: 20
+        Raw_Gold: 35
+        Cobbled_Deepslate: 5
+        Copper_Ore: 75
+        Raw_Copper: 75
+        Deepslate_Emerald_Ore: 110
+        Deepslate_Redstone_Ore: 30
+        Deepslate_Iron_Ore: 40
+        Raw_Iron: 25
+        Deepslate_Diamond_Ore: 140
     Taming:
         Animal_Taming:
             Llama: 1200
@@ -488,6 +516,8 @@ Experience_Values:
             Fox: 1000
             Panda: 1000
             Bee: 100
+            Goat: 250
+            Axolotl: 600
     Combat:
         Multiplier:
             Animals: 1.0
@@ -557,3 +587,6 @@ Experience_Values:
             Zombified_Piglin: 3.0
             Strider: 1.2
             Zoglin: 2.5
+            Glow_Squid: 1.5
+            Goat: 1.5
+            Axolotl: 1.75

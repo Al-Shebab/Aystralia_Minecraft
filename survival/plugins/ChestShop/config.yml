@@ -174,3 +174,14 @@ HEROES_EXP: 100.0
 # Add icons and make item names hoverable in transaction messages when ShowItem is installed?
 SHOWITEM_MESSAGE: true
 
+# Make all admin shops be unlimited even if they have a shop container at the sign
+FORCE_UNLIMITED_ADMIN_SHOP: false
+# This makes sure that the UUIDs of player shop accounts match the server's online-mode setting. Disabling this might lead to issues with offline players and is therefore unsupported!
+ENSURE_CORRECT_PLAYERID: true
+# This regexp validates the name of the player. If the name doesn't match, the player will neither be able to create a valid shop sign, nor buy/sell from a shop.
+# Note for Bedrock support: If you have Floodgate on your server, you should set this regexp to ^\\*?\\w+$ and ENSURE_CORRECT_PLAYERID to false
+# If your Floodgate prefix is not *, change the first * in the regexp (the one before the question mark) to whatever your prefix is.
+VALID_PLAYERNAME_REGEXP: "^\\w+$"
+
+# Add stock counter to quantity line?
+USE_STOCK_COUNTER: false

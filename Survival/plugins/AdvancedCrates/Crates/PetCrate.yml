@@ -1,0 +1,289 @@
+Animation: Display
+Material: ENDER_CHEST
+OnlyPlacable: true
+RewardsDontRepeat: true
+Enchanted: true
+Name: '&b&lRandom Pet &f&lCrate'
+CommandOnCratePlace: []
+MessagesToPlayer:
+- '&b&lCrates &8> &fYou have opened a &b&lRandom Pet &f&lCrate'
+RewardHologram:
+- '&b&lRandom Pet &f&lCrate'
+Final_Message: []
+Size: 1
+Lores:
+- ''
+- '&fPlace to use'
+- '&fEarned by &b{player_name}'
+Prizes:
+  Money-Pet:
+    Material: LIGHT_BLUE_CONCRETE_POWDER
+    Glow: true
+    Name: '&b&lMoney &f&lPet'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - tpets give Money-Pet {player_name} 1
+    BroadcastMessagesToPlayers:
+    - '&b&l{player_name} &f&ljust won a &b&lMoney &f&lPet'
+    Chance: 2
+  Worker-Pet:
+    Material: LIGHT_BLUE_CONCRETE_POWDER
+    Glow: true
+    Name: '&b&lWorker &f&lPet'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - tpets give Worker-Pet {player_name} 1
+    BroadcastMessagesToPlayers:
+    - '&b&l{player_name} &f&ljust won a &b&lWorker &f&lPet'
+    Chance: 3
+  Goblin-Pet:
+    Material: LIGHT_BLUE_CONCRETE_POWDER
+    Glow: true
+    Name: '&b&lGoblin &f&lPet'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - tpets give Goblin-Pet {player_name} 1
+    BroadcastMessagesToPlayers:
+    - '&b&l{player_name} &f&ljust won a &b&lGoblin &f&lPet'
+    Chance: 3
+  Exp-Pet:
+    Material: LIGHT_BLUE_CONCRETE_POWDER
+    Glow: true
+    Name: '&b&lExp &f&lPet'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - tpets give Exp-Pet {player_name} 1
+    BroadcastMessagesToPlayers:
+    - '&b&l{player_name} &f&ljust won a &b&lExp &f&lPet'
+    Chance: 3
+  Vindicator-Pet:
+    Material: LIGHT_BLUE_CONCRETE_POWDER
+    Glow: true
+    Name: '&b&lVindicator &f&lPet'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - tpets give Vindicator-Pet {player_name} 1
+    BroadcastMessagesToPlayers:
+    - '&b&l{player_name} &f&ljust won a &b&lVindicator &f&lPet'
+    Chance: 3
+  Iron-Golem-Pet:
+    Material: LIGHT_BLUE_CONCRETE_POWDER
+    Glow: true
+    Name: '&b&lIron Golem &f&lPet'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - tpets give Iron-Golem-Pet {player_name} 1
+    BroadcastMessagesToPlayers:
+    - '&b&l{player_name} &f&ljust won a &b&lIron Golem &f&lPet'
+    Chance: 3
+  Thor-Pet:
+    Material: LIGHT_BLUE_CONCRETE_POWDER
+    Glow: true
+    Name: '&b&lThor &f&lPet'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - tpets give Thor-Pet {player_name} 1
+    BroadcastMessagesToPlayers:
+    - '&b&l{player_name} &f&ljust won a &b&lThor &f&lPet'
+    Chance: 3
+  Lightning-Pet:
+    Material: LIGHT_BLUE_CONCRETE_POWDER
+    Glow: true
+    Name: '&b&lLightning McQueen &f&lPet'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - tpets give Lightning-Pet {player_name} 1
+    BroadcastMessagesToPlayers:
+    - '&b&l{player_name} &f&ljust won a &b&lLightning McQueen &f&lPet'
+    Chance: 3
+  Farmer-Pet:
+    Material: LIGHT_BLUE_CONCRETE_POWDER
+    Glow: true
+    Name: '&b&lFarmer &f&lPet'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - tpets give Farmer-Pet {player_name} 1
+    BroadcastMessagesToPlayers:
+    - '&b&l{player_name} &f&ljust won a &b&lFarmer &f&lPet'
+    Chance: 3
+  Witch-Pet:
+    Material: CYAN_CONCRETE_POWDER
+    Glow: true
+    Name: '&3&lWitch &f&lPet'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - tpets give Witch-Pet {player_name} 1
+    Chance: 5
+  Pig-Pet:
+    Material: CYAN_CONCRETE_POWDER
+    Glow: true
+    Name: '&3&lPig &f&lPet'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - tpets give Pig-Pet {player_name} 1
+    Chance: 5
+  Feather-Pet:
+    Material: CYAN_CONCRETE_POWDER
+    Glow: true
+    Name: '&3&lFeather &f&lPet'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - tpets give Feather-Pet {player_name} 1
+    Chance: 5
+  Dolphin-Pet:
+    Material: CYAN_CONCRETE_POWDER
+    Glow: true
+    Name: '&3&lDolphin &f&lPet'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - tpets give Dolphin-Pet {player_name} 1
+    Chance: 5
+  Frog-Pet:
+    Material: CYAN_CONCRETE_POWDER
+    Glow: true
+    Name: '&3&lFrog &f&lPet'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - tpets give Frog-Pet {player_name} 1
+    Chance: 5
+  Bat-Pet:
+    Material: CYAN_CONCRETE_POWDER
+    Glow: true
+    Name: '&3&lBat &f&lPet'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - tpets give Bat-Pet {player_name} 1
+    Chance: 5
+  Ghost-Pet:
+    Material: CYAN_CONCRETE_POWDER
+    Glow: true
+    Name: '&3&lGhost &f&lPet'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - tpets give Ghost-Pet {player_name} 1
+    Chance: 5
+  Paper-Pet:
+    Material: CYAN_CONCRETE_POWDER
+    Glow: true
+    Name: '&3&lPaper &f&lPet'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - tpets give Paper-Pet {player_name} 1
+    Chance: 5
+  Panic-Pet:
+    Material: CYAN_CONCRETE_POWDER
+    Glow: true
+    Name: '&3&lPanic &f&lPet'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - tpets give Panic-Pet {player_name} 1
+    Chance: 5
+  Compactor-Pet:
+    Material: CYAN_CONCRETE_POWDER
+    Glow: true
+    Name: '&3&lCompactor &f&lPet'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - tpets give Compactor-Pet {player_name} 1
+    Chance: 5
+  Enderman-Pet:
+    Material: BLUE_CONCRETE_POWDER
+    Glow: true
+    Name: '&9&lEnderman &f&lPet'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - tpets give Enderman-Pet {player_name} 1
+    Chance: 6
+  Blaze-Pet:
+    Material: BLUE_CONCRETE_POWDER
+    Glow: true
+    Name: '&9&lBlaze &f&lPet'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - tpets give Blaze-Pet {player_name} 1
+    Chance: 6
+  Bin-Pet:
+    Material: BLUE_CONCRETE_POWDER
+    Glow: true
+    Name: '&9&lBin &f&lPet'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - tpets give Bin-Pet {player_name} 1
+    Chance: 6
+  Leprechaun-Pet:
+    Material: BLUE_CONCRETE_POWDER
+    Glow: true
+    Name: '&9&lLeprechaun &f&lPet'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - tpets give Leprechaun-Pet {player_name} 1
+    Chance: 6

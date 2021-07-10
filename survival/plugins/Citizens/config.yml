@@ -24,6 +24,7 @@ npc:
       multiple-targets-format: <target>|, <target>| & <target>| & others
       range: 5
       max-text-range: 500
+      talk-to-npcs: true
     format:
       no-targets: '[<npc>]: <text>'
       with-target-to-bystanders: '[<npc>] -> [<target>]: <text>'
@@ -110,6 +111,7 @@ general:
     message: <a>
   translation:
     locale: ''
+  reload-warning-enabled: true
 advanced:
   check-minecraft-version: true
 economy:
