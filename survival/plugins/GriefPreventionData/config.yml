@@ -19,6 +19,7 @@ GriefPrevention:
       world_the_end: Disabled
       realistic: Survival
       event: Survival
+      1.17: Survival
     PreventGlobalMonsterEggs: true
     PreventTheft: true
     ProtectCreatures: true
