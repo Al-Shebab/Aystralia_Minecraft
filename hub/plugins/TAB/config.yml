@@ -111,7 +111,7 @@ Groups:
     customtabname: '%cmi_user_display_name%'
     customtagname: '%cmi_user_display_name%'
 classic-vanilla-belowname:
-  enabled: true
+  enabled: false
   number: '%player_ping%'
   text: ms
 enable-collision: true
