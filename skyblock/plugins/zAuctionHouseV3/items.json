@@ -1,11 +1,7 @@
 {
   "items": [],
   "buyingItems": [],
-  "expiredItems": [
-    "{\n  \"seller\": \"9b0c0f61-6203-4bfb-a2d9-365399e7b09a\",\n  \"item\": \"H4sIAAAAAAAAAONiYOBgYMpMYRDNzcxLTS5KTCuxKs8syUgtii/KL05lZGB1zi/NK3FgAACYQQk5KQAAAA==\",\n  \"price\": 500000,\n  \"expire\": 1623522659944,\n  \"id\": \"e6e3848b-878d-490d-9d5d-a56a445592bd\",\n  \"economy\": \"VAULT\",\n  \"type\": \"DEFAULT\",\n  \"buyer\": null\n}",
-    "{\n  \"seller\": \"9b0c0f61-6203-4bfb-a2d9-365399e7b09a\",\n  \"item\": \"H4sIAAAAAAAAAONiYOBgYMpMYRDNzcxLTS5KTCuxKs8syUgtii/KL05lZGB1zi/NK3FgAACYQQk5KQAAAA==\",\n  \"price\": 500000,\n  \"expire\": 1623522659945,\n  \"id\": \"b19243e7-61ac-42d2-9f0b-d69db403a408\",\n  \"economy\": \"VAULT\",\n  \"type\": \"DEFAULT\",\n  \"buyer\": null\n}",
-    "{\n  \"seller\": \"9b0c0f61-6203-4bfb-a2d9-365399e7b09a\",\n  \"item\": \"H4sIAAAAAAAAAONiYOBgYMpMYRDNzcxLTS5KTCuxKs8syUgtii/KL05lZGB1zi/NK3FgAACYQQk5KQAAAA==\",\n  \"price\": 500000,\n  \"expire\": 1623522659945,\n  \"id\": \"985d71f6-d8ae-40e5-a85d-cdf045da5712\",\n  \"economy\": \"VAULT\",\n  \"type\": \"DEFAULT\",\n  \"buyer\": null\n}"
-  ],
+  "expiredItems": [],
   "transactions": [
     "{\n  \"seller\": \"e79fc165-83d6-4139-9a8f-d42bf1c23f87\",\n  \"date\": 1614818012929,\n  \"is_read\": true,\n  \"item\": \"H4sIAAAAAAAAAJXSyU7DMBCA4UmzNDWQlvXAW3DlhFgOPcM9chI3teLYleNI7XvzABSFiY0jKnH/9HvGNgFIYcYruG+5ZKWmG/MoeMvybtuLhum8UHsCoaE1gexZqLJ5k4abwwetFxCvDWs7AgCrAKJ3oQwEEL+oXpqnoXprq6UqCsE6oySDHx38S89QB4O+tHrTa0nLUYaedLrbY/CQF9+LoI5Q3wz6ymoqK9ZxM4ZjpMlkhIor7cgEJZlEayWqXOmRzpE+TCjXSro0RTqfnF9rKp3zF1709NWS4YlDSF5pS2t2fNFP8C7xzhtrx8uG7sfEGfJo4NfOf6I73rlrnHvpzNrCmeoCWThhFdcGWeb9oqVlv5Zcokv/cGBXhi+Equf+GAMAAA==\",\n  \"need_money\": false,\n  \"price\": 0,\n  \"economy\": \"VAULT\",\n  \"buyer\": \"3368f471-c1d5-4f9f-8b0e-2245724bf905\"\n}",
     "{\n  \"seller\": \"3368f471-c1d5-4f9f-8b0e-2245724bf905\",\n  \"date\": 1614818156056,\n  \"is_read\": true,\n  \"item\": \"H4sIAAAAAAAAAONiYOBgYMpMYRDNzcxLTS5KTCuxSs1LSS2KL0hNLMphZGB1zi/NK2FkAADYt2ySKQAAAA==\",\n  \"need_money\": false,\n  \"price\": 10,\n  \"economy\": \"VAULT\",\n  \"buyer\": \"e79fc165-83d6-4139-9a8f-d42bf1c23f87\"\n}",
