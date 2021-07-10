@@ -1,0 +1,75 @@
+prefix: '&a[å•†åº—] &r'
+shopinfo: |-
+  &aå•†åº—ä¿¡æ�¯:
+  &fæ“�æœ‰è€…: &7%owner
+  &fåº«å­˜: &7%stock
+  &fç‰©å“�: &7%item
+shopinfo_buy: '&fè³¼è²· &7%amount &få”®åƒ¹ç‚º &7%price'
+shopinfo_sell: '&få‡ºå”® &7%amount &få”®åƒ¹ç‚º &7%price'
+iteminfo: '&aç‰©å“�è¨Šæ�¯: &r'
+iteminfo_fullname: '&få…¨å��ï¼š&7%item'
+iteminfo_shopname: '&få•†åº—å‘Šç¤ºç‰Œ: &7%item'
+iteminfo_repaircost: '&fä¿®ç�†è²»ç”¨: &7%cost'
+iteminfo_book: |-
+  &fæ›¸å��: &7%title
+  &fæ›¸ç±�ä½œè€…: &7%author
+  &fæ›¸é �: &7%pages
+iteminfo_book_generation: '&fåœ–æ›¸ä¸–ä»£: &7%generation'
+iteminfo_lore: |-
+  &fçŸ¥è­˜:
+  &r%lore
+METRICS: "&a[Shop] &fæŒ‡æ¨™ï¼š \n&fè³¬æˆ¶ï¼š&7%accounts\n&få¹³å�‡äº¤æ˜“æ¬¡æ•¸ï¼š&7%totalTransactions\
+  \ &fï¼ˆbuyï¼š&7%buyTransactions &fsellï¼š&7%sellTransactions&fï¼‰ \n&få¹³å�‡äº¤æ\
+  ˜“ç‰©å“�ï¼š&7%totalItems &fï¼ˆboughtï¼š&7%boughtItems &fsoldï¼š&7%soldItems&fï¼‰"
+ACCESS_DENIED: ä½ æ²’æœ‰è¶³å¤ çš„è¨±å�¯æ¬Š!
+TRADE_DENIED: æ‚¨æ²’æœ‰æ¬Šé™�èˆ‡è©²å•†åº—é€²è¡Œäº¤æ˜“ï¼�
+TRADE_DENIED_ACCESS_PERMS: æ‚¨ä¸�èƒ½å†�åœ¨æ‚¨æœ‰æ¬Šè¨ªå•�çš„å•†åº—é€²è¡Œäº¤æ˜“!
+TRADE_DENIED_CREATIVE_MODE: '&cä½ ä¸�èƒ½åœ¨å‰µé€ æ¨¡å¼�ä¸‹ä½¿ç”¨å•†åº—äº¤æ˜“ã€‚'
+NOT_ENOUGH_MONEY: ä½ æ²’æœ‰è¶³å¤ çš„é‡‘éŒ¢!
+NOT_ENOUGH_MONEY_SHOP: å•†åº—è€�é—†æ²’æœ‰è¶³å¤ çš„é‡‘éŒ¢!
+CLIENT_DEPOSIT_FAILED: é‡‘éŒ¢å­˜å…¥ä½ çš„å¸³æˆ¶å¤±æ•—!
+SHOP_DEPOSIT_FAILED: é‡‘éŒ¢å­˜å…¥å•†åº—è€�é—†çš„å¸³æˆ¶å¤±æ•—!
+NO_ECONOMY_ACCOUNT: åº—ä¸»çš„ç¶“æ¿Ÿè³¬æˆ¶ä¸�å­˜åœ¨ï¼�
+NO_BUYING_HERE: ä½ ä¸�èƒ½åœ¨é€™è£¡è²·!
+NO_SELLING_HERE: ä½ ä¸�èƒ½åœ¨é€™è£¡è³£!
+NOT_ENOUGH_SPACE_IN_INVENTORY: é€™å€‹ç®±å­�æ²’æœ‰è¶³å¤ çš„åº«å­˜!
+NOT_ENOUGH_SPACE_IN_CHEST: é€™å€‹ç®±å­�æ²’æœ‰è¶³å¤ çš„ç©ºé–“!
+NOT_ENOUGH_ITEMS_TO_SELL: ä½ æ²’æœ‰è¶³å¤ çš„ç‰©å“�å�¯ä»¥å‡ºå”®!
+NOT_ENOUGH_SPACE_IN_YOUR_SHOP: "[%price %item&7 åº—é‹ªå·²æ»¿ï¼�](&f%seller&7 å˜—è©\
+  ¦å‡ºå”® \n&7ä¸–ç•Œï¼š&f%world\n&7åœ¨ä½�ç½®ï¼š&f%x/%y/%z)"
+NOT_ENOUGH_STOCK: é€™å®¶å•†åº—æ–·è²¨äº†.
+NOT_ENOUGH_STOCK_IN_YOUR_SHOP: ä½ å•†åº—çš„ %material æ–·è²¨äº†!
+YOU_BOUGHT_FROM_SHOP: ä½ èŠ±è²» %price è²·ä¸‹ %owner çš„ç‰©å“� %item .
+SOMEBODY_BOUGHT_FROM_YOUR_SHOP: '%buyer èŠ±è²» %price è²·ä¸‹ä½ çš„ç‰©å“� %item .'
+YOU_SOLD_TO_SHOP: ä½ ä»¥ %price çš„åƒ¹æ ¼è³£å‡ºç‰©å“� %item çµ¦ %buyer .
+SOMEBODY_SOLD_TO_YOUR_SHOP: '%seller ä»¥ %price çš„åƒ¹æ ¼è³£å‡ºç‰©å“� %item çµ¦ä½ .'
+YOU_CANNOT_CREATE_SHOP: ä½ ä¸�èƒ½å‰µå»ºé€™ç¨®é¡žåž‹çš„å•†åº—!
+NO_CHEST_DETECTED: æ‰¾ä¸�åˆ°ç®±å­�!
+INVALID_SHOP_DETECTED: é€™å€‹å•†åº—ç„¡æ³•ä½¿ç”¨!
+INVALID_SHOP_PRICE: è©²å•†åº—çš„åƒ¹æ ¼ç„¡æ•ˆ!
+INVALID_SHOP_QUANTITY: å•†åº—æœ‰ç„¡æ•ˆçš„æ•¸é‡�ï¼�
+CANNOT_ACCESS_THE_CHEST: ä½ æ²’æœ‰è¨±å�¯æ¬Šé–‹å•Ÿé€™å€‹ç®±å­�!
+SELL_PRICE_ABOVE_MAX: å”®åƒ¹é«˜æ–¼æœ€é«˜åƒ¹ï¼�
+SELL_PRICE_BELOW_MIN: å”®åƒ¹ä½Žæ–¼æœ€ä½Žåƒ¹ï¼�
+BUY_PRICE_ABOVE_MAX: è³¼è²·åƒ¹æ ¼é«˜æ–¼æœ€é«˜åƒ¹ï¼�
+BUY_PRICE_BELOW_MIN: è³¼è²·åƒ¹æ ¼ä½Žæ–¼æœ€ä½Žåƒ¹ï¼�
+CLICK_TO_AUTOFILL_ITEM: é»žæ“Šå¸¶æœ‰è©²åº—é‹ªå•†å“�çš„æ¨™èªŒï¼�
+NO_ITEM_IN_HAND: æ‚¨æ‰‹ä¸Šæ²’æœ‰è¦�è‡ªå‹•å¡«å……çš„ç‰©å“�ï¼�
+PROTECTED_SHOP: LWCæˆ�åŠŸä¿�è­·äº†å•†åº—!
+PROTECTED_SHOP_SIGN: ç”¨LWCæˆ�åŠŸä¿�è­·äº†å•†åº—!
+SHOP_CREATED: å•†åº—å‰µå»ºæˆ�åŠŸ!
+SHOP_FEE_PAID: æ‰£é™¤ä½  %amount
+SHOP_REFUNDED: é€€é‚„ä½  %amount
+ITEM_GIVEN: å°‡%itemç»™äºˆä¸€å��%player
+RESTRICTED_SIGN_CREATED: å‘Šç¤ºç‰Œå‰µå»ºæˆ�åŠŸ!
+PLAYER_NOT_FOUND: çŽ©å®¶æœªæ‰¾åˆ°
+NO_PERMISSION: ä½ æ²’æœ‰è¨±å�¯æ¬Š!
+INCORRECT_ITEM_ID: ä½ æŒ‡å®šçš„ç‰©å“�IDç„¡æ•ˆ!
+INVALID_CLIENT_NAME: æ‚¨çš„ç”¨æˆ¶å��ä¸�æ˜¯æœ‰æ•ˆçš„ Minecraft ç”¨æˆ¶å��ï¼�
+NOT_ENOUGH_PROTECTIONS: ç„¡æ³•å‰µå»ºä¿�è­·!
+NO_SHOP_FOUND: æ²’æœ‰æ‰¾åˆ°å•†åº—
+CANNOT_CREATE_SHOP_HERE: ä½ ä¸�èƒ½åœ¨é€™è£¡å‰µå»ºå•†åº—!
+TOGGLE_MESSAGES_OFF: æ‚¨å°‡ä¸�å†�æ”¶åˆ°ä¾†è‡ªæ‚¨å•†åº—çš„æ¶ˆæ�¯.
+TOGGLE_MESSAGES_ON: æ‚¨ç�¾åœ¨å°‡æ”¶åˆ°ä¾†è‡ªæ‚¨å•†åº—çš„æ¶ˆæ�¯.
+TOGGLE_ACCESS_ON: æ‚¨ä¸�èƒ½å†�åœ¨æ‚¨æœ‰æ¬Šè¨ªå•�çš„å•†åº—é€²è¡Œäº¤æ˜“
+TOGGLE_ACCESS_OFF: æ‚¨ç�¾åœ¨å�¯ä»¥åœ¨æ‚¨å�¯ä»¥è¨ªå•�çš„å•†åº—é€²è¡Œäº¤æ˜“

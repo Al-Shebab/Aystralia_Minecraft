@@ -237,6 +237,7 @@ exampleJob:
       softIncomeLimit: 50
       softExpLimit: 40
       softPointsLimit: 60
+  # Payment for collecting things like sweet berry bush, composter or honey
   Collect:
     sweet_berry_bush-3:
       income: 0.5
@@ -254,13 +255,17 @@ exampleJob:
       income: 2.5
       points: 2.5
       experience: 2.5
+  # Payment for cooking raw foods in camp fire
   Bake:
     beef:
       income: 1.0
       experience: 1.0
+      points: 1.0
     porkchop:
       income: 0.5
       points: 0.4
+      experience: 1.0
+  # Payment for stripping wood logs, only for 1.13+ servers
   StripLogs:
     stripped_acacia_log:
       income: 1.0
@@ -270,204 +275,295 @@ exampleJob:
       income: 1.0
       points: 1.0
       experience: 1.0
+  # Payment for breaking a block with tnt
   TNTBreak:
     log:
       income: 5.0
       points: 5.0
       experience: 5.0
+    oaklog:
+      income: 1.0
+      points: 1.0
+      experience: 1.0
+  # Payment for placing a block
   Place:
+    # You can use list of materials to simplify adding each materials one by one
+    # Remember that you should separate the income, points and exp with ';'
     materials:
     - sapling;1.0;1.0;1.0
     - wood;2.0;1.0
     - stone;0.1
+  # Payment for breaking a block with tnt
   VTrade:
     emerald:
       income: 1.0
       points: 1.0
       experience: 2.0
+    # you can add enchanted book with sub-id
     enchanted_book-12:
       income: 1.0
       experience: 2.0
+      points: 1.0
+  # Payment for killing any type of living entity
   Kill:
     Player:
       income: 7.5
       experience: 7.5
+      points: 1.0
+  # Payment for killing a MythicMob
   MMKill:
     CustomNameHere:
       income: 7.5
       experience: 7.5
+      points: 1.0
+  # Killing player with certain job
   custom-kill:
     Woodcutter:
       income: 10.0
       experience: 10.0
+      points: 1.0
+  # Taming animals
   Tame:
     Wolf:
       income: 2.0
       experience: 5.0
+      points: 1.0
+  # Breeding animals
   Breed:
     Wolf:
       income: 2.0
       experience: 5.0
+      points: 1.0
+  # Eating food
   Eat:
     cooked_rabbit:
       income: 5
       experience: 5
+      points: 1.0
     baked_potato:
       income: 5
       experience: 5
+      points: 1.0
+  # Milking cows
   Milk:
     Cow:
       income: 2.0
       experience: 5.0
+      points: 1.0
     MushroomCow:
       income: 5.0
       experience: 10.0
+      points: 1.0
+  # Shear sheeps by its color
+  # You can use 'color-all' identifier to specify all known colors.
   Shear:
     Black:
       income: 2.0
       experience: 5.0
+      points: 1.0
     Blue:
       income: 2.0
       experience: 5.0
+      points: 1.0
     Brown:
       income: 2.0
       experience: 5.0
+      points: 1.0
     Cyan:
       income: 2.0
       experience: 5.0
+      points: 1.0
     Gray:
       income: 2.0
       experience: 5.0
+      points: 1.0
     Green:
       income: 2.0
       experience: 5.0
+      points: 1.0
     Light_Blue:
       income: 2.0
       experience: 5.0
+      points: 1.0
     Lime:
       income: 2.0
       experience: 5.0
+      points: 1.0
     Magenta:
       income: 2.0
       experience: 5.0
+      points: 1.0
     Orange:
       income: 2.0
       experience: 5.0
+      points: 1.0
     Pink:
       income: 2.0
       experience: 5.0
+      points: 1.0
     Purple:
       income: 2.0
       experience: 5.0
+      points: 1.0
     Red:
       income: 2.0
       experience: 5.0
+      points: 1.0
     Light_Gray:
       income: 2.0
       experience: 5.0
+      points: 1.0
     White:
       income: 2.0
       experience: 5.0
+      points: 1.0
     Yellow:
       income: 2.0
       experience: 5.0
+      points: 1.0
+  # dyeing armor
   Dye:
     leather_boots:
       income: 1.0
       experience: 1.0
+      points: 1.0
     leather_chestplate:
       income: 1.0
       experience: 1.0
+      points: 1.0
     leather_helmet:
       income: 1.0
       experience: 1.0
+      points: 1.0
     leather_leggings:
       income: 1.0
       experience: 1.0
+      points: 1.0
     '351':
       income: 1.0
       experience: 1.0
+  # Catching fish
   Fish:
     raw_fish:
       income: 20.0
       experience: 25.0
+      points: 1.0
+    # If you are using below version 1.13
     legacy_raw_fish:
       income: 20.0
       experience: 25.0
+      points: 1.0
+  # Repairing items
   Repair:
     wood_sword:
       income: 1.0
       experience: 1.0
+      points: 1.0
     iron_sword:
       income: 2.0
       experience: 2.0
+      points: 1.0
+  # Crafting items
   Craft:
     wood_sword:
       income: 1.5
       experience: 3.0
+      points: 1.0
     leather_boots:
       income: 1.0
       experience: 6.0
+      points: 1.0
     '!Healing Bandage':
       income: 1.0
       experience: 6.0
+      points: 1.0
+    # If you add ':' after the tipped_arrow then you can use effect names like in example
     tipped_arrow:slowness:
       income: 3.0
       points: 3.0
+      experience: 1.0
+  # Smelting ores in any type of furnaces
   Smelt:
     iron_ingot:
       income: 2.0
       experience: 8.0
+      points: 1.0
     gold_ingot:
       income: 4.5
       experience: 12
+      points: 1.0
+  # Smelting ores in any type of furnaces
   Enchant:
     wood_sword:
       income: 1.5
       experience: 3.0
+      points: 1.0
     leather_boots:
       income: 1.0
       experience: 6.0
+      points: 1.0
+    # Or/and you can give money for each enchantment they got
     DIG_SPEED-1:
       income: 3.0
       experience: 10.0
+      points: 1.0
     DIG_SPEED-2:
       income: 6.0
       experience: 20.0
+    dig_speed-2:
+      income: 1.0
+      points: 1.0
+      experience: 1.0
+  # Brewing miscellaneous items
   Brew:
     nether_stalk:
       income: 5.0
       experience: 3.0
+      points: 1.0
     redstone:
       income: 5.0
       experience: 3.0
+      points: 1.0
+  # Explore options. Each number represents players number in exploring that chunk
+  # 1 means that player is first in this chunk, 2 is second and so on
+  # so you can give money not only for first player who discovers that chunk
   Explore:
     '1':
       income: 5.0
       experience: 5.0
+      points: 1.0
     '2':
       income: 2.5
       experience: 2.5
+      points: 1.0
     '3':
       income: 1.0
       experience: 1.0
+      points: 1.0
     '4':
       income: 0.5
       experience: 0.5
+      points: 1.0
     '5':
       income: 0.1
       experience: 0.1
+      points: 1.0
+  # permissions granted for joining to a job
   permissions:
+    # example node
+    # Any name can be accepted
     firstNode:
+      # true to give, false to revoke
       value: true
       # The permission node
       permission: aaaaaatest.node
+      # minimum level needed to grant permission. Use 0 for all levels
       level: 0
     secNode:
       value: true
       permission: aaaaaatest.node2
+      # Permission granted when reaching level 10
       level: 10
-  conditions:
     first:
       requires:
       - j:Miner-50
@@ -475,10 +571,31 @@ exampleJob:
       - p:essentials.notnoob
       perform:
       - p:essentials.fly-true
+  # Permissions granted when particular conditions are met
+  conditions:
+    # Condition name, irrelevant, you can write anything in here
+    first:
+      # j marks that player should have particular jobs level and higher
+      requires:
+      - j:Miner-50
+      - j:Digger-50
+      - p:essentials.notnoob
+      # p marks permission, player will get if given true value, if used false, permission will be taken
+      perform:
+      - p:essentials.fly-true
+  # Commands executed when player reached level
   commands:
+    # command name, just to have better idea what this do
     fly:
+      # Command its self, this will be executed from console, so all commands should work
+      # Possible variables are: [player] [jobname] [oldlevel] [newlevel]
       command: manuaddp [player] essentials.fly
+      # When to execute this command first time
+      # Set to 0 if you want to detect all the levels
       levelFrom: 100
+      # Until when to do this command
+      # This can be set to same level as levelFrom, so this command will be executed only once
+      # Set to 0 if you want to detect all the levels
       levelUntil: 100
     kit:
       command:
@@ -486,17 +603,26 @@ exampleJob:
       - msg [player] Now you can use woodcutter kit!
       levelFrom: 150
       levelUntil: 150
+  # World list in which this job will not work. World name should be exact
   world-blacklist:
   - plotworld
   - teamworld
+  # Limit item use to jobs level
   limitedItems:
+    # Just name, don't have any impact
     firstOne:
+      # Tool/Weapon id. Works for any interact action.
       id: 278
+      # Level of this job player can start using this item
       level: 5
+      # (optional) Items name, option to use color codes
       name: '&8Miner Pickaxe'
+      # (optional) Item lore, again can come with color codes
       lore:
       - '&eBobs pick'
       - '&710% bonus XP'
+      # (optional) Item enchantments, all enchantment names can be found https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html
+      # enchant level can increase with jobs level to give best RPG experience
       enchants:
       - DAMAGE_ALL=1
       - FIRE_ASPECT=1
@@ -506,3 +632,15 @@ exampleJob:
   cmd-on-leave:
   - msg [name] You have left this awesome [jobname] job
   - msg [name] See you soon!
+  # Jobs display name used only for visualization in specific parts. Can contain spaces and color codes
+  displayName: '&2--{#cancan}Woodcutter&2--'
+  # Perform specific commands when a player reaches the max level of this job.
+  # Players can have vip max level and this will be performed when they reach the max vip level.
+  # You can use 'player:' or 'console:' prefix tag to perform for specific senders.
+  commands-on-max-level:
+  - msg [playerName] Max level of [job] reached!
+  - player:jobs stats
+  # Turns the 'world-blacklist' list into a whitelist. This essentially means the job only works in the specified worlds.
+  reverse-world-blacklist-functionality: false
+  # Allow a player to '/jobs join' this job even if they have the max jobs permission reached.
+  ignore-jobs-max: false

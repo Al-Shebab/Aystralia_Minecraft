@@ -1,0 +1,310 @@
+Animation: Display
+Material: ENDER_CHEST
+OnlyPlacable: true
+RewardsDontRepeat: true
+Enchanted: true
+Name: '&c&lAystralia &f&lCrate'
+CommandOnCratePlace:
+- cmi broadcast !&b&lCrates &8> &c&l{player_name} &fhas opened an &c&lAystralia &f&lCrate
+MessagesToPlayer:
+- '&b&lCrates &8> &fYou have opened a &c&lAystralia &f&lCrate'
+RewardHologram:
+- '&c&lAystralia &f&lCrate'
+Final_Message: []
+Size: 1
+Lores:
+- '&fThis crate contains'
+- ''
+- '&f[*] &b1x Aystralia Rank'
+- '&f[*] &b1x Sydney Rank'
+- '&f[*] &b1x Melbourne Rank'
+- '&f[*] &b1x Brisbane Rank'
+- '&f[*] &b5x Aystralia Crate'
+- '&f[*] &b5x Money Crate'
+- ''
+- '&f[*] &35x Pet Crate'
+- '&f[*] &330x Vote Crate'
+- '&f[*] &31x [Custom Enchanted] Aystralia Pickaxe'
+- '&f[*] &31x Unlimited Homes'
+- '&f[*] &31x Unlimited Player Vaults'
+- '&f[*] &31x Unlimited Jobs'
+- ''
+- '&f[*] &91x Kit Spawners [Permanant]'
+- '&f[*] &91x Kit Colours [Permanant]'
+- '&f[*] &91x Kit PVP [Permanant]'
+- '&f[*] &91x Kit Concrete [Permanant]'
+- '&f[*] &91x Kit Redstone [Permanant]'
+- '&f[*] &91x Rename Access'
+- '&f[*] &91x Nickname Access'
+- '&f[*] &91x Vote Key All'
+- '&f[*] &91x Kit Beets [Permanant]'
+- ''
+- '&f[*] &210x Tier Hopper [Tier V]'
+- '&f[*] &210x Void Chest'
+- '&f[*] &21x Perth Rank'
+- '&f[*] &21x Global Fly'
+- ''
+- '&fPlace to use'
+- '&fPurchased by &b{player_name}'
+Prizes:
+  a:
+    Material: FEATHER
+    Glow: true
+    Name: '&b&lGlobal &f&lFly'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - cmdi give {player_name} fly
+    Chance: 10
+  b:
+    Material: COAL
+    Glow: true
+    Name: '&b&lPerth &f&lRank'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - cmdi give {player_name} perth
+    Chance: 10
+  c:
+    Material: CHEST
+    Glow: true
+    Name: '&b&lVoidChest &f&lx10'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - voidc give default {player_name} 10
+    Chance: 10
+  d:
+    Material: HOPPER
+    Glow: true
+    Name: '&b&lTier Hopper &f&l[&b&lLevel 5&f&l] &f&lx10'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - jetshopper give {player_name} V 10 5
+    Chance: 7
+  f:
+    Material: BEETROOT
+    Glow: true
+    Name: '&c&lDwight''s &f&lBeets'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - cmdi give {player_name} beets
+    Chance: 6
+  g:
+    Material: TRIPWIRE_HOOK
+    Glow: true
+    Name: '&b&lKey &f&lAll'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - cmdi give {player_name} keyall
+    Chance: 6
+  h:
+    Material: PAPER
+    Glow: true
+    Name: '&b&lNickname &f&lAccess'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - cmdi give {player_name} nick
+    Chance: 4
+  i:
+    Material: ANVIL
+    Glow: true
+    Name: '&b&lRename &f&lAccess'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - cmdi give {player_name} rename
+    Chance: 4
+  k:
+    Material: REDSTONE
+    Glow: true
+    Name: '&b&lRedstone &f&lKit'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - cmdi give {player_name} redstone
+    Chance: 4
+  l:
+    Material: NETHERITE_SWORD
+    Glow: true
+    Name: '&b&lPVP &f&lKit'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - cmdi give {player_name} pvp
+    Chance: 4
+  n:
+    Material: WHITE_SHULKER_BOX
+    Glow: true
+    Name: '&b&ki&f&ki &b&lSpawners &f&ki&b&ki'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - cmi kit spawners {player_name}
+    Chance: 2
+  j:
+    Material: PAPER
+    Glow: true
+    Name: '&b&lUnlimited &f&lJobs'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - cmdi give {player_name} jobs
+    Chance: 3
+  m:
+    Material: CHEST
+    Glow: true
+    Name: '&b&lUnlimited &f&lPlayer Vaults'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - cmdi give {player_name} pvs
+    Chance: 3
+  o:
+    Material: RED_BED
+    Glow: true
+    Name: '&b&lUnlimited &f&lHomes'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - cmdi give {player_name} homes
+    Chance: 3
+  p:
+    Material: NETHERITE_PICKAXE
+    Glow: true
+    Name: '&b&lAystralia &f&lPickaxe &f&l[&b&lCustom Enchanted&f&l]'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - cmi kit aystraliacratepickaxe {player_name}
+    Chance: 3
+  q:
+    Material: CHEST
+    Glow: true
+    Name: '&b&l30x &f&lVote Crates'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - crate give {player_name} VoteCrate 30
+    Chance: 3
+  r:
+    Material: CHEST
+    Glow: true
+    Name: '&b&l5x &f&lPet Crates'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - crate give {player_name} PetCrate 5
+    Chance: 3
+  s:
+    Material: CHEST
+    Glow: true
+    Name: '&b&l5x &f&lMoney Pouch Crates'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - crate give {player_name} MoneyPouchCrate 5
+    Chance: 1
+  t:
+    Material: ENDER_CHEST
+    Glow: true
+    Name: '&c&l5x &f&lAystralia Crates'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - crate give {player_name} AystraliaCrate 5
+    Chance: 1
+  u:
+    Material: IRON_INGOT
+    Glow: true
+    Name: '&c&lBrisbane &f&lRank'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - cmdi give {player_name} brisbane
+    BroadcastMessagesToPlayers:
+    - '&c&l{player_name} &f&ljust won &c&lBrisbane &f&lRank'
+    Chance: 1
+  v:
+    Material: GOLD_INGOT
+    Glow: true
+    Name: '&c&lMelbourne &f&lRank'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - cmdi give {player_name} melbourne
+    BroadcastMessagesToPlayers:
+    - '&c&l{player_name} &f&ljust won &c&lMelbourne &f&lRank'
+    Chance: 1
+  w:
+    Material: DIAMOND
+    Glow: true
+    Name: '&c&lSydney &f&lRank'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - cmdi give {player_name} sydney
+    BroadcastMessagesToPlayers:
+    - '&c&l{player_name} &f&ljust won &c&lSydney &f&lRank'
+    Chance: 0
+  x:
+    Material: NETHERITE_INGOT
+    Glow: true
+    Name: '&c&lAyssie &f&lRank'
+    Enchantments: []
+    Lores: []
+    NBTtags: []
+    GiveConfiguratedItem: false
+    Commands:
+    - cmdi give {player_name} ayssie
+    BroadcastMessagesToPlayers:
+    - '&c&l{player_name} &f&ljust won &c&lAyssie &f&lRank'
+    Chance: 0

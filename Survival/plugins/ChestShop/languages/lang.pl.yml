@@ -1,0 +1,88 @@
+prefix: '&a[Sklep] &r'
+shopinfo: |-
+  &aInformacje o sklepie:
+  &fWÅ‚aÅ›ciciel: &7%owner
+  &fIloÅ›Ä‡: &7%stock
+  &fPrzedmiot: &7%item
+shopinfo_buy: '&fKup &7%amount &fza &7%price'
+shopinfo_sell: '&fSprzedaj &7%amount &fza &7%price'
+iteminfo: 'Â§aInfo. o przedmiocie: Â§r'
+iteminfo_fullname: '&fPeÅ‚na Nazwa: &7%item'
+iteminfo_shopname: '&fNazwa Sklepu: &7%item'
+iteminfo_repaircost: '&fKoszt Naprawy: &7%cost'
+iteminfo_book: |-
+  &fTytuÅ‚ ksiÄ…Å¼ki: &7%title
+  &fAutor ksiÄ…Å¼ki: &7%author
+  &fStrony ksiÄ…Å¼ki: &7%pages
+iteminfo_book_generation: '&fGenerowanie KsiÄ…Å¼ki: &7%generation'
+iteminfo_lore: |-
+  &fOpis:
+  &r%lore
+METRICS: |-
+  &a[Sklep] &fStatystyki:
+  &fLiczba Kont: &7%accounts
+  &fÅšrednie transakcje: &7%totalTransactions &f(Kup: &7%buyTransactions &fSprzedaj: &7%sellTransactions&f)
+  &fÅšrednie wymienione przedmioty: &7%totalItems &f(Kupione: &7%boughtItems &fSprzedane: &7%soldItems&f)
+ACCESS_DENIED: Nie masz uprawnieÅ„ do przeglÄ…dania zawartoÅ›ci tego sklepu!
+TRADE_DENIED: Nie masz pozwolenia, aby handlowaÄ‡ w tym sklepie!
+TRADE_DENIED_ACCESS_PERMS: Nie moÅ¼esz handlowaÄ‡ w sklepach, do ktÃ³rych masz dostÄ™p!
+TRADE_DENIED_CREATIVE_MODE: Nie moÅ¼esz handlowaÄ‡ w sklepach w trybie kreatywnym!
+NOT_ENOUGH_MONEY: Nie staÄ‡ ciÄ™!
+NOT_ENOUGH_MONEY_SHOP: WÅ‚aÅ›ciciel sklepu nie ma wystarczajÄ…co pieniÄ™dzy!
+CLIENT_DEPOSIT_FAILED: WpÅ‚ata pieniÄ™dzy na twoje konto nie powiodÅ‚a siÄ™!
+SHOP_DEPOSIT_FAILED: Wplata pieniÄ™dzy na konto wÅ‚aÅ›ciciela sklepu nie powiodÅ‚a
+  siÄ™!
+NO_ECONOMY_ACCOUNT: Konto ekonomiczne od wÅ‚aÅ›ciciela sklepu nie istnieje!
+NO_BUYING_HERE: Nie moÅ¼esz tutaj kupowaÄ‡!
+NO_SELLING_HERE: Nie moÅ¼esz tutaj sprzedawaÄ‡!
+NOT_ENOUGH_SPACE_IN_INVENTORY: Brak wolnego miejsca w ekwipunku!
+NOT_ENOUGH_SPACE_IN_CHEST: Brak wolnego miejsca w skrzyni!
+NOT_ENOUGH_ITEMS_TO_SELL: Masz za maÅ‚o przedmiotÃ³w, aby je sprzedaÄ‡!
+NOT_ENOUGH_SPACE_IN_YOUR_SHOP: |-
+  [Sklep z %item&7 w cenie %price jest peÅ‚ny!](&f%seller&7 prÃ³bowaÅ‚ sprzedaÄ‡
+  &7W Å›wiecie: &f%world
+  &7Na pozycji: &f%x/%y/%z)
+NOT_ENOUGH_STOCK: Ten sklep jest pusty.
+NOT_ENOUGH_STOCK_IN_YOUR_SHOP: |-
+  [Sklep z %item&7 w cenie %price jest pusty!](&f%buyer&7 prÃ³bowaÅ‚ kupiÄ‡
+  &7W Å›wiecie: &f%world
+  &7Na pozycji: &f%x/%y/%z)
+YOU_BOUGHT_FROM_SHOP: KupiÅ‚eÅ› %item od %owner za %price.
+SOMEBODY_BOUGHT_FROM_YOUR_SHOP: |-
+  [%buyer kupiÅ‚ %item za %price.](&7W Å›wiecie: &f%world
+  &7Na pozycji: &f%x/%y/%z)
+YOU_SOLD_TO_SHOP: SprzedaÅ‚eÅ› %item graczowi %buyer za %price.
+SOMEBODY_SOLD_TO_YOUR_SHOP: |-
+  [%seller sprzedaÅ‚ %item za %price.](&7W Å›wiecie: &f%world
+  &7Na pozycji: &f%x/%y/%z)
+YOU_CANNOT_CREATE_SHOP: Nie moÅ¼esz stworzyÄ‡ sklepu tego typu!
+NO_CHEST_DETECTED: Nie znaleziono skrzyni!
+INVALID_SHOP_DETECTED: Sklep nie moÅ¼e byÄ‡ uÅ¼ywany (byÄ‡ moÅ¼e brakuje skrzyni)!
+INVALID_SHOP_PRICE: ZÅ‚a cena!
+INVALID_SHOP_QUANTITY: Sklep ma podana niewlasciwa ilosc produktu!
+CANNOT_ACCESS_THE_CHEST: Nie masz uprawnieÅ„ dostÄ™pu do tej skrzyni!
+SELL_PRICE_ABOVE_MAX: Cena sprzedaÅ¼y jest wyÅ¼sza niÅ¼ maksymalna!
+SELL_PRICE_BELOW_MIN: Cena sprzedaÅ¼y jest poniÅ¼ej minimum!
+BUY_PRICE_ABOVE_MAX: Cena zakupu jest wyÅ¼sza niÅ¼ maksymalna!
+BUY_PRICE_BELOW_MIN: Cena zakupu jest poniÅ¼ej minimum!
+CLICK_TO_AUTOFILL_ITEM: Kliknij znak z przedmiotem, dla ktÃ³rego przeznaczony jest
+  ten sklep!
+NO_ITEM_IN_HAND: Nie masz w rÄ™ku przedmiotu do automatycznego wypeÅ‚nienia!
+PROTECTED_SHOP: Sklep zostaÅ‚ zabezpieczony przez LWC!
+PROTECTED_SHOP_SIGN: PomyÅ›lnie zabezpieczono znak sklepu z LWC!
+SHOP_CREATED: Sklep zostaÅ‚ pomyÅ›lnie utworzony!
+SHOP_FEE_PAID: 'ZostaÅ‚eÅ› obciÄ…Å¼ony kosztami: " %amount'
+SHOP_REFUNDED: 'ZwrÃ³cono ci: " %amount.'
+ITEM_GIVEN: Dano %item graczowi %player.
+RESTRICTED_SIGN_CREATED: Znak zostaÅ‚ pomyÅ›lnie utworzony!
+PLAYER_NOT_FOUND: Nie znaleziono gracza!
+NO_PERMISSION: Nie masz do tego uprawnieÅ„!
+INCORRECT_ITEM_ID: PodaÅ‚eÅ› niepoprawne ID przedmiotu!
+INVALID_CLIENT_NAME: Twoja nick nie jest poprawnÄ… nazwÄ… uÅ¼ytkownika Minecraft!
+NOT_ENOUGH_PROTECTIONS: Nie moÅ¼na stworzyÄ‡ zabezpieczenia!
+NO_SHOP_FOUND: Nie znaleziono sklepu.
+CANNOT_CREATE_SHOP_HERE: Nie moÅ¼esz stworzyÄ‡ tutaj sklepu!
+TOGGLE_MESSAGES_OFF: Nie bÄ™dziesz juÅ¼ otrzymywaÄ‡ wiadomoÅ›ci ze swoich sklepÃ³w.
+TOGGLE_MESSAGES_ON: Od teraz bÄ™dziesz otrzymywaÅ‚ wiadomoÅ›ci ze swoich sklepÃ³w.
+TOGGLE_ACCESS_ON: Nie moÅ¼esz juÅ¼ handlowaÄ‡ w sklepach, do ktÃ³rych masz dostÄ™p
+TOGGLE_ACCESS_OFF: MoÅ¼esz teraz handlowaÄ‡ w sklepach, do ktÃ³rych masz dostÄ™p

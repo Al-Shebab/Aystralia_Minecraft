@@ -1,0 +1,113 @@
+# Sounds
+
+Round_Animation_Sounds:
+  On_Crate_Place:
+    - "ANVIL_LAND"
+  On_Crate_Place_Volume: 1
+  On_Crate_Place_Pitch: 1
+  On_Lightning_Strike:
+    - "NOTE_PLING"
+  On_Lightning_Strike_Volume: 1
+  On_Lightning_Strike_Pitch: 1
+  While_Spinning:
+    - "CLICK"
+  While_Spinning_Volume: 1
+  While_Spinning_Pitch: 1
+  On_Item_Change:
+    - "BAT_TAKEOFF"
+  On_Item_Change_Volume: 1
+  On_Item_Change_Pitch: 1
+  On_Spinning_Stop:
+    - "EXPLODE"
+  On_Spinning_Stop_Volume: 1
+  On_Spinning_Stop_Pitch: 1
+  On_Crate_Disappear:
+    - "LEVEL_UP"
+  On_Crate_Disappear_Volume: 1
+  On_Crate_Disappear_Pitch: 1
+    
+    
+Display_Animation_Sounds:
+  On_Crate_Place:
+    - "ANVIL_LAND"
+  On_Crate_Place_Volume: 1
+  On_Crate_Place_Pitch: 1
+  On_Item_Change:
+    - "BAT_TAKEOFF"
+  On_Item_Change_Volume: 1
+  On_Item_Change_Pitch: 1
+  On_Spinning_Stop:
+    - "EXPLODE"
+  On_Spinning_Stop_Volume: 1
+  On_Spinning_Stop_Pitch: 1
+  On_Crate_Disappear:
+    - "LEVEL_UP"
+  On_Crate_Disappear_Volume: 1
+  On_Crate_Disappear_Pitch: 1
+    
+    
+Pyramid_Animation_Sounds:
+  On_Crate_Place:
+    - "ANVIL_LAND"
+  On_Crate_Place_Volume: 1
+  On_Crate_Place_Pitch: 1
+  On_Lightning_Strike:
+    - "NOTE_PLING"
+  On_Lightning_Strike_Volume: 1
+  On_Lightning_Strike_Pitch: 1
+  On_Flying_Stop:
+    - "EXPLODE"
+  On_Flying_Stop_Volume: 1
+  On_Flying_Stop_Pitch: 1
+  On_Crate_Disappear:
+  - "LEVEL_UP"
+  On_Crate_Disappear_Volume: 1
+  On_Crate_Disappear_Pitch: 1
+  
+Round2_Animation_Sounds:
+  On_Crate_Place:
+    - "ANVIL_LAND"
+  On_Crate_Place_Volume: 1
+  On_Crate_Place_Pitch: 1
+  While_Spinning:
+    - "CLICK"
+  While_Spinning_Volume: 1
+  While_Spinning_Pitch: 1
+  On_Lightning_Strike:
+    - "NOTE_PLING"
+  On_Lightning_Strike_Volume: 1
+  On_Lightning_Strike_Pitch: 1
+  On_Spinning_Stop:
+    - "EXPLODE"
+  On_Spinning_Stop_Volume: 1
+  On_Spinning_Stop_Pitch: 1
+  On_Crate_Disappear:
+    - "LEVEL_UP"
+  On_Crate_Disappear_Volume: 1
+  On_Crate_Disappear_Pitch: 1
+  
+
+Pouch_Sounds:
+  On_Pouch_Place:
+    - "ANVIL_LAND"
+  On_Pouch_Place_Volume: 1
+  On_Pouch_Place_Pitch: 1
+  On_Lightning_Strike:
+    - "NOTE_PLING"
+  On_Lightning_Strike_Volume: 1
+  On_Lightning_Strike_Pitch: 1
+  On_Pouch_Disappear:
+    - "LEVEL_UP"
+  On_Pouch_Disappear_Volume: 1
+  On_Pouch_Disappear_Pitch: 1
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  

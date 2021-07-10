@@ -1,0 +1,77 @@
+prefix: '&a[Shop] &r'
+shopinfo: |-
+  &aInformaÃ§Ã£o da loja:
+  &fDono: &7%owner
+  &fEstoque: &7%stock
+  &fItem: &7%item
+shopinfo_buy: '&fComprar &7%amount &fpor &7%price'
+shopinfo_sell: '&fVender &7%amount &fpor &7%price'
+iteminfo: '&aInformaÃ§Ã£o do item: &r'
+iteminfo_fullname: '&fNome completo: &7%item'
+iteminfo_shopname: '&fNome para a loja: &7%item'
+iteminfo_repaircost: '&fCusto de reparo: &7%cost'
+iteminfo_book: |-
+  &fTÃ­tulo do livro: &7%title
+  &fAutor do Livro: &7%author
+  &fPÃ¡ginas do Livro: &7%pages
+iteminfo_book_generation: '&fGeraÃ§Ã£o do livro: &7%generation'
+iteminfo_lore: '&fDescriÃ§Ã£o:'
+METRICS: |-
+  &a[Shop] &fMetricas:
+  &fContas: &7%contas
+  &fTransaÃ§Ãµes mÃ©dias: &7%totalTransactions &f(buy: &7%buyTransactions &fsell: &7%sellTransactions&f)
+  &fMÃ©dia dos itens comercializados: &7%totalItems &f(bought: &7%boughtItems &fsold: &7%soldItems&f)
+ACCESS_DENIED: VocÃª nÃ£o tem permissÃ£o para aceder ao baÃº da loja!
+TRADE_DENIED: VocÃª nÃ£o tem permissÃ£o para negociar com essa loja!
+TRADE_DENIED_ACCESS_PERMS: VocÃª nÃ£o pode negociar com lojas Ã s quais vocÃª tem
+  acesso!
+TRADE_DENIED_CREATIVE_MODE: VocÃª nÃ£o pode negociar com lojas enquanto estiver no
+  modo criativo!
+NOT_ENOUGH_MONEY: Saldo insuficiente!
+NOT_ENOUGH_MONEY_SHOP: O dono da loja nÃ£o tem dinheiro suficiente!
+CLIENT_DEPOSIT_FAILED: Falha ao depositar dinheiro na sua conta!
+SHOP_DEPOSIT_FAILED: Falha ao depositar dinheiro na conta do dono do shop!
+NO_ECONOMY_ACCOUNT: A conta econÃ´mica do dono da loja nÃ£o existe!
+NO_BUYING_HERE: Tu nÃ£o podes comprar aqui!
+NO_SELLING_HERE: NÄƒo podes vender aqui!
+NOT_ENOUGH_SPACE_IN_INVENTORY: NÃ£o tens espaÃ§o suficiente no teu inventÃ¡rio!
+NOT_ENOUGH_SPACE_IN_CHEST: NÄƒo tem espaÃ§o suficiente no baÃº!
+NOT_ENOUGH_ITEMS_TO_SELL: NÃ£o tens itens suficientes para vender!
+NOT_ENOUGH_SPACE_IN_YOUR_SHOP: "[%price %item&7 a loja estÃ¡ cheia!](&f%vendedor&7\
+  \ tentou vender\n&7No mundo: &f%world\n&7Nas coordenadas: &f%x/%y/%z) "
+NOT_ENOUGH_STOCK: Este item estÃ¡ esgotado.
+NOT_ENOUGH_STOCK_IN_YOUR_SHOP: Seu %material shop estÃ¡ esgotado!
+YOU_BOUGHT_FROM_SHOP: VocÃª comprou %item do %owner por %price.
+SOMEBODY_BOUGHT_FROM_YOUR_SHOP: '%buyer comprou %item por %price de vocÃª.'
+YOU_SOLD_TO_SHOP: VocÃª vendeu %item para %buyer por %price.
+SOMEBODY_SOLD_TO_YOUR_SHOP: '%seller vendeu %item por %price para vocÃª.'
+YOU_CANNOT_CREATE_SHOP: VocÃª nÃ£o pode criar este tipo de loja!
+NO_CHEST_DETECTED: ImpossÃ­vel encontrar um baÃº!
+INVALID_SHOP_DETECTED: Esta loja nÃ£o pode ser usada!
+INVALID_SHOP_PRICE: A loja tem um preÃ§o invalido!
+INVALID_SHOP_QUANTITY: A loja tem uma quantidade invalida!
+CANNOT_ACCESS_THE_CHEST: Tu nÃ£o tens permissÃ£o para abrir este baÃº!
+SELL_PRICE_ABOVE_MAX: O preÃ§o de venda estÃ¡ acima do mÃ¡ximo permitido!
+SELL_PRICE_BELOW_MIN: O preÃ§o de venda estÃ¡ abaixo do mÃ­nimo permitido!
+BUY_PRICE_ABOVE_MAX: PreÃ§o de compra acima do mÃ¡ximo!
+BUY_PRICE_BELOW_MIN: PreÃ§o de compra abaixo do mÃ­nimo!
+CLICK_TO_AUTOFILL_ITEM: Clique na placa segurando o item a que se destina esta loja!
+NO_ITEM_IN_HAND: VocÃª nÃ£o estÃ¡ segurando um item para preencher automaticamente!
+PROTECTED_SHOP: Shop protegido com LWC com sucesso!
+PROTECTED_SHOP_SIGN: Protegeu com sucesso o letreiro da loja com LWC!
+SHOP_CREATED: Shop criado com sucesso!
+SHOP_FEE_PAID: Vendido por %amount
+SHOP_REFUNDED: Reembolsado por %amount.
+ITEM_GIVEN: Foi dado %item ao %player.
+RESTRICTED_SIGN_CREATED: Placa criada com sucesso!
+PLAYER_NOT_FOUND: Jogador nÃ£o encontrado!
+NO_PERMISSION: Tu nÃ£o tens permissÃ£o para fazer isso!
+INCORRECT_ITEM_ID: O ID do item invÃ¡lido!
+INVALID_CLIENT_NAME: Seu nome de usuÃ¡rio nÃ£o Ã© um nome de usuÃ¡rio vÃ¡lido do Minecraft!
+NOT_ENOUGH_PROTECTIONS: NÃ£o Ã© possÃ­vel criar uma proteÃ§Ã£o!
+NO_SHOP_FOUND: Nenhuma loja encontrada.
+CANNOT_CREATE_SHOP_HERE: NÃ£o podes criar uma loja aqui!
+TOGGLE_MESSAGES_OFF: VocÃª nÃ£o irÃ¡ receber mais mensagens de sua(s) loja(s).
+TOGGLE_MESSAGES_ON: VocÃª agora irÃ¡ receber mensagens de sua(s) loja(s).
+TOGGLE_ACCESS_ON: VocÃª nÃ£o pode mais trocar em lojas Ã s quais vocÃª tem acesso
+TOGGLE_ACCESS_OFF: Agora vocÃª pode trocar em lojas Ã s quais vocÃª tem acesso
