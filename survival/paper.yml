@@ -218,7 +218,6 @@ world-settings:
     viewdistances:
       no-tick-view-distance: 10
     anti-xray:
-      max-block-height: 64
       use-permission: false
       enabled: true
       engine-mode: 2
@@ -265,11 +264,11 @@ world-settings:
       snowball: 16
       ender_pearl: 16
       arrow: 16
+    unsupported-settings:
+      fix-invulnerable-end-crystal-exploit: true
     spawn-limits:
       monsters: -1
       animals: -1
       water-animals: -1
       water-ambient: -1
       ambient: -1
-    unsupported-settings:
-      fix-invulnerable-end-crystal-exploit: true

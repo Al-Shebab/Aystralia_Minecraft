@@ -217,6 +217,3 @@ Gang:
     player:
       Radius: 5
       Amount: 4
-    goat:
-      Radius: 5
-      Amount: 4

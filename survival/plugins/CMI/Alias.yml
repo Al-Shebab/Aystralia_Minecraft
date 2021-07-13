@@ -49,11 +49,6 @@ Alias:
     Enabled: true
     Tab: true
   #  
-  # /cmi anvilrepaircost $1-
-  /anvilrepaircost:
-    Enabled: true
-    Tab: true
-  #  
   # /cmi armorstand $1-
   /armorstand:
     Enabled: true
@@ -442,11 +437,6 @@ Alias:
   # /cmi gamerule $1-
   /gamerule:
     Enabled: true
-    Tab: true
-  #  
-  # /cmi generateworth $1-
-  /generateworth:
-    Enabled: false
     Tab: true
   #  
   # /cmi getbook $1-
@@ -1628,9 +1618,6 @@ Alias:
   #  
   # /cmi warp $1-
   /warp:
-    Enabled: false
-    Tab: true
-  /warps:
     Enabled: false
     Tab: true
   #  

@@ -253,16 +253,12 @@ entities:
   stack-checks:
     AGE: true
     ANIMAL_OWNER: true
-    AXOLOTL_TYPE: true
-    AXOLOTL_PLAYING_DEAD: false
     BAT_AWAKE: false
     CAN_BREED: true
     CAT_COLLAR_COLOR: true
     CAT_TYPE: true
     ENDERMAN_CARRIED_BLOCK: true
     EXACT_AGE: false
-    GLOW_SQUID_DARK_TICKS: false
-    GOAT_SCREAMING: false
     GUARDIAN_ELDER: true
     HORSE_CARRYING_CHEST: true
     HORSE_COLOR: true
@@ -397,8 +393,8 @@ entities:
     # What the toggle command will be?
     command: stacker names entity
 
-  # Should entities can be killed fast by players (No damage-cooldown)?
-  fast-kill: false
+  # Should entities get knockback after they are killed?
+  next-stack-knockback: true
 
   # The default amount entities should get unstacked by.
   # Use the "ENTITY_TYPE:AMOUNT" or "ENTITY_TYPE:SPAWN_CAUSE:AMOUNT"
@@ -460,16 +456,6 @@ entities:
   # Should damage be spread to the next stack?
   # If you deal more damage than the health of the entity, the rest of the damage will be dealt to the next stack.
   spread-damage: true
-
-  # Which transform types should WildStacker listen to?
-  # When an entity is transforming into another entity with one of the following reasons,
-  # the plugin will convert it's data to the new entity.
-  # A list of transform reasons can be find here:
-  # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/EntityTransformEvent.TransformReason.html
-  filtered-transforms:
-  - DROWNED
-  - CURED
-  - PIGLIN_ZOMBIFIED
 
 # Here you can configurable all features related to stacked spawners.
 spawners:
@@ -786,7 +772,6 @@ spawners:
             name: '&bDefault'
             lore:
             - '&cComing soon...'
-  listen-paper-pre-spawn-event: true
 
 # Here you can configurable all features related to stacked barrels (aka stacked blocks).
 barrels:
