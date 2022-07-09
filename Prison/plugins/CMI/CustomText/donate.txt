@@ -1,2 +1,0 @@
-<AutoPage><AutoAlias><ReqPermission>
-&f&lClick this link! &bhttps://aystralia.tebex.io/
